@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<title>Franks Training</title>
+<style>
+:root{
+  --bg:#0f1115; --card:#1a1e26; --card2:#232936; --text:#e8eaf0; --muted:#9aa3b5;
+  --accent:#4f8ef7; --green:#3ecf8e; --amber:#f7b84f; --red:#f75f4f; --border:#2c3342;
+}
+*{box-sizing:border-box; -webkit-tap-highlight-color:transparent}
+body{margin:0; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+  background:var(--bg); color:var(--text); font-size:16px; line-height:1.45; padding-bottom:90px}
+.wrap{max-width:640px; margin:0 auto; padding:12px}
+h1{font-size:1.15rem; margin:0}
+h2{font-size:1.0rem; margin:0 0 8px; color:var(--accent); text-transform:uppercase; letter-spacing:.05em}
+.card{background:var(--card); border:1px solid var(--border); border-radius:14px; padding:14px; margin-bottom:14px}
+.muted{color:var(--muted); font-size:.88rem}
+.small{font-size:.82rem}
+button{font:inherit; border:none; border-radius:10px; padding:10px 16px; cursor:pointer;
+  background:var(--accent); color:#fff; font-weight:600}
+button.secondary{background:var(--card2); color:var(--text); border:1px solid var(--border)}
+button.ghost{background:none; color:var(--accent); padding:6px 10px}
+button:disabled{opacity:.45}
+input,textarea,select{font:inherit; background:var(--card2); color:var(--text);
+  border:1px solid var(--border); border-radius:8px; padding:8px 10px; width:100%}
+input[type=date]{width:auto}
+label{display:block; font-size:.82rem; color:var(--muted); margin:10px 0 4px}
+.row{display:flex; gap:8px; align-items:center; flex-wrap:wrap}
+.spread{justify-content:space-between}
+.pill{display:inline-block; background:var(--card2); border:1px solid var(--border);
+  border-radius:999px; padding:3px 12px; font-size:.82rem; color:var(--muted)}
+.pill.on{background:var(--accent); color:#fff; border-color:var(--accent)}
+a{color:var(--accent)}
+/* Tabs */
+.tabs{display:flex; gap:6px; margin:12px 0}
+.tabs button{flex:1; padding:9px 4px; font-size:.85rem; background:var(--card2); color:var(--muted);
+  border:1px solid var(--border)}
+.tabs button.active{background:var(--accent); color:#fff; border-color:var(--accent)}
+/* Equipment */
+.equip li{margin-bottom:6px}
+ul{padding-left:20px; margin:6px 0}
+/* Timer */
+#timerBig{font-size:5.2rem; font-weight:800; text-align:center; font-variant-numeric:tabular-nums; line-height:1.1}
+#timerName{font-size:1.5rem; font-weight:700; text-align:center; min-height:2.2em}
+#timerNext{text-align:center; min-height:1.4em}
+#timerPhase{text-align:center; font-weight:700; letter-spacing:.15em; text-transform:uppercase; font-size:.85rem}
+.phase-work{color:var(--green)} .phase-pause{color:var(--amber)} .phase-done{color:var(--accent)}
+.progressbar{height:8px; background:var(--card2); border-radius:4px; overflow:hidden; margin:12px 0}
+.progressbar>div{height:100%; background:var(--green); width:0%; transition:width .3s linear}
+.timerbtns{display:flex; gap:10px; justify-content:center; margin-top:14px}
+.wu-list li.done{color:var(--muted); text-decoration:line-through}
+.wu-list li.current{color:var(--green); font-weight:700}
+/* Exercise cards */
+.excard{background:var(--card2); border:1px solid var(--border); border-radius:12px; padding:12px; margin-bottom:12px}
+.excode{display:inline-block; background:var(--accent); color:#fff; border-radius:8px;
+  padding:2px 9px; font-weight:800; margin-right:8px}
+.extarget{color:var(--green); font-weight:700}
+.exres{color:var(--amber); font-weight:600}
+details summary{cursor:pointer; color:var(--muted); font-size:.85rem; margin:6px 0}
+details p{font-size:.88rem; margin:6px 0}
+.setrow{display:flex; gap:6px; margin-top:8px; align-items:center; flex-wrap:wrap}
+.setrow input{width:74px; text-align:center; font-size:1.05rem; padding:10px 4px}
+.setrow .setlabel{font-size:.78rem; color:var(--muted); width:100%}
+/* Save bar */
+#savebar{position:fixed; bottom:0; left:0; right:0; background:rgba(20,23,30,.97);
+  border-top:1px solid var(--border); padding:10px; z-index:50}
+#savebar .wrap{display:flex; gap:10px; align-items:center; padding:0 12px}
+#saveStatus{flex:1; font-size:.8rem; color:var(--muted)}
+.ok{color:var(--green)} .warn{color:var(--amber)} .err{color:var(--red)}
+dialog{background:var(--card); color:var(--text); border:1px solid var(--border);
+  border-radius:14px; max-width:560px; width:92%; padding:18px}
+dialog::backdrop{background:rgba(0,0,0,.6)}
+.hidden{display:none!important}
+.notice{background:#2a2410; border:1px solid #5c4d1a; color:#f2d98c; border-radius:10px;
+  padding:10px 12px; font-size:.85rem; margin-bottom:12px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="row spread" style="margin-bottom:8px">
+    <h1>🏋️ Franks Training</h1>
+    <button class="ghost" id="btnSettings" title="Einstellungen">⚙️</button>
+  </div>
+
+  <div class="card" id="dateCard">
+    <div class="row spread">
+      <div>
+        <input type="date" id="datePick">
+        <div class="muted small" id="planDate"></div>
+      </div>
+      <div style="text-align:right">
+        <div id="sessionLabel" style="font-weight:800; font-size:1.2rem"></div>
+        <div class="muted small" id="progressionHint"></div>
+      </div>
+    </div>
+    <div id="noSession" class="hidden" style="margin-top:10px">
+      <div class="muted" id="noSessionMsg"></div>
+      <div class="row" style="margin-top:8px">
+        <button class="secondary" id="btnPrevSession">← vorherige Einheit</button>
+        <button class="secondary" id="btnNextSession">nächste Einheit →</button>
+      </div>
+      <div class="muted small" style="margin-top:8px">Trainingspause gehabt? Unter ⚙️ kannst du den Planstart verschieben – der ganze Plan rückt dann entsprechend.</div>
+    </div>
+  </div>
+
+  <div class="tabs" id="tabs">
+    <button data-tab="prep" class="active">1 · Vorbereiten</button>
+    <button data-tab="warmup">2 · Warm-up</button>
+    <button data-tab="train">3 · Training</button>
+    <button data-tab="finish">4 · Abschluss</button>
+  </div>
+
+  <!-- ===== TAB 1: Vorbereitung ===== -->
+  <section id="tab-prep">
+    <div class="card">
+      <h2>Heute bereitlegen</h2>
+      <div id="equipList"></div>
+      <div class="muted small" id="rulesLine" style="margin-top:10px"></div>
+    </div>
+  </section>
+
+  <!-- ===== TAB 2: Warm-up ===== -->
+  <section id="tab-warmup" class="hidden">
+    <div class="card">
+      <h2>Warm-up</h2>
+      <div id="timerPhase">&nbsp;</div>
+      <div id="timerName">Bereit?</div>
+      <div id="timerBig">30</div>
+      <div class="progressbar"><div id="timerFill"></div></div>
+      <div id="timerNext" class="muted small"></div>
+      <div class="timerbtns">
+        <button id="btnTimerStart">▶︎ Start</button>
+        <button class="secondary" id="btnTimerPause" disabled>⏸ Pause</button>
+        <button class="secondary" id="btnTimerSkip" disabled>⏭ Weiter</button>
+        <button class="secondary" id="btnTimerReset">↺</button>
+      </div>
+      <div class="muted small" style="text-align:center; margin-top:8px">30&thinsp;s pro Übung (Seiten einzeln) · 5&thinsp;s Pause · Ton am Ende</div>
+    </div>
+    <div class="card">
+      <h2>Ablauf</h2>
+      <ol class="wu-list" id="warmupList"></ol>
+    </div>
+  </section>
+
+  <!-- ===== TAB 3: Training ===== -->
+  <section id="tab-train" class="hidden">
+    <div id="blocksHost"></div>
+  </section>
+
+  <!-- ===== TAB 4: Abschluss ===== -->
+  <section id="tab-finish" class="hidden">
+    <div class="card" id="finishCard"></div>
+    <div class="card">
+      <h2>Notiz zur Einheit</h2>
+      <textarea id="sessionNote" rows="3" placeholder="Schulter? Handgelenk? Energie? Besonderheiten…"></textarea>
+    </div>
+  </section>
+</div>
+
+<!-- Save bar -->
+<div id="savebar">
+  <div class="wrap">
+    <span id="saveStatus">–</span>
+    <button class="secondary" id="btnExport" title="Backup als Datei herunterladen">⬇︎</button>
+    <button id="btnSave">💾 In GitHub speichern</button>
+  </div>
+</div>
+
+<!-- Settings dialog -->
+<dialog id="dlgSettings">
+  <h2 style="margin-top:0">Einstellungen</h2>
+  <label>GitHub Benutzername (Owner)</label>
+  <input id="cfgOwner" placeholder="z.B. frankb">
+  <label>Repository-Name</label>
+  <input id="cfgRepo" placeholder="z.B. fitness-app">
+  <label>Branch</label>
+  <input id="cfgBranch" value="main">
+  <label>Fine-grained Personal Access Token (nur Contents: Read/Write für dieses Repo)</label>
+  <input id="cfgToken" type="password" placeholder="github_pat_…">
+  <div class="muted small">Der Token wird nur lokal in diesem Browser gespeichert (localStorage) und direkt an api.github.com gesendet.</div>
+  <label>Montag der Plan-Woche 12 (Planstart verschieben, z.B. nach Reisepause)</label>
+  <input type="date" id="cfgWeek12">
+  <div class="row" style="margin-top:16px">
+    <button id="btnCfgSave">Speichern</button>
+    <button class="secondary" id="btnCfgTest">Verbindung testen</button>
+    <button class="secondary" id="btnCfgClose">Schließen</button>
+  </div>
+  <div id="cfgStatus" class="small" style="margin-top:8px"></div>
+</dialog>
+
+<script>
+"use strict";
+/* ================= Konfiguration & Zustand ================= */
+const LS = {
+  cfg: "ffp_cfg", draft: d => "ffp_draft_" + d,
+};
+let PLAN = null;          // plan.json
+let LOGS = {};            // { "YYYY-MM-DD": entry } aus GitHub
+let logsSha = null;       // sha von data/logs.json für Updates
+let currentDate = todayISO();
+let currentSession = null;
+let dirty = false;
+
+const $ = s => document.querySelector(s);
+function todayISO(){ const d = new Date(); return d.toISOString().slice(0,10); }
+function cfg(){ try{ return JSON.parse(localStorage.getItem(LS.cfg)||"{}"); }catch(e){ return {}; } }
+function saveCfg(c){ localStorage.setItem(LS.cfg, JSON.stringify(c)); }
+
+/* ================= Datum -> Session ================= */
+const DAY_MAP = {2:"Di", 4:"Do", 6:"Sa"};  // JS getDay(): Di=2, Do=4, Sa=6
+function week12Monday(){
+  return cfg().week12Monday || (PLAN ? PLAN.meta.week12Monday : "2026-07-13");
+}
+function sessionForDate(iso){
+  const d = new Date(iso + "T12:00:00");
+  const start = new Date(week12Monday() + "T12:00:00");
+  const week = 12 + Math.floor((d - start) / (7*24*3600*1000));
+  const day = DAY_MAP[d.getDay()];
+  if(!day) return {week, day:null, session:null};
+  const s = PLAN.sessions.find(x => x.week === week && x.day === day) || null;
+  return {week, day, session:s};
+}
+function dateForSession(week, day){
+  const start = new Date(week12Monday() + "T12:00:00");
+  const offs = {Di:1, Do:3, Sa:5};
+  const d = new Date(start.getTime() + ((week-12)*7 + offs[day]) * 24*3600*1000);
+  return d.toISOString().slice(0,10);
+}
+function neighborSession(iso, dir){
+  // Nächste/vorherige geplante Einheit relativ zum Datum
+  const all = PLAN.sessions.map(s => ({s, date:dateForSession(s.week, s.day)}))
+    .sort((a,b) => a.date.localeCompare(b.date));
+  if(dir > 0) return all.find(x => x.date > iso) || all[all.length-1];
+  const before = all.filter(x => x.date < iso);
+  return before[before.length-1] || all[0];
+}
+
+/* ================= Rendering ================= */
+function fmtDateDE(iso){
+  return new Date(iso+"T12:00:00").toLocaleDateString("de-DE",
+    {weekday:"long", day:"2-digit", month:"2-digit", year:"numeric"});
+}
+function render(){
+  const {week, day, session} = sessionForDate(currentDate);
+  currentSession = session;
+  $("#planDate").textContent = fmtDateDE(currentDate);
+  $("#noSession").classList.toggle("hidden", !!session);
+  if(!session){
+    $("#sessionLabel").textContent = "Kein Training";
+    $("#progressionHint").textContent = "";
+    let msg = day
+      ? `Für ${day} in Woche ${week} liegt kein Plan vor (Plan umfasst W12–15).`
+      : `${fmtDateDE(currentDate).split(",")[0]} ist kein Trainingstag (Di/Do/Sa).`;
+    const nx = neighborSession(currentDate, +1);
+    msg += ` Nächste Einheit: ${nx.s.day} ${fmtDateDE(nx.date)} (W${nx.s.week}).`;
+    $("#noSessionMsg").textContent = msg;
+    ["equipList","warmupList","blocksHost","finishCard"].forEach(id => $("#"+id).innerHTML = "");
+    return;
+  }
+  $("#sessionLabel").textContent = `${session.day} · Woche ${session.week}`;
+  $("#progressionHint").textContent = (PLAN.progression["W"+session.week]||"").split(".")[0];
+  renderEquip(session); renderWarmup(session); renderBlocks(session); renderFinish(session);
+  loadDraftIntoForm();
+  updateSaveStatus();
+}
+function renderEquip(s){
+  const host = $("#equipList"); host.innerHTML = "";
+  const icons = {Kurzhanteln:"🏋️", Langhantel:"➖", Kettlebell:"🔔", "Bänder":"🎗️", Sonstiges:"📦"};
+  s.equipment.forEach(e => {
+    const div = document.createElement("div");
+    div.innerHTML = `<div style="font-weight:700; margin-top:8px">${icons[e["gerät"]]||""} ${e["gerät"]}</div>
+      <ul class="equip">${e.items.map(i => `<li>${esc(i)}</li>`).join("")}</ul>`;
+    host.appendChild(div);
+  });
+  const extra = [];
+  if(s.day==="Do") extra.push("Langhantel-Tag: Scheiben für den RDL zwischen Block 1 und 2 ergänzen – einzige Umbau-Aktion.");
+  else extra.push("Kurzhantel-Tag: beide Hanteln tragen die ganze Einheit DIESELBE Last – kein Umstecken.");
+  extra.push("Kettlebell pro Einheit auf EINER Einstellung lassen.");
+  host.insertAdjacentHTML("beforeend",
+    `<div class="notice">${extra.map(esc).join("<br>")}</div>`);
+  $("#rulesLine").textContent = PLAN.meta.rules;
+}
+function renderWarmup(s){
+  const ol = $("#warmupList"); ol.innerHTML = "";
+  buildTimerQueue(s).forEach((seg,i) => {
+    if(seg.type!=="work") return;
+    const li = document.createElement("li");
+    li.dataset.qi = i;
+    li.innerHTML = `${esc(seg.label)} <span class="muted small">${seg.seconds}s${seg.note ? " · "+esc(seg.note):""}</span>`;
+    ol.appendChild(li);
+  });
+  resetTimer();
+}
+function renderBlocks(s){
+  const host = $("#blocksHost"); host.innerHTML = "";
+  s.blocks.forEach(b => {
+    const card = document.createElement("div");
+    card.className = "card";
+    card.innerHTML = `<h2>${esc(b.block)} <span class="muted small" style="text-transform:none">${esc(b.pause||"")}</span></h2>`;
+    if(b.note) card.insertAdjacentHTML("beforeend", `<div class="muted small" style="margin-bottom:8px">${esc(b.note)}</div>`);
+    b.exercises.forEach(ex => card.appendChild(exCard(ex)));
+    host.appendChild(card);
+  });
+}
+function exCard(ex){
+  const d = document.createElement("div");
+  d.className = "excard";
+  const side = ex.perSide ? "/Seite" : "";
+  const last = lastResult(ex.code, currentSession.day, currentSession.week);
+  d.innerHTML = `
+    <div><span class="excode">${ex.code}</span><b>${esc(ex.name)}</b></div>
+    <div style="margin-top:4px">Ziel: <span class="extarget">${ex.sets}×${esc(ex.targetReps)}${side}</span>
+      &nbsp;·&nbsp; <span class="exres">${esc(ex.resistance)}</span></div>
+    ${ex.video ? `<div style="margin-top:4px">▶ <a href="${ex.video}" target="_blank" rel="noopener">Video ansehen</a>
+      ${ex.videoNote?`<span class="muted small"> (${esc(ex.videoNote)})</span>`:""}</div>` : ""}
+    ${ex.description ? `<details><summary>Ausführung</summary><p>${esc(ex.description)}</p></details>` : ""}
+    ${last ? `<div class="muted small">Letztes Mal (${last.date}): ${esc(last.reps.filter(Boolean).join(" · "))}${last.note?" — "+esc(last.note):""}</div>` : ""}
+    <div class="setrow" data-code="${ex.code}">
+      <span class="setlabel">Reps pro Runde${ex.perSide ? ' (bei „je Seite“ z.B. „8/8“)' : ""}:</span>
+      ${Array.from({length: ex.sets||3}, (_,i) =>
+        `<input inputmode="numeric" data-set="${i}" placeholder="R${i+1}">`).join("")}
+      <input data-note="1" placeholder="Notiz (optional)" style="flex:1; min-width:130px; text-align:left">
+    </div>`;
+  d.querySelectorAll("input").forEach(inp => inp.addEventListener("input", onFormInput));
+  return d;
+}
+function renderFinish(s){
+  const c = $("#finishCard");
+  let html = "<h2>Finisher</h2>";
+  if(s.finish) html += `<p>${esc(s.finish.text)}</p><p class="muted small">${esc(s.finish.resistance||"")}</p>`;
+  if(s.optional) html += `<p class="muted"><b>Optional:</b> ${esc(s.optional.text)}</p>`;
+  c.innerHTML = html;
+}
+function esc(t){ const d=document.createElement("div"); d.textContent=t||""; return d.innerHTML; }
+
+/* ================= Eingaben / Draft ================= */
+function collectEntry(){
+  const entries = {};
+  document.querySelectorAll(".setrow").forEach(rowEl => {
+    const code = rowEl.dataset.code;
+    const reps = [...rowEl.querySelectorAll("input[data-set]")].map(i => i.value.trim());
+    const note = rowEl.querySelector("input[data-note]").value.trim();
+    if(reps.some(Boolean) || note){
+      const ex = currentSession.blocks.flatMap(b=>b.exercises).find(e=>e.code===code);
+      entries[code] = {name:ex.name, target:`${ex.sets}x${ex.targetReps}${ex.perSide?"/Seite":""}`,
+                       resistance:ex.resistance, reps, note};
+    }
+  });
+  return {date:currentDate, week:currentSession.week, day:currentSession.day,
+          entries, sessionNote:$("#sessionNote").value.trim(), savedAt:new Date().toISOString()};
+}
+function onFormInput(){
+  dirty = true;
+  if(!currentSession) return;
+  localStorage.setItem(LS.draft(currentDate), JSON.stringify(collectEntry()));
+  updateSaveStatus();
+}
+function loadDraftIntoForm(){
+  const saved = LOGS[currentDate];
+  let data = null;
+  const draft = localStorage.getItem(LS.draft(currentDate));
+  if(draft){ try{ data = JSON.parse(draft); }catch(e){} }
+  if(!data && saved) data = saved;
+  $("#sessionNote").value = data?.sessionNote || "";
+  if(!data) return;
+  Object.entries(data.entries||{}).forEach(([code, e]) => {
+    const rowEl = document.querySelector(`.setrow[data-code="${code}"]`);
+    if(!rowEl) return;
+    rowEl.querySelectorAll("input[data-set]").forEach((inp,i)=> inp.value = e.reps?.[i]||"");
+    rowEl.querySelector("input[data-note]").value = e.note||"";
+  });
+}
+function lastResult(code, day, week){
+  const dates = Object.keys(LOGS).filter(d => d < currentDate &&
+    LOGS[d].day === day && LOGS[d].entries?.[code]).sort();
+  if(!dates.length) return null;
+  const d = dates[dates.length-1];
+  return {date:d, reps:LOGS[d].entries[code].reps||[], note:LOGS[d].entries[code].note||""};
+}
+
+/* ================= GitHub Sync ================= */
+const LOGS_PATH = "data/logs.json";
+function ghHeaders(withAuth){
+  const h = {"Accept":"application/vnd.github+json", "X-GitHub-Api-Version":"2022-11-28"};
+  if(withAuth && cfg().token) h["Authorization"] = "Bearer " + cfg().token;
+  return h;
+}
+function ghUrl(){
+  const c = cfg();
+  return `https://api.github.com/repos/${c.owner}/${c.repo}/contents/${LOGS_PATH}?ref=${c.branch||"main"}`;
+}
+async function loadLogs(){
+  const c = cfg();
+  if(!c.owner || !c.repo){ setStatus("⚙️ GitHub noch nicht konfiguriert – Daten nur lokal.", "warn"); return; }
+  try{
+    const r = await fetch(ghUrl(), {headers: ghHeaders(true), cache:"no-store"});
+    if(r.status === 404){ LOGS = {}; logsSha = null; setStatus("Noch keine Logs im Repo (wird beim ersten Speichern angelegt).", "warn"); return; }
+    if(!r.ok) throw new Error("HTTP " + r.status);
+    const j = await r.json();
+    logsSha = j.sha;
+    LOGS = JSON.parse(decodeURIComponent(escape(atob(j.content.replace(/\n/g,""))))).logs || {};
+    setStatus(`Logs geladen (${Object.keys(LOGS).length} Einheiten).`, "ok");
+  }catch(e){ setStatus("Logs konnten nicht geladen werden: " + e.message, "err"); }
+}
+async function saveToGitHub(){
+  const c = cfg();
+  if(!c.owner || !c.repo || !c.token){ openSettings(); setStatus("Bitte erst GitHub-Zugang unter ⚙️ eintragen.", "err"); return; }
+  if(!currentSession){ setStatus("Keine Einheit für dieses Datum.", "err"); return; }
+  const entry = collectEntry();
+  if(!Object.keys(entry.entries).length && !entry.sessionNote){ setStatus("Nichts einzutragen.", "warn"); return; }
+  $("#btnSave").disabled = true;
+  try{
+    // Frischen Stand + sha holen (vermeidet Konflikte)
+    const r0 = await fetch(ghUrl(), {headers: ghHeaders(true), cache:"no-store"});
+    if(r0.ok){
+      const j0 = await r0.json();
+      logsSha = j0.sha;
+      LOGS = JSON.parse(decodeURIComponent(escape(atob(j0.content.replace(/\n/g,""))))).logs || {};
+    } else if(r0.status !== 404){ throw new Error("Lesen fehlgeschlagen: HTTP " + r0.status); }
+    LOGS[currentDate] = entry;
+    const body = {
+      message: `Training ${currentDate} (${entry.day} W${entry.week})`,
+      branch: c.branch || "main",
+      content: btoa(unescape(encodeURIComponent(JSON.stringify({logs:LOGS}, null, 1)))),
+    };
+    if(logsSha) body.sha = logsSha;
+    const r = await fetch(ghUrl().split("?")[0], {method:"PUT", headers:ghHeaders(true), body:JSON.stringify(body)});
+    if(!r.ok){ const t = await r.text(); throw new Error("HTTP " + r.status + " – " + t.slice(0,120)); }
+    const j = await r.json();
+    logsSha = j.content.sha;
+    dirty = false;
+    localStorage.removeItem(LS.draft(currentDate));
+    setStatus(`✓ Gespeichert um ${new Date().toLocaleTimeString("de-DE")} (Commit ${j.commit.sha.slice(0,7)}).`, "ok");
+    render();
+  }catch(e){
+    setStatus("Speichern fehlgeschlagen: " + e.message + " – Eingaben bleiben lokal erhalten.", "err");
+  }finally{ $("#btnSave").disabled = false; }
+}
+function exportBackup(){
+  const entry = currentSession ? collectEntry() : {};
+  const all = {logs: {...LOGS, ...(currentSession ? {[currentDate]:entry} : {})}};
+  const blob = new Blob([JSON.stringify(all, null, 1)], {type:"application/json"});
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(blob);
+  a.download = `training-logs-${todayISO()}.json`;
+  a.click();
+}
+function setStatus(msg, cls){
+  const el = $("#saveStatus"); el.textContent = msg; el.className = cls||"";
+}
+function updateSaveStatus(){
+  if(dirty) setStatus("Ungespeicherte Eingaben (lokal zwischengespeichert).", "warn");
+}
+
+/* ================= Warm-up Timer ================= */
+let audioCtx = null;
+function beep(freq, dur, when, vol){
+  const t = audioCtx.currentTime + (when||0);
+  const o = audioCtx.createOscillator(), g = audioCtx.createGain();
+  o.type = "square"; o.frequency.value = freq;
+  g.gain.setValueAtTime(vol??0.6, t);
+  g.gain.exponentialRampToValueAtTime(0.001, t + dur);
+  o.connect(g).connect(audioCtx.destination);
+  o.start(t); o.stop(t + dur + .05);
+}
+function soundEnd(){ beep(880,.25,0); beep(880,.25,.35); beep(1320,.5,.7); }   // Übung fertig
+function soundGo(){ beep(660,.4,0); }                                           // Nächste Übung los
+function soundTick(){ beep(440,.09,0,.35); }                                    // Countdown 3-2-1
+function soundAllDone(){ [0,.25,.5,.75].forEach((w,i)=>beep(660+i*220,.3,w)); }
+
+function buildTimerQueue(s){
+  const q = [{type:"lead", label:"Bereit machen", seconds:5}];
+  s.warmup.forEach((w,i) => {
+    const sides = w.perSide ? [" – links"," – rechts"] : [""];
+    sides.forEach((suffix,si) => {
+      q.push({type:"work", label:w.name + suffix, seconds:w.seconds, note:w.note});
+      q.push({type:"pause", label:"Pause", seconds:5});
+    });
+  });
+  q.pop(); // letzte Pause entfernen
+  return q;
+}
+let TQ = [], tqIdx = -1, tRemain = 0, tTotal = 0, tInterval = null, paused = false, wakeLock = null;
+function resetTimer(){
+  clearInterval(tInterval); tInterval = null; tqIdx = -1; paused = false;
+  TQ = currentSession ? buildTimerQueue(currentSession) : [];
+  $("#timerPhase").textContent = " "; $("#timerPhase").className = "";
+  $("#timerName").textContent = "Bereit?";
+  $("#timerBig").textContent = TQ.find(x=>x.type==="work")?.seconds ?? 30;
+  $("#timerFill").style.width = "0%";
+  $("#timerNext").textContent = "";
+  $("#btnTimerStart").disabled = false;
+  $("#btnTimerPause").disabled = true; $("#btnTimerPause").textContent = "⏸ Pause";
+  $("#btnTimerSkip").disabled = true;
+  document.querySelectorAll(".wu-list li").forEach(li => li.className = "");
+  if(wakeLock){ wakeLock.release().catch(()=>{}); wakeLock = null; }
+}
+async function startTimer(){
+  if(!currentSession) return;
+  if(!audioCtx) audioCtx = new (window.AudioContext||window.webkitAudioContext)();
+  audioCtx.resume();
+  try{ if("wakeLock" in navigator) wakeLock = await navigator.wakeLock.request("screen"); }catch(e){}
+  $("#btnTimerStart").disabled = true;
+  $("#btnTimerPause").disabled = false;
+  $("#btnTimerSkip").disabled = false;
+  nextSegment();
+  tInterval = setInterval(tick, 250);
+}
+let lastWhole = null;
+function nextSegment(){
+  tqIdx++;
+  if(tqIdx >= TQ.length){ finishTimer(); return; }
+  const seg = TQ[tqIdx];
+  tRemain = tTotal = seg.seconds; lastWhole = null;
+  const phaseEl = $("#timerPhase");
+  if(seg.type === "work"){
+    phaseEl.textContent = "ÜBUNG"; phaseEl.className = "phase-work"; soundGo();
+  } else {
+    phaseEl.textContent = seg.type === "lead" ? "GLEICH GEHT'S LOS" : "PAUSE";
+    phaseEl.className = "phase-pause";
+  }
+  $("#timerName").textContent = seg.type === "work" ? seg.label : seg.label;
+  const nextWork = TQ.slice(tqIdx+1).find(x => x.type === "work");
+  $("#timerNext").textContent = nextWork ? "Danach: " + nextWork.label : "Letzte Übung!";
+  document.querySelectorAll(".wu-list li").forEach(li => {
+    const qi = +li.dataset.qi;
+    li.className = qi < tqIdx ? "done" : (qi === tqIdx ? "current" : "");
+  });
+}
+function tick(){
+  if(paused) return;
+  tRemain -= 0.25;
+  const whole = Math.ceil(tRemain);
+  $("#timerBig").textContent = Math.max(0, whole);
+  $("#timerFill").style.width = (100 * (1 - tRemain/tTotal)) + "%";
+  if(whole !== lastWhole){
+    lastWhole = whole;
+    if(whole <= 3 && whole >= 1) soundTick();
+  }
+  if(tRemain <= 0){
+    if(TQ[tqIdx].type === "work") soundEnd();
+    nextSegment();
+  }
+}
+function finishTimer(){
+  clearInterval(tInterval); tInterval = null;
+  soundAllDone();
+  $("#timerPhase").textContent = "FERTIG"; $("#timerPhase").className = "phase-done";
+  $("#timerName").textContent = "Warm-up geschafft! → Training";
+  $("#timerBig").textContent = "✓";
+  $("#timerFill").style.width = "100%";
+  $("#timerNext").textContent = "";
+  $("#btnTimerPause").disabled = true; $("#btnTimerSkip").disabled = true;
+  document.querySelectorAll(".wu-list li").forEach(li => li.className = "done");
+  if(wakeLock){ wakeLock.release().catch(()=>{}); wakeLock = null; }
+}
+
+/* ================= Settings ================= */
+function openSettings(){
+  const c = cfg();
+  $("#cfgOwner").value = c.owner||""; $("#cfgRepo").value = c.repo||"";
+  $("#cfgBranch").value = c.branch||"main"; $("#cfgToken").value = c.token||"";
+  $("#cfgWeek12").value = c.week12Monday || (PLAN?PLAN.meta.week12Monday:"2026-07-13");
+  $("#cfgStatus").textContent = "";
+  $("#dlgSettings").showModal();
+}
+async function testConnection(){
+  const el = $("#cfgStatus");
+  el.textContent = "Teste…"; el.className = "small";
+  const o = $("#cfgOwner").value.trim(), r = $("#cfgRepo").value.trim(), t = $("#cfgToken").value.trim();
+  try{
+    const resp = await fetch(`https://api.github.com/repos/${o}/${r}`,
+      {headers: t ? {"Authorization":"Bearer "+t} : {}});
+    if(!resp.ok) throw new Error("HTTP " + resp.status);
+    const j = await resp.json();
+    el.textContent = `✓ Repo gefunden: ${j.full_name}${j.permissions?.push ? " (Schreibrechte OK)" : t ? " – ⚠️ KEINE Schreibrechte mit diesem Token!" : ""}`;
+    el.className = "small ok";
+  }catch(e){ el.textContent = "✗ " + e.message; el.className = "small err"; }
+}
+
+/* ================= Init ================= */
+async function init(){
+  $("#datePick").value = currentDate;
+  try{
+    const r = await fetch("plan.json", {cache:"no-store"});
+    PLAN = await r.json();
+  }catch(e){
+    document.body.innerHTML = "<div class='wrap'><div class='card err'>plan.json konnte nicht geladen werden. Liegt die Datei neben index.html?</div></div>";
+    return;
+  }
+  await loadLogs();
+  render();
+
+  $("#datePick").addEventListener("change", e => { currentDate = e.target.value; render(); });
+  $("#btnPrevSession").addEventListener("click", () => {
+    const n = neighborSession(currentDate, -1); currentDate = n.date; $("#datePick").value = n.date; render(); });
+  $("#btnNextSession").addEventListener("click", () => {
+    const n = neighborSession(currentDate, +1); currentDate = n.date; $("#datePick").value = n.date; render(); });
+  document.querySelectorAll("#tabs button").forEach(b => b.addEventListener("click", () => {
+    document.querySelectorAll("#tabs button").forEach(x => x.classList.toggle("active", x===b));
+    ["prep","warmup","train","finish"].forEach(t =>
+      $("#tab-"+t).classList.toggle("hidden", t !== b.dataset.tab));
+  }));
+  $("#btnTimerStart").addEventListener("click", startTimer);
+  $("#btnTimerPause").addEventListener("click", () => {
+    paused = !paused; $("#btnTimerPause").textContent = paused ? "▶︎ Weiter" : "⏸ Pause"; });
+  $("#btnTimerSkip").addEventListener("click", () => { tRemain = 0; });
+  $("#btnTimerReset").addEventListener("click", resetTimer);
+  $("#sessionNote").addEventListener("input", onFormInput);
+  $("#btnSave").addEventListener("click", saveToGitHub);
+  $("#btnExport").addEventListener("click", exportBackup);
+  $("#btnSettings").addEventListener("click", openSettings);
+  $("#btnCfgClose").addEventListener("click", () => $("#dlgSettings").close());
+  $("#btnCfgTest").addEventListener("click", testConnection);
+  $("#btnCfgSave").addEventListener("click", () => {
+    saveCfg({owner:$("#cfgOwner").value.trim(), repo:$("#cfgRepo").value.trim(),
+             branch:$("#cfgBranch").value.trim()||"main", token:$("#cfgToken").value.trim(),
+             week12Monday:$("#cfgWeek12").value});
+    $("#dlgSettings").close();
+    loadLogs().then(render);
+  });
+}
+init();
+</script>
+</body>
+</html>

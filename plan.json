@@ -1,0 +1,2629 @@
+{
+ "meta": {
+  "title": "Fitness Masterplan Juli 2026 – 90°-Variante v2",
+  "source": "Juli 2026 Fitness Masterplan - 90-Grad-Variante.xlsx",
+  "generated": "2026-07-12",
+  "week12Monday": "2026-07-13",
+  "trainingDays": [
+   "Di",
+   "Do",
+   "Sa"
+  ],
+  "weeks": [
+   12,
+   13,
+   14,
+   15
+  ],
+  "rules": "Rechter Arm nie über 90°/Schulterhöhe · kein Hängen · alles schmerzgeführt · scharfer Schmerz oben auf der Schulter = sofort reduzieren."
+ },
+ "progression": {
+  "W12": "Technik-Woche mit neuem Equipment: unteres Ende der Wiederholungen, 2-3 Wdh. im Tank. Lasten bewusst konservativ; Handgelenk (Floor Press) und rechte Schulter beobachten.",
+  "W13": "+1 Wiederholung pro Satz oder +1 kg pro Kurzhantel (0,5-kg-Scheiben). Nur steigern, wenn alle Sätze sauber und die Schulter ruhig war.",
+  "W14": "Hauptübungen (Rudern, RDL, Floor Press) leicht schwerer; Kettlebell auf 24 kg; zurück an den unteren Rand des Bereichs.",
+  "W15": "Oberes Ende des Wiederholungsbereichs mit bestmöglicher Technik. Keine Sätze bis zum Versagen; danach Deload oder neuen Zyklus (August) planen."
+ },
+ "sessions": [
+  {
+   "day": "Di",
+   "week": 12,
+   "warmup": [
+    {
+     "name": "Cat-Camel",
+     "seconds": 30,
+     "perSide": false,
+     "note": ""
+    },
+    {
+     "name": "Schulterkreisen",
+     "seconds": 30,
+     "perSide": false,
+     "note": "klein, unter 90°"
+    },
+    {
+     "name": "Band Pull-aparts",
+     "seconds": 30,
+     "perSide": false,
+     "note": ""
+    },
+    {
+     "name": "Glute Bridge",
+     "seconds": 30,
+     "perSide": false,
+     "note": ""
+    },
+    {
+     "name": "Bodyweight Squat",
+     "seconds": 30,
+     "perSide": false,
+     "note": ""
+    },
+    {
+     "name": "Band-Außenrotationen",
+     "seconds": 30,
+     "perSide": false,
+     "note": ""
+    }
+   ],
+   "blocks": [
+    {
+     "block": "Block 1",
+     "exercises": [
+      {
+       "code": "A1",
+       "name": "Einarmiges KB-Rudern vorgebeugt",
+       "sets": 4,
+       "targetReps": "6-10",
+       "perSide": true,
+       "detail": "",
+       "raw": "A1 Einarmiges KB-Rudern vorgebeugt 4x6-10/Seite",
+       "resistance": "22 kg",
+       "resistanceLabel": "KB-Rudern",
+       "description": "Hüftbreiter Stand, Kettlebell in einer Hand, freie Hand auf Knie oder Ablage stützen. Hüfte nach hinten schieben (Hip Hinge), Rücken gerade, Oberkörper ~45° vorgeneigt. Die KB mit dem Ellbogen eng am Körper zur unteren Rippe ziehen, Schulterblatt dabei bewusst nach hinten-unten ziehen, oben 1s halten, langsam ablassen. Kein Schwung, kein Rotieren des Rumpfes. Trainiert Lat, oberen Rücken und Bizeps – der direkte Klimmzug-Ersatz; der Arm bleibt die ganze Zeit unter Schulterhöhe.",
+       "video": "https://www.youtube.com/watch?v=8gg400ddt-g",
+       "videoNote": ""
+      },
+      {
+       "code": "A2",
+       "name": "Bulgarian Split Squat",
+       "sets": 4,
+       "targetReps": "6-8",
+       "perSide": true,
+       "detail": "(2 Kurzhanteln)",
+       "raw": "A2 Bulgarian Split Squat 4x6-8/Seite (2 Kurzhanteln)",
+       "resistance": "2x 10 kg Kurzhanteln",
+       "resistanceLabel": "BSS",
+       "description": "Hinterer Fuß erhöht, Kniebeuge über das vordere Bein. Jetzt mit 2 Kurzhanteln statt Weste (kein Umziehen mehr).",
+       "video": "https://www.youtube.com/shorts/or1frhkjBDc",
+       "videoNote": ""
+      }
+     ],
+     "pause": "Pause ~60-75s",
+     "note": "alternierend; Pause ~60-75s nach jeder Übung",
+     "resistance": [
+      {
+       "label": "KB-Rudern",
+       "value": "22 kg"
+      },
+      {
+       "label": "BSS",
+       "value": "2x 10 kg Kurzhanteln"
+      }
+     ]
+    },
+    {
+     "block": "Block 2",
+     "exercises": [
+      {
+       "code": "B1",
+       "name": "Kurzhantel Floor Press (neutraler Griff)",
+       "sets": 4,
+       "targetReps": "8-12",
+       "perSide": false,
+       "detail": "gleiche Kurzhanteln wie Block 1, kein Umstecken",
+       "raw": "B1 Kurzhantel Floor Press (neutraler Griff) 4x8-12 – gleiche Kurzhanteln wie Block 1, kein Umstecken",
+       "resistance": "2x 10 kg (Handgelenk testen!)",
+       "resistanceLabel": "Floor Press",
+       "description": "Rückenlage, Knie angestellt, in jeder Hand eine Kurzhantel mit neutralem Griff (Handflächen zueinander) über der Brust ausdrücken, Ellbogen ~45° vom Körper. Langsam ablassen, bis der Trizeps den Boden berührt – der Boden begrenzt die Bewegung und schützt das AC-Gelenk – kurz pausieren, dann hochdrücken. Ersetzt den KB Floor Press: Die Kurzhantel-Last liegt zentriert über der Handwurzel, das Handgelenk bleibt gerade (KB-Version war fürs Handgelenk schmerzhaft). Brust-/Trizeps-Hauptübung, 2x pro Woche (Di + Sa).",
+       "video": "https://www.youtube.com/watch?v=rs05AtccEhg",
+       "videoNote": ""
+      },
+      {
+       "code": "B2",
+       "name": "Single-Leg Romanian Deadlift (KB)",
+       "sets": 4,
+       "targetReps": "8-10",
+       "perSide": true,
+       "detail": "",
+       "raw": "B2 Single-Leg Romanian Deadlift (KB) 4x8-10/Seite",
+       "resistance": "KB 22 kg",
+       "resistanceLabel": "SL-RDL",
+       "description": "Einbeinig, KB in der Gegenhand, langsam und stabil.",
+       "video": "https://www.youtube.com/watch?v=iS7atZhcRnw",
+       "videoNote": ""
+      }
+     ],
+     "pause": "Pause ~60-75s",
+     "note": "alternierend; Pause ~60-75s",
+     "resistance": [
+      {
+       "label": "Floor Press",
+       "value": "2x 10 kg (Handgelenk testen!)"
+      },
+      {
+       "label": "SL-RDL",
+       "value": "KB 22 kg"
+      }
+     ]
+    },
+    {
+     "block": "Block 3",
+     "exercises": [
+      {
+       "code": "C1",
+       "name": "Pallof Press",
+       "sets": 2,
+       "targetReps": "10-12",
+       "perSide": true,
+       "detail": "",
+       "raw": "C1 Pallof Press 2x10-12/Seite",
+       "resistance": "30-50 lbs",
+       "resistanceLabel": "Pallof",
+       "description": "Gespanntes Band seitlich, Hände auf Brusthöhe nach vorn drücken, Rotation widerstehen.",
+       "video": "",
+       "videoNote": ""
+      },
+      {
+       "code": "C2",
+       "name": "Band Face Pull",
+       "sets": 2,
+       "targetReps": "12-15",
+       "perSide": false,
+       "detail": "(Ellbogen max. Schulterhöhe)",
+       "raw": "C2 Band Face Pull 2x12-15 (Ellbogen max. Schulterhöhe)",
+       "resistance": "40-80 lbs",
+       "resistanceLabel": "Face Pull",
+       "description": "Band zum Gesicht ziehen, Ellbogen hoch (max. Schulterhöhe) – hintere Schulter/oberer Rücken.",
+       "video": "https://www.youtube.com/shorts/1s-0WtJMsu8",
+       "videoNote": ""
+      }
+     ],
+     "pause": "Pause ~30-45s",
+     "note": "alternierend; Pause ~30-45s",
+     "resistance": [
+      {
+       "label": "Pallof",
+       "value": "30-50 lbs"
+      },
+      {
+       "label": "Face Pull",
+       "value": "40-80 lbs"
+      }
+     ]
+    }
+   ],
+   "finish": {
+    "text": "Tabata + optional Band-Bizeps-Curl 2x10-15",
+    "resistance": "Curl: Band nach Gefühl, Arm bleibt unten"
+   },
+   "optional": null,
+   "equipment": [
+    {
+     "gerät": "Kurzhanteln",
+     "items": [
+      "2x 10 kg (Handgelenk testen!) (Floor Press)",
+      "2x 10 kg Kurzhanteln (BSS)"
+     ]
+    },
+    {
+     "gerät": "Kettlebell",
+     "items": [
+      "22 kg (KB-Rudern)",
+      "KB 22 kg (SL-RDL)"
+     ]
+    },
+    {
+     "gerät": "Bänder",
+     "items": [
+      "30-50 lbs (Pallof)",
+      "40-80 lbs (Face Pull)"
+     ]
+    }
+   ]
+  },
+  {
+   "day": "Do",
+   "week": 12,
+   "warmup": [
+    {
+     "name": "Thoracic Rotations",
+     "seconds": 30,
+     "perSide": false,
+     "note": ""
+    },
+    {
+     "name": "Band-Außenrotationen",
+     "seconds": 30,
+     "perSide": false,
+     "note": ""
+    },
+    {
+     "name": "Split Squat Stretch",
+     "seconds": 30,
+     "perSide": true,
+     "note": ""
+    },
+    {
+     "name": "Hip Hinge Drill",
+     "seconds": 30,
+     "perSide": false,
+     "note": ""
+    },
+    {
+     "name": "Wall Push-up plus",
+     "seconds": 30,
+     "perSide": false,
+     "note": "Ellbogen gestreckt – kein Liegestütz; nur wenn schmerzfrei"
+    }
+   ],
+   "blocks": [
+    {
+     "block": "Block 1",
+     "exercises": [
+      {
+       "code": "A1",
+       "name": "Langhantel-Rudern vorgebeugt",
+       "sets": 4,
+       "targetReps": "6-8",
+       "perSide": false,
+       "detail": "",
+       "raw": "A1 Langhantel-Rudern vorgebeugt 4x6-8",
+       "resistance": "Langhantel 30 kg",
+       "resistanceLabel": "Rudern",
+       "description": "Hüftbreiter Stand, Langhantel im Obergriff. Hüfte nach hinten schieben (Hip Hinge), Oberkörper ~45° oder tiefer, Rücken neutral, Rumpf fest. Die Stange zum Bauchnabel ziehen, Ellbogen nah am Körper, Schulterblätter nach hinten-unten; langsam ablassen, kein Schwung. Schwere beidarmige Zugübung als Ergänzung zum einarmigen KB-Rudern – Arme bleiben unter 90°. Start 30 kg, bis 36 kg in Woche 15.",
+       "video": "https://www.youtube.com/watch?v=rqTOAM8WoeM",
+       "videoNote": ""
+      },
+      {
+       "code": "A2",
+       "name": "Split Squat",
+       "sets": 4,
+       "targetReps": "8-10",
+       "perSide": true,
+       "detail": "(KB Goblet, 3s Exzentrik)",
+       "raw": "A2 Split Squat 4x8-10/Seite (KB Goblet, 3s Exzentrik)",
+       "resistance": "KB 22 kg Goblet",
+       "resistanceLabel": "Split Squat",
+       "description": "Hinterer Fuß erhöht, Kniebeuge über das vordere Bein. Jetzt mit 2 Kurzhanteln statt Weste (kein Umziehen mehr).",
+       "video": "https://www.youtube.com/shorts/or1frhkjBDc",
+       "videoNote": ""
+      }
+     ],
+     "pause": "Pause ~60-75s",
+     "note": "alternierend; Pause ~60-75s",
+     "resistance": [
+      {
+       "label": "Rudern",
+       "value": "Langhantel 30 kg"
+      },
+      {
+       "label": "Split Squat",
+       "value": "KB 22 kg Goblet"
+      }
+     ]
+    },
+    {
+     "block": "Block 2",
+     "exercises": [
+      {
+       "code": "B1",
+       "name": "Band-Chest-Press stehend, einarmig",
+       "sets": 4,
+       "targetReps": "6-10",
+       "perSide": true,
+       "detail": "(Hand max. Schulterhöhe!)",
+       "raw": "B1 Band-Chest-Press stehend, einarmig 4x6-10/Seite (Hand max. Schulterhöhe!)",
+       "resistance": "Band auf Brusthöhe, schmerzfreie Spannung",
+       "resistanceLabel": "Chest-Press",
+       "description": "Band auf Brusthöhe hinter dir verankern (Türanker/Pfosten), Schrittstellung, Rumpf fest. Griff auf Brusthöhe, dann horizontal nach vorn ausdrücken – die Hand bleibt maximal auf Schulterhöhe, nie darüber. Langsam zurückführen, ohne dass die Schulter nach vorn kippt. Ersetzt den 45°-Press; trainiert Brust und vorderen Deltamuskel innerhalb der 90°-Grenze.",
+       "video": "https://www.youtube.com/watch?v=ssJcPFP47aw",
+       "videoNote": ""
+      },
+      {
+       "code": "B2",
+       "name": "Langhantel Romanian Deadlift",
+       "sets": 4,
+       "targetReps": "8-12",
+       "perSide": false,
+       "detail": "",
+       "raw": "B2 Langhantel Romanian Deadlift 4x8-12",
+       "resistance": "Langhantel 35 kg",
+       "resistanceLabel": "RDL",
+       "description": "Versetzter Stand, ~70% Last auf dem vorderen Bein.",
+       "video": "https://www.youtube.com/watch?v=slzkAoP8ioc",
+       "videoNote": ""
+      }
+     ],
+     "pause": "Pause ~60-75s",
+     "note": "alternierend; Pause ~60-75s (Langhantel: Scheiben ergänzen = einzige Umbau-Aktion der Einheit)",
+     "resistance": [
+      {
+       "label": "Chest-Press",
+       "value": "Band auf Brusthöhe, schmerzfreie Spannung"
+      },
+      {
+       "label": "RDL",
+       "value": "Langhantel 35 kg"
+      }
+     ]
+    },
+    {
+     "block": "Block 3",
+     "exercises": [
+      {
+       "code": "C1",
+       "name": "Band Lateral Raise",
+       "sets": 2,
+       "targetReps": "12-15",
+       "perSide": false,
+       "detail": "(nur bis ~80°, schmerzfrei!)",
+       "raw": "C1 Band Lateral Raise 2x12-15 (nur bis ~80°, schmerzfrei!)",
+       "resistance": "leichtes Band (15-25 lbs)",
+       "resistanceLabel": "Lateral Raise",
+       "description": "Auf das Band stellen, Arme leicht gebeugt seitlich anheben, STOPP bei ~80° (knapp unter Schulterhöhe), 2s halten, langsam ablassen. Leicht bleiben – Ziel ist der Erhalt der seitlichen Schultermuskulatur im schmerzfreien Bereich, ohne die 90°-Grenze zu reizen.",
+       "video": "https://www.youtube.com/watch?v=gfEyrmxbCbw",
+       "videoNote": ""
+      },
+      {
+       "code": "C2",
+       "name": "Band-Außenrotation",
+       "sets": 2,
+       "targetReps": "12-15",
+       "perSide": false,
+       "detail": "",
+       "raw": "C2 Band-Außenrotation 2x12-15",
+       "resistance": "leichtes Band",
+       "resistanceLabel": "Außenrotation",
+       "description": "Ellbogen am Körper, 90° gebeugt, Unterarm gegen leichtes Band nach außen rotieren – Rotatorenmanschette. Jetzt auch Dead-Hang-Ersatz im Warm-up.",
+       "video": "https://www.youtube.com/watch?v=_UvmPNGtlPM",
+       "videoNote": ""
+      }
+     ],
+     "pause": "Pause ~30-45s",
+     "note": "alternierend; Pause ~30-45s",
+     "resistance": [
+      {
+       "label": "Lateral Raise",
+       "value": "leichtes Band (15-25 lbs)"
+      },
+      {
+       "label": "Außenrotation",
+       "value": "leichtes Band"
+      }
+     ]
+    }
+   ],
+   "finish": {
+    "text": "Tabata + optional Band-Trizeps-Pushdown 2x10-15",
+    "resistance": "Pushdown: Band oben verankern, Ellbogen am Körper"
+   },
+   "optional": null,
+   "equipment": [
+    {
+     "gerät": "Langhantel",
+     "items": [
+      "Langhantel 30 kg (Rudern)",
+      "Langhantel 35 kg (RDL)"
+     ]
+    },
+    {
+     "gerät": "Kettlebell",
+     "items": [
+      "KB 22 kg Goblet (Split Squat)"
+     ]
+    },
+    {
+     "gerät": "Bänder",
+     "items": [
+      "Band auf Brusthöhe, schmerzfreie Spannung (Chest-Press)",
+      "leichtes Band (15-25 lbs) (Lateral Raise)",
+      "leichtes Band (Außenrotation)"
+     ]
+    }
+   ]
+  },
+  {
+   "day": "Sa",
+   "week": 12,
+   "warmup": [
+    {
+     "name": "World's Greatest Stretch",
+     "seconds": 30,
+     "perSide": true,
+     "note": "rechter Arm-Reach nur bis Schulterhöhe"
+    },
+    {
+     "name": "Squat Pry",
+     "seconds": 30,
+     "perSide": false,
+     "note": ""
+    },
+    {
+     "name": "Wall Push-up plus",
+     "seconds": 30,
+     "perSide": false,
+     "note": ""
+    },
+    {
+     "name": "Glute Bridge",
+     "seconds": 30,
+     "perSide": false,
+     "note": ""
+    },
+    {
+     "name": "Hip Hinge Drill",
+     "seconds": 30,
+     "perSide": false,
+     "note": ""
+    }
+   ],
+   "blocks": [
+    {
+     "block": "Block 1",
+     "exercises": [
+      {
+       "code": "A1",
+       "name": "Schweres Band-Rudern (auch einarmig)",
+       "sets": 3,
+       "targetReps": "10-15",
+       "perSide": false,
+       "detail": "",
+       "raw": "A1 Schweres Band-Rudern (auch einarmig) 3x10-15",
+       "resistance": "40-80 + 20-35 lbs",
+       "resistanceLabel": "Band-Rudern",
+       "description": "Hüftbreiter Stand, Langhantel im Obergriff. Hüfte nach hinten schieben (Hip Hinge), Oberkörper ~45° oder tiefer, Rücken neutral, Rumpf fest. Die Stange zum Bauchnabel ziehen, Ellbogen nah am Körper, Schulterblätter nach hinten-unten; langsam ablassen, kein Schwung. Schwere beidarmige Zugübung als Ergänzung zum einarmigen KB-Rudern – Arme bleiben unter 90°. Start 30 kg, bis 36 kg in Woche 15.",
+       "video": "https://www.youtube.com/watch?v=rqTOAM8WoeM",
+       "videoNote": ""
+      },
+      {
+       "code": "A2",
+       "name": "Goblet Squat (KB)",
+       "sets": 3,
+       "targetReps": "8-12",
+       "perSide": false,
+       "detail": "",
+       "raw": "A2 Goblet Squat (KB) 3x8-12",
+       "resistance": "KB 24 kg",
+       "resistanceLabel": "Goblet",
+       "description": "KB vor der Brust, volle kontrollierte Tiefe.",
+       "video": "https://www.youtube.com/watch?v=MWHIs0zxkCU",
+       "videoNote": ""
+      }
+     ],
+     "pause": "Pause ~75s",
+     "note": "alternierend; Pause ~75s",
+     "resistance": [
+      {
+       "label": "Band-Rudern",
+       "value": "40-80 + 20-35 lbs"
+      },
+      {
+       "label": "Goblet",
+       "value": "KB 24 kg"
+      }
+     ]
+    },
+    {
+     "block": "Block 2",
+     "exercises": [
+      {
+       "code": "B1",
+       "name": "Kurzhantel Floor Press (neutraler Griff)",
+       "sets": 3,
+       "targetReps": "8-12",
+       "perSide": false,
+       "detail": "gleiche Last wie Di",
+       "raw": "B1 Kurzhantel Floor Press (neutraler Griff) 3x8-12 – gleiche Last wie Di",
+       "resistance": "2x 10 kg",
+       "resistanceLabel": "Floor Press",
+       "description": "Rückenlage, Knie angestellt, in jeder Hand eine Kurzhantel mit neutralem Griff (Handflächen zueinander) über der Brust ausdrücken, Ellbogen ~45° vom Körper. Langsam ablassen, bis der Trizeps den Boden berührt – der Boden begrenzt die Bewegung und schützt das AC-Gelenk – kurz pausieren, dann hochdrücken. Ersetzt den KB Floor Press: Die Kurzhantel-Last liegt zentriert über der Handwurzel, das Handgelenk bleibt gerade (KB-Version war fürs Handgelenk schmerzhaft). Brust-/Trizeps-Hauptübung, 2x pro Woche (Di + Sa).",
+       "video": "https://www.youtube.com/watch?v=rs05AtccEhg",
+       "videoNote": ""
+      },
+      {
+       "code": "B2",
+       "name": "KB Swing ZWEIARMIG",
+       "sets": 5,
+       "targetReps": "15",
+       "perSide": false,
+       "detail": "Endpunkt Brustbein, bewusst unter 90°!",
+       "raw": "B2 KB Swing ZWEIARMIG 5x15 – Endpunkt Brustbein, bewusst unter 90°!",
+       "resistance": "KB 24 kg",
+       "resistanceLabel": "Swing",
+       "description": "Explosiver Hüftimpuls, zweiarmig. NEU: Endpunkt bewusst am Brustbein kappen (unter 90°), nicht bis Brust-/Schulterhöhe schwingen lassen.",
+       "video": "",
+       "videoNote": ""
+      }
+     ],
+     "pause": "",
+     "note": "Swings alle ~90s, Floor Press in den Pausen",
+     "resistance": [
+      {
+       "label": "Floor Press",
+       "value": "2x 10 kg"
+      },
+      {
+       "label": "Swing",
+       "value": "KB 24 kg"
+      }
+     ]
+    },
+    {
+     "block": "Block 3",
+     "exercises": [
+      {
+       "code": "C1",
+       "name": "Liegende Leg Raises",
+       "sets": 2,
+       "targetReps": "8-12",
+       "perSide": false,
+       "detail": "",
+       "raw": "C1 Liegende Leg Raises 2x8-12",
+       "resistance": "Eigengewicht",
+       "resistanceLabel": "Leg Raises",
+       "description": "Rückenlage, Hände neben dem Gesäß, unterer Rücken bleibt die GANZE Zeit am Boden (Rumpf fest). Gestreckte oder leicht gebeugte Beine kontrolliert auf ~90° heben, langsam (3s) ablassen, kurz über dem Boden stoppen. Zu schwer? Knie mehr beugen. Zu leicht? Beine strecken, langsamer ablassen oder Hollow Hold ergänzen. Ersetzt Hanging Leg Raise ohne Zug aufs Schultergelenk.",
+       "video": "https://www.youtube.com/watch?v=3oIpxsn6FxQ",
+       "videoNote": ""
+      },
+      {
+       "code": "C2",
+       "name": "Suitcase Carry",
+       "sets": 2,
+       "targetReps": "30-40m",
+       "perSide": true,
+       "detail": "",
+       "raw": "C2 Suitcase Carry 2x30-40m/Seite",
+       "resistance": "KB 24 kg oder Kurzhantel bis 21 kg",
+       "resistanceLabel": "Carry",
+       "description": "Schwere Last (KB 24 kg oder Kurzhantel) einseitig wie einen Koffer tragen, 30-40 m je Seite. Aufrecht bleiben, nicht zur Seite kippen, Schulterblatt hinten-unten „geparkt\". Trainiert Rumpf (seitliche Kette), Griffkraft und Schulterstabilität komplett ohne Armhebung.",
+       "video": "https://www.youtube.com/watch?v=y-hn_Ha1-RE",
+       "videoNote": ""
+      }
+     ],
+     "pause": "Pause ~30-45s",
+     "note": "alternierend; Pause ~30-45s",
+     "resistance": [
+      {
+       "label": "Leg Raises",
+       "value": "Eigengewicht"
+      },
+      {
+       "label": "Carry",
+       "value": "KB 24 kg oder Kurzhantel bis 21 kg"
+      }
+     ]
+    }
+   ],
+   "finish": null,
+   "optional": {
+    "text": "Nur wenn frisch: 1 Extra-Satz Floor Press + Rudern – oder lockere Mobility",
+    "resistance": ""
+   },
+   "equipment": [
+    {
+     "gerät": "Kurzhanteln",
+     "items": [
+      "2x 10 kg (Floor Press)",
+      "KB 24 kg oder Kurzhantel bis 21 kg (Carry)"
+     ]
+    },
+    {
+     "gerät": "Kettlebell",
+     "items": [
+      "KB 24 kg (Goblet)",
+      "KB 24 kg (Swing)"
+     ]
+    },
+    {
+     "gerät": "Bänder",
+     "items": [
+      "40-80 + 20-35 lbs (Band-Rudern)"
+     ]
+    }
+   ]
+  },
+  {
+   "day": "Di",
+   "week": 13,
+   "warmup": [
+    {
+     "name": "Cat-Camel",
+     "seconds": 30,
+     "perSide": false,
+     "note": ""
+    },
+    {
+     "name": "Schulterkreisen",
+     "seconds": 30,
+     "perSide": false,
+     "note": "klein, unter 90°"
+    },
+    {
+     "name": "Band Pull-aparts",
+     "seconds": 30,
+     "perSide": false,
+     "note": ""
+    },
+    {
+     "name": "Glute Bridge",
+     "seconds": 30,
+     "perSide": false,
+     "note": ""
+    },
+    {
+     "name": "Bodyweight Squat",
+     "seconds": 30,
+     "perSide": false,
+     "note": ""
+    },
+    {
+     "name": "Band-Außenrotationen",
+     "seconds": 30,
+     "perSide": false,
+     "note": ""
+    }
+   ],
+   "blocks": [
+    {
+     "block": "Block 1",
+     "exercises": [
+      {
+       "code": "A1",
+       "name": "Einarmiges KB-Rudern vorgebeugt",
+       "sets": 4,
+       "targetReps": "6-10",
+       "perSide": true,
+       "detail": "",
+       "raw": "A1 Einarmiges KB-Rudern vorgebeugt 4x6-10/Seite",
+       "resistance": "22 kg",
+       "resistanceLabel": "KB-Rudern",
+       "description": "Hüftbreiter Stand, Kettlebell in einer Hand, freie Hand auf Knie oder Ablage stützen. Hüfte nach hinten schieben (Hip Hinge), Rücken gerade, Oberkörper ~45° vorgeneigt. Die KB mit dem Ellbogen eng am Körper zur unteren Rippe ziehen, Schulterblatt dabei bewusst nach hinten-unten ziehen, oben 1s halten, langsam ablassen. Kein Schwung, kein Rotieren des Rumpfes. Trainiert Lat, oberen Rücken und Bizeps – der direkte Klimmzug-Ersatz; der Arm bleibt die ganze Zeit unter Schulterhöhe.",
+       "video": "https://www.youtube.com/watch?v=8gg400ddt-g",
+       "videoNote": ""
+      },
+      {
+       "code": "A2",
+       "name": "Bulgarian Split Squat",
+       "sets": 4,
+       "targetReps": "6-8",
+       "perSide": true,
+       "detail": "(2 Kurzhanteln)",
+       "raw": "A2 Bulgarian Split Squat 4x6-8/Seite (2 Kurzhanteln)",
+       "resistance": "2x 12 kg",
+       "resistanceLabel": "BSS",
+       "description": "Hinterer Fuß erhöht, Kniebeuge über das vordere Bein. Jetzt mit 2 Kurzhanteln statt Weste (kein Umziehen mehr).",
+       "video": "https://www.youtube.com/shorts/or1frhkjBDc",
+       "videoNote": ""
+      }
+     ],
+     "pause": "Pause ~60-75s",
+     "note": "alternierend; Pause ~60-75s nach jeder Übung",
+     "resistance": [
+      {
+       "label": "KB-Rudern",
+       "value": "22 kg"
+      },
+      {
+       "label": "BSS",
+       "value": "2x 12 kg"
+      }
+     ]
+    },
+    {
+     "block": "Block 2",
+     "exercises": [
+      {
+       "code": "B1",
+       "name": "Kurzhantel Floor Press (neutraler Griff)",
+       "sets": 4,
+       "targetReps": "8-12",
+       "perSide": false,
+       "detail": "gleiche Kurzhanteln wie Block 1, kein Umstecken",
+       "raw": "B1 Kurzhantel Floor Press (neutraler Griff) 4x8-12 – gleiche Kurzhanteln wie Block 1, kein Umstecken",
+       "resistance": "2x 12 kg",
+       "resistanceLabel": "Floor Press",
+       "description": "Rückenlage, Knie angestellt, in jeder Hand eine Kurzhantel mit neutralem Griff (Handflächen zueinander) über der Brust ausdrücken, Ellbogen ~45° vom Körper. Langsam ablassen, bis der Trizeps den Boden berührt – der Boden begrenzt die Bewegung und schützt das AC-Gelenk – kurz pausieren, dann hochdrücken. Ersetzt den KB Floor Press: Die Kurzhantel-Last liegt zentriert über der Handwurzel, das Handgelenk bleibt gerade (KB-Version war fürs Handgelenk schmerzhaft). Brust-/Trizeps-Hauptübung, 2x pro Woche (Di + Sa).",
+       "video": "https://www.youtube.com/watch?v=rs05AtccEhg",
+       "videoNote": ""
+      },
+      {
+       "code": "B2",
+       "name": "Single-Leg Romanian Deadlift (KB)",
+       "sets": 4,
+       "targetReps": "8-10",
+       "perSide": true,
+       "detail": "",
+       "raw": "B2 Single-Leg Romanian Deadlift (KB) 4x8-10/Seite",
+       "resistance": "KB 22 kg",
+       "resistanceLabel": "SL-RDL",
+       "description": "Einbeinig, KB in der Gegenhand, langsam und stabil.",
+       "video": "https://www.youtube.com/watch?v=iS7atZhcRnw",
+       "videoNote": ""
+      }
+     ],
+     "pause": "Pause ~60-75s",
+     "note": "alternierend; Pause ~60-75s",
+     "resistance": [
+      {
+       "label": "Floor Press",
+       "value": "2x 12 kg"
+      },
+      {
+       "label": "SL-RDL",
+       "value": "KB 22 kg"
+      }
+     ]
+    },
+    {
+     "block": "Block 3",
+     "exercises": [
+      {
+       "code": "C1",
+       "name": "Pallof Press",
+       "sets": 2,
+       "targetReps": "10-12",
+       "perSide": true,
+       "detail": "",
+       "raw": "C1 Pallof Press 2x10-12/Seite",
+       "resistance": "30-50 lbs",
+       "resistanceLabel": "Pallof",
+       "description": "Gespanntes Band seitlich, Hände auf Brusthöhe nach vorn drücken, Rotation widerstehen.",
+       "video": "",
+       "videoNote": ""
+      },
+      {
+       "code": "C2",
+       "name": "Band Face Pull",
+       "sets": 2,
+       "targetReps": "12-15",
+       "perSide": false,
+       "detail": "(Ellbogen max. Schulterhöhe)",
+       "raw": "C2 Band Face Pull 2x12-15 (Ellbogen max. Schulterhöhe)",
+       "resistance": "40-80 lbs",
+       "resistanceLabel": "Face Pull",
+       "description": "Band zum Gesicht ziehen, Ellbogen hoch (max. Schulterhöhe) – hintere Schulter/oberer Rücken.",
+       "video": "https://www.youtube.com/shorts/1s-0WtJMsu8",
+       "videoNote": ""
+      }
+     ],
+     "pause": "Pause ~30-45s",
+     "note": "alternierend; Pause ~30-45s",
+     "resistance": [
+      {
+       "label": "Pallof",
+       "value": "30-50 lbs"
+      },
+      {
+       "label": "Face Pull",
+       "value": "40-80 lbs"
+      }
+     ]
+    }
+   ],
+   "finish": {
+    "text": "Tabata + optional Band-Bizeps-Curl 2x10-15",
+    "resistance": "Curl: Band nach Gefühl, Arm bleibt unten"
+   },
+   "optional": null,
+   "equipment": [
+    {
+     "gerät": "Kurzhanteln",
+     "items": [
+      "2x 12 kg (BSS)",
+      "2x 12 kg (Floor Press)"
+     ]
+    },
+    {
+     "gerät": "Kettlebell",
+     "items": [
+      "22 kg (KB-Rudern)",
+      "KB 22 kg (SL-RDL)"
+     ]
+    },
+    {
+     "gerät": "Bänder",
+     "items": [
+      "30-50 lbs (Pallof)",
+      "40-80 lbs (Face Pull)"
+     ]
+    }
+   ]
+  },
+  {
+   "day": "Do",
+   "week": 13,
+   "warmup": [
+    {
+     "name": "Thoracic Rotations",
+     "seconds": 30,
+     "perSide": false,
+     "note": ""
+    },
+    {
+     "name": "Band-Außenrotationen",
+     "seconds": 30,
+     "perSide": false,
+     "note": ""
+    },
+    {
+     "name": "Split Squat Stretch",
+     "seconds": 30,
+     "perSide": true,
+     "note": ""
+    },
+    {
+     "name": "Hip Hinge Drill",
+     "seconds": 30,
+     "perSide": false,
+     "note": ""
+    },
+    {
+     "name": "Wall Push-up plus",
+     "seconds": 30,
+     "perSide": false,
+     "note": "Ellbogen gestreckt – kein Liegestütz; nur wenn schmerzfrei"
+    }
+   ],
+   "blocks": [
+    {
+     "block": "Block 1",
+     "exercises": [
+      {
+       "code": "A1",
+       "name": "Langhantel-Rudern vorgebeugt",
+       "sets": 4,
+       "targetReps": "6-8",
+       "perSide": false,
+       "detail": "",
+       "raw": "A1 Langhantel-Rudern vorgebeugt 4x6-8",
+       "resistance": "32 kg",
+       "resistanceLabel": "Rudern",
+       "description": "Hüftbreiter Stand, Langhantel im Obergriff. Hüfte nach hinten schieben (Hip Hinge), Oberkörper ~45° oder tiefer, Rücken neutral, Rumpf fest. Die Stange zum Bauchnabel ziehen, Ellbogen nah am Körper, Schulterblätter nach hinten-unten; langsam ablassen, kein Schwung. Schwere beidarmige Zugübung als Ergänzung zum einarmigen KB-Rudern – Arme bleiben unter 90°. Start 30 kg, bis 36 kg in Woche 15.",
+       "video": "https://www.youtube.com/watch?v=rqTOAM8WoeM",
+       "videoNote": ""
+      },
+      {
+       "code": "A2",
+       "name": "Split Squat",
+       "sets": 4,
+       "targetReps": "8-10",
+       "perSide": true,
+       "detail": "(KB Goblet, 3s Exzentrik)",
+       "raw": "A2 Split Squat 4x8-10/Seite (KB Goblet, 3s Exzentrik)",
+       "resistance": "KB 22 kg",
+       "resistanceLabel": "Split Squat",
+       "description": "Hinterer Fuß erhöht, Kniebeuge über das vordere Bein. Jetzt mit 2 Kurzhanteln statt Weste (kein Umziehen mehr).",
+       "video": "https://www.youtube.com/shorts/or1frhkjBDc",
+       "videoNote": ""
+      }
+     ],
+     "pause": "Pause ~60-75s",
+     "note": "alternierend; Pause ~60-75s",
+     "resistance": [
+      {
+       "label": "Rudern",
+       "value": "32 kg"
+      },
+      {
+       "label": "Split Squat",
+       "value": "KB 22 kg"
+      }
+     ]
+    },
+    {
+     "block": "Block 2",
+     "exercises": [
+      {
+       "code": "B1",
+       "name": "Band-Chest-Press stehend, einarmig",
+       "sets": 4,
+       "targetReps": "6-10",
+       "perSide": true,
+       "detail": "(Hand max. Schulterhöhe!)",
+       "raw": "B1 Band-Chest-Press stehend, einarmig 4x6-10/Seite (Hand max. Schulterhöhe!)",
+       "resistance": "wie W12",
+       "resistanceLabel": "Chest-Press",
+       "description": "Band auf Brusthöhe hinter dir verankern (Türanker/Pfosten), Schrittstellung, Rumpf fest. Griff auf Brusthöhe, dann horizontal nach vorn ausdrücken – die Hand bleibt maximal auf Schulterhöhe, nie darüber. Langsam zurückführen, ohne dass die Schulter nach vorn kippt. Ersetzt den 45°-Press; trainiert Brust und vorderen Deltamuskel innerhalb der 90°-Grenze.",
+       "video": "https://www.youtube.com/watch?v=ssJcPFP47aw",
+       "videoNote": ""
+      },
+      {
+       "code": "B2",
+       "name": "Langhantel Romanian Deadlift",
+       "sets": 4,
+       "targetReps": "8-12",
+       "perSide": false,
+       "detail": "",
+       "raw": "B2 Langhantel Romanian Deadlift 4x8-12",
+       "resistance": "38 kg",
+       "resistanceLabel": "RDL",
+       "description": "Versetzter Stand, ~70% Last auf dem vorderen Bein.",
+       "video": "https://www.youtube.com/watch?v=slzkAoP8ioc",
+       "videoNote": ""
+      }
+     ],
+     "pause": "Pause ~60-75s",
+     "note": "alternierend; Pause ~60-75s (Langhantel: Scheiben ergänzen = einzige Umbau-Aktion der Einheit)",
+     "resistance": [
+      {
+       "label": "Chest-Press",
+       "value": "wie W12"
+      },
+      {
+       "label": "RDL",
+       "value": "38 kg"
+      }
+     ]
+    },
+    {
+     "block": "Block 3",
+     "exercises": [
+      {
+       "code": "C1",
+       "name": "Band Lateral Raise",
+       "sets": 2,
+       "targetReps": "12-15",
+       "perSide": false,
+       "detail": "(nur bis ~80°, schmerzfrei!)",
+       "raw": "C1 Band Lateral Raise 2x12-15 (nur bis ~80°, schmerzfrei!)",
+       "resistance": "leichtes Band (15-25 lbs)",
+       "resistanceLabel": "Lateral Raise",
+       "description": "Auf das Band stellen, Arme leicht gebeugt seitlich anheben, STOPP bei ~80° (knapp unter Schulterhöhe), 2s halten, langsam ablassen. Leicht bleiben – Ziel ist der Erhalt der seitlichen Schultermuskulatur im schmerzfreien Bereich, ohne die 90°-Grenze zu reizen.",
+       "video": "https://www.youtube.com/watch?v=gfEyrmxbCbw",
+       "videoNote": ""
+      },
+      {
+       "code": "C2",
+       "name": "Band-Außenrotation",
+       "sets": 2,
+       "targetReps": "12-15",
+       "perSide": false,
+       "detail": "",
+       "raw": "C2 Band-Außenrotation 2x12-15",
+       "resistance": "leichtes Band",
+       "resistanceLabel": "Außenrotation",
+       "description": "Ellbogen am Körper, 90° gebeugt, Unterarm gegen leichtes Band nach außen rotieren – Rotatorenmanschette. Jetzt auch Dead-Hang-Ersatz im Warm-up.",
+       "video": "https://www.youtube.com/watch?v=_UvmPNGtlPM",
+       "videoNote": ""
+      }
+     ],
+     "pause": "Pause ~30-45s",
+     "note": "alternierend; Pause ~30-45s",
+     "resistance": [
+      {
+       "label": "Lateral Raise",
+       "value": "leichtes Band (15-25 lbs)"
+      },
+      {
+       "label": "Außenrotation",
+       "value": "leichtes Band"
+      }
+     ]
+    }
+   ],
+   "finish": {
+    "text": "Tabata + optional Band-Trizeps-Pushdown 2x10-15",
+    "resistance": "Pushdown: Band oben verankern, Ellbogen am Körper"
+   },
+   "optional": null,
+   "equipment": [
+    {
+     "gerät": "Langhantel",
+     "items": [
+      "32 kg (Rudern)",
+      "38 kg (RDL)"
+     ]
+    },
+    {
+     "gerät": "Kettlebell",
+     "items": [
+      "KB 22 kg (Split Squat)"
+     ]
+    },
+    {
+     "gerät": "Bänder",
+     "items": [
+      "leichtes Band (15-25 lbs) (Lateral Raise)",
+      "leichtes Band (Außenrotation)"
+     ]
+    },
+    {
+     "gerät": "Sonstiges",
+     "items": [
+      "wie W12 (Chest-Press)"
+     ]
+    }
+   ]
+  },
+  {
+   "day": "Sa",
+   "week": 13,
+   "warmup": [
+    {
+     "name": "World's Greatest Stretch",
+     "seconds": 30,
+     "perSide": true,
+     "note": "rechter Arm-Reach nur bis Schulterhöhe"
+    },
+    {
+     "name": "Squat Pry",
+     "seconds": 30,
+     "perSide": false,
+     "note": ""
+    },
+    {
+     "name": "Wall Push-up plus",
+     "seconds": 30,
+     "perSide": false,
+     "note": ""
+    },
+    {
+     "name": "Glute Bridge",
+     "seconds": 30,
+     "perSide": false,
+     "note": ""
+    },
+    {
+     "name": "Hip Hinge Drill",
+     "seconds": 30,
+     "perSide": false,
+     "note": ""
+    }
+   ],
+   "blocks": [
+    {
+     "block": "Block 1",
+     "exercises": [
+      {
+       "code": "A1",
+       "name": "Schweres Band-Rudern (auch einarmig)",
+       "sets": 3,
+       "targetReps": "10-15",
+       "perSide": false,
+       "detail": "",
+       "raw": "A1 Schweres Band-Rudern (auch einarmig) 3x10-15",
+       "resistance": "40-80 + 20-35 lbs",
+       "resistanceLabel": "Band-Rudern",
+       "description": "Hüftbreiter Stand, Langhantel im Obergriff. Hüfte nach hinten schieben (Hip Hinge), Oberkörper ~45° oder tiefer, Rücken neutral, Rumpf fest. Die Stange zum Bauchnabel ziehen, Ellbogen nah am Körper, Schulterblätter nach hinten-unten; langsam ablassen, kein Schwung. Schwere beidarmige Zugübung als Ergänzung zum einarmigen KB-Rudern – Arme bleiben unter 90°. Start 30 kg, bis 36 kg in Woche 15.",
+       "video": "https://www.youtube.com/watch?v=rqTOAM8WoeM",
+       "videoNote": ""
+      },
+      {
+       "code": "A2",
+       "name": "Goblet Squat (KB)",
+       "sets": 3,
+       "targetReps": "8-12",
+       "perSide": false,
+       "detail": "",
+       "raw": "A2 Goblet Squat (KB) 3x8-12",
+       "resistance": "KB 24 kg",
+       "resistanceLabel": "Goblet",
+       "description": "KB vor der Brust, volle kontrollierte Tiefe.",
+       "video": "https://www.youtube.com/watch?v=MWHIs0zxkCU",
+       "videoNote": ""
+      }
+     ],
+     "pause": "Pause ~75s",
+     "note": "alternierend; Pause ~75s",
+     "resistance": [
+      {
+       "label": "Band-Rudern",
+       "value": "40-80 + 20-35 lbs"
+      },
+      {
+       "label": "Goblet",
+       "value": "KB 24 kg"
+      }
+     ]
+    },
+    {
+     "block": "Block 2",
+     "exercises": [
+      {
+       "code": "B1",
+       "name": "Kurzhantel Floor Press (neutraler Griff)",
+       "sets": 3,
+       "targetReps": "8-12",
+       "perSide": false,
+       "detail": "gleiche Last wie Di",
+       "raw": "B1 Kurzhantel Floor Press (neutraler Griff) 3x8-12 – gleiche Last wie Di",
+       "resistance": "2x 12 kg",
+       "resistanceLabel": "Floor Press",
+       "description": "Rückenlage, Knie angestellt, in jeder Hand eine Kurzhantel mit neutralem Griff (Handflächen zueinander) über der Brust ausdrücken, Ellbogen ~45° vom Körper. Langsam ablassen, bis der Trizeps den Boden berührt – der Boden begrenzt die Bewegung und schützt das AC-Gelenk – kurz pausieren, dann hochdrücken. Ersetzt den KB Floor Press: Die Kurzhantel-Last liegt zentriert über der Handwurzel, das Handgelenk bleibt gerade (KB-Version war fürs Handgelenk schmerzhaft). Brust-/Trizeps-Hauptübung, 2x pro Woche (Di + Sa).",
+       "video": "https://www.youtube.com/watch?v=rs05AtccEhg",
+       "videoNote": ""
+      },
+      {
+       "code": "B2",
+       "name": "KB Swing ZWEIARMIG",
+       "sets": 5,
+       "targetReps": "15",
+       "perSide": false,
+       "detail": "Endpunkt Brustbein, bewusst unter 90°!",
+       "raw": "B2 KB Swing ZWEIARMIG 5x15 – Endpunkt Brustbein, bewusst unter 90°!",
+       "resistance": "KB 24 kg",
+       "resistanceLabel": "Swing",
+       "description": "Explosiver Hüftimpuls, zweiarmig. NEU: Endpunkt bewusst am Brustbein kappen (unter 90°), nicht bis Brust-/Schulterhöhe schwingen lassen.",
+       "video": "",
+       "videoNote": ""
+      }
+     ],
+     "pause": "",
+     "note": "Swings alle ~90s, Floor Press in den Pausen",
+     "resistance": [
+      {
+       "label": "Floor Press",
+       "value": "2x 12 kg"
+      },
+      {
+       "label": "Swing",
+       "value": "KB 24 kg"
+      }
+     ]
+    },
+    {
+     "block": "Block 3",
+     "exercises": [
+      {
+       "code": "C1",
+       "name": "Liegende Leg Raises",
+       "sets": 2,
+       "targetReps": "8-12",
+       "perSide": false,
+       "detail": "",
+       "raw": "C1 Liegende Leg Raises 2x8-12",
+       "resistance": "Eigengewicht",
+       "resistanceLabel": "Leg Raises",
+       "description": "Rückenlage, Hände neben dem Gesäß, unterer Rücken bleibt die GANZE Zeit am Boden (Rumpf fest). Gestreckte oder leicht gebeugte Beine kontrolliert auf ~90° heben, langsam (3s) ablassen, kurz über dem Boden stoppen. Zu schwer? Knie mehr beugen. Zu leicht? Beine strecken, langsamer ablassen oder Hollow Hold ergänzen. Ersetzt Hanging Leg Raise ohne Zug aufs Schultergelenk.",
+       "video": "https://www.youtube.com/watch?v=3oIpxsn6FxQ",
+       "videoNote": ""
+      },
+      {
+       "code": "C2",
+       "name": "Suitcase Carry",
+       "sets": 2,
+       "targetReps": "30-40m",
+       "perSide": true,
+       "detail": "",
+       "raw": "C2 Suitcase Carry 2x30-40m/Seite",
+       "resistance": "KB 24 kg oder Kurzhantel bis 21 kg",
+       "resistanceLabel": "Carry",
+       "description": "Schwere Last (KB 24 kg oder Kurzhantel) einseitig wie einen Koffer tragen, 30-40 m je Seite. Aufrecht bleiben, nicht zur Seite kippen, Schulterblatt hinten-unten „geparkt\". Trainiert Rumpf (seitliche Kette), Griffkraft und Schulterstabilität komplett ohne Armhebung.",
+       "video": "https://www.youtube.com/watch?v=y-hn_Ha1-RE",
+       "videoNote": ""
+      }
+     ],
+     "pause": "Pause ~30-45s",
+     "note": "alternierend; Pause ~30-45s",
+     "resistance": [
+      {
+       "label": "Leg Raises",
+       "value": "Eigengewicht"
+      },
+      {
+       "label": "Carry",
+       "value": "KB 24 kg oder Kurzhantel bis 21 kg"
+      }
+     ]
+    }
+   ],
+   "finish": null,
+   "optional": {
+    "text": "Nur wenn frisch: 1 Extra-Satz Floor Press + Rudern – oder lockere Mobility",
+    "resistance": ""
+   },
+   "equipment": [
+    {
+     "gerät": "Kurzhanteln",
+     "items": [
+      "2x 12 kg (Floor Press)",
+      "KB 24 kg oder Kurzhantel bis 21 kg (Carry)"
+     ]
+    },
+    {
+     "gerät": "Kettlebell",
+     "items": [
+      "KB 24 kg (Goblet)",
+      "KB 24 kg (Swing)"
+     ]
+    },
+    {
+     "gerät": "Bänder",
+     "items": [
+      "40-80 + 20-35 lbs (Band-Rudern)"
+     ]
+    }
+   ]
+  },
+  {
+   "day": "Di",
+   "week": 14,
+   "warmup": [
+    {
+     "name": "Cat-Camel",
+     "seconds": 30,
+     "perSide": false,
+     "note": ""
+    },
+    {
+     "name": "Schulterkreisen",
+     "seconds": 30,
+     "perSide": false,
+     "note": "klein, unter 90°"
+    },
+    {
+     "name": "Band Pull-aparts",
+     "seconds": 30,
+     "perSide": false,
+     "note": ""
+    },
+    {
+     "name": "Glute Bridge",
+     "seconds": 30,
+     "perSide": false,
+     "note": ""
+    },
+    {
+     "name": "Bodyweight Squat",
+     "seconds": 30,
+     "perSide": false,
+     "note": ""
+    },
+    {
+     "name": "Band-Außenrotationen",
+     "seconds": 30,
+     "perSide": false,
+     "note": ""
+    }
+   ],
+   "blocks": [
+    {
+     "block": "Block 1",
+     "exercises": [
+      {
+       "code": "A1",
+       "name": "Einarmiges KB-Rudern vorgebeugt",
+       "sets": 4,
+       "targetReps": "6-10",
+       "perSide": true,
+       "detail": "",
+       "raw": "A1 Einarmiges KB-Rudern vorgebeugt 4x6-10/Seite",
+       "resistance": "24 kg",
+       "resistanceLabel": "KB-Rudern",
+       "description": "Hüftbreiter Stand, Kettlebell in einer Hand, freie Hand auf Knie oder Ablage stützen. Hüfte nach hinten schieben (Hip Hinge), Rücken gerade, Oberkörper ~45° vorgeneigt. Die KB mit dem Ellbogen eng am Körper zur unteren Rippe ziehen, Schulterblatt dabei bewusst nach hinten-unten ziehen, oben 1s halten, langsam ablassen. Kein Schwung, kein Rotieren des Rumpfes. Trainiert Lat, oberen Rücken und Bizeps – der direkte Klimmzug-Ersatz; der Arm bleibt die ganze Zeit unter Schulterhöhe.",
+       "video": "https://www.youtube.com/watch?v=8gg400ddt-g",
+       "videoNote": ""
+      },
+      {
+       "code": "A2",
+       "name": "Bulgarian Split Squat",
+       "sets": 4,
+       "targetReps": "6-8",
+       "perSide": true,
+       "detail": "(2 Kurzhanteln)",
+       "raw": "A2 Bulgarian Split Squat 4x6-8/Seite (2 Kurzhanteln)",
+       "resistance": "2x 14 kg",
+       "resistanceLabel": "BSS",
+       "description": "Hinterer Fuß erhöht, Kniebeuge über das vordere Bein. Jetzt mit 2 Kurzhanteln statt Weste (kein Umziehen mehr).",
+       "video": "https://www.youtube.com/shorts/or1frhkjBDc",
+       "videoNote": ""
+      }
+     ],
+     "pause": "Pause ~60-75s",
+     "note": "alternierend; Pause ~60-75s nach jeder Übung",
+     "resistance": [
+      {
+       "label": "KB-Rudern",
+       "value": "24 kg"
+      },
+      {
+       "label": "BSS",
+       "value": "2x 14 kg"
+      }
+     ]
+    },
+    {
+     "block": "Block 2",
+     "exercises": [
+      {
+       "code": "B1",
+       "name": "Kurzhantel Floor Press (neutraler Griff)",
+       "sets": 4,
+       "targetReps": "8-12",
+       "perSide": false,
+       "detail": "gleiche Kurzhanteln wie Block 1, kein Umstecken",
+       "raw": "B1 Kurzhantel Floor Press (neutraler Griff) 4x8-12 – gleiche Kurzhanteln wie Block 1, kein Umstecken",
+       "resistance": "2x 14 kg",
+       "resistanceLabel": "Floor Press",
+       "description": "Rückenlage, Knie angestellt, in jeder Hand eine Kurzhantel mit neutralem Griff (Handflächen zueinander) über der Brust ausdrücken, Ellbogen ~45° vom Körper. Langsam ablassen, bis der Trizeps den Boden berührt – der Boden begrenzt die Bewegung und schützt das AC-Gelenk – kurz pausieren, dann hochdrücken. Ersetzt den KB Floor Press: Die Kurzhantel-Last liegt zentriert über der Handwurzel, das Handgelenk bleibt gerade (KB-Version war fürs Handgelenk schmerzhaft). Brust-/Trizeps-Hauptübung, 2x pro Woche (Di + Sa).",
+       "video": "https://www.youtube.com/watch?v=rs05AtccEhg",
+       "videoNote": ""
+      },
+      {
+       "code": "B2",
+       "name": "Single-Leg Romanian Deadlift (KB)",
+       "sets": 4,
+       "targetReps": "8-10",
+       "perSide": true,
+       "detail": "",
+       "raw": "B2 Single-Leg Romanian Deadlift (KB) 4x8-10/Seite",
+       "resistance": "KB 24 kg (3s Exzentrik)",
+       "resistanceLabel": "SL-RDL",
+       "description": "Einbeinig, KB in der Gegenhand, langsam und stabil.",
+       "video": "https://www.youtube.com/watch?v=iS7atZhcRnw",
+       "videoNote": ""
+      }
+     ],
+     "pause": "Pause ~60-75s",
+     "note": "alternierend; Pause ~60-75s",
+     "resistance": [
+      {
+       "label": "Floor Press",
+       "value": "2x 14 kg"
+      },
+      {
+       "label": "SL-RDL",
+       "value": "KB 24 kg (3s Exzentrik)"
+      }
+     ]
+    },
+    {
+     "block": "Block 3",
+     "exercises": [
+      {
+       "code": "C1",
+       "name": "Pallof Press",
+       "sets": 2,
+       "targetReps": "10-12",
+       "perSide": true,
+       "detail": "",
+       "raw": "C1 Pallof Press 2x10-12/Seite",
+       "resistance": "30-50 lbs",
+       "resistanceLabel": "Pallof",
+       "description": "Gespanntes Band seitlich, Hände auf Brusthöhe nach vorn drücken, Rotation widerstehen.",
+       "video": "",
+       "videoNote": ""
+      },
+      {
+       "code": "C2",
+       "name": "Band Face Pull",
+       "sets": 2,
+       "targetReps": "12-15",
+       "perSide": false,
+       "detail": "(Ellbogen max. Schulterhöhe)",
+       "raw": "C2 Band Face Pull 2x12-15 (Ellbogen max. Schulterhöhe)",
+       "resistance": "40-80 + 20-35 lbs (mehr Spannung)",
+       "resistanceLabel": "Face Pull",
+       "description": "Band zum Gesicht ziehen, Ellbogen hoch (max. Schulterhöhe) – hintere Schulter/oberer Rücken.",
+       "video": "https://www.youtube.com/shorts/1s-0WtJMsu8",
+       "videoNote": ""
+      }
+     ],
+     "pause": "Pause ~30-45s",
+     "note": "alternierend; Pause ~30-45s",
+     "resistance": [
+      {
+       "label": "Pallof",
+       "value": "30-50 lbs"
+      },
+      {
+       "label": "Face Pull",
+       "value": "40-80 + 20-35 lbs (mehr Spannung)"
+      }
+     ]
+    }
+   ],
+   "finish": {
+    "text": "Tabata + optional Band-Bizeps-Curl 2x10-15",
+    "resistance": "Curl: Band nach Gefühl, Arm bleibt unten"
+   },
+   "optional": null,
+   "equipment": [
+    {
+     "gerät": "Kurzhanteln",
+     "items": [
+      "2x 14 kg (BSS)",
+      "2x 14 kg (Floor Press)"
+     ]
+    },
+    {
+     "gerät": "Kettlebell",
+     "items": [
+      "24 kg (KB-Rudern)",
+      "KB 24 kg (3s Exzentrik) (SL-RDL)"
+     ]
+    },
+    {
+     "gerät": "Bänder",
+     "items": [
+      "30-50 lbs (Pallof)",
+      "40-80 + 20-35 lbs (mehr Spannung) (Face Pull)"
+     ]
+    }
+   ]
+  },
+  {
+   "day": "Do",
+   "week": 14,
+   "warmup": [
+    {
+     "name": "Thoracic Rotations",
+     "seconds": 30,
+     "perSide": false,
+     "note": ""
+    },
+    {
+     "name": "Band-Außenrotationen",
+     "seconds": 30,
+     "perSide": false,
+     "note": ""
+    },
+    {
+     "name": "Split Squat Stretch",
+     "seconds": 30,
+     "perSide": true,
+     "note": ""
+    },
+    {
+     "name": "Hip Hinge Drill",
+     "seconds": 30,
+     "perSide": false,
+     "note": ""
+    },
+    {
+     "name": "Wall Push-up plus",
+     "seconds": 30,
+     "perSide": false,
+     "note": "Ellbogen gestreckt – kein Liegestütz; nur wenn schmerzfrei"
+    }
+   ],
+   "blocks": [
+    {
+     "block": "Block 1",
+     "exercises": [
+      {
+       "code": "A1",
+       "name": "Langhantel-Rudern vorgebeugt",
+       "sets": 4,
+       "targetReps": "6-8",
+       "perSide": false,
+       "detail": "",
+       "raw": "A1 Langhantel-Rudern vorgebeugt 4x6-8",
+       "resistance": "34 kg",
+       "resistanceLabel": "Rudern",
+       "description": "Hüftbreiter Stand, Langhantel im Obergriff. Hüfte nach hinten schieben (Hip Hinge), Oberkörper ~45° oder tiefer, Rücken neutral, Rumpf fest. Die Stange zum Bauchnabel ziehen, Ellbogen nah am Körper, Schulterblätter nach hinten-unten; langsam ablassen, kein Schwung. Schwere beidarmige Zugübung als Ergänzung zum einarmigen KB-Rudern – Arme bleiben unter 90°. Start 30 kg, bis 36 kg in Woche 15.",
+       "video": "https://www.youtube.com/watch?v=rqTOAM8WoeM",
+       "videoNote": ""
+      },
+      {
+       "code": "A2",
+       "name": "Split Squat",
+       "sets": 4,
+       "targetReps": "8-10",
+       "perSide": true,
+       "detail": "(KB Goblet, 3s Exzentrik)",
+       "raw": "A2 Split Squat 4x8-10/Seite (KB Goblet, 3s Exzentrik)",
+       "resistance": "KB 24 kg",
+       "resistanceLabel": "Split Squat",
+       "description": "Hinterer Fuß erhöht, Kniebeuge über das vordere Bein. Jetzt mit 2 Kurzhanteln statt Weste (kein Umziehen mehr).",
+       "video": "https://www.youtube.com/shorts/or1frhkjBDc",
+       "videoNote": ""
+      }
+     ],
+     "pause": "Pause ~60-75s",
+     "note": "alternierend; Pause ~60-75s",
+     "resistance": [
+      {
+       "label": "Rudern",
+       "value": "34 kg"
+      },
+      {
+       "label": "Split Squat",
+       "value": "KB 24 kg"
+      }
+     ]
+    },
+    {
+     "block": "Block 2",
+     "exercises": [
+      {
+       "code": "B1",
+       "name": "Band-Chest-Press stehend, einarmig",
+       "sets": 4,
+       "targetReps": "6-10",
+       "perSide": true,
+       "detail": "(Hand max. Schulterhöhe!)",
+       "raw": "B1 Band-Chest-Press stehend, einarmig 4x6-10/Seite (Hand max. Schulterhöhe!)",
+       "resistance": "mehr Spannung (+ 20-35 lbs)",
+       "resistanceLabel": "Chest-Press",
+       "description": "Band auf Brusthöhe hinter dir verankern (Türanker/Pfosten), Schrittstellung, Rumpf fest. Griff auf Brusthöhe, dann horizontal nach vorn ausdrücken – die Hand bleibt maximal auf Schulterhöhe, nie darüber. Langsam zurückführen, ohne dass die Schulter nach vorn kippt. Ersetzt den 45°-Press; trainiert Brust und vorderen Deltamuskel innerhalb der 90°-Grenze.",
+       "video": "https://www.youtube.com/watch?v=ssJcPFP47aw",
+       "videoNote": ""
+      },
+      {
+       "code": "B2",
+       "name": "Langhantel Romanian Deadlift",
+       "sets": 4,
+       "targetReps": "8-12",
+       "perSide": false,
+       "detail": "",
+       "raw": "B2 Langhantel Romanian Deadlift 4x8-12",
+       "resistance": "41 kg",
+       "resistanceLabel": "RDL",
+       "description": "Versetzter Stand, ~70% Last auf dem vorderen Bein.",
+       "video": "https://www.youtube.com/watch?v=slzkAoP8ioc",
+       "videoNote": ""
+      }
+     ],
+     "pause": "Pause ~60-75s",
+     "note": "alternierend; Pause ~60-75s (Langhantel: Scheiben ergänzen = einzige Umbau-Aktion der Einheit)",
+     "resistance": [
+      {
+       "label": "Chest-Press",
+       "value": "mehr Spannung (+ 20-35 lbs)"
+      },
+      {
+       "label": "RDL",
+       "value": "41 kg"
+      }
+     ]
+    },
+    {
+     "block": "Block 3",
+     "exercises": [
+      {
+       "code": "C1",
+       "name": "Band Lateral Raise",
+       "sets": 2,
+       "targetReps": "12-15",
+       "perSide": false,
+       "detail": "(nur bis ~80°, schmerzfrei!)",
+       "raw": "C1 Band Lateral Raise 2x12-15 (nur bis ~80°, schmerzfrei!)",
+       "resistance": "leichtes Band (15-25 lbs)",
+       "resistanceLabel": "Lateral Raise",
+       "description": "Auf das Band stellen, Arme leicht gebeugt seitlich anheben, STOPP bei ~80° (knapp unter Schulterhöhe), 2s halten, langsam ablassen. Leicht bleiben – Ziel ist der Erhalt der seitlichen Schultermuskulatur im schmerzfreien Bereich, ohne die 90°-Grenze zu reizen.",
+       "video": "https://www.youtube.com/watch?v=gfEyrmxbCbw",
+       "videoNote": ""
+      },
+      {
+       "code": "C2",
+       "name": "Band-Außenrotation",
+       "sets": 2,
+       "targetReps": "12-15",
+       "perSide": false,
+       "detail": "",
+       "raw": "C2 Band-Außenrotation 2x12-15",
+       "resistance": "leichtes Band",
+       "resistanceLabel": "Außenrotation",
+       "description": "Ellbogen am Körper, 90° gebeugt, Unterarm gegen leichtes Band nach außen rotieren – Rotatorenmanschette. Jetzt auch Dead-Hang-Ersatz im Warm-up.",
+       "video": "https://www.youtube.com/watch?v=_UvmPNGtlPM",
+       "videoNote": ""
+      }
+     ],
+     "pause": "Pause ~30-45s",
+     "note": "alternierend; Pause ~30-45s",
+     "resistance": [
+      {
+       "label": "Lateral Raise",
+       "value": "leichtes Band (15-25 lbs)"
+      },
+      {
+       "label": "Außenrotation",
+       "value": "leichtes Band"
+      }
+     ]
+    }
+   ],
+   "finish": {
+    "text": "Tabata + optional Band-Trizeps-Pushdown 2x10-15",
+    "resistance": "Pushdown: Band oben verankern, Ellbogen am Körper"
+   },
+   "optional": null,
+   "equipment": [
+    {
+     "gerät": "Langhantel",
+     "items": [
+      "34 kg (Rudern)",
+      "41 kg (RDL)"
+     ]
+    },
+    {
+     "gerät": "Kettlebell",
+     "items": [
+      "KB 24 kg (Split Squat)"
+     ]
+    },
+    {
+     "gerät": "Bänder",
+     "items": [
+      "leichtes Band (15-25 lbs) (Lateral Raise)",
+      "leichtes Band (Außenrotation)",
+      "mehr Spannung (+ 20-35 lbs) (Chest-Press)"
+     ]
+    }
+   ]
+  },
+  {
+   "day": "Sa",
+   "week": 14,
+   "warmup": [
+    {
+     "name": "World's Greatest Stretch",
+     "seconds": 30,
+     "perSide": true,
+     "note": "rechter Arm-Reach nur bis Schulterhöhe"
+    },
+    {
+     "name": "Squat Pry",
+     "seconds": 30,
+     "perSide": false,
+     "note": ""
+    },
+    {
+     "name": "Wall Push-up plus",
+     "seconds": 30,
+     "perSide": false,
+     "note": ""
+    },
+    {
+     "name": "Glute Bridge",
+     "seconds": 30,
+     "perSide": false,
+     "note": ""
+    },
+    {
+     "name": "Hip Hinge Drill",
+     "seconds": 30,
+     "perSide": false,
+     "note": ""
+    }
+   ],
+   "blocks": [
+    {
+     "block": "Block 1",
+     "exercises": [
+      {
+       "code": "A1",
+       "name": "Schweres Band-Rudern (auch einarmig)",
+       "sets": 3,
+       "targetReps": "10-15",
+       "perSide": false,
+       "detail": "",
+       "raw": "A1 Schweres Band-Rudern (auch einarmig) 3x10-15",
+       "resistance": "40-80 + 20-35 + 15-25 lbs",
+       "resistanceLabel": "Band-Rudern",
+       "description": "Hüftbreiter Stand, Langhantel im Obergriff. Hüfte nach hinten schieben (Hip Hinge), Oberkörper ~45° oder tiefer, Rücken neutral, Rumpf fest. Die Stange zum Bauchnabel ziehen, Ellbogen nah am Körper, Schulterblätter nach hinten-unten; langsam ablassen, kein Schwung. Schwere beidarmige Zugübung als Ergänzung zum einarmigen KB-Rudern – Arme bleiben unter 90°. Start 30 kg, bis 36 kg in Woche 15.",
+       "video": "https://www.youtube.com/watch?v=rqTOAM8WoeM",
+       "videoNote": ""
+      },
+      {
+       "code": "A2",
+       "name": "Goblet Squat (KB)",
+       "sets": 3,
+       "targetReps": "8-12",
+       "perSide": false,
+       "detail": "(3s Exzentrik + 2s Pause unten)",
+       "raw": "A2 Goblet Squat (KB) 3x8-12 (3s Exzentrik + 2s Pause unten)",
+       "resistance": "KB 24 kg",
+       "resistanceLabel": "Goblet",
+       "description": "KB vor der Brust, volle kontrollierte Tiefe.",
+       "video": "https://www.youtube.com/watch?v=MWHIs0zxkCU",
+       "videoNote": ""
+      }
+     ],
+     "pause": "Pause ~75s",
+     "note": "alternierend; Pause ~75s",
+     "resistance": [
+      {
+       "label": "Band-Rudern",
+       "value": "40-80 + 20-35 + 15-25 lbs"
+      },
+      {
+       "label": "Goblet",
+       "value": "KB 24 kg"
+      }
+     ]
+    },
+    {
+     "block": "Block 2",
+     "exercises": [
+      {
+       "code": "B1",
+       "name": "Kurzhantel Floor Press (neutraler Griff)",
+       "sets": 3,
+       "targetReps": "8-12",
+       "perSide": false,
+       "detail": "gleiche Last wie Di",
+       "raw": "B1 Kurzhantel Floor Press (neutraler Griff) 3x8-12 – gleiche Last wie Di",
+       "resistance": "2x 14 kg",
+       "resistanceLabel": "Floor Press",
+       "description": "Rückenlage, Knie angestellt, in jeder Hand eine Kurzhantel mit neutralem Griff (Handflächen zueinander) über der Brust ausdrücken, Ellbogen ~45° vom Körper. Langsam ablassen, bis der Trizeps den Boden berührt – der Boden begrenzt die Bewegung und schützt das AC-Gelenk – kurz pausieren, dann hochdrücken. Ersetzt den KB Floor Press: Die Kurzhantel-Last liegt zentriert über der Handwurzel, das Handgelenk bleibt gerade (KB-Version war fürs Handgelenk schmerzhaft). Brust-/Trizeps-Hauptübung, 2x pro Woche (Di + Sa).",
+       "video": "https://www.youtube.com/watch?v=rs05AtccEhg",
+       "videoNote": ""
+      },
+      {
+       "code": "B2",
+       "name": "KB Swing ZWEIARMIG",
+       "sets": 5,
+       "targetReps": "15",
+       "perSide": false,
+       "detail": "Endpunkt Brustbein, bewusst unter 90°!",
+       "raw": "B2 KB Swing ZWEIARMIG 5x15 – Endpunkt Brustbein, bewusst unter 90°!",
+       "resistance": "KB 24 kg",
+       "resistanceLabel": "Swing",
+       "description": "Explosiver Hüftimpuls, zweiarmig. NEU: Endpunkt bewusst am Brustbein kappen (unter 90°), nicht bis Brust-/Schulterhöhe schwingen lassen.",
+       "video": "",
+       "videoNote": ""
+      }
+     ],
+     "pause": "",
+     "note": "Swings alle ~90s, Floor Press in den Pausen",
+     "resistance": [
+      {
+       "label": "Floor Press",
+       "value": "2x 14 kg"
+      },
+      {
+       "label": "Swing",
+       "value": "KB 24 kg"
+      }
+     ]
+    },
+    {
+     "block": "Block 3",
+     "exercises": [
+      {
+       "code": "C1",
+       "name": "Liegende Leg Raises",
+       "sets": 2,
+       "targetReps": "8-12",
+       "perSide": false,
+       "detail": "(Richtung gestreckte Beine / Hollow Hold)",
+       "raw": "C1 Liegende Leg Raises 2x8-12 (Richtung gestreckte Beine / Hollow Hold)",
+       "resistance": "Eigengewicht",
+       "resistanceLabel": "Leg Raises",
+       "description": "Rückenlage, Hände neben dem Gesäß, unterer Rücken bleibt die GANZE Zeit am Boden (Rumpf fest). Gestreckte oder leicht gebeugte Beine kontrolliert auf ~90° heben, langsam (3s) ablassen, kurz über dem Boden stoppen. Zu schwer? Knie mehr beugen. Zu leicht? Beine strecken, langsamer ablassen oder Hollow Hold ergänzen. Ersetzt Hanging Leg Raise ohne Zug aufs Schultergelenk.",
+       "video": "https://www.youtube.com/watch?v=3oIpxsn6FxQ",
+       "videoNote": ""
+      },
+      {
+       "code": "C2",
+       "name": "Suitcase Carry",
+       "sets": 2,
+       "targetReps": "30-40m",
+       "perSide": true,
+       "detail": "",
+       "raw": "C2 Suitcase Carry 2x30-40m/Seite",
+       "resistance": "KB 24 kg oder Kurzhantel bis 21 kg",
+       "resistanceLabel": "Carry",
+       "description": "Schwere Last (KB 24 kg oder Kurzhantel) einseitig wie einen Koffer tragen, 30-40 m je Seite. Aufrecht bleiben, nicht zur Seite kippen, Schulterblatt hinten-unten „geparkt\". Trainiert Rumpf (seitliche Kette), Griffkraft und Schulterstabilität komplett ohne Armhebung.",
+       "video": "https://www.youtube.com/watch?v=y-hn_Ha1-RE",
+       "videoNote": ""
+      }
+     ],
+     "pause": "Pause ~30-45s",
+     "note": "alternierend; Pause ~30-45s",
+     "resistance": [
+      {
+       "label": "Leg Raises",
+       "value": "Eigengewicht"
+      },
+      {
+       "label": "Carry",
+       "value": "KB 24 kg oder Kurzhantel bis 21 kg"
+      }
+     ]
+    }
+   ],
+   "finish": null,
+   "optional": {
+    "text": "Nur wenn frisch: 1 Extra-Satz Floor Press + Rudern – oder lockere Mobility",
+    "resistance": ""
+   },
+   "equipment": [
+    {
+     "gerät": "Kurzhanteln",
+     "items": [
+      "2x 14 kg (Floor Press)",
+      "KB 24 kg oder Kurzhantel bis 21 kg (Carry)"
+     ]
+    },
+    {
+     "gerät": "Kettlebell",
+     "items": [
+      "KB 24 kg (Goblet)",
+      "KB 24 kg (Swing)"
+     ]
+    },
+    {
+     "gerät": "Bänder",
+     "items": [
+      "40-80 + 20-35 + 15-25 lbs (Band-Rudern)"
+     ]
+    }
+   ]
+  },
+  {
+   "day": "Di",
+   "week": 15,
+   "warmup": [
+    {
+     "name": "Cat-Camel",
+     "seconds": 30,
+     "perSide": false,
+     "note": ""
+    },
+    {
+     "name": "Schulterkreisen",
+     "seconds": 30,
+     "perSide": false,
+     "note": "klein, unter 90°"
+    },
+    {
+     "name": "Band Pull-aparts",
+     "seconds": 30,
+     "perSide": false,
+     "note": ""
+    },
+    {
+     "name": "Glute Bridge",
+     "seconds": 30,
+     "perSide": false,
+     "note": ""
+    },
+    {
+     "name": "Bodyweight Squat",
+     "seconds": 30,
+     "perSide": false,
+     "note": ""
+    },
+    {
+     "name": "Band-Außenrotationen",
+     "seconds": 30,
+     "perSide": false,
+     "note": ""
+    }
+   ],
+   "blocks": [
+    {
+     "block": "Block 1",
+     "exercises": [
+      {
+       "code": "A1",
+       "name": "Einarmiges KB-Rudern vorgebeugt",
+       "sets": 4,
+       "targetReps": "6-10",
+       "perSide": true,
+       "detail": "",
+       "raw": "A1 Einarmiges KB-Rudern vorgebeugt 4x6-10/Seite",
+       "resistance": "24 kg",
+       "resistanceLabel": "KB-Rudern",
+       "description": "Hüftbreiter Stand, Kettlebell in einer Hand, freie Hand auf Knie oder Ablage stützen. Hüfte nach hinten schieben (Hip Hinge), Rücken gerade, Oberkörper ~45° vorgeneigt. Die KB mit dem Ellbogen eng am Körper zur unteren Rippe ziehen, Schulterblatt dabei bewusst nach hinten-unten ziehen, oben 1s halten, langsam ablassen. Kein Schwung, kein Rotieren des Rumpfes. Trainiert Lat, oberen Rücken und Bizeps – der direkte Klimmzug-Ersatz; der Arm bleibt die ganze Zeit unter Schulterhöhe.",
+       "video": "https://www.youtube.com/watch?v=8gg400ddt-g",
+       "videoNote": ""
+      },
+      {
+       "code": "A2",
+       "name": "Bulgarian Split Squat",
+       "sets": 4,
+       "targetReps": "6-8",
+       "perSide": true,
+       "detail": "(2 Kurzhanteln)",
+       "raw": "A2 Bulgarian Split Squat 4x6-8/Seite (2 Kurzhanteln)",
+       "resistance": "2x 15-16 kg",
+       "resistanceLabel": "BSS",
+       "description": "Hinterer Fuß erhöht, Kniebeuge über das vordere Bein. Jetzt mit 2 Kurzhanteln statt Weste (kein Umziehen mehr).",
+       "video": "https://www.youtube.com/shorts/or1frhkjBDc",
+       "videoNote": ""
+      }
+     ],
+     "pause": "Pause ~60-75s",
+     "note": "alternierend; Pause ~60-75s nach jeder Übung",
+     "resistance": [
+      {
+       "label": "KB-Rudern",
+       "value": "24 kg"
+      },
+      {
+       "label": "BSS",
+       "value": "2x 15-16 kg"
+      }
+     ]
+    },
+    {
+     "block": "Block 2",
+     "exercises": [
+      {
+       "code": "B1",
+       "name": "Kurzhantel Floor Press (neutraler Griff)",
+       "sets": 4,
+       "targetReps": "8-12",
+       "perSide": false,
+       "detail": "gleiche Kurzhanteln wie Block 1, kein Umstecken",
+       "raw": "B1 Kurzhantel Floor Press (neutraler Griff) 4x8-12 – gleiche Kurzhanteln wie Block 1, kein Umstecken",
+       "resistance": "2x 15-16 kg",
+       "resistanceLabel": "Floor Press",
+       "description": "Rückenlage, Knie angestellt, in jeder Hand eine Kurzhantel mit neutralem Griff (Handflächen zueinander) über der Brust ausdrücken, Ellbogen ~45° vom Körper. Langsam ablassen, bis der Trizeps den Boden berührt – der Boden begrenzt die Bewegung und schützt das AC-Gelenk – kurz pausieren, dann hochdrücken. Ersetzt den KB Floor Press: Die Kurzhantel-Last liegt zentriert über der Handwurzel, das Handgelenk bleibt gerade (KB-Version war fürs Handgelenk schmerzhaft). Brust-/Trizeps-Hauptübung, 2x pro Woche (Di + Sa).",
+       "video": "https://www.youtube.com/watch?v=rs05AtccEhg",
+       "videoNote": ""
+      },
+      {
+       "code": "B2",
+       "name": "Single-Leg Romanian Deadlift (KB)",
+       "sets": 4,
+       "targetReps": "8-10",
+       "perSide": true,
+       "detail": "",
+       "raw": "B2 Single-Leg Romanian Deadlift (KB) 4x8-10/Seite",
+       "resistance": "KB 24 kg (3s Exzentrik + 1s Pause)",
+       "resistanceLabel": "SL-RDL",
+       "description": "Einbeinig, KB in der Gegenhand, langsam und stabil.",
+       "video": "https://www.youtube.com/watch?v=iS7atZhcRnw",
+       "videoNote": ""
+      }
+     ],
+     "pause": "Pause ~60-75s",
+     "note": "alternierend; Pause ~60-75s",
+     "resistance": [
+      {
+       "label": "Floor Press",
+       "value": "2x 15-16 kg"
+      },
+      {
+       "label": "SL-RDL",
+       "value": "KB 24 kg (3s Exzentrik + 1s Pause)"
+      }
+     ]
+    },
+    {
+     "block": "Block 3",
+     "exercises": [
+      {
+       "code": "C1",
+       "name": "Pallof Press",
+       "sets": 2,
+       "targetReps": "10-12",
+       "perSide": true,
+       "detail": "",
+       "raw": "C1 Pallof Press 2x10-12/Seite",
+       "resistance": "30-50 lbs",
+       "resistanceLabel": "Pallof",
+       "description": "Gespanntes Band seitlich, Hände auf Brusthöhe nach vorn drücken, Rotation widerstehen.",
+       "video": "",
+       "videoNote": ""
+      },
+      {
+       "code": "C2",
+       "name": "Band Face Pull",
+       "sets": 2,
+       "targetReps": "12-15",
+       "perSide": false,
+       "detail": "(Ellbogen max. Schulterhöhe)",
+       "raw": "C2 Band Face Pull 2x12-15 (Ellbogen max. Schulterhöhe)",
+       "resistance": "40-80 + 20-35 lbs (mehr Spannung)",
+       "resistanceLabel": "Face Pull",
+       "description": "Band zum Gesicht ziehen, Ellbogen hoch (max. Schulterhöhe) – hintere Schulter/oberer Rücken.",
+       "video": "https://www.youtube.com/shorts/1s-0WtJMsu8",
+       "videoNote": ""
+      }
+     ],
+     "pause": "Pause ~30-45s",
+     "note": "alternierend; Pause ~30-45s",
+     "resistance": [
+      {
+       "label": "Pallof",
+       "value": "30-50 lbs"
+      },
+      {
+       "label": "Face Pull",
+       "value": "40-80 + 20-35 lbs (mehr Spannung)"
+      }
+     ]
+    }
+   ],
+   "finish": {
+    "text": "Tabata + optional Band-Bizeps-Curl 2x10-15",
+    "resistance": "Curl: Band nach Gefühl, Arm bleibt unten"
+   },
+   "optional": null,
+   "equipment": [
+    {
+     "gerät": "Kurzhanteln",
+     "items": [
+      "2x 15-16 kg (BSS)",
+      "2x 15-16 kg (Floor Press)"
+     ]
+    },
+    {
+     "gerät": "Kettlebell",
+     "items": [
+      "24 kg (KB-Rudern)",
+      "KB 24 kg (3s Exzentrik + 1s Pause) (SL-RDL)"
+     ]
+    },
+    {
+     "gerät": "Bänder",
+     "items": [
+      "30-50 lbs (Pallof)",
+      "40-80 + 20-35 lbs (mehr Spannung) (Face Pull)"
+     ]
+    }
+   ]
+  },
+  {
+   "day": "Do",
+   "week": 15,
+   "warmup": [
+    {
+     "name": "Thoracic Rotations",
+     "seconds": 30,
+     "perSide": false,
+     "note": ""
+    },
+    {
+     "name": "Band-Außenrotationen",
+     "seconds": 30,
+     "perSide": false,
+     "note": ""
+    },
+    {
+     "name": "Split Squat Stretch",
+     "seconds": 30,
+     "perSide": true,
+     "note": ""
+    },
+    {
+     "name": "Hip Hinge Drill",
+     "seconds": 30,
+     "perSide": false,
+     "note": ""
+    },
+    {
+     "name": "Wall Push-up plus",
+     "seconds": 30,
+     "perSide": false,
+     "note": "Ellbogen gestreckt – kein Liegestütz; nur wenn schmerzfrei"
+    }
+   ],
+   "blocks": [
+    {
+     "block": "Block 1",
+     "exercises": [
+      {
+       "code": "A1",
+       "name": "Langhantel-Rudern vorgebeugt",
+       "sets": 4,
+       "targetReps": "6-8",
+       "perSide": false,
+       "detail": "",
+       "raw": "A1 Langhantel-Rudern vorgebeugt 4x6-8",
+       "resistance": "36 kg",
+       "resistanceLabel": "Rudern",
+       "description": "Hüftbreiter Stand, Langhantel im Obergriff. Hüfte nach hinten schieben (Hip Hinge), Oberkörper ~45° oder tiefer, Rücken neutral, Rumpf fest. Die Stange zum Bauchnabel ziehen, Ellbogen nah am Körper, Schulterblätter nach hinten-unten; langsam ablassen, kein Schwung. Schwere beidarmige Zugübung als Ergänzung zum einarmigen KB-Rudern – Arme bleiben unter 90°. Start 30 kg, bis 36 kg in Woche 15.",
+       "video": "https://www.youtube.com/watch?v=rqTOAM8WoeM",
+       "videoNote": ""
+      },
+      {
+       "code": "A2",
+       "name": "Split Squat",
+       "sets": 4,
+       "targetReps": "8-10",
+       "perSide": true,
+       "detail": "(KB Goblet, 3s Exzentrik)",
+       "raw": "A2 Split Squat 4x8-10/Seite (KB Goblet, 3s Exzentrik)",
+       "resistance": "KB 24 kg",
+       "resistanceLabel": "Split Squat",
+       "description": "Hinterer Fuß erhöht, Kniebeuge über das vordere Bein. Jetzt mit 2 Kurzhanteln statt Weste (kein Umziehen mehr).",
+       "video": "https://www.youtube.com/shorts/or1frhkjBDc",
+       "videoNote": ""
+      }
+     ],
+     "pause": "Pause ~60-75s",
+     "note": "alternierend; Pause ~60-75s",
+     "resistance": [
+      {
+       "label": "Rudern",
+       "value": "36 kg"
+      },
+      {
+       "label": "Split Squat",
+       "value": "KB 24 kg"
+      }
+     ]
+    },
+    {
+     "block": "Block 2",
+     "exercises": [
+      {
+       "code": "B1",
+       "name": "Band-Chest-Press stehend, einarmig",
+       "sets": 4,
+       "targetReps": "6-10",
+       "perSide": true,
+       "detail": "(Hand max. Schulterhöhe!)",
+       "raw": "B1 Band-Chest-Press stehend, einarmig 4x6-10/Seite (Hand max. Schulterhöhe!)",
+       "resistance": "mehr Spannung",
+       "resistanceLabel": "Chest-Press",
+       "description": "Band auf Brusthöhe hinter dir verankern (Türanker/Pfosten), Schrittstellung, Rumpf fest. Griff auf Brusthöhe, dann horizontal nach vorn ausdrücken – die Hand bleibt maximal auf Schulterhöhe, nie darüber. Langsam zurückführen, ohne dass die Schulter nach vorn kippt. Ersetzt den 45°-Press; trainiert Brust und vorderen Deltamuskel innerhalb der 90°-Grenze.",
+       "video": "https://www.youtube.com/watch?v=ssJcPFP47aw",
+       "videoNote": ""
+      },
+      {
+       "code": "B2",
+       "name": "Langhantel Romanian Deadlift",
+       "sets": 4,
+       "targetReps": "8-12",
+       "perSide": false,
+       "detail": "",
+       "raw": "B2 Langhantel Romanian Deadlift 4x8-12",
+       "resistance": "44 kg (max. 45,8 kg)",
+       "resistanceLabel": "RDL",
+       "description": "Versetzter Stand, ~70% Last auf dem vorderen Bein.",
+       "video": "https://www.youtube.com/watch?v=slzkAoP8ioc",
+       "videoNote": ""
+      }
+     ],
+     "pause": "Pause ~60-75s",
+     "note": "alternierend; Pause ~60-75s (Langhantel: Scheiben ergänzen = einzige Umbau-Aktion der Einheit)",
+     "resistance": [
+      {
+       "label": "Chest-Press",
+       "value": "mehr Spannung"
+      },
+      {
+       "label": "RDL",
+       "value": "44 kg (max. 45,8 kg)"
+      }
+     ]
+    },
+    {
+     "block": "Block 3",
+     "exercises": [
+      {
+       "code": "C1",
+       "name": "Band Lateral Raise",
+       "sets": 2,
+       "targetReps": "12-15",
+       "perSide": false,
+       "detail": "(nur bis ~80°, schmerzfrei!)",
+       "raw": "C1 Band Lateral Raise 2x12-15 (nur bis ~80°, schmerzfrei!)",
+       "resistance": "leichtes Band (15-25 lbs)",
+       "resistanceLabel": "Lateral Raise",
+       "description": "Auf das Band stellen, Arme leicht gebeugt seitlich anheben, STOPP bei ~80° (knapp unter Schulterhöhe), 2s halten, langsam ablassen. Leicht bleiben – Ziel ist der Erhalt der seitlichen Schultermuskulatur im schmerzfreien Bereich, ohne die 90°-Grenze zu reizen.",
+       "video": "https://www.youtube.com/watch?v=gfEyrmxbCbw",
+       "videoNote": ""
+      },
+      {
+       "code": "C2",
+       "name": "Band-Außenrotation",
+       "sets": 2,
+       "targetReps": "12-15",
+       "perSide": false,
+       "detail": "",
+       "raw": "C2 Band-Außenrotation 2x12-15",
+       "resistance": "leichtes Band",
+       "resistanceLabel": "Außenrotation",
+       "description": "Ellbogen am Körper, 90° gebeugt, Unterarm gegen leichtes Band nach außen rotieren – Rotatorenmanschette. Jetzt auch Dead-Hang-Ersatz im Warm-up.",
+       "video": "https://www.youtube.com/watch?v=_UvmPNGtlPM",
+       "videoNote": ""
+      }
+     ],
+     "pause": "Pause ~30-45s",
+     "note": "alternierend; Pause ~30-45s",
+     "resistance": [
+      {
+       "label": "Lateral Raise",
+       "value": "leichtes Band (15-25 lbs)"
+      },
+      {
+       "label": "Außenrotation",
+       "value": "leichtes Band"
+      }
+     ]
+    }
+   ],
+   "finish": {
+    "text": "Tabata + optional Band-Trizeps-Pushdown 2x10-15",
+    "resistance": "Pushdown: Band oben verankern, Ellbogen am Körper"
+   },
+   "optional": null,
+   "equipment": [
+    {
+     "gerät": "Langhantel",
+     "items": [
+      "36 kg (Rudern)",
+      "44 kg (max. 45,8 kg) (RDL)"
+     ]
+    },
+    {
+     "gerät": "Kettlebell",
+     "items": [
+      "KB 24 kg (Split Squat)"
+     ]
+    },
+    {
+     "gerät": "Bänder",
+     "items": [
+      "leichtes Band (15-25 lbs) (Lateral Raise)",
+      "leichtes Band (Außenrotation)",
+      "mehr Spannung (Chest-Press)"
+     ]
+    }
+   ]
+  },
+  {
+   "day": "Sa",
+   "week": 15,
+   "warmup": [
+    {
+     "name": "World's Greatest Stretch",
+     "seconds": 30,
+     "perSide": true,
+     "note": "rechter Arm-Reach nur bis Schulterhöhe"
+    },
+    {
+     "name": "Squat Pry",
+     "seconds": 30,
+     "perSide": false,
+     "note": ""
+    },
+    {
+     "name": "Wall Push-up plus",
+     "seconds": 30,
+     "perSide": false,
+     "note": ""
+    },
+    {
+     "name": "Glute Bridge",
+     "seconds": 30,
+     "perSide": false,
+     "note": ""
+    },
+    {
+     "name": "Hip Hinge Drill",
+     "seconds": 30,
+     "perSide": false,
+     "note": ""
+    }
+   ],
+   "blocks": [
+    {
+     "block": "Block 1",
+     "exercises": [
+      {
+       "code": "A1",
+       "name": "Schweres Band-Rudern (auch einarmig)",
+       "sets": 3,
+       "targetReps": "10-15",
+       "perSide": false,
+       "detail": "",
+       "raw": "A1 Schweres Band-Rudern (auch einarmig) 3x10-15",
+       "resistance": "40-80 + 20-35 + 15-25 lbs",
+       "resistanceLabel": "Band-Rudern",
+       "description": "Hüftbreiter Stand, Langhantel im Obergriff. Hüfte nach hinten schieben (Hip Hinge), Oberkörper ~45° oder tiefer, Rücken neutral, Rumpf fest. Die Stange zum Bauchnabel ziehen, Ellbogen nah am Körper, Schulterblätter nach hinten-unten; langsam ablassen, kein Schwung. Schwere beidarmige Zugübung als Ergänzung zum einarmigen KB-Rudern – Arme bleiben unter 90°. Start 30 kg, bis 36 kg in Woche 15.",
+       "video": "https://www.youtube.com/watch?v=rqTOAM8WoeM",
+       "videoNote": ""
+      },
+      {
+       "code": "A2",
+       "name": "Goblet Squat (KB)",
+       "sets": 3,
+       "targetReps": "8-12",
+       "perSide": false,
+       "detail": "(3s Exzentrik + 2s Pause unten)",
+       "raw": "A2 Goblet Squat (KB) 3x8-12 (3s Exzentrik + 2s Pause unten)",
+       "resistance": "KB 24 kg",
+       "resistanceLabel": "Goblet",
+       "description": "KB vor der Brust, volle kontrollierte Tiefe.",
+       "video": "https://www.youtube.com/watch?v=MWHIs0zxkCU",
+       "videoNote": ""
+      }
+     ],
+     "pause": "Pause ~75s",
+     "note": "alternierend; Pause ~75s",
+     "resistance": [
+      {
+       "label": "Band-Rudern",
+       "value": "40-80 + 20-35 + 15-25 lbs"
+      },
+      {
+       "label": "Goblet",
+       "value": "KB 24 kg"
+      }
+     ]
+    },
+    {
+     "block": "Block 2",
+     "exercises": [
+      {
+       "code": "B1",
+       "name": "Kurzhantel Floor Press (neutraler Griff)",
+       "sets": 3,
+       "targetReps": "8-12",
+       "perSide": false,
+       "detail": "gleiche Last wie Di",
+       "raw": "B1 Kurzhantel Floor Press (neutraler Griff) 3x8-12 – gleiche Last wie Di",
+       "resistance": "2x 15-16 kg",
+       "resistanceLabel": "Floor Press",
+       "description": "Rückenlage, Knie angestellt, in jeder Hand eine Kurzhantel mit neutralem Griff (Handflächen zueinander) über der Brust ausdrücken, Ellbogen ~45° vom Körper. Langsam ablassen, bis der Trizeps den Boden berührt – der Boden begrenzt die Bewegung und schützt das AC-Gelenk – kurz pausieren, dann hochdrücken. Ersetzt den KB Floor Press: Die Kurzhantel-Last liegt zentriert über der Handwurzel, das Handgelenk bleibt gerade (KB-Version war fürs Handgelenk schmerzhaft). Brust-/Trizeps-Hauptübung, 2x pro Woche (Di + Sa).",
+       "video": "https://www.youtube.com/watch?v=rs05AtccEhg",
+       "videoNote": ""
+      },
+      {
+       "code": "B2",
+       "name": "KB Swing ZWEIARMIG",
+       "sets": 5,
+       "targetReps": "15",
+       "perSide": false,
+       "detail": "Endpunkt Brustbein, bewusst unter 90°!",
+       "raw": "B2 KB Swing ZWEIARMIG 5x15 – Endpunkt Brustbein, bewusst unter 90°!",
+       "resistance": "KB 24 kg",
+       "resistanceLabel": "Swing",
+       "description": "Explosiver Hüftimpuls, zweiarmig. NEU: Endpunkt bewusst am Brustbein kappen (unter 90°), nicht bis Brust-/Schulterhöhe schwingen lassen.",
+       "video": "",
+       "videoNote": ""
+      }
+     ],
+     "pause": "",
+     "note": "Swings alle ~90s, Floor Press in den Pausen",
+     "resistance": [
+      {
+       "label": "Floor Press",
+       "value": "2x 15-16 kg"
+      },
+      {
+       "label": "Swing",
+       "value": "KB 24 kg"
+      }
+     ]
+    },
+    {
+     "block": "Block 3",
+     "exercises": [
+      {
+       "code": "C1",
+       "name": "Liegende Leg Raises",
+       "sets": 2,
+       "targetReps": "8-12",
+       "perSide": false,
+       "detail": "(Richtung gestreckte Beine / Hollow Hold)",
+       "raw": "C1 Liegende Leg Raises 2x8-12 (Richtung gestreckte Beine / Hollow Hold)",
+       "resistance": "Eigengewicht",
+       "resistanceLabel": "Leg Raises",
+       "description": "Rückenlage, Hände neben dem Gesäß, unterer Rücken bleibt die GANZE Zeit am Boden (Rumpf fest). Gestreckte oder leicht gebeugte Beine kontrolliert auf ~90° heben, langsam (3s) ablassen, kurz über dem Boden stoppen. Zu schwer? Knie mehr beugen. Zu leicht? Beine strecken, langsamer ablassen oder Hollow Hold ergänzen. Ersetzt Hanging Leg Raise ohne Zug aufs Schultergelenk.",
+       "video": "https://www.youtube.com/watch?v=3oIpxsn6FxQ",
+       "videoNote": ""
+      },
+      {
+       "code": "C2",
+       "name": "Suitcase Carry",
+       "sets": 2,
+       "targetReps": "30-40m",
+       "perSide": true,
+       "detail": "",
+       "raw": "C2 Suitcase Carry 2x30-40m/Seite",
+       "resistance": "KB 24 kg oder Kurzhantel bis 21 kg",
+       "resistanceLabel": "Carry",
+       "description": "Schwere Last (KB 24 kg oder Kurzhantel) einseitig wie einen Koffer tragen, 30-40 m je Seite. Aufrecht bleiben, nicht zur Seite kippen, Schulterblatt hinten-unten „geparkt\". Trainiert Rumpf (seitliche Kette), Griffkraft und Schulterstabilität komplett ohne Armhebung.",
+       "video": "https://www.youtube.com/watch?v=y-hn_Ha1-RE",
+       "videoNote": ""
+      }
+     ],
+     "pause": "Pause ~30-45s",
+     "note": "alternierend; Pause ~30-45s",
+     "resistance": [
+      {
+       "label": "Leg Raises",
+       "value": "Eigengewicht"
+      },
+      {
+       "label": "Carry",
+       "value": "KB 24 kg oder Kurzhantel bis 21 kg"
+      }
+     ]
+    }
+   ],
+   "finish": null,
+   "optional": {
+    "text": "Nur wenn frisch: 1 Extra-Satz Floor Press + Rudern – oder lockere Mobility",
+    "resistance": ""
+   },
+   "equipment": [
+    {
+     "gerät": "Kurzhanteln",
+     "items": [
+      "2x 15-16 kg (Floor Press)",
+      "KB 24 kg oder Kurzhantel bis 21 kg (Carry)"
+     ]
+    },
+    {
+     "gerät": "Kettlebell",
+     "items": [
+      "KB 24 kg (Goblet)",
+      "KB 24 kg (Swing)"
+     ]
+    },
+    {
+     "gerät": "Bänder",
+     "items": [
+      "40-80 + 20-35 + 15-25 lbs (Band-Rudern)"
+     ]
+    }
+   ]
+  }
+ ],
+ "exercises": [
+  {
+   "name": "Einarmiges KB-Rudern vorgebeugt",
+   "description": "Hüftbreiter Stand, Kettlebell in einer Hand, freie Hand auf Knie oder Ablage stützen. Hüfte nach hinten schieben (Hip Hinge), Rücken gerade, Oberkörper ~45° vorgeneigt. Die KB mit dem Ellbogen eng am Körper zur unteren Rippe ziehen, Schulterblatt dabei bewusst nach hinten-unten ziehen, oben 1s halten, langsam ablassen. Kein Schwung, kein Rotieren des Rumpfes. Trainiert Lat, oberen Rücken und Bizeps – der direkte Klimmzug-Ersatz; der Arm bleibt die ganze Zeit unter Schulterhöhe.",
+   "video": "https://www.youtube.com/watch?v=8gg400ddt-g",
+   "videoNote": ""
+  },
+  {
+   "name": "Kurzhantel Floor Press (neutraler Griff)",
+   "description": "Rückenlage, Knie angestellt, in jeder Hand eine Kurzhantel mit neutralem Griff (Handflächen zueinander) über der Brust ausdrücken, Ellbogen ~45° vom Körper. Langsam ablassen, bis der Trizeps den Boden berührt – der Boden begrenzt die Bewegung und schützt das AC-Gelenk – kurz pausieren, dann hochdrücken. Ersetzt den KB Floor Press: Die Kurzhantel-Last liegt zentriert über der Handwurzel, das Handgelenk bleibt gerade (KB-Version war fürs Handgelenk schmerzhaft). Brust-/Trizeps-Hauptübung, 2x pro Woche (Di + Sa).",
+   "video": "https://www.youtube.com/watch?v=rs05AtccEhg",
+   "videoNote": ""
+  },
+  {
+   "name": "Band-Chest-Press stehend, einarmig",
+   "description": "Band auf Brusthöhe hinter dir verankern (Türanker/Pfosten), Schrittstellung, Rumpf fest. Griff auf Brusthöhe, dann horizontal nach vorn ausdrücken – die Hand bleibt maximal auf Schulterhöhe, nie darüber. Langsam zurückführen, ohne dass die Schulter nach vorn kippt. Ersetzt den 45°-Press; trainiert Brust und vorderen Deltamuskel innerhalb der 90°-Grenze.",
+   "video": "https://www.youtube.com/watch?v=ssJcPFP47aw",
+   "videoNote": ""
+  },
+  {
+   "name": "Band-Bizeps-Curl",
+   "description": "Auf das Band stellen (ein oder beide Füße = Widerstand wählen), Ellbogen fest an den Seiten. Unterarme nach oben curlen, oben kurz anspannen, langsam (2-3s) ablassen. Nur der Unterarm bewegt sich – kein Schwung aus Schulter oder Rücken. Ersetzt das Bizeps-Volumen der weggefallenen Klimmzüge.",
+   "video": "https://www.youtube.com/watch?v=Da57AuIofvU",
+   "videoNote": ""
+  },
+  {
+   "name": "Band-Trizeps-Pushdown",
+   "description": "Band oben verankern (z.B. Klimmzugstange). Ellbogen eng am Körper fixieren, Unterarme nach unten strecken bis die Arme gestreckt sind, Trizeps unten fest anspannen, langsam zurück. Oberarme bewegen sich nicht. Arm bleibt komplett unten – ideal bei 90°-Regel.",
+   "video": "https://www.youtube.com/watch?v=qjPN6ElNqpc",
+   "videoNote": ""
+  },
+  {
+   "name": "Liegende Leg Raises",
+   "description": "Rückenlage, Hände neben dem Gesäß, unterer Rücken bleibt die GANZE Zeit am Boden (Rumpf fest). Gestreckte oder leicht gebeugte Beine kontrolliert auf ~90° heben, langsam (3s) ablassen, kurz über dem Boden stoppen. Zu schwer? Knie mehr beugen. Zu leicht? Beine strecken, langsamer ablassen oder Hollow Hold ergänzen. Ersetzt Hanging Leg Raise ohne Zug aufs Schultergelenk.",
+   "video": "https://www.youtube.com/watch?v=3oIpxsn6FxQ",
+   "videoNote": ""
+  },
+  {
+   "name": "Wall Push-up plus (Scapula-Liegestütz an der Wand)",
+   "description": "Arme gestreckt gegen die Wand auf Schulterhöhe. Ellbogen bleiben gestreckt: Brustkorb zur Wand sinken lassen (Schulterblätter ziehen zusammen), dann aktiv von der Wand wegdrücken und die Schulterblätter maximal auseinanderschieben („plus\"). Langsam, 10-15 Wdh. Aktiviert den Serratus anterior – wichtig für die Schulterblattführung; Warm-up-Ersatz für Scap Pull-up und Push-up to Down-Dog.",
+   "video": "https://www.youtube.com/watch?v=Vs1aUxaqpIQ",
+   "videoNote": ""
+  },
+  {
+   "name": "Langhantel-Rudern vorgebeugt",
+   "description": "Hüftbreiter Stand, Langhantel im Obergriff. Hüfte nach hinten schieben (Hip Hinge), Oberkörper ~45° oder tiefer, Rücken neutral, Rumpf fest. Die Stange zum Bauchnabel ziehen, Ellbogen nah am Körper, Schulterblätter nach hinten-unten; langsam ablassen, kein Schwung. Schwere beidarmige Zugübung als Ergänzung zum einarmigen KB-Rudern – Arme bleiben unter 90°. Start 30 kg, bis 36 kg in Woche 15.",
+   "video": "https://www.youtube.com/watch?v=rqTOAM8WoeM",
+   "videoNote": ""
+  },
+  {
+   "name": "Band Lateral Raise (bis ~80°)",
+   "description": "Auf das Band stellen, Arme leicht gebeugt seitlich anheben, STOPP bei ~80° (knapp unter Schulterhöhe), 2s halten, langsam ablassen. Leicht bleiben – Ziel ist der Erhalt der seitlichen Schultermuskulatur im schmerzfreien Bereich, ohne die 90°-Grenze zu reizen.",
+   "video": "https://www.youtube.com/watch?v=gfEyrmxbCbw",
+   "videoNote": ""
+  },
+  {
+   "name": "Suitcase Carry",
+   "description": "Schwere Last (KB 24 kg oder Kurzhantel) einseitig wie einen Koffer tragen, 30-40 m je Seite. Aufrecht bleiben, nicht zur Seite kippen, Schulterblatt hinten-unten „geparkt\". Trainiert Rumpf (seitliche Kette), Griffkraft und Schulterstabilität komplett ohne Armhebung.",
+   "video": "https://www.youtube.com/watch?v=y-hn_Ha1-RE",
+   "videoNote": ""
+  },
+  {
+   "name": "Cat-Camel",
+   "description": "Auf allen Vieren langsam zwischen Rundrücken und Hohlkreuz wechseln – Aufwärmen der Wirbelsäule.",
+   "video": "",
+   "videoNote": ""
+  },
+  {
+   "name": "Schulterkreisen (klein!)",
+   "description": "Kontrollierte kleine Kreise – bei 90°-Regel: Amplitude klein halten, Arme unter Schulterhöhe.",
+   "video": "",
+   "videoNote": ""
+  },
+  {
+   "name": "Band Pull-aparts",
+   "description": "Leichtes Band auf Schulterhöhe auseinanderziehen – oberer Rücken/hintere Schulter. Schulterhöhe = 90° = erlaubt, nicht höher.",
+   "video": "",
+   "videoNote": ""
+  },
+  {
+   "name": "Glute Bridge",
+   "description": "Rückenlage, Hüfte anheben – Gesäß/Beinbeuger aktivieren.",
+   "video": "",
+   "videoNote": ""
+  },
+  {
+   "name": "Band-Außenrotationen",
+   "description": "Ellbogen am Körper, 90° gebeugt, Unterarm gegen leichtes Band nach außen rotieren – Rotatorenmanschette. Jetzt auch Dead-Hang-Ersatz im Warm-up.",
+   "video": "https://www.youtube.com/watch?v=_UvmPNGtlPM",
+   "videoNote": ""
+  },
+  {
+   "name": "Bulgarian Split Squat",
+   "description": "Hinterer Fuß erhöht, Kniebeuge über das vordere Bein. Jetzt mit 2 Kurzhanteln statt Weste (kein Umziehen mehr).",
+   "video": "https://www.youtube.com/shorts/or1frhkjBDc",
+   "videoNote": ""
+  },
+  {
+   "name": "Front-Foot-Elevated Split Squat",
+   "description": "Vorderer Fuß erhöht, kontrolliert tief.",
+   "video": "https://www.youtube.com/watch?v=72Yzbn5bywY",
+   "videoNote": ""
+  },
+  {
+   "name": "Goblet Squat",
+   "description": "KB vor der Brust, volle kontrollierte Tiefe.",
+   "video": "https://www.youtube.com/watch?v=MWHIs0zxkCU",
+   "videoNote": ""
+  },
+  {
+   "name": "Romanian Deadlift (Langhantel) – v2",
+   "description": "Hüfte nach hinten, Rücken neutral, Beinbeuger laden, Hüfte nach vorn strecken. Jetzt mit Langhantel bis 45,8 kg statt Kettlebell (KB-Version war zu leicht).",
+   "video": "https://www.youtube.com/watch?v=M6fGnnNR4bQ",
+   "videoNote": ""
+  },
+  {
+   "name": "B-Stance RDL",
+   "description": "Versetzter Stand, ~70% Last auf dem vorderen Bein.",
+   "video": "https://www.youtube.com/watch?v=slzkAoP8ioc",
+   "videoNote": ""
+  },
+  {
+   "name": "Single-Leg RDL",
+   "description": "Einbeinig, KB in der Gegenhand, langsam und stabil.",
+   "video": "https://www.youtube.com/watch?v=iS7atZhcRnw",
+   "videoNote": ""
+  },
+  {
+   "name": "KB Swing – ANGEPASST",
+   "description": "Explosiver Hüftimpuls, zweiarmig. NEU: Endpunkt bewusst am Brustbein kappen (unter 90°), nicht bis Brust-/Schulterhöhe schwingen lassen.",
+   "video": "",
+   "videoNote": ""
+  },
+  {
+   "name": "Pallof Press",
+   "description": "Gespanntes Band seitlich, Hände auf Brusthöhe nach vorn drücken, Rotation widerstehen.",
+   "video": "",
+   "videoNote": ""
+  },
+  {
+   "name": "Band Face Pull",
+   "description": "Band zum Gesicht ziehen, Ellbogen hoch (max. Schulterhöhe) – hintere Schulter/oberer Rücken.",
+   "video": "https://www.youtube.com/shorts/1s-0WtJMsu8",
+   "videoNote": ""
+  },
+  {
+   "name": "Band Row",
+   "description": "Band zum Rumpf ziehen, Schulterblätter nach hinten-unten.",
+   "video": "https://www.youtube.com/watch?v=JP2xq33lNF0",
+   "videoNote": ""
+  },
+  {
+   "name": "Dead Bug ohne Überkopflast",
+   "description": "Rückenlage, Arme neutral oder KB an der Brust; gegengleich Arm/Bein strecken, unterer Rücken bleibt am Boden.",
+   "video": "https://www.youtube.com/watch?v=556ibwFFFAM",
+   "videoNote": "Video zeigt Überkopf-Version – Arme hier neutral halten!"
+  },
+  {
+   "name": "Thoracic Rotations / Split Squat Stretch / Hip Hinge Drill / Squat Pry",
+   "description": "Unverändert; Links siehe Juni-Plan. World's Greatest Stretch: rechter Arm-Reach nur bis Schulterhöhe.",
+   "video": "",
+   "videoNote": ""
+  }
+ ]
+}
