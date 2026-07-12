@@ -255,7 +255,7 @@ function render(){
       ? `Für ${day} in Woche ${week} liegt kein Plan vor (Plan umfasst W12–15).`
       : `${fmtDateDE(currentDate).split(",")[0]} ist kein Trainingstag (Di/Do/Sa).`;
     const nx = neighborSession(currentDate, +1);
-    msg += ` Nächste Einheit: ${nx.s.day} ${fmtDateDE(nx.date)} (W${nx.s.week}).`;
+    msg += ` Nächste Einheit: ${fmtDateDE(nx.date)} (W${nx.s.week}).`;
     $("#noSessionMsg").textContent = msg;
     ["equipList","warmupList","blocksHost","finishCard"].forEach(id => $("#"+id).innerHTML = "");
     return;
