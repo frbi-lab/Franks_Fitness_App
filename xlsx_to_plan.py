@@ -220,7 +220,7 @@ def main():
 
     plan = {
         "meta": {
-            "title": "Fitness Masterplan Juli 2026 – 90°-Variante v2",
+            "title": re.sub(r"\.xlsx$", "", src.split("/")[-1]),
             "source": src.split("/")[-1],
             "generated": __import__("datetime").date.today().isoformat(),
             "week12Monday": "2026-07-13",
