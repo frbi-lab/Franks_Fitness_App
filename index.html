@@ -576,7 +576,15 @@ async function testConnection(){
       {headers: t ? {"Authorization":"Bearer "+t} : {}});
     if(!resp.ok) throw new Error("HTTP " + resp.status);
     const j = await resp.json();
-    el.textContent = `✓ Repo gefunden: ${j.full_name}${j.permissions?.push ? " (Schreibrechte OK)" : t ? " – ⚠️ KEINE Schreibrechte mit diesem Token!" : ""}`;
+    if(!t){
+      el.textContent = `⚠️ Repo gefunden (${j.full_name}), aber KEIN TOKEN eingetragen – Speichern wird fehlschlagen. Das Repo ist öffentlich, deshalb klappt das Lesen auch ohne Token.`;
+      el.className = "small err"; return;
+    }
+    if(!j.permissions?.push){
+      el.textContent = `⚠️ Repo gefunden (${j.full_name}), aber dieser Token hat KEINE Schreibrechte. Nötig: Contents = Read and write, und das Repo muss unter "Only select repositories" ausgewählt sein.`;
+      el.className = "small err"; return;
+    }
+    el.textContent = `✓ Repo gefunden: ${j.full_name} – Schreibrechte OK, Speichern sollte funktionieren.`;
     el.className = "small ok";
   }catch(e){ el.textContent = "✗ " + e.message; el.className = "small err"; }
 }

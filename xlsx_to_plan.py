@@ -223,7 +223,10 @@ def main():
             "title": re.sub(r"\.xlsx$", "", src.split("/")[-1]),
             "source": src.split("/")[-1],
             "generated": __import__("datetime").date.today().isoformat(),
-            "week12Monday": "2026-07-13",
+            # Anker für die Datumsrechnung der App: Montag der PLAN-Woche 12.
+            # Verschoben von 2026-07-13 auf 2026-06-29, damit der August-Zyklus
+            # (Wochen 16-19) schon in der Woche ab 27.07.2026 startet statt am 10.08.
+            "week12Monday": "2026-06-29",
             "trainingDays": DAY_ORDER,
             "weeks": sorted({s["week"] for s in sessions}),
             "rules": "Rechter Arm nie über 90°/Schulterhöhe · kein Hängen · alles schmerzgeführt · scharfer Schmerz oben auf der Schulter = sofort reduzieren.",
