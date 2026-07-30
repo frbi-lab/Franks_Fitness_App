@@ -189,6 +189,13 @@ dialog::backdrop{background:rgba(0,0,0,.6)}
     <button class="secondary" id="btnCfgClose">Schließen</button>
   </div>
   <div id="cfgStatus" class="small" style="margin-top:8px"></div>
+  <hr style="margin:16px 0; border:none; border-top:1px solid #ccc">
+  <div class="row">
+    <button class="secondary" id="btnCfgSaveTest">🧪 Speichern testen</button>
+    <button class="secondary" id="btnCfgRecover">🔎 Lokale Entwürfe retten</button>
+  </div>
+  <div class="muted small" style="margin-top:6px">„Speichern testen“ schreibt eine harmlose Testdatei ins Repo und liest sie zurück – beweist den kompletten Schreibweg, ohne deine Logs anzufassen. „Entwürfe retten“ sucht im Browser nach Eingaben, die nie hochgeladen wurden.</div>
+  <div id="cfgStatus2" class="small" style="margin-top:8px"></div>
 </dialog>
 
 <script>
@@ -322,10 +329,34 @@ function exCard(ex){
       <span class="setlabel">Reps pro Runde${ex.perSide ? ' (bei „je Seite“ z.B. „8/8“)' : ""}:</span>
       ${Array.from({length: ex.sets||3}, (_,i) =>
         `<input inputmode="numeric" data-set="${i}" placeholder="R${i+1}">`).join("")}
+      <button type="button" data-slash="1" title="Schrägstrich einfügen (für Eingaben je Seite, z.B. 8/8)"
+        style="min-width:34px; padding:6px 8px; font-weight:700">/</button>
       <input data-note="1" placeholder="Notiz (optional)" style="flex:1; min-width:130px; text-align:left">
     </div>`;
-  d.querySelectorAll("input").forEach(inp => inp.addEventListener("input", onFormInput));
+  d.querySelectorAll("input").forEach(inp => {
+    inp.addEventListener("input", onFormInput);
+    if(inp.dataset.set !== undefined) inp.addEventListener("focus", () => { lastRepInput = inp; });
+  });
+  d.querySelector("button[data-slash]").addEventListener("click", () => insertSlash(d));
   return d;
+}
+/* Schrägstrich-Taste: die Ziffern-Tastatur auf dem Handy hat kein "/",
+   deshalb fügt dieser Knopf ihn an der Cursorposition ein. */
+let lastRepInput = null;
+function insertSlash(scope){
+  let inp = (lastRepInput && scope.contains(lastRepInput)) ? lastRepInput : null;
+  if(!inp){
+    const all = [...scope.querySelectorAll("input[data-set]")];
+    inp = all.find(x => x.value.trim() && !x.value.includes("/")) || all[0];
+  }
+  if(!inp) return;
+  const s = inp.selectionStart ?? inp.value.length, e = inp.selectionEnd ?? inp.value.length;
+  inp.value = inp.value.slice(0,s) + "/" + inp.value.slice(e);
+  const pos = s + 1;
+  inp.focus();
+  try{ inp.setSelectionRange(pos,pos); }catch(err){}
+  lastRepInput = inp;
+  onFormInput();
 }
 function renderFinish(s){
   const c = $("#finishCard");
@@ -589,6 +620,82 @@ async function testConnection(){
   }catch(e){ el.textContent = "✗ " + e.message; el.className = "small err"; }
 }
 
+/* Schreibweg testen, ohne die echten Logs anzufassen: Testdatei schreiben,
+   zurücklesen, vergleichen. Legt dabei den data/-Ordner an, falls er fehlt. */
+async function testSave(){
+  const el = $("#cfgStatus2");
+  el.textContent = "Teste Schreibzugriff…"; el.className = "small";
+  const c = cfg();
+  if(!c.owner || !c.repo || !c.token){ el.textContent = "✗ Erst Owner, Repo und Token eintragen und speichern."; el.className="small err"; return; }
+  const path = "data/_savetest.json";
+  const url = `https://api.github.com/repos/${c.owner}/${c.repo}/contents/${path}`;
+  const stamp = new Date().toISOString();
+  const payload = {hinweis:"Testdatei der Trainings-App. Kann jederzeit geloescht werden.", geschrieben:stamp};
+  try{
+    let sha = null;
+    const r0 = await fetch(url + `?ref=${c.branch||"main"}`, {headers: ghHeaders(true), cache:"no-store"});
+    if(r0.ok) sha = (await r0.json()).sha;
+    else if(r0.status !== 404) throw new Error("Lesen fehlgeschlagen: HTTP " + r0.status);
+    const body = {message:"Speichertest der Trainings-App", branch:c.branch||"main",
+                  content: btoa(unescape(encodeURIComponent(JSON.stringify(payload, null, 1))))};
+    if(sha) body.sha = sha;
+    const rw = await fetch(url, {method:"PUT", headers:ghHeaders(true), body:JSON.stringify(body)});
+    if(!rw.ok){ const t = await rw.text(); throw new Error("Schreiben fehlgeschlagen: HTTP " + rw.status + " – " + t.slice(0,160)); }
+    const commit = (await rw.json()).commit?.sha?.slice(0,7) || "?";
+    const rb = await fetch(url + `?ref=${c.branch||"main"}&t=${Date.now()}`, {headers: ghHeaders(true), cache:"no-store"});
+    if(!rb.ok) throw new Error("Zurücklesen fehlgeschlagen: HTTP " + rb.status);
+    const back = JSON.parse(decodeURIComponent(escape(atob((await rb.json()).content.replace(/\n/g,"")))));
+    if(back.geschrieben !== stamp) throw new Error("Zurückgelesener Inhalt weicht ab – Speichern ist NICHT verlässlich.");
+    el.innerHTML = `✓ Schreibweg funktioniert. Geschrieben und identisch zurückgelesen (Commit ${commit}). Deine Trainingsdaten werden jetzt wirklich gespeichert.`;
+    el.className = "small ok";
+  }catch(e){ el.textContent = "✗ " + e.message; el.className = "small err"; }
+}
+
+/* Eingaben, die nie hochgeladen wurden, aus dem localStorage einsammeln.
+   Entwürfe werden nur bei ERFOLGREICHEM Speichern gelöscht - was nie passiert
+   ist, solange kein Token gesetzt war. Deshalb sind sie meist noch da. */
+async function recoverDrafts(){
+  const el = $("#cfgStatus2");
+  const drafts = [];
+  for(let i=0;i<localStorage.length;i++){
+    const k = localStorage.key(i);
+    if(!k || !k.startsWith("ffp_draft_")) continue;
+    try{
+      const d = JSON.parse(localStorage.getItem(k));
+      if(d && d.date && d.entries && Object.keys(d.entries).length) drafts.push(d);
+    }catch(e){}
+  }
+  if(!drafts.length){ el.textContent = "Keine ungespeicherten Entwürfe im Browser gefunden. (Achtung: Entwürfe liegen pro Gerät und Browser – auf dem Handy nochmal nachsehen.)"; el.className="small"; return; }
+  drafts.sort((a,b)=>a.date.localeCompare(b.date));
+  const liste = drafts.map(d => `${d.date} (${d.day||"?"} W${d.week||"?"}, ${Object.keys(d.entries).length} Übungen)`).join(", ");
+  const c = cfg();
+  if(!c.owner || !c.repo || !c.token){
+    el.innerHTML = `${drafts.length} Entwurf/Entwürfe gefunden: ${esc(liste)}. Zum Hochladen erst Token eintragen.`;
+    el.className = "small"; return;
+  }
+  if(!confirm(`${drafts.length} ungespeicherte Einheit(en) gefunden:\n\n${liste}\n\nJetzt ins Repo hochladen?`)) return;
+  el.textContent = "Lade hoch…"; el.className = "small";
+  try{
+    const r0 = await fetch(ghUrl(), {headers: ghHeaders(true), cache:"no-store"});
+    if(r0.ok){ const j0 = await r0.json(); logsSha = j0.sha;
+      LOGS = JSON.parse(decodeURIComponent(escape(atob(j0.content.replace(/\n/g,""))))).logs || {}; }
+    else if(r0.status === 404){ logsSha = null; LOGS = LOGS || {}; }
+    else throw new Error("Lesen fehlgeschlagen: HTTP " + r0.status);
+    let neu = 0, uebersprungen = 0;
+    drafts.forEach(d => { if(LOGS[d.date]) uebersprungen++; else { LOGS[d.date] = d; neu++; } });
+    if(!neu){ el.textContent = `Nichts zu tun – alle ${uebersprungen} Entwürfe liegen bereits im Repo.`; el.className="small ok"; return; }
+    const body = {message:`Nachtrag: ${neu} nicht gespeicherte Einheit(en) gerettet`, branch:cfg().branch||"main",
+                  content: btoa(unescape(encodeURIComponent(JSON.stringify({logs:LOGS}, null, 1))))};
+    if(logsSha) body.sha = logsSha;
+    const rw = await fetch(ghUrl().split("?")[0], {method:"PUT", headers:ghHeaders(true), body:JSON.stringify(body)});
+    if(!rw.ok){ const t = await rw.text(); throw new Error("HTTP " + rw.status + " – " + t.slice(0,160)); }
+    logsSha = (await rw.json()).content.sha;
+    el.textContent = `✓ ${neu} Einheit(en) nachgetragen${uebersprungen?`, ${uebersprungen} waren schon vorhanden`:""}. Entwürfe bleiben vorsichtshalber im Browser liegen.`;
+    el.className = "small ok";
+    render();
+  }catch(e){ el.textContent = "✗ Hochladen fehlgeschlagen: " + e.message + " – Entwürfe bleiben unangetastet."; el.className = "small err"; }
+}
+
 /* ================= Init ================= */
 async function init(){
   $("#datePick").value = currentDate;
@@ -598,6 +705,16 @@ async function init(){
   }catch(e){
     document.body.innerHTML = "<div class='wrap'><div class='card err'>plan.json konnte nicht geladen werden. Liegt die Datei neben index.html?</div></div>";
     return;
+  }
+  /* Anker-Migration: Ein in den Einstellungen gespeicherter week12Monday
+     überschreibt den Wert aus plan.json. Nach einem Plan-Update zeigte die App
+     deshalb weiter die Termine des alten Zyklus - und für heute gar nichts.
+     Bringt der Plan einen neuen Anker mit, ziehen wir den gespeicherten nach. */
+  const c0 = cfg();
+  if(PLAN?.meta?.week12Monday && c0.planAnchor !== PLAN.meta.week12Monday){
+    c0.planAnchor = PLAN.meta.week12Monday;
+    c0.week12Monday = PLAN.meta.week12Monday;
+    saveCfg(c0);
   }
   await loadLogs();
   render();
@@ -619,6 +736,8 @@ async function init(){
   $("#btnTimerReset").addEventListener("click", resetTimer);
   $("#sessionNote").addEventListener("input", onFormInput);
   $("#btnSave").addEventListener("click", saveToGitHub);
+  $("#btnCfgSaveTest").addEventListener("click", testSave);
+  $("#btnCfgRecover").addEventListener("click", recoverDrafts);
   $("#btnExport").addEventListener("click", exportBackup);
   $("#btnSettings").addEventListener("click", openSettings);
   $("#btnCfgClose").addEventListener("click", () => $("#dlgSettings").close());

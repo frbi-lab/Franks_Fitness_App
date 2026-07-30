@@ -2,7 +2,7 @@
  "meta": {
   "title": "August 2026 Fitness Masterplan - beidseitig-35min",
   "source": "August 2026 Fitness Masterplan - beidseitig-35min.xlsx",
-  "generated": "2026-07-29",
+  "generated": "2026-07-30",
   "week12Monday": "2026-06-29",
   "trainingDays": [
    "Di",
@@ -18,10 +18,10 @@
   "rules": "Rechter Arm nie über 90°/Schulterhöhe · kein Hängen · alles schmerzgeführt · scharfer Schmerz oben auf der Schulter = sofort reduzieren."
  },
  "progression": {
-  "W16": "Lasten aus deinen Angaben vom 29.07.2026 abgeleitet (KB-Rudern 24 kg x 10 Wdh, Floor Press 2x14 kg x 9 Wdh, Split Squat 2x14 kg x 15 Wdh, jeweils 1-3 Wdh. Reserve). Alle drei lagen zu leicht - der Split Squat mit 15 statt 6-8 Wdh. deutlich. Deshalb steigt der Zug-/Bein-Block sofort auf 2x20 kg. LETZTER Satz jeder Hauptübung trotzdem als AMRAP bis 0-1 RIR, damit die Korrektur belegt ist. Zahlen in die App eintragen und speichern.",
-  "W17": "Doppelte Progression nach der AMRAP-Regel (Blatt Progressionsregeln). Zielkorridor: 0-2 RIR bei Isolation (Curl, Seitheben, Pushdown), 1-2 RIR bei Rudern, RDL und Squat. Zug-/Bein-Block bleibt 2x20 kg, dafür Wiederholungen aufbauen. Floor Press auf 2x17 kg. Langhantel-Rudern 40,8 kg. RDL ab jetzt als Deficit, weil die Stange bei 45,8 kg ausgereizt ist.",
-  "W18": "Zug-/Bein-Block auf 2x21 kg - das ist das Maximum deiner Kurzhanteln. Ab hier geht Steigerung nur noch über Tempo (3s exzentrisch), Wiederholungen oder die Gewichtsweste. Floor Press 2x17 kg mit 3s exzentrisch. Isolationsübungen weiter bis 0-1 RIR.",
-  "W19": "Oberes Ende der Wiederholungsbereiche bei bester Technik. Zug-/Bein-Block 2x21 kg mit 3s exzentrisch. Floor Press auf 2x20 kg NUR wenn der AMRAP bei 2x17 kg mindestens 14 Wdh. erreicht hat - sonst bei 17 kg bleiben und Wiederholungen aufbauen. Danach: Deload-Woche, und für den nächsten Zyklus die Equipment-Decke lösen (Gewichtsweste, schwereres Band, Deficit)."
+  "W16": "Lasten aus deinen Angaben vom 29.07.2026 abgeleitet. Du warst beim Floor Press real bei 2x16 kg gesamt (Stange + 14 kg Scheiben), nicht bei 14 kg - entsprechend geht mehr, als ich zuerst gerechnet hatte. Zug-/Bein-Block startet bei 2x20 kg, Floor Press bei 2x17 kg. LETZTER Satz jeder Hauptuebung als AMRAP bis 0-1 RIR. Zahlen in die App eintragen UND speichern - erst dann steuern deine Daten die Progression.",
+  "W17": "Zug-/Bein-Block auf 2x21 kg - damit sind die Kurzhanteln ausgereizt. Floor Press bleibt 2x17 kg, dort Wiederholungen aufbauen. Langhantel-Rudern 41,8 kg, RDL 43,8 kg. Zielkorridor: 0-1 RIR bei Isolation (Curl, Seitheben, Pushdown), 1-2 RIR bei Rudern, RDL und Squat.",
+  "W18": "Floor Press auf 2x20 kg - grosser Schritt, deshalb Wiederholungsbereich auf 6-10 runter. Zug-/Bein-Block bleibt 2x21 kg (Maximum), Steigerung ab hier ueber 3s Exzentrik. Langhantel-Rudern 43,8 kg, RDL 45,8 kg als Deficit. Kommst du beim Floor Press nicht auf 6 Wdh.: zurueck auf 2x17 kg.",
+  "W19": "Oberes Ende aller Wiederholungsbereiche bei bester Technik. Langhantel-Rudern 45,8 kg = gleiche Stange wie der RDL, also kein Scheibenwechsel mehr am Donnerstag. Squat zusaetzlich mit Gewichtsweste 5-10 kg. Danach Deload-Woche. WICHTIG: Du bist dann bei Kurzhanteln UND Langhantel am Anschlag - fuer den naechsten Zyklus brauchst du Zusatzscheiben, sonst geht nur noch Tempo und Wiederholungen."
  },
  "sessions": [
   {
@@ -61,7 +61,7 @@
     {
      "name": "Band-Außenrotationen",
      "seconds": 30,
-     "perSide": false,
+     "perSide": true,
      "note": ""
     }
    ],
@@ -77,7 +77,7 @@
        "perSide": false,
        "detail": "",
        "raw": "A1 Kurzhantel-Rudern beidarmig vorgebeugt 3x8-12",
-       "resistance": "2x20 kg",
+       "resistance": "2x20 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2)",
        "resistanceLabel": "Kurzhantel-Rudern",
        "description": "Hüftbreiter Stand, in jeder Hand eine Kurzhantel im neutralen Griff. Hüfte nach hinten schieben (Hip Hinge), Rücken neutral, Oberkörper ca. 45° vorgeneigt, Rumpf fest. BEIDE Kurzhanteln gleichzeitig zur unteren Rippe ziehen, Ellbogen eng am Körper, Schulterblätter nach hinten-unten, oben 1s halten, langsam ablassen. Kein Schwung, kein Aufrichten. ERSETZT das einarmige KB-Rudern: gleicher Zugreiz für Lat, oberen Rücken und Bizeps, aber in der halben Zeit, weil beide Seiten gleichzeitig arbeiten. Beide Arme bleiben unter Schulterhöhe.",
        "video": "",
@@ -91,7 +91,7 @@
        "perSide": false,
        "detail": "",
        "raw": "A2 Kurzhantel-Squat (Koffergriff) 3x10-15",
-       "resistance": "2x20 kg",
+       "resistance": "2x20 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2)",
        "resistanceLabel": "Kurzhantel-Squat",
        "description": "Kurzhanteln links und rechts neben dem Körper hängen lassen (Koffergriff), Füße schulterbreit, Zehen leicht nach außen. Kontrolliert so tief absteigen, wie es schmerzfrei geht, Knie in Richtung Zehen, Rücken neutral. Aus den Fersen hochdrücken. ERSETZT den Bulgarian Split Squat: beidbeinig, dadurch halbe Zeit und deutlich weniger Ermüdung vor dem Kendo. Die Schulter ist unbeteiligt - die Arme hängen einfach. Wenn der Griff vor den Beinen ermüdet: Goblet Squat mit der KB.",
        "video": "",
@@ -103,11 +103,11 @@
      "resistance": [
       {
        "label": "Kurzhantel-Rudern",
-       "value": "2x20 kg"
+       "value": "2x20 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2)"
       },
       {
        "label": "Kurzhantel-Squat",
-       "value": "2x20 kg"
+       "value": "2x20 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2)"
       }
      ]
     },
@@ -122,7 +122,7 @@
        "perSide": false,
        "detail": "",
        "raw": "B1 Kurzhantel Floor Press (neutraler Griff) 3x8-12",
-       "resistance": "2x16 kg",
+       "resistance": "2x17 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 1x2 + 1x0,5)",
        "resistanceLabel": "Floor Press",
        "description": "Rückenlage, Knie angestellt, in jeder Hand eine Kurzhantel mit neutralem Griff (Handflächen zueinander) über der Brust ausdrücken, Ellbogen ~45° vom Körper. Langsam ablassen, bis der Trizeps den Boden berührt – der Boden begrenzt die Bewegung und schützt das AC-Gelenk – kurz pausieren, dann hochdrücken. Ersetzt den KB Floor Press: Die Kurzhantel-Last liegt zentriert über der Handwurzel, das Handgelenk bleibt gerade (KB-Version war fürs Handgelenk schmerzhaft). Brust-/Trizeps-Hauptübung, 2x pro Woche (Di + Sa).",
        "video": "https://www.youtube.com/watch?v=rs05AtccEhg",
@@ -148,7 +148,7 @@
      "resistance": [
       {
        "label": "Floor Press",
-       "value": "2x16 kg"
+       "value": "2x17 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 1x2 + 1x0,5)"
       },
       {
        "label": "Curl",
@@ -211,9 +211,9 @@
     {
      "gerät": "Kurzhanteln",
      "items": [
-      "2x16 kg (Floor Press)",
-      "2x20 kg (Kurzhantel-Rudern)",
-      "2x20 kg (Kurzhantel-Squat)"
+      "2x17 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 1x2 + 1x0,5) (Floor Press)",
+      "2x20 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2) (Kurzhantel-Rudern)",
+      "2x20 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2) (Kurzhantel-Squat)"
      ]
     },
     {
@@ -263,7 +263,7 @@
     {
      "name": "Band-Außenrotationen",
      "seconds": 30,
-     "perSide": false,
+     "perSide": true,
      "note": ""
     }
    ],
@@ -279,7 +279,7 @@
        "perSide": false,
        "detail": "",
        "raw": "A1 Langhantel-Rudern vorgebeugt 3x6-10",
-       "resistance": "Langhantel 39,8 kg",
+       "resistance": "Langhantel 39,8 kg gesamt (Stange 7,8 kg + je Seite 2x5 + 3x2)",
        "resistanceLabel": "Rudern",
        "description": "Hüftbreiter Stand, Langhantel im Obergriff. Hüfte nach hinten schieben (Hip Hinge), Oberkörper ~45° oder tiefer, Rücken neutral, Rumpf fest. Die Stange zum Bauchnabel ziehen, Ellbogen nah am Körper, Schulterblätter nach hinten-unten; langsam ablassen, kein Schwung. Schwere beidarmige Zugübung als Ergänzung zum einarmigen KB-Rudern – Arme bleiben unter 90°. Zyklus Aug: 35,8 kg (W16) bis 39,8 kg (W19).",
        "video": "https://www.youtube.com/watch?v=rqTOAM8WoeM",
@@ -305,7 +305,7 @@
      "resistance": [
       {
        "label": "Rudern",
-       "value": "Langhantel 39,8 kg"
+       "value": "Langhantel 39,8 kg gesamt (Stange 7,8 kg + je Seite 2x5 + 3x2)"
       },
       {
        "label": "Curl",
@@ -324,7 +324,7 @@
        "perSide": false,
        "detail": "",
        "raw": "B1 Langhantel Romanian Deadlift 3x8-12",
-       "resistance": "Langhantel 45,8 kg",
+       "resistance": "Langhantel 41,8 kg gesamt (Stange 7,8 kg + je Seite 2x5 + 3x2 + 2x0,5)",
        "resistanceLabel": "RDL",
        "description": "Hüfte nach hinten, Rücken neutral, Beinbeuger laden, Hüfte nach vorn strecken. Jetzt mit Langhantel bis 45,8 kg statt Kettlebell (KB-Version war zu leicht).",
        "video": "https://www.youtube.com/watch?v=M6fGnnNR4bQ",
@@ -350,7 +350,7 @@
      "resistance": [
       {
        "label": "RDL",
-       "value": "Langhantel 45,8 kg"
+       "value": "Langhantel 41,8 kg gesamt (Stange 7,8 kg + je Seite 2x5 + 3x2 + 2x0,5)"
       },
       {
        "label": "Chest-Press",
@@ -377,16 +377,16 @@
       },
       {
        "code": "C2",
-       "name": "Band-Außenrotationen",
+       "name": "Band-Aussenrotationen",
        "sets": 3,
        "targetReps": "12-15",
        "perSide": false,
        "detail": "",
-       "raw": "C2 Band-Außenrotationen 3x12-15",
+       "raw": "C2 Band-Aussenrotationen 3x12-15",
        "resistance": "leichtes Band",
-       "resistanceLabel": "Außenrotation",
-       "description": "Ellbogen am Körper, 90° gebeugt, Unterarm gegen leichtes Band nach außen rotieren – Rotatorenmanschette. Jetzt auch Dead-Hang-Ersatz im Warm-up.",
-       "video": "https://www.youtube.com/watch?v=_UvmPNGtlPM",
+       "resistanceLabel": "Aussenrotation",
+       "description": "",
+       "video": "",
        "videoNote": ""
       }
      ],
@@ -398,7 +398,7 @@
        "value": "leichtes Band 15-25 lbs"
       },
       {
-       "label": "Außenrotation",
+       "label": "Aussenrotation",
        "value": "leichtes Band"
       }
      ]
@@ -410,8 +410,8 @@
     {
      "gerät": "Langhantel",
      "items": [
-      "Langhantel 39,8 kg (Rudern)",
-      "Langhantel 45,8 kg (RDL)"
+      "Langhantel 39,8 kg gesamt (Stange 7,8 kg + je Seite 2x5 + 3x2) (Rudern)",
+      "Langhantel 41,8 kg gesamt (Stange 7,8 kg + je Seite 2x5 + 3x2 + 2x0,5) (RDL)"
      ]
     },
     {
@@ -419,7 +419,7 @@
      "items": [
       "Band 20-35 lbs (Curl)",
       "Band 40-80 lbs (Chest-Press)",
-      "leichtes Band (Außenrotation)",
+      "leichtes Band (Aussenrotation)",
       "leichtes Band 15-25 lbs (Seitheben)"
      ]
     }
@@ -462,7 +462,7 @@
     {
      "name": "Band-Außenrotationen",
      "seconds": 30,
-     "perSide": false,
+     "perSide": true,
      "note": ""
     }
    ],
@@ -523,7 +523,7 @@
        "perSide": false,
        "detail": "",
        "raw": "B1 Kurzhantel Floor Press (neutraler Griff) 3x8-12",
-       "resistance": "2x16 kg",
+       "resistance": "2x17 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 1x2 + 1x0,5)",
        "resistanceLabel": "Floor Press",
        "description": "Rückenlage, Knie angestellt, in jeder Hand eine Kurzhantel mit neutralem Griff (Handflächen zueinander) über der Brust ausdrücken, Ellbogen ~45° vom Körper. Langsam ablassen, bis der Trizeps den Boden berührt – der Boden begrenzt die Bewegung und schützt das AC-Gelenk – kurz pausieren, dann hochdrücken. Ersetzt den KB Floor Press: Die Kurzhantel-Last liegt zentriert über der Handwurzel, das Handgelenk bleibt gerade (KB-Version war fürs Handgelenk schmerzhaft). Brust-/Trizeps-Hauptübung, 2x pro Woche (Di + Sa).",
        "video": "https://www.youtube.com/watch?v=rs05AtccEhg",
@@ -549,7 +549,7 @@
      "resistance": [
       {
        "label": "Floor Press",
-       "value": "2x16 kg"
+       "value": "2x17 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 1x2 + 1x0,5)"
       },
       {
        "label": "Swing",
@@ -605,14 +605,14 @@
    ],
    "finish": null,
    "optional": {
-    "text": "Wadenheben beidbeinig 2x15-20, 3s exzentrisch - nur als Achilles-Prophylaxe fürs Kendo",
+    "text": "Wadenheben beidbeinig 2x15-20, 3s exzentrisch - nur als Achilles-Prophylaxe fuers Kendo",
     "resistance": "Langhantel oder Gewichtsweste"
    },
    "equipment": [
     {
      "gerät": "Kurzhanteln",
      "items": [
-      "2x16 kg (Floor Press)"
+      "2x17 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 1x2 + 1x0,5) (Floor Press)"
      ]
     },
     {
@@ -669,7 +669,7 @@
     {
      "name": "Band-Außenrotationen",
      "seconds": 30,
-     "perSide": false,
+     "perSide": true,
      "note": ""
     }
    ],
@@ -685,7 +685,7 @@
        "perSide": false,
        "detail": "",
        "raw": "A1 Kurzhantel-Rudern beidarmig vorgebeugt 3x8-12",
-       "resistance": "2x20 kg",
+       "resistance": "2x21 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2 + 1x0,5)",
        "resistanceLabel": "Kurzhantel-Rudern",
        "description": "Hüftbreiter Stand, in jeder Hand eine Kurzhantel im neutralen Griff. Hüfte nach hinten schieben (Hip Hinge), Rücken neutral, Oberkörper ca. 45° vorgeneigt, Rumpf fest. BEIDE Kurzhanteln gleichzeitig zur unteren Rippe ziehen, Ellbogen eng am Körper, Schulterblätter nach hinten-unten, oben 1s halten, langsam ablassen. Kein Schwung, kein Aufrichten. ERSETZT das einarmige KB-Rudern: gleicher Zugreiz für Lat, oberen Rücken und Bizeps, aber in der halben Zeit, weil beide Seiten gleichzeitig arbeiten. Beide Arme bleiben unter Schulterhöhe.",
        "video": "",
@@ -699,7 +699,7 @@
        "perSide": false,
        "detail": "",
        "raw": "A2 Kurzhantel-Squat (Koffergriff) 3x10-15",
-       "resistance": "2x20 kg",
+       "resistance": "2x21 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2 + 1x0,5)",
        "resistanceLabel": "Kurzhantel-Squat",
        "description": "Kurzhanteln links und rechts neben dem Körper hängen lassen (Koffergriff), Füße schulterbreit, Zehen leicht nach außen. Kontrolliert so tief absteigen, wie es schmerzfrei geht, Knie in Richtung Zehen, Rücken neutral. Aus den Fersen hochdrücken. ERSETZT den Bulgarian Split Squat: beidbeinig, dadurch halbe Zeit und deutlich weniger Ermüdung vor dem Kendo. Die Schulter ist unbeteiligt - die Arme hängen einfach. Wenn der Griff vor den Beinen ermüdet: Goblet Squat mit der KB.",
        "video": "",
@@ -711,11 +711,11 @@
      "resistance": [
       {
        "label": "Kurzhantel-Rudern",
-       "value": "2x20 kg"
+       "value": "2x21 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2 + 1x0,5)"
       },
       {
        "label": "Kurzhantel-Squat",
-       "value": "2x20 kg"
+       "value": "2x21 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2 + 1x0,5)"
       }
      ]
     },
@@ -730,7 +730,7 @@
        "perSide": false,
        "detail": "",
        "raw": "B1 Kurzhantel Floor Press (neutraler Griff) 3x8-12",
-       "resistance": "2x17 kg",
+       "resistance": "2x17 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 1x2 + 1x0,5)",
        "resistanceLabel": "Floor Press",
        "description": "Rückenlage, Knie angestellt, in jeder Hand eine Kurzhantel mit neutralem Griff (Handflächen zueinander) über der Brust ausdrücken, Ellbogen ~45° vom Körper. Langsam ablassen, bis der Trizeps den Boden berührt – der Boden begrenzt die Bewegung und schützt das AC-Gelenk – kurz pausieren, dann hochdrücken. Ersetzt den KB Floor Press: Die Kurzhantel-Last liegt zentriert über der Handwurzel, das Handgelenk bleibt gerade (KB-Version war fürs Handgelenk schmerzhaft). Brust-/Trizeps-Hauptübung, 2x pro Woche (Di + Sa).",
        "video": "https://www.youtube.com/watch?v=rs05AtccEhg",
@@ -756,7 +756,7 @@
      "resistance": [
       {
        "label": "Floor Press",
-       "value": "2x17 kg"
+       "value": "2x17 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 1x2 + 1x0,5)"
       },
       {
        "label": "Curl",
@@ -819,9 +819,9 @@
     {
      "gerät": "Kurzhanteln",
      "items": [
-      "2x17 kg (Floor Press)",
-      "2x20 kg (Kurzhantel-Rudern)",
-      "2x20 kg (Kurzhantel-Squat)"
+      "2x17 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 1x2 + 1x0,5) (Floor Press)",
+      "2x21 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2 + 1x0,5) (Kurzhantel-Rudern)",
+      "2x21 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2 + 1x0,5) (Kurzhantel-Squat)"
      ]
     },
     {
@@ -871,7 +871,7 @@
     {
      "name": "Band-Außenrotationen",
      "seconds": 30,
-     "perSide": false,
+     "perSide": true,
      "note": ""
     }
    ],
@@ -887,7 +887,7 @@
        "perSide": false,
        "detail": "",
        "raw": "A1 Langhantel-Rudern vorgebeugt 3x6-10",
-       "resistance": "Langhantel 40,8 kg",
+       "resistance": "Langhantel 41,8 kg gesamt (Stange 7,8 kg + je Seite 2x5 + 3x2 + 2x0,5)",
        "resistanceLabel": "Rudern",
        "description": "Hüftbreiter Stand, Langhantel im Obergriff. Hüfte nach hinten schieben (Hip Hinge), Oberkörper ~45° oder tiefer, Rücken neutral, Rumpf fest. Die Stange zum Bauchnabel ziehen, Ellbogen nah am Körper, Schulterblätter nach hinten-unten; langsam ablassen, kein Schwung. Schwere beidarmige Zugübung als Ergänzung zum einarmigen KB-Rudern – Arme bleiben unter 90°. Zyklus Aug: 35,8 kg (W16) bis 39,8 kg (W19).",
        "video": "https://www.youtube.com/watch?v=rqTOAM8WoeM",
@@ -913,7 +913,7 @@
      "resistance": [
       {
        "label": "Rudern",
-       "value": "Langhantel 40,8 kg"
+       "value": "Langhantel 41,8 kg gesamt (Stange 7,8 kg + je Seite 2x5 + 3x2 + 2x0,5)"
       },
       {
        "label": "Curl",
@@ -932,7 +932,7 @@
        "perSide": false,
        "detail": "",
        "raw": "B1 Langhantel Romanian Deadlift 3x8-12",
-       "resistance": "Langhantel 45,8 kg | Deficit: auf 2 Scheiben stehen",
+       "resistance": "Langhantel 43,8 kg gesamt (Stange 7,8 kg + je Seite 2x5 + 4x2)",
        "resistanceLabel": "RDL",
        "description": "Hüfte nach hinten, Rücken neutral, Beinbeuger laden, Hüfte nach vorn strecken. Jetzt mit Langhantel bis 45,8 kg statt Kettlebell (KB-Version war zu leicht).",
        "video": "https://www.youtube.com/watch?v=M6fGnnNR4bQ",
@@ -958,7 +958,7 @@
      "resistance": [
       {
        "label": "RDL",
-       "value": "Langhantel 45,8 kg | Deficit: auf 2 Scheiben stehen"
+       "value": "Langhantel 43,8 kg gesamt (Stange 7,8 kg + je Seite 2x5 + 4x2)"
       },
       {
        "label": "Chest-Press",
@@ -985,16 +985,16 @@
       },
       {
        "code": "C2",
-       "name": "Band-Außenrotationen",
+       "name": "Band-Aussenrotationen",
        "sets": 3,
        "targetReps": "12-15",
        "perSide": false,
        "detail": "",
-       "raw": "C2 Band-Außenrotationen 3x12-15",
+       "raw": "C2 Band-Aussenrotationen 3x12-15",
        "resistance": "leichtes Band",
-       "resistanceLabel": "Außenrotation",
-       "description": "Ellbogen am Körper, 90° gebeugt, Unterarm gegen leichtes Band nach außen rotieren – Rotatorenmanschette. Jetzt auch Dead-Hang-Ersatz im Warm-up.",
-       "video": "https://www.youtube.com/watch?v=_UvmPNGtlPM",
+       "resistanceLabel": "Aussenrotation",
+       "description": "",
+       "video": "",
        "videoNote": ""
       }
      ],
@@ -1006,7 +1006,7 @@
        "value": "leichtes Band 15-25 lbs"
       },
       {
-       "label": "Außenrotation",
+       "label": "Aussenrotation",
        "value": "leichtes Band"
       }
      ]
@@ -1018,8 +1018,8 @@
     {
      "gerät": "Langhantel",
      "items": [
-      "Langhantel 40,8 kg (Rudern)",
-      "Langhantel 45,8 kg | Deficit: auf 2 Scheiben stehen (RDL)"
+      "Langhantel 41,8 kg gesamt (Stange 7,8 kg + je Seite 2x5 + 3x2 + 2x0,5) (Rudern)",
+      "Langhantel 43,8 kg gesamt (Stange 7,8 kg + je Seite 2x5 + 4x2) (RDL)"
      ]
     },
     {
@@ -1027,7 +1027,7 @@
      "items": [
       "Band 20-35 lbs (Curl)",
       "Band 40-80 lbs (Chest-Press)",
-      "leichtes Band (Außenrotation)",
+      "leichtes Band (Aussenrotation)",
       "leichtes Band 15-25 lbs (Seitheben)"
      ]
     }
@@ -1070,7 +1070,7 @@
     {
      "name": "Band-Außenrotationen",
      "seconds": 30,
-     "perSide": false,
+     "perSide": true,
      "note": ""
     }
    ],
@@ -1131,7 +1131,7 @@
        "perSide": false,
        "detail": "",
        "raw": "B1 Kurzhantel Floor Press (neutraler Griff) 3x8-12",
-       "resistance": "2x17 kg",
+       "resistance": "2x17 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 1x2 + 1x0,5)",
        "resistanceLabel": "Floor Press",
        "description": "Rückenlage, Knie angestellt, in jeder Hand eine Kurzhantel mit neutralem Griff (Handflächen zueinander) über der Brust ausdrücken, Ellbogen ~45° vom Körper. Langsam ablassen, bis der Trizeps den Boden berührt – der Boden begrenzt die Bewegung und schützt das AC-Gelenk – kurz pausieren, dann hochdrücken. Ersetzt den KB Floor Press: Die Kurzhantel-Last liegt zentriert über der Handwurzel, das Handgelenk bleibt gerade (KB-Version war fürs Handgelenk schmerzhaft). Brust-/Trizeps-Hauptübung, 2x pro Woche (Di + Sa).",
        "video": "https://www.youtube.com/watch?v=rs05AtccEhg",
@@ -1157,7 +1157,7 @@
      "resistance": [
       {
        "label": "Floor Press",
-       "value": "2x17 kg"
+       "value": "2x17 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 1x2 + 1x0,5)"
       },
       {
        "label": "Swing",
@@ -1213,14 +1213,14 @@
    ],
    "finish": null,
    "optional": {
-    "text": "Wadenheben beidbeinig 2x15-20, 3s exzentrisch - nur als Achilles-Prophylaxe fürs Kendo",
+    "text": "Wadenheben beidbeinig 2x15-20, 3s exzentrisch - nur als Achilles-Prophylaxe fuers Kendo",
     "resistance": "Langhantel oder Gewichtsweste"
    },
    "equipment": [
     {
      "gerät": "Kurzhanteln",
      "items": [
-      "2x17 kg (Floor Press)"
+      "2x17 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 1x2 + 1x0,5) (Floor Press)"
      ]
     },
     {
@@ -1277,7 +1277,7 @@
     {
      "name": "Band-Außenrotationen",
      "seconds": 30,
-     "perSide": false,
+     "perSide": true,
      "note": ""
     }
    ],
@@ -1293,7 +1293,7 @@
        "perSide": false,
        "detail": "",
        "raw": "A1 Kurzhantel-Rudern beidarmig vorgebeugt 3x8-12",
-       "resistance": "2x21 kg | 3s exzentrisch",
+       "resistance": "2x21 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2 + 1x0,5) | 3s exzentrisch",
        "resistanceLabel": "Kurzhantel-Rudern",
        "description": "Hüftbreiter Stand, in jeder Hand eine Kurzhantel im neutralen Griff. Hüfte nach hinten schieben (Hip Hinge), Rücken neutral, Oberkörper ca. 45° vorgeneigt, Rumpf fest. BEIDE Kurzhanteln gleichzeitig zur unteren Rippe ziehen, Ellbogen eng am Körper, Schulterblätter nach hinten-unten, oben 1s halten, langsam ablassen. Kein Schwung, kein Aufrichten. ERSETZT das einarmige KB-Rudern: gleicher Zugreiz für Lat, oberen Rücken und Bizeps, aber in der halben Zeit, weil beide Seiten gleichzeitig arbeiten. Beide Arme bleiben unter Schulterhöhe.",
        "video": "",
@@ -1307,7 +1307,7 @@
        "perSide": false,
        "detail": "",
        "raw": "A2 Kurzhantel-Squat (Koffergriff) 3x10-15",
-       "resistance": "2x21 kg",
+       "resistance": "2x21 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2 + 1x0,5)",
        "resistanceLabel": "Kurzhantel-Squat",
        "description": "Kurzhanteln links und rechts neben dem Körper hängen lassen (Koffergriff), Füße schulterbreit, Zehen leicht nach außen. Kontrolliert so tief absteigen, wie es schmerzfrei geht, Knie in Richtung Zehen, Rücken neutral. Aus den Fersen hochdrücken. ERSETZT den Bulgarian Split Squat: beidbeinig, dadurch halbe Zeit und deutlich weniger Ermüdung vor dem Kendo. Die Schulter ist unbeteiligt - die Arme hängen einfach. Wenn der Griff vor den Beinen ermüdet: Goblet Squat mit der KB.",
        "video": "",
@@ -1319,11 +1319,11 @@
      "resistance": [
       {
        "label": "Kurzhantel-Rudern",
-       "value": "2x21 kg | 3s exzentrisch"
+       "value": "2x21 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2 + 1x0,5) | 3s exzentrisch"
       },
       {
        "label": "Kurzhantel-Squat",
-       "value": "2x21 kg"
+       "value": "2x21 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2 + 1x0,5)"
       }
      ]
     },
@@ -1334,11 +1334,11 @@
        "code": "B1",
        "name": "Kurzhantel Floor Press (neutraler Griff)",
        "sets": 3,
-       "targetReps": "8-12",
+       "targetReps": "6-10",
        "perSide": false,
        "detail": "",
-       "raw": "B1 Kurzhantel Floor Press (neutraler Griff) 3x8-12",
-       "resistance": "2x17 kg | 3s exzentrisch",
+       "raw": "B1 Kurzhantel Floor Press (neutraler Griff) 3x6-10",
+       "resistance": "2x20 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2) | 3s exzentrisch",
        "resistanceLabel": "Floor Press",
        "description": "Rückenlage, Knie angestellt, in jeder Hand eine Kurzhantel mit neutralem Griff (Handflächen zueinander) über der Brust ausdrücken, Ellbogen ~45° vom Körper. Langsam ablassen, bis der Trizeps den Boden berührt – der Boden begrenzt die Bewegung und schützt das AC-Gelenk – kurz pausieren, dann hochdrücken. Ersetzt den KB Floor Press: Die Kurzhantel-Last liegt zentriert über der Handwurzel, das Handgelenk bleibt gerade (KB-Version war fürs Handgelenk schmerzhaft). Brust-/Trizeps-Hauptübung, 2x pro Woche (Di + Sa).",
        "video": "https://www.youtube.com/watch?v=rs05AtccEhg",
@@ -1364,7 +1364,7 @@
      "resistance": [
       {
        "label": "Floor Press",
-       "value": "2x17 kg | 3s exzentrisch"
+       "value": "2x20 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2) | 3s exzentrisch"
       },
       {
        "label": "Curl",
@@ -1427,9 +1427,9 @@
     {
      "gerät": "Kurzhanteln",
      "items": [
-      "2x17 kg | 3s exzentrisch (Floor Press)",
-      "2x21 kg (Kurzhantel-Squat)",
-      "2x21 kg | 3s exzentrisch (Kurzhantel-Rudern)"
+      "2x20 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2) | 3s exzentrisch (Floor Press)",
+      "2x21 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2 + 1x0,5) (Kurzhantel-Squat)",
+      "2x21 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2 + 1x0,5) | 3s exzentrisch (Kurzhantel-Rudern)"
      ]
     },
     {
@@ -1479,7 +1479,7 @@
     {
      "name": "Band-Außenrotationen",
      "seconds": 30,
-     "perSide": false,
+     "perSide": true,
      "note": ""
     }
    ],
@@ -1495,7 +1495,7 @@
        "perSide": false,
        "detail": "",
        "raw": "A1 Langhantel-Rudern vorgebeugt 3x6-10",
-       "resistance": "Langhantel 41,8 kg | 3s exzentrisch",
+       "resistance": "Langhantel 43,8 kg gesamt (Stange 7,8 kg + je Seite 2x5 + 4x2) | 3s exzentrisch",
        "resistanceLabel": "Rudern",
        "description": "Hüftbreiter Stand, Langhantel im Obergriff. Hüfte nach hinten schieben (Hip Hinge), Oberkörper ~45° oder tiefer, Rücken neutral, Rumpf fest. Die Stange zum Bauchnabel ziehen, Ellbogen nah am Körper, Schulterblätter nach hinten-unten; langsam ablassen, kein Schwung. Schwere beidarmige Zugübung als Ergänzung zum einarmigen KB-Rudern – Arme bleiben unter 90°. Zyklus Aug: 35,8 kg (W16) bis 39,8 kg (W19).",
        "video": "https://www.youtube.com/watch?v=rqTOAM8WoeM",
@@ -1521,7 +1521,7 @@
      "resistance": [
       {
        "label": "Rudern",
-       "value": "Langhantel 41,8 kg | 3s exzentrisch"
+       "value": "Langhantel 43,8 kg gesamt (Stange 7,8 kg + je Seite 2x5 + 4x2) | 3s exzentrisch"
       },
       {
        "label": "Curl",
@@ -1540,7 +1540,7 @@
        "perSide": false,
        "detail": "",
        "raw": "B1 Langhantel Romanian Deadlift 3x8-12",
-       "resistance": "Langhantel 45,8 kg | Deficit + 3s exzentrisch",
+       "resistance": "Langhantel 45,8 kg gesamt (Stange 7,8 kg + je Seite 2x5 + 4x2 + 2x0,5) | Deficit: auf 2 Scheiben stehen",
        "resistanceLabel": "RDL",
        "description": "Hüfte nach hinten, Rücken neutral, Beinbeuger laden, Hüfte nach vorn strecken. Jetzt mit Langhantel bis 45,8 kg statt Kettlebell (KB-Version war zu leicht).",
        "video": "https://www.youtube.com/watch?v=M6fGnnNR4bQ",
@@ -1566,7 +1566,7 @@
      "resistance": [
       {
        "label": "RDL",
-       "value": "Langhantel 45,8 kg | Deficit + 3s exzentrisch"
+       "value": "Langhantel 45,8 kg gesamt (Stange 7,8 kg + je Seite 2x5 + 4x2 + 2x0,5) | Deficit: auf 2 Scheiben stehen"
       },
       {
        "label": "Chest-Press",
@@ -1593,16 +1593,16 @@
       },
       {
        "code": "C2",
-       "name": "Band-Außenrotationen",
+       "name": "Band-Aussenrotationen",
        "sets": 3,
        "targetReps": "12-15",
        "perSide": false,
        "detail": "",
-       "raw": "C2 Band-Außenrotationen 3x12-15",
+       "raw": "C2 Band-Aussenrotationen 3x12-15",
        "resistance": "leichtes Band",
-       "resistanceLabel": "Außenrotation",
-       "description": "Ellbogen am Körper, 90° gebeugt, Unterarm gegen leichtes Band nach außen rotieren – Rotatorenmanschette. Jetzt auch Dead-Hang-Ersatz im Warm-up.",
-       "video": "https://www.youtube.com/watch?v=_UvmPNGtlPM",
+       "resistanceLabel": "Aussenrotation",
+       "description": "",
+       "video": "",
        "videoNote": ""
       }
      ],
@@ -1614,7 +1614,7 @@
        "value": "leichtes Band 15-25 lbs"
       },
       {
-       "label": "Außenrotation",
+       "label": "Aussenrotation",
        "value": "leichtes Band"
       }
      ]
@@ -1626,8 +1626,8 @@
     {
      "gerät": "Langhantel",
      "items": [
-      "Langhantel 41,8 kg | 3s exzentrisch (Rudern)",
-      "Langhantel 45,8 kg | Deficit + 3s exzentrisch (RDL)"
+      "Langhantel 43,8 kg gesamt (Stange 7,8 kg + je Seite 2x5 + 4x2) | 3s exzentrisch (Rudern)",
+      "Langhantel 45,8 kg gesamt (Stange 7,8 kg + je Seite 2x5 + 4x2 + 2x0,5) | Deficit: auf 2 Scheiben stehen (RDL)"
      ]
     },
     {
@@ -1635,7 +1635,7 @@
      "items": [
       "Band 20-35 lbs (Curl)",
       "Band 40-80 lbs (Chest-Press)",
-      "leichtes Band (Außenrotation)",
+      "leichtes Band (Aussenrotation)",
       "leichtes Band 15-25 lbs (Seitheben)"
      ]
     }
@@ -1678,7 +1678,7 @@
     {
      "name": "Band-Außenrotationen",
      "seconds": 30,
-     "perSide": false,
+     "perSide": true,
      "note": ""
     }
    ],
@@ -1735,11 +1735,11 @@
        "code": "B1",
        "name": "Kurzhantel Floor Press (neutraler Griff)",
        "sets": 3,
-       "targetReps": "8-12",
+       "targetReps": "6-10",
        "perSide": false,
        "detail": "",
-       "raw": "B1 Kurzhantel Floor Press (neutraler Griff) 3x8-12",
-       "resistance": "2x17 kg | 3s exzentrisch",
+       "raw": "B1 Kurzhantel Floor Press (neutraler Griff) 3x6-10",
+       "resistance": "2x20 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2) | 3s exzentrisch",
        "resistanceLabel": "Floor Press",
        "description": "Rückenlage, Knie angestellt, in jeder Hand eine Kurzhantel mit neutralem Griff (Handflächen zueinander) über der Brust ausdrücken, Ellbogen ~45° vom Körper. Langsam ablassen, bis der Trizeps den Boden berührt – der Boden begrenzt die Bewegung und schützt das AC-Gelenk – kurz pausieren, dann hochdrücken. Ersetzt den KB Floor Press: Die Kurzhantel-Last liegt zentriert über der Handwurzel, das Handgelenk bleibt gerade (KB-Version war fürs Handgelenk schmerzhaft). Brust-/Trizeps-Hauptübung, 2x pro Woche (Di + Sa).",
        "video": "https://www.youtube.com/watch?v=rs05AtccEhg",
@@ -1765,7 +1765,7 @@
      "resistance": [
       {
        "label": "Floor Press",
-       "value": "2x17 kg | 3s exzentrisch"
+       "value": "2x20 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2) | 3s exzentrisch"
       },
       {
        "label": "Swing",
@@ -1821,14 +1821,14 @@
    ],
    "finish": null,
    "optional": {
-    "text": "Wadenheben beidbeinig 2x15-20, 3s exzentrisch - nur als Achilles-Prophylaxe fürs Kendo",
+    "text": "Wadenheben beidbeinig 2x15-20, 3s exzentrisch - nur als Achilles-Prophylaxe fuers Kendo",
     "resistance": "Langhantel oder Gewichtsweste"
    },
    "equipment": [
     {
      "gerät": "Kurzhanteln",
      "items": [
-      "2x17 kg | 3s exzentrisch (Floor Press)"
+      "2x20 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2) | 3s exzentrisch (Floor Press)"
      ]
     },
     {
@@ -1885,7 +1885,7 @@
     {
      "name": "Band-Außenrotationen",
      "seconds": 30,
-     "perSide": false,
+     "perSide": true,
      "note": ""
     }
    ],
@@ -1901,7 +1901,7 @@
        "perSide": false,
        "detail": "",
        "raw": "A1 Kurzhantel-Rudern beidarmig vorgebeugt 3x8-12",
-       "resistance": "2x21 kg | 3s exzentrisch",
+       "resistance": "2x21 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2 + 1x0,5) | 3s exzentrisch",
        "resistanceLabel": "Kurzhantel-Rudern",
        "description": "Hüftbreiter Stand, in jeder Hand eine Kurzhantel im neutralen Griff. Hüfte nach hinten schieben (Hip Hinge), Rücken neutral, Oberkörper ca. 45° vorgeneigt, Rumpf fest. BEIDE Kurzhanteln gleichzeitig zur unteren Rippe ziehen, Ellbogen eng am Körper, Schulterblätter nach hinten-unten, oben 1s halten, langsam ablassen. Kein Schwung, kein Aufrichten. ERSETZT das einarmige KB-Rudern: gleicher Zugreiz für Lat, oberen Rücken und Bizeps, aber in der halben Zeit, weil beide Seiten gleichzeitig arbeiten. Beide Arme bleiben unter Schulterhöhe.",
        "video": "",
@@ -1915,7 +1915,7 @@
        "perSide": false,
        "detail": "",
        "raw": "A2 Kurzhantel-Squat (Koffergriff) 3x10-15",
-       "resistance": "2x21 kg",
+       "resistance": "2x21 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2 + 1x0,5) | + Gewichtsweste 5-10 kg (nur Squat)",
        "resistanceLabel": "Kurzhantel-Squat",
        "description": "Kurzhanteln links und rechts neben dem Körper hängen lassen (Koffergriff), Füße schulterbreit, Zehen leicht nach außen. Kontrolliert so tief absteigen, wie es schmerzfrei geht, Knie in Richtung Zehen, Rücken neutral. Aus den Fersen hochdrücken. ERSETZT den Bulgarian Split Squat: beidbeinig, dadurch halbe Zeit und deutlich weniger Ermüdung vor dem Kendo. Die Schulter ist unbeteiligt - die Arme hängen einfach. Wenn der Griff vor den Beinen ermüdet: Goblet Squat mit der KB.",
        "video": "",
@@ -1927,11 +1927,11 @@
      "resistance": [
       {
        "label": "Kurzhantel-Rudern",
-       "value": "2x21 kg | 3s exzentrisch"
+       "value": "2x21 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2 + 1x0,5) | 3s exzentrisch"
       },
       {
        "label": "Kurzhantel-Squat",
-       "value": "2x21 kg"
+       "value": "2x21 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2 + 1x0,5) | + Gewichtsweste 5-10 kg (nur Squat)"
       }
      ]
     },
@@ -1942,11 +1942,11 @@
        "code": "B1",
        "name": "Kurzhantel Floor Press (neutraler Griff)",
        "sets": 3,
-       "targetReps": "8-12",
+       "targetReps": "6-10",
        "perSide": false,
        "detail": "",
-       "raw": "B1 Kurzhantel Floor Press (neutraler Griff) 3x8-12",
-       "resistance": "2x20 kg | 3s exzentrisch",
+       "raw": "B1 Kurzhantel Floor Press (neutraler Griff) 3x6-10",
+       "resistance": "2x20 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2) | 3s exzentrisch",
        "resistanceLabel": "Floor Press",
        "description": "Rückenlage, Knie angestellt, in jeder Hand eine Kurzhantel mit neutralem Griff (Handflächen zueinander) über der Brust ausdrücken, Ellbogen ~45° vom Körper. Langsam ablassen, bis der Trizeps den Boden berührt – der Boden begrenzt die Bewegung und schützt das AC-Gelenk – kurz pausieren, dann hochdrücken. Ersetzt den KB Floor Press: Die Kurzhantel-Last liegt zentriert über der Handwurzel, das Handgelenk bleibt gerade (KB-Version war fürs Handgelenk schmerzhaft). Brust-/Trizeps-Hauptübung, 2x pro Woche (Di + Sa).",
        "video": "https://www.youtube.com/watch?v=rs05AtccEhg",
@@ -1972,7 +1972,7 @@
      "resistance": [
       {
        "label": "Floor Press",
-       "value": "2x20 kg | 3s exzentrisch"
+       "value": "2x20 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2) | 3s exzentrisch"
       },
       {
        "label": "Curl",
@@ -2035,9 +2035,9 @@
     {
      "gerät": "Kurzhanteln",
      "items": [
-      "2x20 kg | 3s exzentrisch (Floor Press)",
-      "2x21 kg (Kurzhantel-Squat)",
-      "2x21 kg | 3s exzentrisch (Kurzhantel-Rudern)"
+      "2x20 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2) | 3s exzentrisch (Floor Press)",
+      "2x21 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2 + 1x0,5) | + Gewichtsweste 5-10 kg (nur Squat) (Kurzhantel-Squat)",
+      "2x21 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2 + 1x0,5) | 3s exzentrisch (Kurzhantel-Rudern)"
      ]
     },
     {
@@ -2087,7 +2087,7 @@
     {
      "name": "Band-Außenrotationen",
      "seconds": 30,
-     "perSide": false,
+     "perSide": true,
      "note": ""
     }
    ],
@@ -2103,7 +2103,7 @@
        "perSide": false,
        "detail": "",
        "raw": "A1 Langhantel-Rudern vorgebeugt 3x6-10",
-       "resistance": "Langhantel 43,8 kg | 3s exzentrisch",
+       "resistance": "Langhantel 45,8 kg gesamt (Stange 7,8 kg + je Seite 2x5 + 4x2 + 2x0,5) | 3s exzentrisch",
        "resistanceLabel": "Rudern",
        "description": "Hüftbreiter Stand, Langhantel im Obergriff. Hüfte nach hinten schieben (Hip Hinge), Oberkörper ~45° oder tiefer, Rücken neutral, Rumpf fest. Die Stange zum Bauchnabel ziehen, Ellbogen nah am Körper, Schulterblätter nach hinten-unten; langsam ablassen, kein Schwung. Schwere beidarmige Zugübung als Ergänzung zum einarmigen KB-Rudern – Arme bleiben unter 90°. Zyklus Aug: 35,8 kg (W16) bis 39,8 kg (W19).",
        "video": "https://www.youtube.com/watch?v=rqTOAM8WoeM",
@@ -2129,7 +2129,7 @@
      "resistance": [
       {
        "label": "Rudern",
-       "value": "Langhantel 43,8 kg | 3s exzentrisch"
+       "value": "Langhantel 45,8 kg gesamt (Stange 7,8 kg + je Seite 2x5 + 4x2 + 2x0,5) | 3s exzentrisch"
       },
       {
        "label": "Curl",
@@ -2148,7 +2148,7 @@
        "perSide": false,
        "detail": "",
        "raw": "B1 Langhantel Romanian Deadlift 3x8-12",
-       "resistance": "Langhantel 45,8 kg | Deficit + 3s + Gewichtsweste 10 kg",
+       "resistance": "Langhantel 45,8 kg gesamt (Stange 7,8 kg + je Seite 2x5 + 4x2 + 2x0,5) | Deficit + 3s exzentrisch",
        "resistanceLabel": "RDL",
        "description": "Hüfte nach hinten, Rücken neutral, Beinbeuger laden, Hüfte nach vorn strecken. Jetzt mit Langhantel bis 45,8 kg statt Kettlebell (KB-Version war zu leicht).",
        "video": "https://www.youtube.com/watch?v=M6fGnnNR4bQ",
@@ -2174,7 +2174,7 @@
      "resistance": [
       {
        "label": "RDL",
-       "value": "Langhantel 45,8 kg | Deficit + 3s + Gewichtsweste 10 kg"
+       "value": "Langhantel 45,8 kg gesamt (Stange 7,8 kg + je Seite 2x5 + 4x2 + 2x0,5) | Deficit + 3s exzentrisch"
       },
       {
        "label": "Chest-Press",
@@ -2201,16 +2201,16 @@
       },
       {
        "code": "C2",
-       "name": "Band-Außenrotationen",
+       "name": "Band-Aussenrotationen",
        "sets": 3,
        "targetReps": "12-15",
        "perSide": false,
        "detail": "",
-       "raw": "C2 Band-Außenrotationen 3x12-15",
+       "raw": "C2 Band-Aussenrotationen 3x12-15",
        "resistance": "leichtes Band",
-       "resistanceLabel": "Außenrotation",
-       "description": "Ellbogen am Körper, 90° gebeugt, Unterarm gegen leichtes Band nach außen rotieren – Rotatorenmanschette. Jetzt auch Dead-Hang-Ersatz im Warm-up.",
-       "video": "https://www.youtube.com/watch?v=_UvmPNGtlPM",
+       "resistanceLabel": "Aussenrotation",
+       "description": "",
+       "video": "",
        "videoNote": ""
       }
      ],
@@ -2222,7 +2222,7 @@
        "value": "leichtes Band 15-25 lbs"
       },
       {
-       "label": "Außenrotation",
+       "label": "Aussenrotation",
        "value": "leichtes Band"
       }
      ]
@@ -2234,8 +2234,8 @@
     {
      "gerät": "Langhantel",
      "items": [
-      "Langhantel 43,8 kg | 3s exzentrisch (Rudern)",
-      "Langhantel 45,8 kg | Deficit + 3s + Gewichtsweste 10 kg (RDL)"
+      "Langhantel 45,8 kg gesamt (Stange 7,8 kg + je Seite 2x5 + 4x2 + 2x0,5) | 3s exzentrisch (Rudern)",
+      "Langhantel 45,8 kg gesamt (Stange 7,8 kg + je Seite 2x5 + 4x2 + 2x0,5) | Deficit + 3s exzentrisch (RDL)"
      ]
     },
     {
@@ -2243,7 +2243,7 @@
      "items": [
       "Band 20-35 lbs (Curl)",
       "Band 40-80 lbs (Chest-Press)",
-      "leichtes Band (Außenrotation)",
+      "leichtes Band (Aussenrotation)",
       "leichtes Band 15-25 lbs (Seitheben)"
      ]
     }
@@ -2286,7 +2286,7 @@
     {
      "name": "Band-Außenrotationen",
      "seconds": 30,
-     "perSide": false,
+     "perSide": true,
      "note": ""
     }
    ],
@@ -2343,11 +2343,11 @@
        "code": "B1",
        "name": "Kurzhantel Floor Press (neutraler Griff)",
        "sets": 3,
-       "targetReps": "8-12",
+       "targetReps": "6-10",
        "perSide": false,
        "detail": "",
-       "raw": "B1 Kurzhantel Floor Press (neutraler Griff) 3x8-12",
-       "resistance": "2x20 kg | 3s exzentrisch",
+       "raw": "B1 Kurzhantel Floor Press (neutraler Griff) 3x6-10",
+       "resistance": "2x20 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2) | 3s exzentrisch",
        "resistanceLabel": "Floor Press",
        "description": "Rückenlage, Knie angestellt, in jeder Hand eine Kurzhantel mit neutralem Griff (Handflächen zueinander) über der Brust ausdrücken, Ellbogen ~45° vom Körper. Langsam ablassen, bis der Trizeps den Boden berührt – der Boden begrenzt die Bewegung und schützt das AC-Gelenk – kurz pausieren, dann hochdrücken. Ersetzt den KB Floor Press: Die Kurzhantel-Last liegt zentriert über der Handwurzel, das Handgelenk bleibt gerade (KB-Version war fürs Handgelenk schmerzhaft). Brust-/Trizeps-Hauptübung, 2x pro Woche (Di + Sa).",
        "video": "https://www.youtube.com/watch?v=rs05AtccEhg",
@@ -2373,7 +2373,7 @@
      "resistance": [
       {
        "label": "Floor Press",
-       "value": "2x20 kg | 3s exzentrisch"
+       "value": "2x20 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2) | 3s exzentrisch"
       },
       {
        "label": "Swing",
@@ -2429,14 +2429,14 @@
    ],
    "finish": null,
    "optional": {
-    "text": "Wadenheben beidbeinig 2x15-20, 3s exzentrisch - nur als Achilles-Prophylaxe fürs Kendo",
+    "text": "Wadenheben beidbeinig 2x15-20, 3s exzentrisch - nur als Achilles-Prophylaxe fuers Kendo",
     "resistance": "Langhantel oder Gewichtsweste"
    },
    "equipment": [
     {
      "gerät": "Kurzhanteln",
      "items": [
-      "2x20 kg | 3s exzentrisch (Floor Press)"
+      "2x20 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2) | 3s exzentrisch (Floor Press)"
      ]
     },
     {
