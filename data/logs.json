@@ -439,6 +439,81 @@
    },
    "sessionNote": "",
    "savedAt": "2026-07-28T17:17:34.761Z"
+  },
+  "2026-07-30": {
+   "date": "2026-07-30",
+   "week": 16,
+   "day": "Do",
+   "entries": {
+    "A1": {
+     "name": "Langhantel-Rudern vorgebeugt",
+     "target": "3x6-10",
+     "resistance": "Langhantel 41,8 kg gesamt (Stange 7,8 kg + je Seite 2x5 + 3x2 + 2x0,5)",
+     "reps": [
+      "12",
+      "10",
+      "9"
+     ],
+     "note": ""
+    },
+    "A2": {
+     "name": "Band-Bizeps-Curl beidarmig",
+     "target": "3x10-15",
+     "resistance": "Band 20-35 + 15-25 lbs",
+     "reps": [
+      "17",
+      "15",
+      "12"
+     ],
+     "note": ""
+    },
+    "B1": {
+     "name": "Langhantel Romanian Deadlift",
+     "target": "3x8-12",
+     "resistance": "Langhantel 45,8 kg gesamt (Stange 7,8 kg + je Seite 2x5 + 4x2 + 2x0,5)",
+     "reps": [
+      "10",
+      "10",
+      "9"
+     ],
+     "note": "Eccentric; grip strength is limiting factor"
+    },
+    "B2": {
+     "name": "Band-Chest-Press stehend beidarmig",
+     "target": "3x10-15",
+     "resistance": "Band 40-80 + 20-35 lbs (stapeln - laut Logs war ein Band viel zu leicht)",
+     "reps": [
+      "17",
+      "17",
+      "15"
+     ],
+     "note": "eccentric"
+    },
+    "C1": {
+     "name": "Band Lateral Raise (bis ~80°)",
+     "target": "3x12-20",
+     "resistance": "leichtes Band 15-25 lbs",
+     "reps": [
+      "14",
+      "9",
+      "15"
+     ],
+     "note": "eccentric"
+    },
+    "C2": {
+     "name": "Band-Außenrotationen",
+     "target": "3x12-15",
+     "resistance": "leichtes Band",
+     "reps": [
+      "15",
+      "15",
+      "15"
+     ],
+     "note": "eccentric"
+    }
+   },
+   "sessionNote": "",
+   "savedAt": "2026-07-30T16:20:04.387Z"
   }
  }
 }
