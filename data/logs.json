@@ -1,0 +1,444 @@
+{
+ "logs": {
+  "2026-07-14": {
+   "date": "2026-07-14",
+   "week": 12,
+   "day": "Di",
+   "entries": {
+    "A1": {
+     "name": "Einarmiges KB-Rudern vorgebeugt",
+     "target": "4x6-10/Seite",
+     "resistance": "22 kg",
+     "reps": [
+      "10 /10",
+      "10 /10",
+      "910",
+      "89"
+     ],
+     "note": ""
+    },
+    "A2": {
+     "name": "Bulgarian Split Squat",
+     "target": "4x6-8/Seite",
+     "resistance": "2x 10 kg Kurzhanteln",
+     "reps": [
+      "10 /10",
+      "10 /10",
+      "10 /10",
+      "10 /10"
+     ],
+     "note": ""
+    },
+    "B1": {
+     "name": "Kurzhantel Floor Press (neutraler Griff)",
+     "target": "4x8-12",
+     "resistance": "2x 10 kg (Handgelenk testen!)",
+     "reps": [
+      "10 /10",
+      "10 /10",
+      "10 /10",
+      "10 /10"
+     ],
+     "note": ""
+    },
+    "B2": {
+     "name": "Single-Leg Romanian Deadlift (KB)",
+     "target": "4x8-10/Seite",
+     "resistance": "KB 22 kg",
+     "reps": [
+      "10 /10",
+      "10 /10",
+      "10 /10",
+      "10 /10"
+     ],
+     "note": ""
+    },
+    "C1": {
+     "name": "Pallof Press",
+     "target": "2x10-12/Seite",
+     "resistance": "30-50 lbs",
+     "reps": [
+      "15/15",
+      "15/15"
+     ],
+     "note": ""
+    },
+    "C2": {
+     "name": "Band Face Pull",
+     "target": "2x12-15",
+     "resistance": "40-80 lbs",
+     "reps": [
+      "15/15",
+      "15/15"
+     ],
+     "note": ""
+    }
+   },
+   "sessionNote": "",
+   "savedAt": "2026-07-14T16:18:55.775Z"
+  },
+  "2026-07-16": {
+   "date": "2026-07-16",
+   "week": 12,
+   "day": "Do",
+   "entries": {
+    "A1": {
+     "name": "Langhantel-Rudern vorgebeugt",
+     "target": "4x6-8",
+     "resistance": "Langhantel 30 kg",
+     "reps": [
+      "10",
+      "13",
+      "13",
+      "12"
+     ],
+     "note": ""
+    },
+    "A2": {
+     "name": "Split Squat",
+     "target": "4x8-10/Seite",
+     "resistance": "KB 22 kg Goblet",
+     "reps": [
+      "12/12",
+      "12/12",
+      "12/12",
+      "12/12"
+     ],
+     "note": ""
+    },
+    "B1": {
+     "name": "Band-Chest-Press stehend, einarmig",
+     "target": "4x6-10/Seite",
+     "resistance": "Band auf Brusthöhe, schmerzfreie Spannung",
+     "reps": [
+      "20/20",
+      "20/20",
+      "25/25",
+      "25/25"
+     ],
+     "note": "25/25"
+    },
+    "B2": {
+     "name": "Langhantel Romanian Deadlift",
+     "target": "4x8-12",
+     "resistance": "Langhantel 35 kg",
+     "reps": [
+      "10",
+      "15",
+      "15",
+      "15"
+     ],
+     "note": ""
+    },
+    "C1": {
+     "name": "Band Lateral Raise",
+     "target": "2x12-15",
+     "resistance": "leichtes Band (15-25 lbs)",
+     "reps": [
+      "15",
+      "10"
+     ],
+     "note": "eccentric"
+    },
+    "C2": {
+     "name": "Band-Außenrotation",
+     "target": "2x12-15",
+     "resistance": "leichtes Band",
+     "reps": [
+      "12",
+      "12"
+     ],
+     "note": ""
+    }
+   },
+   "sessionNote": "",
+   "savedAt": "2026-07-16T11:56:12.649Z"
+  },
+  "2026-07-18": {
+   "date": "2026-07-18",
+   "week": 12,
+   "day": "Sa",
+   "entries": {
+    "A1": {
+     "name": "Schweres Band-Rudern (auch einarmig)",
+     "target": "3x10-15",
+     "resistance": "40-80 + 20-35 lbs",
+     "reps": [
+      "12",
+      "12",
+      "12"
+     ],
+     "note": "2x 20 kg Kurzhantel"
+    },
+    "A2": {
+     "name": "Goblet Squat (KB)",
+     "target": "3x8-12",
+     "resistance": "KB 24 kg",
+     "reps": [
+      "17",
+      "17",
+      "17"
+     ],
+     "note": "20 kg Kurzhantel"
+    },
+    "B1": {
+     "name": "Kurzhantel Floor Press (neutraler Griff)",
+     "target": "3x8-12",
+     "resistance": "2x 10 kg",
+     "reps": [
+      "15",
+      "17",
+      "9"
+     ],
+     "note": "3. Runde: 2x 15 kg Kurzhantel"
+    },
+    "B2": {
+     "name": "KB Swing ZWEIARMIG",
+     "target": "5x15",
+     "resistance": "KB 24 kg",
+     "reps": [
+      "15",
+      "15",
+      "15",
+      "16",
+      "15"
+     ],
+     "note": "KB 14 einarmig"
+    },
+    "C1": {
+     "name": "Liegende Leg Raises",
+     "target": "2x8-12",
+     "resistance": "Eigengewicht",
+     "reps": [
+      "10",
+      "9"
+     ],
+     "note": ""
+    },
+    "C2": {
+     "name": "Suitcase Carry",
+     "target": "2x30-40m/Seite",
+     "resistance": "KB 24 kg oder Kurzhantel bis 21 kg",
+     "reps": [
+      "50/50",
+      "40/40"
+     ],
+     "note": ""
+    }
+   },
+   "sessionNote": "",
+   "savedAt": "2026-07-18T15:43:51.746Z"
+  },
+  "2026-07-21": {
+   "date": "2026-07-21",
+   "week": 13,
+   "day": "Di",
+   "entries": {
+    "A1": {
+     "name": "Einarmiges KB-Rudern vorgebeugt",
+     "target": "4x6-10/Seite",
+     "resistance": "22 kg",
+     "reps": [
+      "12",
+      "12",
+      "10",
+      "10"
+     ],
+     "note": "Beide Arme gleichzeitig"
+    },
+    "A2": {
+     "name": "Bulgarian Split Squat",
+     "target": "4x6-8/Seite",
+     "resistance": "2x 12 kg",
+     "reps": [
+      "12",
+      "12",
+      "12",
+      "12"
+     ],
+     "note": ""
+    },
+    "B1": {
+     "name": "Kurzhantel Floor Press (neutraler Griff)",
+     "target": "4x8-12",
+     "resistance": "2x 12 kg",
+     "reps": [
+      "12",
+      "12",
+      "12",
+      "12"
+     ],
+     "note": ""
+    },
+    "B2": {
+     "name": "Single-Leg Romanian Deadlift (KB)",
+     "target": "4x8-10/Seite",
+     "resistance": "KB 22 kg",
+     "reps": [
+      "10/10",
+      "10/10",
+      "10/10",
+      "10/10"
+     ],
+     "note": "KB 24 kg!"
+    },
+    "C1": {
+     "name": "Pallof Press",
+     "target": "2x10-12/Seite",
+     "resistance": "30-50 lbs",
+     "reps": [
+      "15/15",
+      "15/15"
+     ],
+     "note": ""
+    },
+    "C2": {
+     "name": "Band Face Pull",
+     "target": "2x12-15",
+     "resistance": "40-80 lbs",
+     "reps": [
+      "15/15",
+      "15/15"
+     ],
+     "note": ""
+    }
+   },
+   "sessionNote": "",
+   "savedAt": "2026-07-21T16:30:49.723Z"
+  },
+  "2026-07-23": {
+   "date": "2026-07-23",
+   "week": 13,
+   "day": "Do",
+   "entries": {
+    "A1": {
+     "name": "Langhantel-Rudern vorgebeugt",
+     "target": "4x6-8",
+     "resistance": "32 kg",
+     "reps": [
+      "16",
+      "10",
+      "10",
+      "10"
+     ],
+     "note": "Ab R2 mit 36 kg"
+    },
+    "A2": {
+     "name": "Split Squat",
+     "target": "4x8-10/Seite",
+     "resistance": "KB 22 kg",
+     "reps": [
+      "12/12",
+      "12/12",
+      "12/12",
+      "12/12"
+     ],
+     "note": "Kb 24"
+    },
+    "B1": {
+     "name": "Band-Chest-Press stehend, einarmig",
+     "target": "4x6-10/Seite",
+     "resistance": "wie W12",
+     "reps": [
+      "20/20",
+      "15/15",
+      "15/15",
+      "15/15"
+     ],
+     "note": ""
+    },
+    "B2": {
+     "name": "Langhantel Romanian Deadlift",
+     "target": "4x8-12",
+     "resistance": "38 kg",
+     "reps": [
+      "15",
+      "15",
+      "15",
+      ""
+     ],
+     "note": ""
+    }
+   },
+   "sessionNote": "",
+   "savedAt": "2026-07-23T14:28:44.597Z"
+  },
+  "2026-07-28": {
+   "date": "2026-07-28",
+   "week": 14,
+   "day": "Di",
+   "entries": {
+    "A1": {
+     "name": "Einarmiges KB-Rudern vorgebeugt",
+     "target": "4x6-10/Seite",
+     "resistance": "24 kg",
+     "reps": [
+      "10/10",
+      "10/10",
+      "10/10",
+      "10/10"
+     ],
+     "note": ""
+    },
+    "A2": {
+     "name": "Bulgarian Split Squat",
+     "target": "4x6-8/Seite",
+     "resistance": "2x 14 kg",
+     "reps": [
+      "10/10",
+      "10/10",
+      "10/10",
+      "15/15"
+     ],
+     "note": ""
+    },
+    "B1": {
+     "name": "Kurzhantel Floor Press (neutraler Griff)",
+     "target": "4x8-12",
+     "resistance": "2x 14 kg",
+     "reps": [
+      "10",
+      "10",
+      "9",
+      "9"
+     ],
+     "note": ""
+    },
+    "B2": {
+     "name": "Single-Leg Romanian Deadlift (KB)",
+     "target": "4x8-10/Seite",
+     "resistance": "KB 24 kg (3s Exzentrik)",
+     "reps": [
+      "8/9",
+      "8/9",
+      "8/9",
+      ""
+     ],
+     "note": ""
+    },
+    "C1": {
+     "name": "Pallof Press",
+     "target": "2x10-12/Seite",
+     "resistance": "30-50 lbs",
+     "reps": [
+      "16",
+      "16"
+     ],
+     "note": "Beidseitig"
+    },
+    "C2": {
+     "name": "Band Face Pull",
+     "target": "2x12-15",
+     "resistance": "40-80 + 20-35 lbs (mehr Spannung)",
+     "reps": [
+      "20",
+      "20"
+     ],
+     "note": ""
+    }
+   },
+   "sessionNote": "",
+   "savedAt": "2026-07-28T17:17:34.761Z"
+  }
+ }
+}
