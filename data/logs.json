@@ -514,6 +514,81 @@
    },
    "sessionNote": "",
    "savedAt": "2026-07-30T16:20:04.387Z"
+  },
+  "2026-08-01": {
+   "date": "2026-08-01",
+   "week": 16,
+   "day": "Sa",
+   "entries": {
+    "A1": {
+     "name": "Schweres Band-Rudern beidarmig",
+     "target": "3x10-15",
+     "resistance": "40-80 + 20-35 + 15-25 lbs (stapeln!)",
+     "reps": [
+      "12",
+      "12",
+      "12"
+     ],
+     "note": ""
+    },
+    "A2": {
+     "name": "Kurzhantel-Squat (Koffergriff)",
+     "target": "3x10-15",
+     "resistance": "2x17 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 1x2 + 1x0,5)",
+     "reps": [
+      "15",
+      "15",
+      "15"
+     ],
+     "note": ""
+    },
+    "B1": {
+     "name": "Kurzhantel Floor Press (neutraler Griff)",
+     "target": "3x8-12",
+     "resistance": "2x17 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 1x2 + 1x0,5)",
+     "reps": [
+      "8",
+      "8",
+      "7"
+     ],
+     "note": ""
+    },
+    "B2": {
+     "name": "KB Swing zweiarmig",
+     "target": "3x15",
+     "resistance": "KB 24 kg",
+     "reps": [
+      "15",
+      "17",
+      "20"
+     ],
+     "note": ""
+    },
+    "C1": {
+     "name": "Band-Bizeps-Curl beidarmig",
+     "target": "3x10-15",
+     "resistance": "Band 20-35 + 15-25 lbs",
+     "reps": [
+      "15",
+      "18",
+      "20"
+     ],
+     "note": ""
+    },
+    "C2": {
+     "name": "Band-Trizeps-Pushdown beidarmig",
+     "target": "3x10-15",
+     "resistance": "Band 20-35 + 15-25 lbs",
+     "reps": [
+      "15",
+      "20",
+      "20"
+     ],
+     "note": ""
+    }
+   },
+   "sessionNote": "",
+   "savedAt": "2026-08-02T10:16:11.848Z"
   }
  }
 }
