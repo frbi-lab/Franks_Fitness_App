@@ -136,9 +136,9 @@
        "perSide": false,
        "detail": "",
        "raw": "B2 Band-Bizeps-Curl beidarmig 3x10-15",
-       "resistance": "Band 20-35 + 15-25 lbs",
+       "resistance": "Band ORANGE (40-80 lbs) [zu leicht? DUNKELGRUEN (60-170) nehmen oder weiter vom Anker wegtreten]",
        "resistanceLabel": "Curl",
-       "description": "Auf das Band stellen (ein oder beide Füße = Widerstand wählen), Ellbogen fest an den Seiten. Unterarme nach oben curlen, oben kurz anspannen, langsam (2-3s) ablassen. Nur der Unterarm bewegt sich – kein Schwung aus Schulter oder Rücken. Ersetzt das Bizeps-Volumen der weggefallenen Klimmzüge.",
+       "description": "BAND: ORANGE (40-80 lbs). Auf das Band stellen (ein oder beide Füße = Widerstand wählen), Ellbogen fest an den Seiten. Unterarme nach oben curlen, oben kurz anspannen, langsam (2-3s) ablassen. Nur der Unterarm bewegt sich – kein Schwung aus Schulter oder Rücken. Ersetzt das Bizeps-Volumen der weggefallenen Klimmzüge.",
        "video": "https://www.youtube.com/watch?v=Da57AuIofvU",
        "videoNote": ""
       }
@@ -152,7 +152,7 @@
       },
       {
        "label": "Curl",
-       "value": "Band 20-35 + 15-25 lbs"
+       "value": "Band ORANGE (40-80 lbs) [zu leicht? DUNKELGRUEN (60-170) nehmen oder weiter vom Anker wegtreten]"
       }
      ]
     },
@@ -167,9 +167,9 @@
        "perSide": false,
        "detail": "",
        "raw": "C1 Band Lateral Raise (bis ~80°) 3x12-20",
-       "resistance": "leichtes Band 15-25 lbs (bewusst leicht - Schulter!)",
+       "resistance": "Band LILA (15-25 lbs) [bewusst leicht - Schulter! NICHT staerker waehlen]",
        "resistanceLabel": "Seitheben",
-       "description": "Auf das Band stellen, Arme leicht gebeugt seitlich anheben, STOPP bei ~80° (knapp unter Schulterhöhe), 2s halten, langsam ablassen. Leicht bleiben – Ziel ist der Erhalt der seitlichen Schultermuskulatur im schmerzfreien Bereich, ohne die 90°-Grenze zu reizen.",
+       "description": "BAND: LILA (15-25 lbs). Auf das Band stellen, Arme leicht gebeugt seitlich anheben, STOPP bei ~80° (knapp unter Schulterhöhe), 2s halten, langsam ablassen. Leicht bleiben – Ziel ist der Erhalt der seitlichen Schultermuskulatur im schmerzfreien Bereich, ohne die 90°-Grenze zu reizen.",
        "video": "https://www.youtube.com/watch?v=gfEyrmxbCbw",
        "videoNote": ""
       },
@@ -181,9 +181,9 @@
        "perSide": false,
        "detail": "",
        "raw": "C2 Band-Trizeps-Pushdown beidarmig 3x10-15",
-       "resistance": "Band 20-35 + 15-25 lbs",
+       "resistance": "Band ORANGE (40-80 lbs) [zu leicht? DUNKELGRUEN (60-170) nehmen oder weiter vom Anker wegtreten]",
        "resistanceLabel": "Pushdown",
-       "description": "Band oben verankern (z.B. Klimmzugstange). Ellbogen eng am Körper fixieren, Unterarme nach unten strecken bis die Arme gestreckt sind, Trizeps unten fest anspannen, langsam zurück. Oberarme bewegen sich nicht. Arm bleibt komplett unten – ideal bei 90°-Regel.",
+       "description": "BAND: ORANGE (40-80 lbs). Band oben verankern (z.B. Klimmzugstange). Ellbogen eng am Körper fixieren, Unterarme nach unten strecken bis die Arme gestreckt sind, Trizeps unten fest anspannen, langsam zurück. Oberarme bewegen sich nicht. Arm bleibt komplett unten – ideal bei 90°-Regel.",
        "video": "https://www.youtube.com/watch?v=qjPN6ElNqpc",
        "videoNote": ""
       }
@@ -193,11 +193,11 @@
      "resistance": [
       {
        "label": "Seitheben",
-       "value": "leichtes Band 15-25 lbs (bewusst leicht - Schulter!)"
+       "value": "Band LILA (15-25 lbs) [bewusst leicht - Schulter! NICHT staerker waehlen]"
       },
       {
        "label": "Pushdown",
-       "value": "Band 20-35 + 15-25 lbs"
+       "value": "Band ORANGE (40-80 lbs) [zu leicht? DUNKELGRUEN (60-170) nehmen oder weiter vom Anker wegtreten]"
       }
      ]
     }
@@ -205,7 +205,7 @@
    "finish": null,
    "optional": {
     "text": "Pallof Press 2x10-12/Seite - nur wenn du unter 30 min geblieben bist",
-    "resistance": "Band 40-80 lbs"
+    "resistance": "Band ROT (50-125 lbs)"
    },
    "equipment": [
     {
@@ -219,9 +219,9 @@
     {
      "gerät": "Bänder",
      "items": [
-      "Band 20-35 + 15-25 lbs (Curl)",
-      "Band 20-35 + 15-25 lbs (Pushdown)",
-      "leichtes Band 15-25 lbs (bewusst leicht - Schulter!) (Seitheben)"
+      "Band LILA (15-25 lbs) [bewusst leicht - Schulter! NICHT staerker waehlen] (Seitheben)",
+      "Band ORANGE (40-80 lbs) [zu leicht? DUNKELGRUEN (60-170) nehmen oder weiter vom Anker wegtreten] (Curl)",
+      "Band ORANGE (40-80 lbs) [zu leicht? DUNKELGRUEN (60-170) nehmen oder weiter vom Anker wegtreten] (Pushdown)"
      ]
     }
    ]
@@ -293,9 +293,9 @@
        "perSide": false,
        "detail": "",
        "raw": "A2 Band-Bizeps-Curl beidarmig 3x10-15",
-       "resistance": "Band 20-35 + 15-25 lbs",
+       "resistance": "Band ORANGE (40-80 lbs) [zu leicht? DUNKELGRUEN (60-170) nehmen oder weiter vom Anker wegtreten]",
        "resistanceLabel": "Curl",
-       "description": "Auf das Band stellen (ein oder beide Füße = Widerstand wählen), Ellbogen fest an den Seiten. Unterarme nach oben curlen, oben kurz anspannen, langsam (2-3s) ablassen. Nur der Unterarm bewegt sich – kein Schwung aus Schulter oder Rücken. Ersetzt das Bizeps-Volumen der weggefallenen Klimmzüge.",
+       "description": "BAND: ORANGE (40-80 lbs). Auf das Band stellen (ein oder beide Füße = Widerstand wählen), Ellbogen fest an den Seiten. Unterarme nach oben curlen, oben kurz anspannen, langsam (2-3s) ablassen. Nur der Unterarm bewegt sich – kein Schwung aus Schulter oder Rücken. Ersetzt das Bizeps-Volumen der weggefallenen Klimmzüge.",
        "video": "https://www.youtube.com/watch?v=Da57AuIofvU",
        "videoNote": ""
       }
@@ -309,7 +309,7 @@
       },
       {
        "label": "Curl",
-       "value": "Band 20-35 + 15-25 lbs"
+       "value": "Band ORANGE (40-80 lbs) [zu leicht? DUNKELGRUEN (60-170) nehmen oder weiter vom Anker wegtreten]"
       }
      ]
     },
@@ -338,9 +338,9 @@
        "perSide": false,
        "detail": "",
        "raw": "B2 Band-Chest-Press stehend beidarmig 3x10-15",
-       "resistance": "Band 40-80 + 20-35 lbs (stapeln - laut Logs war ein Band viel zu leicht)",
+       "resistance": "Band ROT (50-125 lbs) [zu leicht? DUNKELGRUEN (60-170) nehmen oder weiter vom Anker wegtreten]",
        "resistanceLabel": "Chest-Press",
-       "description": "Band auf Brusthöhe hinter dir verankern, Schrittstellung, Rumpf fest. Beide Griffe auf Brusthöhe, dann BEIDE Arme gleichzeitig horizontal nach vorn ausdrücken - die Hände bleiben maximal auf Schulterhöhe, nie darüber. Langsam zurückführen, ohne dass die Schultern nach vorn kippen. Beidarmige Variante der einarmigen Version aus dem Juli-Plan; das Video zeigt einarmig, die Ausführung ist identisch, nur mit beiden Armen gleichzeitig.",
+       "description": "BAND: ROT (50-125 lbs). Band auf Brusthöhe hinter dir verankern, Schrittstellung, Rumpf fest. Beide Griffe auf Brusthöhe, dann BEIDE Arme gleichzeitig horizontal nach vorn ausdrücken - die Hände bleiben maximal auf Schulterhöhe, nie darüber. Langsam zurückführen, ohne dass die Schultern nach vorn kippen. Beidarmige Variante der einarmigen Version aus dem Juli-Plan; das Video zeigt einarmig, die Ausführung ist identisch, nur mit beiden Armen gleichzeitig.",
        "video": "https://www.youtube.com/watch?v=ssJcPFP47aw",
        "videoNote": "zeigt einarmig"
       }
@@ -354,7 +354,7 @@
       },
       {
        "label": "Chest-Press",
-       "value": "Band 40-80 + 20-35 lbs (stapeln - laut Logs war ein Band viel zu leicht)"
+       "value": "Band ROT (50-125 lbs) [zu leicht? DUNKELGRUEN (60-170) nehmen oder weiter vom Anker wegtreten]"
       }
      ]
     },
@@ -369,9 +369,9 @@
        "perSide": false,
        "detail": "",
        "raw": "C1 Band Lateral Raise (bis ~80°) 3x12-20",
-       "resistance": "leichtes Band 15-25 lbs",
+       "resistance": "Band LILA (15-25 lbs) [bewusst leicht - Schulter! NICHT staerker waehlen]",
        "resistanceLabel": "Seitheben",
-       "description": "Auf das Band stellen, Arme leicht gebeugt seitlich anheben, STOPP bei ~80° (knapp unter Schulterhöhe), 2s halten, langsam ablassen. Leicht bleiben – Ziel ist der Erhalt der seitlichen Schultermuskulatur im schmerzfreien Bereich, ohne die 90°-Grenze zu reizen.",
+       "description": "BAND: LILA (15-25 lbs). Auf das Band stellen, Arme leicht gebeugt seitlich anheben, STOPP bei ~80° (knapp unter Schulterhöhe), 2s halten, langsam ablassen. Leicht bleiben – Ziel ist der Erhalt der seitlichen Schultermuskulatur im schmerzfreien Bereich, ohne die 90°-Grenze zu reizen.",
        "video": "https://www.youtube.com/watch?v=gfEyrmxbCbw",
        "videoNote": ""
       },
@@ -383,9 +383,9 @@
        "perSide": false,
        "detail": "",
        "raw": "C2 Band-Außenrotationen 3x12-15",
-       "resistance": "leichtes Band",
+       "resistance": "Band LILA (15-25 lbs) [bewusst leicht - Schulter! NICHT staerker waehlen]",
        "resistanceLabel": "Außenrotation",
-       "description": "Ellbogen am Körper, 90° gebeugt, Unterarm gegen leichtes Band nach außen rotieren – Rotatorenmanschette. Jetzt auch Dead-Hang-Ersatz im Warm-up.",
+       "description": "BAND: LILA (15-25 lbs). Ellbogen am Körper, 90° gebeugt, Unterarm gegen leichtes Band nach außen rotieren – Rotatorenmanschette. Jetzt auch Dead-Hang-Ersatz im Warm-up.",
        "video": "https://www.youtube.com/watch?v=_UvmPNGtlPM",
        "videoNote": ""
       }
@@ -395,11 +395,11 @@
      "resistance": [
       {
        "label": "Seitheben",
-       "value": "leichtes Band 15-25 lbs"
+       "value": "Band LILA (15-25 lbs) [bewusst leicht - Schulter! NICHT staerker waehlen]"
       },
       {
        "label": "Außenrotation",
-       "value": "leichtes Band"
+       "value": "Band LILA (15-25 lbs) [bewusst leicht - Schulter! NICHT staerker waehlen]"
       }
      ]
     }
@@ -417,10 +417,10 @@
     {
      "gerät": "Bänder",
      "items": [
-      "Band 20-35 + 15-25 lbs (Curl)",
-      "Band 40-80 + 20-35 lbs (stapeln - laut Logs war ein Band viel zu leicht) (Chest-Press)",
-      "leichtes Band (Außenrotation)",
-      "leichtes Band 15-25 lbs (Seitheben)"
+      "Band LILA (15-25 lbs) [bewusst leicht - Schulter! NICHT staerker waehlen] (Außenrotation)",
+      "Band LILA (15-25 lbs) [bewusst leicht - Schulter! NICHT staerker waehlen] (Seitheben)",
+      "Band ORANGE (40-80 lbs) [zu leicht? DUNKELGRUEN (60-170) nehmen oder weiter vom Anker wegtreten] (Curl)",
+      "Band ROT (50-125 lbs) [zu leicht? DUNKELGRUEN (60-170) nehmen oder weiter vom Anker wegtreten] (Chest-Press)"
      ]
     }
    ]
@@ -478,9 +478,9 @@
        "perSide": false,
        "detail": "",
        "raw": "A1 Schweres Band-Rudern beidarmig 3x10-15",
-       "resistance": "40-80 + 20-35 + 15-25 lbs (stapeln!)",
+       "resistance": "Band ROT (50-125 lbs) (falls zu leicht: ORANGE dazu)",
        "resistanceLabel": "Band-Rudern",
-       "description": "Band zum Rumpf ziehen, Schulterblätter nach hinten-unten. Hier BEIDARMIG mit zwei Griffen gleichzeitig.",
+       "description": "BAND: ROT (50-125 lbs). Band zum Rumpf ziehen, Schulterblätter nach hinten-unten. Hier BEIDARMIG mit zwei Griffen gleichzeitig.",
        "video": "https://www.youtube.com/watch?v=JP2xq33lNF0",
        "videoNote": ""
       },
@@ -504,7 +504,7 @@
      "resistance": [
       {
        "label": "Band-Rudern",
-       "value": "40-80 + 20-35 + 15-25 lbs (stapeln!)"
+       "value": "Band ROT (50-125 lbs) (falls zu leicht: ORANGE dazu)"
       },
       {
        "label": "Kurzhantel-Squat",
@@ -568,9 +568,9 @@
        "perSide": false,
        "detail": "",
        "raw": "C1 Band-Bizeps-Curl beidarmig 3x10-15",
-       "resistance": "Band 20-35 + 15-25 lbs",
+       "resistance": "Band ORANGE (40-80 lbs) [zu leicht? DUNKELGRUEN (60-170) nehmen oder weiter vom Anker wegtreten]",
        "resistanceLabel": "Curl",
-       "description": "Auf das Band stellen (ein oder beide Füße = Widerstand wählen), Ellbogen fest an den Seiten. Unterarme nach oben curlen, oben kurz anspannen, langsam (2-3s) ablassen. Nur der Unterarm bewegt sich – kein Schwung aus Schulter oder Rücken. Ersetzt das Bizeps-Volumen der weggefallenen Klimmzüge.",
+       "description": "BAND: ORANGE (40-80 lbs). Auf das Band stellen (ein oder beide Füße = Widerstand wählen), Ellbogen fest an den Seiten. Unterarme nach oben curlen, oben kurz anspannen, langsam (2-3s) ablassen. Nur der Unterarm bewegt sich – kein Schwung aus Schulter oder Rücken. Ersetzt das Bizeps-Volumen der weggefallenen Klimmzüge.",
        "video": "https://www.youtube.com/watch?v=Da57AuIofvU",
        "videoNote": ""
       },
@@ -582,9 +582,9 @@
        "perSide": false,
        "detail": "",
        "raw": "C2 Band-Trizeps-Pushdown beidarmig 3x10-15",
-       "resistance": "Band 20-35 + 15-25 lbs",
+       "resistance": "Band ORANGE (40-80 lbs) [zu leicht? DUNKELGRUEN (60-170) nehmen oder weiter vom Anker wegtreten]",
        "resistanceLabel": "Pushdown",
-       "description": "Band oben verankern (z.B. Klimmzugstange). Ellbogen eng am Körper fixieren, Unterarme nach unten strecken bis die Arme gestreckt sind, Trizeps unten fest anspannen, langsam zurück. Oberarme bewegen sich nicht. Arm bleibt komplett unten – ideal bei 90°-Regel.",
+       "description": "BAND: ORANGE (40-80 lbs). Band oben verankern (z.B. Klimmzugstange). Ellbogen eng am Körper fixieren, Unterarme nach unten strecken bis die Arme gestreckt sind, Trizeps unten fest anspannen, langsam zurück. Oberarme bewegen sich nicht. Arm bleibt komplett unten – ideal bei 90°-Regel.",
        "video": "https://www.youtube.com/watch?v=qjPN6ElNqpc",
        "videoNote": ""
       }
@@ -594,11 +594,11 @@
      "resistance": [
       {
        "label": "Curl",
-       "value": "Band 20-35 + 15-25 lbs"
+       "value": "Band ORANGE (40-80 lbs) [zu leicht? DUNKELGRUEN (60-170) nehmen oder weiter vom Anker wegtreten]"
       },
       {
        "label": "Pushdown",
-       "value": "Band 20-35 + 15-25 lbs"
+       "value": "Band ORANGE (40-80 lbs) [zu leicht? DUNKELGRUEN (60-170) nehmen oder weiter vom Anker wegtreten]"
       }
      ]
     }
@@ -625,9 +625,9 @@
     {
      "gerät": "Bänder",
      "items": [
-      "40-80 + 20-35 + 15-25 lbs (stapeln!) (Band-Rudern)",
-      "Band 20-35 + 15-25 lbs (Curl)",
-      "Band 20-35 + 15-25 lbs (Pushdown)"
+      "Band ORANGE (40-80 lbs) [zu leicht? DUNKELGRUEN (60-170) nehmen oder weiter vom Anker wegtreten] (Curl)",
+      "Band ORANGE (40-80 lbs) [zu leicht? DUNKELGRUEN (60-170) nehmen oder weiter vom Anker wegtreten] (Pushdown)",
+      "Band ROT (50-125 lbs) (falls zu leicht: ORANGE dazu) (Band-Rudern)"
      ]
     }
    ]
@@ -744,9 +744,9 @@
        "perSide": false,
        "detail": "",
        "raw": "B2 Band-Bizeps-Curl beidarmig 3x10-15",
-       "resistance": "Band 20-35 + 15-25 lbs [zu leicht? drittes Band dazu ODER Tempo 3-1-3]",
+       "resistance": "Band ORANGE (40-80 lbs) [zu leicht? DUNKELGRUEN (60-170) nehmen oder weiter vom Anker wegtreten]",
        "resistanceLabel": "Curl",
-       "description": "Auf das Band stellen (ein oder beide Füße = Widerstand wählen), Ellbogen fest an den Seiten. Unterarme nach oben curlen, oben kurz anspannen, langsam (2-3s) ablassen. Nur der Unterarm bewegt sich – kein Schwung aus Schulter oder Rücken. Ersetzt das Bizeps-Volumen der weggefallenen Klimmzüge.",
+       "description": "BAND: ORANGE (40-80 lbs). Auf das Band stellen (ein oder beide Füße = Widerstand wählen), Ellbogen fest an den Seiten. Unterarme nach oben curlen, oben kurz anspannen, langsam (2-3s) ablassen. Nur der Unterarm bewegt sich – kein Schwung aus Schulter oder Rücken. Ersetzt das Bizeps-Volumen der weggefallenen Klimmzüge.",
        "video": "https://www.youtube.com/watch?v=Da57AuIofvU",
        "videoNote": ""
       }
@@ -760,7 +760,7 @@
       },
       {
        "label": "Curl",
-       "value": "Band 20-35 + 15-25 lbs [zu leicht? drittes Band dazu ODER Tempo 3-1-3]"
+       "value": "Band ORANGE (40-80 lbs) [zu leicht? DUNKELGRUEN (60-170) nehmen oder weiter vom Anker wegtreten]"
       }
      ]
     },
@@ -775,9 +775,9 @@
        "perSide": false,
        "detail": "",
        "raw": "C1 Band Lateral Raise (bis ~80°) 3x12-20",
-       "resistance": "leichtes Band 15-25 lbs (bewusst leicht - Schulter!)",
+       "resistance": "Band LILA (15-25 lbs) [bewusst leicht - Schulter! NICHT staerker waehlen]",
        "resistanceLabel": "Seitheben",
-       "description": "Auf das Band stellen, Arme leicht gebeugt seitlich anheben, STOPP bei ~80° (knapp unter Schulterhöhe), 2s halten, langsam ablassen. Leicht bleiben – Ziel ist der Erhalt der seitlichen Schultermuskulatur im schmerzfreien Bereich, ohne die 90°-Grenze zu reizen.",
+       "description": "BAND: LILA (15-25 lbs). Auf das Band stellen, Arme leicht gebeugt seitlich anheben, STOPP bei ~80° (knapp unter Schulterhöhe), 2s halten, langsam ablassen. Leicht bleiben – Ziel ist der Erhalt der seitlichen Schultermuskulatur im schmerzfreien Bereich, ohne die 90°-Grenze zu reizen.",
        "video": "https://www.youtube.com/watch?v=gfEyrmxbCbw",
        "videoNote": ""
       },
@@ -789,9 +789,9 @@
        "perSide": false,
        "detail": "",
        "raw": "C2 Band-Trizeps-Pushdown beidarmig 3x10-15",
-       "resistance": "Band 20-35 + 15-25 lbs [zu leicht? drittes Band dazu ODER Tempo 3-1-3]",
+       "resistance": "Band ORANGE (40-80 lbs) [zu leicht? DUNKELGRUEN (60-170) nehmen oder weiter vom Anker wegtreten]",
        "resistanceLabel": "Pushdown",
-       "description": "Band oben verankern (z.B. Klimmzugstange). Ellbogen eng am Körper fixieren, Unterarme nach unten strecken bis die Arme gestreckt sind, Trizeps unten fest anspannen, langsam zurück. Oberarme bewegen sich nicht. Arm bleibt komplett unten – ideal bei 90°-Regel.",
+       "description": "BAND: ORANGE (40-80 lbs). Band oben verankern (z.B. Klimmzugstange). Ellbogen eng am Körper fixieren, Unterarme nach unten strecken bis die Arme gestreckt sind, Trizeps unten fest anspannen, langsam zurück. Oberarme bewegen sich nicht. Arm bleibt komplett unten – ideal bei 90°-Regel.",
        "video": "https://www.youtube.com/watch?v=qjPN6ElNqpc",
        "videoNote": ""
       }
@@ -801,11 +801,11 @@
      "resistance": [
       {
        "label": "Seitheben",
-       "value": "leichtes Band 15-25 lbs (bewusst leicht - Schulter!)"
+       "value": "Band LILA (15-25 lbs) [bewusst leicht - Schulter! NICHT staerker waehlen]"
       },
       {
        "label": "Pushdown",
-       "value": "Band 20-35 + 15-25 lbs [zu leicht? drittes Band dazu ODER Tempo 3-1-3]"
+       "value": "Band ORANGE (40-80 lbs) [zu leicht? DUNKELGRUEN (60-170) nehmen oder weiter vom Anker wegtreten]"
       }
      ]
     }
@@ -813,7 +813,7 @@
    "finish": null,
    "optional": {
     "text": "Pallof Press 2x10-12/Seite - nur wenn du unter 30 min geblieben bist",
-    "resistance": "Band 40-80 lbs"
+    "resistance": "Band ROT (50-125 lbs)"
    },
    "equipment": [
     {
@@ -827,9 +827,9 @@
     {
      "gerät": "Bänder",
      "items": [
-      "Band 20-35 + 15-25 lbs [zu leicht? drittes Band dazu ODER Tempo 3-1-3] (Curl)",
-      "Band 20-35 + 15-25 lbs [zu leicht? drittes Band dazu ODER Tempo 3-1-3] (Pushdown)",
-      "leichtes Band 15-25 lbs (bewusst leicht - Schulter!) (Seitheben)"
+      "Band LILA (15-25 lbs) [bewusst leicht - Schulter! NICHT staerker waehlen] (Seitheben)",
+      "Band ORANGE (40-80 lbs) [zu leicht? DUNKELGRUEN (60-170) nehmen oder weiter vom Anker wegtreten] (Curl)",
+      "Band ORANGE (40-80 lbs) [zu leicht? DUNKELGRUEN (60-170) nehmen oder weiter vom Anker wegtreten] (Pushdown)"
      ]
     }
    ]
@@ -901,9 +901,9 @@
        "perSide": false,
        "detail": "",
        "raw": "A2 Band-Bizeps-Curl beidarmig 3x10-15",
-       "resistance": "Band 20-35 + 15-25 lbs [zu leicht? drittes Band dazu ODER Tempo 3-1-3]",
+       "resistance": "Band ORANGE (40-80 lbs) [zu leicht? DUNKELGRUEN (60-170) nehmen oder weiter vom Anker wegtreten]",
        "resistanceLabel": "Curl",
-       "description": "Auf das Band stellen (ein oder beide Füße = Widerstand wählen), Ellbogen fest an den Seiten. Unterarme nach oben curlen, oben kurz anspannen, langsam (2-3s) ablassen. Nur der Unterarm bewegt sich – kein Schwung aus Schulter oder Rücken. Ersetzt das Bizeps-Volumen der weggefallenen Klimmzüge.",
+       "description": "BAND: ORANGE (40-80 lbs). Auf das Band stellen (ein oder beide Füße = Widerstand wählen), Ellbogen fest an den Seiten. Unterarme nach oben curlen, oben kurz anspannen, langsam (2-3s) ablassen. Nur der Unterarm bewegt sich – kein Schwung aus Schulter oder Rücken. Ersetzt das Bizeps-Volumen der weggefallenen Klimmzüge.",
        "video": "https://www.youtube.com/watch?v=Da57AuIofvU",
        "videoNote": ""
       }
@@ -917,7 +917,7 @@
       },
       {
        "label": "Curl",
-       "value": "Band 20-35 + 15-25 lbs [zu leicht? drittes Band dazu ODER Tempo 3-1-3]"
+       "value": "Band ORANGE (40-80 lbs) [zu leicht? DUNKELGRUEN (60-170) nehmen oder weiter vom Anker wegtreten]"
       }
      ]
     },
@@ -946,9 +946,9 @@
        "perSide": false,
        "detail": "",
        "raw": "B2 Band-Chest-Press stehend beidarmig 3x10-15",
-       "resistance": "Band 40-80 + 20-35 lbs [zu leicht? drittes Band dazu ODER Tempo 3-1-3]",
+       "resistance": "Band ROT (50-125 lbs) [zu leicht? DUNKELGRUEN (60-170) nehmen oder weiter vom Anker wegtreten]",
        "resistanceLabel": "Chest-Press",
-       "description": "Band auf Brusthöhe hinter dir verankern, Schrittstellung, Rumpf fest. Beide Griffe auf Brusthöhe, dann BEIDE Arme gleichzeitig horizontal nach vorn ausdrücken - die Hände bleiben maximal auf Schulterhöhe, nie darüber. Langsam zurückführen, ohne dass die Schultern nach vorn kippen. Beidarmige Variante der einarmigen Version aus dem Juli-Plan; das Video zeigt einarmig, die Ausführung ist identisch, nur mit beiden Armen gleichzeitig.",
+       "description": "BAND: ROT (50-125 lbs). Band auf Brusthöhe hinter dir verankern, Schrittstellung, Rumpf fest. Beide Griffe auf Brusthöhe, dann BEIDE Arme gleichzeitig horizontal nach vorn ausdrücken - die Hände bleiben maximal auf Schulterhöhe, nie darüber. Langsam zurückführen, ohne dass die Schultern nach vorn kippen. Beidarmige Variante der einarmigen Version aus dem Juli-Plan; das Video zeigt einarmig, die Ausführung ist identisch, nur mit beiden Armen gleichzeitig.",
        "video": "https://www.youtube.com/watch?v=ssJcPFP47aw",
        "videoNote": "zeigt einarmig"
       }
@@ -962,7 +962,7 @@
       },
       {
        "label": "Chest-Press",
-       "value": "Band 40-80 + 20-35 lbs [zu leicht? drittes Band dazu ODER Tempo 3-1-3]"
+       "value": "Band ROT (50-125 lbs) [zu leicht? DUNKELGRUEN (60-170) nehmen oder weiter vom Anker wegtreten]"
       }
      ]
     },
@@ -977,9 +977,9 @@
        "perSide": false,
        "detail": "",
        "raw": "C1 Band Lateral Raise (bis ~80°) 3x12-20",
-       "resistance": "leichtes Band 15-25 lbs",
+       "resistance": "Band LILA (15-25 lbs) [bewusst leicht - Schulter! NICHT staerker waehlen]",
        "resistanceLabel": "Seitheben",
-       "description": "Auf das Band stellen, Arme leicht gebeugt seitlich anheben, STOPP bei ~80° (knapp unter Schulterhöhe), 2s halten, langsam ablassen. Leicht bleiben – Ziel ist der Erhalt der seitlichen Schultermuskulatur im schmerzfreien Bereich, ohne die 90°-Grenze zu reizen.",
+       "description": "BAND: LILA (15-25 lbs). Auf das Band stellen, Arme leicht gebeugt seitlich anheben, STOPP bei ~80° (knapp unter Schulterhöhe), 2s halten, langsam ablassen. Leicht bleiben – Ziel ist der Erhalt der seitlichen Schultermuskulatur im schmerzfreien Bereich, ohne die 90°-Grenze zu reizen.",
        "video": "https://www.youtube.com/watch?v=gfEyrmxbCbw",
        "videoNote": ""
       },
@@ -991,9 +991,9 @@
        "perSide": false,
        "detail": "",
        "raw": "C2 Band-Außenrotationen 3x12-15",
-       "resistance": "leichtes Band",
+       "resistance": "Band LILA (15-25 lbs) [bewusst leicht - Schulter! NICHT staerker waehlen]",
        "resistanceLabel": "Außenrotation",
-       "description": "Ellbogen am Körper, 90° gebeugt, Unterarm gegen leichtes Band nach außen rotieren – Rotatorenmanschette. Jetzt auch Dead-Hang-Ersatz im Warm-up.",
+       "description": "BAND: LILA (15-25 lbs). Ellbogen am Körper, 90° gebeugt, Unterarm gegen leichtes Band nach außen rotieren – Rotatorenmanschette. Jetzt auch Dead-Hang-Ersatz im Warm-up.",
        "video": "https://www.youtube.com/watch?v=_UvmPNGtlPM",
        "videoNote": ""
       }
@@ -1003,11 +1003,11 @@
      "resistance": [
       {
        "label": "Seitheben",
-       "value": "leichtes Band 15-25 lbs"
+       "value": "Band LILA (15-25 lbs) [bewusst leicht - Schulter! NICHT staerker waehlen]"
       },
       {
        "label": "Außenrotation",
-       "value": "leichtes Band"
+       "value": "Band LILA (15-25 lbs) [bewusst leicht - Schulter! NICHT staerker waehlen]"
       }
      ]
     }
@@ -1025,10 +1025,10 @@
     {
      "gerät": "Bänder",
      "items": [
-      "Band 20-35 + 15-25 lbs [zu leicht? drittes Band dazu ODER Tempo 3-1-3] (Curl)",
-      "Band 40-80 + 20-35 lbs [zu leicht? drittes Band dazu ODER Tempo 3-1-3] (Chest-Press)",
-      "leichtes Band (Außenrotation)",
-      "leichtes Band 15-25 lbs (Seitheben)"
+      "Band LILA (15-25 lbs) [bewusst leicht - Schulter! NICHT staerker waehlen] (Außenrotation)",
+      "Band LILA (15-25 lbs) [bewusst leicht - Schulter! NICHT staerker waehlen] (Seitheben)",
+      "Band ORANGE (40-80 lbs) [zu leicht? DUNKELGRUEN (60-170) nehmen oder weiter vom Anker wegtreten] (Curl)",
+      "Band ROT (50-125 lbs) [zu leicht? DUNKELGRUEN (60-170) nehmen oder weiter vom Anker wegtreten] (Chest-Press)"
      ]
     }
    ]
@@ -1086,9 +1086,9 @@
        "perSide": false,
        "detail": "",
        "raw": "A1 Schweres Band-Rudern beidarmig 3x10-15",
-       "resistance": "40-80 + 20-35 + 15-25 lbs (stapeln!)",
+       "resistance": "Band ROT (50-125 lbs) (falls zu leicht: ORANGE dazu)",
        "resistanceLabel": "Band-Rudern",
-       "description": "Band zum Rumpf ziehen, Schulterblätter nach hinten-unten. Hier BEIDARMIG mit zwei Griffen gleichzeitig.",
+       "description": "BAND: ROT (50-125 lbs). Band zum Rumpf ziehen, Schulterblätter nach hinten-unten. Hier BEIDARMIG mit zwei Griffen gleichzeitig.",
        "video": "https://www.youtube.com/watch?v=JP2xq33lNF0",
        "videoNote": ""
       },
@@ -1112,7 +1112,7 @@
      "resistance": [
       {
        "label": "Band-Rudern",
-       "value": "40-80 + 20-35 + 15-25 lbs (stapeln!)"
+       "value": "Band ROT (50-125 lbs) (falls zu leicht: ORANGE dazu)"
       },
       {
        "label": "Kurzhantel-Squat",
@@ -1176,9 +1176,9 @@
        "perSide": false,
        "detail": "",
        "raw": "C1 Band-Bizeps-Curl beidarmig 3x10-15",
-       "resistance": "Band 20-35 + 15-25 lbs [zu leicht? drittes Band dazu ODER Tempo 3-1-3]",
+       "resistance": "Band ORANGE (40-80 lbs) [zu leicht? DUNKELGRUEN (60-170) nehmen oder weiter vom Anker wegtreten]",
        "resistanceLabel": "Curl",
-       "description": "Auf das Band stellen (ein oder beide Füße = Widerstand wählen), Ellbogen fest an den Seiten. Unterarme nach oben curlen, oben kurz anspannen, langsam (2-3s) ablassen. Nur der Unterarm bewegt sich – kein Schwung aus Schulter oder Rücken. Ersetzt das Bizeps-Volumen der weggefallenen Klimmzüge.",
+       "description": "BAND: ORANGE (40-80 lbs). Auf das Band stellen (ein oder beide Füße = Widerstand wählen), Ellbogen fest an den Seiten. Unterarme nach oben curlen, oben kurz anspannen, langsam (2-3s) ablassen. Nur der Unterarm bewegt sich – kein Schwung aus Schulter oder Rücken. Ersetzt das Bizeps-Volumen der weggefallenen Klimmzüge.",
        "video": "https://www.youtube.com/watch?v=Da57AuIofvU",
        "videoNote": ""
       },
@@ -1190,9 +1190,9 @@
        "perSide": false,
        "detail": "",
        "raw": "C2 Band-Trizeps-Pushdown beidarmig 3x10-15",
-       "resistance": "Band 20-35 + 15-25 lbs [zu leicht? drittes Band dazu ODER Tempo 3-1-3]",
+       "resistance": "Band ORANGE (40-80 lbs) [zu leicht? DUNKELGRUEN (60-170) nehmen oder weiter vom Anker wegtreten]",
        "resistanceLabel": "Pushdown",
-       "description": "Band oben verankern (z.B. Klimmzugstange). Ellbogen eng am Körper fixieren, Unterarme nach unten strecken bis die Arme gestreckt sind, Trizeps unten fest anspannen, langsam zurück. Oberarme bewegen sich nicht. Arm bleibt komplett unten – ideal bei 90°-Regel.",
+       "description": "BAND: ORANGE (40-80 lbs). Band oben verankern (z.B. Klimmzugstange). Ellbogen eng am Körper fixieren, Unterarme nach unten strecken bis die Arme gestreckt sind, Trizeps unten fest anspannen, langsam zurück. Oberarme bewegen sich nicht. Arm bleibt komplett unten – ideal bei 90°-Regel.",
        "video": "https://www.youtube.com/watch?v=qjPN6ElNqpc",
        "videoNote": ""
       }
@@ -1202,11 +1202,11 @@
      "resistance": [
       {
        "label": "Curl",
-       "value": "Band 20-35 + 15-25 lbs [zu leicht? drittes Band dazu ODER Tempo 3-1-3]"
+       "value": "Band ORANGE (40-80 lbs) [zu leicht? DUNKELGRUEN (60-170) nehmen oder weiter vom Anker wegtreten]"
       },
       {
        "label": "Pushdown",
-       "value": "Band 20-35 + 15-25 lbs [zu leicht? drittes Band dazu ODER Tempo 3-1-3]"
+       "value": "Band ORANGE (40-80 lbs) [zu leicht? DUNKELGRUEN (60-170) nehmen oder weiter vom Anker wegtreten]"
       }
      ]
     }
@@ -1233,9 +1233,9 @@
     {
      "gerät": "Bänder",
      "items": [
-      "40-80 + 20-35 + 15-25 lbs (stapeln!) (Band-Rudern)",
-      "Band 20-35 + 15-25 lbs [zu leicht? drittes Band dazu ODER Tempo 3-1-3] (Curl)",
-      "Band 20-35 + 15-25 lbs [zu leicht? drittes Band dazu ODER Tempo 3-1-3] (Pushdown)"
+      "Band ORANGE (40-80 lbs) [zu leicht? DUNKELGRUEN (60-170) nehmen oder weiter vom Anker wegtreten] (Curl)",
+      "Band ORANGE (40-80 lbs) [zu leicht? DUNKELGRUEN (60-170) nehmen oder weiter vom Anker wegtreten] (Pushdown)",
+      "Band ROT (50-125 lbs) (falls zu leicht: ORANGE dazu) (Band-Rudern)"
      ]
     }
    ]
@@ -1352,9 +1352,9 @@
        "perSide": false,
        "detail": "",
        "raw": "B2 Band-Bizeps-Curl beidarmig 3x10-15",
-       "resistance": "Band 20-35 + 15-25 lbs [zu leicht? drittes Band dazu ODER Tempo 3-1-3]",
+       "resistance": "Band ORANGE (40-80 lbs) [zu leicht? DUNKELGRUEN (60-170) nehmen oder weiter vom Anker wegtreten]",
        "resistanceLabel": "Curl",
-       "description": "Auf das Band stellen (ein oder beide Füße = Widerstand wählen), Ellbogen fest an den Seiten. Unterarme nach oben curlen, oben kurz anspannen, langsam (2-3s) ablassen. Nur der Unterarm bewegt sich – kein Schwung aus Schulter oder Rücken. Ersetzt das Bizeps-Volumen der weggefallenen Klimmzüge.",
+       "description": "BAND: ORANGE (40-80 lbs). Auf das Band stellen (ein oder beide Füße = Widerstand wählen), Ellbogen fest an den Seiten. Unterarme nach oben curlen, oben kurz anspannen, langsam (2-3s) ablassen. Nur der Unterarm bewegt sich – kein Schwung aus Schulter oder Rücken. Ersetzt das Bizeps-Volumen der weggefallenen Klimmzüge.",
        "video": "https://www.youtube.com/watch?v=Da57AuIofvU",
        "videoNote": ""
       }
@@ -1368,7 +1368,7 @@
       },
       {
        "label": "Curl",
-       "value": "Band 20-35 + 15-25 lbs [zu leicht? drittes Band dazu ODER Tempo 3-1-3]"
+       "value": "Band ORANGE (40-80 lbs) [zu leicht? DUNKELGRUEN (60-170) nehmen oder weiter vom Anker wegtreten]"
       }
      ]
     },
@@ -1383,9 +1383,9 @@
        "perSide": false,
        "detail": "",
        "raw": "C1 Band Lateral Raise (bis ~80°) 3x12-20",
-       "resistance": "leichtes Band 15-25 lbs (bewusst leicht - Schulter!)",
+       "resistance": "Band LILA (15-25 lbs) [bewusst leicht - Schulter! NICHT staerker waehlen]",
        "resistanceLabel": "Seitheben",
-       "description": "Auf das Band stellen, Arme leicht gebeugt seitlich anheben, STOPP bei ~80° (knapp unter Schulterhöhe), 2s halten, langsam ablassen. Leicht bleiben – Ziel ist der Erhalt der seitlichen Schultermuskulatur im schmerzfreien Bereich, ohne die 90°-Grenze zu reizen.",
+       "description": "BAND: LILA (15-25 lbs). Auf das Band stellen, Arme leicht gebeugt seitlich anheben, STOPP bei ~80° (knapp unter Schulterhöhe), 2s halten, langsam ablassen. Leicht bleiben – Ziel ist der Erhalt der seitlichen Schultermuskulatur im schmerzfreien Bereich, ohne die 90°-Grenze zu reizen.",
        "video": "https://www.youtube.com/watch?v=gfEyrmxbCbw",
        "videoNote": ""
       },
@@ -1397,9 +1397,9 @@
        "perSide": false,
        "detail": "",
        "raw": "C2 Band-Trizeps-Pushdown beidarmig 3x10-15",
-       "resistance": "Band 20-35 + 15-25 lbs [zu leicht? drittes Band dazu ODER Tempo 3-1-3]",
+       "resistance": "Band ORANGE (40-80 lbs) [zu leicht? DUNKELGRUEN (60-170) nehmen oder weiter vom Anker wegtreten]",
        "resistanceLabel": "Pushdown",
-       "description": "Band oben verankern (z.B. Klimmzugstange). Ellbogen eng am Körper fixieren, Unterarme nach unten strecken bis die Arme gestreckt sind, Trizeps unten fest anspannen, langsam zurück. Oberarme bewegen sich nicht. Arm bleibt komplett unten – ideal bei 90°-Regel.",
+       "description": "BAND: ORANGE (40-80 lbs). Band oben verankern (z.B. Klimmzugstange). Ellbogen eng am Körper fixieren, Unterarme nach unten strecken bis die Arme gestreckt sind, Trizeps unten fest anspannen, langsam zurück. Oberarme bewegen sich nicht. Arm bleibt komplett unten – ideal bei 90°-Regel.",
        "video": "https://www.youtube.com/watch?v=qjPN6ElNqpc",
        "videoNote": ""
       }
@@ -1409,11 +1409,11 @@
      "resistance": [
       {
        "label": "Seitheben",
-       "value": "leichtes Band 15-25 lbs (bewusst leicht - Schulter!)"
+       "value": "Band LILA (15-25 lbs) [bewusst leicht - Schulter! NICHT staerker waehlen]"
       },
       {
        "label": "Pushdown",
-       "value": "Band 20-35 + 15-25 lbs [zu leicht? drittes Band dazu ODER Tempo 3-1-3]"
+       "value": "Band ORANGE (40-80 lbs) [zu leicht? DUNKELGRUEN (60-170) nehmen oder weiter vom Anker wegtreten]"
       }
      ]
     }
@@ -1421,7 +1421,7 @@
    "finish": null,
    "optional": {
     "text": "Pallof Press 2x10-12/Seite - nur wenn du unter 30 min geblieben bist",
-    "resistance": "Band 40-80 lbs"
+    "resistance": "Band ROT (50-125 lbs)"
    },
    "equipment": [
     {
@@ -1435,9 +1435,9 @@
     {
      "gerät": "Bänder",
      "items": [
-      "Band 20-35 + 15-25 lbs [zu leicht? drittes Band dazu ODER Tempo 3-1-3] (Curl)",
-      "Band 20-35 + 15-25 lbs [zu leicht? drittes Band dazu ODER Tempo 3-1-3] (Pushdown)",
-      "leichtes Band 15-25 lbs (bewusst leicht - Schulter!) (Seitheben)"
+      "Band LILA (15-25 lbs) [bewusst leicht - Schulter! NICHT staerker waehlen] (Seitheben)",
+      "Band ORANGE (40-80 lbs) [zu leicht? DUNKELGRUEN (60-170) nehmen oder weiter vom Anker wegtreten] (Curl)",
+      "Band ORANGE (40-80 lbs) [zu leicht? DUNKELGRUEN (60-170) nehmen oder weiter vom Anker wegtreten] (Pushdown)"
      ]
     }
    ]
@@ -1509,9 +1509,9 @@
        "perSide": false,
        "detail": "",
        "raw": "A2 Band-Bizeps-Curl beidarmig 3x10-15",
-       "resistance": "Band 20-35 + 15-25 lbs [zu leicht? drittes Band dazu ODER Tempo 3-1-3]",
+       "resistance": "Band ORANGE (40-80 lbs) [zu leicht? DUNKELGRUEN (60-170) nehmen oder weiter vom Anker wegtreten]",
        "resistanceLabel": "Curl",
-       "description": "Auf das Band stellen (ein oder beide Füße = Widerstand wählen), Ellbogen fest an den Seiten. Unterarme nach oben curlen, oben kurz anspannen, langsam (2-3s) ablassen. Nur der Unterarm bewegt sich – kein Schwung aus Schulter oder Rücken. Ersetzt das Bizeps-Volumen der weggefallenen Klimmzüge.",
+       "description": "BAND: ORANGE (40-80 lbs). Auf das Band stellen (ein oder beide Füße = Widerstand wählen), Ellbogen fest an den Seiten. Unterarme nach oben curlen, oben kurz anspannen, langsam (2-3s) ablassen. Nur der Unterarm bewegt sich – kein Schwung aus Schulter oder Rücken. Ersetzt das Bizeps-Volumen der weggefallenen Klimmzüge.",
        "video": "https://www.youtube.com/watch?v=Da57AuIofvU",
        "videoNote": ""
       }
@@ -1525,7 +1525,7 @@
       },
       {
        "label": "Curl",
-       "value": "Band 20-35 + 15-25 lbs [zu leicht? drittes Band dazu ODER Tempo 3-1-3]"
+       "value": "Band ORANGE (40-80 lbs) [zu leicht? DUNKELGRUEN (60-170) nehmen oder weiter vom Anker wegtreten]"
       }
      ]
     },
@@ -1554,9 +1554,9 @@
        "perSide": false,
        "detail": "",
        "raw": "B2 Band-Chest-Press stehend beidarmig 3x10-15",
-       "resistance": "Band 40-80 + 20-35 lbs [zu leicht? drittes Band dazu ODER Tempo 3-1-3]",
+       "resistance": "Band ROT (50-125 lbs) [zu leicht? DUNKELGRUEN (60-170) nehmen oder weiter vom Anker wegtreten]",
        "resistanceLabel": "Chest-Press",
-       "description": "Band auf Brusthöhe hinter dir verankern, Schrittstellung, Rumpf fest. Beide Griffe auf Brusthöhe, dann BEIDE Arme gleichzeitig horizontal nach vorn ausdrücken - die Hände bleiben maximal auf Schulterhöhe, nie darüber. Langsam zurückführen, ohne dass die Schultern nach vorn kippen. Beidarmige Variante der einarmigen Version aus dem Juli-Plan; das Video zeigt einarmig, die Ausführung ist identisch, nur mit beiden Armen gleichzeitig.",
+       "description": "BAND: ROT (50-125 lbs). Band auf Brusthöhe hinter dir verankern, Schrittstellung, Rumpf fest. Beide Griffe auf Brusthöhe, dann BEIDE Arme gleichzeitig horizontal nach vorn ausdrücken - die Hände bleiben maximal auf Schulterhöhe, nie darüber. Langsam zurückführen, ohne dass die Schultern nach vorn kippen. Beidarmige Variante der einarmigen Version aus dem Juli-Plan; das Video zeigt einarmig, die Ausführung ist identisch, nur mit beiden Armen gleichzeitig.",
        "video": "https://www.youtube.com/watch?v=ssJcPFP47aw",
        "videoNote": "zeigt einarmig"
       }
@@ -1570,7 +1570,7 @@
       },
       {
        "label": "Chest-Press",
-       "value": "Band 40-80 + 20-35 lbs [zu leicht? drittes Band dazu ODER Tempo 3-1-3]"
+       "value": "Band ROT (50-125 lbs) [zu leicht? DUNKELGRUEN (60-170) nehmen oder weiter vom Anker wegtreten]"
       }
      ]
     },
@@ -1585,9 +1585,9 @@
        "perSide": false,
        "detail": "",
        "raw": "C1 Band Lateral Raise (bis ~80°) 3x12-20",
-       "resistance": "leichtes Band 15-25 lbs",
+       "resistance": "Band LILA (15-25 lbs) [bewusst leicht - Schulter! NICHT staerker waehlen]",
        "resistanceLabel": "Seitheben",
-       "description": "Auf das Band stellen, Arme leicht gebeugt seitlich anheben, STOPP bei ~80° (knapp unter Schulterhöhe), 2s halten, langsam ablassen. Leicht bleiben – Ziel ist der Erhalt der seitlichen Schultermuskulatur im schmerzfreien Bereich, ohne die 90°-Grenze zu reizen.",
+       "description": "BAND: LILA (15-25 lbs). Auf das Band stellen, Arme leicht gebeugt seitlich anheben, STOPP bei ~80° (knapp unter Schulterhöhe), 2s halten, langsam ablassen. Leicht bleiben – Ziel ist der Erhalt der seitlichen Schultermuskulatur im schmerzfreien Bereich, ohne die 90°-Grenze zu reizen.",
        "video": "https://www.youtube.com/watch?v=gfEyrmxbCbw",
        "videoNote": ""
       },
@@ -1599,9 +1599,9 @@
        "perSide": false,
        "detail": "",
        "raw": "C2 Band-Außenrotationen 3x12-15",
-       "resistance": "leichtes Band",
+       "resistance": "Band LILA (15-25 lbs) [bewusst leicht - Schulter! NICHT staerker waehlen]",
        "resistanceLabel": "Außenrotation",
-       "description": "Ellbogen am Körper, 90° gebeugt, Unterarm gegen leichtes Band nach außen rotieren – Rotatorenmanschette. Jetzt auch Dead-Hang-Ersatz im Warm-up.",
+       "description": "BAND: LILA (15-25 lbs). Ellbogen am Körper, 90° gebeugt, Unterarm gegen leichtes Band nach außen rotieren – Rotatorenmanschette. Jetzt auch Dead-Hang-Ersatz im Warm-up.",
        "video": "https://www.youtube.com/watch?v=_UvmPNGtlPM",
        "videoNote": ""
       }
@@ -1611,11 +1611,11 @@
      "resistance": [
       {
        "label": "Seitheben",
-       "value": "leichtes Band 15-25 lbs"
+       "value": "Band LILA (15-25 lbs) [bewusst leicht - Schulter! NICHT staerker waehlen]"
       },
       {
        "label": "Außenrotation",
-       "value": "leichtes Band"
+       "value": "Band LILA (15-25 lbs) [bewusst leicht - Schulter! NICHT staerker waehlen]"
       }
      ]
     }
@@ -1633,10 +1633,10 @@
     {
      "gerät": "Bänder",
      "items": [
-      "Band 20-35 + 15-25 lbs [zu leicht? drittes Band dazu ODER Tempo 3-1-3] (Curl)",
-      "Band 40-80 + 20-35 lbs [zu leicht? drittes Band dazu ODER Tempo 3-1-3] (Chest-Press)",
-      "leichtes Band (Außenrotation)",
-      "leichtes Band 15-25 lbs (Seitheben)"
+      "Band LILA (15-25 lbs) [bewusst leicht - Schulter! NICHT staerker waehlen] (Außenrotation)",
+      "Band LILA (15-25 lbs) [bewusst leicht - Schulter! NICHT staerker waehlen] (Seitheben)",
+      "Band ORANGE (40-80 lbs) [zu leicht? DUNKELGRUEN (60-170) nehmen oder weiter vom Anker wegtreten] (Curl)",
+      "Band ROT (50-125 lbs) [zu leicht? DUNKELGRUEN (60-170) nehmen oder weiter vom Anker wegtreten] (Chest-Press)"
      ]
     }
    ]
@@ -1694,9 +1694,9 @@
        "perSide": false,
        "detail": "",
        "raw": "A1 Schweres Band-Rudern beidarmig 3x10-15",
-       "resistance": "40-80 + 20-35 + 15-25 lbs (stapeln!)",
+       "resistance": "Band ROT (50-125 lbs) (falls zu leicht: ORANGE dazu)",
        "resistanceLabel": "Band-Rudern",
-       "description": "Band zum Rumpf ziehen, Schulterblätter nach hinten-unten. Hier BEIDARMIG mit zwei Griffen gleichzeitig.",
+       "description": "BAND: ROT (50-125 lbs). Band zum Rumpf ziehen, Schulterblätter nach hinten-unten. Hier BEIDARMIG mit zwei Griffen gleichzeitig.",
        "video": "https://www.youtube.com/watch?v=JP2xq33lNF0",
        "videoNote": ""
       },
@@ -1720,7 +1720,7 @@
      "resistance": [
       {
        "label": "Band-Rudern",
-       "value": "40-80 + 20-35 + 15-25 lbs (stapeln!)"
+       "value": "Band ROT (50-125 lbs) (falls zu leicht: ORANGE dazu)"
       },
       {
        "label": "Kurzhantel-Squat",
@@ -1784,9 +1784,9 @@
        "perSide": false,
        "detail": "",
        "raw": "C1 Band-Bizeps-Curl beidarmig 3x10-15",
-       "resistance": "Band 20-35 + 15-25 lbs [zu leicht? drittes Band dazu ODER Tempo 3-1-3]",
+       "resistance": "Band ORANGE (40-80 lbs) [zu leicht? DUNKELGRUEN (60-170) nehmen oder weiter vom Anker wegtreten]",
        "resistanceLabel": "Curl",
-       "description": "Auf das Band stellen (ein oder beide Füße = Widerstand wählen), Ellbogen fest an den Seiten. Unterarme nach oben curlen, oben kurz anspannen, langsam (2-3s) ablassen. Nur der Unterarm bewegt sich – kein Schwung aus Schulter oder Rücken. Ersetzt das Bizeps-Volumen der weggefallenen Klimmzüge.",
+       "description": "BAND: ORANGE (40-80 lbs). Auf das Band stellen (ein oder beide Füße = Widerstand wählen), Ellbogen fest an den Seiten. Unterarme nach oben curlen, oben kurz anspannen, langsam (2-3s) ablassen. Nur der Unterarm bewegt sich – kein Schwung aus Schulter oder Rücken. Ersetzt das Bizeps-Volumen der weggefallenen Klimmzüge.",
        "video": "https://www.youtube.com/watch?v=Da57AuIofvU",
        "videoNote": ""
       },
@@ -1798,9 +1798,9 @@
        "perSide": false,
        "detail": "",
        "raw": "C2 Band-Trizeps-Pushdown beidarmig 3x10-15",
-       "resistance": "Band 20-35 + 15-25 lbs [zu leicht? drittes Band dazu ODER Tempo 3-1-3]",
+       "resistance": "Band ORANGE (40-80 lbs) [zu leicht? DUNKELGRUEN (60-170) nehmen oder weiter vom Anker wegtreten]",
        "resistanceLabel": "Pushdown",
-       "description": "Band oben verankern (z.B. Klimmzugstange). Ellbogen eng am Körper fixieren, Unterarme nach unten strecken bis die Arme gestreckt sind, Trizeps unten fest anspannen, langsam zurück. Oberarme bewegen sich nicht. Arm bleibt komplett unten – ideal bei 90°-Regel.",
+       "description": "BAND: ORANGE (40-80 lbs). Band oben verankern (z.B. Klimmzugstange). Ellbogen eng am Körper fixieren, Unterarme nach unten strecken bis die Arme gestreckt sind, Trizeps unten fest anspannen, langsam zurück. Oberarme bewegen sich nicht. Arm bleibt komplett unten – ideal bei 90°-Regel.",
        "video": "https://www.youtube.com/watch?v=qjPN6ElNqpc",
        "videoNote": ""
       }
@@ -1810,11 +1810,11 @@
      "resistance": [
       {
        "label": "Curl",
-       "value": "Band 20-35 + 15-25 lbs [zu leicht? drittes Band dazu ODER Tempo 3-1-3]"
+       "value": "Band ORANGE (40-80 lbs) [zu leicht? DUNKELGRUEN (60-170) nehmen oder weiter vom Anker wegtreten]"
       },
       {
        "label": "Pushdown",
-       "value": "Band 20-35 + 15-25 lbs [zu leicht? drittes Band dazu ODER Tempo 3-1-3]"
+       "value": "Band ORANGE (40-80 lbs) [zu leicht? DUNKELGRUEN (60-170) nehmen oder weiter vom Anker wegtreten]"
       }
      ]
     }
@@ -1841,9 +1841,9 @@
     {
      "gerät": "Bänder",
      "items": [
-      "40-80 + 20-35 + 15-25 lbs (stapeln!) (Band-Rudern)",
-      "Band 20-35 + 15-25 lbs [zu leicht? drittes Band dazu ODER Tempo 3-1-3] (Curl)",
-      "Band 20-35 + 15-25 lbs [zu leicht? drittes Band dazu ODER Tempo 3-1-3] (Pushdown)"
+      "Band ORANGE (40-80 lbs) [zu leicht? DUNKELGRUEN (60-170) nehmen oder weiter vom Anker wegtreten] (Curl)",
+      "Band ORANGE (40-80 lbs) [zu leicht? DUNKELGRUEN (60-170) nehmen oder weiter vom Anker wegtreten] (Pushdown)",
+      "Band ROT (50-125 lbs) (falls zu leicht: ORANGE dazu) (Band-Rudern)"
      ]
     }
    ]
@@ -1960,9 +1960,9 @@
        "perSide": false,
        "detail": "",
        "raw": "B2 Band-Bizeps-Curl beidarmig 3x10-15",
-       "resistance": "Band 20-35 + 15-25 lbs [zu leicht? drittes Band dazu ODER Tempo 3-1-3]",
+       "resistance": "Band ORANGE (40-80 lbs) [zu leicht? DUNKELGRUEN (60-170) nehmen oder weiter vom Anker wegtreten]",
        "resistanceLabel": "Curl",
-       "description": "Auf das Band stellen (ein oder beide Füße = Widerstand wählen), Ellbogen fest an den Seiten. Unterarme nach oben curlen, oben kurz anspannen, langsam (2-3s) ablassen. Nur der Unterarm bewegt sich – kein Schwung aus Schulter oder Rücken. Ersetzt das Bizeps-Volumen der weggefallenen Klimmzüge.",
+       "description": "BAND: ORANGE (40-80 lbs). Auf das Band stellen (ein oder beide Füße = Widerstand wählen), Ellbogen fest an den Seiten. Unterarme nach oben curlen, oben kurz anspannen, langsam (2-3s) ablassen. Nur der Unterarm bewegt sich – kein Schwung aus Schulter oder Rücken. Ersetzt das Bizeps-Volumen der weggefallenen Klimmzüge.",
        "video": "https://www.youtube.com/watch?v=Da57AuIofvU",
        "videoNote": ""
       }
@@ -1976,7 +1976,7 @@
       },
       {
        "label": "Curl",
-       "value": "Band 20-35 + 15-25 lbs [zu leicht? drittes Band dazu ODER Tempo 3-1-3]"
+       "value": "Band ORANGE (40-80 lbs) [zu leicht? DUNKELGRUEN (60-170) nehmen oder weiter vom Anker wegtreten]"
       }
      ]
     },
@@ -1991,9 +1991,9 @@
        "perSide": false,
        "detail": "",
        "raw": "C1 Band Lateral Raise (bis ~80°) 3x12-20",
-       "resistance": "leichtes Band 15-25 lbs (bewusst leicht - Schulter!)",
+       "resistance": "Band LILA (15-25 lbs) [bewusst leicht - Schulter! NICHT staerker waehlen]",
        "resistanceLabel": "Seitheben",
-       "description": "Auf das Band stellen, Arme leicht gebeugt seitlich anheben, STOPP bei ~80° (knapp unter Schulterhöhe), 2s halten, langsam ablassen. Leicht bleiben – Ziel ist der Erhalt der seitlichen Schultermuskulatur im schmerzfreien Bereich, ohne die 90°-Grenze zu reizen.",
+       "description": "BAND: LILA (15-25 lbs). Auf das Band stellen, Arme leicht gebeugt seitlich anheben, STOPP bei ~80° (knapp unter Schulterhöhe), 2s halten, langsam ablassen. Leicht bleiben – Ziel ist der Erhalt der seitlichen Schultermuskulatur im schmerzfreien Bereich, ohne die 90°-Grenze zu reizen.",
        "video": "https://www.youtube.com/watch?v=gfEyrmxbCbw",
        "videoNote": ""
       },
@@ -2005,9 +2005,9 @@
        "perSide": false,
        "detail": "",
        "raw": "C2 Band-Trizeps-Pushdown beidarmig 3x10-15",
-       "resistance": "Band 20-35 + 15-25 lbs [zu leicht? drittes Band dazu ODER Tempo 3-1-3]",
+       "resistance": "Band ORANGE (40-80 lbs) [zu leicht? DUNKELGRUEN (60-170) nehmen oder weiter vom Anker wegtreten]",
        "resistanceLabel": "Pushdown",
-       "description": "Band oben verankern (z.B. Klimmzugstange). Ellbogen eng am Körper fixieren, Unterarme nach unten strecken bis die Arme gestreckt sind, Trizeps unten fest anspannen, langsam zurück. Oberarme bewegen sich nicht. Arm bleibt komplett unten – ideal bei 90°-Regel.",
+       "description": "BAND: ORANGE (40-80 lbs). Band oben verankern (z.B. Klimmzugstange). Ellbogen eng am Körper fixieren, Unterarme nach unten strecken bis die Arme gestreckt sind, Trizeps unten fest anspannen, langsam zurück. Oberarme bewegen sich nicht. Arm bleibt komplett unten – ideal bei 90°-Regel.",
        "video": "https://www.youtube.com/watch?v=qjPN6ElNqpc",
        "videoNote": ""
       }
@@ -2017,11 +2017,11 @@
      "resistance": [
       {
        "label": "Seitheben",
-       "value": "leichtes Band 15-25 lbs (bewusst leicht - Schulter!)"
+       "value": "Band LILA (15-25 lbs) [bewusst leicht - Schulter! NICHT staerker waehlen]"
       },
       {
        "label": "Pushdown",
-       "value": "Band 20-35 + 15-25 lbs [zu leicht? drittes Band dazu ODER Tempo 3-1-3]"
+       "value": "Band ORANGE (40-80 lbs) [zu leicht? DUNKELGRUEN (60-170) nehmen oder weiter vom Anker wegtreten]"
       }
      ]
     }
@@ -2029,7 +2029,7 @@
    "finish": null,
    "optional": {
     "text": "Pallof Press 2x10-12/Seite - nur wenn du unter 30 min geblieben bist",
-    "resistance": "Band 40-80 lbs"
+    "resistance": "Band ROT (50-125 lbs)"
    },
    "equipment": [
     {
@@ -2043,9 +2043,9 @@
     {
      "gerät": "Bänder",
      "items": [
-      "Band 20-35 + 15-25 lbs [zu leicht? drittes Band dazu ODER Tempo 3-1-3] (Curl)",
-      "Band 20-35 + 15-25 lbs [zu leicht? drittes Band dazu ODER Tempo 3-1-3] (Pushdown)",
-      "leichtes Band 15-25 lbs (bewusst leicht - Schulter!) (Seitheben)"
+      "Band LILA (15-25 lbs) [bewusst leicht - Schulter! NICHT staerker waehlen] (Seitheben)",
+      "Band ORANGE (40-80 lbs) [zu leicht? DUNKELGRUEN (60-170) nehmen oder weiter vom Anker wegtreten] (Curl)",
+      "Band ORANGE (40-80 lbs) [zu leicht? DUNKELGRUEN (60-170) nehmen oder weiter vom Anker wegtreten] (Pushdown)"
      ]
     }
    ]
@@ -2117,9 +2117,9 @@
        "perSide": false,
        "detail": "",
        "raw": "A2 Band-Bizeps-Curl beidarmig 3x10-15",
-       "resistance": "Band 20-35 + 15-25 lbs [zu leicht? drittes Band dazu ODER Tempo 3-1-3]",
+       "resistance": "Band ORANGE (40-80 lbs) [zu leicht? DUNKELGRUEN (60-170) nehmen oder weiter vom Anker wegtreten]",
        "resistanceLabel": "Curl",
-       "description": "Auf das Band stellen (ein oder beide Füße = Widerstand wählen), Ellbogen fest an den Seiten. Unterarme nach oben curlen, oben kurz anspannen, langsam (2-3s) ablassen. Nur der Unterarm bewegt sich – kein Schwung aus Schulter oder Rücken. Ersetzt das Bizeps-Volumen der weggefallenen Klimmzüge.",
+       "description": "BAND: ORANGE (40-80 lbs). Auf das Band stellen (ein oder beide Füße = Widerstand wählen), Ellbogen fest an den Seiten. Unterarme nach oben curlen, oben kurz anspannen, langsam (2-3s) ablassen. Nur der Unterarm bewegt sich – kein Schwung aus Schulter oder Rücken. Ersetzt das Bizeps-Volumen der weggefallenen Klimmzüge.",
        "video": "https://www.youtube.com/watch?v=Da57AuIofvU",
        "videoNote": ""
       }
@@ -2133,7 +2133,7 @@
       },
       {
        "label": "Curl",
-       "value": "Band 20-35 + 15-25 lbs [zu leicht? drittes Band dazu ODER Tempo 3-1-3]"
+       "value": "Band ORANGE (40-80 lbs) [zu leicht? DUNKELGRUEN (60-170) nehmen oder weiter vom Anker wegtreten]"
       }
      ]
     },
@@ -2162,9 +2162,9 @@
        "perSide": false,
        "detail": "",
        "raw": "B2 Band-Chest-Press stehend beidarmig 3x10-15",
-       "resistance": "Band 40-80 + 20-35 lbs [zu leicht? drittes Band dazu ODER Tempo 3-1-3]",
+       "resistance": "Band ROT (50-125 lbs) [zu leicht? DUNKELGRUEN (60-170) nehmen oder weiter vom Anker wegtreten]",
        "resistanceLabel": "Chest-Press",
-       "description": "Band auf Brusthöhe hinter dir verankern, Schrittstellung, Rumpf fest. Beide Griffe auf Brusthöhe, dann BEIDE Arme gleichzeitig horizontal nach vorn ausdrücken - die Hände bleiben maximal auf Schulterhöhe, nie darüber. Langsam zurückführen, ohne dass die Schultern nach vorn kippen. Beidarmige Variante der einarmigen Version aus dem Juli-Plan; das Video zeigt einarmig, die Ausführung ist identisch, nur mit beiden Armen gleichzeitig.",
+       "description": "BAND: ROT (50-125 lbs). Band auf Brusthöhe hinter dir verankern, Schrittstellung, Rumpf fest. Beide Griffe auf Brusthöhe, dann BEIDE Arme gleichzeitig horizontal nach vorn ausdrücken - die Hände bleiben maximal auf Schulterhöhe, nie darüber. Langsam zurückführen, ohne dass die Schultern nach vorn kippen. Beidarmige Variante der einarmigen Version aus dem Juli-Plan; das Video zeigt einarmig, die Ausführung ist identisch, nur mit beiden Armen gleichzeitig.",
        "video": "https://www.youtube.com/watch?v=ssJcPFP47aw",
        "videoNote": "zeigt einarmig"
       }
@@ -2178,7 +2178,7 @@
       },
       {
        "label": "Chest-Press",
-       "value": "Band 40-80 + 20-35 lbs [zu leicht? drittes Band dazu ODER Tempo 3-1-3]"
+       "value": "Band ROT (50-125 lbs) [zu leicht? DUNKELGRUEN (60-170) nehmen oder weiter vom Anker wegtreten]"
       }
      ]
     },
@@ -2193,9 +2193,9 @@
        "perSide": false,
        "detail": "",
        "raw": "C1 Band Lateral Raise (bis ~80°) 3x12-20",
-       "resistance": "leichtes Band 15-25 lbs",
+       "resistance": "Band LILA (15-25 lbs) [bewusst leicht - Schulter! NICHT staerker waehlen]",
        "resistanceLabel": "Seitheben",
-       "description": "Auf das Band stellen, Arme leicht gebeugt seitlich anheben, STOPP bei ~80° (knapp unter Schulterhöhe), 2s halten, langsam ablassen. Leicht bleiben – Ziel ist der Erhalt der seitlichen Schultermuskulatur im schmerzfreien Bereich, ohne die 90°-Grenze zu reizen.",
+       "description": "BAND: LILA (15-25 lbs). Auf das Band stellen, Arme leicht gebeugt seitlich anheben, STOPP bei ~80° (knapp unter Schulterhöhe), 2s halten, langsam ablassen. Leicht bleiben – Ziel ist der Erhalt der seitlichen Schultermuskulatur im schmerzfreien Bereich, ohne die 90°-Grenze zu reizen.",
        "video": "https://www.youtube.com/watch?v=gfEyrmxbCbw",
        "videoNote": ""
       },
@@ -2207,9 +2207,9 @@
        "perSide": false,
        "detail": "",
        "raw": "C2 Band-Außenrotationen 3x12-15",
-       "resistance": "leichtes Band",
+       "resistance": "Band LILA (15-25 lbs) [bewusst leicht - Schulter! NICHT staerker waehlen]",
        "resistanceLabel": "Außenrotation",
-       "description": "Ellbogen am Körper, 90° gebeugt, Unterarm gegen leichtes Band nach außen rotieren – Rotatorenmanschette. Jetzt auch Dead-Hang-Ersatz im Warm-up.",
+       "description": "BAND: LILA (15-25 lbs). Ellbogen am Körper, 90° gebeugt, Unterarm gegen leichtes Band nach außen rotieren – Rotatorenmanschette. Jetzt auch Dead-Hang-Ersatz im Warm-up.",
        "video": "https://www.youtube.com/watch?v=_UvmPNGtlPM",
        "videoNote": ""
       }
@@ -2219,11 +2219,11 @@
      "resistance": [
       {
        "label": "Seitheben",
-       "value": "leichtes Band 15-25 lbs"
+       "value": "Band LILA (15-25 lbs) [bewusst leicht - Schulter! NICHT staerker waehlen]"
       },
       {
        "label": "Außenrotation",
-       "value": "leichtes Band"
+       "value": "Band LILA (15-25 lbs) [bewusst leicht - Schulter! NICHT staerker waehlen]"
       }
      ]
     }
@@ -2241,10 +2241,10 @@
     {
      "gerät": "Bänder",
      "items": [
-      "Band 20-35 + 15-25 lbs [zu leicht? drittes Band dazu ODER Tempo 3-1-3] (Curl)",
-      "Band 40-80 + 20-35 lbs [zu leicht? drittes Band dazu ODER Tempo 3-1-3] (Chest-Press)",
-      "leichtes Band (Außenrotation)",
-      "leichtes Band 15-25 lbs (Seitheben)"
+      "Band LILA (15-25 lbs) [bewusst leicht - Schulter! NICHT staerker waehlen] (Außenrotation)",
+      "Band LILA (15-25 lbs) [bewusst leicht - Schulter! NICHT staerker waehlen] (Seitheben)",
+      "Band ORANGE (40-80 lbs) [zu leicht? DUNKELGRUEN (60-170) nehmen oder weiter vom Anker wegtreten] (Curl)",
+      "Band ROT (50-125 lbs) [zu leicht? DUNKELGRUEN (60-170) nehmen oder weiter vom Anker wegtreten] (Chest-Press)"
      ]
     }
    ]
@@ -2302,9 +2302,9 @@
        "perSide": false,
        "detail": "",
        "raw": "A1 Schweres Band-Rudern beidarmig 3x10-15",
-       "resistance": "40-80 + 20-35 + 15-25 lbs (stapeln!)",
+       "resistance": "Band ROT (50-125 lbs) (falls zu leicht: ORANGE dazu)",
        "resistanceLabel": "Band-Rudern",
-       "description": "Band zum Rumpf ziehen, Schulterblätter nach hinten-unten. Hier BEIDARMIG mit zwei Griffen gleichzeitig.",
+       "description": "BAND: ROT (50-125 lbs). Band zum Rumpf ziehen, Schulterblätter nach hinten-unten. Hier BEIDARMIG mit zwei Griffen gleichzeitig.",
        "video": "https://www.youtube.com/watch?v=JP2xq33lNF0",
        "videoNote": ""
       },
@@ -2328,7 +2328,7 @@
      "resistance": [
       {
        "label": "Band-Rudern",
-       "value": "40-80 + 20-35 + 15-25 lbs (stapeln!)"
+       "value": "Band ROT (50-125 lbs) (falls zu leicht: ORANGE dazu)"
       },
       {
        "label": "Kurzhantel-Squat",
@@ -2392,9 +2392,9 @@
        "perSide": false,
        "detail": "",
        "raw": "C1 Band-Bizeps-Curl beidarmig 3x10-15",
-       "resistance": "Band 20-35 + 15-25 lbs [zu leicht? drittes Band dazu ODER Tempo 3-1-3]",
+       "resistance": "Band ORANGE (40-80 lbs) [zu leicht? DUNKELGRUEN (60-170) nehmen oder weiter vom Anker wegtreten]",
        "resistanceLabel": "Curl",
-       "description": "Auf das Band stellen (ein oder beide Füße = Widerstand wählen), Ellbogen fest an den Seiten. Unterarme nach oben curlen, oben kurz anspannen, langsam (2-3s) ablassen. Nur der Unterarm bewegt sich – kein Schwung aus Schulter oder Rücken. Ersetzt das Bizeps-Volumen der weggefallenen Klimmzüge.",
+       "description": "BAND: ORANGE (40-80 lbs). Auf das Band stellen (ein oder beide Füße = Widerstand wählen), Ellbogen fest an den Seiten. Unterarme nach oben curlen, oben kurz anspannen, langsam (2-3s) ablassen. Nur der Unterarm bewegt sich – kein Schwung aus Schulter oder Rücken. Ersetzt das Bizeps-Volumen der weggefallenen Klimmzüge.",
        "video": "https://www.youtube.com/watch?v=Da57AuIofvU",
        "videoNote": ""
       },
@@ -2406,9 +2406,9 @@
        "perSide": false,
        "detail": "",
        "raw": "C2 Band-Trizeps-Pushdown beidarmig 3x10-15",
-       "resistance": "Band 20-35 + 15-25 lbs [zu leicht? drittes Band dazu ODER Tempo 3-1-3]",
+       "resistance": "Band ORANGE (40-80 lbs) [zu leicht? DUNKELGRUEN (60-170) nehmen oder weiter vom Anker wegtreten]",
        "resistanceLabel": "Pushdown",
-       "description": "Band oben verankern (z.B. Klimmzugstange). Ellbogen eng am Körper fixieren, Unterarme nach unten strecken bis die Arme gestreckt sind, Trizeps unten fest anspannen, langsam zurück. Oberarme bewegen sich nicht. Arm bleibt komplett unten – ideal bei 90°-Regel.",
+       "description": "BAND: ORANGE (40-80 lbs). Band oben verankern (z.B. Klimmzugstange). Ellbogen eng am Körper fixieren, Unterarme nach unten strecken bis die Arme gestreckt sind, Trizeps unten fest anspannen, langsam zurück. Oberarme bewegen sich nicht. Arm bleibt komplett unten – ideal bei 90°-Regel.",
        "video": "https://www.youtube.com/watch?v=qjPN6ElNqpc",
        "videoNote": ""
       }
@@ -2418,11 +2418,11 @@
      "resistance": [
       {
        "label": "Curl",
-       "value": "Band 20-35 + 15-25 lbs [zu leicht? drittes Band dazu ODER Tempo 3-1-3]"
+       "value": "Band ORANGE (40-80 lbs) [zu leicht? DUNKELGRUEN (60-170) nehmen oder weiter vom Anker wegtreten]"
       },
       {
        "label": "Pushdown",
-       "value": "Band 20-35 + 15-25 lbs [zu leicht? drittes Band dazu ODER Tempo 3-1-3]"
+       "value": "Band ORANGE (40-80 lbs) [zu leicht? DUNKELGRUEN (60-170) nehmen oder weiter vom Anker wegtreten]"
       }
      ]
     }
@@ -2449,9 +2449,9 @@
     {
      "gerät": "Bänder",
      "items": [
-      "40-80 + 20-35 + 15-25 lbs (stapeln!) (Band-Rudern)",
-      "Band 20-35 + 15-25 lbs [zu leicht? drittes Band dazu ODER Tempo 3-1-3] (Curl)",
-      "Band 20-35 + 15-25 lbs [zu leicht? drittes Band dazu ODER Tempo 3-1-3] (Pushdown)"
+      "Band ORANGE (40-80 lbs) [zu leicht? DUNKELGRUEN (60-170) nehmen oder weiter vom Anker wegtreten] (Curl)",
+      "Band ORANGE (40-80 lbs) [zu leicht? DUNKELGRUEN (60-170) nehmen oder weiter vom Anker wegtreten] (Pushdown)",
+      "Band ROT (50-125 lbs) (falls zu leicht: ORANGE dazu) (Band-Rudern)"
      ]
     }
    ]
@@ -2478,19 +2478,19 @@
   },
   {
    "name": "Band-Bizeps-Curl",
-   "description": "Auf das Band stellen (ein oder beide Füße = Widerstand wählen), Ellbogen fest an den Seiten. Unterarme nach oben curlen, oben kurz anspannen, langsam (2-3s) ablassen. Nur der Unterarm bewegt sich – kein Schwung aus Schulter oder Rücken. Ersetzt das Bizeps-Volumen der weggefallenen Klimmzüge.",
+   "description": "BAND: ORANGE (40-80 lbs). Auf das Band stellen (ein oder beide Füße = Widerstand wählen), Ellbogen fest an den Seiten. Unterarme nach oben curlen, oben kurz anspannen, langsam (2-3s) ablassen. Nur der Unterarm bewegt sich – kein Schwung aus Schulter oder Rücken. Ersetzt das Bizeps-Volumen der weggefallenen Klimmzüge.",
    "video": "https://www.youtube.com/watch?v=Da57AuIofvU",
    "videoNote": ""
   },
   {
    "name": "Band-Trizeps-Pushdown",
-   "description": "Band oben verankern (z.B. Klimmzugstange). Ellbogen eng am Körper fixieren, Unterarme nach unten strecken bis die Arme gestreckt sind, Trizeps unten fest anspannen, langsam zurück. Oberarme bewegen sich nicht. Arm bleibt komplett unten – ideal bei 90°-Regel.",
+   "description": "BAND: ORANGE (40-80 lbs). Band oben verankern (z.B. Klimmzugstange). Ellbogen eng am Körper fixieren, Unterarme nach unten strecken bis die Arme gestreckt sind, Trizeps unten fest anspannen, langsam zurück. Oberarme bewegen sich nicht. Arm bleibt komplett unten – ideal bei 90°-Regel.",
    "video": "https://www.youtube.com/watch?v=qjPN6ElNqpc",
    "videoNote": ""
   },
   {
    "name": "Band Lateral Raise (bis ~80°)",
-   "description": "Auf das Band stellen, Arme leicht gebeugt seitlich anheben, STOPP bei ~80° (knapp unter Schulterhöhe), 2s halten, langsam ablassen. Leicht bleiben – Ziel ist der Erhalt der seitlichen Schultermuskulatur im schmerzfreien Bereich, ohne die 90°-Grenze zu reizen.",
+   "description": "BAND: LILA (15-25 lbs). Auf das Band stellen, Arme leicht gebeugt seitlich anheben, STOPP bei ~80° (knapp unter Schulterhöhe), 2s halten, langsam ablassen. Leicht bleiben – Ziel ist der Erhalt der seitlichen Schultermuskulatur im schmerzfreien Bereich, ohne die 90°-Grenze zu reizen.",
    "video": "https://www.youtube.com/watch?v=gfEyrmxbCbw",
    "videoNote": ""
   },
@@ -2508,19 +2508,19 @@
   },
   {
    "name": "Band-Chest-Press stehend beidarmig",
-   "description": "Band auf Brusthöhe hinter dir verankern, Schrittstellung, Rumpf fest. Beide Griffe auf Brusthöhe, dann BEIDE Arme gleichzeitig horizontal nach vorn ausdrücken - die Hände bleiben maximal auf Schulterhöhe, nie darüber. Langsam zurückführen, ohne dass die Schultern nach vorn kippen. Beidarmige Variante der einarmigen Version aus dem Juli-Plan; das Video zeigt einarmig, die Ausführung ist identisch, nur mit beiden Armen gleichzeitig.",
+   "description": "BAND: ROT (50-125 lbs). Band auf Brusthöhe hinter dir verankern, Schrittstellung, Rumpf fest. Beide Griffe auf Brusthöhe, dann BEIDE Arme gleichzeitig horizontal nach vorn ausdrücken - die Hände bleiben maximal auf Schulterhöhe, nie darüber. Langsam zurückführen, ohne dass die Schultern nach vorn kippen. Beidarmige Variante der einarmigen Version aus dem Juli-Plan; das Video zeigt einarmig, die Ausführung ist identisch, nur mit beiden Armen gleichzeitig.",
    "video": "https://www.youtube.com/watch?v=ssJcPFP47aw",
    "videoNote": "zeigt einarmig"
   },
   {
    "name": "Band-Außenrotationen",
-   "description": "Ellbogen am Körper, 90° gebeugt, Unterarm gegen leichtes Band nach außen rotieren – Rotatorenmanschette. Jetzt auch Dead-Hang-Ersatz im Warm-up.",
+   "description": "BAND: LILA (15-25 lbs). Ellbogen am Körper, 90° gebeugt, Unterarm gegen leichtes Band nach außen rotieren – Rotatorenmanschette. Jetzt auch Dead-Hang-Ersatz im Warm-up.",
    "video": "https://www.youtube.com/watch?v=_UvmPNGtlPM",
    "videoNote": ""
   },
   {
    "name": "Band-Rudern beidarmig (Band Row)",
-   "description": "Band zum Rumpf ziehen, Schulterblätter nach hinten-unten. Hier BEIDARMIG mit zwei Griffen gleichzeitig.",
+   "description": "BAND: ROT (50-125 lbs). Band zum Rumpf ziehen, Schulterblätter nach hinten-unten. Hier BEIDARMIG mit zwei Griffen gleichzeitig.",
    "video": "https://www.youtube.com/watch?v=JP2xq33lNF0",
    "videoNote": ""
   },
@@ -2538,7 +2538,7 @@
   },
   {
    "name": "Pallof Press",
-   "description": "Gespanntes Band seitlich, Hände auf Brusthöhe nach vorn drücken, Rotation widerstehen. Bleibt bewusst einseitig: die Anti-Rotation IST der Trainingsreiz.",
+   "description": "BAND: ROT (50-125 lbs). Gespanntes Band seitlich, Hände auf Brusthöhe nach vorn drücken, Rotation widerstehen. Bleibt bewusst einseitig: die Anti-Rotation IST der Trainingsreiz.",
    "video": "",
    "videoNote": ""
   },
@@ -2556,7 +2556,7 @@
   },
   {
    "name": "Band Pull-aparts",
-   "description": "Leichtes Band auf Schulterhöhe auseinanderziehen – oberer Rücken/hintere Schulter. Schulterhöhe = 90° = erlaubt, nicht höher.",
+   "description": "BAND: LILA (15-25 lbs). Leichtes Band auf Schulterhöhe auseinanderziehen – oberer Rücken/hintere Schulter. Schulterhöhe = 90° = erlaubt, nicht höher.",
    "video": "",
    "videoNote": ""
   },
