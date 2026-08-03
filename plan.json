@@ -2,7 +2,7 @@
  "meta": {
   "title": "August 2026 Fitness Masterplan - beidseitig-35min",
   "source": "August 2026 Fitness Masterplan - beidseitig-35min.xlsx",
-  "generated": "2026-07-30",
+  "generated": "2026-08-03",
   "week12Monday": "2026-06-29",
   "trainingDays": [
    "Di",
@@ -699,7 +699,7 @@
        "perSide": false,
        "detail": "",
        "raw": "A2 Kurzhantel-Squat (Koffergriff) 3x10-15",
-       "resistance": "2x21 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2 + 1x0,5)",
+       "resistance": "2x21 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2 + 1x0,5) | + Gewichtsweste 10 kg",
        "resistanceLabel": "Kurzhantel-Squat",
        "description": "Kurzhanteln links und rechts neben dem Körper hängen lassen (Koffergriff), Füße schulterbreit, Zehen leicht nach außen. Kontrolliert so tief absteigen, wie es schmerzfrei geht, Knie in Richtung Zehen, Rücken neutral. Aus den Fersen hochdrücken. ERSETZT den Bulgarian Split Squat: beidbeinig, dadurch halbe Zeit und deutlich weniger Ermüdung vor dem Kendo. Die Schulter ist unbeteiligt - die Arme hängen einfach. Wenn der Griff vor den Beinen ermüdet: Goblet Squat mit der KB.",
        "video": "",
@@ -715,7 +715,7 @@
       },
       {
        "label": "Kurzhantel-Squat",
-       "value": "2x21 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2 + 1x0,5)"
+       "value": "2x21 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2 + 1x0,5) | + Gewichtsweste 10 kg"
       }
      ]
     },
@@ -744,7 +744,7 @@
        "perSide": false,
        "detail": "",
        "raw": "B2 Band-Bizeps-Curl beidarmig 3x10-15",
-       "resistance": "Band 20-35 + 15-25 lbs",
+       "resistance": "Band 20-35 + 15-25 lbs [zu leicht? drittes Band dazu ODER Tempo 3-1-3]",
        "resistanceLabel": "Curl",
        "description": "Auf das Band stellen (ein oder beide Füße = Widerstand wählen), Ellbogen fest an den Seiten. Unterarme nach oben curlen, oben kurz anspannen, langsam (2-3s) ablassen. Nur der Unterarm bewegt sich – kein Schwung aus Schulter oder Rücken. Ersetzt das Bizeps-Volumen der weggefallenen Klimmzüge.",
        "video": "https://www.youtube.com/watch?v=Da57AuIofvU",
@@ -760,7 +760,7 @@
       },
       {
        "label": "Curl",
-       "value": "Band 20-35 + 15-25 lbs"
+       "value": "Band 20-35 + 15-25 lbs [zu leicht? drittes Band dazu ODER Tempo 3-1-3]"
       }
      ]
     },
@@ -789,7 +789,7 @@
        "perSide": false,
        "detail": "",
        "raw": "C2 Band-Trizeps-Pushdown beidarmig 3x10-15",
-       "resistance": "Band 20-35 + 15-25 lbs",
+       "resistance": "Band 20-35 + 15-25 lbs [zu leicht? drittes Band dazu ODER Tempo 3-1-3]",
        "resistanceLabel": "Pushdown",
        "description": "Band oben verankern (z.B. Klimmzugstange). Ellbogen eng am Körper fixieren, Unterarme nach unten strecken bis die Arme gestreckt sind, Trizeps unten fest anspannen, langsam zurück. Oberarme bewegen sich nicht. Arm bleibt komplett unten – ideal bei 90°-Regel.",
        "video": "https://www.youtube.com/watch?v=qjPN6ElNqpc",
@@ -805,7 +805,7 @@
       },
       {
        "label": "Pushdown",
-       "value": "Band 20-35 + 15-25 lbs"
+       "value": "Band 20-35 + 15-25 lbs [zu leicht? drittes Band dazu ODER Tempo 3-1-3]"
       }
      ]
     }
@@ -821,14 +821,14 @@
      "items": [
       "2x17 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 1x2 + 1x0,5) (Floor Press)",
       "2x21 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2 + 1x0,5) (Kurzhantel-Rudern)",
-      "2x21 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2 + 1x0,5) (Kurzhantel-Squat)"
+      "2x21 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2 + 1x0,5) | + Gewichtsweste 10 kg (Kurzhantel-Squat)"
      ]
     },
     {
      "gerät": "Bänder",
      "items": [
-      "Band 20-35 + 15-25 lbs (Curl)",
-      "Band 20-35 + 15-25 lbs (Pushdown)",
+      "Band 20-35 + 15-25 lbs [zu leicht? drittes Band dazu ODER Tempo 3-1-3] (Curl)",
+      "Band 20-35 + 15-25 lbs [zu leicht? drittes Band dazu ODER Tempo 3-1-3] (Pushdown)",
       "leichtes Band 15-25 lbs (bewusst leicht - Schulter!) (Seitheben)"
      ]
     }
@@ -887,7 +887,7 @@
        "perSide": false,
        "detail": "",
        "raw": "A1 Langhantel-Rudern vorgebeugt 3x6-10",
-       "resistance": "Langhantel 43,8 kg gesamt (Stange 7,8 kg + je Seite 2x5 + 4x2)",
+       "resistance": "Langhantel 45,8 kg gesamt (Stange 7,8 kg + je Seite 1x10 + 1x5 + 2x2)",
        "resistanceLabel": "Rudern",
        "description": "Hüftbreiter Stand, Langhantel im Obergriff. Hüfte nach hinten schieben (Hip Hinge), Oberkörper ~45° oder tiefer, Rücken neutral, Rumpf fest. Die Stange zum Bauchnabel ziehen, Ellbogen nah am Körper, Schulterblätter nach hinten-unten; langsam ablassen, kein Schwung. Schwere beidarmige Zugübung als Ergänzung zum einarmigen KB-Rudern – Arme bleiben unter 90°. Zyklus Aug: 35,8 kg (W16) bis 39,8 kg (W19).",
        "video": "https://www.youtube.com/watch?v=rqTOAM8WoeM",
@@ -901,7 +901,7 @@
        "perSide": false,
        "detail": "",
        "raw": "A2 Band-Bizeps-Curl beidarmig 3x10-15",
-       "resistance": "Band 20-35 + 15-25 lbs",
+       "resistance": "Band 20-35 + 15-25 lbs [zu leicht? drittes Band dazu ODER Tempo 3-1-3]",
        "resistanceLabel": "Curl",
        "description": "Auf das Band stellen (ein oder beide Füße = Widerstand wählen), Ellbogen fest an den Seiten. Unterarme nach oben curlen, oben kurz anspannen, langsam (2-3s) ablassen. Nur der Unterarm bewegt sich – kein Schwung aus Schulter oder Rücken. Ersetzt das Bizeps-Volumen der weggefallenen Klimmzüge.",
        "video": "https://www.youtube.com/watch?v=Da57AuIofvU",
@@ -913,11 +913,11 @@
      "resistance": [
       {
        "label": "Rudern",
-       "value": "Langhantel 43,8 kg gesamt (Stange 7,8 kg + je Seite 2x5 + 4x2)"
+       "value": "Langhantel 45,8 kg gesamt (Stange 7,8 kg + je Seite 1x10 + 1x5 + 2x2)"
       },
       {
        "label": "Curl",
-       "value": "Band 20-35 + 15-25 lbs"
+       "value": "Band 20-35 + 15-25 lbs [zu leicht? drittes Band dazu ODER Tempo 3-1-3]"
       }
      ]
     },
@@ -932,7 +932,7 @@
        "perSide": false,
        "detail": "",
        "raw": "B1 Langhantel Romanian Deadlift 3x8-12",
-       "resistance": "Langhantel 45,8 kg gesamt (Stange 7,8 kg + je Seite 2x5 + 4x2 + 2x0,5) | Deficit: auf 2 Scheiben stehen",
+       "resistance": "Langhantel 49,8 kg gesamt (Stange 7,8 kg + je Seite 1x10 + 2x5 + 2x0,5) | ZUGHILFEN empfohlen - laut deiner Notiz limitiert der GRIFF, nicht die Beinbeuger",
        "resistanceLabel": "RDL",
        "description": "Hüfte nach hinten, Rücken neutral, Beinbeuger laden, Hüfte nach vorn strecken. Jetzt mit Langhantel bis 45,8 kg statt Kettlebell (KB-Version war zu leicht).",
        "video": "https://www.youtube.com/watch?v=M6fGnnNR4bQ",
@@ -946,7 +946,7 @@
        "perSide": false,
        "detail": "",
        "raw": "B2 Band-Chest-Press stehend beidarmig 3x10-15",
-       "resistance": "Band 40-80 + 20-35 lbs (stapeln - laut Logs war ein Band viel zu leicht)",
+       "resistance": "Band 40-80 + 20-35 lbs [zu leicht? drittes Band dazu ODER Tempo 3-1-3]",
        "resistanceLabel": "Chest-Press",
        "description": "Band auf Brusthöhe hinter dir verankern, Schrittstellung, Rumpf fest. Beide Griffe auf Brusthöhe, dann BEIDE Arme gleichzeitig horizontal nach vorn ausdrücken - die Hände bleiben maximal auf Schulterhöhe, nie darüber. Langsam zurückführen, ohne dass die Schultern nach vorn kippen. Beidarmige Variante der einarmigen Version aus dem Juli-Plan; das Video zeigt einarmig, die Ausführung ist identisch, nur mit beiden Armen gleichzeitig.",
        "video": "https://www.youtube.com/watch?v=ssJcPFP47aw",
@@ -958,11 +958,11 @@
      "resistance": [
       {
        "label": "RDL",
-       "value": "Langhantel 45,8 kg gesamt (Stange 7,8 kg + je Seite 2x5 + 4x2 + 2x0,5) | Deficit: auf 2 Scheiben stehen"
+       "value": "Langhantel 49,8 kg gesamt (Stange 7,8 kg + je Seite 1x10 + 2x5 + 2x0,5) | ZUGHILFEN empfohlen - laut deiner Notiz limitiert der GRIFF, nicht die Beinbeuger"
       },
       {
        "label": "Chest-Press",
-       "value": "Band 40-80 + 20-35 lbs (stapeln - laut Logs war ein Band viel zu leicht)"
+       "value": "Band 40-80 + 20-35 lbs [zu leicht? drittes Band dazu ODER Tempo 3-1-3]"
       }
      ]
     },
@@ -1018,15 +1018,15 @@
     {
      "gerät": "Langhantel",
      "items": [
-      "Langhantel 43,8 kg gesamt (Stange 7,8 kg + je Seite 2x5 + 4x2) (Rudern)",
-      "Langhantel 45,8 kg gesamt (Stange 7,8 kg + je Seite 2x5 + 4x2 + 2x0,5) | Deficit: auf 2 Scheiben stehen (RDL)"
+      "Langhantel 45,8 kg gesamt (Stange 7,8 kg + je Seite 1x10 + 1x5 + 2x2) (Rudern)",
+      "Langhantel 49,8 kg gesamt (Stange 7,8 kg + je Seite 1x10 + 2x5 + 2x0,5) | ZUGHILFEN empfohlen - laut deiner Notiz limitiert der GRIFF, nicht die Beinbeuger (RDL)"
      ]
     },
     {
      "gerät": "Bänder",
      "items": [
-      "Band 20-35 + 15-25 lbs (Curl)",
-      "Band 40-80 + 20-35 lbs (stapeln - laut Logs war ein Band viel zu leicht) (Chest-Press)",
+      "Band 20-35 + 15-25 lbs [zu leicht? drittes Band dazu ODER Tempo 3-1-3] (Curl)",
+      "Band 40-80 + 20-35 lbs [zu leicht? drittes Band dazu ODER Tempo 3-1-3] (Chest-Press)",
       "leichtes Band (Außenrotation)",
       "leichtes Band 15-25 lbs (Seitheben)"
      ]
@@ -1100,7 +1100,7 @@
        "perSide": false,
        "detail": "",
        "raw": "A2 Kurzhantel-Squat (Koffergriff) 3x10-15",
-       "resistance": "2x17 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 1x2 + 1x0,5)",
+       "resistance": "2x17 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 1x2 + 1x0,5) | + Gewichtsweste 10 kg",
        "resistanceLabel": "Kurzhantel-Squat",
        "description": "Kurzhanteln links und rechts neben dem Körper hängen lassen (Koffergriff), Füße schulterbreit, Zehen leicht nach außen. Kontrolliert so tief absteigen, wie es schmerzfrei geht, Knie in Richtung Zehen, Rücken neutral. Aus den Fersen hochdrücken. ERSETZT den Bulgarian Split Squat: beidbeinig, dadurch halbe Zeit und deutlich weniger Ermüdung vor dem Kendo. Die Schulter ist unbeteiligt - die Arme hängen einfach. Wenn der Griff vor den Beinen ermüdet: Goblet Squat mit der KB.",
        "video": "",
@@ -1116,7 +1116,7 @@
       },
       {
        "label": "Kurzhantel-Squat",
-       "value": "2x17 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 1x2 + 1x0,5)"
+       "value": "2x17 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 1x2 + 1x0,5) | + Gewichtsweste 10 kg"
       }
      ]
     },
@@ -1145,7 +1145,7 @@
        "perSide": false,
        "detail": "",
        "raw": "B2 KB Swing zweiarmig 3x15",
-       "resistance": "KB 24 kg",
+       "resistance": "KB 24 kg (explosiv! ueber 15 Wdh. = zu leicht, dann Tempo statt Wdh.)",
        "resistanceLabel": "Swing",
        "description": "Explosiver Hüftimpuls, zweiarmig. NEU: Endpunkt bewusst am Brustbein kappen (unter 90°), nicht bis Brust-/Schulterhöhe schwingen lassen.",
        "video": "",
@@ -1161,7 +1161,7 @@
       },
       {
        "label": "Swing",
-       "value": "KB 24 kg"
+       "value": "KB 24 kg (explosiv! ueber 15 Wdh. = zu leicht, dann Tempo statt Wdh.)"
       }
      ]
     },
@@ -1176,7 +1176,7 @@
        "perSide": false,
        "detail": "",
        "raw": "C1 Band-Bizeps-Curl beidarmig 3x10-15",
-       "resistance": "Band 20-35 + 15-25 lbs",
+       "resistance": "Band 20-35 + 15-25 lbs [zu leicht? drittes Band dazu ODER Tempo 3-1-3]",
        "resistanceLabel": "Curl",
        "description": "Auf das Band stellen (ein oder beide Füße = Widerstand wählen), Ellbogen fest an den Seiten. Unterarme nach oben curlen, oben kurz anspannen, langsam (2-3s) ablassen. Nur der Unterarm bewegt sich – kein Schwung aus Schulter oder Rücken. Ersetzt das Bizeps-Volumen der weggefallenen Klimmzüge.",
        "video": "https://www.youtube.com/watch?v=Da57AuIofvU",
@@ -1190,7 +1190,7 @@
        "perSide": false,
        "detail": "",
        "raw": "C2 Band-Trizeps-Pushdown beidarmig 3x10-15",
-       "resistance": "Band 20-35 + 15-25 lbs",
+       "resistance": "Band 20-35 + 15-25 lbs [zu leicht? drittes Band dazu ODER Tempo 3-1-3]",
        "resistanceLabel": "Pushdown",
        "description": "Band oben verankern (z.B. Klimmzugstange). Ellbogen eng am Körper fixieren, Unterarme nach unten strecken bis die Arme gestreckt sind, Trizeps unten fest anspannen, langsam zurück. Oberarme bewegen sich nicht. Arm bleibt komplett unten – ideal bei 90°-Regel.",
        "video": "https://www.youtube.com/watch?v=qjPN6ElNqpc",
@@ -1202,11 +1202,11 @@
      "resistance": [
       {
        "label": "Curl",
-       "value": "Band 20-35 + 15-25 lbs"
+       "value": "Band 20-35 + 15-25 lbs [zu leicht? drittes Band dazu ODER Tempo 3-1-3]"
       },
       {
        "label": "Pushdown",
-       "value": "Band 20-35 + 15-25 lbs"
+       "value": "Band 20-35 + 15-25 lbs [zu leicht? drittes Band dazu ODER Tempo 3-1-3]"
       }
      ]
     }
@@ -1221,21 +1221,21 @@
      "gerät": "Kurzhanteln",
      "items": [
       "2x17 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 1x2 + 1x0,5) (Floor Press)",
-      "2x17 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 1x2 + 1x0,5) (Kurzhantel-Squat)"
+      "2x17 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 1x2 + 1x0,5) | + Gewichtsweste 10 kg (Kurzhantel-Squat)"
      ]
     },
     {
      "gerät": "Kettlebell",
      "items": [
-      "KB 24 kg (Swing)"
+      "KB 24 kg (explosiv! ueber 15 Wdh. = zu leicht, dann Tempo statt Wdh.) (Swing)"
      ]
     },
     {
      "gerät": "Bänder",
      "items": [
       "40-80 + 20-35 + 15-25 lbs (stapeln!) (Band-Rudern)",
-      "Band 20-35 + 15-25 lbs (Curl)",
-      "Band 20-35 + 15-25 lbs (Pushdown)"
+      "Band 20-35 + 15-25 lbs [zu leicht? drittes Band dazu ODER Tempo 3-1-3] (Curl)",
+      "Band 20-35 + 15-25 lbs [zu leicht? drittes Band dazu ODER Tempo 3-1-3] (Pushdown)"
      ]
     }
    ]
@@ -1307,7 +1307,7 @@
        "perSide": false,
        "detail": "",
        "raw": "A2 Kurzhantel-Squat (Koffergriff) 3x10-15",
-       "resistance": "2x21 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2 + 1x0,5)",
+       "resistance": "2x21 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2 + 1x0,5) | + Gewichtsweste 15 kg",
        "resistanceLabel": "Kurzhantel-Squat",
        "description": "Kurzhanteln links und rechts neben dem Körper hängen lassen (Koffergriff), Füße schulterbreit, Zehen leicht nach außen. Kontrolliert so tief absteigen, wie es schmerzfrei geht, Knie in Richtung Zehen, Rücken neutral. Aus den Fersen hochdrücken. ERSETZT den Bulgarian Split Squat: beidbeinig, dadurch halbe Zeit und deutlich weniger Ermüdung vor dem Kendo. Die Schulter ist unbeteiligt - die Arme hängen einfach. Wenn der Griff vor den Beinen ermüdet: Goblet Squat mit der KB.",
        "video": "",
@@ -1323,7 +1323,7 @@
       },
       {
        "label": "Kurzhantel-Squat",
-       "value": "2x21 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2 + 1x0,5)"
+       "value": "2x21 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2 + 1x0,5) | + Gewichtsweste 15 kg"
       }
      ]
     },
@@ -1334,11 +1334,11 @@
        "code": "B1",
        "name": "Kurzhantel Floor Press (neutraler Griff)",
        "sets": 3,
-       "targetReps": "6-10",
+       "targetReps": "8-12",
        "perSide": false,
        "detail": "",
-       "raw": "B1 Kurzhantel Floor Press (neutraler Griff) 3x6-10",
-       "resistance": "2x20 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2) | 3s exzentrisch",
+       "raw": "B1 Kurzhantel Floor Press (neutraler Griff) 3x8-12",
+       "resistance": "2x17 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 1x2 + 1x0,5) | 3s exzentrisch",
        "resistanceLabel": "Floor Press",
        "description": "Rückenlage, Knie angestellt, in jeder Hand eine Kurzhantel mit neutralem Griff (Handflächen zueinander) über der Brust ausdrücken, Ellbogen ~45° vom Körper. Langsam ablassen, bis der Trizeps den Boden berührt – der Boden begrenzt die Bewegung und schützt das AC-Gelenk – kurz pausieren, dann hochdrücken. Ersetzt den KB Floor Press: Die Kurzhantel-Last liegt zentriert über der Handwurzel, das Handgelenk bleibt gerade (KB-Version war fürs Handgelenk schmerzhaft). Brust-/Trizeps-Hauptübung, 2x pro Woche (Di + Sa).",
        "video": "https://www.youtube.com/watch?v=rs05AtccEhg",
@@ -1352,7 +1352,7 @@
        "perSide": false,
        "detail": "",
        "raw": "B2 Band-Bizeps-Curl beidarmig 3x10-15",
-       "resistance": "Band 20-35 + 15-25 lbs",
+       "resistance": "Band 20-35 + 15-25 lbs [zu leicht? drittes Band dazu ODER Tempo 3-1-3]",
        "resistanceLabel": "Curl",
        "description": "Auf das Band stellen (ein oder beide Füße = Widerstand wählen), Ellbogen fest an den Seiten. Unterarme nach oben curlen, oben kurz anspannen, langsam (2-3s) ablassen. Nur der Unterarm bewegt sich – kein Schwung aus Schulter oder Rücken. Ersetzt das Bizeps-Volumen der weggefallenen Klimmzüge.",
        "video": "https://www.youtube.com/watch?v=Da57AuIofvU",
@@ -1364,11 +1364,11 @@
      "resistance": [
       {
        "label": "Floor Press",
-       "value": "2x20 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2) | 3s exzentrisch"
+       "value": "2x17 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 1x2 + 1x0,5) | 3s exzentrisch"
       },
       {
        "label": "Curl",
-       "value": "Band 20-35 + 15-25 lbs"
+       "value": "Band 20-35 + 15-25 lbs [zu leicht? drittes Band dazu ODER Tempo 3-1-3]"
       }
      ]
     },
@@ -1397,7 +1397,7 @@
        "perSide": false,
        "detail": "",
        "raw": "C2 Band-Trizeps-Pushdown beidarmig 3x10-15",
-       "resistance": "Band 20-35 + 15-25 lbs",
+       "resistance": "Band 20-35 + 15-25 lbs [zu leicht? drittes Band dazu ODER Tempo 3-1-3]",
        "resistanceLabel": "Pushdown",
        "description": "Band oben verankern (z.B. Klimmzugstange). Ellbogen eng am Körper fixieren, Unterarme nach unten strecken bis die Arme gestreckt sind, Trizeps unten fest anspannen, langsam zurück. Oberarme bewegen sich nicht. Arm bleibt komplett unten – ideal bei 90°-Regel.",
        "video": "https://www.youtube.com/watch?v=qjPN6ElNqpc",
@@ -1413,7 +1413,7 @@
       },
       {
        "label": "Pushdown",
-       "value": "Band 20-35 + 15-25 lbs"
+       "value": "Band 20-35 + 15-25 lbs [zu leicht? drittes Band dazu ODER Tempo 3-1-3]"
       }
      ]
     }
@@ -1427,16 +1427,16 @@
     {
      "gerät": "Kurzhanteln",
      "items": [
-      "2x20 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2) | 3s exzentrisch (Floor Press)",
-      "2x21 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2 + 1x0,5) (Kurzhantel-Squat)",
+      "2x17 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 1x2 + 1x0,5) | 3s exzentrisch (Floor Press)",
+      "2x21 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2 + 1x0,5) | + Gewichtsweste 15 kg (Kurzhantel-Squat)",
       "2x21 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2 + 1x0,5) | 3s exzentrisch (Kurzhantel-Rudern)"
      ]
     },
     {
      "gerät": "Bänder",
      "items": [
-      "Band 20-35 + 15-25 lbs (Curl)",
-      "Band 20-35 + 15-25 lbs (Pushdown)",
+      "Band 20-35 + 15-25 lbs [zu leicht? drittes Band dazu ODER Tempo 3-1-3] (Curl)",
+      "Band 20-35 + 15-25 lbs [zu leicht? drittes Band dazu ODER Tempo 3-1-3] (Pushdown)",
       "leichtes Band 15-25 lbs (bewusst leicht - Schulter!) (Seitheben)"
      ]
     }
@@ -1495,7 +1495,7 @@
        "perSide": false,
        "detail": "",
        "raw": "A1 Langhantel-Rudern vorgebeugt 3x6-10",
-       "resistance": "Langhantel 45,8 kg gesamt (Stange 7,8 kg + je Seite 2x5 + 4x2 + 2x0,5) | 3s exzentrisch",
+       "resistance": "Langhantel 47,8 kg gesamt (Stange 7,8 kg + je Seite 1x10 + 2x5) | 3s exzentrisch",
        "resistanceLabel": "Rudern",
        "description": "Hüftbreiter Stand, Langhantel im Obergriff. Hüfte nach hinten schieben (Hip Hinge), Oberkörper ~45° oder tiefer, Rücken neutral, Rumpf fest. Die Stange zum Bauchnabel ziehen, Ellbogen nah am Körper, Schulterblätter nach hinten-unten; langsam ablassen, kein Schwung. Schwere beidarmige Zugübung als Ergänzung zum einarmigen KB-Rudern – Arme bleiben unter 90°. Zyklus Aug: 35,8 kg (W16) bis 39,8 kg (W19).",
        "video": "https://www.youtube.com/watch?v=rqTOAM8WoeM",
@@ -1509,7 +1509,7 @@
        "perSide": false,
        "detail": "",
        "raw": "A2 Band-Bizeps-Curl beidarmig 3x10-15",
-       "resistance": "Band 20-35 + 15-25 lbs",
+       "resistance": "Band 20-35 + 15-25 lbs [zu leicht? drittes Band dazu ODER Tempo 3-1-3]",
        "resistanceLabel": "Curl",
        "description": "Auf das Band stellen (ein oder beide Füße = Widerstand wählen), Ellbogen fest an den Seiten. Unterarme nach oben curlen, oben kurz anspannen, langsam (2-3s) ablassen. Nur der Unterarm bewegt sich – kein Schwung aus Schulter oder Rücken. Ersetzt das Bizeps-Volumen der weggefallenen Klimmzüge.",
        "video": "https://www.youtube.com/watch?v=Da57AuIofvU",
@@ -1521,11 +1521,11 @@
      "resistance": [
       {
        "label": "Rudern",
-       "value": "Langhantel 45,8 kg gesamt (Stange 7,8 kg + je Seite 2x5 + 4x2 + 2x0,5) | 3s exzentrisch"
+       "value": "Langhantel 47,8 kg gesamt (Stange 7,8 kg + je Seite 1x10 + 2x5) | 3s exzentrisch"
       },
       {
        "label": "Curl",
-       "value": "Band 20-35 + 15-25 lbs"
+       "value": "Band 20-35 + 15-25 lbs [zu leicht? drittes Band dazu ODER Tempo 3-1-3]"
       }
      ]
     },
@@ -1540,7 +1540,7 @@
        "perSide": false,
        "detail": "",
        "raw": "B1 Langhantel Romanian Deadlift 3x8-12",
-       "resistance": "Langhantel 45,8 kg gesamt (Stange 7,8 kg + je Seite 2x5 + 4x2 + 2x0,5) | Deficit + 3s exzentrisch",
+       "resistance": "Langhantel 51,8 kg gesamt (Stange 7,8 kg + je Seite 1x10 + 2x5 + 1x2) | Zughilfen + 3s exzentrisch",
        "resistanceLabel": "RDL",
        "description": "Hüfte nach hinten, Rücken neutral, Beinbeuger laden, Hüfte nach vorn strecken. Jetzt mit Langhantel bis 45,8 kg statt Kettlebell (KB-Version war zu leicht).",
        "video": "https://www.youtube.com/watch?v=M6fGnnNR4bQ",
@@ -1554,7 +1554,7 @@
        "perSide": false,
        "detail": "",
        "raw": "B2 Band-Chest-Press stehend beidarmig 3x10-15",
-       "resistance": "Band 40-80 + 20-35 lbs (stapeln - laut Logs war ein Band viel zu leicht)",
+       "resistance": "Band 40-80 + 20-35 lbs [zu leicht? drittes Band dazu ODER Tempo 3-1-3]",
        "resistanceLabel": "Chest-Press",
        "description": "Band auf Brusthöhe hinter dir verankern, Schrittstellung, Rumpf fest. Beide Griffe auf Brusthöhe, dann BEIDE Arme gleichzeitig horizontal nach vorn ausdrücken - die Hände bleiben maximal auf Schulterhöhe, nie darüber. Langsam zurückführen, ohne dass die Schultern nach vorn kippen. Beidarmige Variante der einarmigen Version aus dem Juli-Plan; das Video zeigt einarmig, die Ausführung ist identisch, nur mit beiden Armen gleichzeitig.",
        "video": "https://www.youtube.com/watch?v=ssJcPFP47aw",
@@ -1566,11 +1566,11 @@
      "resistance": [
       {
        "label": "RDL",
-       "value": "Langhantel 45,8 kg gesamt (Stange 7,8 kg + je Seite 2x5 + 4x2 + 2x0,5) | Deficit + 3s exzentrisch"
+       "value": "Langhantel 51,8 kg gesamt (Stange 7,8 kg + je Seite 1x10 + 2x5 + 1x2) | Zughilfen + 3s exzentrisch"
       },
       {
        "label": "Chest-Press",
-       "value": "Band 40-80 + 20-35 lbs (stapeln - laut Logs war ein Band viel zu leicht)"
+       "value": "Band 40-80 + 20-35 lbs [zu leicht? drittes Band dazu ODER Tempo 3-1-3]"
       }
      ]
     },
@@ -1626,15 +1626,15 @@
     {
      "gerät": "Langhantel",
      "items": [
-      "Langhantel 45,8 kg gesamt (Stange 7,8 kg + je Seite 2x5 + 4x2 + 2x0,5) | 3s exzentrisch (Rudern)",
-      "Langhantel 45,8 kg gesamt (Stange 7,8 kg + je Seite 2x5 + 4x2 + 2x0,5) | Deficit + 3s exzentrisch (RDL)"
+      "Langhantel 47,8 kg gesamt (Stange 7,8 kg + je Seite 1x10 + 2x5) | 3s exzentrisch (Rudern)",
+      "Langhantel 51,8 kg gesamt (Stange 7,8 kg + je Seite 1x10 + 2x5 + 1x2) | Zughilfen + 3s exzentrisch (RDL)"
      ]
     },
     {
      "gerät": "Bänder",
      "items": [
-      "Band 20-35 + 15-25 lbs (Curl)",
-      "Band 40-80 + 20-35 lbs (stapeln - laut Logs war ein Band viel zu leicht) (Chest-Press)",
+      "Band 20-35 + 15-25 lbs [zu leicht? drittes Band dazu ODER Tempo 3-1-3] (Curl)",
+      "Band 40-80 + 20-35 lbs [zu leicht? drittes Band dazu ODER Tempo 3-1-3] (Chest-Press)",
       "leichtes Band (Außenrotation)",
       "leichtes Band 15-25 lbs (Seitheben)"
      ]
@@ -1708,7 +1708,7 @@
        "perSide": false,
        "detail": "",
        "raw": "A2 Kurzhantel-Squat (Koffergriff) 3x10-15",
-       "resistance": "2x20 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2)",
+       "resistance": "2x17 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 1x2 + 1x0,5) | + Gewichtsweste 15 kg",
        "resistanceLabel": "Kurzhantel-Squat",
        "description": "Kurzhanteln links und rechts neben dem Körper hängen lassen (Koffergriff), Füße schulterbreit, Zehen leicht nach außen. Kontrolliert so tief absteigen, wie es schmerzfrei geht, Knie in Richtung Zehen, Rücken neutral. Aus den Fersen hochdrücken. ERSETZT den Bulgarian Split Squat: beidbeinig, dadurch halbe Zeit und deutlich weniger Ermüdung vor dem Kendo. Die Schulter ist unbeteiligt - die Arme hängen einfach. Wenn der Griff vor den Beinen ermüdet: Goblet Squat mit der KB.",
        "video": "",
@@ -1724,7 +1724,7 @@
       },
       {
        "label": "Kurzhantel-Squat",
-       "value": "2x20 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2)"
+       "value": "2x17 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 1x2 + 1x0,5) | + Gewichtsweste 15 kg"
       }
      ]
     },
@@ -1735,11 +1735,11 @@
        "code": "B1",
        "name": "Kurzhantel Floor Press (neutraler Griff)",
        "sets": 3,
-       "targetReps": "6-10",
+       "targetReps": "8-12",
        "perSide": false,
        "detail": "",
-       "raw": "B1 Kurzhantel Floor Press (neutraler Griff) 3x6-10",
-       "resistance": "2x20 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2) | 3s exzentrisch",
+       "raw": "B1 Kurzhantel Floor Press (neutraler Griff) 3x8-12",
+       "resistance": "2x17 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 1x2 + 1x0,5) | 3s exzentrisch",
        "resistanceLabel": "Floor Press",
        "description": "Rückenlage, Knie angestellt, in jeder Hand eine Kurzhantel mit neutralem Griff (Handflächen zueinander) über der Brust ausdrücken, Ellbogen ~45° vom Körper. Langsam ablassen, bis der Trizeps den Boden berührt – der Boden begrenzt die Bewegung und schützt das AC-Gelenk – kurz pausieren, dann hochdrücken. Ersetzt den KB Floor Press: Die Kurzhantel-Last liegt zentriert über der Handwurzel, das Handgelenk bleibt gerade (KB-Version war fürs Handgelenk schmerzhaft). Brust-/Trizeps-Hauptübung, 2x pro Woche (Di + Sa).",
        "video": "https://www.youtube.com/watch?v=rs05AtccEhg",
@@ -1753,7 +1753,7 @@
        "perSide": false,
        "detail": "",
        "raw": "B2 KB Swing zweiarmig 3x15",
-       "resistance": "KB 24 kg",
+       "resistance": "KB 24 kg (explosiv! ueber 15 Wdh. = zu leicht, dann Tempo statt Wdh.)",
        "resistanceLabel": "Swing",
        "description": "Explosiver Hüftimpuls, zweiarmig. NEU: Endpunkt bewusst am Brustbein kappen (unter 90°), nicht bis Brust-/Schulterhöhe schwingen lassen.",
        "video": "",
@@ -1765,11 +1765,11 @@
      "resistance": [
       {
        "label": "Floor Press",
-       "value": "2x20 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2) | 3s exzentrisch"
+       "value": "2x17 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 1x2 + 1x0,5) | 3s exzentrisch"
       },
       {
        "label": "Swing",
-       "value": "KB 24 kg"
+       "value": "KB 24 kg (explosiv! ueber 15 Wdh. = zu leicht, dann Tempo statt Wdh.)"
       }
      ]
     },
@@ -1784,7 +1784,7 @@
        "perSide": false,
        "detail": "",
        "raw": "C1 Band-Bizeps-Curl beidarmig 3x10-15",
-       "resistance": "Band 20-35 + 15-25 lbs",
+       "resistance": "Band 20-35 + 15-25 lbs [zu leicht? drittes Band dazu ODER Tempo 3-1-3]",
        "resistanceLabel": "Curl",
        "description": "Auf das Band stellen (ein oder beide Füße = Widerstand wählen), Ellbogen fest an den Seiten. Unterarme nach oben curlen, oben kurz anspannen, langsam (2-3s) ablassen. Nur der Unterarm bewegt sich – kein Schwung aus Schulter oder Rücken. Ersetzt das Bizeps-Volumen der weggefallenen Klimmzüge.",
        "video": "https://www.youtube.com/watch?v=Da57AuIofvU",
@@ -1798,7 +1798,7 @@
        "perSide": false,
        "detail": "",
        "raw": "C2 Band-Trizeps-Pushdown beidarmig 3x10-15",
-       "resistance": "Band 20-35 + 15-25 lbs",
+       "resistance": "Band 20-35 + 15-25 lbs [zu leicht? drittes Band dazu ODER Tempo 3-1-3]",
        "resistanceLabel": "Pushdown",
        "description": "Band oben verankern (z.B. Klimmzugstange). Ellbogen eng am Körper fixieren, Unterarme nach unten strecken bis die Arme gestreckt sind, Trizeps unten fest anspannen, langsam zurück. Oberarme bewegen sich nicht. Arm bleibt komplett unten – ideal bei 90°-Regel.",
        "video": "https://www.youtube.com/watch?v=qjPN6ElNqpc",
@@ -1810,11 +1810,11 @@
      "resistance": [
       {
        "label": "Curl",
-       "value": "Band 20-35 + 15-25 lbs"
+       "value": "Band 20-35 + 15-25 lbs [zu leicht? drittes Band dazu ODER Tempo 3-1-3]"
       },
       {
        "label": "Pushdown",
-       "value": "Band 20-35 + 15-25 lbs"
+       "value": "Band 20-35 + 15-25 lbs [zu leicht? drittes Band dazu ODER Tempo 3-1-3]"
       }
      ]
     }
@@ -1828,22 +1828,22 @@
     {
      "gerät": "Kurzhanteln",
      "items": [
-      "2x20 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2) (Kurzhantel-Squat)",
-      "2x20 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2) | 3s exzentrisch (Floor Press)"
+      "2x17 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 1x2 + 1x0,5) | + Gewichtsweste 15 kg (Kurzhantel-Squat)",
+      "2x17 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 1x2 + 1x0,5) | 3s exzentrisch (Floor Press)"
      ]
     },
     {
      "gerät": "Kettlebell",
      "items": [
-      "KB 24 kg (Swing)"
+      "KB 24 kg (explosiv! ueber 15 Wdh. = zu leicht, dann Tempo statt Wdh.) (Swing)"
      ]
     },
     {
      "gerät": "Bänder",
      "items": [
       "40-80 + 20-35 + 15-25 lbs (stapeln!) (Band-Rudern)",
-      "Band 20-35 + 15-25 lbs (Curl)",
-      "Band 20-35 + 15-25 lbs (Pushdown)"
+      "Band 20-35 + 15-25 lbs [zu leicht? drittes Band dazu ODER Tempo 3-1-3] (Curl)",
+      "Band 20-35 + 15-25 lbs [zu leicht? drittes Band dazu ODER Tempo 3-1-3] (Pushdown)"
      ]
     }
    ]
@@ -1915,7 +1915,7 @@
        "perSide": false,
        "detail": "",
        "raw": "A2 Kurzhantel-Squat (Koffergriff) 3x10-15",
-       "resistance": "2x21 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2 + 1x0,5) | + Gewichtsweste 5-10 kg (nur Squat)",
+       "resistance": "2x21 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2 + 1x0,5) | + Gewichtsweste 20 kg",
        "resistanceLabel": "Kurzhantel-Squat",
        "description": "Kurzhanteln links und rechts neben dem Körper hängen lassen (Koffergriff), Füße schulterbreit, Zehen leicht nach außen. Kontrolliert so tief absteigen, wie es schmerzfrei geht, Knie in Richtung Zehen, Rücken neutral. Aus den Fersen hochdrücken. ERSETZT den Bulgarian Split Squat: beidbeinig, dadurch halbe Zeit und deutlich weniger Ermüdung vor dem Kendo. Die Schulter ist unbeteiligt - die Arme hängen einfach. Wenn der Griff vor den Beinen ermüdet: Goblet Squat mit der KB.",
        "video": "",
@@ -1931,7 +1931,7 @@
       },
       {
        "label": "Kurzhantel-Squat",
-       "value": "2x21 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2 + 1x0,5) | + Gewichtsweste 5-10 kg (nur Squat)"
+       "value": "2x21 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2 + 1x0,5) | + Gewichtsweste 20 kg"
       }
      ]
     },
@@ -1960,7 +1960,7 @@
        "perSide": false,
        "detail": "",
        "raw": "B2 Band-Bizeps-Curl beidarmig 3x10-15",
-       "resistance": "Band 20-35 + 15-25 lbs",
+       "resistance": "Band 20-35 + 15-25 lbs [zu leicht? drittes Band dazu ODER Tempo 3-1-3]",
        "resistanceLabel": "Curl",
        "description": "Auf das Band stellen (ein oder beide Füße = Widerstand wählen), Ellbogen fest an den Seiten. Unterarme nach oben curlen, oben kurz anspannen, langsam (2-3s) ablassen. Nur der Unterarm bewegt sich – kein Schwung aus Schulter oder Rücken. Ersetzt das Bizeps-Volumen der weggefallenen Klimmzüge.",
        "video": "https://www.youtube.com/watch?v=Da57AuIofvU",
@@ -1976,7 +1976,7 @@
       },
       {
        "label": "Curl",
-       "value": "Band 20-35 + 15-25 lbs"
+       "value": "Band 20-35 + 15-25 lbs [zu leicht? drittes Band dazu ODER Tempo 3-1-3]"
       }
      ]
     },
@@ -2005,7 +2005,7 @@
        "perSide": false,
        "detail": "",
        "raw": "C2 Band-Trizeps-Pushdown beidarmig 3x10-15",
-       "resistance": "Band 20-35 + 15-25 lbs",
+       "resistance": "Band 20-35 + 15-25 lbs [zu leicht? drittes Band dazu ODER Tempo 3-1-3]",
        "resistanceLabel": "Pushdown",
        "description": "Band oben verankern (z.B. Klimmzugstange). Ellbogen eng am Körper fixieren, Unterarme nach unten strecken bis die Arme gestreckt sind, Trizeps unten fest anspannen, langsam zurück. Oberarme bewegen sich nicht. Arm bleibt komplett unten – ideal bei 90°-Regel.",
        "video": "https://www.youtube.com/watch?v=qjPN6ElNqpc",
@@ -2021,7 +2021,7 @@
       },
       {
        "label": "Pushdown",
-       "value": "Band 20-35 + 15-25 lbs"
+       "value": "Band 20-35 + 15-25 lbs [zu leicht? drittes Band dazu ODER Tempo 3-1-3]"
       }
      ]
     }
@@ -2036,15 +2036,15 @@
      "gerät": "Kurzhanteln",
      "items": [
       "2x20 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2) | 3s exzentrisch (Floor Press)",
-      "2x21 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2 + 1x0,5) | + Gewichtsweste 5-10 kg (nur Squat) (Kurzhantel-Squat)",
+      "2x21 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2 + 1x0,5) | + Gewichtsweste 20 kg (Kurzhantel-Squat)",
       "2x21 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2 + 1x0,5) | 3s exzentrisch (Kurzhantel-Rudern)"
      ]
     },
     {
      "gerät": "Bänder",
      "items": [
-      "Band 20-35 + 15-25 lbs (Curl)",
-      "Band 20-35 + 15-25 lbs (Pushdown)",
+      "Band 20-35 + 15-25 lbs [zu leicht? drittes Band dazu ODER Tempo 3-1-3] (Curl)",
+      "Band 20-35 + 15-25 lbs [zu leicht? drittes Band dazu ODER Tempo 3-1-3] (Pushdown)",
       "leichtes Band 15-25 lbs (bewusst leicht - Schulter!) (Seitheben)"
      ]
     }
@@ -2103,7 +2103,7 @@
        "perSide": false,
        "detail": "",
        "raw": "A1 Langhantel-Rudern vorgebeugt 3x6-10",
-       "resistance": "Langhantel 45,8 kg gesamt (Stange 7,8 kg + je Seite 2x5 + 4x2 + 2x0,5) | 3s exzentrisch",
+       "resistance": "Langhantel 49,8 kg gesamt (Stange 7,8 kg + je Seite 1x10 + 2x5 + 2x0,5) | 3s exzentrisch",
        "resistanceLabel": "Rudern",
        "description": "Hüftbreiter Stand, Langhantel im Obergriff. Hüfte nach hinten schieben (Hip Hinge), Oberkörper ~45° oder tiefer, Rücken neutral, Rumpf fest. Die Stange zum Bauchnabel ziehen, Ellbogen nah am Körper, Schulterblätter nach hinten-unten; langsam ablassen, kein Schwung. Schwere beidarmige Zugübung als Ergänzung zum einarmigen KB-Rudern – Arme bleiben unter 90°. Zyklus Aug: 35,8 kg (W16) bis 39,8 kg (W19).",
        "video": "https://www.youtube.com/watch?v=rqTOAM8WoeM",
@@ -2117,7 +2117,7 @@
        "perSide": false,
        "detail": "",
        "raw": "A2 Band-Bizeps-Curl beidarmig 3x10-15",
-       "resistance": "Band 20-35 + 15-25 lbs",
+       "resistance": "Band 20-35 + 15-25 lbs [zu leicht? drittes Band dazu ODER Tempo 3-1-3]",
        "resistanceLabel": "Curl",
        "description": "Auf das Band stellen (ein oder beide Füße = Widerstand wählen), Ellbogen fest an den Seiten. Unterarme nach oben curlen, oben kurz anspannen, langsam (2-3s) ablassen. Nur der Unterarm bewegt sich – kein Schwung aus Schulter oder Rücken. Ersetzt das Bizeps-Volumen der weggefallenen Klimmzüge.",
        "video": "https://www.youtube.com/watch?v=Da57AuIofvU",
@@ -2129,11 +2129,11 @@
      "resistance": [
       {
        "label": "Rudern",
-       "value": "Langhantel 45,8 kg gesamt (Stange 7,8 kg + je Seite 2x5 + 4x2 + 2x0,5) | 3s exzentrisch"
+       "value": "Langhantel 49,8 kg gesamt (Stange 7,8 kg + je Seite 1x10 + 2x5 + 2x0,5) | 3s exzentrisch"
       },
       {
        "label": "Curl",
-       "value": "Band 20-35 + 15-25 lbs"
+       "value": "Band 20-35 + 15-25 lbs [zu leicht? drittes Band dazu ODER Tempo 3-1-3]"
       }
      ]
     },
@@ -2148,7 +2148,7 @@
        "perSide": false,
        "detail": "",
        "raw": "B1 Langhantel Romanian Deadlift 3x8-12",
-       "resistance": "Langhantel 45,8 kg gesamt (Stange 7,8 kg + je Seite 2x5 + 4x2 + 2x0,5) | Deficit + 3s + Gewichtsweste 10 kg",
+       "resistance": "Langhantel 53,8 kg gesamt (Stange 7,8 kg + je Seite 1x10 + 2x5 + 1x2 + 2x0,5) | Zughilfen + 3s exzentrisch",
        "resistanceLabel": "RDL",
        "description": "Hüfte nach hinten, Rücken neutral, Beinbeuger laden, Hüfte nach vorn strecken. Jetzt mit Langhantel bis 45,8 kg statt Kettlebell (KB-Version war zu leicht).",
        "video": "https://www.youtube.com/watch?v=M6fGnnNR4bQ",
@@ -2162,7 +2162,7 @@
        "perSide": false,
        "detail": "",
        "raw": "B2 Band-Chest-Press stehend beidarmig 3x10-15",
-       "resistance": "Band 40-80 + 20-35 lbs (stapeln - laut Logs war ein Band viel zu leicht)",
+       "resistance": "Band 40-80 + 20-35 lbs [zu leicht? drittes Band dazu ODER Tempo 3-1-3]",
        "resistanceLabel": "Chest-Press",
        "description": "Band auf Brusthöhe hinter dir verankern, Schrittstellung, Rumpf fest. Beide Griffe auf Brusthöhe, dann BEIDE Arme gleichzeitig horizontal nach vorn ausdrücken - die Hände bleiben maximal auf Schulterhöhe, nie darüber. Langsam zurückführen, ohne dass die Schultern nach vorn kippen. Beidarmige Variante der einarmigen Version aus dem Juli-Plan; das Video zeigt einarmig, die Ausführung ist identisch, nur mit beiden Armen gleichzeitig.",
        "video": "https://www.youtube.com/watch?v=ssJcPFP47aw",
@@ -2174,11 +2174,11 @@
      "resistance": [
       {
        "label": "RDL",
-       "value": "Langhantel 45,8 kg gesamt (Stange 7,8 kg + je Seite 2x5 + 4x2 + 2x0,5) | Deficit + 3s + Gewichtsweste 10 kg"
+       "value": "Langhantel 53,8 kg gesamt (Stange 7,8 kg + je Seite 1x10 + 2x5 + 1x2 + 2x0,5) | Zughilfen + 3s exzentrisch"
       },
       {
        "label": "Chest-Press",
-       "value": "Band 40-80 + 20-35 lbs (stapeln - laut Logs war ein Band viel zu leicht)"
+       "value": "Band 40-80 + 20-35 lbs [zu leicht? drittes Band dazu ODER Tempo 3-1-3]"
       }
      ]
     },
@@ -2234,15 +2234,15 @@
     {
      "gerät": "Langhantel",
      "items": [
-      "Langhantel 45,8 kg gesamt (Stange 7,8 kg + je Seite 2x5 + 4x2 + 2x0,5) | 3s exzentrisch (Rudern)",
-      "Langhantel 45,8 kg gesamt (Stange 7,8 kg + je Seite 2x5 + 4x2 + 2x0,5) | Deficit + 3s + Gewichtsweste 10 kg (RDL)"
+      "Langhantel 49,8 kg gesamt (Stange 7,8 kg + je Seite 1x10 + 2x5 + 2x0,5) | 3s exzentrisch (Rudern)",
+      "Langhantel 53,8 kg gesamt (Stange 7,8 kg + je Seite 1x10 + 2x5 + 1x2 + 2x0,5) | Zughilfen + 3s exzentrisch (RDL)"
      ]
     },
     {
      "gerät": "Bänder",
      "items": [
-      "Band 20-35 + 15-25 lbs (Curl)",
-      "Band 40-80 + 20-35 lbs (stapeln - laut Logs war ein Band viel zu leicht) (Chest-Press)",
+      "Band 20-35 + 15-25 lbs [zu leicht? drittes Band dazu ODER Tempo 3-1-3] (Curl)",
+      "Band 40-80 + 20-35 lbs [zu leicht? drittes Band dazu ODER Tempo 3-1-3] (Chest-Press)",
       "leichtes Band (Außenrotation)",
       "leichtes Band 15-25 lbs (Seitheben)"
      ]
@@ -2316,7 +2316,7 @@
        "perSide": false,
        "detail": "",
        "raw": "A2 Kurzhantel-Squat (Koffergriff) 3x10-15",
-       "resistance": "2x20 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2)",
+       "resistance": "2x20 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2) | + Gewichtsweste 20 kg",
        "resistanceLabel": "Kurzhantel-Squat",
        "description": "Kurzhanteln links und rechts neben dem Körper hängen lassen (Koffergriff), Füße schulterbreit, Zehen leicht nach außen. Kontrolliert so tief absteigen, wie es schmerzfrei geht, Knie in Richtung Zehen, Rücken neutral. Aus den Fersen hochdrücken. ERSETZT den Bulgarian Split Squat: beidbeinig, dadurch halbe Zeit und deutlich weniger Ermüdung vor dem Kendo. Die Schulter ist unbeteiligt - die Arme hängen einfach. Wenn der Griff vor den Beinen ermüdet: Goblet Squat mit der KB.",
        "video": "",
@@ -2332,7 +2332,7 @@
       },
       {
        "label": "Kurzhantel-Squat",
-       "value": "2x20 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2)"
+       "value": "2x20 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2) | + Gewichtsweste 20 kg"
       }
      ]
     },
@@ -2361,7 +2361,7 @@
        "perSide": false,
        "detail": "",
        "raw": "B2 KB Swing zweiarmig 3x15",
-       "resistance": "KB 24 kg",
+       "resistance": "KB 24 kg (explosiv! ueber 15 Wdh. = zu leicht, dann Tempo statt Wdh.)",
        "resistanceLabel": "Swing",
        "description": "Explosiver Hüftimpuls, zweiarmig. NEU: Endpunkt bewusst am Brustbein kappen (unter 90°), nicht bis Brust-/Schulterhöhe schwingen lassen.",
        "video": "",
@@ -2377,7 +2377,7 @@
       },
       {
        "label": "Swing",
-       "value": "KB 24 kg"
+       "value": "KB 24 kg (explosiv! ueber 15 Wdh. = zu leicht, dann Tempo statt Wdh.)"
       }
      ]
     },
@@ -2392,7 +2392,7 @@
        "perSide": false,
        "detail": "",
        "raw": "C1 Band-Bizeps-Curl beidarmig 3x10-15",
-       "resistance": "Band 20-35 + 15-25 lbs",
+       "resistance": "Band 20-35 + 15-25 lbs [zu leicht? drittes Band dazu ODER Tempo 3-1-3]",
        "resistanceLabel": "Curl",
        "description": "Auf das Band stellen (ein oder beide Füße = Widerstand wählen), Ellbogen fest an den Seiten. Unterarme nach oben curlen, oben kurz anspannen, langsam (2-3s) ablassen. Nur der Unterarm bewegt sich – kein Schwung aus Schulter oder Rücken. Ersetzt das Bizeps-Volumen der weggefallenen Klimmzüge.",
        "video": "https://www.youtube.com/watch?v=Da57AuIofvU",
@@ -2406,7 +2406,7 @@
        "perSide": false,
        "detail": "",
        "raw": "C2 Band-Trizeps-Pushdown beidarmig 3x10-15",
-       "resistance": "Band 20-35 + 15-25 lbs",
+       "resistance": "Band 20-35 + 15-25 lbs [zu leicht? drittes Band dazu ODER Tempo 3-1-3]",
        "resistanceLabel": "Pushdown",
        "description": "Band oben verankern (z.B. Klimmzugstange). Ellbogen eng am Körper fixieren, Unterarme nach unten strecken bis die Arme gestreckt sind, Trizeps unten fest anspannen, langsam zurück. Oberarme bewegen sich nicht. Arm bleibt komplett unten – ideal bei 90°-Regel.",
        "video": "https://www.youtube.com/watch?v=qjPN6ElNqpc",
@@ -2418,11 +2418,11 @@
      "resistance": [
       {
        "label": "Curl",
-       "value": "Band 20-35 + 15-25 lbs"
+       "value": "Band 20-35 + 15-25 lbs [zu leicht? drittes Band dazu ODER Tempo 3-1-3]"
       },
       {
        "label": "Pushdown",
-       "value": "Band 20-35 + 15-25 lbs"
+       "value": "Band 20-35 + 15-25 lbs [zu leicht? drittes Band dazu ODER Tempo 3-1-3]"
       }
      ]
     }
@@ -2436,22 +2436,22 @@
     {
      "gerät": "Kurzhanteln",
      "items": [
-      "2x20 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2) (Kurzhantel-Squat)",
+      "2x20 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2) | + Gewichtsweste 20 kg (Kurzhantel-Squat)",
       "2x20 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2) | 3s exzentrisch (Floor Press)"
      ]
     },
     {
      "gerät": "Kettlebell",
      "items": [
-      "KB 24 kg (Swing)"
+      "KB 24 kg (explosiv! ueber 15 Wdh. = zu leicht, dann Tempo statt Wdh.) (Swing)"
      ]
     },
     {
      "gerät": "Bänder",
      "items": [
       "40-80 + 20-35 + 15-25 lbs (stapeln!) (Band-Rudern)",
-      "Band 20-35 + 15-25 lbs (Curl)",
-      "Band 20-35 + 15-25 lbs (Pushdown)"
+      "Band 20-35 + 15-25 lbs [zu leicht? drittes Band dazu ODER Tempo 3-1-3] (Curl)",
+      "Band 20-35 + 15-25 lbs [zu leicht? drittes Band dazu ODER Tempo 3-1-3] (Pushdown)"
      ]
     }
    ]
