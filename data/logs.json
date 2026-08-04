@@ -589,6 +589,81 @@
    },
    "sessionNote": "",
    "savedAt": "2026-08-02T10:16:11.848Z"
+  },
+  "2026-08-04": {
+   "date": "2026-08-04",
+   "week": 17,
+   "day": "Di",
+   "entries": {
+    "A1": {
+     "name": "Kurzhantel-Rudern beidarmig vorgebeugt",
+     "target": "3x8-12",
+     "resistance": "2x21 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2 + 1x0,5)",
+     "reps": [
+      "10",
+      "10",
+      "8"
+     ],
+     "note": ""
+    },
+    "A2": {
+     "name": "Kurzhantel-Squat (Koffergriff)",
+     "target": "3x10-15",
+     "resistance": "2x21 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2 + 1x0,5) | + Gewichtsweste 10 kg",
+     "reps": [
+      "13",
+      "10",
+      "9"
+     ],
+     "note": "Weste vergessen 😰, Grip begrenzte Übung"
+    },
+    "B1": {
+     "name": "Kurzhantel Floor Press (neutraler Griff)",
+     "target": "3x8-12",
+     "resistance": "2x17 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 1x2 + 1x0,5)",
+     "reps": [
+      "12",
+      "9",
+      "9"
+     ],
+     "note": ""
+    },
+    "B2": {
+     "name": "Band-Bizeps-Curl beidarmig",
+     "target": "3x10-15",
+     "resistance": "Band ORANGE (40-80 lbs) [zu leicht? DUNKELGRUEN (60-170) nehmen oder weiter vom Anker wegtreten]",
+     "reps": [
+      "15",
+      "15",
+      "15"
+     ],
+     "note": "eccentric"
+    },
+    "C1": {
+     "name": "Band Lateral Raise (bis ~80°)",
+     "target": "3x12-20",
+     "resistance": "Band LILA (15-25 lbs) [bewusst leicht - Schulter! NICHT staerker waehlen]",
+     "reps": [
+      "17",
+      "17",
+      "17"
+     ],
+     "note": "Eccentric"
+    },
+    "C2": {
+     "name": "Band-Trizeps-Pushdown beidarmig",
+     "target": "3x10-15",
+     "resistance": "Band ORANGE (40-80 lbs) [zu leicht? DUNKELGRUEN (60-170) nehmen oder weiter vom Anker wegtreten]",
+     "reps": [
+      "17",
+      "17",
+      "17"
+     ],
+     "note": ""
+    }
+   },
+   "sessionNote": "",
+   "savedAt": "2026-08-04T13:32:12.232Z"
   }
  }
 }
