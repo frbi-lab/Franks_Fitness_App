@@ -1,8 +1,8 @@
 {
  "meta": {
-  "title": "August 2026 Fitness Masterplan - beidseitig-35min",
-  "source": "August 2026 Fitness Masterplan - beidseitig-35min.xlsx",
-  "generated": "2026-08-03",
+  "title": "August 2026 Fitness Masterplan - Kendo-Kondition",
+  "source": "August 2026 Fitness Masterplan - Kendo-Kondition.xlsx",
+  "generated": "2026-08-05",
   "week12Monday": "2026-06-29",
   "trainingDays": [
    "Di",
@@ -18,10 +18,10 @@
   "rules": "Rechter Arm nie über 90°/Schulterhöhe · kein Hängen · alles schmerzgeführt · scharfer Schmerz oben auf der Schulter = sofort reduzieren."
  },
  "progression": {
-  "W16": "Lasten aus deinen Angaben vom 29.07.2026 abgeleitet. Du warst beim Floor Press real bei 2x16 kg gesamt (Stange + 14 kg Scheiben), nicht bei 14 kg - entsprechend geht mehr, als ich zuerst gerechnet hatte. Zug-/Bein-Block startet bei 2x20 kg, Floor Press bei 2x17 kg. LETZTER Satz jeder Hauptuebung als AMRAP bis 0-1 RIR. Zahlen in die App eintragen UND speichern - erst dann steuern deine Daten die Progression.",
-  "W17": "Zug-/Bein-Block auf 2x21 kg - damit sind die Kurzhanteln ausgereizt. Floor Press bleibt 2x17 kg, dort Wiederholungen aufbauen. Langhantel-Rudern 41,8 kg, RDL 43,8 kg. Zielkorridor: 0-1 RIR bei Isolation (Curl, Seitheben, Pushdown), 1-2 RIR bei Rudern, RDL und Squat.",
-  "W18": "Floor Press auf 2x20 kg - grosser Schritt, deshalb Wiederholungsbereich auf 6-10 runter. Zug-/Bein-Block bleibt 2x21 kg (Maximum), Steigerung ab hier ueber 3s Exzentrik. Langhantel-Rudern 43,8 kg, RDL 45,8 kg als Deficit. Kommst du beim Floor Press nicht auf 6 Wdh.: zurueck auf 2x17 kg.",
-  "W19": "Oberes Ende aller Wiederholungsbereiche bei bester Technik. Langhantel-Rudern 45,8 kg = gleiche Stange wie der RDL, also kein Scheibenwechsel mehr am Donnerstag. Squat zusaetzlich mit Gewichtsweste 5-10 kg. Danach Deload-Woche. WICHTIG: Du bist dann bei Kurzhanteln UND Langhantel am Anschlag - fuer den naechsten Zyklus brauchst du Zusatzscheiben, sonst geht nur noch Tempo und Wiederholungen."
+  "W16": "Lasten aus deinen Angaben vom 29.07.2026 abgeleitet. Du warst beim Floor Press real bei 2x16 kg gesamt (Stange + 14 kg Scheiben), nicht bei 14 kg - entsprechend geht mehr, als ich zuerst gerechnet hatte. Zug-/Bein-Block startet bei 2x20 kg, Floor Press bei 2x17 kg. LETZTER Satz jeder Hauptuebung als AMRAP bis 0-1 RIR. Zahlen in die App eintragen UND speichern - erst dann steuern deine Daten die Progression. KONDITION SAMSTAG: Kalibrierungswoche, 6 Aufstiege. Zeit je Aufstieg stoppen und notieren, Abstieg bewusst langsam gehen.",
+  "W17": "Zug-/Bein-Block auf 2x21 kg - damit sind die Kurzhanteln ausgereizt. Floor Press bleibt 2x17 kg, dort Wiederholungen aufbauen. Langhantel-Rudern 41,8 kg, RDL 43,8 kg. Zielkorridor: 0-1 RIR bei Isolation (Curl, Seitheben, Pushdown), 1-2 RIR bei Rudern, RDL und Squat. KONDITION SAMSTAG: 8 Aufstiege, ab jetzt konsequent zwei Stufen auf einmal.",
+  "W18": "Floor Press auf 2x20 kg - grosser Schritt, deshalb Wiederholungsbereich auf 6-10 runter. Zug-/Bein-Block bleibt 2x21 kg (Maximum), Steigerung ab hier ueber 3s Exzentrik. Langhantel-Rudern 43,8 kg, RDL 45,8 kg als Deficit. Kommst du beim Floor Press nicht auf 6 Wdh.: zurueck auf 2x17 kg. KONDITION SAMSTAG: 10 Aufstiege. Faellt der Puls beim Abstieg unter 130 bpm, zuegiger absteigen.",
+  "W19": "Oberes Ende aller Wiederholungsbereiche bei bester Technik. Langhantel-Rudern 45,8 kg = gleiche Stange wie der RDL, also kein Scheibenwechsel mehr am Donnerstag. Squat zusaetzlich mit Gewichtsweste 5-10 kg. Danach Deload-Woche. WICHTIG: Du bist dann bei Kurzhanteln UND Langhantel am Anschlag - fuer den naechsten Zyklus brauchst du Zusatzscheiben, sonst geht nur noch Tempo und Wiederholungen. KONDITION SAMSTAG: 10 Aufstiege plus Gewichtsweste 10 kg, einmal angelegt. Danach Deload-Woche - in der Deload-Woche nur 5 Aufstiege ohne Weste."
  },
  "sessions": [
   {
@@ -200,9 +200,39 @@
        "value": "Band ORANGE (40-80 lbs) [zu leicht? DUNKELGRUEN (60-170) nehmen oder weiter vom Anker wegtreten]"
       }
      ]
+    },
+    {
+     "block": "Block 4 (Cool-down)",
+     "exercises": [
+      {
+       "code": "A1",
+       "name": "Kraniozervikale Flexion",
+       "sets": 2,
+       "targetReps": "10",
+       "perSide": false,
+       "detail": "je Wiederholung 10 s halten",
+       "raw": "A1 Kraniozervikale Flexion 2x10 - je Wiederholung 10 s halten",
+       "resistance": "duenne Handtuchrolle unter dem Hinterkopf (Eigengewicht)",
+       "resistanceLabel": "Kraniozervikale Flexion",
+       "description": "Rueckenlage auf der Matte, duenne Handtuchrolle unter den Hinterkopf. Langsames Nicken (\"Ja\"-Bewegung), als wuerde der Hinterkopf ueber die Rolle rollen - der Kopf bleibt liegen und wird NICHT abgehoben. 10 s halten, 10 Wiederholungen, 2 Saetze. KONTROLLE: zwei Finger seitlich am Hals auf den M. sternocleidomastoideus. Der darf sich nicht anspannen; spannt er an, ist die Bewegung zu gross. Ziel ist die tiefe Halsbeugemuskulatur (M. longus colli und longus capitis), nicht die oberflaechliche. 3-4x/Woche am Ende der Einheit - in diesem Plan an allen drei Trainingstagen. EINORDNUNG: Von Frank selbst eingebracht (05.08.2026). Die Evidenz betrifft den kraniovertebralen Winkel (CVA) bei Vorhaltung des Kopfes und Nackenschmerz; eine Wirkung auf die Kendo-Leistung ist NICHT untersucht. Schulterunbedenklich - die Arme sind unbeteiligt, die 90-Grad-Regel bleibt unberuehrt. Siehe Blatt Quellen.",
+       "video": "https://www.youtube.com/watch?v=RL2e2gRmtIM",
+       "videoNote": ""
+      }
+     ],
+     "pause": "Pause ~30s",
+     "note": "Pause ~30s",
+     "resistance": [
+      {
+       "label": "Kraniozervikale Flexion",
+       "value": "duenne Handtuchrolle unter dem Hinterkopf (Eigengewicht)"
+      }
+     ]
     }
    ],
-   "finish": null,
+   "finish": {
+    "text": "KB Swing zweiarmig 3x15 - explosiver Hueftimpuls, Endpunkt bewusst am Brustbein kappen (unter 90 Grad).",
+    "resistance": "Swing: KB 24 kg"
+   },
    "optional": {
     "text": "Pallof Press 2x10-12/Seite - nur wenn du unter 30 min geblieben bist",
     "resistance": "Band ROT (50-125 lbs)"
@@ -402,10 +432,43 @@
        "value": "Band LILA (15-25 lbs) [bewusst leicht - Schulter! NICHT staerker waehlen]"
       }
      ]
+    },
+    {
+     "block": "Block 4 (Cool-down)",
+     "exercises": [
+      {
+       "code": "A1",
+       "name": "Kraniozervikale Flexion",
+       "sets": 2,
+       "targetReps": "10",
+       "perSide": false,
+       "detail": "je Wiederholung 10 s halten",
+       "raw": "A1 Kraniozervikale Flexion 2x10 - je Wiederholung 10 s halten",
+       "resistance": "duenne Handtuchrolle unter dem Hinterkopf (Eigengewicht)",
+       "resistanceLabel": "Kraniozervikale Flexion",
+       "description": "Rueckenlage auf der Matte, duenne Handtuchrolle unter den Hinterkopf. Langsames Nicken (\"Ja\"-Bewegung), als wuerde der Hinterkopf ueber die Rolle rollen - der Kopf bleibt liegen und wird NICHT abgehoben. 10 s halten, 10 Wiederholungen, 2 Saetze. KONTROLLE: zwei Finger seitlich am Hals auf den M. sternocleidomastoideus. Der darf sich nicht anspannen; spannt er an, ist die Bewegung zu gross. Ziel ist die tiefe Halsbeugemuskulatur (M. longus colli und longus capitis), nicht die oberflaechliche. 3-4x/Woche am Ende der Einheit - in diesem Plan an allen drei Trainingstagen. EINORDNUNG: Von Frank selbst eingebracht (05.08.2026). Die Evidenz betrifft den kraniovertebralen Winkel (CVA) bei Vorhaltung des Kopfes und Nackenschmerz; eine Wirkung auf die Kendo-Leistung ist NICHT untersucht. Schulterunbedenklich - die Arme sind unbeteiligt, die 90-Grad-Regel bleibt unberuehrt. Siehe Blatt Quellen.",
+       "video": "https://www.youtube.com/watch?v=RL2e2gRmtIM",
+       "videoNote": ""
+      }
+     ],
+     "pause": "Pause ~30s",
+     "note": "Pause ~30s",
+     "resistance": [
+      {
+       "label": "Kraniozervikale Flexion",
+       "value": "duenne Handtuchrolle unter dem Hinterkopf (Eigengewicht)"
+      }
+     ]
     }
    ],
-   "finish": null,
-   "optional": null,
+   "finish": {
+    "text": "Goblet Squat 2x12, 3s exzentrisch, ohne Halten unten - KB vor der Brust, volle kontrollierte Tiefe.",
+    "resistance": "Goblet: KB 24 kg"
+   },
+   "optional": {
+    "text": "Band-Trizeps-Pushdown 2x12-15 - nur wenn du unter 30 min geblieben bist.",
+    "resistance": "Band ORANGE (40-80 lbs)"
+   },
    "equipment": [
     {
      "gerät": "Langhantel",
@@ -430,39 +493,21 @@
    "week": 16,
    "warmup": [
     {
-     "name": "Cat-Camel",
-     "seconds": 30,
+     "name": "lockeres Gehen im Treppenhaus",
+     "seconds": 180,
      "perSide": false,
      "note": ""
     },
     {
-     "name": "Schulterkreisen",
-     "seconds": 30,
-     "perSide": false,
-     "note": "klein, unter 90°"
-    },
-    {
-     "name": "Band Pull-aparts",
-     "seconds": 30,
+     "name": "zwei Auf- und Abstiege in moderatem Tempo",
+     "seconds": 240,
      "perSide": false,
      "note": ""
     },
     {
-     "name": "Glute Bridge",
-     "seconds": 30,
+     "name": "Fussgelenke und Waden mobilisieren",
+     "seconds": 180,
      "perSide": false,
-     "note": ""
-    },
-    {
-     "name": "Bodyweight Squat",
-     "seconds": 30,
-     "perSide": false,
-     "note": ""
-    },
-    {
-     "name": "Band-Außenrotationen",
-     "seconds": 30,
-     "perSide": true,
      "note": ""
     }
    ],
@@ -472,162 +517,69 @@
      "exercises": [
       {
        "code": "A1",
-       "name": "Schweres Band-Rudern beidarmig",
-       "sets": 3,
-       "targetReps": "10-15",
+       "name": "Treppen-Aufstieg all-out",
+       "sets": 6,
+       "targetReps": "1",
        "perSide": false,
        "detail": "",
-       "raw": "A1 Schweres Band-Rudern beidarmig 3x10-15",
-       "resistance": "Band ROT (50-125 lbs) (falls zu leicht: ORANGE dazu)",
-       "resistanceLabel": "Band-Rudern",
-       "description": "BAND: ROT (50-125 lbs). Band zum Rumpf ziehen, Schulterblätter nach hinten-unten. Hier BEIDARMIG mit zwei Griffen gleichzeitig.",
-       "video": "https://www.youtube.com/watch?v=JP2xq33lNF0",
-       "videoNote": ""
-      },
-      {
-       "code": "A2",
-       "name": "Kurzhantel-Squat (Koffergriff)",
-       "sets": 3,
-       "targetReps": "10-15",
-       "perSide": false,
-       "detail": "",
-       "raw": "A2 Kurzhantel-Squat (Koffergriff) 3x10-15",
-       "resistance": "2x17 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 1x2 + 1x0,5)",
-       "resistanceLabel": "Kurzhantel-Squat",
-       "description": "Kurzhanteln links und rechts neben dem Körper hängen lassen (Koffergriff), Füße schulterbreit, Zehen leicht nach außen. Kontrolliert so tief absteigen, wie es schmerzfrei geht, Knie in Richtung Zehen, Rücken neutral. Aus den Fersen hochdrücken. ERSETZT den Bulgarian Split Squat: beidbeinig, dadurch halbe Zeit und deutlich weniger Ermüdung vor dem Kendo. Die Schulter ist unbeteiligt - die Arme hängen einfach. Wenn der Griff vor den Beinen ermüdet: Goblet Squat mit der KB.",
+       "raw": "A1 Treppen-Aufstieg all-out 6x1",
+       "resistance": "4 Stockwerke = 10-12 Hoehenmeter, zwei Stufen auf einmal",
+       "resistanceLabel": "Treppen-Aufstieg",
+       "description": "Repeated Sprint Training im eigenen Treppenhaus. Vier Stockwerke a 2,5-3 m = 10-12 Hoehenmeter je Aufstieg. AUFSTIEG: all-out, zwei Stufen auf einmal, Arme frei mitschwingen lassen (bleiben unter Schulterhoehe, 90-Grad-Regel unberuehrt). ABSTIEG: im GEHEN, das ist die Pause - nicht laufen. Kein Stehenbleiben oben oder unten, direkt umdrehen. STEUERUNG UEBER DEN PULS, nicht ueber die Uhr: am Ende jedes Aufstiegs 170+ bpm, beim Abstieg nicht unter 130 bpm fallen lassen. Faellt der Puls tiefer: erst zwei Stufen auf einmal, dann zuegiger absteigen, erst zuletzt Gewichtsweste dazu. ERSETZT die urspruenglich geplanten 4x4-min-Intervalle: bei nur vier Stockwerken waere die Haelfte der Arbeitszeit Abstieg gewesen, das Protokoll von Helgerud ist so nicht nachbaubar. WARNUNG: Treppab ist exzentrische Quadrizeps-Belastung und der klassische Muskelkater-Ausloeser - am Montag ist Kendo. Erste zwei bis drei Wochen bewusst langsam absteigen. Hand in Gelaendernaehe, bei hohem Puls ist der Fehltritt real.",
        "video": "",
        "videoNote": ""
       }
      ],
-     "pause": "Pause ~75s",
-     "note": "Pause ~75s",
+     "pause": "Pause ~40s",
+     "note": "Pause ~40s (Abstieg im Gehen)",
      "resistance": [
       {
-       "label": "Band-Rudern",
-       "value": "Band ROT (50-125 lbs) (falls zu leicht: ORANGE dazu)"
-      },
-      {
-       "label": "Kurzhantel-Squat",
-       "value": "2x17 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 1x2 + 1x0,5)"
+       "label": "Treppen-Aufstieg",
+       "value": "4 Stockwerke = 10-12 Hoehenmeter, zwei Stufen auf einmal"
       }
      ]
     },
     {
-     "block": "Block 2",
+     "block": "Block 4 (Cool-down)",
      "exercises": [
       {
-       "code": "B1",
-       "name": "Kurzhantel Floor Press (neutraler Griff)",
-       "sets": 3,
-       "targetReps": "8-12",
+       "code": "A1",
+       "name": "Kraniozervikale Flexion",
+       "sets": 2,
+       "targetReps": "10",
        "perSide": false,
-       "detail": "",
-       "raw": "B1 Kurzhantel Floor Press (neutraler Griff) 3x8-12",
-       "resistance": "2x17 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 1x2 + 1x0,5)",
-       "resistanceLabel": "Floor Press",
-       "description": "Rückenlage, Knie angestellt, in jeder Hand eine Kurzhantel mit neutralem Griff (Handflächen zueinander) über der Brust ausdrücken, Ellbogen ~45° vom Körper. Langsam ablassen, bis der Trizeps den Boden berührt – der Boden begrenzt die Bewegung und schützt das AC-Gelenk – kurz pausieren, dann hochdrücken. Ersetzt den KB Floor Press: Die Kurzhantel-Last liegt zentriert über der Handwurzel, das Handgelenk bleibt gerade (KB-Version war fürs Handgelenk schmerzhaft). Brust-/Trizeps-Hauptübung, 2x pro Woche (Di + Sa).",
-       "video": "https://www.youtube.com/watch?v=rs05AtccEhg",
-       "videoNote": ""
-      },
-      {
-       "code": "B2",
-       "name": "KB Swing zweiarmig",
-       "sets": 3,
-       "targetReps": "15",
-       "perSide": false,
-       "detail": "",
-       "raw": "B2 KB Swing zweiarmig 3x15",
-       "resistance": "KB 24 kg",
-       "resistanceLabel": "Swing",
-       "description": "Explosiver Hüftimpuls, zweiarmig. NEU: Endpunkt bewusst am Brustbein kappen (unter 90°), nicht bis Brust-/Schulterhöhe schwingen lassen.",
-       "video": "",
+       "detail": "je Wiederholung 10 s halten",
+       "raw": "A1 Kraniozervikale Flexion 2x10 - je Wiederholung 10 s halten",
+       "resistance": "duenne Handtuchrolle unter dem Hinterkopf (Eigengewicht)",
+       "resistanceLabel": "Kraniozervikale Flexion",
+       "description": "Rueckenlage auf der Matte, duenne Handtuchrolle unter den Hinterkopf. Langsames Nicken (\"Ja\"-Bewegung), als wuerde der Hinterkopf ueber die Rolle rollen - der Kopf bleibt liegen und wird NICHT abgehoben. 10 s halten, 10 Wiederholungen, 2 Saetze. KONTROLLE: zwei Finger seitlich am Hals auf den M. sternocleidomastoideus. Der darf sich nicht anspannen; spannt er an, ist die Bewegung zu gross. Ziel ist die tiefe Halsbeugemuskulatur (M. longus colli und longus capitis), nicht die oberflaechliche. 3-4x/Woche am Ende der Einheit - in diesem Plan an allen drei Trainingstagen. EINORDNUNG: Von Frank selbst eingebracht (05.08.2026). Die Evidenz betrifft den kraniovertebralen Winkel (CVA) bei Vorhaltung des Kopfes und Nackenschmerz; eine Wirkung auf die Kendo-Leistung ist NICHT untersucht. Schulterunbedenklich - die Arme sind unbeteiligt, die 90-Grad-Regel bleibt unberuehrt. Siehe Blatt Quellen.",
+       "video": "https://www.youtube.com/watch?v=RL2e2gRmtIM",
        "videoNote": ""
       }
      ],
-     "pause": "Pause ~75s",
-     "note": "Pause ~75s",
+     "pause": "Pause ~30s",
+     "note": "Pause ~30s",
      "resistance": [
       {
-       "label": "Floor Press",
-       "value": "2x17 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 1x2 + 1x0,5)"
-      },
-      {
-       "label": "Swing",
-       "value": "KB 24 kg"
-      }
-     ]
-    },
-    {
-     "block": "Block 3",
-     "exercises": [
-      {
-       "code": "C1",
-       "name": "Band-Bizeps-Curl beidarmig",
-       "sets": 3,
-       "targetReps": "10-15",
-       "perSide": false,
-       "detail": "",
-       "raw": "C1 Band-Bizeps-Curl beidarmig 3x10-15",
-       "resistance": "Band ORANGE (40-80 lbs) [zu leicht? DUNKELGRUEN (60-170) nehmen oder weiter vom Anker wegtreten]",
-       "resistanceLabel": "Curl",
-       "description": "BAND: ORANGE (40-80 lbs). Auf das Band stellen (ein oder beide Füße = Widerstand wählen), Ellbogen fest an den Seiten. Unterarme nach oben curlen, oben kurz anspannen, langsam (2-3s) ablassen. Nur der Unterarm bewegt sich – kein Schwung aus Schulter oder Rücken. Ersetzt das Bizeps-Volumen der weggefallenen Klimmzüge.",
-       "video": "https://www.youtube.com/watch?v=Da57AuIofvU",
-       "videoNote": ""
-      },
-      {
-       "code": "C2",
-       "name": "Band-Trizeps-Pushdown beidarmig",
-       "sets": 3,
-       "targetReps": "10-15",
-       "perSide": false,
-       "detail": "",
-       "raw": "C2 Band-Trizeps-Pushdown beidarmig 3x10-15",
-       "resistance": "Band ORANGE (40-80 lbs) [zu leicht? DUNKELGRUEN (60-170) nehmen oder weiter vom Anker wegtreten]",
-       "resistanceLabel": "Pushdown",
-       "description": "BAND: ORANGE (40-80 lbs). Band oben verankern (z.B. Klimmzugstange). Ellbogen eng am Körper fixieren, Unterarme nach unten strecken bis die Arme gestreckt sind, Trizeps unten fest anspannen, langsam zurück. Oberarme bewegen sich nicht. Arm bleibt komplett unten – ideal bei 90°-Regel.",
-       "video": "https://www.youtube.com/watch?v=qjPN6ElNqpc",
-       "videoNote": ""
-      }
-     ],
-     "pause": "Pause ~45s",
-     "note": "Pause ~45s",
-     "resistance": [
-      {
-       "label": "Curl",
-       "value": "Band ORANGE (40-80 lbs) [zu leicht? DUNKELGRUEN (60-170) nehmen oder weiter vom Anker wegtreten]"
-      },
-      {
-       "label": "Pushdown",
-       "value": "Band ORANGE (40-80 lbs) [zu leicht? DUNKELGRUEN (60-170) nehmen oder weiter vom Anker wegtreten]"
+       "label": "Kraniozervikale Flexion",
+       "value": "duenne Handtuchrolle unter dem Hinterkopf (Eigengewicht)"
       }
      ]
     }
    ],
-   "finish": null,
+   "finish": {
+    "text": "3 min lockeres Gehen als Cool-down. Danach Zeit pro Aufstieg und hoechsten Puls in die App eintragen.",
+    "resistance": ""
+   },
    "optional": {
-    "text": "Wadenheben beidbeinig 2x15-20, 3s exzentrisch - nur als Achilles-Prophylaxe fuers Kendo",
+    "text": "Wadenheben beidbeinig 2x15-20, 3s exzentrisch - nur als Achilles-Prophylaxe fuers Kendo. Achtung: 2 Saetze mit 3s Exzentrik kosten ca. 3 min.",
     "resistance": "Langhantel oder Gewichtsweste"
    },
    "equipment": [
     {
-     "gerät": "Kurzhanteln",
+     "gerät": "Sonstiges",
      "items": [
-      "2x17 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 1x2 + 1x0,5) (Floor Press)",
-      "2x17 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 1x2 + 1x0,5) (Kurzhantel-Squat)"
-     ]
-    },
-    {
-     "gerät": "Kettlebell",
-     "items": [
-      "KB 24 kg (Swing)"
-     ]
-    },
-    {
-     "gerät": "Bänder",
-     "items": [
-      "Band ORANGE (40-80 lbs) [zu leicht? DUNKELGRUEN (60-170) nehmen oder weiter vom Anker wegtreten] (Curl)",
-      "Band ORANGE (40-80 lbs) [zu leicht? DUNKELGRUEN (60-170) nehmen oder weiter vom Anker wegtreten] (Pushdown)",
-      "Band ROT (50-125 lbs) (falls zu leicht: ORANGE dazu) (Band-Rudern)"
+      "4 Stockwerke = 10-12 Hoehenmeter, zwei Stufen auf einmal (Treppen-Aufstieg)"
      ]
     }
    ]
@@ -808,9 +760,39 @@
        "value": "Band ORANGE (40-80 lbs) [zu leicht? DUNKELGRUEN (60-170) nehmen oder weiter vom Anker wegtreten]"
       }
      ]
+    },
+    {
+     "block": "Block 4 (Cool-down)",
+     "exercises": [
+      {
+       "code": "A1",
+       "name": "Kraniozervikale Flexion",
+       "sets": 2,
+       "targetReps": "10",
+       "perSide": false,
+       "detail": "je Wiederholung 10 s halten",
+       "raw": "A1 Kraniozervikale Flexion 2x10 - je Wiederholung 10 s halten",
+       "resistance": "duenne Handtuchrolle unter dem Hinterkopf (Eigengewicht)",
+       "resistanceLabel": "Kraniozervikale Flexion",
+       "description": "Rueckenlage auf der Matte, duenne Handtuchrolle unter den Hinterkopf. Langsames Nicken (\"Ja\"-Bewegung), als wuerde der Hinterkopf ueber die Rolle rollen - der Kopf bleibt liegen und wird NICHT abgehoben. 10 s halten, 10 Wiederholungen, 2 Saetze. KONTROLLE: zwei Finger seitlich am Hals auf den M. sternocleidomastoideus. Der darf sich nicht anspannen; spannt er an, ist die Bewegung zu gross. Ziel ist die tiefe Halsbeugemuskulatur (M. longus colli und longus capitis), nicht die oberflaechliche. 3-4x/Woche am Ende der Einheit - in diesem Plan an allen drei Trainingstagen. EINORDNUNG: Von Frank selbst eingebracht (05.08.2026). Die Evidenz betrifft den kraniovertebralen Winkel (CVA) bei Vorhaltung des Kopfes und Nackenschmerz; eine Wirkung auf die Kendo-Leistung ist NICHT untersucht. Schulterunbedenklich - die Arme sind unbeteiligt, die 90-Grad-Regel bleibt unberuehrt. Siehe Blatt Quellen.",
+       "video": "https://www.youtube.com/watch?v=RL2e2gRmtIM",
+       "videoNote": ""
+      }
+     ],
+     "pause": "Pause ~30s",
+     "note": "Pause ~30s",
+     "resistance": [
+      {
+       "label": "Kraniozervikale Flexion",
+       "value": "duenne Handtuchrolle unter dem Hinterkopf (Eigengewicht)"
+      }
+     ]
     }
    ],
-   "finish": null,
+   "finish": {
+    "text": "KB Swing zweiarmig 3x15 - explosiver Hueftimpuls, Endpunkt bewusst am Brustbein kappen (unter 90 Grad).",
+    "resistance": "Swing: KB 24 kg"
+   },
    "optional": {
     "text": "Pallof Press 2x10-12/Seite - nur wenn du unter 30 min geblieben bist",
     "resistance": "Band ROT (50-125 lbs)"
@@ -1010,10 +992,43 @@
        "value": "Band LILA (15-25 lbs) [bewusst leicht - Schulter! NICHT staerker waehlen]"
       }
      ]
+    },
+    {
+     "block": "Block 4 (Cool-down)",
+     "exercises": [
+      {
+       "code": "A1",
+       "name": "Kraniozervikale Flexion",
+       "sets": 2,
+       "targetReps": "10",
+       "perSide": false,
+       "detail": "je Wiederholung 10 s halten",
+       "raw": "A1 Kraniozervikale Flexion 2x10 - je Wiederholung 10 s halten",
+       "resistance": "duenne Handtuchrolle unter dem Hinterkopf (Eigengewicht)",
+       "resistanceLabel": "Kraniozervikale Flexion",
+       "description": "Rueckenlage auf der Matte, duenne Handtuchrolle unter den Hinterkopf. Langsames Nicken (\"Ja\"-Bewegung), als wuerde der Hinterkopf ueber die Rolle rollen - der Kopf bleibt liegen und wird NICHT abgehoben. 10 s halten, 10 Wiederholungen, 2 Saetze. KONTROLLE: zwei Finger seitlich am Hals auf den M. sternocleidomastoideus. Der darf sich nicht anspannen; spannt er an, ist die Bewegung zu gross. Ziel ist die tiefe Halsbeugemuskulatur (M. longus colli und longus capitis), nicht die oberflaechliche. 3-4x/Woche am Ende der Einheit - in diesem Plan an allen drei Trainingstagen. EINORDNUNG: Von Frank selbst eingebracht (05.08.2026). Die Evidenz betrifft den kraniovertebralen Winkel (CVA) bei Vorhaltung des Kopfes und Nackenschmerz; eine Wirkung auf die Kendo-Leistung ist NICHT untersucht. Schulterunbedenklich - die Arme sind unbeteiligt, die 90-Grad-Regel bleibt unberuehrt. Siehe Blatt Quellen.",
+       "video": "https://www.youtube.com/watch?v=RL2e2gRmtIM",
+       "videoNote": ""
+      }
+     ],
+     "pause": "Pause ~30s",
+     "note": "Pause ~30s",
+     "resistance": [
+      {
+       "label": "Kraniozervikale Flexion",
+       "value": "duenne Handtuchrolle unter dem Hinterkopf (Eigengewicht)"
+      }
+     ]
     }
    ],
-   "finish": null,
-   "optional": null,
+   "finish": {
+    "text": "Goblet Squat 2x12, 3s exzentrisch, ohne Halten unten - KB vor der Brust, volle kontrollierte Tiefe.",
+    "resistance": "Goblet: KB 24 kg"
+   },
+   "optional": {
+    "text": "Band-Trizeps-Pushdown 2x12-15 - nur wenn du unter 30 min geblieben bist.",
+    "resistance": "Band ORANGE (40-80 lbs)"
+   },
    "equipment": [
     {
      "gerät": "Langhantel",
@@ -1038,39 +1053,21 @@
    "week": 17,
    "warmup": [
     {
-     "name": "Cat-Camel",
-     "seconds": 30,
+     "name": "lockeres Gehen im Treppenhaus",
+     "seconds": 180,
      "perSide": false,
      "note": ""
     },
     {
-     "name": "Schulterkreisen",
-     "seconds": 30,
-     "perSide": false,
-     "note": "klein, unter 90°"
-    },
-    {
-     "name": "Band Pull-aparts",
-     "seconds": 30,
+     "name": "zwei Auf- und Abstiege in moderatem Tempo",
+     "seconds": 240,
      "perSide": false,
      "note": ""
     },
     {
-     "name": "Glute Bridge",
-     "seconds": 30,
+     "name": "Fussgelenke und Waden mobilisieren",
+     "seconds": 180,
      "perSide": false,
-     "note": ""
-    },
-    {
-     "name": "Bodyweight Squat",
-     "seconds": 30,
-     "perSide": false,
-     "note": ""
-    },
-    {
-     "name": "Band-Außenrotationen",
-     "seconds": 30,
-     "perSide": true,
      "note": ""
     }
    ],
@@ -1080,162 +1077,69 @@
      "exercises": [
       {
        "code": "A1",
-       "name": "Schweres Band-Rudern beidarmig",
-       "sets": 3,
-       "targetReps": "10-15",
+       "name": "Treppen-Aufstieg all-out",
+       "sets": 8,
+       "targetReps": "1",
        "perSide": false,
        "detail": "",
-       "raw": "A1 Schweres Band-Rudern beidarmig 3x10-15",
-       "resistance": "Band ROT (50-125 lbs) (falls zu leicht: ORANGE dazu)",
-       "resistanceLabel": "Band-Rudern",
-       "description": "BAND: ROT (50-125 lbs). Band zum Rumpf ziehen, Schulterblätter nach hinten-unten. Hier BEIDARMIG mit zwei Griffen gleichzeitig.",
-       "video": "https://www.youtube.com/watch?v=JP2xq33lNF0",
-       "videoNote": ""
-      },
-      {
-       "code": "A2",
-       "name": "Kurzhantel-Squat (Koffergriff)",
-       "sets": 3,
-       "targetReps": "10-15",
-       "perSide": false,
-       "detail": "",
-       "raw": "A2 Kurzhantel-Squat (Koffergriff) 3x10-15",
-       "resistance": "2x17 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 1x2 + 1x0,5) | + Gewichtsweste 10 kg",
-       "resistanceLabel": "Kurzhantel-Squat",
-       "description": "Kurzhanteln links und rechts neben dem Körper hängen lassen (Koffergriff), Füße schulterbreit, Zehen leicht nach außen. Kontrolliert so tief absteigen, wie es schmerzfrei geht, Knie in Richtung Zehen, Rücken neutral. Aus den Fersen hochdrücken. ERSETZT den Bulgarian Split Squat: beidbeinig, dadurch halbe Zeit und deutlich weniger Ermüdung vor dem Kendo. Die Schulter ist unbeteiligt - die Arme hängen einfach. Wenn der Griff vor den Beinen ermüdet: Goblet Squat mit der KB.",
+       "raw": "A1 Treppen-Aufstieg all-out 8x1",
+       "resistance": "4 Stockwerke = 10-12 Hoehenmeter, zwei Stufen auf einmal",
+       "resistanceLabel": "Treppen-Aufstieg",
+       "description": "Repeated Sprint Training im eigenen Treppenhaus. Vier Stockwerke a 2,5-3 m = 10-12 Hoehenmeter je Aufstieg. AUFSTIEG: all-out, zwei Stufen auf einmal, Arme frei mitschwingen lassen (bleiben unter Schulterhoehe, 90-Grad-Regel unberuehrt). ABSTIEG: im GEHEN, das ist die Pause - nicht laufen. Kein Stehenbleiben oben oder unten, direkt umdrehen. STEUERUNG UEBER DEN PULS, nicht ueber die Uhr: am Ende jedes Aufstiegs 170+ bpm, beim Abstieg nicht unter 130 bpm fallen lassen. Faellt der Puls tiefer: erst zwei Stufen auf einmal, dann zuegiger absteigen, erst zuletzt Gewichtsweste dazu. ERSETZT die urspruenglich geplanten 4x4-min-Intervalle: bei nur vier Stockwerken waere die Haelfte der Arbeitszeit Abstieg gewesen, das Protokoll von Helgerud ist so nicht nachbaubar. WARNUNG: Treppab ist exzentrische Quadrizeps-Belastung und der klassische Muskelkater-Ausloeser - am Montag ist Kendo. Erste zwei bis drei Wochen bewusst langsam absteigen. Hand in Gelaendernaehe, bei hohem Puls ist der Fehltritt real.",
        "video": "",
        "videoNote": ""
       }
      ],
-     "pause": "Pause ~75s",
-     "note": "Pause ~75s",
+     "pause": "Pause ~40s",
+     "note": "Pause ~40s (Abstieg im Gehen)",
      "resistance": [
       {
-       "label": "Band-Rudern",
-       "value": "Band ROT (50-125 lbs) (falls zu leicht: ORANGE dazu)"
-      },
-      {
-       "label": "Kurzhantel-Squat",
-       "value": "2x17 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 1x2 + 1x0,5) | + Gewichtsweste 10 kg"
+       "label": "Treppen-Aufstieg",
+       "value": "4 Stockwerke = 10-12 Hoehenmeter, zwei Stufen auf einmal"
       }
      ]
     },
     {
-     "block": "Block 2",
+     "block": "Block 4 (Cool-down)",
      "exercises": [
       {
-       "code": "B1",
-       "name": "Kurzhantel Floor Press (neutraler Griff)",
-       "sets": 3,
-       "targetReps": "8-12",
+       "code": "A1",
+       "name": "Kraniozervikale Flexion",
+       "sets": 2,
+       "targetReps": "10",
        "perSide": false,
-       "detail": "",
-       "raw": "B1 Kurzhantel Floor Press (neutraler Griff) 3x8-12",
-       "resistance": "2x17 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 1x2 + 1x0,5)",
-       "resistanceLabel": "Floor Press",
-       "description": "Rückenlage, Knie angestellt, in jeder Hand eine Kurzhantel mit neutralem Griff (Handflächen zueinander) über der Brust ausdrücken, Ellbogen ~45° vom Körper. Langsam ablassen, bis der Trizeps den Boden berührt – der Boden begrenzt die Bewegung und schützt das AC-Gelenk – kurz pausieren, dann hochdrücken. Ersetzt den KB Floor Press: Die Kurzhantel-Last liegt zentriert über der Handwurzel, das Handgelenk bleibt gerade (KB-Version war fürs Handgelenk schmerzhaft). Brust-/Trizeps-Hauptübung, 2x pro Woche (Di + Sa).",
-       "video": "https://www.youtube.com/watch?v=rs05AtccEhg",
-       "videoNote": ""
-      },
-      {
-       "code": "B2",
-       "name": "KB Swing zweiarmig",
-       "sets": 3,
-       "targetReps": "15",
-       "perSide": false,
-       "detail": "",
-       "raw": "B2 KB Swing zweiarmig 3x15",
-       "resistance": "KB 24 kg (explosiv! ueber 15 Wdh. = zu leicht, dann Tempo statt Wdh.)",
-       "resistanceLabel": "Swing",
-       "description": "Explosiver Hüftimpuls, zweiarmig. NEU: Endpunkt bewusst am Brustbein kappen (unter 90°), nicht bis Brust-/Schulterhöhe schwingen lassen.",
-       "video": "",
+       "detail": "je Wiederholung 10 s halten",
+       "raw": "A1 Kraniozervikale Flexion 2x10 - je Wiederholung 10 s halten",
+       "resistance": "duenne Handtuchrolle unter dem Hinterkopf (Eigengewicht)",
+       "resistanceLabel": "Kraniozervikale Flexion",
+       "description": "Rueckenlage auf der Matte, duenne Handtuchrolle unter den Hinterkopf. Langsames Nicken (\"Ja\"-Bewegung), als wuerde der Hinterkopf ueber die Rolle rollen - der Kopf bleibt liegen und wird NICHT abgehoben. 10 s halten, 10 Wiederholungen, 2 Saetze. KONTROLLE: zwei Finger seitlich am Hals auf den M. sternocleidomastoideus. Der darf sich nicht anspannen; spannt er an, ist die Bewegung zu gross. Ziel ist die tiefe Halsbeugemuskulatur (M. longus colli und longus capitis), nicht die oberflaechliche. 3-4x/Woche am Ende der Einheit - in diesem Plan an allen drei Trainingstagen. EINORDNUNG: Von Frank selbst eingebracht (05.08.2026). Die Evidenz betrifft den kraniovertebralen Winkel (CVA) bei Vorhaltung des Kopfes und Nackenschmerz; eine Wirkung auf die Kendo-Leistung ist NICHT untersucht. Schulterunbedenklich - die Arme sind unbeteiligt, die 90-Grad-Regel bleibt unberuehrt. Siehe Blatt Quellen.",
+       "video": "https://www.youtube.com/watch?v=RL2e2gRmtIM",
        "videoNote": ""
       }
      ],
-     "pause": "Pause ~75s",
-     "note": "Pause ~75s",
+     "pause": "Pause ~30s",
+     "note": "Pause ~30s",
      "resistance": [
       {
-       "label": "Floor Press",
-       "value": "2x17 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 1x2 + 1x0,5)"
-      },
-      {
-       "label": "Swing",
-       "value": "KB 24 kg (explosiv! ueber 15 Wdh. = zu leicht, dann Tempo statt Wdh.)"
-      }
-     ]
-    },
-    {
-     "block": "Block 3",
-     "exercises": [
-      {
-       "code": "C1",
-       "name": "Band-Bizeps-Curl beidarmig",
-       "sets": 3,
-       "targetReps": "10-15",
-       "perSide": false,
-       "detail": "",
-       "raw": "C1 Band-Bizeps-Curl beidarmig 3x10-15",
-       "resistance": "Band ORANGE (40-80 lbs) [zu leicht? DUNKELGRUEN (60-170) nehmen oder weiter vom Anker wegtreten]",
-       "resistanceLabel": "Curl",
-       "description": "BAND: ORANGE (40-80 lbs). Auf das Band stellen (ein oder beide Füße = Widerstand wählen), Ellbogen fest an den Seiten. Unterarme nach oben curlen, oben kurz anspannen, langsam (2-3s) ablassen. Nur der Unterarm bewegt sich – kein Schwung aus Schulter oder Rücken. Ersetzt das Bizeps-Volumen der weggefallenen Klimmzüge.",
-       "video": "https://www.youtube.com/watch?v=Da57AuIofvU",
-       "videoNote": ""
-      },
-      {
-       "code": "C2",
-       "name": "Band-Trizeps-Pushdown beidarmig",
-       "sets": 3,
-       "targetReps": "10-15",
-       "perSide": false,
-       "detail": "",
-       "raw": "C2 Band-Trizeps-Pushdown beidarmig 3x10-15",
-       "resistance": "Band ORANGE (40-80 lbs) [zu leicht? DUNKELGRUEN (60-170) nehmen oder weiter vom Anker wegtreten]",
-       "resistanceLabel": "Pushdown",
-       "description": "BAND: ORANGE (40-80 lbs). Band oben verankern (z.B. Klimmzugstange). Ellbogen eng am Körper fixieren, Unterarme nach unten strecken bis die Arme gestreckt sind, Trizeps unten fest anspannen, langsam zurück. Oberarme bewegen sich nicht. Arm bleibt komplett unten – ideal bei 90°-Regel.",
-       "video": "https://www.youtube.com/watch?v=qjPN6ElNqpc",
-       "videoNote": ""
-      }
-     ],
-     "pause": "Pause ~45s",
-     "note": "Pause ~45s",
-     "resistance": [
-      {
-       "label": "Curl",
-       "value": "Band ORANGE (40-80 lbs) [zu leicht? DUNKELGRUEN (60-170) nehmen oder weiter vom Anker wegtreten]"
-      },
-      {
-       "label": "Pushdown",
-       "value": "Band ORANGE (40-80 lbs) [zu leicht? DUNKELGRUEN (60-170) nehmen oder weiter vom Anker wegtreten]"
+       "label": "Kraniozervikale Flexion",
+       "value": "duenne Handtuchrolle unter dem Hinterkopf (Eigengewicht)"
       }
      ]
     }
    ],
-   "finish": null,
+   "finish": {
+    "text": "3 min lockeres Gehen als Cool-down. Danach Zeit pro Aufstieg und hoechsten Puls in die App eintragen.",
+    "resistance": ""
+   },
    "optional": {
-    "text": "Wadenheben beidbeinig 2x15-20, 3s exzentrisch - nur als Achilles-Prophylaxe fuers Kendo",
+    "text": "Wadenheben beidbeinig 2x15-20, 3s exzentrisch - nur als Achilles-Prophylaxe fuers Kendo. Achtung: 2 Saetze mit 3s Exzentrik kosten ca. 3 min.",
     "resistance": "Langhantel oder Gewichtsweste"
    },
    "equipment": [
     {
-     "gerät": "Kurzhanteln",
+     "gerät": "Sonstiges",
      "items": [
-      "2x17 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 1x2 + 1x0,5) (Floor Press)",
-      "2x17 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 1x2 + 1x0,5) | + Gewichtsweste 10 kg (Kurzhantel-Squat)"
-     ]
-    },
-    {
-     "gerät": "Kettlebell",
-     "items": [
-      "KB 24 kg (explosiv! ueber 15 Wdh. = zu leicht, dann Tempo statt Wdh.) (Swing)"
-     ]
-    },
-    {
-     "gerät": "Bänder",
-     "items": [
-      "Band ORANGE (40-80 lbs) [zu leicht? DUNKELGRUEN (60-170) nehmen oder weiter vom Anker wegtreten] (Curl)",
-      "Band ORANGE (40-80 lbs) [zu leicht? DUNKELGRUEN (60-170) nehmen oder weiter vom Anker wegtreten] (Pushdown)",
-      "Band ROT (50-125 lbs) (falls zu leicht: ORANGE dazu) (Band-Rudern)"
+      "4 Stockwerke = 10-12 Hoehenmeter, zwei Stufen auf einmal (Treppen-Aufstieg)"
      ]
     }
    ]
@@ -1416,9 +1320,39 @@
        "value": "Band ORANGE (40-80 lbs) [zu leicht? DUNKELGRUEN (60-170) nehmen oder weiter vom Anker wegtreten]"
       }
      ]
+    },
+    {
+     "block": "Block 4 (Cool-down)",
+     "exercises": [
+      {
+       "code": "A1",
+       "name": "Kraniozervikale Flexion",
+       "sets": 2,
+       "targetReps": "10",
+       "perSide": false,
+       "detail": "je Wiederholung 10 s halten",
+       "raw": "A1 Kraniozervikale Flexion 2x10 - je Wiederholung 10 s halten",
+       "resistance": "duenne Handtuchrolle unter dem Hinterkopf (Eigengewicht)",
+       "resistanceLabel": "Kraniozervikale Flexion",
+       "description": "Rueckenlage auf der Matte, duenne Handtuchrolle unter den Hinterkopf. Langsames Nicken (\"Ja\"-Bewegung), als wuerde der Hinterkopf ueber die Rolle rollen - der Kopf bleibt liegen und wird NICHT abgehoben. 10 s halten, 10 Wiederholungen, 2 Saetze. KONTROLLE: zwei Finger seitlich am Hals auf den M. sternocleidomastoideus. Der darf sich nicht anspannen; spannt er an, ist die Bewegung zu gross. Ziel ist die tiefe Halsbeugemuskulatur (M. longus colli und longus capitis), nicht die oberflaechliche. 3-4x/Woche am Ende der Einheit - in diesem Plan an allen drei Trainingstagen. EINORDNUNG: Von Frank selbst eingebracht (05.08.2026). Die Evidenz betrifft den kraniovertebralen Winkel (CVA) bei Vorhaltung des Kopfes und Nackenschmerz; eine Wirkung auf die Kendo-Leistung ist NICHT untersucht. Schulterunbedenklich - die Arme sind unbeteiligt, die 90-Grad-Regel bleibt unberuehrt. Siehe Blatt Quellen.",
+       "video": "https://www.youtube.com/watch?v=RL2e2gRmtIM",
+       "videoNote": ""
+      }
+     ],
+     "pause": "Pause ~30s",
+     "note": "Pause ~30s",
+     "resistance": [
+      {
+       "label": "Kraniozervikale Flexion",
+       "value": "duenne Handtuchrolle unter dem Hinterkopf (Eigengewicht)"
+      }
+     ]
     }
    ],
-   "finish": null,
+   "finish": {
+    "text": "KB Swing zweiarmig 3x15 - explosiver Hueftimpuls, Endpunkt bewusst am Brustbein kappen (unter 90 Grad).",
+    "resistance": "Swing: KB 24 kg"
+   },
    "optional": {
     "text": "Pallof Press 2x10-12/Seite - nur wenn du unter 30 min geblieben bist",
     "resistance": "Band ROT (50-125 lbs)"
@@ -1618,10 +1552,43 @@
        "value": "Band LILA (15-25 lbs) [bewusst leicht - Schulter! NICHT staerker waehlen]"
       }
      ]
+    },
+    {
+     "block": "Block 4 (Cool-down)",
+     "exercises": [
+      {
+       "code": "A1",
+       "name": "Kraniozervikale Flexion",
+       "sets": 2,
+       "targetReps": "10",
+       "perSide": false,
+       "detail": "je Wiederholung 10 s halten",
+       "raw": "A1 Kraniozervikale Flexion 2x10 - je Wiederholung 10 s halten",
+       "resistance": "duenne Handtuchrolle unter dem Hinterkopf (Eigengewicht)",
+       "resistanceLabel": "Kraniozervikale Flexion",
+       "description": "Rueckenlage auf der Matte, duenne Handtuchrolle unter den Hinterkopf. Langsames Nicken (\"Ja\"-Bewegung), als wuerde der Hinterkopf ueber die Rolle rollen - der Kopf bleibt liegen und wird NICHT abgehoben. 10 s halten, 10 Wiederholungen, 2 Saetze. KONTROLLE: zwei Finger seitlich am Hals auf den M. sternocleidomastoideus. Der darf sich nicht anspannen; spannt er an, ist die Bewegung zu gross. Ziel ist die tiefe Halsbeugemuskulatur (M. longus colli und longus capitis), nicht die oberflaechliche. 3-4x/Woche am Ende der Einheit - in diesem Plan an allen drei Trainingstagen. EINORDNUNG: Von Frank selbst eingebracht (05.08.2026). Die Evidenz betrifft den kraniovertebralen Winkel (CVA) bei Vorhaltung des Kopfes und Nackenschmerz; eine Wirkung auf die Kendo-Leistung ist NICHT untersucht. Schulterunbedenklich - die Arme sind unbeteiligt, die 90-Grad-Regel bleibt unberuehrt. Siehe Blatt Quellen.",
+       "video": "https://www.youtube.com/watch?v=RL2e2gRmtIM",
+       "videoNote": ""
+      }
+     ],
+     "pause": "Pause ~30s",
+     "note": "Pause ~30s",
+     "resistance": [
+      {
+       "label": "Kraniozervikale Flexion",
+       "value": "duenne Handtuchrolle unter dem Hinterkopf (Eigengewicht)"
+      }
+     ]
     }
    ],
-   "finish": null,
-   "optional": null,
+   "finish": {
+    "text": "Goblet Squat 2x12, 3s exzentrisch, ohne Halten unten - KB vor der Brust, volle kontrollierte Tiefe.",
+    "resistance": "Goblet: KB 24 kg"
+   },
+   "optional": {
+    "text": "Band-Trizeps-Pushdown 2x12-15 - nur wenn du unter 30 min geblieben bist.",
+    "resistance": "Band ORANGE (40-80 lbs)"
+   },
    "equipment": [
     {
      "gerät": "Langhantel",
@@ -1646,39 +1613,21 @@
    "week": 18,
    "warmup": [
     {
-     "name": "Cat-Camel",
-     "seconds": 30,
+     "name": "lockeres Gehen im Treppenhaus",
+     "seconds": 180,
      "perSide": false,
      "note": ""
     },
     {
-     "name": "Schulterkreisen",
-     "seconds": 30,
-     "perSide": false,
-     "note": "klein, unter 90°"
-    },
-    {
-     "name": "Band Pull-aparts",
-     "seconds": 30,
+     "name": "zwei Auf- und Abstiege in moderatem Tempo",
+     "seconds": 240,
      "perSide": false,
      "note": ""
     },
     {
-     "name": "Glute Bridge",
-     "seconds": 30,
+     "name": "Fussgelenke und Waden mobilisieren",
+     "seconds": 180,
      "perSide": false,
-     "note": ""
-    },
-    {
-     "name": "Bodyweight Squat",
-     "seconds": 30,
-     "perSide": false,
-     "note": ""
-    },
-    {
-     "name": "Band-Außenrotationen",
-     "seconds": 30,
-     "perSide": true,
      "note": ""
     }
    ],
@@ -1688,162 +1637,69 @@
      "exercises": [
       {
        "code": "A1",
-       "name": "Schweres Band-Rudern beidarmig",
-       "sets": 3,
-       "targetReps": "10-15",
+       "name": "Treppen-Aufstieg all-out",
+       "sets": 10,
+       "targetReps": "1",
        "perSide": false,
        "detail": "",
-       "raw": "A1 Schweres Band-Rudern beidarmig 3x10-15",
-       "resistance": "Band ROT (50-125 lbs) (falls zu leicht: ORANGE dazu)",
-       "resistanceLabel": "Band-Rudern",
-       "description": "BAND: ROT (50-125 lbs). Band zum Rumpf ziehen, Schulterblätter nach hinten-unten. Hier BEIDARMIG mit zwei Griffen gleichzeitig.",
-       "video": "https://www.youtube.com/watch?v=JP2xq33lNF0",
-       "videoNote": ""
-      },
-      {
-       "code": "A2",
-       "name": "Kurzhantel-Squat (Koffergriff)",
-       "sets": 3,
-       "targetReps": "10-15",
-       "perSide": false,
-       "detail": "",
-       "raw": "A2 Kurzhantel-Squat (Koffergriff) 3x10-15",
-       "resistance": "2x17 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 1x2 + 1x0,5) | + Gewichtsweste 15 kg",
-       "resistanceLabel": "Kurzhantel-Squat",
-       "description": "Kurzhanteln links und rechts neben dem Körper hängen lassen (Koffergriff), Füße schulterbreit, Zehen leicht nach außen. Kontrolliert so tief absteigen, wie es schmerzfrei geht, Knie in Richtung Zehen, Rücken neutral. Aus den Fersen hochdrücken. ERSETZT den Bulgarian Split Squat: beidbeinig, dadurch halbe Zeit und deutlich weniger Ermüdung vor dem Kendo. Die Schulter ist unbeteiligt - die Arme hängen einfach. Wenn der Griff vor den Beinen ermüdet: Goblet Squat mit der KB.",
+       "raw": "A1 Treppen-Aufstieg all-out 10x1",
+       "resistance": "4 Stockwerke = 10-12 Hoehenmeter, zwei Stufen auf einmal",
+       "resistanceLabel": "Treppen-Aufstieg",
+       "description": "Repeated Sprint Training im eigenen Treppenhaus. Vier Stockwerke a 2,5-3 m = 10-12 Hoehenmeter je Aufstieg. AUFSTIEG: all-out, zwei Stufen auf einmal, Arme frei mitschwingen lassen (bleiben unter Schulterhoehe, 90-Grad-Regel unberuehrt). ABSTIEG: im GEHEN, das ist die Pause - nicht laufen. Kein Stehenbleiben oben oder unten, direkt umdrehen. STEUERUNG UEBER DEN PULS, nicht ueber die Uhr: am Ende jedes Aufstiegs 170+ bpm, beim Abstieg nicht unter 130 bpm fallen lassen. Faellt der Puls tiefer: erst zwei Stufen auf einmal, dann zuegiger absteigen, erst zuletzt Gewichtsweste dazu. ERSETZT die urspruenglich geplanten 4x4-min-Intervalle: bei nur vier Stockwerken waere die Haelfte der Arbeitszeit Abstieg gewesen, das Protokoll von Helgerud ist so nicht nachbaubar. WARNUNG: Treppab ist exzentrische Quadrizeps-Belastung und der klassische Muskelkater-Ausloeser - am Montag ist Kendo. Erste zwei bis drei Wochen bewusst langsam absteigen. Hand in Gelaendernaehe, bei hohem Puls ist der Fehltritt real.",
        "video": "",
        "videoNote": ""
       }
      ],
-     "pause": "Pause ~75s",
-     "note": "Pause ~75s",
+     "pause": "Pause ~40s",
+     "note": "Pause ~40s (Abstieg im Gehen)",
      "resistance": [
       {
-       "label": "Band-Rudern",
-       "value": "Band ROT (50-125 lbs) (falls zu leicht: ORANGE dazu)"
-      },
-      {
-       "label": "Kurzhantel-Squat",
-       "value": "2x17 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 1x2 + 1x0,5) | + Gewichtsweste 15 kg"
+       "label": "Treppen-Aufstieg",
+       "value": "4 Stockwerke = 10-12 Hoehenmeter, zwei Stufen auf einmal"
       }
      ]
     },
     {
-     "block": "Block 2",
+     "block": "Block 4 (Cool-down)",
      "exercises": [
       {
-       "code": "B1",
-       "name": "Kurzhantel Floor Press (neutraler Griff)",
-       "sets": 3,
-       "targetReps": "8-12",
+       "code": "A1",
+       "name": "Kraniozervikale Flexion",
+       "sets": 2,
+       "targetReps": "10",
        "perSide": false,
-       "detail": "",
-       "raw": "B1 Kurzhantel Floor Press (neutraler Griff) 3x8-12",
-       "resistance": "2x17 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 1x2 + 1x0,5) | 3s exzentrisch",
-       "resistanceLabel": "Floor Press",
-       "description": "Rückenlage, Knie angestellt, in jeder Hand eine Kurzhantel mit neutralem Griff (Handflächen zueinander) über der Brust ausdrücken, Ellbogen ~45° vom Körper. Langsam ablassen, bis der Trizeps den Boden berührt – der Boden begrenzt die Bewegung und schützt das AC-Gelenk – kurz pausieren, dann hochdrücken. Ersetzt den KB Floor Press: Die Kurzhantel-Last liegt zentriert über der Handwurzel, das Handgelenk bleibt gerade (KB-Version war fürs Handgelenk schmerzhaft). Brust-/Trizeps-Hauptübung, 2x pro Woche (Di + Sa).",
-       "video": "https://www.youtube.com/watch?v=rs05AtccEhg",
-       "videoNote": ""
-      },
-      {
-       "code": "B2",
-       "name": "KB Swing zweiarmig",
-       "sets": 3,
-       "targetReps": "15",
-       "perSide": false,
-       "detail": "",
-       "raw": "B2 KB Swing zweiarmig 3x15",
-       "resistance": "KB 24 kg (explosiv! ueber 15 Wdh. = zu leicht, dann Tempo statt Wdh.)",
-       "resistanceLabel": "Swing",
-       "description": "Explosiver Hüftimpuls, zweiarmig. NEU: Endpunkt bewusst am Brustbein kappen (unter 90°), nicht bis Brust-/Schulterhöhe schwingen lassen.",
-       "video": "",
+       "detail": "je Wiederholung 10 s halten",
+       "raw": "A1 Kraniozervikale Flexion 2x10 - je Wiederholung 10 s halten",
+       "resistance": "duenne Handtuchrolle unter dem Hinterkopf (Eigengewicht)",
+       "resistanceLabel": "Kraniozervikale Flexion",
+       "description": "Rueckenlage auf der Matte, duenne Handtuchrolle unter den Hinterkopf. Langsames Nicken (\"Ja\"-Bewegung), als wuerde der Hinterkopf ueber die Rolle rollen - der Kopf bleibt liegen und wird NICHT abgehoben. 10 s halten, 10 Wiederholungen, 2 Saetze. KONTROLLE: zwei Finger seitlich am Hals auf den M. sternocleidomastoideus. Der darf sich nicht anspannen; spannt er an, ist die Bewegung zu gross. Ziel ist die tiefe Halsbeugemuskulatur (M. longus colli und longus capitis), nicht die oberflaechliche. 3-4x/Woche am Ende der Einheit - in diesem Plan an allen drei Trainingstagen. EINORDNUNG: Von Frank selbst eingebracht (05.08.2026). Die Evidenz betrifft den kraniovertebralen Winkel (CVA) bei Vorhaltung des Kopfes und Nackenschmerz; eine Wirkung auf die Kendo-Leistung ist NICHT untersucht. Schulterunbedenklich - die Arme sind unbeteiligt, die 90-Grad-Regel bleibt unberuehrt. Siehe Blatt Quellen.",
+       "video": "https://www.youtube.com/watch?v=RL2e2gRmtIM",
        "videoNote": ""
       }
      ],
-     "pause": "Pause ~75s",
-     "note": "Pause ~75s",
+     "pause": "Pause ~30s",
+     "note": "Pause ~30s",
      "resistance": [
       {
-       "label": "Floor Press",
-       "value": "2x17 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 1x2 + 1x0,5) | 3s exzentrisch"
-      },
-      {
-       "label": "Swing",
-       "value": "KB 24 kg (explosiv! ueber 15 Wdh. = zu leicht, dann Tempo statt Wdh.)"
-      }
-     ]
-    },
-    {
-     "block": "Block 3",
-     "exercises": [
-      {
-       "code": "C1",
-       "name": "Band-Bizeps-Curl beidarmig",
-       "sets": 3,
-       "targetReps": "10-15",
-       "perSide": false,
-       "detail": "",
-       "raw": "C1 Band-Bizeps-Curl beidarmig 3x10-15",
-       "resistance": "Band ORANGE (40-80 lbs) [zu leicht? DUNKELGRUEN (60-170) nehmen oder weiter vom Anker wegtreten]",
-       "resistanceLabel": "Curl",
-       "description": "BAND: ORANGE (40-80 lbs). Auf das Band stellen (ein oder beide Füße = Widerstand wählen), Ellbogen fest an den Seiten. Unterarme nach oben curlen, oben kurz anspannen, langsam (2-3s) ablassen. Nur der Unterarm bewegt sich – kein Schwung aus Schulter oder Rücken. Ersetzt das Bizeps-Volumen der weggefallenen Klimmzüge.",
-       "video": "https://www.youtube.com/watch?v=Da57AuIofvU",
-       "videoNote": ""
-      },
-      {
-       "code": "C2",
-       "name": "Band-Trizeps-Pushdown beidarmig",
-       "sets": 3,
-       "targetReps": "10-15",
-       "perSide": false,
-       "detail": "",
-       "raw": "C2 Band-Trizeps-Pushdown beidarmig 3x10-15",
-       "resistance": "Band ORANGE (40-80 lbs) [zu leicht? DUNKELGRUEN (60-170) nehmen oder weiter vom Anker wegtreten]",
-       "resistanceLabel": "Pushdown",
-       "description": "BAND: ORANGE (40-80 lbs). Band oben verankern (z.B. Klimmzugstange). Ellbogen eng am Körper fixieren, Unterarme nach unten strecken bis die Arme gestreckt sind, Trizeps unten fest anspannen, langsam zurück. Oberarme bewegen sich nicht. Arm bleibt komplett unten – ideal bei 90°-Regel.",
-       "video": "https://www.youtube.com/watch?v=qjPN6ElNqpc",
-       "videoNote": ""
-      }
-     ],
-     "pause": "Pause ~45s",
-     "note": "Pause ~45s",
-     "resistance": [
-      {
-       "label": "Curl",
-       "value": "Band ORANGE (40-80 lbs) [zu leicht? DUNKELGRUEN (60-170) nehmen oder weiter vom Anker wegtreten]"
-      },
-      {
-       "label": "Pushdown",
-       "value": "Band ORANGE (40-80 lbs) [zu leicht? DUNKELGRUEN (60-170) nehmen oder weiter vom Anker wegtreten]"
+       "label": "Kraniozervikale Flexion",
+       "value": "duenne Handtuchrolle unter dem Hinterkopf (Eigengewicht)"
       }
      ]
     }
    ],
-   "finish": null,
+   "finish": {
+    "text": "3 min lockeres Gehen als Cool-down. Danach Zeit pro Aufstieg und hoechsten Puls in die App eintragen.",
+    "resistance": ""
+   },
    "optional": {
-    "text": "Wadenheben beidbeinig 2x15-20, 3s exzentrisch - nur als Achilles-Prophylaxe fuers Kendo",
+    "text": "Wadenheben beidbeinig 2x15-20, 3s exzentrisch - nur als Achilles-Prophylaxe fuers Kendo. Achtung: 2 Saetze mit 3s Exzentrik kosten ca. 3 min.",
     "resistance": "Langhantel oder Gewichtsweste"
    },
    "equipment": [
     {
-     "gerät": "Kurzhanteln",
+     "gerät": "Sonstiges",
      "items": [
-      "2x17 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 1x2 + 1x0,5) | + Gewichtsweste 15 kg (Kurzhantel-Squat)",
-      "2x17 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 1x2 + 1x0,5) | 3s exzentrisch (Floor Press)"
-     ]
-    },
-    {
-     "gerät": "Kettlebell",
-     "items": [
-      "KB 24 kg (explosiv! ueber 15 Wdh. = zu leicht, dann Tempo statt Wdh.) (Swing)"
-     ]
-    },
-    {
-     "gerät": "Bänder",
-     "items": [
-      "Band ORANGE (40-80 lbs) [zu leicht? DUNKELGRUEN (60-170) nehmen oder weiter vom Anker wegtreten] (Curl)",
-      "Band ORANGE (40-80 lbs) [zu leicht? DUNKELGRUEN (60-170) nehmen oder weiter vom Anker wegtreten] (Pushdown)",
-      "Band ROT (50-125 lbs) (falls zu leicht: ORANGE dazu) (Band-Rudern)"
+      "4 Stockwerke = 10-12 Hoehenmeter, zwei Stufen auf einmal (Treppen-Aufstieg)"
      ]
     }
    ]
@@ -2024,9 +1880,39 @@
        "value": "Band ORANGE (40-80 lbs) [zu leicht? DUNKELGRUEN (60-170) nehmen oder weiter vom Anker wegtreten]"
       }
      ]
+    },
+    {
+     "block": "Block 4 (Cool-down)",
+     "exercises": [
+      {
+       "code": "A1",
+       "name": "Kraniozervikale Flexion",
+       "sets": 2,
+       "targetReps": "10",
+       "perSide": false,
+       "detail": "je Wiederholung 10 s halten",
+       "raw": "A1 Kraniozervikale Flexion 2x10 - je Wiederholung 10 s halten",
+       "resistance": "duenne Handtuchrolle unter dem Hinterkopf (Eigengewicht)",
+       "resistanceLabel": "Kraniozervikale Flexion",
+       "description": "Rueckenlage auf der Matte, duenne Handtuchrolle unter den Hinterkopf. Langsames Nicken (\"Ja\"-Bewegung), als wuerde der Hinterkopf ueber die Rolle rollen - der Kopf bleibt liegen und wird NICHT abgehoben. 10 s halten, 10 Wiederholungen, 2 Saetze. KONTROLLE: zwei Finger seitlich am Hals auf den M. sternocleidomastoideus. Der darf sich nicht anspannen; spannt er an, ist die Bewegung zu gross. Ziel ist die tiefe Halsbeugemuskulatur (M. longus colli und longus capitis), nicht die oberflaechliche. 3-4x/Woche am Ende der Einheit - in diesem Plan an allen drei Trainingstagen. EINORDNUNG: Von Frank selbst eingebracht (05.08.2026). Die Evidenz betrifft den kraniovertebralen Winkel (CVA) bei Vorhaltung des Kopfes und Nackenschmerz; eine Wirkung auf die Kendo-Leistung ist NICHT untersucht. Schulterunbedenklich - die Arme sind unbeteiligt, die 90-Grad-Regel bleibt unberuehrt. Siehe Blatt Quellen.",
+       "video": "https://www.youtube.com/watch?v=RL2e2gRmtIM",
+       "videoNote": ""
+      }
+     ],
+     "pause": "Pause ~30s",
+     "note": "Pause ~30s",
+     "resistance": [
+      {
+       "label": "Kraniozervikale Flexion",
+       "value": "duenne Handtuchrolle unter dem Hinterkopf (Eigengewicht)"
+      }
+     ]
     }
    ],
-   "finish": null,
+   "finish": {
+    "text": "KB Swing zweiarmig 3x15 - explosiver Hueftimpuls, Endpunkt bewusst am Brustbein kappen (unter 90 Grad).",
+    "resistance": "Swing: KB 24 kg"
+   },
    "optional": {
     "text": "Pallof Press 2x10-12/Seite - nur wenn du unter 30 min geblieben bist",
     "resistance": "Band ROT (50-125 lbs)"
@@ -2226,10 +2112,43 @@
        "value": "Band LILA (15-25 lbs) [bewusst leicht - Schulter! NICHT staerker waehlen]"
       }
      ]
+    },
+    {
+     "block": "Block 4 (Cool-down)",
+     "exercises": [
+      {
+       "code": "A1",
+       "name": "Kraniozervikale Flexion",
+       "sets": 2,
+       "targetReps": "10",
+       "perSide": false,
+       "detail": "je Wiederholung 10 s halten",
+       "raw": "A1 Kraniozervikale Flexion 2x10 - je Wiederholung 10 s halten",
+       "resistance": "duenne Handtuchrolle unter dem Hinterkopf (Eigengewicht)",
+       "resistanceLabel": "Kraniozervikale Flexion",
+       "description": "Rueckenlage auf der Matte, duenne Handtuchrolle unter den Hinterkopf. Langsames Nicken (\"Ja\"-Bewegung), als wuerde der Hinterkopf ueber die Rolle rollen - der Kopf bleibt liegen und wird NICHT abgehoben. 10 s halten, 10 Wiederholungen, 2 Saetze. KONTROLLE: zwei Finger seitlich am Hals auf den M. sternocleidomastoideus. Der darf sich nicht anspannen; spannt er an, ist die Bewegung zu gross. Ziel ist die tiefe Halsbeugemuskulatur (M. longus colli und longus capitis), nicht die oberflaechliche. 3-4x/Woche am Ende der Einheit - in diesem Plan an allen drei Trainingstagen. EINORDNUNG: Von Frank selbst eingebracht (05.08.2026). Die Evidenz betrifft den kraniovertebralen Winkel (CVA) bei Vorhaltung des Kopfes und Nackenschmerz; eine Wirkung auf die Kendo-Leistung ist NICHT untersucht. Schulterunbedenklich - die Arme sind unbeteiligt, die 90-Grad-Regel bleibt unberuehrt. Siehe Blatt Quellen.",
+       "video": "https://www.youtube.com/watch?v=RL2e2gRmtIM",
+       "videoNote": ""
+      }
+     ],
+     "pause": "Pause ~30s",
+     "note": "Pause ~30s",
+     "resistance": [
+      {
+       "label": "Kraniozervikale Flexion",
+       "value": "duenne Handtuchrolle unter dem Hinterkopf (Eigengewicht)"
+      }
+     ]
     }
    ],
-   "finish": null,
-   "optional": null,
+   "finish": {
+    "text": "Goblet Squat 2x12, 3s exzentrisch, ohne Halten unten - KB vor der Brust, volle kontrollierte Tiefe.",
+    "resistance": "Goblet: KB 24 kg"
+   },
+   "optional": {
+    "text": "Band-Trizeps-Pushdown 2x12-15 - nur wenn du unter 30 min geblieben bist.",
+    "resistance": "Band ORANGE (40-80 lbs)"
+   },
    "equipment": [
     {
      "gerät": "Langhantel",
@@ -2254,39 +2173,21 @@
    "week": 19,
    "warmup": [
     {
-     "name": "Cat-Camel",
-     "seconds": 30,
+     "name": "lockeres Gehen im Treppenhaus",
+     "seconds": 180,
      "perSide": false,
      "note": ""
     },
     {
-     "name": "Schulterkreisen",
-     "seconds": 30,
-     "perSide": false,
-     "note": "klein, unter 90°"
-    },
-    {
-     "name": "Band Pull-aparts",
-     "seconds": 30,
+     "name": "zwei Auf- und Abstiege in moderatem Tempo",
+     "seconds": 240,
      "perSide": false,
      "note": ""
     },
     {
-     "name": "Glute Bridge",
-     "seconds": 30,
+     "name": "Fussgelenke und Waden mobilisieren",
+     "seconds": 180,
      "perSide": false,
-     "note": ""
-    },
-    {
-     "name": "Bodyweight Squat",
-     "seconds": 30,
-     "perSide": false,
-     "note": ""
-    },
-    {
-     "name": "Band-Außenrotationen",
-     "seconds": 30,
-     "perSide": true,
      "note": ""
     }
    ],
@@ -2296,162 +2197,74 @@
      "exercises": [
       {
        "code": "A1",
-       "name": "Schweres Band-Rudern beidarmig",
-       "sets": 3,
-       "targetReps": "10-15",
+       "name": "Treppen-Aufstieg all-out",
+       "sets": 10,
+       "targetReps": "1",
        "perSide": false,
        "detail": "",
-       "raw": "A1 Schweres Band-Rudern beidarmig 3x10-15",
-       "resistance": "Band ROT (50-125 lbs) (falls zu leicht: ORANGE dazu)",
-       "resistanceLabel": "Band-Rudern",
-       "description": "BAND: ROT (50-125 lbs). Band zum Rumpf ziehen, Schulterblätter nach hinten-unten. Hier BEIDARMIG mit zwei Griffen gleichzeitig.",
-       "video": "https://www.youtube.com/watch?v=JP2xq33lNF0",
-       "videoNote": ""
-      },
-      {
-       "code": "A2",
-       "name": "Kurzhantel-Squat (Koffergriff)",
-       "sets": 3,
-       "targetReps": "10-15",
-       "perSide": false,
-       "detail": "",
-       "raw": "A2 Kurzhantel-Squat (Koffergriff) 3x10-15",
-       "resistance": "2x20 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2) | + Gewichtsweste 20 kg",
-       "resistanceLabel": "Kurzhantel-Squat",
-       "description": "Kurzhanteln links und rechts neben dem Körper hängen lassen (Koffergriff), Füße schulterbreit, Zehen leicht nach außen. Kontrolliert so tief absteigen, wie es schmerzfrei geht, Knie in Richtung Zehen, Rücken neutral. Aus den Fersen hochdrücken. ERSETZT den Bulgarian Split Squat: beidbeinig, dadurch halbe Zeit und deutlich weniger Ermüdung vor dem Kendo. Die Schulter ist unbeteiligt - die Arme hängen einfach. Wenn der Griff vor den Beinen ermüdet: Goblet Squat mit der KB.",
+       "raw": "A1 Treppen-Aufstieg all-out 10x1",
+       "resistance": "4 Stockwerke = 10-12 Hoehenmeter, zwei Stufen auf einmal",
+       "resistanceLabel": "Treppen-Aufstieg",
+       "description": "Repeated Sprint Training im eigenen Treppenhaus. Vier Stockwerke a 2,5-3 m = 10-12 Hoehenmeter je Aufstieg. AUFSTIEG: all-out, zwei Stufen auf einmal, Arme frei mitschwingen lassen (bleiben unter Schulterhoehe, 90-Grad-Regel unberuehrt). ABSTIEG: im GEHEN, das ist die Pause - nicht laufen. Kein Stehenbleiben oben oder unten, direkt umdrehen. STEUERUNG UEBER DEN PULS, nicht ueber die Uhr: am Ende jedes Aufstiegs 170+ bpm, beim Abstieg nicht unter 130 bpm fallen lassen. Faellt der Puls tiefer: erst zwei Stufen auf einmal, dann zuegiger absteigen, erst zuletzt Gewichtsweste dazu. ERSETZT die urspruenglich geplanten 4x4-min-Intervalle: bei nur vier Stockwerken waere die Haelfte der Arbeitszeit Abstieg gewesen, das Protokoll von Helgerud ist so nicht nachbaubar. WARNUNG: Treppab ist exzentrische Quadrizeps-Belastung und der klassische Muskelkater-Ausloeser - am Montag ist Kendo. Erste zwei bis drei Wochen bewusst langsam absteigen. Hand in Gelaendernaehe, bei hohem Puls ist der Fehltritt real.",
        "video": "",
        "videoNote": ""
       }
      ],
-     "pause": "Pause ~75s",
-     "note": "Pause ~75s",
+     "pause": "Pause ~40s",
+     "note": "Pause ~40s (Abstieg im Gehen)",
      "resistance": [
       {
-       "label": "Band-Rudern",
-       "value": "Band ROT (50-125 lbs) (falls zu leicht: ORANGE dazu)"
+       "label": "Treppen-Aufstieg",
+       "value": "4 Stockwerke = 10-12 Hoehenmeter, zwei Stufen auf einmal"
       },
       {
-       "label": "Kurzhantel-Squat",
-       "value": "2x20 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2) | + Gewichtsweste 20 kg"
+       "label": "",
+       "value": "+ Gewichtsweste 10 kg (feste Einstellung)"
       }
      ]
     },
     {
-     "block": "Block 2",
+     "block": "Block 4 (Cool-down)",
      "exercises": [
       {
-       "code": "B1",
-       "name": "Kurzhantel Floor Press (neutraler Griff)",
-       "sets": 3,
-       "targetReps": "6-10",
+       "code": "A1",
+       "name": "Kraniozervikale Flexion",
+       "sets": 2,
+       "targetReps": "10",
        "perSide": false,
-       "detail": "",
-       "raw": "B1 Kurzhantel Floor Press (neutraler Griff) 3x6-10",
-       "resistance": "2x20 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2) | 3s exzentrisch",
-       "resistanceLabel": "Floor Press",
-       "description": "Rückenlage, Knie angestellt, in jeder Hand eine Kurzhantel mit neutralem Griff (Handflächen zueinander) über der Brust ausdrücken, Ellbogen ~45° vom Körper. Langsam ablassen, bis der Trizeps den Boden berührt – der Boden begrenzt die Bewegung und schützt das AC-Gelenk – kurz pausieren, dann hochdrücken. Ersetzt den KB Floor Press: Die Kurzhantel-Last liegt zentriert über der Handwurzel, das Handgelenk bleibt gerade (KB-Version war fürs Handgelenk schmerzhaft). Brust-/Trizeps-Hauptübung, 2x pro Woche (Di + Sa).",
-       "video": "https://www.youtube.com/watch?v=rs05AtccEhg",
-       "videoNote": ""
-      },
-      {
-       "code": "B2",
-       "name": "KB Swing zweiarmig",
-       "sets": 3,
-       "targetReps": "15",
-       "perSide": false,
-       "detail": "",
-       "raw": "B2 KB Swing zweiarmig 3x15",
-       "resistance": "KB 24 kg (explosiv! ueber 15 Wdh. = zu leicht, dann Tempo statt Wdh.)",
-       "resistanceLabel": "Swing",
-       "description": "Explosiver Hüftimpuls, zweiarmig. NEU: Endpunkt bewusst am Brustbein kappen (unter 90°), nicht bis Brust-/Schulterhöhe schwingen lassen.",
-       "video": "",
+       "detail": "je Wiederholung 10 s halten",
+       "raw": "A1 Kraniozervikale Flexion 2x10 - je Wiederholung 10 s halten",
+       "resistance": "duenne Handtuchrolle unter dem Hinterkopf (Eigengewicht)",
+       "resistanceLabel": "Kraniozervikale Flexion",
+       "description": "Rueckenlage auf der Matte, duenne Handtuchrolle unter den Hinterkopf. Langsames Nicken (\"Ja\"-Bewegung), als wuerde der Hinterkopf ueber die Rolle rollen - der Kopf bleibt liegen und wird NICHT abgehoben. 10 s halten, 10 Wiederholungen, 2 Saetze. KONTROLLE: zwei Finger seitlich am Hals auf den M. sternocleidomastoideus. Der darf sich nicht anspannen; spannt er an, ist die Bewegung zu gross. Ziel ist die tiefe Halsbeugemuskulatur (M. longus colli und longus capitis), nicht die oberflaechliche. 3-4x/Woche am Ende der Einheit - in diesem Plan an allen drei Trainingstagen. EINORDNUNG: Von Frank selbst eingebracht (05.08.2026). Die Evidenz betrifft den kraniovertebralen Winkel (CVA) bei Vorhaltung des Kopfes und Nackenschmerz; eine Wirkung auf die Kendo-Leistung ist NICHT untersucht. Schulterunbedenklich - die Arme sind unbeteiligt, die 90-Grad-Regel bleibt unberuehrt. Siehe Blatt Quellen.",
+       "video": "https://www.youtube.com/watch?v=RL2e2gRmtIM",
        "videoNote": ""
       }
      ],
-     "pause": "Pause ~75s",
-     "note": "Pause ~75s",
+     "pause": "Pause ~30s",
+     "note": "Pause ~30s",
      "resistance": [
       {
-       "label": "Floor Press",
-       "value": "2x20 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2) | 3s exzentrisch"
-      },
-      {
-       "label": "Swing",
-       "value": "KB 24 kg (explosiv! ueber 15 Wdh. = zu leicht, dann Tempo statt Wdh.)"
-      }
-     ]
-    },
-    {
-     "block": "Block 3",
-     "exercises": [
-      {
-       "code": "C1",
-       "name": "Band-Bizeps-Curl beidarmig",
-       "sets": 3,
-       "targetReps": "10-15",
-       "perSide": false,
-       "detail": "",
-       "raw": "C1 Band-Bizeps-Curl beidarmig 3x10-15",
-       "resistance": "Band ORANGE (40-80 lbs) [zu leicht? DUNKELGRUEN (60-170) nehmen oder weiter vom Anker wegtreten]",
-       "resistanceLabel": "Curl",
-       "description": "BAND: ORANGE (40-80 lbs). Auf das Band stellen (ein oder beide Füße = Widerstand wählen), Ellbogen fest an den Seiten. Unterarme nach oben curlen, oben kurz anspannen, langsam (2-3s) ablassen. Nur der Unterarm bewegt sich – kein Schwung aus Schulter oder Rücken. Ersetzt das Bizeps-Volumen der weggefallenen Klimmzüge.",
-       "video": "https://www.youtube.com/watch?v=Da57AuIofvU",
-       "videoNote": ""
-      },
-      {
-       "code": "C2",
-       "name": "Band-Trizeps-Pushdown beidarmig",
-       "sets": 3,
-       "targetReps": "10-15",
-       "perSide": false,
-       "detail": "",
-       "raw": "C2 Band-Trizeps-Pushdown beidarmig 3x10-15",
-       "resistance": "Band ORANGE (40-80 lbs) [zu leicht? DUNKELGRUEN (60-170) nehmen oder weiter vom Anker wegtreten]",
-       "resistanceLabel": "Pushdown",
-       "description": "BAND: ORANGE (40-80 lbs). Band oben verankern (z.B. Klimmzugstange). Ellbogen eng am Körper fixieren, Unterarme nach unten strecken bis die Arme gestreckt sind, Trizeps unten fest anspannen, langsam zurück. Oberarme bewegen sich nicht. Arm bleibt komplett unten – ideal bei 90°-Regel.",
-       "video": "https://www.youtube.com/watch?v=qjPN6ElNqpc",
-       "videoNote": ""
-      }
-     ],
-     "pause": "Pause ~45s",
-     "note": "Pause ~45s",
-     "resistance": [
-      {
-       "label": "Curl",
-       "value": "Band ORANGE (40-80 lbs) [zu leicht? DUNKELGRUEN (60-170) nehmen oder weiter vom Anker wegtreten]"
-      },
-      {
-       "label": "Pushdown",
-       "value": "Band ORANGE (40-80 lbs) [zu leicht? DUNKELGRUEN (60-170) nehmen oder weiter vom Anker wegtreten]"
+       "label": "Kraniozervikale Flexion",
+       "value": "duenne Handtuchrolle unter dem Hinterkopf (Eigengewicht)"
       }
      ]
     }
    ],
-   "finish": null,
+   "finish": {
+    "text": "3 min lockeres Gehen als Cool-down. Danach Zeit pro Aufstieg und hoechsten Puls in die App eintragen.",
+    "resistance": ""
+   },
    "optional": {
-    "text": "Wadenheben beidbeinig 2x15-20, 3s exzentrisch - nur als Achilles-Prophylaxe fuers Kendo",
+    "text": "Wadenheben beidbeinig 2x15-20, 3s exzentrisch - nur als Achilles-Prophylaxe fuers Kendo. Achtung: 2 Saetze mit 3s Exzentrik kosten ca. 3 min.",
     "resistance": "Langhantel oder Gewichtsweste"
    },
    "equipment": [
     {
-     "gerät": "Kurzhanteln",
+     "gerät": "Sonstiges",
      "items": [
-      "2x20 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2) | + Gewichtsweste 20 kg (Kurzhantel-Squat)",
-      "2x20 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2) | 3s exzentrisch (Floor Press)"
-     ]
-    },
-    {
-     "gerät": "Kettlebell",
-     "items": [
-      "KB 24 kg (explosiv! ueber 15 Wdh. = zu leicht, dann Tempo statt Wdh.) (Swing)"
-     ]
-    },
-    {
-     "gerät": "Bänder",
-     "items": [
-      "Band ORANGE (40-80 lbs) [zu leicht? DUNKELGRUEN (60-170) nehmen oder weiter vom Anker wegtreten] (Curl)",
-      "Band ORANGE (40-80 lbs) [zu leicht? DUNKELGRUEN (60-170) nehmen oder weiter vom Anker wegtreten] (Pushdown)",
-      "Band ROT (50-125 lbs) (falls zu leicht: ORANGE dazu) (Band-Rudern)"
+      "+ Gewichtsweste 10 kg (feste Einstellung)",
+      "4 Stockwerke = 10-12 Hoehenmeter, zwei Stufen auf einmal (Treppen-Aufstieg)"
      ]
     }
    ]
@@ -2525,8 +2338,8 @@
    "videoNote": ""
   },
   {
-   "name": "Goblet Squat",
-   "description": "KB vor der Brust, volle kontrollierte Tiefe.",
+   "name": "Goblet Squat (v2: Quadrizeps-Kraftausdauer)",
+   "description": "KB 24 kg vor der Brust auf Hoehe des Brustbeins, Ellbogen zeigen nach unten (Schulter unbeteiligt, weit unter 90 Grad). Fuesse schulterbreit, Zehen leicht nach aussen. 3 SEKUNDEN kontrolliert abwaerts, volle schmerzfreie Tiefe, ohne Halten direkt wieder hoch. 2x12. ERGAENZT den Kurzhantel-Squat (Koffergriff), ersetzt ihn NICHT: der Koffergriff laedt mit 2x20-21 kg deutlich mehr Gesamtgewicht, der Goblet dagegen haelt den Oberkoerper aufrecht und verlagert die Last staerker auf den Quadrizeps. Genau der brennt bei Frank im Jigeiko. ZEITKOSTEN: 48 s je Satz statt 30 s wegen der Exzentrik - bei zwei Saetzen plus Pause rund 2,5 min. Deshalb 2x12 und kein Halten unten; die Variante mit 3 s ab plus 2 s halten haette 6,5 min gekostet.",
    "video": "https://www.youtube.com/watch?v=MWHIs0zxkCU",
    "videoNote": ""
   },
@@ -2564,6 +2377,18 @@
    "name": "Glute Bridge",
    "description": "Rückenlage, Hüfte anheben – Gesäß/Beinbeuger aktivieren.",
    "video": "",
+   "videoNote": ""
+  },
+  {
+   "name": "Treppen-Aufstieg (RST)",
+   "description": "Repeated Sprint Training im eigenen Treppenhaus. Vier Stockwerke a 2,5-3 m = 10-12 Hoehenmeter je Aufstieg. AUFSTIEG: all-out, zwei Stufen auf einmal, Arme frei mitschwingen lassen (bleiben unter Schulterhoehe, 90-Grad-Regel unberuehrt). ABSTIEG: im GEHEN, das ist die Pause - nicht laufen. Kein Stehenbleiben oben oder unten, direkt umdrehen. STEUERUNG UEBER DEN PULS, nicht ueber die Uhr: am Ende jedes Aufstiegs 170+ bpm, beim Abstieg nicht unter 130 bpm fallen lassen. Faellt der Puls tiefer: erst zwei Stufen auf einmal, dann zuegiger absteigen, erst zuletzt Gewichtsweste dazu. ERSETZT die urspruenglich geplanten 4x4-min-Intervalle: bei nur vier Stockwerken waere die Haelfte der Arbeitszeit Abstieg gewesen, das Protokoll von Helgerud ist so nicht nachbaubar. WARNUNG: Treppab ist exzentrische Quadrizeps-Belastung und der klassische Muskelkater-Ausloeser - am Montag ist Kendo. Erste zwei bis drei Wochen bewusst langsam absteigen. Hand in Gelaendernaehe, bei hohem Puls ist der Fehltritt real.",
+   "video": "",
+   "videoNote": ""
+  },
+  {
+   "name": "Kraniozervikale Flexion",
+   "description": "Rueckenlage auf der Matte, duenne Handtuchrolle unter den Hinterkopf. Langsames Nicken (\"Ja\"-Bewegung), als wuerde der Hinterkopf ueber die Rolle rollen - der Kopf bleibt liegen und wird NICHT abgehoben. 10 s halten, 10 Wiederholungen, 2 Saetze. KONTROLLE: zwei Finger seitlich am Hals auf den M. sternocleidomastoideus. Der darf sich nicht anspannen; spannt er an, ist die Bewegung zu gross. Ziel ist die tiefe Halsbeugemuskulatur (M. longus colli und longus capitis), nicht die oberflaechliche. 3-4x/Woche am Ende der Einheit - in diesem Plan an allen drei Trainingstagen. EINORDNUNG: Von Frank selbst eingebracht (05.08.2026). Die Evidenz betrifft den kraniovertebralen Winkel (CVA) bei Vorhaltung des Kopfes und Nackenschmerz; eine Wirkung auf die Kendo-Leistung ist NICHT untersucht. Schulterunbedenklich - die Arme sind unbeteiligt, die 90-Grad-Regel bleibt unberuehrt. Siehe Blatt Quellen.",
+   "video": "https://www.youtube.com/watch?v=RL2e2gRmtIM",
    "videoNote": ""
   }
  ]
