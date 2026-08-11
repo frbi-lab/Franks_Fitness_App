@@ -738,6 +738,80 @@
    },
    "sessionNote": "Goblet Squat 2x12",
    "savedAt": "2026-08-06T14:36:10.795Z"
+  },
+  "2026-08-11": {
+   "date": "2026-08-11",
+   "week": 18,
+   "day": "Di",
+   "entries": {
+    "A1": {
+     "name": "Kurzhantel-Rudern beidarmig vorgebeugt",
+     "target": "3x8-12",
+     "resistance": "2x21 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2 + 1x0,5) | 3s exzentrisch",
+     "reps": [
+      "10",
+      "10"
+     ],
+     "note": ""
+    },
+    "A2": {
+     "name": "Kurzhantel-Squat (Koffergriff)",
+     "target": "3x10-15",
+     "resistance": "2x21 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2 + 1x0,5) | + Gewichtsweste 15 kg",
+     "reps": [
+      "10",
+      "10",
+      "9"
+     ],
+     "note": "mit Weste!"
+    },
+    "B1": {
+     "name": "Kurzhantel Floor Press (neutraler Griff)",
+     "target": "3x8-12",
+     "resistance": "2x17 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 1x2 + 1x0,5) | 3s exzentrisch",
+     "reps": [
+      "10",
+      "10",
+      "9"
+     ],
+     "note": ""
+    },
+    "B2": {
+     "name": "Band-Bizeps-Curl beidarmig",
+     "target": "3x10-15",
+     "resistance": "Band ORANGE (40-80 lbs) [zu leicht? DUNKELGRUEN (60-170) nehmen oder weiter vom Anker wegtreten]",
+     "reps": [
+      "15",
+      "15",
+      "15"
+     ],
+     "note": "Rotes Band 50-125 lb"
+    },
+    "C1": {
+     "name": "Band Lateral Raise (bis ~80°)",
+     "target": "3x12-20",
+     "resistance": "Band LILA (15-25 lbs) [bewusst leicht - Schulter! NICHT staerker waehlen]",
+     "reps": [
+      "15",
+      "17",
+      "17"
+     ],
+     "note": ""
+    },
+    "C2": {
+     "name": "Band-Trizeps-Pushdown beidarmig",
+     "target": "3x10-15",
+     "resistance": "Band ORANGE (40-80 lbs) [zu leicht? DUNKELGRUEN (60-170) nehmen oder weiter vom Anker wegtreten]",
+     "reps": [
+      "15",
+      "15",
+      "15"
+     ],
+     "note": "Rotes Band 50-125 lb"
+    }
+   },
+   "sessionNote": "",
+   "savedAt": "2026-08-11T17:48:25.009Z"
   }
  }
 }
