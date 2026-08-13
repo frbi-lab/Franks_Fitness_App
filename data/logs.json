@@ -812,6 +812,80 @@
    },
    "sessionNote": "",
    "savedAt": "2026-08-11T17:48:25.009Z"
+  },
+  "2026-08-13": {
+   "date": "2026-08-13",
+   "week": 18,
+   "day": "Do",
+   "entries": {
+    "A1": {
+     "name": "Langhantel-Rudern vorgebeugt",
+     "target": "3x6-10",
+     "resistance": "Langhantel 47,8 kg gesamt (Stange 7,8 kg + je Seite 1x10 + 2x5) | 3s exzentrisch",
+     "reps": [
+      "15",
+      "15"
+     ],
+     "note": ""
+    },
+    "A2": {
+     "name": "Band-Bizeps-Curl beidarmig",
+     "target": "3x10-15",
+     "resistance": "Band ORANGE (40-80 lbs) [zu leicht? DUNKELGRUEN (60-170) nehmen oder weiter vom Anker wegtreten]",
+     "reps": [
+      "13",
+      "8",
+      "8"
+     ],
+     "note": "Dunkelgrünes Band!"
+    },
+    "B1": {
+     "name": "Langhantel Romanian Deadlift",
+     "target": "3x8-12",
+     "resistance": "Langhantel 51,8 kg gesamt (Stange 7,8 kg + je Seite 1x10 + 2x5 + 1x2) | Zughilfen + 3s exzentrisch",
+     "reps": [
+      "6",
+      "8",
+      "8"
+     ],
+     "note": ""
+    },
+    "B2": {
+     "name": "Band-Chest-Press stehend beidarmig",
+     "target": "3x10-15",
+     "resistance": "Band ROT (50-125 lbs) [zu leicht? DUNKELGRUEN (60-170) nehmen oder weiter vom Anker wegtreten]",
+     "reps": [
+      "12",
+      "14",
+      "15"
+     ],
+     "note": "Dunkelgrünes Band"
+    },
+    "C1": {
+     "name": "Band Lateral Raise (bis ~80°)",
+     "target": "3x12-20",
+     "resistance": "Band LILA (15-25 lbs) [bewusst leicht - Schulter! NICHT staerker waehlen]",
+     "reps": [
+      "15",
+      "17",
+      "17"
+     ],
+     "note": ""
+    },
+    "C2": {
+     "name": "Band-Außenrotationen",
+     "target": "3x12-15",
+     "resistance": "Band LILA (15-25 lbs) [bewusst leicht - Schulter! NICHT staerker waehlen]",
+     "reps": [
+      "15",
+      "15",
+      "17"
+     ],
+     "note": ""
+    }
+   },
+   "sessionNote": "2x12 Goblet Squat KB 24 kg",
+   "savedAt": "2026-08-13T15:25:19.557Z"
   }
  }
 }
