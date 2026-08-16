@@ -886,6 +886,33 @@
    },
    "sessionNote": "2x12 Goblet Squat KB 24 kg",
    "savedAt": "2026-08-13T15:25:19.557Z"
+  },
+  "2026-08-15": {
+   "date": "2026-08-15",
+   "week": 18,
+   "day": "Sa",
+   "entries": {
+    "A1": {
+     "name": "Treppen-Aufstieg all-out",
+     "target": "10x1",
+     "resistance": "4 Stockwerke = 10-12 Hoehenmeter, zwei Stufen auf einmal | ZIELPULS am Ende jedes Aufstiegs: 153-162 bpm (90-95 % von HFmax 170). Beim Abstieg NICHT unter 130 bpm fallen lassen.",
+     "reps": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10"
+     ],
+     "note": ""
+    }
+   },
+   "sessionNote": "",
+   "savedAt": "2026-08-16T16:03:43.000Z"
   }
  }
 }
