@@ -1,8 +1,8 @@
 {
  "meta": {
-  "title": "August 2026 Fitness Masterplan - Kendo-Kondition",
-  "source": "August 2026 Fitness Masterplan - Kendo-Kondition.xlsx",
-  "generated": "2026-08-10",
+  "title": "August 2026 Fitness Masterplan - Kendo-Kondition v2",
+  "source": "August 2026 Fitness Masterplan - Kendo-Kondition v2.xlsx",
+  "generated": "2026-08-16",
   "week12Monday": "2026-06-29",
   "trainingDays": [
    "Di",
@@ -21,7 +21,7 @@
   "W16": "Lasten aus deinen Angaben vom 29.07.2026 abgeleitet. Du warst beim Floor Press real bei 2x16 kg gesamt (Stange + 14 kg Scheiben), nicht bei 14 kg - entsprechend geht mehr, als ich zuerst gerechnet hatte. Zug-/Bein-Block startet bei 2x20 kg, Floor Press bei 2x17 kg. LETZTER Satz jeder Hauptuebung als AMRAP bis 0-1 RIR. Zahlen in die App eintragen UND speichern - erst dann steuern deine Daten die Progression. KONDITION SAMSTAG: Kalibrierungswoche, 6 Aufstiege. Zeit je Aufstieg stoppen und notieren, Abstieg bewusst langsam gehen.",
   "W17": "Zug-/Bein-Block auf 2x21 kg - damit sind die Kurzhanteln ausgereizt. Floor Press bleibt 2x17 kg, dort Wiederholungen aufbauen. Langhantel-Rudern 45,8 kg, RDL 49,8 kg. Zielkorridor: 0-1 RIR bei Isolation (Curl, Seitheben, Pushdown), 1-2 RIR bei Rudern, RDL und Squat. KONDITION SAMSTAG: 8 Aufstiege, ab jetzt konsequent zwei Stufen auf einmal.",
   "W18": "Floor Press BLEIBT bei 2x17 kg mit 8-12 Wdh. - du hast am 01.08. 8/8/7 geschafft, das liegt genau am unteren Rand des Bereichs. Erst die Wiederholungen bis 12 aufbauen, der Sprung auf 2x20 kg kommt in W19. Zug-/Bein-Block bleibt 2x21 kg (Kurzhantel-Maximum), Steigerung dort ueber 3s Exzentrik. Langhantel-Rudern 47,8 kg, RDL 51,8 kg - jetzt mit Zughilfen, damit der Satz an den Beinbeugern endet und nicht am Griff. KONDITION SAMSTAG: 10 Aufstiege. Zielpuls 153-162 bpm; faellt der Puls beim Abstieg unter 130 bpm, zuegiger absteigen.",
-  "W19": "Oberes Ende aller Wiederholungsbereiche bei bester Technik. Floor Press JETZT auf 2x20 kg - grosser Schritt, deshalb Wiederholungsbereich auf 6-10 runter. Kommst du nicht auf 6 Wdh.: zurueck auf 2x17 kg und dort weiter aufbauen. Langhantel-Rudern 49,8 kg, RDL 53,8 kg. Squat zusaetzlich mit Gewichtsweste. Danach Deload-Woche. WICHTIG: Die Kurzhanteln sind bei 2x21 kg am Anschlag. Die 2x5-kg-Scheiben aus deinem Zukauf heben das Maximum auf 31 kg - damit ist der naechste Zyklus wieder progressionsfaehig. KONDITION SAMSTAG: 10 Aufstiege plus Gewichtsweste 10 kg, einmal angelegt. In der Deload-Woche danach nur 5 Aufstiege ohne Weste."
+  "W19": "AUSWERTUNG DER W18-LOGS (16.08.2026) - jede Aenderung steht auf einer Zahl:\n· Langhantel-Rudern: die Logs vom 06.08. und 13.08. sind UNBRAUCHBAR - dort stehen die Werte des Cool-downs, nicht des Ruderns (Codekollision A1, siehe Hinweise-Blatt). Es bleibt bei der geplanten Stufe 49,8 kg. Erste verwertbare Ruderdaten kommen am 20.08.\n· Langhantel-RDL 51,8 kg -> 6/8/8 bei Ziel 8-12, erster Satz UNTER der Untergrenze (Regel 4) => zurueck auf 50,8 kg.\n· Band-Curl und Trizeps-Pushdown mit ROT -> je 15/15/15 an der Obergrenze (Regel 2) => ROT BLEIBT, weiter vom Anker wegtreten. DUNKELGRUEN war am 13.08. zu schwer (13/8/8).\n· Band-Chest-Press mit DUNKELGRUEN -> 12/14/15, erstmals im Zielbereich (Regel 3) => halten.\n· Kurzhantel-Squat mit 15-kg-Weste -> 10/10/9 bei Ziel 10-15, dritter Satz UNTER der Untergrenze (Regel 4) => Weste raus, Progression ueber 3s Exzentrik.\n· Kurzhantel-Rudern: Log vom 11.08. ebenfalls vom Cool-down ueberschrieben. Letzter gueltiger Punkt ist der 04.08.: 2x21 kg -> 10/10/8 bei Ziel 8-12, also im Ziel (Regel 3) => halten. 2x21 kg ist ohnehin das Kurzhantel-Maximum.\n· Floor Press faellt weg, an seiner Stelle stehen die exzentrischen Liegestuetze (Physio).\nKONDITION SAMSTAG: 10 Aufstiege mit 10-kg-Weste, danach neuer Block 2.\nACHTUNG: W19 ist die LETZTE Woche dieses Zyklus (Di 18.08. / Do 20.08. / Sa 22.08.2026). Danach neuen Zyklus planen."
  },
  "sessions": [
   {
@@ -61,8 +61,8 @@
     {
      "name": "Band-Außenrotationen",
      "seconds": 30,
-     "perSide": true,
-     "note": ""
+     "perSide": false,
+     "note": "beide Arme gleichzeitig"
     }
    ],
    "blocks": [
@@ -91,7 +91,7 @@
        "perSide": false,
        "detail": "",
        "raw": "A2 Kurzhantel-Squat (Koffergriff) 3x10-15",
-       "resistance": "2x20 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2)",
+       "resistance": "2x20 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2) | 3s exzentrisch",
        "resistanceLabel": "Kurzhantel-Squat",
        "description": "Kurzhanteln links und rechts neben dem Körper hängen lassen (Koffergriff), Füße schulterbreit, Zehen leicht nach außen. Kontrolliert so tief absteigen, wie es schmerzfrei geht, Knie in Richtung Zehen, Rücken neutral. Aus den Fersen hochdrücken. ERSETZT den Bulgarian Split Squat: beidbeinig, dadurch halbe Zeit und deutlich weniger Ermüdung vor dem Kendo. Die Schulter ist unbeteiligt - die Arme hängen einfach. Wenn der Griff vor den Beinen ermüdet: Goblet Squat mit der KB.",
        "video": "",
@@ -107,7 +107,7 @@
       },
       {
        "label": "Kurzhantel-Squat",
-       "value": "2x20 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2)"
+       "value": "2x20 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2) | 3s exzentrisch"
       }
      ]
     },
@@ -116,17 +116,17 @@
      "exercises": [
       {
        "code": "B1",
-       "name": "Kurzhantel Floor Press (neutraler Griff)",
+       "name": "Liegestütz exzentrisch (nur ablassen)",
        "sets": 3,
-       "targetReps": "8-12",
+       "targetReps": "10",
        "perSide": false,
        "detail": "",
-       "raw": "B1 Kurzhantel Floor Press (neutraler Griff) 3x8-12",
-       "resistance": "2x17 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 1x2 + 1x0,5)",
-       "resistanceLabel": "Floor Press",
-       "description": "Rückenlage, Knie angestellt, in jeder Hand eine Kurzhantel mit neutralem Griff (Handflächen zueinander) über der Brust ausdrücken, Ellbogen ~45° vom Körper. Langsam ablassen, bis der Trizeps den Boden berührt – der Boden begrenzt die Bewegung und schützt das AC-Gelenk – kurz pausieren, dann hochdrücken. Ersetzt den KB Floor Press: Die Kurzhantel-Last liegt zentriert über der Handwurzel, das Handgelenk bleibt gerade (KB-Version war fürs Handgelenk schmerzhaft). Brust-/Trizeps-Hauptübung, 2x pro Woche (Di + Sa).",
-       "video": "https://www.youtube.com/watch?v=rs05AtccEhg",
-       "videoNote": ""
+       "raw": "B1 Liegestütz exzentrisch (nur ablassen) 3x10",
+       "resistance": "Eigengewicht | Hände ÜBERSCHULTERBREIT, Ellbogen ca. 45 Grad zum Rumpf, 4 s kontrolliert ablassen, unten kurz auf dem Boden ablegen, KEIN Hochdrücken - auf den Knien zurück in die Ausgangsposition",
+       "resistanceLabel": "Liegestütz",
+       "description": "Vom Krankengymnasten gezeigt und dort erprobt. Liegestuetzposition am Boden, Haende DEUTLICH UEBERSCHULTERBREIT, Ellbogen ca. 45 Grad zum Rumpf (nicht seitlich ausgestellt, nicht eng am Koerper). Rumpf und Gesaess fest, der Koerper bleibt eine Linie. NUR die Absenkphase: 4 Sekunden langsam und kontrolliert bis zum Boden. Unten kurz ablegen. NICHT wieder hochdruecken - stattdessen auf die Knie gehen und so in die Ausgangsposition zurueck. 10 Wiederholungen, 3 Saetze. Die Arme bleiben durchgehend unter Schulterhoehe, die 90-Grad-Regel ist eingehalten. Steigerung spaeter ueber Tempo (5-6 s) oder Fuesse erhoeht - NICHT ueber die Gewichtsweste.",
+       "video": "https://www.youtube.com/watch?v=1JsPD1_7nX0",
+       "videoNote": "Muscle & Motion, Anatomie und typische Fehler - dort wird anschliessend hochgedrueckt, das entfaellt bei dir"
       },
       {
        "code": "B2",
@@ -147,8 +147,8 @@
      "note": "Pause ~75s",
      "resistance": [
       {
-       "label": "Floor Press",
-       "value": "2x17 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 1x2 + 1x0,5)"
+       "label": "Liegestütz",
+       "value": "Eigengewicht | Hände ÜBERSCHULTERBREIT, Ellbogen ca. 45 Grad zum Rumpf, 4 s kontrolliert ablassen, unten kurz auf dem Boden ablegen, KEIN Hochdrücken - auf den Knien zurück in die Ausgangsposition"
       },
       {
        "label": "Curl",
@@ -205,13 +205,13 @@
      "block": "Block 4 (Cool-down)",
      "exercises": [
       {
-       "code": "A1",
+       "code": "D1",
        "name": "Kraniozervikale Flexion",
        "sets": 2,
        "targetReps": "10",
        "perSide": false,
        "detail": "je Wiederholung 10 s halten",
-       "raw": "A1 Kraniozervikale Flexion 2x10 - je Wiederholung 10 s halten",
+       "raw": "D1 Kraniozervikale Flexion 2x10 - je Wiederholung 10 s halten",
        "resistance": "duenne Handtuchrolle unter dem Hinterkopf (Eigengewicht)",
        "resistanceLabel": "Kraniozervikale Flexion",
        "description": "Rueckenlage auf der Matte, duenne Handtuchrolle unter den Hinterkopf. Langsames Nicken (\"Ja\"-Bewegung), als wuerde der Hinterkopf ueber die Rolle rollen - der Kopf bleibt liegen und wird NICHT abgehoben. 10 s halten, 10 Wiederholungen, 2 Saetze. KONTROLLE: zwei Finger seitlich am Hals auf den M. sternocleidomastoideus. Der darf sich nicht anspannen; spannt er an, ist die Bewegung zu gross. Ziel ist die tiefe Halsbeugemuskulatur (M. longus colli und longus capitis), nicht die oberflaechliche. 3-4x/Woche am Ende der Einheit - in diesem Plan an allen drei Trainingstagen. EINORDNUNG: Von Frank selbst eingebracht (05.08.2026). Die Evidenz betrifft den kraniovertebralen Winkel (CVA) bei Vorhaltung des Kopfes und Nackenschmerz; eine Wirkung auf die Kendo-Leistung ist NICHT untersucht. Schulterunbedenklich - die Arme sind unbeteiligt, die 90-Grad-Regel bleibt unberuehrt. Siehe Blatt Quellen.",
@@ -241,9 +241,8 @@
     {
      "gerät": "Kurzhanteln",
      "items": [
-      "2x17 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 1x2 + 1x0,5) (Floor Press)",
       "2x20 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2) (Kurzhantel-Rudern)",
-      "2x20 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2) (Kurzhantel-Squat)"
+      "2x20 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2) | 3s exzentrisch (Kurzhantel-Squat)"
      ]
     },
     {
@@ -293,8 +292,8 @@
     {
      "name": "Band-Außenrotationen",
      "seconds": 30,
-     "perSide": true,
-     "note": ""
+     "perSide": false,
+     "note": "beide Arme gleichzeitig"
     }
    ],
    "blocks": [
@@ -356,8 +355,8 @@
        "raw": "B1 Langhantel Romanian Deadlift 3x8-12",
        "resistance": "Langhantel 45,8 kg gesamt (Stange 7,8 kg + je Seite 2x5 + 4x2 + 2x0,5)",
        "resistanceLabel": "RDL",
-       "description": "Hüfte nach hinten, Rücken neutral, Beinbeuger laden, Hüfte nach vorn strecken. Jetzt mit Langhantel bis 45,8 kg statt Kettlebell (KB-Version war zu leicht).",
-       "video": "https://www.youtube.com/watch?v=M6fGnnNR4bQ",
+       "description": "Hüfte nach hinten, Rücken neutral, Beinbeuger laden, Hüfte nach vorn strecken. Jetzt mit Langhantel bis 45,8 kg statt Kettlebell (KB-Version war zu leicht). Video getauscht am 16.08.2026: das alte zeigte die Kettlebell-Variante.",
+       "video": "https://www.youtube.com/watch?v=xgusDooVfKU",
        "videoNote": ""
       },
       {
@@ -415,7 +414,7 @@
        "raw": "C2 Band-Außenrotationen 3x12-15",
        "resistance": "Band LILA (15-25 lbs) [bewusst leicht - Schulter! NICHT staerker waehlen]",
        "resistanceLabel": "Außenrotation",
-       "description": "BAND: LILA (15-25 lbs). Ellbogen am Körper, 90° gebeugt, Unterarm gegen leichtes Band nach außen rotieren – Rotatorenmanschette. Jetzt auch Dead-Hang-Ersatz im Warm-up.",
+       "description": "BAND: LILA (15-25 lbs). Ellbogen am Körper, 90° gebeugt, Unterarm gegen leichtes Band nach außen rotieren – Rotatorenmanschette. Jetzt auch Dead-Hang-Ersatz im Warm-up. BEIDE ARME GLEICHZEITIG - so zeigt es auch das Video. Im Warm-up reicht deshalb EIN Durchgang von 30 s, nicht zwei (korrigiert am 16.08.2026).",
        "video": "https://www.youtube.com/watch?v=_UvmPNGtlPM",
        "videoNote": ""
       }
@@ -437,13 +436,13 @@
      "block": "Block 4 (Cool-down)",
      "exercises": [
       {
-       "code": "A1",
+       "code": "D1",
        "name": "Kraniozervikale Flexion",
        "sets": 2,
        "targetReps": "10",
        "perSide": false,
        "detail": "je Wiederholung 10 s halten",
-       "raw": "A1 Kraniozervikale Flexion 2x10 - je Wiederholung 10 s halten",
+       "raw": "D1 Kraniozervikale Flexion 2x10 - je Wiederholung 10 s halten",
        "resistance": "duenne Handtuchrolle unter dem Hinterkopf (Eigengewicht)",
        "resistanceLabel": "Kraniozervikale Flexion",
        "description": "Rueckenlage auf der Matte, duenne Handtuchrolle unter den Hinterkopf. Langsames Nicken (\"Ja\"-Bewegung), als wuerde der Hinterkopf ueber die Rolle rollen - der Kopf bleibt liegen und wird NICHT abgehoben. 10 s halten, 10 Wiederholungen, 2 Saetze. KONTROLLE: zwei Finger seitlich am Hals auf den M. sternocleidomastoideus. Der darf sich nicht anspannen; spannt er an, ist die Bewegung zu gross. Ziel ist die tiefe Halsbeugemuskulatur (M. longus colli und longus capitis), nicht die oberflaechliche. 3-4x/Woche am Ende der Einheit - in diesem Plan an allen drei Trainingstagen. EINORDNUNG: Von Frank selbst eingebracht (05.08.2026). Die Evidenz betrifft den kraniovertebralen Winkel (CVA) bei Vorhaltung des Kopfes und Nackenschmerz; eine Wirkung auf die Kendo-Leistung ist NICHT untersucht. Schulterunbedenklich - die Arme sind unbeteiligt, die 90-Grad-Regel bleibt unberuehrt. Siehe Blatt Quellen.",
@@ -463,11 +462,11 @@
    ],
    "finish": {
     "text": "Goblet Squat 2x12, 3s exzentrisch, ohne Halten unten - KB vor der Brust, volle kontrollierte Tiefe.",
-    "resistance": "Goblet: KB 24 kg"
+    "resistance": "Goblet: KB 24 kg | + Gewichtsweste 10 kg (ab W19, einmal anlegen)"
    },
    "optional": {
     "text": "Band-Trizeps-Pushdown 2x12-15 - nur wenn du unter 30 min geblieben bist.",
-    "resistance": "Band ORANGE (40-80 lbs)"
+    "resistance": "Band ROT (50-125 lbs)"
    },
    "equipment": [
     {
@@ -540,16 +539,43 @@
      ]
     },
     {
+     "block": "Block 2",
+     "exercises": [
+      {
+       "code": "B1",
+       "name": "Liegestütz exzentrisch (nur ablassen)",
+       "sets": 3,
+       "targetReps": "10",
+       "perSide": false,
+       "detail": "",
+       "raw": "B1 Liegestütz exzentrisch (nur ablassen) 3x10",
+       "resistance": "Eigengewicht | Hände ÜBERSCHULTERBREIT, Ellbogen ca. 45 Grad zum Rumpf, 4 s kontrolliert ablassen, unten kurz auf dem Boden ablegen, KEIN Hochdrücken - auf den Knien zurück in die Ausgangsposition",
+       "resistanceLabel": "Liegestütz",
+       "description": "Vom Krankengymnasten gezeigt und dort erprobt. Liegestuetzposition am Boden, Haende DEUTLICH UEBERSCHULTERBREIT, Ellbogen ca. 45 Grad zum Rumpf (nicht seitlich ausgestellt, nicht eng am Koerper). Rumpf und Gesaess fest, der Koerper bleibt eine Linie. NUR die Absenkphase: 4 Sekunden langsam und kontrolliert bis zum Boden. Unten kurz ablegen. NICHT wieder hochdruecken - stattdessen auf die Knie gehen und so in die Ausgangsposition zurueck. 10 Wiederholungen, 3 Saetze. Die Arme bleiben durchgehend unter Schulterhoehe, die 90-Grad-Regel ist eingehalten. Steigerung spaeter ueber Tempo (5-6 s) oder Fuesse erhoeht - NICHT ueber die Gewichtsweste.",
+       "video": "https://www.youtube.com/watch?v=1JsPD1_7nX0",
+       "videoNote": "Muscle & Motion, Anatomie und typische Fehler - dort wird anschliessend hochgedrueckt, das entfaellt bei dir"
+      }
+     ],
+     "pause": "Pause ~60s",
+     "note": "Pause ~60s",
+     "resistance": [
+      {
+       "label": "Liegestütz",
+       "value": "Eigengewicht | Hände ÜBERSCHULTERBREIT, Ellbogen ca. 45 Grad zum Rumpf, 4 s kontrolliert ablassen, unten kurz auf dem Boden ablegen, KEIN Hochdrücken - auf den Knien zurück in die Ausgangsposition"
+      }
+     ]
+    },
+    {
      "block": "Block 4 (Cool-down)",
      "exercises": [
       {
-       "code": "A1",
+       "code": "D1",
        "name": "Kraniozervikale Flexion",
        "sets": 2,
        "targetReps": "10",
        "perSide": false,
        "detail": "je Wiederholung 10 s halten",
-       "raw": "A1 Kraniozervikale Flexion 2x10 - je Wiederholung 10 s halten",
+       "raw": "D1 Kraniozervikale Flexion 2x10 - je Wiederholung 10 s halten",
        "resistance": "duenne Handtuchrolle unter dem Hinterkopf (Eigengewicht)",
        "resistanceLabel": "Kraniozervikale Flexion",
        "description": "Rueckenlage auf der Matte, duenne Handtuchrolle unter den Hinterkopf. Langsames Nicken (\"Ja\"-Bewegung), als wuerde der Hinterkopf ueber die Rolle rollen - der Kopf bleibt liegen und wird NICHT abgehoben. 10 s halten, 10 Wiederholungen, 2 Saetze. KONTROLLE: zwei Finger seitlich am Hals auf den M. sternocleidomastoideus. Der darf sich nicht anspannen; spannt er an, ist die Bewegung zu gross. Ziel ist die tiefe Halsbeugemuskulatur (M. longus colli und longus capitis), nicht die oberflaechliche. 3-4x/Woche am Ende der Einheit - in diesem Plan an allen drei Trainingstagen. EINORDNUNG: Von Frank selbst eingebracht (05.08.2026). Die Evidenz betrifft den kraniovertebralen Winkel (CVA) bei Vorhaltung des Kopfes und Nackenschmerz; eine Wirkung auf die Kendo-Leistung ist NICHT untersucht. Schulterunbedenklich - die Arme sind unbeteiligt, die 90-Grad-Regel bleibt unberuehrt. Siehe Blatt Quellen.",
@@ -568,7 +594,7 @@
     }
    ],
    "finish": {
-    "text": "3 min lockeres Gehen als Cool-down. Danach Zeit pro Aufstieg und hoechsten Puls in die App eintragen.",
+    "text": "Nach den Aufstiegen 3 min lockeres Gehen als Cool-down. Zeit pro Aufstieg und hoechsten Puls in die App eintragen.",
     "resistance": ""
    },
    "optional": {
@@ -621,8 +647,8 @@
     {
      "name": "Band-Außenrotationen",
      "seconds": 30,
-     "perSide": true,
-     "note": ""
+     "perSide": false,
+     "note": "beide Arme gleichzeitig"
     }
    ],
    "blocks": [
@@ -651,7 +677,7 @@
        "perSide": false,
        "detail": "",
        "raw": "A2 Kurzhantel-Squat (Koffergriff) 3x10-15",
-       "resistance": "2x21 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2 + 1x0,5) | + Gewichtsweste 10 kg",
+       "resistance": "2x21 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2 + 1x0,5) | 3s exzentrisch",
        "resistanceLabel": "Kurzhantel-Squat",
        "description": "Kurzhanteln links und rechts neben dem Körper hängen lassen (Koffergriff), Füße schulterbreit, Zehen leicht nach außen. Kontrolliert so tief absteigen, wie es schmerzfrei geht, Knie in Richtung Zehen, Rücken neutral. Aus den Fersen hochdrücken. ERSETZT den Bulgarian Split Squat: beidbeinig, dadurch halbe Zeit und deutlich weniger Ermüdung vor dem Kendo. Die Schulter ist unbeteiligt - die Arme hängen einfach. Wenn der Griff vor den Beinen ermüdet: Goblet Squat mit der KB.",
        "video": "",
@@ -667,7 +693,7 @@
       },
       {
        "label": "Kurzhantel-Squat",
-       "value": "2x21 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2 + 1x0,5) | + Gewichtsweste 10 kg"
+       "value": "2x21 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2 + 1x0,5) | 3s exzentrisch"
       }
      ]
     },
@@ -676,17 +702,17 @@
      "exercises": [
       {
        "code": "B1",
-       "name": "Kurzhantel Floor Press (neutraler Griff)",
+       "name": "Liegestütz exzentrisch (nur ablassen)",
        "sets": 3,
-       "targetReps": "8-12",
+       "targetReps": "10",
        "perSide": false,
        "detail": "",
-       "raw": "B1 Kurzhantel Floor Press (neutraler Griff) 3x8-12",
-       "resistance": "2x17 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 1x2 + 1x0,5)",
-       "resistanceLabel": "Floor Press",
-       "description": "Rückenlage, Knie angestellt, in jeder Hand eine Kurzhantel mit neutralem Griff (Handflächen zueinander) über der Brust ausdrücken, Ellbogen ~45° vom Körper. Langsam ablassen, bis der Trizeps den Boden berührt – der Boden begrenzt die Bewegung und schützt das AC-Gelenk – kurz pausieren, dann hochdrücken. Ersetzt den KB Floor Press: Die Kurzhantel-Last liegt zentriert über der Handwurzel, das Handgelenk bleibt gerade (KB-Version war fürs Handgelenk schmerzhaft). Brust-/Trizeps-Hauptübung, 2x pro Woche (Di + Sa).",
-       "video": "https://www.youtube.com/watch?v=rs05AtccEhg",
-       "videoNote": ""
+       "raw": "B1 Liegestütz exzentrisch (nur ablassen) 3x10",
+       "resistance": "Eigengewicht | Hände ÜBERSCHULTERBREIT, Ellbogen ca. 45 Grad zum Rumpf, 4 s kontrolliert ablassen, unten kurz auf dem Boden ablegen, KEIN Hochdrücken - auf den Knien zurück in die Ausgangsposition",
+       "resistanceLabel": "Liegestütz",
+       "description": "Vom Krankengymnasten gezeigt und dort erprobt. Liegestuetzposition am Boden, Haende DEUTLICH UEBERSCHULTERBREIT, Ellbogen ca. 45 Grad zum Rumpf (nicht seitlich ausgestellt, nicht eng am Koerper). Rumpf und Gesaess fest, der Koerper bleibt eine Linie. NUR die Absenkphase: 4 Sekunden langsam und kontrolliert bis zum Boden. Unten kurz ablegen. NICHT wieder hochdruecken - stattdessen auf die Knie gehen und so in die Ausgangsposition zurueck. 10 Wiederholungen, 3 Saetze. Die Arme bleiben durchgehend unter Schulterhoehe, die 90-Grad-Regel ist eingehalten. Steigerung spaeter ueber Tempo (5-6 s) oder Fuesse erhoeht - NICHT ueber die Gewichtsweste.",
+       "video": "https://www.youtube.com/watch?v=1JsPD1_7nX0",
+       "videoNote": "Muscle & Motion, Anatomie und typische Fehler - dort wird anschliessend hochgedrueckt, das entfaellt bei dir"
       },
       {
        "code": "B2",
@@ -707,8 +733,8 @@
      "note": "Pause ~75s",
      "resistance": [
       {
-       "label": "Floor Press",
-       "value": "2x17 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 1x2 + 1x0,5)"
+       "label": "Liegestütz",
+       "value": "Eigengewicht | Hände ÜBERSCHULTERBREIT, Ellbogen ca. 45 Grad zum Rumpf, 4 s kontrolliert ablassen, unten kurz auf dem Boden ablegen, KEIN Hochdrücken - auf den Knien zurück in die Ausgangsposition"
       },
       {
        "label": "Curl",
@@ -765,13 +791,13 @@
      "block": "Block 4 (Cool-down)",
      "exercises": [
       {
-       "code": "A1",
+       "code": "D1",
        "name": "Kraniozervikale Flexion",
        "sets": 2,
        "targetReps": "10",
        "perSide": false,
        "detail": "je Wiederholung 10 s halten",
-       "raw": "A1 Kraniozervikale Flexion 2x10 - je Wiederholung 10 s halten",
+       "raw": "D1 Kraniozervikale Flexion 2x10 - je Wiederholung 10 s halten",
        "resistance": "duenne Handtuchrolle unter dem Hinterkopf (Eigengewicht)",
        "resistanceLabel": "Kraniozervikale Flexion",
        "description": "Rueckenlage auf der Matte, duenne Handtuchrolle unter den Hinterkopf. Langsames Nicken (\"Ja\"-Bewegung), als wuerde der Hinterkopf ueber die Rolle rollen - der Kopf bleibt liegen und wird NICHT abgehoben. 10 s halten, 10 Wiederholungen, 2 Saetze. KONTROLLE: zwei Finger seitlich am Hals auf den M. sternocleidomastoideus. Der darf sich nicht anspannen; spannt er an, ist die Bewegung zu gross. Ziel ist die tiefe Halsbeugemuskulatur (M. longus colli und longus capitis), nicht die oberflaechliche. 3-4x/Woche am Ende der Einheit - in diesem Plan an allen drei Trainingstagen. EINORDNUNG: Von Frank selbst eingebracht (05.08.2026). Die Evidenz betrifft den kraniovertebralen Winkel (CVA) bei Vorhaltung des Kopfes und Nackenschmerz; eine Wirkung auf die Kendo-Leistung ist NICHT untersucht. Schulterunbedenklich - die Arme sind unbeteiligt, die 90-Grad-Regel bleibt unberuehrt. Siehe Blatt Quellen.",
@@ -801,9 +827,8 @@
     {
      "gerät": "Kurzhanteln",
      "items": [
-      "2x17 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 1x2 + 1x0,5) (Floor Press)",
       "2x21 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2 + 1x0,5) (Kurzhantel-Rudern)",
-      "2x21 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2 + 1x0,5) | + Gewichtsweste 10 kg (Kurzhantel-Squat)"
+      "2x21 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2 + 1x0,5) | 3s exzentrisch (Kurzhantel-Squat)"
      ]
     },
     {
@@ -853,8 +878,8 @@
     {
      "name": "Band-Außenrotationen",
      "seconds": 30,
-     "perSide": true,
-     "note": ""
+     "perSide": false,
+     "note": "beide Arme gleichzeitig"
     }
    ],
    "blocks": [
@@ -916,8 +941,8 @@
        "raw": "B1 Langhantel Romanian Deadlift 3x8-12",
        "resistance": "Langhantel 49,8 kg gesamt (Stange 7,8 kg + je Seite 1x10 + 2x5 + 2x0,5) | ZUGHILFEN empfohlen - laut deiner Notiz limitiert der GRIFF, nicht die Beinbeuger",
        "resistanceLabel": "RDL",
-       "description": "Hüfte nach hinten, Rücken neutral, Beinbeuger laden, Hüfte nach vorn strecken. Jetzt mit Langhantel bis 45,8 kg statt Kettlebell (KB-Version war zu leicht).",
-       "video": "https://www.youtube.com/watch?v=M6fGnnNR4bQ",
+       "description": "Hüfte nach hinten, Rücken neutral, Beinbeuger laden, Hüfte nach vorn strecken. Jetzt mit Langhantel bis 45,8 kg statt Kettlebell (KB-Version war zu leicht). Video getauscht am 16.08.2026: das alte zeigte die Kettlebell-Variante.",
+       "video": "https://www.youtube.com/watch?v=xgusDooVfKU",
        "videoNote": ""
       },
       {
@@ -975,7 +1000,7 @@
        "raw": "C2 Band-Außenrotationen 3x12-15",
        "resistance": "Band LILA (15-25 lbs) [bewusst leicht - Schulter! NICHT staerker waehlen]",
        "resistanceLabel": "Außenrotation",
-       "description": "BAND: LILA (15-25 lbs). Ellbogen am Körper, 90° gebeugt, Unterarm gegen leichtes Band nach außen rotieren – Rotatorenmanschette. Jetzt auch Dead-Hang-Ersatz im Warm-up.",
+       "description": "BAND: LILA (15-25 lbs). Ellbogen am Körper, 90° gebeugt, Unterarm gegen leichtes Band nach außen rotieren – Rotatorenmanschette. Jetzt auch Dead-Hang-Ersatz im Warm-up. BEIDE ARME GLEICHZEITIG - so zeigt es auch das Video. Im Warm-up reicht deshalb EIN Durchgang von 30 s, nicht zwei (korrigiert am 16.08.2026).",
        "video": "https://www.youtube.com/watch?v=_UvmPNGtlPM",
        "videoNote": ""
       }
@@ -997,13 +1022,13 @@
      "block": "Block 4 (Cool-down)",
      "exercises": [
       {
-       "code": "A1",
+       "code": "D1",
        "name": "Kraniozervikale Flexion",
        "sets": 2,
        "targetReps": "10",
        "perSide": false,
        "detail": "je Wiederholung 10 s halten",
-       "raw": "A1 Kraniozervikale Flexion 2x10 - je Wiederholung 10 s halten",
+       "raw": "D1 Kraniozervikale Flexion 2x10 - je Wiederholung 10 s halten",
        "resistance": "duenne Handtuchrolle unter dem Hinterkopf (Eigengewicht)",
        "resistanceLabel": "Kraniozervikale Flexion",
        "description": "Rueckenlage auf der Matte, duenne Handtuchrolle unter den Hinterkopf. Langsames Nicken (\"Ja\"-Bewegung), als wuerde der Hinterkopf ueber die Rolle rollen - der Kopf bleibt liegen und wird NICHT abgehoben. 10 s halten, 10 Wiederholungen, 2 Saetze. KONTROLLE: zwei Finger seitlich am Hals auf den M. sternocleidomastoideus. Der darf sich nicht anspannen; spannt er an, ist die Bewegung zu gross. Ziel ist die tiefe Halsbeugemuskulatur (M. longus colli und longus capitis), nicht die oberflaechliche. 3-4x/Woche am Ende der Einheit - in diesem Plan an allen drei Trainingstagen. EINORDNUNG: Von Frank selbst eingebracht (05.08.2026). Die Evidenz betrifft den kraniovertebralen Winkel (CVA) bei Vorhaltung des Kopfes und Nackenschmerz; eine Wirkung auf die Kendo-Leistung ist NICHT untersucht. Schulterunbedenklich - die Arme sind unbeteiligt, die 90-Grad-Regel bleibt unberuehrt. Siehe Blatt Quellen.",
@@ -1023,11 +1048,11 @@
    ],
    "finish": {
     "text": "Goblet Squat 2x12, 3s exzentrisch, ohne Halten unten - KB vor der Brust, volle kontrollierte Tiefe.",
-    "resistance": "Goblet: KB 24 kg"
+    "resistance": "Goblet: KB 24 kg | + Gewichtsweste 10 kg (ab W19, einmal anlegen)"
    },
    "optional": {
     "text": "Band-Trizeps-Pushdown 2x12-15 - nur wenn du unter 30 min geblieben bist.",
-    "resistance": "Band ORANGE (40-80 lbs)"
+    "resistance": "Band ROT (50-125 lbs)"
    },
    "equipment": [
     {
@@ -1100,16 +1125,43 @@
      ]
     },
     {
+     "block": "Block 2",
+     "exercises": [
+      {
+       "code": "B1",
+       "name": "Liegestütz exzentrisch (nur ablassen)",
+       "sets": 3,
+       "targetReps": "10",
+       "perSide": false,
+       "detail": "",
+       "raw": "B1 Liegestütz exzentrisch (nur ablassen) 3x10",
+       "resistance": "Eigengewicht | Hände ÜBERSCHULTERBREIT, Ellbogen ca. 45 Grad zum Rumpf, 4 s kontrolliert ablassen, unten kurz auf dem Boden ablegen, KEIN Hochdrücken - auf den Knien zurück in die Ausgangsposition",
+       "resistanceLabel": "Liegestütz",
+       "description": "Vom Krankengymnasten gezeigt und dort erprobt. Liegestuetzposition am Boden, Haende DEUTLICH UEBERSCHULTERBREIT, Ellbogen ca. 45 Grad zum Rumpf (nicht seitlich ausgestellt, nicht eng am Koerper). Rumpf und Gesaess fest, der Koerper bleibt eine Linie. NUR die Absenkphase: 4 Sekunden langsam und kontrolliert bis zum Boden. Unten kurz ablegen. NICHT wieder hochdruecken - stattdessen auf die Knie gehen und so in die Ausgangsposition zurueck. 10 Wiederholungen, 3 Saetze. Die Arme bleiben durchgehend unter Schulterhoehe, die 90-Grad-Regel ist eingehalten. Steigerung spaeter ueber Tempo (5-6 s) oder Fuesse erhoeht - NICHT ueber die Gewichtsweste.",
+       "video": "https://www.youtube.com/watch?v=1JsPD1_7nX0",
+       "videoNote": "Muscle & Motion, Anatomie und typische Fehler - dort wird anschliessend hochgedrueckt, das entfaellt bei dir"
+      }
+     ],
+     "pause": "Pause ~60s",
+     "note": "Pause ~60s",
+     "resistance": [
+      {
+       "label": "Liegestütz",
+       "value": "Eigengewicht | Hände ÜBERSCHULTERBREIT, Ellbogen ca. 45 Grad zum Rumpf, 4 s kontrolliert ablassen, unten kurz auf dem Boden ablegen, KEIN Hochdrücken - auf den Knien zurück in die Ausgangsposition"
+      }
+     ]
+    },
+    {
      "block": "Block 4 (Cool-down)",
      "exercises": [
       {
-       "code": "A1",
+       "code": "D1",
        "name": "Kraniozervikale Flexion",
        "sets": 2,
        "targetReps": "10",
        "perSide": false,
        "detail": "je Wiederholung 10 s halten",
-       "raw": "A1 Kraniozervikale Flexion 2x10 - je Wiederholung 10 s halten",
+       "raw": "D1 Kraniozervikale Flexion 2x10 - je Wiederholung 10 s halten",
        "resistance": "duenne Handtuchrolle unter dem Hinterkopf (Eigengewicht)",
        "resistanceLabel": "Kraniozervikale Flexion",
        "description": "Rueckenlage auf der Matte, duenne Handtuchrolle unter den Hinterkopf. Langsames Nicken (\"Ja\"-Bewegung), als wuerde der Hinterkopf ueber die Rolle rollen - der Kopf bleibt liegen und wird NICHT abgehoben. 10 s halten, 10 Wiederholungen, 2 Saetze. KONTROLLE: zwei Finger seitlich am Hals auf den M. sternocleidomastoideus. Der darf sich nicht anspannen; spannt er an, ist die Bewegung zu gross. Ziel ist die tiefe Halsbeugemuskulatur (M. longus colli und longus capitis), nicht die oberflaechliche. 3-4x/Woche am Ende der Einheit - in diesem Plan an allen drei Trainingstagen. EINORDNUNG: Von Frank selbst eingebracht (05.08.2026). Die Evidenz betrifft den kraniovertebralen Winkel (CVA) bei Vorhaltung des Kopfes und Nackenschmerz; eine Wirkung auf die Kendo-Leistung ist NICHT untersucht. Schulterunbedenklich - die Arme sind unbeteiligt, die 90-Grad-Regel bleibt unberuehrt. Siehe Blatt Quellen.",
@@ -1128,7 +1180,7 @@
     }
    ],
    "finish": {
-    "text": "3 min lockeres Gehen als Cool-down. Danach Zeit pro Aufstieg und hoechsten Puls in die App eintragen.",
+    "text": "Nach den Aufstiegen 3 min lockeres Gehen als Cool-down. Zeit pro Aufstieg und hoechsten Puls in die App eintragen.",
     "resistance": ""
    },
    "optional": {
@@ -1181,8 +1233,8 @@
     {
      "name": "Band-Außenrotationen",
      "seconds": 30,
-     "perSide": true,
-     "note": ""
+     "perSide": false,
+     "note": "beide Arme gleichzeitig"
     }
    ],
    "blocks": [
@@ -1211,7 +1263,7 @@
        "perSide": false,
        "detail": "",
        "raw": "A2 Kurzhantel-Squat (Koffergriff) 3x10-15",
-       "resistance": "2x21 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2 + 1x0,5) | + Gewichtsweste 15 kg",
+       "resistance": "2x21 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2 + 1x0,5) | 3s exzentrisch",
        "resistanceLabel": "Kurzhantel-Squat",
        "description": "Kurzhanteln links und rechts neben dem Körper hängen lassen (Koffergriff), Füße schulterbreit, Zehen leicht nach außen. Kontrolliert so tief absteigen, wie es schmerzfrei geht, Knie in Richtung Zehen, Rücken neutral. Aus den Fersen hochdrücken. ERSETZT den Bulgarian Split Squat: beidbeinig, dadurch halbe Zeit und deutlich weniger Ermüdung vor dem Kendo. Die Schulter ist unbeteiligt - die Arme hängen einfach. Wenn der Griff vor den Beinen ermüdet: Goblet Squat mit der KB.",
        "video": "",
@@ -1227,7 +1279,7 @@
       },
       {
        "label": "Kurzhantel-Squat",
-       "value": "2x21 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2 + 1x0,5) | + Gewichtsweste 15 kg"
+       "value": "2x21 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2 + 1x0,5) | 3s exzentrisch"
       }
      ]
     },
@@ -1236,17 +1288,17 @@
      "exercises": [
       {
        "code": "B1",
-       "name": "Kurzhantel Floor Press (neutraler Griff)",
+       "name": "Liegestütz exzentrisch (nur ablassen)",
        "sets": 3,
-       "targetReps": "8-12",
+       "targetReps": "10",
        "perSide": false,
        "detail": "",
-       "raw": "B1 Kurzhantel Floor Press (neutraler Griff) 3x8-12",
-       "resistance": "2x17 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 1x2 + 1x0,5) | 3s exzentrisch",
-       "resistanceLabel": "Floor Press",
-       "description": "Rückenlage, Knie angestellt, in jeder Hand eine Kurzhantel mit neutralem Griff (Handflächen zueinander) über der Brust ausdrücken, Ellbogen ~45° vom Körper. Langsam ablassen, bis der Trizeps den Boden berührt – der Boden begrenzt die Bewegung und schützt das AC-Gelenk – kurz pausieren, dann hochdrücken. Ersetzt den KB Floor Press: Die Kurzhantel-Last liegt zentriert über der Handwurzel, das Handgelenk bleibt gerade (KB-Version war fürs Handgelenk schmerzhaft). Brust-/Trizeps-Hauptübung, 2x pro Woche (Di + Sa).",
-       "video": "https://www.youtube.com/watch?v=rs05AtccEhg",
-       "videoNote": ""
+       "raw": "B1 Liegestütz exzentrisch (nur ablassen) 3x10",
+       "resistance": "Eigengewicht | Hände ÜBERSCHULTERBREIT, Ellbogen ca. 45 Grad zum Rumpf, 4 s kontrolliert ablassen, unten kurz auf dem Boden ablegen, KEIN Hochdrücken - auf den Knien zurück in die Ausgangsposition",
+       "resistanceLabel": "Liegestütz",
+       "description": "Vom Krankengymnasten gezeigt und dort erprobt. Liegestuetzposition am Boden, Haende DEUTLICH UEBERSCHULTERBREIT, Ellbogen ca. 45 Grad zum Rumpf (nicht seitlich ausgestellt, nicht eng am Koerper). Rumpf und Gesaess fest, der Koerper bleibt eine Linie. NUR die Absenkphase: 4 Sekunden langsam und kontrolliert bis zum Boden. Unten kurz ablegen. NICHT wieder hochdruecken - stattdessen auf die Knie gehen und so in die Ausgangsposition zurueck. 10 Wiederholungen, 3 Saetze. Die Arme bleiben durchgehend unter Schulterhoehe, die 90-Grad-Regel ist eingehalten. Steigerung spaeter ueber Tempo (5-6 s) oder Fuesse erhoeht - NICHT ueber die Gewichtsweste.",
+       "video": "https://www.youtube.com/watch?v=1JsPD1_7nX0",
+       "videoNote": "Muscle & Motion, Anatomie und typische Fehler - dort wird anschliessend hochgedrueckt, das entfaellt bei dir"
       },
       {
        "code": "B2",
@@ -1267,8 +1319,8 @@
      "note": "Pause ~75s",
      "resistance": [
       {
-       "label": "Floor Press",
-       "value": "2x17 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 1x2 + 1x0,5) | 3s exzentrisch"
+       "label": "Liegestütz",
+       "value": "Eigengewicht | Hände ÜBERSCHULTERBREIT, Ellbogen ca. 45 Grad zum Rumpf, 4 s kontrolliert ablassen, unten kurz auf dem Boden ablegen, KEIN Hochdrücken - auf den Knien zurück in die Ausgangsposition"
       },
       {
        "label": "Curl",
@@ -1325,13 +1377,13 @@
      "block": "Block 4 (Cool-down)",
      "exercises": [
       {
-       "code": "A1",
+       "code": "D1",
        "name": "Kraniozervikale Flexion",
        "sets": 2,
        "targetReps": "10",
        "perSide": false,
        "detail": "je Wiederholung 10 s halten",
-       "raw": "A1 Kraniozervikale Flexion 2x10 - je Wiederholung 10 s halten",
+       "raw": "D1 Kraniozervikale Flexion 2x10 - je Wiederholung 10 s halten",
        "resistance": "duenne Handtuchrolle unter dem Hinterkopf (Eigengewicht)",
        "resistanceLabel": "Kraniozervikale Flexion",
        "description": "Rueckenlage auf der Matte, duenne Handtuchrolle unter den Hinterkopf. Langsames Nicken (\"Ja\"-Bewegung), als wuerde der Hinterkopf ueber die Rolle rollen - der Kopf bleibt liegen und wird NICHT abgehoben. 10 s halten, 10 Wiederholungen, 2 Saetze. KONTROLLE: zwei Finger seitlich am Hals auf den M. sternocleidomastoideus. Der darf sich nicht anspannen; spannt er an, ist die Bewegung zu gross. Ziel ist die tiefe Halsbeugemuskulatur (M. longus colli und longus capitis), nicht die oberflaechliche. 3-4x/Woche am Ende der Einheit - in diesem Plan an allen drei Trainingstagen. EINORDNUNG: Von Frank selbst eingebracht (05.08.2026). Die Evidenz betrifft den kraniovertebralen Winkel (CVA) bei Vorhaltung des Kopfes und Nackenschmerz; eine Wirkung auf die Kendo-Leistung ist NICHT untersucht. Schulterunbedenklich - die Arme sind unbeteiligt, die 90-Grad-Regel bleibt unberuehrt. Siehe Blatt Quellen.",
@@ -1361,9 +1413,8 @@
     {
      "gerät": "Kurzhanteln",
      "items": [
-      "2x17 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 1x2 + 1x0,5) | 3s exzentrisch (Floor Press)",
-      "2x21 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2 + 1x0,5) | + Gewichtsweste 15 kg (Kurzhantel-Squat)",
-      "2x21 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2 + 1x0,5) | 3s exzentrisch (Kurzhantel-Rudern)"
+      "2x21 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2 + 1x0,5) | 3s exzentrisch (Kurzhantel-Rudern)",
+      "2x21 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2 + 1x0,5) | 3s exzentrisch (Kurzhantel-Squat)"
      ]
     },
     {
@@ -1413,8 +1464,8 @@
     {
      "name": "Band-Außenrotationen",
      "seconds": 30,
-     "perSide": true,
-     "note": ""
+     "perSide": false,
+     "note": "beide Arme gleichzeitig"
     }
    ],
    "blocks": [
@@ -1476,8 +1527,8 @@
        "raw": "B1 Langhantel Romanian Deadlift 3x8-12",
        "resistance": "Langhantel 51,8 kg gesamt (Stange 7,8 kg + je Seite 1x10 + 2x5 + 1x2) | Zughilfen + 3s exzentrisch",
        "resistanceLabel": "RDL",
-       "description": "Hüfte nach hinten, Rücken neutral, Beinbeuger laden, Hüfte nach vorn strecken. Jetzt mit Langhantel bis 45,8 kg statt Kettlebell (KB-Version war zu leicht).",
-       "video": "https://www.youtube.com/watch?v=M6fGnnNR4bQ",
+       "description": "Hüfte nach hinten, Rücken neutral, Beinbeuger laden, Hüfte nach vorn strecken. Jetzt mit Langhantel bis 45,8 kg statt Kettlebell (KB-Version war zu leicht). Video getauscht am 16.08.2026: das alte zeigte die Kettlebell-Variante.",
+       "video": "https://www.youtube.com/watch?v=xgusDooVfKU",
        "videoNote": ""
       },
       {
@@ -1535,7 +1586,7 @@
        "raw": "C2 Band-Außenrotationen 3x12-15",
        "resistance": "Band LILA (15-25 lbs) [bewusst leicht - Schulter! NICHT staerker waehlen]",
        "resistanceLabel": "Außenrotation",
-       "description": "BAND: LILA (15-25 lbs). Ellbogen am Körper, 90° gebeugt, Unterarm gegen leichtes Band nach außen rotieren – Rotatorenmanschette. Jetzt auch Dead-Hang-Ersatz im Warm-up.",
+       "description": "BAND: LILA (15-25 lbs). Ellbogen am Körper, 90° gebeugt, Unterarm gegen leichtes Band nach außen rotieren – Rotatorenmanschette. Jetzt auch Dead-Hang-Ersatz im Warm-up. BEIDE ARME GLEICHZEITIG - so zeigt es auch das Video. Im Warm-up reicht deshalb EIN Durchgang von 30 s, nicht zwei (korrigiert am 16.08.2026).",
        "video": "https://www.youtube.com/watch?v=_UvmPNGtlPM",
        "videoNote": ""
       }
@@ -1557,13 +1608,13 @@
      "block": "Block 4 (Cool-down)",
      "exercises": [
       {
-       "code": "A1",
+       "code": "D1",
        "name": "Kraniozervikale Flexion",
        "sets": 2,
        "targetReps": "10",
        "perSide": false,
        "detail": "je Wiederholung 10 s halten",
-       "raw": "A1 Kraniozervikale Flexion 2x10 - je Wiederholung 10 s halten",
+       "raw": "D1 Kraniozervikale Flexion 2x10 - je Wiederholung 10 s halten",
        "resistance": "duenne Handtuchrolle unter dem Hinterkopf (Eigengewicht)",
        "resistanceLabel": "Kraniozervikale Flexion",
        "description": "Rueckenlage auf der Matte, duenne Handtuchrolle unter den Hinterkopf. Langsames Nicken (\"Ja\"-Bewegung), als wuerde der Hinterkopf ueber die Rolle rollen - der Kopf bleibt liegen und wird NICHT abgehoben. 10 s halten, 10 Wiederholungen, 2 Saetze. KONTROLLE: zwei Finger seitlich am Hals auf den M. sternocleidomastoideus. Der darf sich nicht anspannen; spannt er an, ist die Bewegung zu gross. Ziel ist die tiefe Halsbeugemuskulatur (M. longus colli und longus capitis), nicht die oberflaechliche. 3-4x/Woche am Ende der Einheit - in diesem Plan an allen drei Trainingstagen. EINORDNUNG: Von Frank selbst eingebracht (05.08.2026). Die Evidenz betrifft den kraniovertebralen Winkel (CVA) bei Vorhaltung des Kopfes und Nackenschmerz; eine Wirkung auf die Kendo-Leistung ist NICHT untersucht. Schulterunbedenklich - die Arme sind unbeteiligt, die 90-Grad-Regel bleibt unberuehrt. Siehe Blatt Quellen.",
@@ -1583,11 +1634,11 @@
    ],
    "finish": {
     "text": "Goblet Squat 2x12, 3s exzentrisch, ohne Halten unten - KB vor der Brust, volle kontrollierte Tiefe.",
-    "resistance": "Goblet: KB 24 kg"
+    "resistance": "Goblet: KB 24 kg | + Gewichtsweste 10 kg (ab W19, einmal anlegen)"
    },
    "optional": {
     "text": "Band-Trizeps-Pushdown 2x12-15 - nur wenn du unter 30 min geblieben bist.",
-    "resistance": "Band ORANGE (40-80 lbs)"
+    "resistance": "Band ROT (50-125 lbs)"
    },
    "equipment": [
     {
@@ -1660,16 +1711,43 @@
      ]
     },
     {
+     "block": "Block 2",
+     "exercises": [
+      {
+       "code": "B1",
+       "name": "Liegestütz exzentrisch (nur ablassen)",
+       "sets": 3,
+       "targetReps": "10",
+       "perSide": false,
+       "detail": "",
+       "raw": "B1 Liegestütz exzentrisch (nur ablassen) 3x10",
+       "resistance": "Eigengewicht | Hände ÜBERSCHULTERBREIT, Ellbogen ca. 45 Grad zum Rumpf, 4 s kontrolliert ablassen, unten kurz auf dem Boden ablegen, KEIN Hochdrücken - auf den Knien zurück in die Ausgangsposition",
+       "resistanceLabel": "Liegestütz",
+       "description": "Vom Krankengymnasten gezeigt und dort erprobt. Liegestuetzposition am Boden, Haende DEUTLICH UEBERSCHULTERBREIT, Ellbogen ca. 45 Grad zum Rumpf (nicht seitlich ausgestellt, nicht eng am Koerper). Rumpf und Gesaess fest, der Koerper bleibt eine Linie. NUR die Absenkphase: 4 Sekunden langsam und kontrolliert bis zum Boden. Unten kurz ablegen. NICHT wieder hochdruecken - stattdessen auf die Knie gehen und so in die Ausgangsposition zurueck. 10 Wiederholungen, 3 Saetze. Die Arme bleiben durchgehend unter Schulterhoehe, die 90-Grad-Regel ist eingehalten. Steigerung spaeter ueber Tempo (5-6 s) oder Fuesse erhoeht - NICHT ueber die Gewichtsweste.",
+       "video": "https://www.youtube.com/watch?v=1JsPD1_7nX0",
+       "videoNote": "Muscle & Motion, Anatomie und typische Fehler - dort wird anschliessend hochgedrueckt, das entfaellt bei dir"
+      }
+     ],
+     "pause": "Pause ~60s",
+     "note": "Pause ~60s",
+     "resistance": [
+      {
+       "label": "Liegestütz",
+       "value": "Eigengewicht | Hände ÜBERSCHULTERBREIT, Ellbogen ca. 45 Grad zum Rumpf, 4 s kontrolliert ablassen, unten kurz auf dem Boden ablegen, KEIN Hochdrücken - auf den Knien zurück in die Ausgangsposition"
+      }
+     ]
+    },
+    {
      "block": "Block 4 (Cool-down)",
      "exercises": [
       {
-       "code": "A1",
+       "code": "D1",
        "name": "Kraniozervikale Flexion",
        "sets": 2,
        "targetReps": "10",
        "perSide": false,
        "detail": "je Wiederholung 10 s halten",
-       "raw": "A1 Kraniozervikale Flexion 2x10 - je Wiederholung 10 s halten",
+       "raw": "D1 Kraniozervikale Flexion 2x10 - je Wiederholung 10 s halten",
        "resistance": "duenne Handtuchrolle unter dem Hinterkopf (Eigengewicht)",
        "resistanceLabel": "Kraniozervikale Flexion",
        "description": "Rueckenlage auf der Matte, duenne Handtuchrolle unter den Hinterkopf. Langsames Nicken (\"Ja\"-Bewegung), als wuerde der Hinterkopf ueber die Rolle rollen - der Kopf bleibt liegen und wird NICHT abgehoben. 10 s halten, 10 Wiederholungen, 2 Saetze. KONTROLLE: zwei Finger seitlich am Hals auf den M. sternocleidomastoideus. Der darf sich nicht anspannen; spannt er an, ist die Bewegung zu gross. Ziel ist die tiefe Halsbeugemuskulatur (M. longus colli und longus capitis), nicht die oberflaechliche. 3-4x/Woche am Ende der Einheit - in diesem Plan an allen drei Trainingstagen. EINORDNUNG: Von Frank selbst eingebracht (05.08.2026). Die Evidenz betrifft den kraniovertebralen Winkel (CVA) bei Vorhaltung des Kopfes und Nackenschmerz; eine Wirkung auf die Kendo-Leistung ist NICHT untersucht. Schulterunbedenklich - die Arme sind unbeteiligt, die 90-Grad-Regel bleibt unberuehrt. Siehe Blatt Quellen.",
@@ -1688,7 +1766,7 @@
     }
    ],
    "finish": {
-    "text": "3 min lockeres Gehen als Cool-down. Danach Zeit pro Aufstieg und hoechsten Puls in die App eintragen.",
+    "text": "Nach den Aufstiegen 3 min lockeres Gehen als Cool-down. Zeit pro Aufstieg und hoechsten Puls in die App eintragen.",
     "resistance": ""
    },
    "optional": {
@@ -1741,8 +1819,8 @@
     {
      "name": "Band-Außenrotationen",
      "seconds": 30,
-     "perSide": true,
-     "note": ""
+     "perSide": false,
+     "note": "beide Arme gleichzeitig"
     }
    ],
    "blocks": [
@@ -1771,7 +1849,7 @@
        "perSide": false,
        "detail": "",
        "raw": "A2 Kurzhantel-Squat (Koffergriff) 3x10-15",
-       "resistance": "2x21 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2 + 1x0,5) | + Gewichtsweste 20 kg",
+       "resistance": "2x21 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2 + 1x0,5) | 3s exzentrisch",
        "resistanceLabel": "Kurzhantel-Squat",
        "description": "Kurzhanteln links und rechts neben dem Körper hängen lassen (Koffergriff), Füße schulterbreit, Zehen leicht nach außen. Kontrolliert so tief absteigen, wie es schmerzfrei geht, Knie in Richtung Zehen, Rücken neutral. Aus den Fersen hochdrücken. ERSETZT den Bulgarian Split Squat: beidbeinig, dadurch halbe Zeit und deutlich weniger Ermüdung vor dem Kendo. Die Schulter ist unbeteiligt - die Arme hängen einfach. Wenn der Griff vor den Beinen ermüdet: Goblet Squat mit der KB.",
        "video": "",
@@ -1787,7 +1865,7 @@
       },
       {
        "label": "Kurzhantel-Squat",
-       "value": "2x21 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2 + 1x0,5) | + Gewichtsweste 20 kg"
+       "value": "2x21 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2 + 1x0,5) | 3s exzentrisch"
       }
      ]
     },
@@ -1796,17 +1874,17 @@
      "exercises": [
       {
        "code": "B1",
-       "name": "Kurzhantel Floor Press (neutraler Griff)",
+       "name": "Liegestütz exzentrisch (nur ablassen)",
        "sets": 3,
-       "targetReps": "6-10",
+       "targetReps": "10",
        "perSide": false,
        "detail": "",
-       "raw": "B1 Kurzhantel Floor Press (neutraler Griff) 3x6-10",
-       "resistance": "2x20 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2) | 3s exzentrisch",
-       "resistanceLabel": "Floor Press",
-       "description": "Rückenlage, Knie angestellt, in jeder Hand eine Kurzhantel mit neutralem Griff (Handflächen zueinander) über der Brust ausdrücken, Ellbogen ~45° vom Körper. Langsam ablassen, bis der Trizeps den Boden berührt – der Boden begrenzt die Bewegung und schützt das AC-Gelenk – kurz pausieren, dann hochdrücken. Ersetzt den KB Floor Press: Die Kurzhantel-Last liegt zentriert über der Handwurzel, das Handgelenk bleibt gerade (KB-Version war fürs Handgelenk schmerzhaft). Brust-/Trizeps-Hauptübung, 2x pro Woche (Di + Sa).",
-       "video": "https://www.youtube.com/watch?v=rs05AtccEhg",
-       "videoNote": ""
+       "raw": "B1 Liegestütz exzentrisch (nur ablassen) 3x10",
+       "resistance": "Eigengewicht | Hände ÜBERSCHULTERBREIT, Ellbogen ca. 45 Grad zum Rumpf, 4 s kontrolliert ablassen, unten kurz auf dem Boden ablegen, KEIN Hochdrücken - auf den Knien zurück in die Ausgangsposition",
+       "resistanceLabel": "Liegestütz",
+       "description": "Vom Krankengymnasten gezeigt und dort erprobt. Liegestuetzposition am Boden, Haende DEUTLICH UEBERSCHULTERBREIT, Ellbogen ca. 45 Grad zum Rumpf (nicht seitlich ausgestellt, nicht eng am Koerper). Rumpf und Gesaess fest, der Koerper bleibt eine Linie. NUR die Absenkphase: 4 Sekunden langsam und kontrolliert bis zum Boden. Unten kurz ablegen. NICHT wieder hochdruecken - stattdessen auf die Knie gehen und so in die Ausgangsposition zurueck. 10 Wiederholungen, 3 Saetze. Die Arme bleiben durchgehend unter Schulterhoehe, die 90-Grad-Regel ist eingehalten. Steigerung spaeter ueber Tempo (5-6 s) oder Fuesse erhoeht - NICHT ueber die Gewichtsweste.",
+       "video": "https://www.youtube.com/watch?v=1JsPD1_7nX0",
+       "videoNote": "Muscle & Motion, Anatomie und typische Fehler - dort wird anschliessend hochgedrueckt, das entfaellt bei dir"
       },
       {
        "code": "B2",
@@ -1816,7 +1894,7 @@
        "perSide": false,
        "detail": "",
        "raw": "B2 Band-Bizeps-Curl beidarmig 3x10-15",
-       "resistance": "Band ORANGE (40-80 lbs) [zu leicht? DUNKELGRUEN (60-170) nehmen oder weiter vom Anker wegtreten]",
+       "resistance": "Band ROT (50-125 lbs) [W18 mit ROT: 15/15/15 - Obergrenze erreicht. Erst weiter vom Anker wegtreten, DUNKELGRUEN war am 13.08. zu schwer (13/8/8)]",
        "resistanceLabel": "Curl",
        "description": "BAND: ORANGE (40-80 lbs). Auf das Band stellen (ein oder beide Füße = Widerstand wählen), Ellbogen fest an den Seiten. Unterarme nach oben curlen, oben kurz anspannen, langsam (2-3s) ablassen. Nur der Unterarm bewegt sich – kein Schwung aus Schulter oder Rücken. Ersetzt das Bizeps-Volumen der weggefallenen Klimmzüge.",
        "video": "https://www.youtube.com/watch?v=Da57AuIofvU",
@@ -1827,12 +1905,12 @@
      "note": "Pause ~75s",
      "resistance": [
       {
-       "label": "Floor Press",
-       "value": "2x20 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2) | 3s exzentrisch"
+       "label": "Liegestütz",
+       "value": "Eigengewicht | Hände ÜBERSCHULTERBREIT, Ellbogen ca. 45 Grad zum Rumpf, 4 s kontrolliert ablassen, unten kurz auf dem Boden ablegen, KEIN Hochdrücken - auf den Knien zurück in die Ausgangsposition"
       },
       {
        "label": "Curl",
-       "value": "Band ORANGE (40-80 lbs) [zu leicht? DUNKELGRUEN (60-170) nehmen oder weiter vom Anker wegtreten]"
+       "value": "Band ROT (50-125 lbs) [W18 mit ROT: 15/15/15 - Obergrenze erreicht. Erst weiter vom Anker wegtreten, DUNKELGRUEN war am 13.08. zu schwer (13/8/8)]"
       }
      ]
     },
@@ -1861,7 +1939,7 @@
        "perSide": false,
        "detail": "",
        "raw": "C2 Band-Trizeps-Pushdown beidarmig 3x10-15",
-       "resistance": "Band ORANGE (40-80 lbs) [zu leicht? DUNKELGRUEN (60-170) nehmen oder weiter vom Anker wegtreten]",
+       "resistance": "Band ROT (50-125 lbs) [W18 mit ROT: 15/15/15 - Obergrenze erreicht. Steigerung ueber Standposition, nicht ueber DUNKELGRUEN]",
        "resistanceLabel": "Pushdown",
        "description": "BAND: ORANGE (40-80 lbs). Band oben verankern (z.B. Klimmzugstange). Ellbogen eng am Körper fixieren, Unterarme nach unten strecken bis die Arme gestreckt sind, Trizeps unten fest anspannen, langsam zurück. Oberarme bewegen sich nicht. Arm bleibt komplett unten – ideal bei 90°-Regel.",
        "video": "https://www.youtube.com/watch?v=qjPN6ElNqpc",
@@ -1877,7 +1955,7 @@
       },
       {
        "label": "Pushdown",
-       "value": "Band ORANGE (40-80 lbs) [zu leicht? DUNKELGRUEN (60-170) nehmen oder weiter vom Anker wegtreten]"
+       "value": "Band ROT (50-125 lbs) [W18 mit ROT: 15/15/15 - Obergrenze erreicht. Steigerung ueber Standposition, nicht ueber DUNKELGRUEN]"
       }
      ]
     },
@@ -1885,13 +1963,13 @@
      "block": "Block 4 (Cool-down)",
      "exercises": [
       {
-       "code": "A1",
+       "code": "D1",
        "name": "Kraniozervikale Flexion",
        "sets": 2,
        "targetReps": "10",
        "perSide": false,
        "detail": "je Wiederholung 10 s halten",
-       "raw": "A1 Kraniozervikale Flexion 2x10 - je Wiederholung 10 s halten",
+       "raw": "D1 Kraniozervikale Flexion 2x10 - je Wiederholung 10 s halten",
        "resistance": "duenne Handtuchrolle unter dem Hinterkopf (Eigengewicht)",
        "resistanceLabel": "Kraniozervikale Flexion",
        "description": "Rueckenlage auf der Matte, duenne Handtuchrolle unter den Hinterkopf. Langsames Nicken (\"Ja\"-Bewegung), als wuerde der Hinterkopf ueber die Rolle rollen - der Kopf bleibt liegen und wird NICHT abgehoben. 10 s halten, 10 Wiederholungen, 2 Saetze. KONTROLLE: zwei Finger seitlich am Hals auf den M. sternocleidomastoideus. Der darf sich nicht anspannen; spannt er an, ist die Bewegung zu gross. Ziel ist die tiefe Halsbeugemuskulatur (M. longus colli und longus capitis), nicht die oberflaechliche. 3-4x/Woche am Ende der Einheit - in diesem Plan an allen drei Trainingstagen. EINORDNUNG: Von Frank selbst eingebracht (05.08.2026). Die Evidenz betrifft den kraniovertebralen Winkel (CVA) bei Vorhaltung des Kopfes und Nackenschmerz; eine Wirkung auf die Kendo-Leistung ist NICHT untersucht. Schulterunbedenklich - die Arme sind unbeteiligt, die 90-Grad-Regel bleibt unberuehrt. Siehe Blatt Quellen.",
@@ -1921,17 +1999,16 @@
     {
      "gerät": "Kurzhanteln",
      "items": [
-      "2x20 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2) | 3s exzentrisch (Floor Press)",
-      "2x21 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2 + 1x0,5) | + Gewichtsweste 20 kg (Kurzhantel-Squat)",
-      "2x21 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2 + 1x0,5) | 3s exzentrisch (Kurzhantel-Rudern)"
+      "2x21 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2 + 1x0,5) | 3s exzentrisch (Kurzhantel-Rudern)",
+      "2x21 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2 + 1x0,5) | 3s exzentrisch (Kurzhantel-Squat)"
      ]
     },
     {
      "gerät": "Bänder",
      "items": [
       "Band LILA (15-25 lbs) [bewusst leicht - Schulter! NICHT staerker waehlen] (Seitheben)",
-      "Band ORANGE (40-80 lbs) [zu leicht? DUNKELGRUEN (60-170) nehmen oder weiter vom Anker wegtreten] (Curl)",
-      "Band ORANGE (40-80 lbs) [zu leicht? DUNKELGRUEN (60-170) nehmen oder weiter vom Anker wegtreten] (Pushdown)"
+      "Band ROT (50-125 lbs) [W18 mit ROT: 15/15/15 - Obergrenze erreicht. Erst weiter vom Anker wegtreten, DUNKELGRUEN war am 13.08. zu schwer (13/8/8)] (Curl)",
+      "Band ROT (50-125 lbs) [W18 mit ROT: 15/15/15 - Obergrenze erreicht. Steigerung ueber Standposition, nicht ueber DUNKELGRUEN] (Pushdown)"
      ]
     }
    ]
@@ -1973,8 +2050,8 @@
     {
      "name": "Band-Außenrotationen",
      "seconds": 30,
-     "perSide": true,
-     "note": ""
+     "perSide": false,
+     "note": "beide Arme gleichzeitig"
     }
    ],
    "blocks": [
@@ -2003,7 +2080,7 @@
        "perSide": false,
        "detail": "",
        "raw": "A2 Band-Bizeps-Curl beidarmig 3x10-15",
-       "resistance": "Band ORANGE (40-80 lbs) [zu leicht? DUNKELGRUEN (60-170) nehmen oder weiter vom Anker wegtreten]",
+       "resistance": "Band ROT (50-125 lbs) [W18 mit ROT: 15/15/15 - Obergrenze erreicht. Erst weiter vom Anker wegtreten, DUNKELGRUEN war am 13.08. zu schwer (13/8/8)]",
        "resistanceLabel": "Curl",
        "description": "BAND: ORANGE (40-80 lbs). Auf das Band stellen (ein oder beide Füße = Widerstand wählen), Ellbogen fest an den Seiten. Unterarme nach oben curlen, oben kurz anspannen, langsam (2-3s) ablassen. Nur der Unterarm bewegt sich – kein Schwung aus Schulter oder Rücken. Ersetzt das Bizeps-Volumen der weggefallenen Klimmzüge.",
        "video": "https://www.youtube.com/watch?v=Da57AuIofvU",
@@ -2019,7 +2096,7 @@
       },
       {
        "label": "Curl",
-       "value": "Band ORANGE (40-80 lbs) [zu leicht? DUNKELGRUEN (60-170) nehmen oder weiter vom Anker wegtreten]"
+       "value": "Band ROT (50-125 lbs) [W18 mit ROT: 15/15/15 - Obergrenze erreicht. Erst weiter vom Anker wegtreten, DUNKELGRUEN war am 13.08. zu schwer (13/8/8)]"
       }
      ]
     },
@@ -2034,10 +2111,10 @@
        "perSide": false,
        "detail": "",
        "raw": "B1 Langhantel Romanian Deadlift 3x8-12",
-       "resistance": "Langhantel 53,8 kg gesamt (Stange 7,8 kg + je Seite 1x10 + 2x5 + 1x2 + 2x0,5) | Zughilfen + 3s exzentrisch",
+       "resistance": "Langhantel 50,8 kg gesamt (Stange 7,8 kg + je Seite 1x10 + 1x5 + 3x2 + 1x0,5) | Zughilfen + 3s exzentrisch",
        "resistanceLabel": "RDL",
-       "description": "Hüfte nach hinten, Rücken neutral, Beinbeuger laden, Hüfte nach vorn strecken. Jetzt mit Langhantel bis 45,8 kg statt Kettlebell (KB-Version war zu leicht).",
-       "video": "https://www.youtube.com/watch?v=M6fGnnNR4bQ",
+       "description": "Hüfte nach hinten, Rücken neutral, Beinbeuger laden, Hüfte nach vorn strecken. Jetzt mit Langhantel bis 45,8 kg statt Kettlebell (KB-Version war zu leicht). Video getauscht am 16.08.2026: das alte zeigte die Kettlebell-Variante.",
+       "video": "https://www.youtube.com/watch?v=xgusDooVfKU",
        "videoNote": ""
       },
       {
@@ -2048,7 +2125,7 @@
        "perSide": false,
        "detail": "",
        "raw": "B2 Band-Chest-Press stehend beidarmig 3x10-15",
-       "resistance": "Band ROT (50-125 lbs) [zu leicht? DUNKELGRUEN (60-170) nehmen oder weiter vom Anker wegtreten]",
+       "resistance": "Band DUNKELGRUEN (60-170 lbs) [W18: 12/14/15 - sitzt jetzt im Zielbereich, HALTEN]",
        "resistanceLabel": "Chest-Press",
        "description": "BAND: ROT (50-125 lbs). Band auf Brusthöhe hinter dir verankern, Schrittstellung, Rumpf fest. Beide Griffe auf Brusthöhe, dann BEIDE Arme gleichzeitig horizontal nach vorn ausdrücken - die Hände bleiben maximal auf Schulterhöhe, nie darüber. Langsam zurückführen, ohne dass die Schultern nach vorn kippen. Beidarmige Variante der einarmigen Version aus dem Juli-Plan; das Video zeigt einarmig, die Ausführung ist identisch, nur mit beiden Armen gleichzeitig.",
        "video": "https://www.youtube.com/watch?v=ssJcPFP47aw",
@@ -2060,11 +2137,11 @@
      "resistance": [
       {
        "label": "RDL",
-       "value": "Langhantel 53,8 kg gesamt (Stange 7,8 kg + je Seite 1x10 + 2x5 + 1x2 + 2x0,5) | Zughilfen + 3s exzentrisch"
+       "value": "Langhantel 50,8 kg gesamt (Stange 7,8 kg + je Seite 1x10 + 1x5 + 3x2 + 1x0,5) | Zughilfen + 3s exzentrisch"
       },
       {
        "label": "Chest-Press",
-       "value": "Band ROT (50-125 lbs) [zu leicht? DUNKELGRUEN (60-170) nehmen oder weiter vom Anker wegtreten]"
+       "value": "Band DUNKELGRUEN (60-170 lbs) [W18: 12/14/15 - sitzt jetzt im Zielbereich, HALTEN]"
       }
      ]
     },
@@ -2095,7 +2172,7 @@
        "raw": "C2 Band-Außenrotationen 3x12-15",
        "resistance": "Band LILA (15-25 lbs) [bewusst leicht - Schulter! NICHT staerker waehlen]",
        "resistanceLabel": "Außenrotation",
-       "description": "BAND: LILA (15-25 lbs). Ellbogen am Körper, 90° gebeugt, Unterarm gegen leichtes Band nach außen rotieren – Rotatorenmanschette. Jetzt auch Dead-Hang-Ersatz im Warm-up.",
+       "description": "BAND: LILA (15-25 lbs). Ellbogen am Körper, 90° gebeugt, Unterarm gegen leichtes Band nach außen rotieren – Rotatorenmanschette. Jetzt auch Dead-Hang-Ersatz im Warm-up. BEIDE ARME GLEICHZEITIG - so zeigt es auch das Video. Im Warm-up reicht deshalb EIN Durchgang von 30 s, nicht zwei (korrigiert am 16.08.2026).",
        "video": "https://www.youtube.com/watch?v=_UvmPNGtlPM",
        "videoNote": ""
       }
@@ -2117,13 +2194,13 @@
      "block": "Block 4 (Cool-down)",
      "exercises": [
       {
-       "code": "A1",
+       "code": "D1",
        "name": "Kraniozervikale Flexion",
        "sets": 2,
        "targetReps": "10",
        "perSide": false,
        "detail": "je Wiederholung 10 s halten",
-       "raw": "A1 Kraniozervikale Flexion 2x10 - je Wiederholung 10 s halten",
+       "raw": "D1 Kraniozervikale Flexion 2x10 - je Wiederholung 10 s halten",
        "resistance": "duenne Handtuchrolle unter dem Hinterkopf (Eigengewicht)",
        "resistanceLabel": "Kraniozervikale Flexion",
        "description": "Rueckenlage auf der Matte, duenne Handtuchrolle unter den Hinterkopf. Langsames Nicken (\"Ja\"-Bewegung), als wuerde der Hinterkopf ueber die Rolle rollen - der Kopf bleibt liegen und wird NICHT abgehoben. 10 s halten, 10 Wiederholungen, 2 Saetze. KONTROLLE: zwei Finger seitlich am Hals auf den M. sternocleidomastoideus. Der darf sich nicht anspannen; spannt er an, ist die Bewegung zu gross. Ziel ist die tiefe Halsbeugemuskulatur (M. longus colli und longus capitis), nicht die oberflaechliche. 3-4x/Woche am Ende der Einheit - in diesem Plan an allen drei Trainingstagen. EINORDNUNG: Von Frank selbst eingebracht (05.08.2026). Die Evidenz betrifft den kraniovertebralen Winkel (CVA) bei Vorhaltung des Kopfes und Nackenschmerz; eine Wirkung auf die Kendo-Leistung ist NICHT untersucht. Schulterunbedenklich - die Arme sind unbeteiligt, die 90-Grad-Regel bleibt unberuehrt. Siehe Blatt Quellen.",
@@ -2143,27 +2220,27 @@
    ],
    "finish": {
     "text": "Goblet Squat 2x12, 3s exzentrisch, ohne Halten unten - KB vor der Brust, volle kontrollierte Tiefe.",
-    "resistance": "Goblet: KB 24 kg"
+    "resistance": "Goblet: KB 24 kg | + Gewichtsweste 10 kg (ab W19, einmal anlegen)"
    },
    "optional": {
     "text": "Band-Trizeps-Pushdown 2x12-15 - nur wenn du unter 30 min geblieben bist.",
-    "resistance": "Band ORANGE (40-80 lbs)"
+    "resistance": "Band ROT (50-125 lbs)"
    },
    "equipment": [
     {
      "gerät": "Langhantel",
      "items": [
       "Langhantel 49,8 kg gesamt (Stange 7,8 kg + je Seite 1x10 + 2x5 + 2x0,5) | 3s exzentrisch (Rudern)",
-      "Langhantel 53,8 kg gesamt (Stange 7,8 kg + je Seite 1x10 + 2x5 + 1x2 + 2x0,5) | Zughilfen + 3s exzentrisch (RDL)"
+      "Langhantel 50,8 kg gesamt (Stange 7,8 kg + je Seite 1x10 + 1x5 + 3x2 + 1x0,5) | Zughilfen + 3s exzentrisch (RDL)"
      ]
     },
     {
      "gerät": "Bänder",
      "items": [
+      "Band DUNKELGRUEN (60-170 lbs) [W18: 12/14/15 - sitzt jetzt im Zielbereich, HALTEN] (Chest-Press)",
       "Band LILA (15-25 lbs) [bewusst leicht - Schulter! NICHT staerker waehlen] (Außenrotation)",
       "Band LILA (15-25 lbs) [bewusst leicht - Schulter! NICHT staerker waehlen] (Seitheben)",
-      "Band ORANGE (40-80 lbs) [zu leicht? DUNKELGRUEN (60-170) nehmen oder weiter vom Anker wegtreten] (Curl)",
-      "Band ROT (50-125 lbs) [zu leicht? DUNKELGRUEN (60-170) nehmen oder weiter vom Anker wegtreten] (Chest-Press)"
+      "Band ROT (50-125 lbs) [W18 mit ROT: 15/15/15 - Obergrenze erreicht. Erst weiter vom Anker wegtreten, DUNKELGRUEN war am 13.08. zu schwer (13/8/8)] (Curl)"
      ]
     }
    ]
@@ -2220,16 +2297,43 @@
      ]
     },
     {
+     "block": "Block 2",
+     "exercises": [
+      {
+       "code": "B1",
+       "name": "Liegestütz exzentrisch (nur ablassen)",
+       "sets": 3,
+       "targetReps": "10",
+       "perSide": false,
+       "detail": "",
+       "raw": "B1 Liegestütz exzentrisch (nur ablassen) 3x10",
+       "resistance": "Eigengewicht | Hände ÜBERSCHULTERBREIT, Ellbogen ca. 45 Grad zum Rumpf, 4 s kontrolliert ablassen, unten kurz auf dem Boden ablegen, KEIN Hochdrücken - auf den Knien zurück in die Ausgangsposition",
+       "resistanceLabel": "Liegestütz",
+       "description": "Vom Krankengymnasten gezeigt und dort erprobt. Liegestuetzposition am Boden, Haende DEUTLICH UEBERSCHULTERBREIT, Ellbogen ca. 45 Grad zum Rumpf (nicht seitlich ausgestellt, nicht eng am Koerper). Rumpf und Gesaess fest, der Koerper bleibt eine Linie. NUR die Absenkphase: 4 Sekunden langsam und kontrolliert bis zum Boden. Unten kurz ablegen. NICHT wieder hochdruecken - stattdessen auf die Knie gehen und so in die Ausgangsposition zurueck. 10 Wiederholungen, 3 Saetze. Die Arme bleiben durchgehend unter Schulterhoehe, die 90-Grad-Regel ist eingehalten. Steigerung spaeter ueber Tempo (5-6 s) oder Fuesse erhoeht - NICHT ueber die Gewichtsweste.",
+       "video": "https://www.youtube.com/watch?v=1JsPD1_7nX0",
+       "videoNote": "Muscle & Motion, Anatomie und typische Fehler - dort wird anschliessend hochgedrueckt, das entfaellt bei dir"
+      }
+     ],
+     "pause": "Pause ~60s",
+     "note": "Pause ~60s",
+     "resistance": [
+      {
+       "label": "Liegestütz",
+       "value": "Eigengewicht | Hände ÜBERSCHULTERBREIT, Ellbogen ca. 45 Grad zum Rumpf, 4 s kontrolliert ablassen, unten kurz auf dem Boden ablegen, KEIN Hochdrücken - auf den Knien zurück in die Ausgangsposition"
+      }
+     ]
+    },
+    {
      "block": "Block 4 (Cool-down)",
      "exercises": [
       {
-       "code": "A1",
+       "code": "D1",
        "name": "Kraniozervikale Flexion",
        "sets": 2,
        "targetReps": "10",
        "perSide": false,
        "detail": "je Wiederholung 10 s halten",
-       "raw": "A1 Kraniozervikale Flexion 2x10 - je Wiederholung 10 s halten",
+       "raw": "D1 Kraniozervikale Flexion 2x10 - je Wiederholung 10 s halten",
        "resistance": "duenne Handtuchrolle unter dem Hinterkopf (Eigengewicht)",
        "resistanceLabel": "Kraniozervikale Flexion",
        "description": "Rueckenlage auf der Matte, duenne Handtuchrolle unter den Hinterkopf. Langsames Nicken (\"Ja\"-Bewegung), als wuerde der Hinterkopf ueber die Rolle rollen - der Kopf bleibt liegen und wird NICHT abgehoben. 10 s halten, 10 Wiederholungen, 2 Saetze. KONTROLLE: zwei Finger seitlich am Hals auf den M. sternocleidomastoideus. Der darf sich nicht anspannen; spannt er an, ist die Bewegung zu gross. Ziel ist die tiefe Halsbeugemuskulatur (M. longus colli und longus capitis), nicht die oberflaechliche. 3-4x/Woche am Ende der Einheit - in diesem Plan an allen drei Trainingstagen. EINORDNUNG: Von Frank selbst eingebracht (05.08.2026). Die Evidenz betrifft den kraniovertebralen Winkel (CVA) bei Vorhaltung des Kopfes und Nackenschmerz; eine Wirkung auf die Kendo-Leistung ist NICHT untersucht. Schulterunbedenklich - die Arme sind unbeteiligt, die 90-Grad-Regel bleibt unberuehrt. Siehe Blatt Quellen.",
@@ -2248,7 +2352,7 @@
     }
    ],
    "finish": {
-    "text": "3 min lockeres Gehen als Cool-down. Danach Zeit pro Aufstieg und hoechsten Puls in die App eintragen.",
+    "text": "Nach den Aufstiegen 3 min lockeres Gehen als Cool-down. Zeit pro Aufstieg und hoechsten Puls in die App eintragen.",
     "resistance": ""
    },
    "optional": {
@@ -2280,7 +2384,7 @@
   },
   {
    "name": "Kurzhantel Floor Press (neutraler Griff)",
-   "description": "Rückenlage, Knie angestellt, in jeder Hand eine Kurzhantel mit neutralem Griff (Handflächen zueinander) über der Brust ausdrücken, Ellbogen ~45° vom Körper. Langsam ablassen, bis der Trizeps den Boden berührt – der Boden begrenzt die Bewegung und schützt das AC-Gelenk – kurz pausieren, dann hochdrücken. Ersetzt den KB Floor Press: Die Kurzhantel-Last liegt zentriert über der Handwurzel, das Handgelenk bleibt gerade (KB-Version war fürs Handgelenk schmerzhaft). Brust-/Trizeps-Hauptübung, 2x pro Woche (Di + Sa).",
+   "description": "[AB W19 NICHT MEHR IM PLAN - ersetzt durch die exzentrischen Liegestuetze. Als Rueckfalloption dokumentiert.] Rückenlage, Knie angestellt, in jeder Hand eine Kurzhantel mit neutralem Griff (Handflächen zueinander) über der Brust ausdrücken, Ellbogen ~45° vom Körper. Langsam ablassen, bis der Trizeps den Boden berührt – der Boden begrenzt die Bewegung und schützt das AC-Gelenk – kurz pausieren, dann hochdrücken. Ersetzt den KB Floor Press: Die Kurzhantel-Last liegt zentriert über der Handwurzel, das Handgelenk bleibt gerade (KB-Version war fürs Handgelenk schmerzhaft). Brust-/Trizeps-Hauptübung, 2x pro Woche (Di + Sa).",
    "video": "https://www.youtube.com/watch?v=rs05AtccEhg",
    "videoNote": ""
   },
@@ -2310,8 +2414,8 @@
   },
   {
    "name": "Romanian Deadlift (Langhantel)",
-   "description": "Hüfte nach hinten, Rücken neutral, Beinbeuger laden, Hüfte nach vorn strecken. Jetzt mit Langhantel bis 45,8 kg statt Kettlebell (KB-Version war zu leicht).",
-   "video": "https://www.youtube.com/watch?v=M6fGnnNR4bQ",
+   "description": "Hüfte nach hinten, Rücken neutral, Beinbeuger laden, Hüfte nach vorn strecken. Jetzt mit Langhantel bis 45,8 kg statt Kettlebell (KB-Version war zu leicht). Video getauscht am 16.08.2026: das alte zeigte die Kettlebell-Variante.",
+   "video": "https://www.youtube.com/watch?v=xgusDooVfKU",
    "videoNote": ""
   },
   {
@@ -2322,7 +2426,7 @@
   },
   {
    "name": "Band-Außenrotationen",
-   "description": "BAND: LILA (15-25 lbs). Ellbogen am Körper, 90° gebeugt, Unterarm gegen leichtes Band nach außen rotieren – Rotatorenmanschette. Jetzt auch Dead-Hang-Ersatz im Warm-up.",
+   "description": "BAND: LILA (15-25 lbs). Ellbogen am Körper, 90° gebeugt, Unterarm gegen leichtes Band nach außen rotieren – Rotatorenmanschette. Jetzt auch Dead-Hang-Ersatz im Warm-up. BEIDE ARME GLEICHZEITIG - so zeigt es auch das Video. Im Warm-up reicht deshalb EIN Durchgang von 30 s, nicht zwei (korrigiert am 16.08.2026).",
    "video": "https://www.youtube.com/watch?v=_UvmPNGtlPM",
    "videoNote": ""
   },
@@ -2385,6 +2489,12 @@
    "description": "Rueckenlage auf der Matte, duenne Handtuchrolle unter den Hinterkopf. Langsames Nicken (\"Ja\"-Bewegung), als wuerde der Hinterkopf ueber die Rolle rollen - der Kopf bleibt liegen und wird NICHT abgehoben. 10 s halten, 10 Wiederholungen, 2 Saetze. KONTROLLE: zwei Finger seitlich am Hals auf den M. sternocleidomastoideus. Der darf sich nicht anspannen; spannt er an, ist die Bewegung zu gross. Ziel ist die tiefe Halsbeugemuskulatur (M. longus colli und longus capitis), nicht die oberflaechliche. 3-4x/Woche am Ende der Einheit - in diesem Plan an allen drei Trainingstagen. EINORDNUNG: Von Frank selbst eingebracht (05.08.2026). Die Evidenz betrifft den kraniovertebralen Winkel (CVA) bei Vorhaltung des Kopfes und Nackenschmerz; eine Wirkung auf die Kendo-Leistung ist NICHT untersucht. Schulterunbedenklich - die Arme sind unbeteiligt, die 90-Grad-Regel bleibt unberuehrt. Siehe Blatt Quellen.",
    "video": "https://www.youtube.com/watch?v=RL2e2gRmtIM",
    "videoNote": ""
+  },
+  {
+   "name": "Liegestütz exzentrisch (Physio)",
+   "description": "Vom Krankengymnasten gezeigt und dort erprobt. Liegestuetzposition am Boden, Haende DEUTLICH UEBERSCHULTERBREIT, Ellbogen ca. 45 Grad zum Rumpf (nicht seitlich ausgestellt, nicht eng am Koerper). Rumpf und Gesaess fest, der Koerper bleibt eine Linie. NUR die Absenkphase: 4 Sekunden langsam und kontrolliert bis zum Boden. Unten kurz ablegen. NICHT wieder hochdruecken - stattdessen auf die Knie gehen und so in die Ausgangsposition zurueck. 10 Wiederholungen, 3 Saetze. Die Arme bleiben durchgehend unter Schulterhoehe, die 90-Grad-Regel ist eingehalten. Steigerung spaeter ueber Tempo (5-6 s) oder Fuesse erhoeht - NICHT ueber die Gewichtsweste.",
+   "video": "https://www.youtube.com/watch?v=1JsPD1_7nX0",
+   "videoNote": "Muscle & Motion, Anatomie und typische Fehler - dort wird anschliessend hochgedrueckt, das entfaellt bei dir"
   }
  ]
 }

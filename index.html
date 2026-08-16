@@ -316,7 +316,7 @@ function exCard(ex){
   const d = document.createElement("div");
   d.className = "excard";
   const side = ex.perSide ? "/Seite" : "";
-  const last = lastResult(ex.code, currentSession.day, currentSession.week);
+  const last = lastResult(ex.code, currentSession.day, currentSession.week, ex.name);
   d.innerHTML = `
     <div><span class="excode">${ex.code}</span><b>${esc(ex.name)}</b></div>
     <div style="margin-top:4px">Ziel: <span class="extarget">${ex.sets}×${esc(ex.targetReps)}${side}</span>
@@ -325,7 +325,7 @@ function exCard(ex){
       ${ex.videoNote?`<span class="muted small"> (${esc(ex.videoNote)})</span>`:""}</div>` : ""}
     ${ex.description ? `<details><summary>Ausführung</summary><p>${esc(ex.description)}</p></details>` : ""}
     ${last ? `<div class="muted small">Letztes Mal (${last.date}): ${esc(last.reps.filter(Boolean).join(" · "))}${last.note?" — "+esc(last.note):""}</div>` : ""}
-    <div class="setrow" data-code="${ex.code}">
+    <div class="setrow" data-code="${ex.code}" data-name="${esc(ex.name)}">
       <span class="setlabel">Reps pro Runde${ex.perSide ? ' (bei „je Seite“ z.B. „8/8“)' : ""}:</span>
       ${Array.from({length: ex.sets||3}, (_,i) =>
         `<input inputmode="numeric" data-set="${i}" placeholder="R${i+1}">`).join("")}
@@ -370,16 +370,32 @@ function esc(t){ const d=document.createElement("div"); d.textContent=t||""; ret
 /* ================= Eingaben / Draft ================= */
 function collectEntry(){
   const entries = {};
+  const kollisionen = [];
   document.querySelectorAll(".setrow").forEach(rowEl => {
-    const code = rowEl.dataset.code;
+    let code = rowEl.dataset.code;
+    const name = rowEl.dataset.name;
     const reps = [...rowEl.querySelectorAll("input[data-set]")].map(i => i.value.trim());
     const note = rowEl.querySelector("input[data-note]").value.trim();
     if(reps.some(Boolean) || note){
-      const ex = currentSession.blocks.flatMap(b=>b.exercises).find(e=>e.code===code);
+      /* Uebung ueber Code UND Namen aufloesen: bei doppeltem Code lieferte find() sonst
+         die Metadaten der ERSTEN Uebung zu den Werten der ZWEITEN. Genau so wurden am
+         06./11./13.08.2026 die dritten Saetze von A1 durch das Cool-down ueberschrieben. */
+      const all = currentSession.blocks.flatMap(b=>b.exercises);
+      const ex = all.find(e=>e.code===code && e.name===name) || all.find(e=>e.code===code);
+      if(!ex) return;
+      /* Doppelter Code darf NIE stillschweigend ueberschreiben. */
+      if(entries[code]){
+        kollisionen.push(code);
+        let i = 2; while(entries[code + "#" + i]) i++;
+        code = code + "#" + i;
+      }
       entries[code] = {name:ex.name, target:`${ex.sets}x${ex.targetReps}${ex.perSide?"/Seite":""}`,
                        resistance:ex.resistance, reps, note};
     }
   });
+  if(kollisionen.length)
+    console.warn("Doppelte Uebungscodes im Plan:", kollisionen.join(", "),
+                 "- Werte wurden unter code#2 gesichert statt ueberschrieben.");
   return {date:currentDate, week:currentSession.week, day:currentSession.day,
           entries, sessionNote:$("#sessionNote").value.trim(), savedAt:new Date().toISOString()};
 }
@@ -404,9 +420,13 @@ function loadDraftIntoForm(){
     rowEl.querySelector("input[data-note]").value = e.note||"";
   });
 }
-function lastResult(code, day, week){
+function lastResult(code, day, week, name){
+  /* Vergleicht zusaetzlich den Uebungsnamen: nach einem Uebungstausch (z.B. Floor Press ->
+     exzentrische Liegestuetze unter demselben Code B1) darf hier nicht mehr das Ergebnis
+     der Vorgaengeruebung stehen. */
   const dates = Object.keys(LOGS).filter(d => d < currentDate &&
-    LOGS[d].day === day && LOGS[d].entries?.[code]).sort();
+    LOGS[d].day === day && LOGS[d].entries?.[code] &&
+    (!name || LOGS[d].entries[code].name === name)).sort();
   if(!dates.length) return null;
   const d = dates[dates.length-1];
   return {date:d, reps:LOGS[d].entries[code].reps||[], note:LOGS[d].entries[code].note||""};
