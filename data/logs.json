@@ -1019,6 +1019,91 @@
    },
    "sessionNote": "",
    "savedAt": "2026-08-18T17:17:02.362Z"
+  },
+  "2026-08-25": {
+   "date": "2026-08-25",
+   "week": 19,
+   "day": "Di",
+   "entries": {
+    "A1": {
+     "name": "Kurzhantel-Rudern beidarmig vorgebeugt",
+     "target": "3x8-12",
+     "resistance": "2x21 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2 + 1x0,5) | 3s exzentrisch",
+     "reps": [
+      "13",
+      "11",
+      "11"
+     ],
+     "note": ""
+    },
+    "A2": {
+     "name": "Kurzhantel-Squat (Koffergriff)",
+     "target": "3x10-15",
+     "resistance": "2x21 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2 + 1x0,5) | 3s exzentrisch",
+     "reps": [
+      "13",
+      "13",
+      "12"
+     ],
+     "note": ""
+    },
+    "B1": {
+     "name": "Liegestütz exzentrisch (nur ablassen)",
+     "target": "3x10",
+     "resistance": "Eigengewicht | Hände ÜBERSCHULTERBREIT, Ellbogen ca. 45 Grad zum Rumpf, 4 s kontrolliert ablassen, unten kurz auf dem Boden ablegen, KEIN Hochdrücken - auf den Knien zurück in die Ausgangsposition",
+     "reps": [
+      "10",
+      "11",
+      "10"
+     ],
+     "note": ""
+    },
+    "B2": {
+     "name": "Band-Bizeps-Curl beidarmig",
+     "target": "3x10-15",
+     "resistance": "Band ROT (50-125 lbs) [W18 mit ROT: 15/15/15 - Obergrenze erreicht. Erst weiter vom Anker wegtreten, DUNKELGRUEN war am 13.08. zu schwer (13/8/8)]",
+     "reps": [
+      "15",
+      "13",
+      "13"
+     ],
+     "note": "Band dunkelgrün!"
+    },
+    "C1": {
+     "name": "Band Lateral Raise (bis ~80°)",
+     "target": "3x12-20",
+     "resistance": "Band LILA (15-25 lbs) [bewusst leicht - Schulter! NICHT staerker waehlen]",
+     "reps": [
+      "15",
+      "17",
+      "17"
+     ],
+     "note": "Band grün - problemlos!"
+    },
+    "C2": {
+     "name": "Band-Trizeps-Pushdown beidarmig",
+     "target": "3x10-15",
+     "resistance": "Band ROT (50-125 lbs) [W18 mit ROT: 15/15/15 - Obergrenze erreicht. Steigerung ueber Standposition, nicht ueber DUNKELGRUEN]",
+     "reps": [
+      "20",
+      "17",
+      "20"
+     ],
+     "note": ""
+    },
+    "D1": {
+     "name": "Kraniozervikale Flexion",
+     "target": "2x10",
+     "resistance": "duenne Handtuchrolle unter dem Hinterkopf (Eigengewicht)",
+     "reps": [
+      "10",
+      "10"
+     ],
+     "note": ""
+    }
+   },
+   "sessionNote": "",
+   "savedAt": "2026-08-25T17:35:29.378Z"
   }
  }
 }
