@@ -1104,6 +1104,54 @@
    },
    "sessionNote": "",
    "savedAt": "2026-08-25T17:35:29.378Z"
+  },
+  "2026-08-22": {
+   "date": "2026-08-22",
+   "week": 19,
+   "day": "Sa",
+   "entries": {
+    "A1": {
+     "name": "Treppen-Aufstieg all-out",
+     "target": "10x1",
+     "resistance": "4 Stockwerke = 10-12 Hoehenmeter, zwei Stufen auf einmal | ZIELPULS am Ende jedes Aufstiegs: 153-162 bpm (90-95 % von HFmax 170). Beim Abstieg NICHT unter 130 bpm fallen lassen. | + Gewichtsweste 10 kg (feste Einstellung)",
+     "reps": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10"
+     ],
+     "note": "Gewichtsweste 15 kg"
+    },
+    "B1": {
+     "name": "Liegestütz exzentrisch (nur ablassen)",
+     "target": "3x10",
+     "resistance": "Eigengewicht | Hände ÜBERSCHULTERBREIT, Ellbogen ca. 45 Grad zum Rumpf, 4 s kontrolliert ablassen, unten kurz auf dem Boden ablegen, KEIN Hochdrücken - auf den Knien zurück in die Ausgangsposition",
+     "reps": [
+      "10",
+      "10",
+      "10"
+     ],
+     "note": ""
+    },
+    "D1": {
+     "name": "Kraniozervikale Flexion",
+     "target": "2x10",
+     "resistance": "duenne Handtuchrolle unter dem Hinterkopf (Eigengewicht)",
+     "reps": [
+      "10",
+      "10"
+     ],
+     "note": ""
+    }
+   },
+   "sessionNote": "",
+   "savedAt": "2026-08-27T16:41:05.135Z"
   }
  }
 }
