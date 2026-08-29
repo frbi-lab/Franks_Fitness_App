@@ -50,7 +50,7 @@ def parse_warmup(text):
 
 def parse_exercise_line(line):
     """z.B. 'A1 Einarmiges KB-Rudern vorgebeugt 4x6-10/Seite' -> code, name, sets, reps, perSide"""
-    m = re.match(r"^([ABC][12])\s+(.*)$", line.strip())
+    m = re.match(r"^([A-D][12])\s+(.*)$", line.strip())
     if not m:
         return None
     code, rest = m.group(1), m.group(2)
@@ -146,6 +146,7 @@ def main():
             "lateralraise": "bandlateralraisebis80", "legraises": "liegendelegraises",
             "bandrudern": "bandrow", "pallof": "pallofpress",
             "splitsquat": "bulgariansplitsquat",
+            "liegestutz": "liegestutzexzentrischphysio",
         }
         best = None
         for ex in exercises:
@@ -181,7 +182,7 @@ def main():
                 cur["week"] = int(week)
             res = parse_resistance(str(resistance))
             exs = []
-            for i, line in enumerate([l for l in details.split("\n") if re.match(r"^[ABC][12]\s", l.strip())]):
+            for i, line in enumerate([l for l in details.split("\n") if re.match(r"^[A-D][12]\s", l.strip())]):
                 ex = parse_exercise_line(line)
                 if not ex:
                     continue
@@ -197,7 +198,7 @@ def main():
             if pm:
                 pause = "Pause ~" + pm.group(1).strip()
             note_lines = [l.strip() for l in details.split("\n")
-                          if l.strip() and not re.match(r"^[ABC][12]\s", l.strip())]
+                          if l.strip() and not re.match(r"^[A-D][12]\s", l.strip())]
             cur["blocks"].append({"block": block, "exercises": exs, "pause": pause,
                                   "note": " ".join(note_lines), "resistance": res})
         elif block in ("Finish", "Optional"):
@@ -229,7 +230,7 @@ def main():
             "week12Monday": "2026-06-29",
             "trainingDays": DAY_ORDER,
             "weeks": sorted({s["week"] for s in sessions}),
-            "rules": "Rechter Arm nie über 90°/Schulterhöhe · kein Hängen · alles schmerzgeführt · scharfer Schmerz oben auf der Schulter = sofort reduzieren.",
+            "rules": "Rechter Arm über 90°/Schulterhöhe NUR bei den drei vom Physio verordneten Übungen (exzentrischer Klimmzug, exzentrischer Liegestütz, Physio 1) · sonst nie über Schulterhöhe · keine Cross-Body-Belastung · alles schmerzgeführt · Schmerz-Ampel entscheidet: grün ≤3/10 und binnen 24 h zurück · gelb = Sätze halbieren · rot = Übung raus und Physio fragen.",
         },
         "progression": progression,
         "sessions": sessions,
