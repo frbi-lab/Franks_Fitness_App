@@ -1152,6 +1152,79 @@
    },
    "sessionNote": "",
    "savedAt": "2026-08-27T16:41:05.135Z"
+  },
+  "2026-09-01": {
+   "date": "2026-09-01",
+   "week": 21,
+   "day": "Di",
+   "entries": {
+    "A1": {
+     "name": "Klimmzug exzentrisch (nur ablassen)",
+     "target": "3x3",
+     "resistance": "Eigengewicht | 5 s kontrolliert ablassen, KEIN Hochziehen. Ueber den Kasten in die Startposition steigen - NICHT hochspringen. Oben kurz stabilisieren, langsam ablassen, absteigen.",
+     "reps": [
+      "3",
+      "3",
+      "3"
+     ],
+     "note": ""
+    },
+    "A2": {
+     "name": "Kurzhantel-Squat (Koffergriff)",
+     "target": "3x8-12",
+     "resistance": "2x21 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2 + 1x0,5) | 4 s exzentrisch",
+     "reps": [
+      "12",
+      "12",
+      "12"
+     ],
+     "note": ""
+    },
+    "B1": {
+     "name": "Kurzhantel Floor Press (neutraler Griff)",
+     "target": "3x6-10",
+     "resistance": "2x21 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2 + 1x0,5) | 3 s exzentrisch",
+     "reps": [
+      "8",
+      "6",
+      "3"
+     ],
+     "note": ""
+    },
+    "B2": {
+     "name": "Band Lateral Raise (bis ~80°)",
+     "target": "3x10-12",
+     "resistance": "Band LILA (15-25 lbs) | 3 s exzentrisch [Band bleibt LILA - Schulter! Steigerung NUR ueber Tempo und Standabstand zum Anker]",
+     "reps": [
+      "10",
+      "12",
+      "13"
+     ],
+     "note": ""
+    },
+    "C1": {
+     "name": "Liegestütz exzentrisch (nur ablassen)",
+     "target": "3x10",
+     "resistance": "Eigengewicht | Haende UEBERSCHULTERBREIT, Ellbogen ca. 45 Grad zum Rumpf, 4 s ablassen, unten kurz auf dem Boden ablegen, KEIN Hochdrücken - auf den Knien zurueck",
+     "reps": [
+      "10",
+      "10",
+      "10"
+     ],
+     "note": ""
+    },
+    "D1": {
+     "name": "Kraniozervikale Flexion",
+     "target": "1x10",
+     "resistance": "duenne Handtuchrolle unter dem Hinterkopf (Eigengewicht)",
+     "reps": [
+      "15"
+     ],
+     "note": ""
+    }
+   },
+   "sessionNote": "Kein KB Swing mehr",
+   "savedAt": "2026-09-01T15:36:27.959Z"
   }
  }
 }
