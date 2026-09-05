@@ -1289,6 +1289,55 @@
    },
    "sessionNote": "",
    "savedAt": "2026-09-03T17:20:03.893Z"
+  },
+  "2026-09-05": {
+   "date": "2026-09-05",
+   "week": 21,
+   "day": "Sa",
+   "entries": {
+    "A1": {
+     "name": "Treppen-Aufstieg all-out",
+     "target": "10x1",
+     "resistance": "4 Stockwerke = 10-12 Hoehenmeter, zwei Stufen auf einmal | + Gewichtsweste 15 kg | ZIELPULS am Ende jedes Aufstiegs: 153-162 bpm (90-95 % von HFmax 170). Beim Abstieg NICHT unter 130 bpm fallen lassen.",
+     "reps": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10"
+     ],
+     "note": "8:56 min + 1 min Cooldown"
+    },
+    "B1": {
+     "name": "Liegestütz exzentrisch (nur ablassen)",
+     "target": "3x10",
+     "resistance": "Eigengewicht | Haende UEBERSCHULTERBREIT, Ellbogen ca. 45 Grad zum Rumpf, 4 s ablassen, unten kurz auf dem Boden ablegen, KEIN Hochdrücken - auf den Knien zurueck",
+     "reps": [
+      "10",
+      "10",
+      "10"
+     ],
+     "note": ""
+    },
+    "C1": {
+     "name": "Band Face Pull",
+     "target": "3x12-15",
+     "resistance": "Band ROT (50-125 lbs) | Ellbogen auf Schulterhoehe, nicht hoeher",
+     "reps": [
+      "",
+      "",
+      ""
+     ],
+     "note": "Habe ich vergessen"
+    }
+   },
+   "sessionNote": "",
+   "savedAt": "2026-09-05T16:44:45.084Z"
   }
  }
 }
