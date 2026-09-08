@@ -2,7 +2,7 @@
  "meta": {
   "title": "September 2026 Fitness Masterplan - Brust-Schulter-Kendo",
   "source": "September 2026 Fitness Masterplan - Brust-Schulter-Kendo.xlsx",
-  "generated": "2026-08-28",
+  "generated": "2026-09-08",
   "week12Monday": "2026-06-29",
   "trainingDays": [
    "Di",
@@ -21,7 +21,7 @@
   "W21": "KALIBRIERUNGSWOCHE. Neu und deshalb bewusst niedrig dosiert: Klimmzug exzentrisch 3x3 mit 5 s, Face Pull 3x12-15 an zwei Tagen, Floor Press zurueck im Plan (jetzt 2x21 kg statt 2x17 kg, Zielbereich deshalb 6-10 statt 8-12). Langhantel-Rudern startet bei 47,8 kg, weil oberhalb von 41,8 kg kein einziger belastbarer Messwert existiert - der AMRAP im letzten Satz entscheidet ueber W22. RDL zurueck auf 50,8 kg (Regel 4, 13.08.: 6/8/8 bei 51,8 kg). Seitheben und Curl neu eingestellt: Seitheben bleibt LILA, bekommt aber 3 s Exzentrik und den engeren Bereich 10-12; Curl auf DUNKELGRUEN, steht aber nur noch im Optional-Teil. Treppen 10 Aufstiege mit 15-kg-Weste bei stark gekuerztem Aufwaermen.",
   "W22": "Klimmzug 3x4. Treppen 11 Aufstiege. Liegestuetz auf 5 s Ablasszeit. Langhantel-Rudern 48,8 kg, RDL bleibt bei 50,8 kg - dort erst die Wiederholungen bis 12 aufbauen, bevor die Last steigt (doppelte Progression, Regel 3). Alles andere unveraendert: was in W21 zum ersten Mal im Plan stand, braucht mehr als eine Woche Datenbasis.",
   "W23": "Klimmzug 3x5. Treppen 12 Aufstiege - das ist die Obergrenze fuer dieses Treppenhaus im 45-min-Budget. Liegestuetz auf 6 s. Langhantel-Rudern 49,8 kg, RDL erstmals wieder 51,8 kg - diesmal von unten aufgebaut statt uebersprungen.",
-  "W24": "Klimmzug 3x5 mit 6 s Ablasszeit. Treppen bleiben bei 12. Liegestuetz 6 s mit ERHOEHTEN FUESSEN (Stufe oder Kasten, 20-30 cm) - laut Physio die richtige Steigerung, ausdruecklich NICHT die Gewichtsweste. Langhantel-Rudern 50,8 kg, RDL 51,8 kg. AUSWERTUNGSWOCHE: danach Logs ziehen und den naechsten Zyklus darauf aufsetzen. Offene Fragen fuer dann: (1) Sind alle 12 Aufstiege im Zielband 153-162 gelandet? Wenn ja, ist die Weste dran. (2) Hat der Klimmzug die Ampel bewegt? (3) Lohnen zwei weitere 10-kg-Scheiben, um die Kurzhanteln von 21 auf 31 kg zu heben?"
+  "W24": "Klimmzug 3x5 mit 6 s Ablasszeit. Treppen bleiben bei 12. Liegestuetz 6 s mit ERHOEHTEN FUESSEN (Stufe oder Kasten, 20-30 cm) - laut Physio die richtige Steigerung, ausdruecklich NICHT die Gewichtsweste. Langhantel-Rudern 50,8 kg, RDL 51,8 kg. AUSWERTUNGSWOCHE: danach Logs ziehen und den naechsten Zyklus darauf aufsetzen. Offene Fragen fuer dann: (1) Sind alle 12 Aufstiege im Zielband 155-163 gelandet? Wenn ja, ist die Weste dran. (2) Hat der Klimmzug die Ampel bewegt? (3) Lohnen zwei weitere 10-kg-Scheiben, um die Kurzhanteln von 21 auf 31 kg zu heben?"
  },
  "sessions": [
   {
@@ -480,9 +480,9 @@
        "perSide": false,
        "detail": "",
        "raw": "A1 Treppen-Aufstieg all-out 10x1",
-       "resistance": "4 Stockwerke = 10-12 Hoehenmeter, zwei Stufen auf einmal | + Gewichtsweste 15 kg | ZIELPULS am Ende jedes Aufstiegs: 153-162 bpm (90-95 % von HFmax 170). Beim Abstieg NICHT unter 130 bpm fallen lassen.",
+       "resistance": "4 Stockwerke = 10-12 Hoehenmeter, zwei Stufen auf einmal | + Gewichtsweste 15 kg | ZIELPULS am Ende jedes Aufstiegs: 155-163 bpm (90-95 % von HFmax 172). Beim Abstieg NICHT unter 130 bpm fallen lassen.",
        "resistanceLabel": "Treppen-Aufstieg",
-       "description": "Repeated Sprint Training im eigenen Treppenhaus. Vier Stockwerke a 2,5-3 m = 10-12 Hoehenmeter je Aufstieg. AUFSTIEG: all-out, zwei Stufen auf einmal, Arme frei mitschwingen lassen (bleiben unter Schulterhoehe, 90-Grad-Regel unberuehrt). ABSTIEG: im GEHEN, das ist die Pause - nicht laufen. Kein Stehenbleiben oben oder unten, direkt umdrehen. STEUERUNG UEBER DEN PULS, nicht ueber die Uhr: am Ende jedes Aufstiegs 170+ bpm, beim Abstieg nicht unter 130 bpm fallen lassen. Faellt der Puls tiefer: erst zwei Stufen auf einmal, dann zuegiger absteigen, erst zuletzt Gewichtsweste dazu. ERSETZT die urspruenglich geplanten 4x4-min-Intervalle: bei nur vier Stockwerken waere die Haelfte der Arbeitszeit Abstieg gewesen, das Protokoll von Helgerud ist so nicht nachbaubar. WARNUNG: Treppab ist exzentrische Quadrizeps-Belastung und der klassische Muskelkater-Ausloeser - am Montag ist Kendo. Erste zwei bis drei Wochen bewusst langsam absteigen. Hand in Gelaendernaehe, bei hohem Puls ist der Fehltritt real.",
+       "description": "Repeated Sprint Training im eigenen Treppenhaus. Vier Stockwerke a 2,5-3 m = 10-12 Hoehenmeter je Aufstieg. AUFSTIEG: all-out, zwei Stufen auf einmal, Arme frei mitschwingen lassen (bleiben unter Schulterhoehe, 90-Grad-Regel unberuehrt). ABSTIEG: im GEHEN, das ist die Pause - nicht laufen. Kein Stehenbleiben oben oder unten, direkt umdrehen. STEUERUNG UEBER DEN PULS, nicht ueber die Uhr: am Ende jedes Aufstiegs 155-163 bpm (90-95 % von HFmax 172), beim Abstieg nicht unter 130 bpm fallen lassen. Faellt der Puls tiefer: erst zwei Stufen auf einmal, dann zuegiger absteigen, erst zuletzt Gewichtsweste dazu. ERSETZT die urspruenglich geplanten 4x4-min-Intervalle: bei nur vier Stockwerken waere die Haelfte der Arbeitszeit Abstieg gewesen, das Protokoll von Helgerud ist so nicht nachbaubar. WARNUNG: Treppab ist exzentrische Quadrizeps-Belastung und der klassische Muskelkater-Ausloeser - am Montag ist Kendo. Erste zwei bis drei Wochen bewusst langsam absteigen. Hand in Gelaendernaehe, bei hohem Puls ist der Fehltritt real.",
        "video": "",
        "videoNote": ""
       }
@@ -492,7 +492,7 @@
      "resistance": [
       {
        "label": "Treppen-Aufstieg",
-       "value": "4 Stockwerke = 10-12 Hoehenmeter, zwei Stufen auf einmal | + Gewichtsweste 15 kg | ZIELPULS am Ende jedes Aufstiegs: 153-162 bpm (90-95 % von HFmax 170). Beim Abstieg NICHT unter 130 bpm fallen lassen."
+       "value": "4 Stockwerke = 10-12 Hoehenmeter, zwei Stufen auf einmal | + Gewichtsweste 15 kg | ZIELPULS am Ende jedes Aufstiegs: 155-163 bpm (90-95 % von HFmax 172). Beim Abstieg NICHT unter 130 bpm fallen lassen."
       }
      ]
     },
@@ -593,7 +593,7 @@
     {
      "gerät": "Sonstiges",
      "items": [
-      "4 Stockwerke = 10-12 Hoehenmeter, zwei Stufen auf einmal | + Gewichtsweste 15 kg | ZIELPULS am Ende jedes Aufstiegs: 153-162 bpm (90-95 % von HFmax 170). Beim Abstieg NICHT unter 130 bpm fallen lassen. (Treppen-Aufstieg)"
+      "4 Stockwerke = 10-12 Hoehenmeter, zwei Stufen auf einmal | + Gewichtsweste 15 kg | ZIELPULS am Ende jedes Aufstiegs: 155-163 bpm (90-95 % von HFmax 172). Beim Abstieg NICHT unter 130 bpm fallen lassen. (Treppen-Aufstieg)"
      ]
     }
    ]
@@ -1054,9 +1054,9 @@
        "perSide": false,
        "detail": "",
        "raw": "A1 Treppen-Aufstieg all-out 11x1",
-       "resistance": "4 Stockwerke = 10-12 Hoehenmeter, zwei Stufen auf einmal | + Gewichtsweste 15 kg | ZIELPULS am Ende jedes Aufstiegs: 153-162 bpm (90-95 % von HFmax 170). Beim Abstieg NICHT unter 130 bpm fallen lassen.",
+       "resistance": "4 Stockwerke = 10-12 Hoehenmeter, zwei Stufen auf einmal | + Gewichtsweste 15 kg | ZIELPULS am Ende jedes Aufstiegs: 155-163 bpm (90-95 % von HFmax 172). Beim Abstieg NICHT unter 130 bpm fallen lassen.",
        "resistanceLabel": "Treppen-Aufstieg",
-       "description": "Repeated Sprint Training im eigenen Treppenhaus. Vier Stockwerke a 2,5-3 m = 10-12 Hoehenmeter je Aufstieg. AUFSTIEG: all-out, zwei Stufen auf einmal, Arme frei mitschwingen lassen (bleiben unter Schulterhoehe, 90-Grad-Regel unberuehrt). ABSTIEG: im GEHEN, das ist die Pause - nicht laufen. Kein Stehenbleiben oben oder unten, direkt umdrehen. STEUERUNG UEBER DEN PULS, nicht ueber die Uhr: am Ende jedes Aufstiegs 170+ bpm, beim Abstieg nicht unter 130 bpm fallen lassen. Faellt der Puls tiefer: erst zwei Stufen auf einmal, dann zuegiger absteigen, erst zuletzt Gewichtsweste dazu. ERSETZT die urspruenglich geplanten 4x4-min-Intervalle: bei nur vier Stockwerken waere die Haelfte der Arbeitszeit Abstieg gewesen, das Protokoll von Helgerud ist so nicht nachbaubar. WARNUNG: Treppab ist exzentrische Quadrizeps-Belastung und der klassische Muskelkater-Ausloeser - am Montag ist Kendo. Erste zwei bis drei Wochen bewusst langsam absteigen. Hand in Gelaendernaehe, bei hohem Puls ist der Fehltritt real.",
+       "description": "Repeated Sprint Training im eigenen Treppenhaus. Vier Stockwerke a 2,5-3 m = 10-12 Hoehenmeter je Aufstieg. AUFSTIEG: all-out, zwei Stufen auf einmal, Arme frei mitschwingen lassen (bleiben unter Schulterhoehe, 90-Grad-Regel unberuehrt). ABSTIEG: im GEHEN, das ist die Pause - nicht laufen. Kein Stehenbleiben oben oder unten, direkt umdrehen. STEUERUNG UEBER DEN PULS, nicht ueber die Uhr: am Ende jedes Aufstiegs 155-163 bpm (90-95 % von HFmax 172), beim Abstieg nicht unter 130 bpm fallen lassen. Faellt der Puls tiefer: erst zwei Stufen auf einmal, dann zuegiger absteigen, erst zuletzt Gewichtsweste dazu. ERSETZT die urspruenglich geplanten 4x4-min-Intervalle: bei nur vier Stockwerken waere die Haelfte der Arbeitszeit Abstieg gewesen, das Protokoll von Helgerud ist so nicht nachbaubar. WARNUNG: Treppab ist exzentrische Quadrizeps-Belastung und der klassische Muskelkater-Ausloeser - am Montag ist Kendo. Erste zwei bis drei Wochen bewusst langsam absteigen. Hand in Gelaendernaehe, bei hohem Puls ist der Fehltritt real.",
        "video": "",
        "videoNote": ""
       }
@@ -1066,7 +1066,7 @@
      "resistance": [
       {
        "label": "Treppen-Aufstieg",
-       "value": "4 Stockwerke = 10-12 Hoehenmeter, zwei Stufen auf einmal | + Gewichtsweste 15 kg | ZIELPULS am Ende jedes Aufstiegs: 153-162 bpm (90-95 % von HFmax 170). Beim Abstieg NICHT unter 130 bpm fallen lassen."
+       "value": "4 Stockwerke = 10-12 Hoehenmeter, zwei Stufen auf einmal | + Gewichtsweste 15 kg | ZIELPULS am Ende jedes Aufstiegs: 155-163 bpm (90-95 % von HFmax 172). Beim Abstieg NICHT unter 130 bpm fallen lassen."
       }
      ]
     },
@@ -1167,7 +1167,7 @@
     {
      "gerät": "Sonstiges",
      "items": [
-      "4 Stockwerke = 10-12 Hoehenmeter, zwei Stufen auf einmal | + Gewichtsweste 15 kg | ZIELPULS am Ende jedes Aufstiegs: 153-162 bpm (90-95 % von HFmax 170). Beim Abstieg NICHT unter 130 bpm fallen lassen. (Treppen-Aufstieg)"
+      "4 Stockwerke = 10-12 Hoehenmeter, zwei Stufen auf einmal | + Gewichtsweste 15 kg | ZIELPULS am Ende jedes Aufstiegs: 155-163 bpm (90-95 % von HFmax 172). Beim Abstieg NICHT unter 130 bpm fallen lassen. (Treppen-Aufstieg)"
      ]
     }
    ]
@@ -1628,9 +1628,9 @@
        "perSide": false,
        "detail": "",
        "raw": "A1 Treppen-Aufstieg all-out 12x1",
-       "resistance": "4 Stockwerke = 10-12 Hoehenmeter, zwei Stufen auf einmal | + Gewichtsweste 15 kg | ZIELPULS am Ende jedes Aufstiegs: 153-162 bpm (90-95 % von HFmax 170). Beim Abstieg NICHT unter 130 bpm fallen lassen.",
+       "resistance": "4 Stockwerke = 10-12 Hoehenmeter, zwei Stufen auf einmal | + Gewichtsweste 15 kg | ZIELPULS am Ende jedes Aufstiegs: 155-163 bpm (90-95 % von HFmax 172). Beim Abstieg NICHT unter 130 bpm fallen lassen.",
        "resistanceLabel": "Treppen-Aufstieg",
-       "description": "Repeated Sprint Training im eigenen Treppenhaus. Vier Stockwerke a 2,5-3 m = 10-12 Hoehenmeter je Aufstieg. AUFSTIEG: all-out, zwei Stufen auf einmal, Arme frei mitschwingen lassen (bleiben unter Schulterhoehe, 90-Grad-Regel unberuehrt). ABSTIEG: im GEHEN, das ist die Pause - nicht laufen. Kein Stehenbleiben oben oder unten, direkt umdrehen. STEUERUNG UEBER DEN PULS, nicht ueber die Uhr: am Ende jedes Aufstiegs 170+ bpm, beim Abstieg nicht unter 130 bpm fallen lassen. Faellt der Puls tiefer: erst zwei Stufen auf einmal, dann zuegiger absteigen, erst zuletzt Gewichtsweste dazu. ERSETZT die urspruenglich geplanten 4x4-min-Intervalle: bei nur vier Stockwerken waere die Haelfte der Arbeitszeit Abstieg gewesen, das Protokoll von Helgerud ist so nicht nachbaubar. WARNUNG: Treppab ist exzentrische Quadrizeps-Belastung und der klassische Muskelkater-Ausloeser - am Montag ist Kendo. Erste zwei bis drei Wochen bewusst langsam absteigen. Hand in Gelaendernaehe, bei hohem Puls ist der Fehltritt real.",
+       "description": "Repeated Sprint Training im eigenen Treppenhaus. Vier Stockwerke a 2,5-3 m = 10-12 Hoehenmeter je Aufstieg. AUFSTIEG: all-out, zwei Stufen auf einmal, Arme frei mitschwingen lassen (bleiben unter Schulterhoehe, 90-Grad-Regel unberuehrt). ABSTIEG: im GEHEN, das ist die Pause - nicht laufen. Kein Stehenbleiben oben oder unten, direkt umdrehen. STEUERUNG UEBER DEN PULS, nicht ueber die Uhr: am Ende jedes Aufstiegs 155-163 bpm (90-95 % von HFmax 172), beim Abstieg nicht unter 130 bpm fallen lassen. Faellt der Puls tiefer: erst zwei Stufen auf einmal, dann zuegiger absteigen, erst zuletzt Gewichtsweste dazu. ERSETZT die urspruenglich geplanten 4x4-min-Intervalle: bei nur vier Stockwerken waere die Haelfte der Arbeitszeit Abstieg gewesen, das Protokoll von Helgerud ist so nicht nachbaubar. WARNUNG: Treppab ist exzentrische Quadrizeps-Belastung und der klassische Muskelkater-Ausloeser - am Montag ist Kendo. Erste zwei bis drei Wochen bewusst langsam absteigen. Hand in Gelaendernaehe, bei hohem Puls ist der Fehltritt real.",
        "video": "",
        "videoNote": ""
       }
@@ -1640,7 +1640,7 @@
      "resistance": [
       {
        "label": "Treppen-Aufstieg",
-       "value": "4 Stockwerke = 10-12 Hoehenmeter, zwei Stufen auf einmal | + Gewichtsweste 15 kg | ZIELPULS am Ende jedes Aufstiegs: 153-162 bpm (90-95 % von HFmax 170). Beim Abstieg NICHT unter 130 bpm fallen lassen."
+       "value": "4 Stockwerke = 10-12 Hoehenmeter, zwei Stufen auf einmal | + Gewichtsweste 15 kg | ZIELPULS am Ende jedes Aufstiegs: 155-163 bpm (90-95 % von HFmax 172). Beim Abstieg NICHT unter 130 bpm fallen lassen."
       }
      ]
     },
@@ -1741,7 +1741,7 @@
     {
      "gerät": "Sonstiges",
      "items": [
-      "4 Stockwerke = 10-12 Hoehenmeter, zwei Stufen auf einmal | + Gewichtsweste 15 kg | ZIELPULS am Ende jedes Aufstiegs: 153-162 bpm (90-95 % von HFmax 170). Beim Abstieg NICHT unter 130 bpm fallen lassen. (Treppen-Aufstieg)"
+      "4 Stockwerke = 10-12 Hoehenmeter, zwei Stufen auf einmal | + Gewichtsweste 15 kg | ZIELPULS am Ende jedes Aufstiegs: 155-163 bpm (90-95 % von HFmax 172). Beim Abstieg NICHT unter 130 bpm fallen lassen. (Treppen-Aufstieg)"
      ]
     }
    ]
@@ -2202,9 +2202,9 @@
        "perSide": false,
        "detail": "",
        "raw": "A1 Treppen-Aufstieg all-out 12x1",
-       "resistance": "4 Stockwerke = 10-12 Hoehenmeter, zwei Stufen auf einmal | + Gewichtsweste 15 kg | ZIELPULS am Ende jedes Aufstiegs: 153-162 bpm (90-95 % von HFmax 170). Beim Abstieg NICHT unter 130 bpm fallen lassen.",
+       "resistance": "4 Stockwerke = 10-12 Hoehenmeter, zwei Stufen auf einmal | + Gewichtsweste 15 kg | ZIELPULS am Ende jedes Aufstiegs: 155-163 bpm (90-95 % von HFmax 172). Beim Abstieg NICHT unter 130 bpm fallen lassen.",
        "resistanceLabel": "Treppen-Aufstieg",
-       "description": "Repeated Sprint Training im eigenen Treppenhaus. Vier Stockwerke a 2,5-3 m = 10-12 Hoehenmeter je Aufstieg. AUFSTIEG: all-out, zwei Stufen auf einmal, Arme frei mitschwingen lassen (bleiben unter Schulterhoehe, 90-Grad-Regel unberuehrt). ABSTIEG: im GEHEN, das ist die Pause - nicht laufen. Kein Stehenbleiben oben oder unten, direkt umdrehen. STEUERUNG UEBER DEN PULS, nicht ueber die Uhr: am Ende jedes Aufstiegs 170+ bpm, beim Abstieg nicht unter 130 bpm fallen lassen. Faellt der Puls tiefer: erst zwei Stufen auf einmal, dann zuegiger absteigen, erst zuletzt Gewichtsweste dazu. ERSETZT die urspruenglich geplanten 4x4-min-Intervalle: bei nur vier Stockwerken waere die Haelfte der Arbeitszeit Abstieg gewesen, das Protokoll von Helgerud ist so nicht nachbaubar. WARNUNG: Treppab ist exzentrische Quadrizeps-Belastung und der klassische Muskelkater-Ausloeser - am Montag ist Kendo. Erste zwei bis drei Wochen bewusst langsam absteigen. Hand in Gelaendernaehe, bei hohem Puls ist der Fehltritt real.",
+       "description": "Repeated Sprint Training im eigenen Treppenhaus. Vier Stockwerke a 2,5-3 m = 10-12 Hoehenmeter je Aufstieg. AUFSTIEG: all-out, zwei Stufen auf einmal, Arme frei mitschwingen lassen (bleiben unter Schulterhoehe, 90-Grad-Regel unberuehrt). ABSTIEG: im GEHEN, das ist die Pause - nicht laufen. Kein Stehenbleiben oben oder unten, direkt umdrehen. STEUERUNG UEBER DEN PULS, nicht ueber die Uhr: am Ende jedes Aufstiegs 155-163 bpm (90-95 % von HFmax 172), beim Abstieg nicht unter 130 bpm fallen lassen. Faellt der Puls tiefer: erst zwei Stufen auf einmal, dann zuegiger absteigen, erst zuletzt Gewichtsweste dazu. ERSETZT die urspruenglich geplanten 4x4-min-Intervalle: bei nur vier Stockwerken waere die Haelfte der Arbeitszeit Abstieg gewesen, das Protokoll von Helgerud ist so nicht nachbaubar. WARNUNG: Treppab ist exzentrische Quadrizeps-Belastung und der klassische Muskelkater-Ausloeser - am Montag ist Kendo. Erste zwei bis drei Wochen bewusst langsam absteigen. Hand in Gelaendernaehe, bei hohem Puls ist der Fehltritt real.",
        "video": "",
        "videoNote": ""
       }
@@ -2214,7 +2214,7 @@
      "resistance": [
       {
        "label": "Treppen-Aufstieg",
-       "value": "4 Stockwerke = 10-12 Hoehenmeter, zwei Stufen auf einmal | + Gewichtsweste 15 kg | ZIELPULS am Ende jedes Aufstiegs: 153-162 bpm (90-95 % von HFmax 170). Beim Abstieg NICHT unter 130 bpm fallen lassen."
+       "value": "4 Stockwerke = 10-12 Hoehenmeter, zwei Stufen auf einmal | + Gewichtsweste 15 kg | ZIELPULS am Ende jedes Aufstiegs: 155-163 bpm (90-95 % von HFmax 172). Beim Abstieg NICHT unter 130 bpm fallen lassen."
       }
      ]
     },
@@ -2315,7 +2315,7 @@
     {
      "gerät": "Sonstiges",
      "items": [
-      "4 Stockwerke = 10-12 Hoehenmeter, zwei Stufen auf einmal | + Gewichtsweste 15 kg | ZIELPULS am Ende jedes Aufstiegs: 153-162 bpm (90-95 % von HFmax 170). Beim Abstieg NICHT unter 130 bpm fallen lassen. (Treppen-Aufstieg)"
+      "4 Stockwerke = 10-12 Hoehenmeter, zwei Stufen auf einmal | + Gewichtsweste 15 kg | ZIELPULS am Ende jedes Aufstiegs: 155-163 bpm (90-95 % von HFmax 172). Beim Abstieg NICHT unter 130 bpm fallen lassen. (Treppen-Aufstieg)"
      ]
     }
    ]
@@ -2432,7 +2432,7 @@
   },
   {
    "name": "Treppen-Aufstieg (RST)",
-   "description": "Repeated Sprint Training im eigenen Treppenhaus. Vier Stockwerke a 2,5-3 m = 10-12 Hoehenmeter je Aufstieg. AUFSTIEG: all-out, zwei Stufen auf einmal, Arme frei mitschwingen lassen (bleiben unter Schulterhoehe, 90-Grad-Regel unberuehrt). ABSTIEG: im GEHEN, das ist die Pause - nicht laufen. Kein Stehenbleiben oben oder unten, direkt umdrehen. STEUERUNG UEBER DEN PULS, nicht ueber die Uhr: am Ende jedes Aufstiegs 170+ bpm, beim Abstieg nicht unter 130 bpm fallen lassen. Faellt der Puls tiefer: erst zwei Stufen auf einmal, dann zuegiger absteigen, erst zuletzt Gewichtsweste dazu. ERSETZT die urspruenglich geplanten 4x4-min-Intervalle: bei nur vier Stockwerken waere die Haelfte der Arbeitszeit Abstieg gewesen, das Protokoll von Helgerud ist so nicht nachbaubar. WARNUNG: Treppab ist exzentrische Quadrizeps-Belastung und der klassische Muskelkater-Ausloeser - am Montag ist Kendo. Erste zwei bis drei Wochen bewusst langsam absteigen. Hand in Gelaendernaehe, bei hohem Puls ist der Fehltritt real.",
+   "description": "Repeated Sprint Training im eigenen Treppenhaus. Vier Stockwerke a 2,5-3 m = 10-12 Hoehenmeter je Aufstieg. AUFSTIEG: all-out, zwei Stufen auf einmal, Arme frei mitschwingen lassen (bleiben unter Schulterhoehe, 90-Grad-Regel unberuehrt). ABSTIEG: im GEHEN, das ist die Pause - nicht laufen. Kein Stehenbleiben oben oder unten, direkt umdrehen. STEUERUNG UEBER DEN PULS, nicht ueber die Uhr: am Ende jedes Aufstiegs 155-163 bpm (90-95 % von HFmax 172), beim Abstieg nicht unter 130 bpm fallen lassen. Faellt der Puls tiefer: erst zwei Stufen auf einmal, dann zuegiger absteigen, erst zuletzt Gewichtsweste dazu. ERSETZT die urspruenglich geplanten 4x4-min-Intervalle: bei nur vier Stockwerken waere die Haelfte der Arbeitszeit Abstieg gewesen, das Protokoll von Helgerud ist so nicht nachbaubar. WARNUNG: Treppab ist exzentrische Quadrizeps-Belastung und der klassische Muskelkater-Ausloeser - am Montag ist Kendo. Erste zwei bis drei Wochen bewusst langsam absteigen. Hand in Gelaendernaehe, bei hohem Puls ist der Fehltritt real.",
    "video": "",
    "videoNote": ""
   },
