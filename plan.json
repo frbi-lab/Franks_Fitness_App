@@ -696,7 +696,7 @@
        "perSide": false,
        "detail": "",
        "raw": "B1 Kurzhantel Floor Press (neutraler Griff) 3x6-10",
-       "resistance": "2x21 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2 + 1x0,5) | 3 s exzentrisch",
+       "resistance": "2x20 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2) | 3 s exzentrisch",
        "resistanceLabel": "Kurzhantel Floor Press",
        "description": "ZURUECK IM PLAN AB W21 (Dienstag, B2) - jetzt mit 2x21 kg statt 2x17 kg, deshalb Zielbereich 6-10 statt 8-12. Rückenlage, Knie angestellt, in jeder Hand eine Kurzhantel mit neutralem Griff (Handflächen zueinander) über der Brust ausdrücken, Ellbogen ~45° vom Körper. Langsam ablassen, bis der Trizeps den Boden berührt – der Boden begrenzt die Bewegung und schützt das AC-Gelenk – kurz pausieren, dann hochdrücken. Ersetzt den KB Floor Press: Die Kurzhantel-Last liegt zentriert über der Handwurzel, das Handgelenk bleibt gerade (KB-Version war fürs Handgelenk schmerzhaft). Brust-/Trizeps-Hauptübung, 2x pro Woche (Di + Sa).",
        "video": "https://www.youtube.com/watch?v=rs05AtccEhg",
@@ -710,7 +710,7 @@
        "perSide": false,
        "detail": "",
        "raw": "B2 Band Lateral Raise (bis ~80°) 3x10-12",
-       "resistance": "Band LILA (15-25 lbs) | 3 s exzentrisch [Band bleibt LILA - Schulter! Steigerung NUR ueber Tempo und Standabstand zum Anker]",
+       "resistance": "Band TUERKIS (20-35 lbs) | 3 s exzentrisch [ab W22 von LILA auf TUERKIS - kleinstmoeglicher Schritt. NICHT dunkelgruen (60-170 lbs), das waere Faktor 5]",
        "resistanceLabel": "Seitheben",
        "description": "BAND: LILA (15-25 lbs). Auf das Band stellen, Arme leicht gebeugt seitlich anheben, STOPP bei ~80° (knapp unter Schulterhöhe), 2s halten, langsam ablassen. Leicht bleiben – Ziel ist der Erhalt der seitlichen Schultermuskulatur im schmerzfreien Bereich, ohne die 90°-Grenze zu reizen.",
        "video": "https://www.youtube.com/watch?v=gfEyrmxbCbw",
@@ -722,11 +722,11 @@
      "resistance": [
       {
        "label": "Kurzhantel Floor Press",
-       "value": "2x21 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2 + 1x0,5) | 3 s exzentrisch"
+       "value": "2x20 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2) | 3 s exzentrisch"
       },
       {
        "label": "Seitheben",
-       "value": "Band LILA (15-25 lbs) | 3 s exzentrisch [Band bleibt LILA - Schulter! Steigerung NUR ueber Tempo und Standabstand zum Anker]"
+       "value": "Band TUERKIS (20-35 lbs) | 3 s exzentrisch [ab W22 von LILA auf TUERKIS - kleinstmoeglicher Schritt. NICHT dunkelgruen (60-170 lbs), das waere Faktor 5]"
       }
      ]
     },
@@ -746,28 +746,15 @@
        "description": "Vom Krankengymnasten gezeigt und dort erprobt. Liegestuetzposition am Boden, Haende DEUTLICH UEBERSCHULTERBREIT, Ellbogen ca. 45 Grad zum Rumpf (nicht seitlich ausgestellt, nicht eng am Koerper). Rumpf und Gesaess fest, der Koerper bleibt eine Linie. NUR die Absenkphase: 4 Sekunden langsam und kontrolliert bis zum Boden. Unten kurz ablegen. NICHT wieder hochdruecken - stattdessen auf die Knie gehen und so in die Ausgangsposition zurueck. 10 Wiederholungen, 3 Saetze. Die Arme bleiben durchgehend unter Schulterhoehe, die 90-Grad-Regel ist eingehalten. Steigerung spaeter ueber Tempo (5-6 s) oder Fuesse erhoeht - NICHT ueber die Gewichtsweste.",
        "video": "https://www.youtube.com/watch?v=1JsPD1_7nX0",
        "videoNote": "Muscle & Motion, Anatomie und typische Fehler - dort wird anschliessend hochgedrueckt, das entfaellt bei dir"
-      }
-     ],
-     "pause": "Pause ~60s",
-     "note": "Pause ~60s",
-     "resistance": [
-      {
-       "label": "Liegestütz",
-       "value": "Eigengewicht | Haende UEBERSCHULTERBREIT, Ellbogen ca. 45 Grad zum Rumpf, 4 s ablassen, unten kurz auf dem Boden ablegen, KEIN Hochdrücken - auf den Knien zurueck"
-      }
-     ]
-    },
-    {
-     "block": "Block 4 (Cool-down)",
-     "exercises": [
+      },
       {
        "code": "D1",
        "name": "Kraniozervikale Flexion",
-       "sets": 1,
+       "sets": 2,
        "targetReps": "10",
        "perSide": false,
        "detail": "je Wiederholung 10 s halten",
-       "raw": "D1 Kraniozervikale Flexion 1x10 - je Wiederholung 10 s halten",
+       "raw": "D1 Kraniozervikale Flexion 2x10 - je Wiederholung 10 s halten",
        "resistance": "duenne Handtuchrolle unter dem Hinterkopf (Eigengewicht)",
        "resistanceLabel": "Kraniozervikale Flexion",
        "description": "Rueckenlage auf der Matte, duenne Handtuchrolle unter den Hinterkopf. Langsames Nicken (\"Ja\"-Bewegung), als wuerde der Hinterkopf ueber die Rolle rollen - der Kopf bleibt liegen und wird NICHT abgehoben. 10 s halten, 10 Wiederholungen, 2 Saetze. KONTROLLE: zwei Finger seitlich am Hals auf den M. sternocleidomastoideus. Der darf sich nicht anspannen; spannt er an, ist die Bewegung zu gross. Ziel ist die tiefe Halsbeugemuskulatur (M. longus colli und longus capitis), nicht die oberflaechliche. 3-4x/Woche am Ende der Einheit - in diesem Plan an allen drei Trainingstagen. EINORDNUNG: Von Frank selbst eingebracht (05.08.2026). Die Evidenz betrifft den kraniovertebralen Winkel (CVA) bei Vorhaltung des Kopfes und Nackenschmerz; eine Wirkung auf die Kendo-Leistung ist NICHT untersucht. Schulterunbedenklich - die Arme sind unbeteiligt, die 90-Grad-Regel bleibt unberuehrt. Siehe Blatt Quellen.",
@@ -775,9 +762,13 @@
        "videoNote": ""
       }
      ],
-     "pause": "Pause ~30s",
-     "note": "Pause ~30s",
+     "pause": "Pause ~10s",
+     "note": "ALTERNIEREND als EIN Block: Satz C1, dann ein Satz D1 zur Erholung, Satz C1, Satz D1, Satz C1. Die Kraniozervikale Flexion fuellt genau die zwei Erholungsphasen von C1 (Frank, 08.09.2026). Pause ~10s (die Erholung IST der Satz der Gegenuebung)",
      "resistance": [
+      {
+       "label": "Liegestütz",
+       "value": "Eigengewicht | Haende UEBERSCHULTERBREIT, Ellbogen ca. 45 Grad zum Rumpf, 4 s ablassen, unten kurz auf dem Boden ablegen, KEIN Hochdrücken - auf den Knien zurueck"
+      },
       {
        "label": "Kraniozervikale Flexion",
        "value": "duenne Handtuchrolle unter dem Hinterkopf (Eigengewicht)"
@@ -794,14 +785,14 @@
     {
      "gerät": "Kurzhanteln",
      "items": [
-      "2x21 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2 + 1x0,5) | 3 s exzentrisch (Kurzhantel Floor Press)",
+      "2x20 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2) | 3 s exzentrisch (Kurzhantel Floor Press)",
       "2x21 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2 + 1x0,5) | 4 s exzentrisch (Kurzhantel-Squat)"
      ]
     },
     {
      "gerät": "Bänder",
      "items": [
-      "Band LILA (15-25 lbs) | 3 s exzentrisch [Band bleibt LILA - Schulter! Steigerung NUR ueber Tempo und Standabstand zum Anker] (Seitheben)"
+      "Band TUERKIS (20-35 lbs) | 3 s exzentrisch [ab W22 von LILA auf TUERKIS - kleinstmoeglicher Schritt. NICHT dunkelgruen (60-170 lbs), das waere Faktor 5] (Seitheben)"
      ]
     }
    ]
@@ -949,33 +940,20 @@
        "perSide": false,
        "detail": "",
        "raw": "C1 Band Lateral Raise (bis ~80°) 3x10-12",
-       "resistance": "Band LILA (15-25 lbs) | 3 s exzentrisch",
+       "resistance": "Band TUERKIS (20-35 lbs) | 3 s exzentrisch [ab W22 von LILA auf TUERKIS - NICHT dunkelgruen]",
        "resistanceLabel": "Seitheben",
        "description": "BAND: LILA (15-25 lbs). Auf das Band stellen, Arme leicht gebeugt seitlich anheben, STOPP bei ~80° (knapp unter Schulterhöhe), 2s halten, langsam ablassen. Leicht bleiben – Ziel ist der Erhalt der seitlichen Schultermuskulatur im schmerzfreien Bereich, ohne die 90°-Grenze zu reizen.",
        "video": "https://www.youtube.com/watch?v=gfEyrmxbCbw",
        "videoNote": ""
-      }
-     ],
-     "pause": "Pause ~45s",
-     "note": "Pause ~45s",
-     "resistance": [
-      {
-       "label": "Seitheben",
-       "value": "Band LILA (15-25 lbs) | 3 s exzentrisch"
-      }
-     ]
-    },
-    {
-     "block": "Block 4 (Cool-down)",
-     "exercises": [
+      },
       {
        "code": "D1",
        "name": "Kraniozervikale Flexion",
-       "sets": 1,
+       "sets": 2,
        "targetReps": "10",
        "perSide": false,
        "detail": "je Wiederholung 10 s halten",
-       "raw": "D1 Kraniozervikale Flexion 1x10 - je Wiederholung 10 s halten",
+       "raw": "D1 Kraniozervikale Flexion 2x10 - je Wiederholung 10 s halten",
        "resistance": "duenne Handtuchrolle unter dem Hinterkopf (Eigengewicht)",
        "resistanceLabel": "Kraniozervikale Flexion",
        "description": "Rueckenlage auf der Matte, duenne Handtuchrolle unter den Hinterkopf. Langsames Nicken (\"Ja\"-Bewegung), als wuerde der Hinterkopf ueber die Rolle rollen - der Kopf bleibt liegen und wird NICHT abgehoben. 10 s halten, 10 Wiederholungen, 2 Saetze. KONTROLLE: zwei Finger seitlich am Hals auf den M. sternocleidomastoideus. Der darf sich nicht anspannen; spannt er an, ist die Bewegung zu gross. Ziel ist die tiefe Halsbeugemuskulatur (M. longus colli und longus capitis), nicht die oberflaechliche. 3-4x/Woche am Ende der Einheit - in diesem Plan an allen drei Trainingstagen. EINORDNUNG: Von Frank selbst eingebracht (05.08.2026). Die Evidenz betrifft den kraniovertebralen Winkel (CVA) bei Vorhaltung des Kopfes und Nackenschmerz; eine Wirkung auf die Kendo-Leistung ist NICHT untersucht. Schulterunbedenklich - die Arme sind unbeteiligt, die 90-Grad-Regel bleibt unberuehrt. Siehe Blatt Quellen.",
@@ -983,9 +961,13 @@
        "videoNote": ""
       }
      ],
-     "pause": "Pause ~30s",
-     "note": "Pause ~30s",
+     "pause": "Pause ~10s",
+     "note": "ALTERNIEREND als EIN Block: Satz C1, dann ein Satz D1 zur Erholung, Satz C1, Satz D1, Satz C1. Die Kraniozervikale Flexion fuellt genau die zwei Erholungsphasen von C1 (Frank, 08.09.2026). Pause ~10s (die Erholung IST der Satz der Gegenuebung)",
      "resistance": [
+      {
+       "label": "Seitheben",
+       "value": "Band TUERKIS (20-35 lbs) | 3 s exzentrisch [ab W22 von LILA auf TUERKIS - NICHT dunkelgruen]"
+      },
       {
        "label": "Kraniozervikale Flexion",
        "value": "duenne Handtuchrolle unter dem Hinterkopf (Eigengewicht)"
@@ -1013,8 +995,8 @@
      "gerät": "Bänder",
      "items": [
       "Band DUNKELGRUEN (60-170 lbs) (Chest-Press)",
-      "Band LILA (15-25 lbs) | 3 s exzentrisch (Seitheben)",
-      "Band ROT (50-125 lbs) | Ellbogen bleiben auf Schulterhoehe, NICHT hoeher (Face Pull)"
+      "Band ROT (50-125 lbs) | Ellbogen bleiben auf Schulterhoehe, NICHT hoeher (Face Pull)",
+      "Band TUERKIS (20-35 lbs) | 3 s exzentrisch [ab W22 von LILA auf TUERKIS - NICHT dunkelgruen] (Seitheben)"
      ]
     }
    ]
@@ -1113,20 +1095,7 @@
        "description": "BAND: ROT (50-125 lbs). Band auf etwa Schulterhoehe verankern (Klimmzugstange, Tueranker). Beide Griffe fassen, Arme gestreckt nach vorn. Das Band zum Gesicht ziehen, dabei die ELLBOGEN NACH AUSSEN fuehren, Schulterblaetter nach hinten-unten. Die Ellbogen bleiben auf Schulterhoehe und gehen NICHT darueber - damit ist die 90-Grad-Regel eingehalten. Am Endpunkt kurz halten, langsam zurueck. WARUM DIESE UEBUNG: hintere Schulter und obere Ruecken-/Schulterblattmuskulatur. Die Bewegung ist horizontale ABduktion - also das Gegenteil des Musters, das das ACG reizt (horizontale Adduktion, Arm quer vor dem Koerper). Der einzige Schulterreiz im Plan, der die Arthrose eher entlastet.",
        "video": "",
        "videoNote": ""
-      }
-     ],
-     "pause": "Pause ~45s",
-     "note": "Pause ~45s",
-     "resistance": [
-      {
-       "label": "Face Pull",
-       "value": "Band ROT (50-125 lbs) | Ellbogen auf Schulterhoehe, nicht hoeher"
-      }
-     ]
-    },
-    {
-     "block": "Block 4 (Cool-down)",
-     "exercises": [
+      },
       {
        "code": "D1",
        "name": "Kraniozervikale Flexion",
@@ -1142,9 +1111,13 @@
        "videoNote": ""
       }
      ],
-     "pause": "Pause ~30s",
-     "note": "Pause ~30s",
+     "pause": "Pause ~10s",
+     "note": "ALTERNIEREND als EIN Block: Satz C1, dann ein Satz D1 zur Erholung, Satz C1, Satz D1, Satz C1. Die Kraniozervikale Flexion fuellt genau die zwei Erholungsphasen von C1 (Frank, 08.09.2026). Pause ~10s (die Erholung IST der Satz der Gegenuebung)",
      "resistance": [
+      {
+       "label": "Face Pull",
+       "value": "Band ROT (50-125 lbs) | Ellbogen auf Schulterhoehe, nicht hoeher"
+      },
       {
        "label": "Kraniozervikale Flexion",
        "value": "duenne Handtuchrolle unter dem Hinterkopf (Eigengewicht)"
@@ -1270,7 +1243,7 @@
        "perSide": false,
        "detail": "",
        "raw": "B1 Kurzhantel Floor Press (neutraler Griff) 3x6-10",
-       "resistance": "2x21 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2 + 1x0,5) | 3 s exzentrisch",
+       "resistance": "2x20 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2) | 3 s exzentrisch",
        "resistanceLabel": "Kurzhantel Floor Press",
        "description": "ZURUECK IM PLAN AB W21 (Dienstag, B2) - jetzt mit 2x21 kg statt 2x17 kg, deshalb Zielbereich 6-10 statt 8-12. Rückenlage, Knie angestellt, in jeder Hand eine Kurzhantel mit neutralem Griff (Handflächen zueinander) über der Brust ausdrücken, Ellbogen ~45° vom Körper. Langsam ablassen, bis der Trizeps den Boden berührt – der Boden begrenzt die Bewegung und schützt das AC-Gelenk – kurz pausieren, dann hochdrücken. Ersetzt den KB Floor Press: Die Kurzhantel-Last liegt zentriert über der Handwurzel, das Handgelenk bleibt gerade (KB-Version war fürs Handgelenk schmerzhaft). Brust-/Trizeps-Hauptübung, 2x pro Woche (Di + Sa).",
        "video": "https://www.youtube.com/watch?v=rs05AtccEhg",
@@ -1284,7 +1257,7 @@
        "perSide": false,
        "detail": "",
        "raw": "B2 Band Lateral Raise (bis ~80°) 3x10-12",
-       "resistance": "Band LILA (15-25 lbs) | 3 s exzentrisch [Band bleibt LILA - Schulter! Steigerung NUR ueber Tempo und Standabstand zum Anker]",
+       "resistance": "Band TUERKIS (20-35 lbs) | 3 s exzentrisch [ab W22 von LILA auf TUERKIS - kleinstmoeglicher Schritt. NICHT dunkelgruen (60-170 lbs), das waere Faktor 5]",
        "resistanceLabel": "Seitheben",
        "description": "BAND: LILA (15-25 lbs). Auf das Band stellen, Arme leicht gebeugt seitlich anheben, STOPP bei ~80° (knapp unter Schulterhöhe), 2s halten, langsam ablassen. Leicht bleiben – Ziel ist der Erhalt der seitlichen Schultermuskulatur im schmerzfreien Bereich, ohne die 90°-Grenze zu reizen.",
        "video": "https://www.youtube.com/watch?v=gfEyrmxbCbw",
@@ -1296,11 +1269,11 @@
      "resistance": [
       {
        "label": "Kurzhantel Floor Press",
-       "value": "2x21 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2 + 1x0,5) | 3 s exzentrisch"
+       "value": "2x20 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2) | 3 s exzentrisch"
       },
       {
        "label": "Seitheben",
-       "value": "Band LILA (15-25 lbs) | 3 s exzentrisch [Band bleibt LILA - Schulter! Steigerung NUR ueber Tempo und Standabstand zum Anker]"
+       "value": "Band TUERKIS (20-35 lbs) | 3 s exzentrisch [ab W22 von LILA auf TUERKIS - kleinstmoeglicher Schritt. NICHT dunkelgruen (60-170 lbs), das waere Faktor 5]"
       }
      ]
     },
@@ -1320,28 +1293,15 @@
        "description": "Vom Krankengymnasten gezeigt und dort erprobt. Liegestuetzposition am Boden, Haende DEUTLICH UEBERSCHULTERBREIT, Ellbogen ca. 45 Grad zum Rumpf (nicht seitlich ausgestellt, nicht eng am Koerper). Rumpf und Gesaess fest, der Koerper bleibt eine Linie. NUR die Absenkphase: 4 Sekunden langsam und kontrolliert bis zum Boden. Unten kurz ablegen. NICHT wieder hochdruecken - stattdessen auf die Knie gehen und so in die Ausgangsposition zurueck. 10 Wiederholungen, 3 Saetze. Die Arme bleiben durchgehend unter Schulterhoehe, die 90-Grad-Regel ist eingehalten. Steigerung spaeter ueber Tempo (5-6 s) oder Fuesse erhoeht - NICHT ueber die Gewichtsweste.",
        "video": "https://www.youtube.com/watch?v=1JsPD1_7nX0",
        "videoNote": "Muscle & Motion, Anatomie und typische Fehler - dort wird anschliessend hochgedrueckt, das entfaellt bei dir"
-      }
-     ],
-     "pause": "Pause ~60s",
-     "note": "Pause ~60s",
-     "resistance": [
-      {
-       "label": "Liegestütz",
-       "value": "Eigengewicht | Haende UEBERSCHULTERBREIT, Ellbogen ca. 45 Grad zum Rumpf, 4 s ablassen, unten kurz auf dem Boden ablegen, KEIN Hochdrücken - auf den Knien zurueck"
-      }
-     ]
-    },
-    {
-     "block": "Block 4 (Cool-down)",
-     "exercises": [
+      },
       {
        "code": "D1",
        "name": "Kraniozervikale Flexion",
-       "sets": 1,
+       "sets": 2,
        "targetReps": "10",
        "perSide": false,
        "detail": "je Wiederholung 10 s halten",
-       "raw": "D1 Kraniozervikale Flexion 1x10 - je Wiederholung 10 s halten",
+       "raw": "D1 Kraniozervikale Flexion 2x10 - je Wiederholung 10 s halten",
        "resistance": "duenne Handtuchrolle unter dem Hinterkopf (Eigengewicht)",
        "resistanceLabel": "Kraniozervikale Flexion",
        "description": "Rueckenlage auf der Matte, duenne Handtuchrolle unter den Hinterkopf. Langsames Nicken (\"Ja\"-Bewegung), als wuerde der Hinterkopf ueber die Rolle rollen - der Kopf bleibt liegen und wird NICHT abgehoben. 10 s halten, 10 Wiederholungen, 2 Saetze. KONTROLLE: zwei Finger seitlich am Hals auf den M. sternocleidomastoideus. Der darf sich nicht anspannen; spannt er an, ist die Bewegung zu gross. Ziel ist die tiefe Halsbeugemuskulatur (M. longus colli und longus capitis), nicht die oberflaechliche. 3-4x/Woche am Ende der Einheit - in diesem Plan an allen drei Trainingstagen. EINORDNUNG: Von Frank selbst eingebracht (05.08.2026). Die Evidenz betrifft den kraniovertebralen Winkel (CVA) bei Vorhaltung des Kopfes und Nackenschmerz; eine Wirkung auf die Kendo-Leistung ist NICHT untersucht. Schulterunbedenklich - die Arme sind unbeteiligt, die 90-Grad-Regel bleibt unberuehrt. Siehe Blatt Quellen.",
@@ -1349,9 +1309,13 @@
        "videoNote": ""
       }
      ],
-     "pause": "Pause ~30s",
-     "note": "Pause ~30s",
+     "pause": "Pause ~10s",
+     "note": "ALTERNIEREND als EIN Block: Satz C1, dann ein Satz D1 zur Erholung, Satz C1, Satz D1, Satz C1. Die Kraniozervikale Flexion fuellt genau die zwei Erholungsphasen von C1 (Frank, 08.09.2026). Pause ~10s (die Erholung IST der Satz der Gegenuebung)",
      "resistance": [
+      {
+       "label": "Liegestütz",
+       "value": "Eigengewicht | Haende UEBERSCHULTERBREIT, Ellbogen ca. 45 Grad zum Rumpf, 4 s ablassen, unten kurz auf dem Boden ablegen, KEIN Hochdrücken - auf den Knien zurueck"
+      },
       {
        "label": "Kraniozervikale Flexion",
        "value": "duenne Handtuchrolle unter dem Hinterkopf (Eigengewicht)"
@@ -1368,14 +1332,14 @@
     {
      "gerät": "Kurzhanteln",
      "items": [
-      "2x21 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2 + 1x0,5) | 3 s exzentrisch (Kurzhantel Floor Press)",
+      "2x20 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2) | 3 s exzentrisch (Kurzhantel Floor Press)",
       "2x21 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2 + 1x0,5) | 4 s exzentrisch (Kurzhantel-Squat)"
      ]
     },
     {
      "gerät": "Bänder",
      "items": [
-      "Band LILA (15-25 lbs) | 3 s exzentrisch [Band bleibt LILA - Schulter! Steigerung NUR ueber Tempo und Standabstand zum Anker] (Seitheben)"
+      "Band TUERKIS (20-35 lbs) | 3 s exzentrisch [ab W22 von LILA auf TUERKIS - kleinstmoeglicher Schritt. NICHT dunkelgruen (60-170 lbs), das waere Faktor 5] (Seitheben)"
      ]
     }
    ]
@@ -1523,33 +1487,20 @@
        "perSide": false,
        "detail": "",
        "raw": "C1 Band Lateral Raise (bis ~80°) 3x10-12",
-       "resistance": "Band LILA (15-25 lbs) | 3 s exzentrisch",
+       "resistance": "Band TUERKIS (20-35 lbs) | 3 s exzentrisch [ab W22 von LILA auf TUERKIS - NICHT dunkelgruen]",
        "resistanceLabel": "Seitheben",
        "description": "BAND: LILA (15-25 lbs). Auf das Band stellen, Arme leicht gebeugt seitlich anheben, STOPP bei ~80° (knapp unter Schulterhöhe), 2s halten, langsam ablassen. Leicht bleiben – Ziel ist der Erhalt der seitlichen Schultermuskulatur im schmerzfreien Bereich, ohne die 90°-Grenze zu reizen.",
        "video": "https://www.youtube.com/watch?v=gfEyrmxbCbw",
        "videoNote": ""
-      }
-     ],
-     "pause": "Pause ~45s",
-     "note": "Pause ~45s",
-     "resistance": [
-      {
-       "label": "Seitheben",
-       "value": "Band LILA (15-25 lbs) | 3 s exzentrisch"
-      }
-     ]
-    },
-    {
-     "block": "Block 4 (Cool-down)",
-     "exercises": [
+      },
       {
        "code": "D1",
        "name": "Kraniozervikale Flexion",
-       "sets": 1,
+       "sets": 2,
        "targetReps": "10",
        "perSide": false,
        "detail": "je Wiederholung 10 s halten",
-       "raw": "D1 Kraniozervikale Flexion 1x10 - je Wiederholung 10 s halten",
+       "raw": "D1 Kraniozervikale Flexion 2x10 - je Wiederholung 10 s halten",
        "resistance": "duenne Handtuchrolle unter dem Hinterkopf (Eigengewicht)",
        "resistanceLabel": "Kraniozervikale Flexion",
        "description": "Rueckenlage auf der Matte, duenne Handtuchrolle unter den Hinterkopf. Langsames Nicken (\"Ja\"-Bewegung), als wuerde der Hinterkopf ueber die Rolle rollen - der Kopf bleibt liegen und wird NICHT abgehoben. 10 s halten, 10 Wiederholungen, 2 Saetze. KONTROLLE: zwei Finger seitlich am Hals auf den M. sternocleidomastoideus. Der darf sich nicht anspannen; spannt er an, ist die Bewegung zu gross. Ziel ist die tiefe Halsbeugemuskulatur (M. longus colli und longus capitis), nicht die oberflaechliche. 3-4x/Woche am Ende der Einheit - in diesem Plan an allen drei Trainingstagen. EINORDNUNG: Von Frank selbst eingebracht (05.08.2026). Die Evidenz betrifft den kraniovertebralen Winkel (CVA) bei Vorhaltung des Kopfes und Nackenschmerz; eine Wirkung auf die Kendo-Leistung ist NICHT untersucht. Schulterunbedenklich - die Arme sind unbeteiligt, die 90-Grad-Regel bleibt unberuehrt. Siehe Blatt Quellen.",
@@ -1557,9 +1508,13 @@
        "videoNote": ""
       }
      ],
-     "pause": "Pause ~30s",
-     "note": "Pause ~30s",
+     "pause": "Pause ~10s",
+     "note": "ALTERNIEREND als EIN Block: Satz C1, dann ein Satz D1 zur Erholung, Satz C1, Satz D1, Satz C1. Die Kraniozervikale Flexion fuellt genau die zwei Erholungsphasen von C1 (Frank, 08.09.2026). Pause ~10s (die Erholung IST der Satz der Gegenuebung)",
      "resistance": [
+      {
+       "label": "Seitheben",
+       "value": "Band TUERKIS (20-35 lbs) | 3 s exzentrisch [ab W22 von LILA auf TUERKIS - NICHT dunkelgruen]"
+      },
       {
        "label": "Kraniozervikale Flexion",
        "value": "duenne Handtuchrolle unter dem Hinterkopf (Eigengewicht)"
@@ -1587,8 +1542,8 @@
      "gerät": "Bänder",
      "items": [
       "Band DUNKELGRUEN (60-170 lbs) (Chest-Press)",
-      "Band LILA (15-25 lbs) | 3 s exzentrisch (Seitheben)",
-      "Band ROT (50-125 lbs) | Ellbogen bleiben auf Schulterhoehe, NICHT hoeher (Face Pull)"
+      "Band ROT (50-125 lbs) | Ellbogen bleiben auf Schulterhoehe, NICHT hoeher (Face Pull)",
+      "Band TUERKIS (20-35 lbs) | 3 s exzentrisch [ab W22 von LILA auf TUERKIS - NICHT dunkelgruen] (Seitheben)"
      ]
     }
    ]
@@ -1687,20 +1642,7 @@
        "description": "BAND: ROT (50-125 lbs). Band auf etwa Schulterhoehe verankern (Klimmzugstange, Tueranker). Beide Griffe fassen, Arme gestreckt nach vorn. Das Band zum Gesicht ziehen, dabei die ELLBOGEN NACH AUSSEN fuehren, Schulterblaetter nach hinten-unten. Die Ellbogen bleiben auf Schulterhoehe und gehen NICHT darueber - damit ist die 90-Grad-Regel eingehalten. Am Endpunkt kurz halten, langsam zurueck. WARUM DIESE UEBUNG: hintere Schulter und obere Ruecken-/Schulterblattmuskulatur. Die Bewegung ist horizontale ABduktion - also das Gegenteil des Musters, das das ACG reizt (horizontale Adduktion, Arm quer vor dem Koerper). Der einzige Schulterreiz im Plan, der die Arthrose eher entlastet.",
        "video": "",
        "videoNote": ""
-      }
-     ],
-     "pause": "Pause ~45s",
-     "note": "Pause ~45s",
-     "resistance": [
-      {
-       "label": "Face Pull",
-       "value": "Band ROT (50-125 lbs) | Ellbogen auf Schulterhoehe, nicht hoeher"
-      }
-     ]
-    },
-    {
-     "block": "Block 4 (Cool-down)",
-     "exercises": [
+      },
       {
        "code": "D1",
        "name": "Kraniozervikale Flexion",
@@ -1716,9 +1658,13 @@
        "videoNote": ""
       }
      ],
-     "pause": "Pause ~30s",
-     "note": "Pause ~30s",
+     "pause": "Pause ~10s",
+     "note": "ALTERNIEREND als EIN Block: Satz C1, dann ein Satz D1 zur Erholung, Satz C1, Satz D1, Satz C1. Die Kraniozervikale Flexion fuellt genau die zwei Erholungsphasen von C1 (Frank, 08.09.2026). Pause ~10s (die Erholung IST der Satz der Gegenuebung)",
      "resistance": [
+      {
+       "label": "Face Pull",
+       "value": "Band ROT (50-125 lbs) | Ellbogen auf Schulterhoehe, nicht hoeher"
+      },
       {
        "label": "Kraniozervikale Flexion",
        "value": "duenne Handtuchrolle unter dem Hinterkopf (Eigengewicht)"
@@ -1844,7 +1790,7 @@
        "perSide": false,
        "detail": "",
        "raw": "B1 Kurzhantel Floor Press (neutraler Griff) 3x6-10",
-       "resistance": "2x21 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2 + 1x0,5) | 3 s exzentrisch",
+       "resistance": "2x20 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2) | 3 s exzentrisch",
        "resistanceLabel": "Kurzhantel Floor Press",
        "description": "ZURUECK IM PLAN AB W21 (Dienstag, B2) - jetzt mit 2x21 kg statt 2x17 kg, deshalb Zielbereich 6-10 statt 8-12. Rückenlage, Knie angestellt, in jeder Hand eine Kurzhantel mit neutralem Griff (Handflächen zueinander) über der Brust ausdrücken, Ellbogen ~45° vom Körper. Langsam ablassen, bis der Trizeps den Boden berührt – der Boden begrenzt die Bewegung und schützt das AC-Gelenk – kurz pausieren, dann hochdrücken. Ersetzt den KB Floor Press: Die Kurzhantel-Last liegt zentriert über der Handwurzel, das Handgelenk bleibt gerade (KB-Version war fürs Handgelenk schmerzhaft). Brust-/Trizeps-Hauptübung, 2x pro Woche (Di + Sa).",
        "video": "https://www.youtube.com/watch?v=rs05AtccEhg",
@@ -1858,7 +1804,7 @@
        "perSide": false,
        "detail": "",
        "raw": "B2 Band Lateral Raise (bis ~80°) 3x10-12",
-       "resistance": "Band LILA (15-25 lbs) | 3 s exzentrisch [Band bleibt LILA - Schulter! Steigerung NUR ueber Tempo und Standabstand zum Anker]",
+       "resistance": "Band TUERKIS (20-35 lbs) | 3 s exzentrisch [ab W22 von LILA auf TUERKIS - kleinstmoeglicher Schritt. NICHT dunkelgruen (60-170 lbs), das waere Faktor 5]",
        "resistanceLabel": "Seitheben",
        "description": "BAND: LILA (15-25 lbs). Auf das Band stellen, Arme leicht gebeugt seitlich anheben, STOPP bei ~80° (knapp unter Schulterhöhe), 2s halten, langsam ablassen. Leicht bleiben – Ziel ist der Erhalt der seitlichen Schultermuskulatur im schmerzfreien Bereich, ohne die 90°-Grenze zu reizen.",
        "video": "https://www.youtube.com/watch?v=gfEyrmxbCbw",
@@ -1870,11 +1816,11 @@
      "resistance": [
       {
        "label": "Kurzhantel Floor Press",
-       "value": "2x21 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2 + 1x0,5) | 3 s exzentrisch"
+       "value": "2x20 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2) | 3 s exzentrisch"
       },
       {
        "label": "Seitheben",
-       "value": "Band LILA (15-25 lbs) | 3 s exzentrisch [Band bleibt LILA - Schulter! Steigerung NUR ueber Tempo und Standabstand zum Anker]"
+       "value": "Band TUERKIS (20-35 lbs) | 3 s exzentrisch [ab W22 von LILA auf TUERKIS - kleinstmoeglicher Schritt. NICHT dunkelgruen (60-170 lbs), das waere Faktor 5]"
       }
      ]
     },
@@ -1894,28 +1840,15 @@
        "description": "Vom Krankengymnasten gezeigt und dort erprobt. Liegestuetzposition am Boden, Haende DEUTLICH UEBERSCHULTERBREIT, Ellbogen ca. 45 Grad zum Rumpf (nicht seitlich ausgestellt, nicht eng am Koerper). Rumpf und Gesaess fest, der Koerper bleibt eine Linie. NUR die Absenkphase: 4 Sekunden langsam und kontrolliert bis zum Boden. Unten kurz ablegen. NICHT wieder hochdruecken - stattdessen auf die Knie gehen und so in die Ausgangsposition zurueck. 10 Wiederholungen, 3 Saetze. Die Arme bleiben durchgehend unter Schulterhoehe, die 90-Grad-Regel ist eingehalten. Steigerung spaeter ueber Tempo (5-6 s) oder Fuesse erhoeht - NICHT ueber die Gewichtsweste.",
        "video": "https://www.youtube.com/watch?v=1JsPD1_7nX0",
        "videoNote": "Muscle & Motion, Anatomie und typische Fehler - dort wird anschliessend hochgedrueckt, das entfaellt bei dir"
-      }
-     ],
-     "pause": "Pause ~60s",
-     "note": "Pause ~60s",
-     "resistance": [
-      {
-       "label": "Liegestütz",
-       "value": "Eigengewicht | Haende UEBERSCHULTERBREIT, Ellbogen ca. 45 Grad zum Rumpf, 4 s ablassen, unten kurz auf dem Boden ablegen, KEIN Hochdrücken - auf den Knien zurueck"
-      }
-     ]
-    },
-    {
-     "block": "Block 4 (Cool-down)",
-     "exercises": [
+      },
       {
        "code": "D1",
        "name": "Kraniozervikale Flexion",
-       "sets": 1,
+       "sets": 2,
        "targetReps": "10",
        "perSide": false,
        "detail": "je Wiederholung 10 s halten",
-       "raw": "D1 Kraniozervikale Flexion 1x10 - je Wiederholung 10 s halten",
+       "raw": "D1 Kraniozervikale Flexion 2x10 - je Wiederholung 10 s halten",
        "resistance": "duenne Handtuchrolle unter dem Hinterkopf (Eigengewicht)",
        "resistanceLabel": "Kraniozervikale Flexion",
        "description": "Rueckenlage auf der Matte, duenne Handtuchrolle unter den Hinterkopf. Langsames Nicken (\"Ja\"-Bewegung), als wuerde der Hinterkopf ueber die Rolle rollen - der Kopf bleibt liegen und wird NICHT abgehoben. 10 s halten, 10 Wiederholungen, 2 Saetze. KONTROLLE: zwei Finger seitlich am Hals auf den M. sternocleidomastoideus. Der darf sich nicht anspannen; spannt er an, ist die Bewegung zu gross. Ziel ist die tiefe Halsbeugemuskulatur (M. longus colli und longus capitis), nicht die oberflaechliche. 3-4x/Woche am Ende der Einheit - in diesem Plan an allen drei Trainingstagen. EINORDNUNG: Von Frank selbst eingebracht (05.08.2026). Die Evidenz betrifft den kraniovertebralen Winkel (CVA) bei Vorhaltung des Kopfes und Nackenschmerz; eine Wirkung auf die Kendo-Leistung ist NICHT untersucht. Schulterunbedenklich - die Arme sind unbeteiligt, die 90-Grad-Regel bleibt unberuehrt. Siehe Blatt Quellen.",
@@ -1923,9 +1856,13 @@
        "videoNote": ""
       }
      ],
-     "pause": "Pause ~30s",
-     "note": "Pause ~30s",
+     "pause": "Pause ~10s",
+     "note": "ALTERNIEREND als EIN Block: Satz C1, dann ein Satz D1 zur Erholung, Satz C1, Satz D1, Satz C1. Die Kraniozervikale Flexion fuellt genau die zwei Erholungsphasen von C1 (Frank, 08.09.2026). Pause ~10s (die Erholung IST der Satz der Gegenuebung)",
      "resistance": [
+      {
+       "label": "Liegestütz",
+       "value": "Eigengewicht | Haende UEBERSCHULTERBREIT, Ellbogen ca. 45 Grad zum Rumpf, 4 s ablassen, unten kurz auf dem Boden ablegen, KEIN Hochdrücken - auf den Knien zurueck"
+      },
       {
        "label": "Kraniozervikale Flexion",
        "value": "duenne Handtuchrolle unter dem Hinterkopf (Eigengewicht)"
@@ -1942,14 +1879,14 @@
     {
      "gerät": "Kurzhanteln",
      "items": [
-      "2x21 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2 + 1x0,5) | 3 s exzentrisch (Kurzhantel Floor Press)",
+      "2x20 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2) | 3 s exzentrisch (Kurzhantel Floor Press)",
       "2x21 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2 + 1x0,5) | 4 s exzentrisch (Kurzhantel-Squat)"
      ]
     },
     {
      "gerät": "Bänder",
      "items": [
-      "Band LILA (15-25 lbs) | 3 s exzentrisch [Band bleibt LILA - Schulter! Steigerung NUR ueber Tempo und Standabstand zum Anker] (Seitheben)"
+      "Band TUERKIS (20-35 lbs) | 3 s exzentrisch [ab W22 von LILA auf TUERKIS - kleinstmoeglicher Schritt. NICHT dunkelgruen (60-170 lbs), das waere Faktor 5] (Seitheben)"
      ]
     }
    ]
@@ -2097,33 +2034,20 @@
        "perSide": false,
        "detail": "",
        "raw": "C1 Band Lateral Raise (bis ~80°) 3x10-12",
-       "resistance": "Band LILA (15-25 lbs) | 3 s exzentrisch",
+       "resistance": "Band TUERKIS (20-35 lbs) | 3 s exzentrisch [ab W22 von LILA auf TUERKIS - NICHT dunkelgruen]",
        "resistanceLabel": "Seitheben",
        "description": "BAND: LILA (15-25 lbs). Auf das Band stellen, Arme leicht gebeugt seitlich anheben, STOPP bei ~80° (knapp unter Schulterhöhe), 2s halten, langsam ablassen. Leicht bleiben – Ziel ist der Erhalt der seitlichen Schultermuskulatur im schmerzfreien Bereich, ohne die 90°-Grenze zu reizen.",
        "video": "https://www.youtube.com/watch?v=gfEyrmxbCbw",
        "videoNote": ""
-      }
-     ],
-     "pause": "Pause ~45s",
-     "note": "Pause ~45s",
-     "resistance": [
-      {
-       "label": "Seitheben",
-       "value": "Band LILA (15-25 lbs) | 3 s exzentrisch"
-      }
-     ]
-    },
-    {
-     "block": "Block 4 (Cool-down)",
-     "exercises": [
+      },
       {
        "code": "D1",
        "name": "Kraniozervikale Flexion",
-       "sets": 1,
+       "sets": 2,
        "targetReps": "10",
        "perSide": false,
        "detail": "je Wiederholung 10 s halten",
-       "raw": "D1 Kraniozervikale Flexion 1x10 - je Wiederholung 10 s halten",
+       "raw": "D1 Kraniozervikale Flexion 2x10 - je Wiederholung 10 s halten",
        "resistance": "duenne Handtuchrolle unter dem Hinterkopf (Eigengewicht)",
        "resistanceLabel": "Kraniozervikale Flexion",
        "description": "Rueckenlage auf der Matte, duenne Handtuchrolle unter den Hinterkopf. Langsames Nicken (\"Ja\"-Bewegung), als wuerde der Hinterkopf ueber die Rolle rollen - der Kopf bleibt liegen und wird NICHT abgehoben. 10 s halten, 10 Wiederholungen, 2 Saetze. KONTROLLE: zwei Finger seitlich am Hals auf den M. sternocleidomastoideus. Der darf sich nicht anspannen; spannt er an, ist die Bewegung zu gross. Ziel ist die tiefe Halsbeugemuskulatur (M. longus colli und longus capitis), nicht die oberflaechliche. 3-4x/Woche am Ende der Einheit - in diesem Plan an allen drei Trainingstagen. EINORDNUNG: Von Frank selbst eingebracht (05.08.2026). Die Evidenz betrifft den kraniovertebralen Winkel (CVA) bei Vorhaltung des Kopfes und Nackenschmerz; eine Wirkung auf die Kendo-Leistung ist NICHT untersucht. Schulterunbedenklich - die Arme sind unbeteiligt, die 90-Grad-Regel bleibt unberuehrt. Siehe Blatt Quellen.",
@@ -2131,9 +2055,13 @@
        "videoNote": ""
       }
      ],
-     "pause": "Pause ~30s",
-     "note": "Pause ~30s",
+     "pause": "Pause ~10s",
+     "note": "ALTERNIEREND als EIN Block: Satz C1, dann ein Satz D1 zur Erholung, Satz C1, Satz D1, Satz C1. Die Kraniozervikale Flexion fuellt genau die zwei Erholungsphasen von C1 (Frank, 08.09.2026). Pause ~10s (die Erholung IST der Satz der Gegenuebung)",
      "resistance": [
+      {
+       "label": "Seitheben",
+       "value": "Band TUERKIS (20-35 lbs) | 3 s exzentrisch [ab W22 von LILA auf TUERKIS - NICHT dunkelgruen]"
+      },
       {
        "label": "Kraniozervikale Flexion",
        "value": "duenne Handtuchrolle unter dem Hinterkopf (Eigengewicht)"
@@ -2161,8 +2089,8 @@
      "gerät": "Bänder",
      "items": [
       "Band DUNKELGRUEN (60-170 lbs) (Chest-Press)",
-      "Band LILA (15-25 lbs) | 3 s exzentrisch (Seitheben)",
-      "Band ROT (50-125 lbs) | Ellbogen bleiben auf Schulterhoehe, NICHT hoeher (Face Pull)"
+      "Band ROT (50-125 lbs) | Ellbogen bleiben auf Schulterhoehe, NICHT hoeher (Face Pull)",
+      "Band TUERKIS (20-35 lbs) | 3 s exzentrisch [ab W22 von LILA auf TUERKIS - NICHT dunkelgruen] (Seitheben)"
      ]
     }
    ]
@@ -2261,20 +2189,7 @@
        "description": "BAND: ROT (50-125 lbs). Band auf etwa Schulterhoehe verankern (Klimmzugstange, Tueranker). Beide Griffe fassen, Arme gestreckt nach vorn. Das Band zum Gesicht ziehen, dabei die ELLBOGEN NACH AUSSEN fuehren, Schulterblaetter nach hinten-unten. Die Ellbogen bleiben auf Schulterhoehe und gehen NICHT darueber - damit ist die 90-Grad-Regel eingehalten. Am Endpunkt kurz halten, langsam zurueck. WARUM DIESE UEBUNG: hintere Schulter und obere Ruecken-/Schulterblattmuskulatur. Die Bewegung ist horizontale ABduktion - also das Gegenteil des Musters, das das ACG reizt (horizontale Adduktion, Arm quer vor dem Koerper). Der einzige Schulterreiz im Plan, der die Arthrose eher entlastet.",
        "video": "",
        "videoNote": ""
-      }
-     ],
-     "pause": "Pause ~45s",
-     "note": "Pause ~45s",
-     "resistance": [
-      {
-       "label": "Face Pull",
-       "value": "Band ROT (50-125 lbs) | Ellbogen auf Schulterhoehe, nicht hoeher"
-      }
-     ]
-    },
-    {
-     "block": "Block 4 (Cool-down)",
-     "exercises": [
+      },
       {
        "code": "D1",
        "name": "Kraniozervikale Flexion",
@@ -2290,9 +2205,13 @@
        "videoNote": ""
       }
      ],
-     "pause": "Pause ~30s",
-     "note": "Pause ~30s",
+     "pause": "Pause ~10s",
+     "note": "ALTERNIEREND als EIN Block: Satz C1, dann ein Satz D1 zur Erholung, Satz C1, Satz D1, Satz C1. Die Kraniozervikale Flexion fuellt genau die zwei Erholungsphasen von C1 (Frank, 08.09.2026). Pause ~10s (die Erholung IST der Satz der Gegenuebung)",
      "resistance": [
+      {
+       "label": "Face Pull",
+       "value": "Band ROT (50-125 lbs) | Ellbogen auf Schulterhoehe, nicht hoeher"
+      },
       {
        "label": "Kraniozervikale Flexion",
        "value": "duenne Handtuchrolle unter dem Hinterkopf (Eigengewicht)"
