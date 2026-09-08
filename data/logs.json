@@ -1338,6 +1338,80 @@
    },
    "sessionNote": "",
    "savedAt": "2026-09-05T16:44:45.084Z"
+  },
+  "2026-09-08": {
+   "date": "2026-09-08",
+   "week": 22,
+   "day": "Di",
+   "entries": {
+    "A1": {
+     "name": "Klimmzug exzentrisch (nur ablassen)",
+     "target": "3x4",
+     "resistance": "Eigengewicht | 5 s kontrolliert ablassen, KEIN Hochziehen. Ueber den Kasten in die Startposition steigen - NICHT hochspringen. Oben kurz stabilisieren, langsam ablassen, absteigen.",
+     "reps": [
+      "4",
+      "4",
+      "4"
+     ],
+     "note": ""
+    },
+    "A2": {
+     "name": "Kurzhantel-Squat (Koffergriff)",
+     "target": "3x8-12",
+     "resistance": "2x21 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2 + 1x0,5) | 4 s exzentrisch",
+     "reps": [
+      "13",
+      "11",
+      "12"
+     ],
+     "note": ""
+    },
+    "B1": {
+     "name": "Kurzhantel Floor Press (neutraler Griff)",
+     "target": "3x6-10",
+     "resistance": "2x20 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2) | 3 s exzentrisch",
+     "reps": [
+      "8",
+      "9",
+      "10"
+     ],
+     "note": "Ich hatte letzte Woche die 45 Grad Regel nicht beachtet"
+    },
+    "B2": {
+     "name": "Band Lateral Raise (bis ~80°)",
+     "target": "3x10-12",
+     "resistance": "Band TUERKIS (20-35 lbs) | 3 s exzentrisch [ab W22 von LILA auf TUERKIS - kleinstmoeglicher Schritt. NICHT dunkelgruen (60-170 lbs), das waere Faktor 5]",
+     "reps": [
+      "13",
+      "13",
+      "14"
+     ],
+     "note": ""
+    },
+    "C1": {
+     "name": "Liegestütz exzentrisch (nur ablassen)",
+     "target": "3x10",
+     "resistance": "Eigengewicht | Haende UEBERSCHULTERBREIT, Ellbogen ca. 45 Grad zum Rumpf, 4 s ablassen, unten kurz auf dem Boden ablegen, KEIN Hochdrücken - auf den Knien zurueck",
+     "reps": [
+      "10",
+      "10",
+      "10"
+     ],
+     "note": ""
+    },
+    "D1": {
+     "name": "Kraniozervikale Flexion",
+     "target": "2x10",
+     "resistance": "duenne Handtuchrolle unter dem Hinterkopf (Eigengewicht)",
+     "reps": [
+      "15",
+      "15"
+     ],
+     "note": ""
+    }
+   },
+   "sessionNote": "",
+   "savedAt": "2026-09-08T15:13:34.659Z"
   }
  }
 }
