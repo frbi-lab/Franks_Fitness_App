@@ -1412,6 +1412,80 @@
    },
    "sessionNote": "No KB",
    "savedAt": "2026-09-08T15:13:48.756Z"
+  },
+  "2026-09-10": {
+   "date": "2026-09-10",
+   "week": 22,
+   "day": "Do",
+   "entries": {
+    "A1": {
+     "name": "Langhantel-Rudern vorgebeugt",
+     "target": "3x6-10",
+     "resistance": "Langhantel 48,8 kg gesamt (Stange 7,8 kg + je Seite 1x10 + 1x5 + 1x5 + 1x0,5)",
+     "reps": [
+      "12",
+      "11",
+      "10"
+     ],
+     "note": ""
+    },
+    "A2": {
+     "name": "Band-Chest-Press stehend beidarmig",
+     "target": "3x10-15",
+     "resistance": "Band DUNKELGRUEN (60-170 lbs)",
+     "reps": [
+      "18",
+      "18",
+      "17"
+     ],
+     "note": ""
+    },
+    "B1": {
+     "name": "Langhantel Romanian Deadlift",
+     "target": "3x8-12",
+     "resistance": "Langhantel 50,8 kg gesamt (Stange 7,8 kg + je Seite 1x10 + 1x5 + 3x2 + 1x0,5) | ZUGHILFEN, 3 s exzentrisch",
+     "reps": [
+      "11",
+      "10",
+      "11"
+     ],
+     "note": "51,8 kg!"
+    },
+    "B2": {
+     "name": "Band Face Pull",
+     "target": "3x12-15",
+     "resistance": "Band ROT (50-125 lbs) | Ellbogen bleiben auf Schulterhoehe, NICHT hoeher",
+     "reps": [
+      "24",
+      "16",
+      "17"
+     ],
+     "note": ""
+    },
+    "C1": {
+     "name": "Band Lateral Raise (bis ~80°)",
+     "target": "3x10-12",
+     "resistance": "Band TUERKIS (20-35 lbs) | 3 s exzentrisch [ab W22 von LILA auf TUERKIS - NICHT dunkelgruen]",
+     "reps": [
+      "15",
+      "15",
+      "15"
+     ],
+     "note": ""
+    },
+    "D1": {
+     "name": "Kraniozervikale Flexion",
+     "target": "2x10",
+     "resistance": "duenne Handtuchrolle unter dem Hinterkopf (Eigengewicht)",
+     "reps": [
+      "15",
+      "15"
+     ],
+     "note": ""
+    }
+   },
+   "sessionNote": "",
+   "savedAt": "2026-09-10T17:38:30.751Z"
   }
  }
 }
