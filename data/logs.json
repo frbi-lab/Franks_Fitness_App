@@ -1486,6 +1486,66 @@
    },
    "sessionNote": "",
    "savedAt": "2026-09-10T17:38:30.751Z"
+  },
+  "2026-09-12": {
+   "date": "2026-09-12",
+   "week": 22,
+   "day": "Sa",
+   "entries": {
+    "A1": {
+     "name": "Treppen-Aufstieg all-out",
+     "target": "11x1",
+     "resistance": "4 Stockwerke = 10-12 Hoehenmeter, zwei Stufen auf einmal | + Gewichtsweste 15 kg | ZIELPULS am Ende jedes Aufstiegs: 155-163 bpm (90-95 % von HFmax 172). Beim Abstieg NICHT unter 130 bpm fallen lassen.",
+     "reps": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11"
+     ],
+     "note": "Still going strong"
+    },
+    "B1": {
+     "name": "Liegestütz exzentrisch (nur ablassen)",
+     "target": "3x10",
+     "resistance": "Eigengewicht | Haende UEBERSCHULTERBREIT, Ellbogen ca. 45 Grad zum Rumpf, 5 s ablassen, unten kurz auf dem Boden ablegen, KEIN Hochdrücken - auf den Knien zurueck",
+     "reps": [
+      "12",
+      "13",
+      "12"
+     ],
+     "note": ""
+    },
+    "C1": {
+     "name": "Band Face Pull",
+     "target": "3x12-15",
+     "resistance": "Band ROT (50-125 lbs) | Ellbogen auf Schulterhoehe, nicht hoeher",
+     "reps": [
+      "20",
+      "19",
+      "20"
+     ],
+     "note": ""
+    },
+    "D1": {
+     "name": "Kraniozervikale Flexion",
+     "target": "2x10",
+     "resistance": "duenne Handtuchrolle unter dem Hinterkopf (Eigengewicht)",
+     "reps": [
+      "15",
+      "15"
+     ],
+     "note": ""
+    }
+   },
+   "sessionNote": "",
+   "savedAt": "2026-09-12T16:52:52.420Z"
   }
  }
 }
