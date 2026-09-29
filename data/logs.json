@@ -1620,6 +1620,26 @@
    },
    "sessionNote": "",
    "savedAt": "2026-09-17T17:30:11.924Z"
+  },
+  "2026-09-22": {
+   "date": "2026-09-22",
+   "week": 24,
+   "day": "Di",
+   "entries": {
+    "A1": {
+     "name": "Klimmzug exzentrisch (nur ablassen)",
+     "target": "3x5",
+     "resistance": "Eigengewicht | 6 s kontrolliert ablassen, KEIN Hochziehen. Ueber den Kasten in die Startposition steigen - NICHT hochspringen. Oben kurz stabilisieren, langsam ablassen, absteigen.",
+     "reps": [
+      "5",
+      "5",
+      "5"
+     ],
+     "note": ""
+    }
+   },
+   "sessionNote": "",
+   "savedAt": "2026-09-29T15:58:19.761Z"
   }
  }
 }
