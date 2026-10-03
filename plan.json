@@ -1,8 +1,8 @@
 {
  "meta": {
-  "title": "September 2026 Fitness Masterplan - Brust-Schulter-Kendo",
-  "source": "September 2026 Fitness Masterplan - Brust-Schulter-Kendo.xlsx",
-  "generated": "2026-09-08",
+  "title": "Oktober 2026 Fitness Masterplan - Brustzerrung-Wiedereinstieg",
+  "source": "Oktober 2026 Fitness Masterplan - Brustzerrung-Wiedereinstieg.xlsx",
+  "generated": "2026-10-03",
   "week12Monday": "2026-06-29",
   "trainingDays": [
    "Di",
@@ -10,23 +10,1131 @@
    "Sa"
   ],
   "weeks": [
-   21,
-   22,
-   23,
-   24
+   26,
+   27,
+   28,
+   29
   ],
   "rules": "Rechter Arm über 90°/Schulterhöhe NUR bei den drei vom Physio verordneten Übungen (exzentrischer Klimmzug, exzentrischer Liegestütz, Physio 1) · sonst nie über Schulterhöhe · keine Cross-Body-Belastung · alles schmerzgeführt · Schmerz-Ampel entscheidet: grün ≤3/10 und binnen 24 h zurück · gelb = Sätze halbieren · rot = Übung raus und Physio fragen."
  },
  "progression": {
-  "W21": "KALIBRIERUNGSWOCHE. Neu und deshalb bewusst niedrig dosiert: Klimmzug exzentrisch 3x3 mit 5 s, Face Pull 3x12-15 an zwei Tagen, Floor Press zurueck im Plan (jetzt 2x21 kg statt 2x17 kg, Zielbereich deshalb 6-10 statt 8-12). Langhantel-Rudern startet bei 47,8 kg, weil oberhalb von 41,8 kg kein einziger belastbarer Messwert existiert - der AMRAP im letzten Satz entscheidet ueber W22. RDL zurueck auf 50,8 kg (Regel 4, 13.08.: 6/8/8 bei 51,8 kg). Seitheben und Curl neu eingestellt: Seitheben bleibt LILA, bekommt aber 3 s Exzentrik und den engeren Bereich 10-12; Curl auf DUNKELGRUEN, steht aber nur noch im Optional-Teil. Treppen 10 Aufstiege mit 15-kg-Weste bei stark gekuerztem Aufwaermen.",
-  "W22": "Klimmzug 3x4. Treppen 11 Aufstiege. Liegestuetz auf 5 s Ablasszeit. Langhantel-Rudern 48,8 kg, RDL bleibt bei 50,8 kg - dort erst die Wiederholungen bis 12 aufbauen, bevor die Last steigt (doppelte Progression, Regel 3). Alles andere unveraendert: was in W21 zum ersten Mal im Plan stand, braucht mehr als eine Woche Datenbasis.",
-  "W23": "Klimmzug 3x5. Treppen 12 Aufstiege - das ist die Obergrenze fuer dieses Treppenhaus im 45-min-Budget. Liegestuetz auf 6 s. Langhantel-Rudern 49,8 kg, RDL erstmals wieder 51,8 kg - diesmal von unten aufgebaut statt uebersprungen.",
-  "W24": "Klimmzug 3x5 mit 6 s Ablasszeit. Treppen bleiben bei 12. Liegestuetz 6 s mit ERHOEHTEN FUESSEN (Stufe oder Kasten, 20-30 cm) - laut Physio die richtige Steigerung, ausdruecklich NICHT die Gewichtsweste. Langhantel-Rudern 50,8 kg, RDL 51,8 kg. AUSWERTUNGSWOCHE: danach Logs ziehen und den naechsten Zyklus darauf aufsetzen. Offene Fragen fuer dann: (1) Sind alle 12 Aufstiege im Zielband 155-163 gelandet? Wenn ja, ist die Weste dran. (2) Hat der Klimmzug die Ampel bewegt? (3) Lohnen zwei weitere 10-kg-Scheiben, um die Kurzhanteln von 21 auf 31 kg zu heben?"
+  "W26": "BRUST-SCHONWOCHE (06.-10.10.2026). Keine Bewegung unter Last fuer die rechte Brust: Isometrie 3x pro Woche (30-50 / 50-70 / 70-100 % Kraft), Band-Rudern statt Face Pull, Weste-Squat statt Goblet, Klimmzug pausiert. Alles andere auf dem letzten belegten Stand: Rudern 49,8, RDL 51,8, Squat 2x21/4 s, Seitheben TUERKIS, Treppen 12. Am Sa 10.10. das GATE pruefen.",
+  "W27": "WIEDEREINSTIEG (nur bei bestandenem Gate). Floor Press 2x12 kg, Chest-Press ROT, Liegestuetz auf den Knien (Di 4 s, Sa 5 s), Face Pull ROT. Seitheben GELB. RDL 52,8. Treppen 13. Gate nicht bestanden -> Brust-Slots wie W26.",
+  "W28": "Floor Press 2x16 kg, Chest-Press DUNKELGRUEN, Liegestuetz voll (Di 4 s, Sa 5 s), Face Pull DUNKELGRUEN. KLIMMZUG zurueck mit 3x3 / 5 s. Rudern 50,8. Treppen 14.",
+  "W29": "Floor Press 2x20 kg (= Stand vor der Zerrung), Liegestuetz Sa 6 s, Klimmzug 3x4 / 5 s, RDL 53,8. Treppen 14 (Vergleichsmessung). AUSWERTUNG mit Frank: Brust beschwerdefrei? Treppen-Zonenzeiten W26 vs. W29? Zielband 155-163 anheben (nur ohne erneuten Schwindel)? Folgezyklus VOR Sa 31.10. bereitstellen."
  },
  "sessions": [
   {
    "day": "Di",
-   "week": 21,
+   "week": 26,
+   "warmup": [
+    {
+     "name": "Cat-Camel",
+     "seconds": 30,
+     "perSide": false,
+     "note": ""
+    },
+    {
+     "name": "Schulterblaetter zusammenziehen OHNE Band",
+     "seconds": 30,
+     "perSide": false,
+     "note": "Arme haengen, in W26 statt Band Pull-aparts - die Dehnung der rechten Brust faellt weg"
+    },
+    {
+     "name": "Glute Bridge",
+     "seconds": 30,
+     "perSide": false,
+     "note": ""
+    },
+    {
+     "name": "Bodyweight Squat",
+     "seconds": 30,
+     "perSide": false,
+     "note": ""
+    },
+    {
+     "name": "Physio 1 - Arme unter Bandspannung vor dem Koerper anheben und senken",
+     "seconds": 45,
+     "perSide": false,
+     "note": "intermittierend, in W26 NUR bis zu der Hoehe, an der die rechte Brust nicht zieht"
+    },
+    {
+     "name": "Physio 2 - Seitlage links, rechter Arm 2 kg, Ellbogen 90 Grad angelegt, Aussenrotation langsam",
+     "seconds": 60,
+     "perSide": false,
+     "note": "ca. 10-12 Wdh. rechts, Endstellung schmerzgefuehrt"
+    }
+   ],
+   "blocks": [
+    {
+     "block": "Block 1",
+     "exercises": [
+      {
+       "code": "A1",
+       "name": "Band-Bizeps-Curl",
+       "sets": 3,
+       "targetReps": "10-15",
+       "perSide": false,
+       "detail": "",
+       "raw": "A1 Band-Bizeps-Curl 3x10-15",
+       "resistance": "Band DUNKELGRUEN (60-170 lbs)",
+       "resistanceLabel": "Bizeps-Curl",
+       "description": "BAND: DUNKELGRUEN (60-170 lbs) - am 25.08. 15/13/13. Auf das Band stellen, Ellbogen fest an den Seiten. Unterarme nach oben curlen, oben kurz anspannen, langsam (2-3 s) ablassen. Nur der Unterarm bewegt sich - kein Schwung aus Schulter oder Ruecken.",
+       "video": "https://www.youtube.com/watch?v=Da57AuIofvU",
+       "videoNote": ""
+      },
+      {
+       "code": "A2",
+       "name": "Kurzhantel-Squat (Koffergriff)",
+       "sets": 3,
+       "targetReps": "8-12",
+       "perSide": false,
+       "detail": "",
+       "raw": "A2 Kurzhantel-Squat (Koffergriff) 3x8-12",
+       "resistance": "2x21 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2 + 1x0,5) | 4 s exzentrisch",
+       "resistanceLabel": "Kurzhantel-Squat",
+       "description": "Kurzhanteln links und rechts neben dem Körper hängen lassen (Koffergriff), Füße schulterbreit, Zehen leicht nach außen. Kontrolliert so tief absteigen, wie es schmerzfrei geht, Knie in Richtung Zehen, Rücken neutral. Aus den Fersen hochdrücken. ERSETZT den Bulgarian Split Squat: beidbeinig, dadurch halbe Zeit und deutlich weniger Ermüdung vor dem Kendo. Die Schulter ist unbeteiligt - die Arme hängen einfach. Wenn der Griff vor den Beinen ermüdet: Goblet Squat mit der KB.",
+       "video": "",
+       "videoNote": ""
+      }
+     ],
+     "pause": "Pause ~45s",
+     "note": "Pause ~45s",
+     "resistance": [
+      {
+       "label": "Bizeps-Curl",
+       "value": "Band DUNKELGRUEN (60-170 lbs)"
+      },
+      {
+       "label": "Kurzhantel-Squat",
+       "value": "2x21 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2 + 1x0,5) | 4 s exzentrisch"
+      }
+     ]
+    },
+    {
+     "block": "Block 2",
+     "exercises": [
+      {
+       "code": "B1",
+       "name": "Isometrisches Brustdrücken",
+       "sets": 3,
+       "targetReps": "5",
+       "perSide": false,
+       "detail": "je Wiederholung 10 s halten",
+       "raw": "B1 Isometrisches Brustdrücken 3x5 - je Wiederholung 10 s halten",
+       "resistance": "Wand oder Tuerrahmen, Haende auf Brusthoehe, Ellbogen ca. 45 Grad | je Wdh. 10 s halten, ca. 30-50 % Kraft",
+       "resistanceLabel": "Isometrisches Brustdrücken",
+       "description": "Reha-Uebung fuer die Brustzerrung (W26). Schrittstellung vor einer Wand oder im Tuerrahmen, beide Haende flach auf Brusthoehe, Haende etwas ueberschulterbreit, Ellbogen ca. 45 Grad zum Rumpf - dieselbe Armposition wie beim Physio-Liegestuetz. Dann gegen die Wand druecken, OHNE dass sich etwas bewegt: 10 s halten, 3-5 s locker lassen, 5 Wiederholungen = 1 Satz. Kraft ueber die Woche steigern: Di ca. 30-50 %, Do 50-70 %, Sa 70-100 %. Schmerz rechts hoechstens 3/10. Keine Dehnung, deshalb die Arme NICHT weiter nach hinten nehmen als in der Ausgangsstellung.",
+       "video": "",
+       "videoNote": ""
+      },
+      {
+       "code": "B2",
+       "name": "Band Lateral Raise (bis ~80°)",
+       "sets": 3,
+       "targetReps": "10-12",
+       "perSide": false,
+       "detail": "",
+       "raw": "B2 Band Lateral Raise (bis ~80°) 3x10-12",
+       "resistance": "Band TUERKIS (20-35 lbs) | 3 s exzentrisch, Stopp bei ca. 80 Grad",
+       "resistanceLabel": "Seitheben",
+       "description": "BAND: siehe Widerstandsangabe der Woche (Oktober: TUERKIS in W26, GELB ab W27). Auf das Band stellen, Arme leicht gebeugt seitlich anheben, STOPP bei ~80° (knapp unter Schulterhöhe), 2s halten, langsam ablassen. Moderat bleiben – Ziel ist der Aufbau der seitlichen Schultermuskulatur im schmerzfreien Bereich, ohne die 90°-Grenze zu reizen.",
+       "video": "https://www.youtube.com/watch?v=gfEyrmxbCbw",
+       "videoNote": ""
+      }
+     ],
+     "pause": "Pause ~45s",
+     "note": "BRUST RECHTS: Schmerz hoechstens 3/10 und am naechsten Morgen wieder auf Ausgangsniveau - sonst Satz beenden. Pause ~45s",
+     "resistance": [
+      {
+       "label": "Isometrisches Brustdrücken",
+       "value": "Wand oder Tuerrahmen, Haende auf Brusthoehe, Ellbogen ca. 45 Grad | je Wdh. 10 s halten, ca. 30-50 % Kraft"
+      },
+      {
+       "label": "Seitheben",
+       "value": "Band TUERKIS (20-35 lbs) | 3 s exzentrisch, Stopp bei ca. 80 Grad"
+      }
+     ]
+    },
+    {
+     "block": "Block 3",
+     "exercises": [
+      {
+       "code": "C1",
+       "name": "Band-Trizeps-Pushdown",
+       "sets": 3,
+       "targetReps": "10-15",
+       "perSide": false,
+       "detail": "",
+       "raw": "C1 Band-Trizeps-Pushdown 3x10-15",
+       "resistance": "Band DUNKELGRUEN (60-170 lbs) | Ellbogen am Koerper, Oberarm bleibt senkrecht",
+       "resistanceLabel": "Trizeps-Pushdown",
+       "description": "BAND: DUNKELGRUEN (60-170 lbs) - ROT war mit 16/20/20 zu leicht. Band oben verankern (Klimmzugstange). Ellbogen eng am Koerper fixieren, Unterarme nach unten strecken, Trizeps unten anspannen, langsam zurueck. Oberarme bewegen sich nicht. Arm bleibt komplett unten.",
+       "video": "https://www.youtube.com/watch?v=qjPN6ElNqpc",
+       "videoNote": ""
+      },
+      {
+       "code": "D1",
+       "name": "Kraniozervikale Flexion",
+       "sets": 2,
+       "targetReps": "10",
+       "perSide": false,
+       "detail": "je Wiederholung 10 s halten",
+       "raw": "D1 Kraniozervikale Flexion 2x10 - je Wiederholung 10 s halten",
+       "resistance": "duenne Handtuchrolle unter dem Hinterkopf (Eigengewicht)",
+       "resistanceLabel": "Kraniozervikale Flexion",
+       "description": "Rueckenlage auf der Matte, duenne Handtuchrolle unter den Hinterkopf. Langsames Nicken (\"Ja\"-Bewegung), als wuerde der Hinterkopf ueber die Rolle rollen - der Kopf bleibt liegen und wird NICHT abgehoben. 10 s halten, 10 Wiederholungen, 2 Saetze. KONTROLLE: zwei Finger seitlich am Hals auf den M. sternocleidomastoideus. Der darf sich nicht anspannen; spannt er an, ist die Bewegung zu gross. Ziel ist die tiefe Halsbeugemuskulatur (M. longus colli und longus capitis), nicht die oberflaechliche. 3-4x/Woche am Ende der Einheit - in diesem Plan an allen drei Trainingstagen. EINORDNUNG: Von Frank selbst eingebracht (05.08.2026). Die Evidenz betrifft den kraniovertebralen Winkel (CVA) bei Vorhaltung des Kopfes und Nackenschmerz; eine Wirkung auf die Kendo-Leistung ist NICHT untersucht. Schulterunbedenklich - die Arme sind unbeteiligt, die 90-Grad-Regel bleibt unberuehrt. Siehe Blatt Quellen.",
+       "video": "https://www.youtube.com/watch?v=RL2e2gRmtIM",
+       "videoNote": ""
+      }
+     ],
+     "pause": "Pause ~10s",
+     "note": "ALTERNIEREND als EIN Block: Satz C1, dann ein Satz D1 zur Erholung, Satz C1, Satz D1, Satz C1. Pause ~10s (die Erholung IST der Satz der Gegenuebung)",
+     "resistance": [
+      {
+       "label": "Trizeps-Pushdown",
+       "value": "Band DUNKELGRUEN (60-170 lbs) | Ellbogen am Koerper, Oberarm bleibt senkrecht"
+      },
+      {
+       "label": "Kraniozervikale Flexion",
+       "value": "duenne Handtuchrolle unter dem Hinterkopf (Eigengewicht)"
+      }
+     ]
+    }
+   ],
+   "finish": null,
+   "optional": {
+    "text": "KB Swing zweiarmig 2x15 - nur wenn du unter 40 min geblieben bist. Endpunkt am Brustbein kappen (unter 90 Grad).",
+    "resistance": "Swing: KB 24 kg"
+   },
+   "equipment": [
+    {
+     "gerät": "Kurzhanteln",
+     "items": [
+      "2x21 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2 + 1x0,5) | 4 s exzentrisch (Kurzhantel-Squat)"
+     ]
+    },
+    {
+     "gerät": "Bänder",
+     "items": [
+      "Band DUNKELGRUEN (60-170 lbs) (Bizeps-Curl)",
+      "Band DUNKELGRUEN (60-170 lbs) | Ellbogen am Koerper, Oberarm bleibt senkrecht (Trizeps-Pushdown)",
+      "Band TUERKIS (20-35 lbs) | 3 s exzentrisch, Stopp bei ca. 80 Grad (Seitheben)"
+     ]
+    },
+    {
+     "gerät": "Sonstiges",
+     "items": [
+      "Wand oder Tuerrahmen, Haende auf Brusthoehe, Ellbogen ca. 45 Grad | je Wdh. 10 s halten, ca. 30-50 % Kraft (Isometrisches Brustdrücken)"
+     ]
+    }
+   ]
+  },
+  {
+   "day": "Do",
+   "week": 26,
+   "warmup": [
+    {
+     "name": "Cat-Camel",
+     "seconds": 30,
+     "perSide": false,
+     "note": ""
+    },
+    {
+     "name": "Schulterblaetter zusammenziehen OHNE Band",
+     "seconds": 30,
+     "perSide": false,
+     "note": "Arme haengen, in W26 statt Band Pull-aparts - die Dehnung der rechten Brust faellt weg"
+    },
+    {
+     "name": "Glute Bridge",
+     "seconds": 30,
+     "perSide": false,
+     "note": ""
+    },
+    {
+     "name": "Bodyweight Squat",
+     "seconds": 30,
+     "perSide": false,
+     "note": ""
+    },
+    {
+     "name": "Physio 1 - Arme unter Bandspannung vor dem Koerper anheben und senken",
+     "seconds": 45,
+     "perSide": false,
+     "note": "intermittierend, in W26 NUR bis zu der Hoehe, an der die rechte Brust nicht zieht"
+    },
+    {
+     "name": "Physio 2 - Seitlage links, rechter Arm 2 kg, Ellbogen 90 Grad angelegt, Aussenrotation langsam",
+     "seconds": 60,
+     "perSide": false,
+     "note": "ca. 10-12 Wdh. rechts, Endstellung schmerzgefuehrt"
+    }
+   ],
+   "blocks": [
+    {
+     "block": "Block 1",
+     "exercises": [
+      {
+       "code": "A1",
+       "name": "Langhantel-Rudern vorgebeugt",
+       "sets": 3,
+       "targetReps": "6-10",
+       "perSide": false,
+       "detail": "",
+       "raw": "A1 Langhantel-Rudern vorgebeugt 3x6-10",
+       "resistance": "Langhantel 49,8 kg gesamt (Stange 7,8 kg + je Seite 1x10 + 2x5 + 2x0,5)",
+       "resistanceLabel": "Langhantel-Rudern",
+       "description": "Hüftbreiter Stand, Langhantel im Obergriff. Hüfte nach hinten schieben (Hip Hinge), Oberkörper ~45° oder tiefer, Rücken neutral, Rumpf fest. Die Stange zum Bauchnabel ziehen, Ellbogen nah am Körper, Schulterblätter nach hinten-unten; langsam ablassen, kein Schwung. Schwere beidarmige Zugübung als Ergänzung zum einarmigen KB-Rudern – Arme bleiben unter 90°. Stand 17.09.2026: 49,8 kg -> 13/11/8.",
+       "video": "https://www.youtube.com/watch?v=rqTOAM8WoeM",
+       "videoNote": ""
+      },
+      {
+       "code": "A2",
+       "name": "Isometrisches Brustdrücken",
+       "sets": 3,
+       "targetReps": "5",
+       "perSide": false,
+       "detail": "je Wiederholung 10 s halten",
+       "raw": "A2 Isometrisches Brustdrücken 3x5 - je Wiederholung 10 s halten",
+       "resistance": "Wand oder Tuerrahmen, Haende auf Brusthoehe, Ellbogen ca. 45 Grad | je Wdh. 10 s halten, ca. 50-70 % Kraft",
+       "resistanceLabel": "Isometrisches Brustdrücken",
+       "description": "Reha-Uebung fuer die Brustzerrung (W26). Schrittstellung vor einer Wand oder im Tuerrahmen, beide Haende flach auf Brusthoehe, Haende etwas ueberschulterbreit, Ellbogen ca. 45 Grad zum Rumpf - dieselbe Armposition wie beim Physio-Liegestuetz. Dann gegen die Wand druecken, OHNE dass sich etwas bewegt: 10 s halten, 3-5 s locker lassen, 5 Wiederholungen = 1 Satz. Kraft ueber die Woche steigern: Di ca. 30-50 %, Do 50-70 %, Sa 70-100 %. Schmerz rechts hoechstens 3/10. Keine Dehnung, deshalb die Arme NICHT weiter nach hinten nehmen als in der Ausgangsstellung.",
+       "video": "",
+       "videoNote": ""
+      }
+     ],
+     "pause": "Pause ~45s",
+     "note": "BRUST RECHTS: Schmerz hoechstens 3/10 und am naechsten Morgen wieder auf Ausgangsniveau - sonst Satz beenden. Pause ~45s",
+     "resistance": [
+      {
+       "label": "Langhantel-Rudern",
+       "value": "Langhantel 49,8 kg gesamt (Stange 7,8 kg + je Seite 1x10 + 2x5 + 2x0,5)"
+      },
+      {
+       "label": "Isometrisches Brustdrücken",
+       "value": "Wand oder Tuerrahmen, Haende auf Brusthoehe, Ellbogen ca. 45 Grad | je Wdh. 10 s halten, ca. 50-70 % Kraft"
+      }
+     ]
+    },
+    {
+     "block": "Block 2",
+     "exercises": [
+      {
+       "code": "B1",
+       "name": "Langhantel Romanian Deadlift",
+       "sets": 3,
+       "targetReps": "8-12",
+       "perSide": false,
+       "detail": "",
+       "raw": "B1 Langhantel Romanian Deadlift 3x8-12",
+       "resistance": "Langhantel 51,8 kg gesamt (Stange 7,8 kg + je Seite 1x10 + 2x5 + 1x2) | ZUGHILFEN, 3 s exzentrisch",
+       "resistanceLabel": "RDL",
+       "description": "Hüfte nach hinten, Rücken neutral, Beinbeuger laden, Hüfte nach vorn strecken. Jetzt mit Langhantel bis 45,8 kg statt Kettlebell (KB-Version war zu leicht). Video getauscht am 16.08.2026: das alte zeigte die Kettlebell-Variante.",
+       "video": "https://www.youtube.com/watch?v=xgusDooVfKU",
+       "videoNote": ""
+      },
+      {
+       "code": "B2",
+       "name": "Band-Rudern beidarmig",
+       "sets": 3,
+       "targetReps": "12-15",
+       "perSide": false,
+       "detail": "",
+       "raw": "B2 Band-Rudern beidarmig 3x12-15",
+       "resistance": "Band ROT (50-125 lbs) | Ellbogen eng am Koerper, Endstellung OHNE Zug in der rechten Brust",
+       "resistanceLabel": "Band-Rudern",
+       "description": "BAND: ROT (50-125 lbs). Band zum Rumpf ziehen, Schulterblätter nach hinten-unten. Hier BEIDARMIG mit zwei Griffen gleichzeitig.",
+       "video": "https://www.youtube.com/watch?v=JP2xq33lNF0",
+       "videoNote": ""
+      }
+     ],
+     "pause": "Pause ~45s",
+     "note": "Pause ~45s",
+     "resistance": [
+      {
+       "label": "RDL",
+       "value": "Langhantel 51,8 kg gesamt (Stange 7,8 kg + je Seite 1x10 + 2x5 + 1x2) | ZUGHILFEN, 3 s exzentrisch"
+      },
+      {
+       "label": "Band-Rudern",
+       "value": "Band ROT (50-125 lbs) | Ellbogen eng am Koerper, Endstellung OHNE Zug in der rechten Brust"
+      }
+     ]
+    },
+    {
+     "block": "Block 3",
+     "exercises": [
+      {
+       "code": "C1",
+       "name": "Band Lateral Raise (bis ~80°)",
+       "sets": 3,
+       "targetReps": "10-12",
+       "perSide": false,
+       "detail": "",
+       "raw": "C1 Band Lateral Raise (bis ~80°) 3x10-12",
+       "resistance": "Band TUERKIS (20-35 lbs) | 3 s exzentrisch, Stopp bei ca. 80 Grad",
+       "resistanceLabel": "Seitheben",
+       "description": "BAND: siehe Widerstandsangabe der Woche (Oktober: TUERKIS in W26, GELB ab W27). Auf das Band stellen, Arme leicht gebeugt seitlich anheben, STOPP bei ~80° (knapp unter Schulterhöhe), 2s halten, langsam ablassen. Moderat bleiben – Ziel ist der Aufbau der seitlichen Schultermuskulatur im schmerzfreien Bereich, ohne die 90°-Grenze zu reizen.",
+       "video": "https://www.youtube.com/watch?v=gfEyrmxbCbw",
+       "videoNote": ""
+      },
+      {
+       "code": "D1",
+       "name": "Kraniozervikale Flexion",
+       "sets": 2,
+       "targetReps": "10",
+       "perSide": false,
+       "detail": "je Wiederholung 10 s halten",
+       "raw": "D1 Kraniozervikale Flexion 2x10 - je Wiederholung 10 s halten",
+       "resistance": "duenne Handtuchrolle unter dem Hinterkopf (Eigengewicht)",
+       "resistanceLabel": "Kraniozervikale Flexion",
+       "description": "Rueckenlage auf der Matte, duenne Handtuchrolle unter den Hinterkopf. Langsames Nicken (\"Ja\"-Bewegung), als wuerde der Hinterkopf ueber die Rolle rollen - der Kopf bleibt liegen und wird NICHT abgehoben. 10 s halten, 10 Wiederholungen, 2 Saetze. KONTROLLE: zwei Finger seitlich am Hals auf den M. sternocleidomastoideus. Der darf sich nicht anspannen; spannt er an, ist die Bewegung zu gross. Ziel ist die tiefe Halsbeugemuskulatur (M. longus colli und longus capitis), nicht die oberflaechliche. 3-4x/Woche am Ende der Einheit - in diesem Plan an allen drei Trainingstagen. EINORDNUNG: Von Frank selbst eingebracht (05.08.2026). Die Evidenz betrifft den kraniovertebralen Winkel (CVA) bei Vorhaltung des Kopfes und Nackenschmerz; eine Wirkung auf die Kendo-Leistung ist NICHT untersucht. Schulterunbedenklich - die Arme sind unbeteiligt, die 90-Grad-Regel bleibt unberuehrt. Siehe Blatt Quellen.",
+       "video": "https://www.youtube.com/watch?v=RL2e2gRmtIM",
+       "videoNote": ""
+      }
+     ],
+     "pause": "Pause ~10s",
+     "note": "ALTERNIEREND als EIN Block: Satz C1, dann ein Satz D1 zur Erholung, Satz C1, Satz D1, Satz C1. Pause ~10s (die Erholung IST der Satz der Gegenuebung)",
+     "resistance": [
+      {
+       "label": "Seitheben",
+       "value": "Band TUERKIS (20-35 lbs) | 3 s exzentrisch, Stopp bei ca. 80 Grad"
+      },
+      {
+       "label": "Kraniozervikale Flexion",
+       "value": "duenne Handtuchrolle unter dem Hinterkopf (Eigengewicht)"
+      }
+     ]
+    }
+   ],
+   "finish": {
+    "text": "Weste-Squat 2x12, 3 s exzentrisch - Haende an den Hueften, volle kontrollierte Tiefe.",
+    "resistance": "Weste-Squat: Gewichtsweste 20 kg (Einzeluebung, einmal anlegen)"
+   },
+   "optional": {
+    "text": "Band-Trizeps-Pushdown 2x12-15 - nur wenn du unter 40 min geblieben bist.",
+    "resistance": "Band DUNKELGRUEN (60-170 lbs)"
+   },
+   "equipment": [
+    {
+     "gerät": "Langhantel",
+     "items": [
+      "Langhantel 49,8 kg gesamt (Stange 7,8 kg + je Seite 1x10 + 2x5 + 2x0,5) (Langhantel-Rudern)",
+      "Langhantel 51,8 kg gesamt (Stange 7,8 kg + je Seite 1x10 + 2x5 + 1x2) | ZUGHILFEN, 3 s exzentrisch (RDL)"
+     ]
+    },
+    {
+     "gerät": "Bänder",
+     "items": [
+      "Band ROT (50-125 lbs) | Ellbogen eng am Koerper, Endstellung OHNE Zug in der rechten Brust (Band-Rudern)",
+      "Band TUERKIS (20-35 lbs) | 3 s exzentrisch, Stopp bei ca. 80 Grad (Seitheben)"
+     ]
+    },
+    {
+     "gerät": "Sonstiges",
+     "items": [
+      "Wand oder Tuerrahmen, Haende auf Brusthoehe, Ellbogen ca. 45 Grad | je Wdh. 10 s halten, ca. 50-70 % Kraft (Isometrisches Brustdrücken)"
+     ]
+    }
+   ]
+  },
+  {
+   "day": "Sa",
+   "week": 26,
+   "warmup": [
+    {
+     "name": "Fussgelenke und Waden mobilisieren",
+     "seconds": 60,
+     "perSide": false,
+     "note": ""
+    },
+    {
+     "name": "erster Aufstieg locker, Abstieg im Gehen",
+     "seconds": 90,
+     "perSide": false,
+     "note": ""
+    },
+    {
+     "name": "zweiter Aufstieg zuegig, Abstieg im Gehen - Ziel am Ende ca. 130-135 bpm",
+     "seconds": 90,
+     "perSide": false,
+     "note": ""
+    }
+   ],
+   "blocks": [
+    {
+     "block": "Block 1",
+     "exercises": [
+      {
+       "code": "A1",
+       "name": "Treppen-Aufstieg all-out",
+       "sets": 12,
+       "targetReps": "1",
+       "perSide": false,
+       "detail": "",
+       "raw": "A1 Treppen-Aufstieg all-out 12x1",
+       "resistance": "4 Stockwerke = 10-12 Hoehenmeter, zwei Stufen auf einmal | + Gewichtsweste 15 kg | ZIELPULS am Ende jedes Aufstiegs: 155-163 bpm (88-92 % von HFmax 177; nach dem Schwindel-Ereignis vom 14.09.2026 bewusst NICHT angehoben). Beim Abstieg NICHT unter 130 bpm fallen lassen.",
+       "resistanceLabel": "Treppen-Aufstieg",
+       "description": "Repeated Sprint Training im eigenen Treppenhaus. Vier Stockwerke a 2,5-3 m = 10-12 Hoehenmeter je Aufstieg. AUFSTIEG: all-out, zwei Stufen auf einmal, Arme frei mitschwingen lassen (bleiben unter Schulterhoehe, 90-Grad-Regel unberuehrt). ABSTIEG: im GEHEN, das ist die Pause - nicht laufen. Kein Stehenbleiben oben oder unten, direkt umdrehen. STEUERUNG UEBER DEN PULS, nicht ueber die Uhr: am Ende jedes Aufstiegs 155-163 bpm (88-92 % von HFmax 177; nach dem Schwindel-Ereignis vom 14.09.2026 bewusst NICHT angehoben), beim Abstieg nicht unter 130 bpm fallen lassen. Faellt der Puls tiefer: erst zwei Stufen auf einmal, dann zuegiger absteigen, erst zuletzt Gewichtsweste dazu. ERSETZT die urspruenglich geplanten 4x4-min-Intervalle: bei nur vier Stockwerken waere die Haelfte der Arbeitszeit Abstieg gewesen, das Protokoll von Helgerud ist so nicht nachbaubar. WARNUNG: Treppab ist exzentrische Quadrizeps-Belastung und der klassische Muskelkater-Ausloeser - am Montag ist Kendo. Erste zwei bis drei Wochen bewusst langsam absteigen. Hand in Gelaendernaehe, bei hohem Puls ist der Fehltritt real.",
+       "video": "",
+       "videoNote": ""
+      }
+     ],
+     "pause": "Pause ~40s",
+     "note": "Pause ~40s (Abstieg im Gehen)",
+     "resistance": [
+      {
+       "label": "Treppen-Aufstieg",
+       "value": "4 Stockwerke = 10-12 Hoehenmeter, zwei Stufen auf einmal | + Gewichtsweste 15 kg | ZIELPULS am Ende jedes Aufstiegs: 155-163 bpm (88-92 % von HFmax 177; nach dem Schwindel-Ereignis vom 14.09.2026 bewusst NICHT angehoben). Beim Abstieg NICHT unter 130 bpm fallen lassen."
+      }
+     ]
+    },
+    {
+     "block": "Block 2",
+     "exercises": [
+      {
+       "code": "B1",
+       "name": "Isometrisches Brustdrücken",
+       "sets": 3,
+       "targetReps": "5",
+       "perSide": false,
+       "detail": "je Wiederholung 10 s halten",
+       "raw": "B1 Isometrisches Brustdrücken 3x5 - je Wiederholung 10 s halten",
+       "resistance": "Wand oder Tuerrahmen, Haende auf Brusthoehe, Ellbogen ca. 45 Grad | je Wdh. 10 s halten, ca. 70-100 % Kraft = GATE-TEST fuer W27",
+       "resistanceLabel": "Isometrisches Brustdrücken",
+       "description": "Reha-Uebung fuer die Brustzerrung (W26). Schrittstellung vor einer Wand oder im Tuerrahmen, beide Haende flach auf Brusthoehe, Haende etwas ueberschulterbreit, Ellbogen ca. 45 Grad zum Rumpf - dieselbe Armposition wie beim Physio-Liegestuetz. Dann gegen die Wand druecken, OHNE dass sich etwas bewegt: 10 s halten, 3-5 s locker lassen, 5 Wiederholungen = 1 Satz. Kraft ueber die Woche steigern: Di ca. 30-50 %, Do 50-70 %, Sa 70-100 %. Schmerz rechts hoechstens 3/10. Keine Dehnung, deshalb die Arme NICHT weiter nach hinten nehmen als in der Ausgangsstellung.",
+       "video": "",
+       "videoNote": ""
+      }
+     ],
+     "pause": "Pause ~60s",
+     "note": "GATE VOR W27 (am Sa 10.10. nach dem Isometrie-Block pruefen): (1) kein Ruhe- oder Nachtschmerz rechts, (2) isometrisches Druecken mit 70-100 % Kraft hoechstens 3/10, (3) Face-Pull-Endstellung bzw. Arm seitlich nach hinten fuehren hoechstens 3/10, (4) am naechsten Morgen nicht schlechter. ALLE VIER erfuellt -> W27 wie geplant. EINER nicht erfuellt -> die Brust-Slots der W27 wie in W26 (Isometrie statt Floor Press/Liegestuetz/Chest-Press, Band-Rudern statt Face Pull) und am Sa 17.10. erneut pruefen. Pause ~60s",
+     "resistance": [
+      {
+       "label": "Isometrisches Brustdrücken",
+       "value": "Wand oder Tuerrahmen, Haende auf Brusthoehe, Ellbogen ca. 45 Grad | je Wdh. 10 s halten, ca. 70-100 % Kraft = GATE-TEST fuer W27"
+      }
+     ]
+    },
+    {
+     "block": "Block 3",
+     "exercises": [
+      {
+       "code": "C1",
+       "name": "Band-Rudern beidarmig",
+       "sets": 3,
+       "targetReps": "12-15",
+       "perSide": false,
+       "detail": "",
+       "raw": "C1 Band-Rudern beidarmig 3x12-15",
+       "resistance": "Band ROT (50-125 lbs) | Ellbogen eng am Koerper, Endstellung OHNE Zug in der rechten Brust",
+       "resistanceLabel": "Band-Rudern",
+       "description": "BAND: ROT (50-125 lbs). Band zum Rumpf ziehen, Schulterblätter nach hinten-unten. Hier BEIDARMIG mit zwei Griffen gleichzeitig.",
+       "video": "https://www.youtube.com/watch?v=JP2xq33lNF0",
+       "videoNote": ""
+      },
+      {
+       "code": "D1",
+       "name": "Kraniozervikale Flexion",
+       "sets": 2,
+       "targetReps": "10",
+       "perSide": false,
+       "detail": "je Wiederholung 10 s halten",
+       "raw": "D1 Kraniozervikale Flexion 2x10 - je Wiederholung 10 s halten",
+       "resistance": "duenne Handtuchrolle unter dem Hinterkopf (Eigengewicht)",
+       "resistanceLabel": "Kraniozervikale Flexion",
+       "description": "Rueckenlage auf der Matte, duenne Handtuchrolle unter den Hinterkopf. Langsames Nicken (\"Ja\"-Bewegung), als wuerde der Hinterkopf ueber die Rolle rollen - der Kopf bleibt liegen und wird NICHT abgehoben. 10 s halten, 10 Wiederholungen, 2 Saetze. KONTROLLE: zwei Finger seitlich am Hals auf den M. sternocleidomastoideus. Der darf sich nicht anspannen; spannt er an, ist die Bewegung zu gross. Ziel ist die tiefe Halsbeugemuskulatur (M. longus colli und longus capitis), nicht die oberflaechliche. 3-4x/Woche am Ende der Einheit - in diesem Plan an allen drei Trainingstagen. EINORDNUNG: Von Frank selbst eingebracht (05.08.2026). Die Evidenz betrifft den kraniovertebralen Winkel (CVA) bei Vorhaltung des Kopfes und Nackenschmerz; eine Wirkung auf die Kendo-Leistung ist NICHT untersucht. Schulterunbedenklich - die Arme sind unbeteiligt, die 90-Grad-Regel bleibt unberuehrt. Siehe Blatt Quellen.",
+       "video": "https://www.youtube.com/watch?v=RL2e2gRmtIM",
+       "videoNote": ""
+      }
+     ],
+     "pause": "Pause ~10s",
+     "note": "ALTERNIEREND als EIN Block: Satz C1, dann ein Satz D1 zur Erholung, Satz C1, Satz D1, Satz C1. Pause ~10s (die Erholung IST der Satz der Gegenuebung)",
+     "resistance": [
+      {
+       "label": "Band-Rudern",
+       "value": "Band ROT (50-125 lbs) | Ellbogen eng am Koerper, Endstellung OHNE Zug in der rechten Brust"
+      },
+      {
+       "label": "Kraniozervikale Flexion",
+       "value": "duenne Handtuchrolle unter dem Hinterkopf (Eigengewicht)"
+      }
+     ]
+    }
+   ],
+   "finish": null,
+   "optional": {
+    "text": "Wadenheben beidbeinig 2x15-20, 3 s exzentrisch - nur als Achilles-Prophylaxe fuers Kendo.",
+    "resistance": "Langhantel oder Gewichtsweste"
+   },
+   "equipment": [
+    {
+     "gerät": "Bänder",
+     "items": [
+      "Band ROT (50-125 lbs) | Ellbogen eng am Koerper, Endstellung OHNE Zug in der rechten Brust (Band-Rudern)"
+     ]
+    },
+    {
+     "gerät": "Sonstiges",
+     "items": [
+      "4 Stockwerke = 10-12 Hoehenmeter, zwei Stufen auf einmal | + Gewichtsweste 15 kg | ZIELPULS am Ende jedes Aufstiegs: 155-163 bpm (88-92 % von HFmax 177; nach dem Schwindel-Ereignis vom 14.09.2026 bewusst NICHT angehoben). Beim Abstieg NICHT unter 130 bpm fallen lassen. (Treppen-Aufstieg)",
+      "Wand oder Tuerrahmen, Haende auf Brusthoehe, Ellbogen ca. 45 Grad | je Wdh. 10 s halten, ca. 70-100 % Kraft = GATE-TEST fuer W27 (Isometrisches Brustdrücken)"
+     ]
+    }
+   ]
+  },
+  {
+   "day": "Di",
+   "week": 27,
+   "warmup": [
+    {
+     "name": "Cat-Camel",
+     "seconds": 30,
+     "perSide": false,
+     "note": ""
+    },
+    {
+     "name": "Band Pull-aparts",
+     "seconds": 30,
+     "perSide": false,
+     "note": "LILA, auf Schulterhoehe"
+    },
+    {
+     "name": "Glute Bridge",
+     "seconds": 30,
+     "perSide": false,
+     "note": ""
+    },
+    {
+     "name": "Bodyweight Squat",
+     "seconds": 30,
+     "perSide": false,
+     "note": ""
+    },
+    {
+     "name": "Physio 1 - Arme unter Bandspannung vor dem Koerper auf maximale Hoehe und wieder senken",
+     "seconds": 45,
+     "perSide": false,
+     "note": "intermittierend, PHYSIO-AUSNAHME von der 90-Grad-Regel"
+    },
+    {
+     "name": "Physio 2 - Seitlage links, rechter Arm 2 kg, Ellbogen 90 Grad angelegt, Aussenrotation langsam",
+     "seconds": 60,
+     "perSide": false,
+     "note": "ca. 10-12 Wdh. rechts"
+    }
+   ],
+   "blocks": [
+    {
+     "block": "Block 1",
+     "exercises": [
+      {
+       "code": "A1",
+       "name": "Band-Bizeps-Curl",
+       "sets": 3,
+       "targetReps": "10-15",
+       "perSide": false,
+       "detail": "",
+       "raw": "A1 Band-Bizeps-Curl 3x10-15",
+       "resistance": "Band DUNKELGRUEN (60-170 lbs)",
+       "resistanceLabel": "Bizeps-Curl",
+       "description": "BAND: DUNKELGRUEN (60-170 lbs) - am 25.08. 15/13/13. Auf das Band stellen, Ellbogen fest an den Seiten. Unterarme nach oben curlen, oben kurz anspannen, langsam (2-3 s) ablassen. Nur der Unterarm bewegt sich - kein Schwung aus Schulter oder Ruecken.",
+       "video": "https://www.youtube.com/watch?v=Da57AuIofvU",
+       "videoNote": ""
+      },
+      {
+       "code": "A2",
+       "name": "Kurzhantel-Squat (Koffergriff)",
+       "sets": 3,
+       "targetReps": "8-12",
+       "perSide": false,
+       "detail": "",
+       "raw": "A2 Kurzhantel-Squat (Koffergriff) 3x8-12",
+       "resistance": "2x21 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2 + 1x0,5) | 4 s exzentrisch",
+       "resistanceLabel": "Kurzhantel-Squat",
+       "description": "Kurzhanteln links und rechts neben dem Körper hängen lassen (Koffergriff), Füße schulterbreit, Zehen leicht nach außen. Kontrolliert so tief absteigen, wie es schmerzfrei geht, Knie in Richtung Zehen, Rücken neutral. Aus den Fersen hochdrücken. ERSETZT den Bulgarian Split Squat: beidbeinig, dadurch halbe Zeit und deutlich weniger Ermüdung vor dem Kendo. Die Schulter ist unbeteiligt - die Arme hängen einfach. Wenn der Griff vor den Beinen ermüdet: Goblet Squat mit der KB.",
+       "video": "",
+       "videoNote": ""
+      }
+     ],
+     "pause": "Pause ~45s",
+     "note": "Pause ~45s",
+     "resistance": [
+      {
+       "label": "Bizeps-Curl",
+       "value": "Band DUNKELGRUEN (60-170 lbs)"
+      },
+      {
+       "label": "Kurzhantel-Squat",
+       "value": "2x21 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2 + 1x0,5) | 4 s exzentrisch"
+      }
+     ]
+    },
+    {
+     "block": "Block 2",
+     "exercises": [
+      {
+       "code": "B1",
+       "name": "Kurzhantel Floor Press (neutraler Griff)",
+       "sets": 3,
+       "targetReps": "10-12",
+       "perSide": false,
+       "detail": "",
+       "raw": "B1 Kurzhantel Floor Press (neutraler Griff) 3x10-12",
+       "resistance": "2x12 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5) | 3 s exzentrisch",
+       "resistanceLabel": "Kurzhantel Floor Press",
+       "description": "OKTOBER 2026: Last und Zielbereich steigen nach der Brustzerrung stufenweise (2x12 -> 2x16 -> 2x20 kg) - massgeblich ist die Widerstandsangabe der Woche. Rückenlage, Knie angestellt, in jeder Hand eine Kurzhantel mit neutralem Griff (Handflächen zueinander) über der Brust ausdrücken, Ellbogen ~45° vom Körper. Langsam ablassen, bis der Trizeps den Boden berührt – der Boden begrenzt die Bewegung und schützt das AC-Gelenk – kurz pausieren, dann hochdrücken. Ersetzt den KB Floor Press: Die Kurzhantel-Last liegt zentriert über der Handwurzel, das Handgelenk bleibt gerade (KB-Version war fürs Handgelenk schmerzhaft). Brust-/Trizeps-Hauptübung, 1x pro Woche (Di).",
+       "video": "https://www.youtube.com/watch?v=rs05AtccEhg",
+       "videoNote": ""
+      },
+      {
+       "code": "B2",
+       "name": "Band Lateral Raise (bis ~80°)",
+       "sets": 3,
+       "targetReps": "10-12",
+       "perSide": false,
+       "detail": "",
+       "raw": "B2 Band Lateral Raise (bis ~80°) 3x10-12",
+       "resistance": "Band GELB (30-50 lbs) | 3 s exzentrisch, Stopp bei ca. 80 Grad [ab W27 - kleinstmoeglicher Schritt nach TUERKIS. Schulter-Ampel nicht gruen -> zurueck auf TUERKIS]",
+       "resistanceLabel": "Seitheben",
+       "description": "BAND: siehe Widerstandsangabe der Woche (Oktober: TUERKIS in W26, GELB ab W27). Auf das Band stellen, Arme leicht gebeugt seitlich anheben, STOPP bei ~80° (knapp unter Schulterhöhe), 2s halten, langsam ablassen. Moderat bleiben – Ziel ist der Aufbau der seitlichen Schultermuskulatur im schmerzfreien Bereich, ohne die 90°-Grenze zu reizen.",
+       "video": "https://www.youtube.com/watch?v=gfEyrmxbCbw",
+       "videoNote": ""
+      }
+     ],
+     "pause": "Pause ~45s",
+     "note": "BRUST RECHTS: Schmerz hoechstens 3/10 und am naechsten Morgen wieder auf Ausgangsniveau - sonst Satz beenden. Pause ~45s",
+     "resistance": [
+      {
+       "label": "Kurzhantel Floor Press",
+       "value": "2x12 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5) | 3 s exzentrisch"
+      },
+      {
+       "label": "Seitheben",
+       "value": "Band GELB (30-50 lbs) | 3 s exzentrisch, Stopp bei ca. 80 Grad [ab W27 - kleinstmoeglicher Schritt nach TUERKIS. Schulter-Ampel nicht gruen -> zurueck auf TUERKIS]"
+      }
+     ]
+    },
+    {
+     "block": "Block 3",
+     "exercises": [
+      {
+       "code": "C1",
+       "name": "Liegestütz exzentrisch auf den Knien (nur ablassen)",
+       "sets": 3,
+       "targetReps": "10",
+       "perSide": false,
+       "detail": "",
+       "raw": "C1 Liegestütz exzentrisch auf den Knien (nur ablassen) 3x10",
+       "resistance": "Eigengewicht | AUF DEN KNIEN, Haende UEBERSCHULTERBREIT, Ellbogen ca. 45 Grad zum Rumpf, 4 s ablassen, unten kurz auf dem Boden ablegen, KEIN Hochdrücken",
+       "resistanceLabel": "Liegestütz exzentrisch auf den Knien",
+       "description": "Zwischenstufe fuer den Wiedereinstieg nach der Brustzerrung (W27). Technik exakt wie der Physio-Liegestuetz (Haende deutlich ueberschulterbreit, Ellbogen ca. 45 Grad, nur ablassen, unten ablegen, NICHT hochdruecken), aber die Knie bleiben am Boden. Koerper von den Knien bis zum Kopf eine Linie. Das reduziert die Last etwa um ein Drittel.",
+       "video": "",
+       "videoNote": ""
+      },
+      {
+       "code": "D1",
+       "name": "Kraniozervikale Flexion",
+       "sets": 2,
+       "targetReps": "10",
+       "perSide": false,
+       "detail": "je Wiederholung 10 s halten",
+       "raw": "D1 Kraniozervikale Flexion 2x10 - je Wiederholung 10 s halten",
+       "resistance": "duenne Handtuchrolle unter dem Hinterkopf (Eigengewicht)",
+       "resistanceLabel": "Kraniozervikale Flexion",
+       "description": "Rueckenlage auf der Matte, duenne Handtuchrolle unter den Hinterkopf. Langsames Nicken (\"Ja\"-Bewegung), als wuerde der Hinterkopf ueber die Rolle rollen - der Kopf bleibt liegen und wird NICHT abgehoben. 10 s halten, 10 Wiederholungen, 2 Saetze. KONTROLLE: zwei Finger seitlich am Hals auf den M. sternocleidomastoideus. Der darf sich nicht anspannen; spannt er an, ist die Bewegung zu gross. Ziel ist die tiefe Halsbeugemuskulatur (M. longus colli und longus capitis), nicht die oberflaechliche. 3-4x/Woche am Ende der Einheit - in diesem Plan an allen drei Trainingstagen. EINORDNUNG: Von Frank selbst eingebracht (05.08.2026). Die Evidenz betrifft den kraniovertebralen Winkel (CVA) bei Vorhaltung des Kopfes und Nackenschmerz; eine Wirkung auf die Kendo-Leistung ist NICHT untersucht. Schulterunbedenklich - die Arme sind unbeteiligt, die 90-Grad-Regel bleibt unberuehrt. Siehe Blatt Quellen.",
+       "video": "https://www.youtube.com/watch?v=RL2e2gRmtIM",
+       "videoNote": ""
+      }
+     ],
+     "pause": "Pause ~10s",
+     "note": "BRUST RECHTS: Schmerz hoechstens 3/10 und am naechsten Morgen wieder auf Ausgangsniveau - sonst Satz beenden. ALTERNIEREND als EIN Block: Satz C1, dann ein Satz D1 zur Erholung, Satz C1, Satz D1, Satz C1. Pause ~10s (die Erholung IST der Satz der Gegenuebung)",
+     "resistance": [
+      {
+       "label": "Liegestütz exzentrisch auf den Knien",
+       "value": "Eigengewicht | AUF DEN KNIEN, Haende UEBERSCHULTERBREIT, Ellbogen ca. 45 Grad zum Rumpf, 4 s ablassen, unten kurz auf dem Boden ablegen, KEIN Hochdrücken"
+      },
+      {
+       "label": "Kraniozervikale Flexion",
+       "value": "duenne Handtuchrolle unter dem Hinterkopf (Eigengewicht)"
+      }
+     ]
+    }
+   ],
+   "finish": null,
+   "optional": {
+    "text": "KB Swing zweiarmig 2x15 - nur wenn du unter 40 min geblieben bist. Endpunkt am Brustbein kappen (unter 90 Grad).",
+    "resistance": "Swing: KB 24 kg"
+   },
+   "equipment": [
+    {
+     "gerät": "Kurzhanteln",
+     "items": [
+      "2x12 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5) | 3 s exzentrisch (Kurzhantel Floor Press)",
+      "2x21 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2 + 1x0,5) | 4 s exzentrisch (Kurzhantel-Squat)"
+     ]
+    },
+    {
+     "gerät": "Bänder",
+     "items": [
+      "Band DUNKELGRUEN (60-170 lbs) (Bizeps-Curl)",
+      "Band GELB (30-50 lbs) | 3 s exzentrisch, Stopp bei ca. 80 Grad [ab W27 - kleinstmoeglicher Schritt nach TUERKIS. Schulter-Ampel nicht gruen -> zurueck auf TUERKIS] (Seitheben)"
+     ]
+    }
+   ]
+  },
+  {
+   "day": "Do",
+   "week": 27,
+   "warmup": [
+    {
+     "name": "Cat-Camel",
+     "seconds": 30,
+     "perSide": false,
+     "note": ""
+    },
+    {
+     "name": "Band Pull-aparts",
+     "seconds": 30,
+     "perSide": false,
+     "note": "LILA, auf Schulterhoehe"
+    },
+    {
+     "name": "Glute Bridge",
+     "seconds": 30,
+     "perSide": false,
+     "note": ""
+    },
+    {
+     "name": "Bodyweight Squat",
+     "seconds": 30,
+     "perSide": false,
+     "note": ""
+    },
+    {
+     "name": "Physio 1 - Arme unter Bandspannung vor dem Koerper auf maximale Hoehe und wieder senken",
+     "seconds": 45,
+     "perSide": false,
+     "note": "intermittierend, PHYSIO-AUSNAHME von der 90-Grad-Regel"
+    },
+    {
+     "name": "Physio 2 - Seitlage links, rechter Arm 2 kg, Ellbogen 90 Grad angelegt, Aussenrotation langsam",
+     "seconds": 60,
+     "perSide": false,
+     "note": "ca. 10-12 Wdh. rechts"
+    }
+   ],
+   "blocks": [
+    {
+     "block": "Block 1",
+     "exercises": [
+      {
+       "code": "A1",
+       "name": "Langhantel-Rudern vorgebeugt",
+       "sets": 3,
+       "targetReps": "6-10",
+       "perSide": false,
+       "detail": "",
+       "raw": "A1 Langhantel-Rudern vorgebeugt 3x6-10",
+       "resistance": "Langhantel 49,8 kg gesamt (Stange 7,8 kg + je Seite 1x10 + 2x5 + 2x0,5)",
+       "resistanceLabel": "Langhantel-Rudern",
+       "description": "Hüftbreiter Stand, Langhantel im Obergriff. Hüfte nach hinten schieben (Hip Hinge), Oberkörper ~45° oder tiefer, Rücken neutral, Rumpf fest. Die Stange zum Bauchnabel ziehen, Ellbogen nah am Körper, Schulterblätter nach hinten-unten; langsam ablassen, kein Schwung. Schwere beidarmige Zugübung als Ergänzung zum einarmigen KB-Rudern – Arme bleiben unter 90°. Stand 17.09.2026: 49,8 kg -> 13/11/8.",
+       "video": "https://www.youtube.com/watch?v=rqTOAM8WoeM",
+       "videoNote": ""
+      },
+      {
+       "code": "A2",
+       "name": "Band-Chest-Press stehend beidarmig",
+       "sets": 3,
+       "targetReps": "10-15",
+       "perSide": false,
+       "detail": "",
+       "raw": "A2 Band-Chest-Press stehend beidarmig 3x10-15",
+       "resistance": "Band ROT (50-125 lbs) | Haende maximal auf Schulterhoehe",
+       "resistanceLabel": "Chest-Press",
+       "description": "BAND: siehe Widerstandsangabe der Woche (Oktober: ROT in W27, DUNKELGRUEN ab W28). Band auf Brusthöhe hinter dir verankern, Schrittstellung, Rumpf fest. Beide Griffe auf Brusthöhe, dann BEIDE Arme gleichzeitig horizontal nach vorn ausdrücken - die Hände bleiben maximal auf Schulterhöhe, nie darüber. Langsam zurückführen, ohne dass die Schultern nach vorn kippen. Beidarmige Variante der einarmigen Version aus dem Juli-Plan; das Video zeigt einarmig, die Ausführung ist identisch, nur mit beiden Armen gleichzeitig.",
+       "video": "https://www.youtube.com/watch?v=ssJcPFP47aw",
+       "videoNote": "zeigt einarmig"
+      }
+     ],
+     "pause": "Pause ~45s",
+     "note": "BRUST RECHTS: Schmerz hoechstens 3/10 und am naechsten Morgen wieder auf Ausgangsniveau - sonst Satz beenden. Pause ~45s",
+     "resistance": [
+      {
+       "label": "Langhantel-Rudern",
+       "value": "Langhantel 49,8 kg gesamt (Stange 7,8 kg + je Seite 1x10 + 2x5 + 2x0,5)"
+      },
+      {
+       "label": "Chest-Press",
+       "value": "Band ROT (50-125 lbs) | Haende maximal auf Schulterhoehe"
+      }
+     ]
+    },
+    {
+     "block": "Block 2",
+     "exercises": [
+      {
+       "code": "B1",
+       "name": "Langhantel Romanian Deadlift",
+       "sets": 3,
+       "targetReps": "8-12",
+       "perSide": false,
+       "detail": "",
+       "raw": "B1 Langhantel Romanian Deadlift 3x8-12",
+       "resistance": "Langhantel 52,8 kg gesamt (Stange 7,8 kg + je Seite 1x10 + 2x5 + 1x2 + 1x0,5) | ZUGHILFEN, 3 s exzentrisch",
+       "resistanceLabel": "RDL",
+       "description": "Hüfte nach hinten, Rücken neutral, Beinbeuger laden, Hüfte nach vorn strecken. Jetzt mit Langhantel bis 45,8 kg statt Kettlebell (KB-Version war zu leicht). Video getauscht am 16.08.2026: das alte zeigte die Kettlebell-Variante.",
+       "video": "https://www.youtube.com/watch?v=xgusDooVfKU",
+       "videoNote": ""
+      },
+      {
+       "code": "B2",
+       "name": "Band Face Pull",
+       "sets": 3,
+       "targetReps": "12-15",
+       "perSide": false,
+       "detail": "",
+       "raw": "B2 Band Face Pull 3x12-15",
+       "resistance": "Band ROT (50-125 lbs) | Ellbogen bleiben auf Schulterhoehe, NICHT hoeher",
+       "resistanceLabel": "Face Pull",
+       "description": "BAND: siehe Widerstandsangabe der Woche (Oktober: ROT in W27, DUNKELGRUEN ab W28). Band auf etwa Schulterhoehe verankern (Klimmzugstange, Tueranker). Beide Griffe fassen, Arme gestreckt nach vorn. Das Band zum Gesicht ziehen, dabei die ELLBOGEN NACH AUSSEN fuehren, Schulterblaetter nach hinten-unten. Die Ellbogen bleiben auf Schulterhoehe und gehen NICHT darueber - damit ist die 90-Grad-Regel eingehalten. Am Endpunkt kurz halten, langsam zurueck. WARUM DIESE UEBUNG: hintere Schulter und obere Ruecken-/Schulterblattmuskulatur. Die Bewegung ist horizontale ABduktion - also das Gegenteil des Musters, das das ACG reizt (horizontale Adduktion, Arm quer vor dem Koerper). Der einzige Schulterreiz im Plan, der die Arthrose eher entlastet.",
+       "video": "",
+       "videoNote": ""
+      }
+     ],
+     "pause": "Pause ~45s",
+     "note": "BRUST RECHTS: Schmerz hoechstens 3/10 und am naechsten Morgen wieder auf Ausgangsniveau - sonst Satz beenden. Pause ~45s",
+     "resistance": [
+      {
+       "label": "RDL",
+       "value": "Langhantel 52,8 kg gesamt (Stange 7,8 kg + je Seite 1x10 + 2x5 + 1x2 + 1x0,5) | ZUGHILFEN, 3 s exzentrisch"
+      },
+      {
+       "label": "Face Pull",
+       "value": "Band ROT (50-125 lbs) | Ellbogen bleiben auf Schulterhoehe, NICHT hoeher"
+      }
+     ]
+    },
+    {
+     "block": "Block 3",
+     "exercises": [
+      {
+       "code": "C1",
+       "name": "Band Lateral Raise (bis ~80°)",
+       "sets": 3,
+       "targetReps": "10-12",
+       "perSide": false,
+       "detail": "",
+       "raw": "C1 Band Lateral Raise (bis ~80°) 3x10-12",
+       "resistance": "Band GELB (30-50 lbs) | 3 s exzentrisch, Stopp bei ca. 80 Grad [ab W27 - kleinstmoeglicher Schritt nach TUERKIS. Schulter-Ampel nicht gruen -> zurueck auf TUERKIS]",
+       "resistanceLabel": "Seitheben",
+       "description": "BAND: siehe Widerstandsangabe der Woche (Oktober: TUERKIS in W26, GELB ab W27). Auf das Band stellen, Arme leicht gebeugt seitlich anheben, STOPP bei ~80° (knapp unter Schulterhöhe), 2s halten, langsam ablassen. Moderat bleiben – Ziel ist der Aufbau der seitlichen Schultermuskulatur im schmerzfreien Bereich, ohne die 90°-Grenze zu reizen.",
+       "video": "https://www.youtube.com/watch?v=gfEyrmxbCbw",
+       "videoNote": ""
+      },
+      {
+       "code": "D1",
+       "name": "Kraniozervikale Flexion",
+       "sets": 2,
+       "targetReps": "10",
+       "perSide": false,
+       "detail": "je Wiederholung 10 s halten",
+       "raw": "D1 Kraniozervikale Flexion 2x10 - je Wiederholung 10 s halten",
+       "resistance": "duenne Handtuchrolle unter dem Hinterkopf (Eigengewicht)",
+       "resistanceLabel": "Kraniozervikale Flexion",
+       "description": "Rueckenlage auf der Matte, duenne Handtuchrolle unter den Hinterkopf. Langsames Nicken (\"Ja\"-Bewegung), als wuerde der Hinterkopf ueber die Rolle rollen - der Kopf bleibt liegen und wird NICHT abgehoben. 10 s halten, 10 Wiederholungen, 2 Saetze. KONTROLLE: zwei Finger seitlich am Hals auf den M. sternocleidomastoideus. Der darf sich nicht anspannen; spannt er an, ist die Bewegung zu gross. Ziel ist die tiefe Halsbeugemuskulatur (M. longus colli und longus capitis), nicht die oberflaechliche. 3-4x/Woche am Ende der Einheit - in diesem Plan an allen drei Trainingstagen. EINORDNUNG: Von Frank selbst eingebracht (05.08.2026). Die Evidenz betrifft den kraniovertebralen Winkel (CVA) bei Vorhaltung des Kopfes und Nackenschmerz; eine Wirkung auf die Kendo-Leistung ist NICHT untersucht. Schulterunbedenklich - die Arme sind unbeteiligt, die 90-Grad-Regel bleibt unberuehrt. Siehe Blatt Quellen.",
+       "video": "https://www.youtube.com/watch?v=RL2e2gRmtIM",
+       "videoNote": ""
+      }
+     ],
+     "pause": "Pause ~10s",
+     "note": "ALTERNIEREND als EIN Block: Satz C1, dann ein Satz D1 zur Erholung, Satz C1, Satz D1, Satz C1. Pause ~10s (die Erholung IST der Satz der Gegenuebung)",
+     "resistance": [
+      {
+       "label": "Seitheben",
+       "value": "Band GELB (30-50 lbs) | 3 s exzentrisch, Stopp bei ca. 80 Grad [ab W27 - kleinstmoeglicher Schritt nach TUERKIS. Schulter-Ampel nicht gruen -> zurueck auf TUERKIS]"
+      },
+      {
+       "label": "Kraniozervikale Flexion",
+       "value": "duenne Handtuchrolle unter dem Hinterkopf (Eigengewicht)"
+      }
+     ]
+    }
+   ],
+   "finish": {
+    "text": "Goblet Squat 2x10, 3 s exzentrisch, ohne Halten unten - KB vor der Brust, volle kontrollierte Tiefe.",
+    "resistance": "Goblet: KB 24 kg | + Gewichtsweste 10 kg (Einzeluebung, einmal anlegen)"
+   },
+   "optional": {
+    "text": "Band-Trizeps-Pushdown 2x12-15 - nur wenn du unter 40 min geblieben bist.",
+    "resistance": "Band DUNKELGRUEN (60-170 lbs)"
+   },
+   "equipment": [
+    {
+     "gerät": "Langhantel",
+     "items": [
+      "Langhantel 49,8 kg gesamt (Stange 7,8 kg + je Seite 1x10 + 2x5 + 2x0,5) (Langhantel-Rudern)",
+      "Langhantel 52,8 kg gesamt (Stange 7,8 kg + je Seite 1x10 + 2x5 + 1x2 + 1x0,5) | ZUGHILFEN, 3 s exzentrisch (RDL)"
+     ]
+    },
+    {
+     "gerät": "Bänder",
+     "items": [
+      "Band GELB (30-50 lbs) | 3 s exzentrisch, Stopp bei ca. 80 Grad [ab W27 - kleinstmoeglicher Schritt nach TUERKIS. Schulter-Ampel nicht gruen -> zurueck auf TUERKIS] (Seitheben)",
+      "Band ROT (50-125 lbs) | Ellbogen bleiben auf Schulterhoehe, NICHT hoeher (Face Pull)",
+      "Band ROT (50-125 lbs) | Haende maximal auf Schulterhoehe (Chest-Press)"
+     ]
+    }
+   ]
+  },
+  {
+   "day": "Sa",
+   "week": 27,
+   "warmup": [
+    {
+     "name": "Fussgelenke und Waden mobilisieren",
+     "seconds": 60,
+     "perSide": false,
+     "note": ""
+    },
+    {
+     "name": "erster Aufstieg locker, Abstieg im Gehen",
+     "seconds": 90,
+     "perSide": false,
+     "note": ""
+    },
+    {
+     "name": "zweiter Aufstieg zuegig, Abstieg im Gehen - Ziel am Ende ca. 130-135 bpm",
+     "seconds": 90,
+     "perSide": false,
+     "note": ""
+    }
+   ],
+   "blocks": [
+    {
+     "block": "Block 1",
+     "exercises": [
+      {
+       "code": "A1",
+       "name": "Treppen-Aufstieg all-out",
+       "sets": 13,
+       "targetReps": "1",
+       "perSide": false,
+       "detail": "",
+       "raw": "A1 Treppen-Aufstieg all-out 13x1",
+       "resistance": "4 Stockwerke = 10-12 Hoehenmeter, zwei Stufen auf einmal | + Gewichtsweste 15 kg | ZIELPULS am Ende jedes Aufstiegs: 155-163 bpm (88-92 % von HFmax 177; nach dem Schwindel-Ereignis vom 14.09.2026 bewusst NICHT angehoben). Beim Abstieg NICHT unter 130 bpm fallen lassen.",
+       "resistanceLabel": "Treppen-Aufstieg",
+       "description": "Repeated Sprint Training im eigenen Treppenhaus. Vier Stockwerke a 2,5-3 m = 10-12 Hoehenmeter je Aufstieg. AUFSTIEG: all-out, zwei Stufen auf einmal, Arme frei mitschwingen lassen (bleiben unter Schulterhoehe, 90-Grad-Regel unberuehrt). ABSTIEG: im GEHEN, das ist die Pause - nicht laufen. Kein Stehenbleiben oben oder unten, direkt umdrehen. STEUERUNG UEBER DEN PULS, nicht ueber die Uhr: am Ende jedes Aufstiegs 155-163 bpm (88-92 % von HFmax 177; nach dem Schwindel-Ereignis vom 14.09.2026 bewusst NICHT angehoben), beim Abstieg nicht unter 130 bpm fallen lassen. Faellt der Puls tiefer: erst zwei Stufen auf einmal, dann zuegiger absteigen, erst zuletzt Gewichtsweste dazu. ERSETZT die urspruenglich geplanten 4x4-min-Intervalle: bei nur vier Stockwerken waere die Haelfte der Arbeitszeit Abstieg gewesen, das Protokoll von Helgerud ist so nicht nachbaubar. WARNUNG: Treppab ist exzentrische Quadrizeps-Belastung und der klassische Muskelkater-Ausloeser - am Montag ist Kendo. Erste zwei bis drei Wochen bewusst langsam absteigen. Hand in Gelaendernaehe, bei hohem Puls ist der Fehltritt real.",
+       "video": "",
+       "videoNote": ""
+      }
+     ],
+     "pause": "Pause ~40s",
+     "note": "Pause ~40s (Abstieg im Gehen)",
+     "resistance": [
+      {
+       "label": "Treppen-Aufstieg",
+       "value": "4 Stockwerke = 10-12 Hoehenmeter, zwei Stufen auf einmal | + Gewichtsweste 15 kg | ZIELPULS am Ende jedes Aufstiegs: 155-163 bpm (88-92 % von HFmax 177; nach dem Schwindel-Ereignis vom 14.09.2026 bewusst NICHT angehoben). Beim Abstieg NICHT unter 130 bpm fallen lassen."
+      }
+     ]
+    },
+    {
+     "block": "Block 2",
+     "exercises": [
+      {
+       "code": "B1",
+       "name": "Liegestütz exzentrisch auf den Knien (nur ablassen)",
+       "sets": 3,
+       "targetReps": "10",
+       "perSide": false,
+       "detail": "",
+       "raw": "B1 Liegestütz exzentrisch auf den Knien (nur ablassen) 3x10",
+       "resistance": "Eigengewicht | AUF DEN KNIEN, Haende UEBERSCHULTERBREIT, Ellbogen ca. 45 Grad zum Rumpf, 5 s ablassen, unten kurz auf dem Boden ablegen, KEIN Hochdrücken",
+       "resistanceLabel": "Liegestütz exzentrisch auf den Knien",
+       "description": "Zwischenstufe fuer den Wiedereinstieg nach der Brustzerrung (W27). Technik exakt wie der Physio-Liegestuetz (Haende deutlich ueberschulterbreit, Ellbogen ca. 45 Grad, nur ablassen, unten ablegen, NICHT hochdruecken), aber die Knie bleiben am Boden. Koerper von den Knien bis zum Kopf eine Linie. Das reduziert die Last etwa um ein Drittel.",
+       "video": "",
+       "videoNote": ""
+      }
+     ],
+     "pause": "Pause ~60s",
+     "note": "BRUST RECHTS: Schmerz hoechstens 3/10 und am naechsten Morgen wieder auf Ausgangsniveau - sonst Satz beenden. Pause ~60s",
+     "resistance": [
+      {
+       "label": "Liegestütz exzentrisch auf den Knien",
+       "value": "Eigengewicht | AUF DEN KNIEN, Haende UEBERSCHULTERBREIT, Ellbogen ca. 45 Grad zum Rumpf, 5 s ablassen, unten kurz auf dem Boden ablegen, KEIN Hochdrücken"
+      }
+     ]
+    },
+    {
+     "block": "Block 3",
+     "exercises": [
+      {
+       "code": "C1",
+       "name": "Band Face Pull",
+       "sets": 3,
+       "targetReps": "12-15",
+       "perSide": false,
+       "detail": "",
+       "raw": "C1 Band Face Pull 3x12-15",
+       "resistance": "Band ROT (50-125 lbs) | Ellbogen auf Schulterhoehe, nicht hoeher",
+       "resistanceLabel": "Face Pull",
+       "description": "BAND: siehe Widerstandsangabe der Woche (Oktober: ROT in W27, DUNKELGRUEN ab W28). Band auf etwa Schulterhoehe verankern (Klimmzugstange, Tueranker). Beide Griffe fassen, Arme gestreckt nach vorn. Das Band zum Gesicht ziehen, dabei die ELLBOGEN NACH AUSSEN fuehren, Schulterblaetter nach hinten-unten. Die Ellbogen bleiben auf Schulterhoehe und gehen NICHT darueber - damit ist die 90-Grad-Regel eingehalten. Am Endpunkt kurz halten, langsam zurueck. WARUM DIESE UEBUNG: hintere Schulter und obere Ruecken-/Schulterblattmuskulatur. Die Bewegung ist horizontale ABduktion - also das Gegenteil des Musters, das das ACG reizt (horizontale Adduktion, Arm quer vor dem Koerper). Der einzige Schulterreiz im Plan, der die Arthrose eher entlastet.",
+       "video": "",
+       "videoNote": ""
+      },
+      {
+       "code": "D1",
+       "name": "Kraniozervikale Flexion",
+       "sets": 2,
+       "targetReps": "10",
+       "perSide": false,
+       "detail": "je Wiederholung 10 s halten",
+       "raw": "D1 Kraniozervikale Flexion 2x10 - je Wiederholung 10 s halten",
+       "resistance": "duenne Handtuchrolle unter dem Hinterkopf (Eigengewicht)",
+       "resistanceLabel": "Kraniozervikale Flexion",
+       "description": "Rueckenlage auf der Matte, duenne Handtuchrolle unter den Hinterkopf. Langsames Nicken (\"Ja\"-Bewegung), als wuerde der Hinterkopf ueber die Rolle rollen - der Kopf bleibt liegen und wird NICHT abgehoben. 10 s halten, 10 Wiederholungen, 2 Saetze. KONTROLLE: zwei Finger seitlich am Hals auf den M. sternocleidomastoideus. Der darf sich nicht anspannen; spannt er an, ist die Bewegung zu gross. Ziel ist die tiefe Halsbeugemuskulatur (M. longus colli und longus capitis), nicht die oberflaechliche. 3-4x/Woche am Ende der Einheit - in diesem Plan an allen drei Trainingstagen. EINORDNUNG: Von Frank selbst eingebracht (05.08.2026). Die Evidenz betrifft den kraniovertebralen Winkel (CVA) bei Vorhaltung des Kopfes und Nackenschmerz; eine Wirkung auf die Kendo-Leistung ist NICHT untersucht. Schulterunbedenklich - die Arme sind unbeteiligt, die 90-Grad-Regel bleibt unberuehrt. Siehe Blatt Quellen.",
+       "video": "https://www.youtube.com/watch?v=RL2e2gRmtIM",
+       "videoNote": ""
+      }
+     ],
+     "pause": "Pause ~10s",
+     "note": "BRUST RECHTS: Schmerz hoechstens 3/10 und am naechsten Morgen wieder auf Ausgangsniveau - sonst Satz beenden. ALTERNIEREND als EIN Block: Satz C1, dann ein Satz D1 zur Erholung, Satz C1, Satz D1, Satz C1. Pause ~10s (die Erholung IST der Satz der Gegenuebung)",
+     "resistance": [
+      {
+       "label": "Face Pull",
+       "value": "Band ROT (50-125 lbs) | Ellbogen auf Schulterhoehe, nicht hoeher"
+      },
+      {
+       "label": "Kraniozervikale Flexion",
+       "value": "duenne Handtuchrolle unter dem Hinterkopf (Eigengewicht)"
+      }
+     ]
+    }
+   ],
+   "finish": null,
+   "optional": {
+    "text": "Wadenheben beidbeinig 2x15-20, 3 s exzentrisch - nur als Achilles-Prophylaxe fuers Kendo.",
+    "resistance": "Langhantel oder Gewichtsweste"
+   },
+   "equipment": [
+    {
+     "gerät": "Bänder",
+     "items": [
+      "Band ROT (50-125 lbs) | Ellbogen auf Schulterhoehe, nicht hoeher (Face Pull)"
+     ]
+    },
+    {
+     "gerät": "Sonstiges",
+     "items": [
+      "4 Stockwerke = 10-12 Hoehenmeter, zwei Stufen auf einmal | + Gewichtsweste 15 kg | ZIELPULS am Ende jedes Aufstiegs: 155-163 bpm (88-92 % von HFmax 177; nach dem Schwindel-Ereignis vom 14.09.2026 bewusst NICHT angehoben). Beim Abstieg NICHT unter 130 bpm fallen lassen. (Treppen-Aufstieg)"
+     ]
+    }
+   ]
+  },
+  {
+   "day": "Di",
+   "week": 28,
    "warmup": [
     {
      "name": "Cat-Camel",
@@ -99,7 +1207,7 @@
       }
      ],
      "pause": "Pause ~45s",
-     "note": "Pause ~45s",
+     "note": "BRUST RECHTS: Schmerz hoechstens 3/10 und am naechsten Morgen wieder auf Ausgangsniveau - sonst Satz beenden. Pause ~45s",
      "resistance": [
       {
        "label": "Klimmzug",
@@ -118,13 +1226,13 @@
        "code": "B1",
        "name": "Kurzhantel Floor Press (neutraler Griff)",
        "sets": 3,
-       "targetReps": "6-10",
+       "targetReps": "8-10",
        "perSide": false,
        "detail": "",
-       "raw": "B1 Kurzhantel Floor Press (neutraler Griff) 3x6-10",
-       "resistance": "2x21 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2 + 1x0,5) | 3 s exzentrisch",
+       "raw": "B1 Kurzhantel Floor Press (neutraler Griff) 3x8-10",
+       "resistance": "2x16 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 1x2) | 3 s exzentrisch",
        "resistanceLabel": "Kurzhantel Floor Press",
-       "description": "ZURUECK IM PLAN AB W21 (Dienstag, B2) - jetzt mit 2x21 kg statt 2x17 kg, deshalb Zielbereich 6-10 statt 8-12. Rückenlage, Knie angestellt, in jeder Hand eine Kurzhantel mit neutralem Griff (Handflächen zueinander) über der Brust ausdrücken, Ellbogen ~45° vom Körper. Langsam ablassen, bis der Trizeps den Boden berührt – der Boden begrenzt die Bewegung und schützt das AC-Gelenk – kurz pausieren, dann hochdrücken. Ersetzt den KB Floor Press: Die Kurzhantel-Last liegt zentriert über der Handwurzel, das Handgelenk bleibt gerade (KB-Version war fürs Handgelenk schmerzhaft). Brust-/Trizeps-Hauptübung, 2x pro Woche (Di + Sa).",
+       "description": "OKTOBER 2026: Last und Zielbereich steigen nach der Brustzerrung stufenweise (2x12 -> 2x16 -> 2x20 kg) - massgeblich ist die Widerstandsangabe der Woche. Rückenlage, Knie angestellt, in jeder Hand eine Kurzhantel mit neutralem Griff (Handflächen zueinander) über der Brust ausdrücken, Ellbogen ~45° vom Körper. Langsam ablassen, bis der Trizeps den Boden berührt – der Boden begrenzt die Bewegung und schützt das AC-Gelenk – kurz pausieren, dann hochdrücken. Ersetzt den KB Floor Press: Die Kurzhantel-Last liegt zentriert über der Handwurzel, das Handgelenk bleibt gerade (KB-Version war fürs Handgelenk schmerzhaft). Brust-/Trizeps-Hauptübung, 1x pro Woche (Di).",
        "video": "https://www.youtube.com/watch?v=rs05AtccEhg",
        "videoNote": ""
       },
@@ -136,23 +1244,23 @@
        "perSide": false,
        "detail": "",
        "raw": "B2 Band Lateral Raise (bis ~80°) 3x10-12",
-       "resistance": "Band LILA (15-25 lbs) | 3 s exzentrisch [Band bleibt LILA - Schulter! Steigerung NUR ueber Tempo und Standabstand zum Anker]",
+       "resistance": "Band GELB (30-50 lbs) | 3 s exzentrisch, Stopp bei ca. 80 Grad [ab W27 - kleinstmoeglicher Schritt nach TUERKIS. Schulter-Ampel nicht gruen -> zurueck auf TUERKIS]",
        "resistanceLabel": "Seitheben",
-       "description": "BAND: LILA (15-25 lbs). Auf das Band stellen, Arme leicht gebeugt seitlich anheben, STOPP bei ~80° (knapp unter Schulterhöhe), 2s halten, langsam ablassen. Leicht bleiben – Ziel ist der Erhalt der seitlichen Schultermuskulatur im schmerzfreien Bereich, ohne die 90°-Grenze zu reizen.",
+       "description": "BAND: siehe Widerstandsangabe der Woche (Oktober: TUERKIS in W26, GELB ab W27). Auf das Band stellen, Arme leicht gebeugt seitlich anheben, STOPP bei ~80° (knapp unter Schulterhöhe), 2s halten, langsam ablassen. Moderat bleiben – Ziel ist der Aufbau der seitlichen Schultermuskulatur im schmerzfreien Bereich, ohne die 90°-Grenze zu reizen.",
        "video": "https://www.youtube.com/watch?v=gfEyrmxbCbw",
        "videoNote": ""
       }
      ],
      "pause": "Pause ~45s",
-     "note": "Pause ~45s",
+     "note": "BRUST RECHTS: Schmerz hoechstens 3/10 und am naechsten Morgen wieder auf Ausgangsniveau - sonst Satz beenden. Pause ~45s",
      "resistance": [
       {
        "label": "Kurzhantel Floor Press",
-       "value": "2x21 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2 + 1x0,5) | 3 s exzentrisch"
+       "value": "2x16 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 1x2) | 3 s exzentrisch"
       },
       {
        "label": "Seitheben",
-       "value": "Band LILA (15-25 lbs) | 3 s exzentrisch [Band bleibt LILA - Schulter! Steigerung NUR ueber Tempo und Standabstand zum Anker]"
+       "value": "Band GELB (30-50 lbs) | 3 s exzentrisch, Stopp bei ca. 80 Grad [ab W27 - kleinstmoeglicher Schritt nach TUERKIS. Schulter-Ampel nicht gruen -> zurueck auf TUERKIS]"
       }
      ]
     },
@@ -172,28 +1280,15 @@
        "description": "Vom Krankengymnasten gezeigt und dort erprobt. Liegestuetzposition am Boden, Haende DEUTLICH UEBERSCHULTERBREIT, Ellbogen ca. 45 Grad zum Rumpf (nicht seitlich ausgestellt, nicht eng am Koerper). Rumpf und Gesaess fest, der Koerper bleibt eine Linie. NUR die Absenkphase: 4 Sekunden langsam und kontrolliert bis zum Boden. Unten kurz ablegen. NICHT wieder hochdruecken - stattdessen auf die Knie gehen und so in die Ausgangsposition zurueck. 10 Wiederholungen, 3 Saetze. Die Arme bleiben durchgehend unter Schulterhoehe, die 90-Grad-Regel ist eingehalten. Steigerung spaeter ueber Tempo (5-6 s) oder Fuesse erhoeht - NICHT ueber die Gewichtsweste.",
        "video": "https://www.youtube.com/watch?v=1JsPD1_7nX0",
        "videoNote": "Muscle & Motion, Anatomie und typische Fehler - dort wird anschliessend hochgedrueckt, das entfaellt bei dir"
-      }
-     ],
-     "pause": "Pause ~60s",
-     "note": "Pause ~60s",
-     "resistance": [
-      {
-       "label": "Liegestütz",
-       "value": "Eigengewicht | Haende UEBERSCHULTERBREIT, Ellbogen ca. 45 Grad zum Rumpf, 4 s ablassen, unten kurz auf dem Boden ablegen, KEIN Hochdrücken - auf den Knien zurueck"
-      }
-     ]
-    },
-    {
-     "block": "Block 4 (Cool-down)",
-     "exercises": [
+      },
       {
        "code": "D1",
        "name": "Kraniozervikale Flexion",
-       "sets": 1,
+       "sets": 2,
        "targetReps": "10",
        "perSide": false,
        "detail": "je Wiederholung 10 s halten",
-       "raw": "D1 Kraniozervikale Flexion 1x10 - je Wiederholung 10 s halten",
+       "raw": "D1 Kraniozervikale Flexion 2x10 - je Wiederholung 10 s halten",
        "resistance": "duenne Handtuchrolle unter dem Hinterkopf (Eigengewicht)",
        "resistanceLabel": "Kraniozervikale Flexion",
        "description": "Rueckenlage auf der Matte, duenne Handtuchrolle unter den Hinterkopf. Langsames Nicken (\"Ja\"-Bewegung), als wuerde der Hinterkopf ueber die Rolle rollen - der Kopf bleibt liegen und wird NICHT abgehoben. 10 s halten, 10 Wiederholungen, 2 Saetze. KONTROLLE: zwei Finger seitlich am Hals auf den M. sternocleidomastoideus. Der darf sich nicht anspannen; spannt er an, ist die Bewegung zu gross. Ziel ist die tiefe Halsbeugemuskulatur (M. longus colli und longus capitis), nicht die oberflaechliche. 3-4x/Woche am Ende der Einheit - in diesem Plan an allen drei Trainingstagen. EINORDNUNG: Von Frank selbst eingebracht (05.08.2026). Die Evidenz betrifft den kraniovertebralen Winkel (CVA) bei Vorhaltung des Kopfes und Nackenschmerz; eine Wirkung auf die Kendo-Leistung ist NICHT untersucht. Schulterunbedenklich - die Arme sind unbeteiligt, die 90-Grad-Regel bleibt unberuehrt. Siehe Blatt Quellen.",
@@ -201,9 +1296,13 @@
        "videoNote": ""
       }
      ],
-     "pause": "Pause ~30s",
-     "note": "Pause ~30s",
+     "pause": "Pause ~10s",
+     "note": "BRUST RECHTS: Schmerz hoechstens 3/10 und am naechsten Morgen wieder auf Ausgangsniveau - sonst Satz beenden. ALTERNIEREND als EIN Block: Satz C1, dann ein Satz D1 zur Erholung, Satz C1, Satz D1, Satz C1. Pause ~10s (die Erholung IST der Satz der Gegenuebung)",
      "resistance": [
+      {
+       "label": "Liegestütz",
+       "value": "Eigengewicht | Haende UEBERSCHULTERBREIT, Ellbogen ca. 45 Grad zum Rumpf, 4 s ablassen, unten kurz auf dem Boden ablegen, KEIN Hochdrücken - auf den Knien zurueck"
+      },
       {
        "label": "Kraniozervikale Flexion",
        "value": "duenne Handtuchrolle unter dem Hinterkopf (Eigengewicht)"
@@ -213,28 +1312,28 @@
    ],
    "finish": null,
    "optional": {
-    "text": "KB Swing zweiarmig 2x15 - nur wenn du unter 40 min geblieben bist. Endpunkt bewusst am Brustbein kappen (unter 90 Grad).",
+    "text": "KB Swing zweiarmig 2x15 - nur wenn du unter 40 min geblieben bist. Endpunkt am Brustbein kappen (unter 90 Grad).",
     "resistance": "Swing: KB 24 kg"
    },
    "equipment": [
     {
      "gerät": "Kurzhanteln",
      "items": [
-      "2x21 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2 + 1x0,5) | 3 s exzentrisch (Kurzhantel Floor Press)",
+      "2x16 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 1x2) | 3 s exzentrisch (Kurzhantel Floor Press)",
       "2x21 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2 + 1x0,5) | 4 s exzentrisch (Kurzhantel-Squat)"
      ]
     },
     {
      "gerät": "Bänder",
      "items": [
-      "Band LILA (15-25 lbs) | 3 s exzentrisch [Band bleibt LILA - Schulter! Steigerung NUR ueber Tempo und Standabstand zum Anker] (Seitheben)"
+      "Band GELB (30-50 lbs) | 3 s exzentrisch, Stopp bei ca. 80 Grad [ab W27 - kleinstmoeglicher Schritt nach TUERKIS. Schulter-Ampel nicht gruen -> zurueck auf TUERKIS] (Seitheben)"
      ]
     }
    ]
   },
   {
    "day": "Do",
-   "week": 21,
+   "week": 28,
    "warmup": [
     {
      "name": "Cat-Camel",
@@ -285,9 +1384,9 @@
        "perSide": false,
        "detail": "",
        "raw": "A1 Langhantel-Rudern vorgebeugt 3x6-10",
-       "resistance": "Langhantel 47,8 kg gesamt (Stange 7,8 kg + je Seite 1x10 + 2x5)",
+       "resistance": "Langhantel 50,8 kg gesamt (Stange 7,8 kg + je Seite 1x10 + 1x5 + 3x2 + 1x0,5)",
        "resistanceLabel": "Langhantel-Rudern",
-       "description": "Hüftbreiter Stand, Langhantel im Obergriff. Hüfte nach hinten schieben (Hip Hinge), Oberkörper ~45° oder tiefer, Rücken neutral, Rumpf fest. Die Stange zum Bauchnabel ziehen, Ellbogen nah am Körper, Schulterblätter nach hinten-unten; langsam ablassen, kein Schwung. Schwere beidarmige Zugübung als Ergänzung zum einarmigen KB-Rudern – Arme bleiben unter 90°. Zyklus Aug: 35,8 kg (W16) bis 39,8 kg (W19).",
+       "description": "Hüftbreiter Stand, Langhantel im Obergriff. Hüfte nach hinten schieben (Hip Hinge), Oberkörper ~45° oder tiefer, Rücken neutral, Rumpf fest. Die Stange zum Bauchnabel ziehen, Ellbogen nah am Körper, Schulterblätter nach hinten-unten; langsam ablassen, kein Schwung. Schwere beidarmige Zugübung als Ergänzung zum einarmigen KB-Rudern – Arme bleiben unter 90°. Stand 17.09.2026: 49,8 kg -> 13/11/8.",
        "video": "https://www.youtube.com/watch?v=rqTOAM8WoeM",
        "videoNote": ""
       },
@@ -299,23 +1398,23 @@
        "perSide": false,
        "detail": "",
        "raw": "A2 Band-Chest-Press stehend beidarmig 3x10-15",
-       "resistance": "Band DUNKELGRUEN (60-170 lbs)",
+       "resistance": "Band DUNKELGRUEN (60-170 lbs) | Haende maximal auf Schulterhoehe",
        "resistanceLabel": "Chest-Press",
-       "description": "BAND: ROT (50-125 lbs). Band auf Brusthöhe hinter dir verankern, Schrittstellung, Rumpf fest. Beide Griffe auf Brusthöhe, dann BEIDE Arme gleichzeitig horizontal nach vorn ausdrücken - die Hände bleiben maximal auf Schulterhöhe, nie darüber. Langsam zurückführen, ohne dass die Schultern nach vorn kippen. Beidarmige Variante der einarmigen Version aus dem Juli-Plan; das Video zeigt einarmig, die Ausführung ist identisch, nur mit beiden Armen gleichzeitig.",
+       "description": "BAND: siehe Widerstandsangabe der Woche (Oktober: ROT in W27, DUNKELGRUEN ab W28). Band auf Brusthöhe hinter dir verankern, Schrittstellung, Rumpf fest. Beide Griffe auf Brusthöhe, dann BEIDE Arme gleichzeitig horizontal nach vorn ausdrücken - die Hände bleiben maximal auf Schulterhöhe, nie darüber. Langsam zurückführen, ohne dass die Schultern nach vorn kippen. Beidarmige Variante der einarmigen Version aus dem Juli-Plan; das Video zeigt einarmig, die Ausführung ist identisch, nur mit beiden Armen gleichzeitig.",
        "video": "https://www.youtube.com/watch?v=ssJcPFP47aw",
        "videoNote": "zeigt einarmig"
       }
      ],
      "pause": "Pause ~45s",
-     "note": "Pause ~45s",
+     "note": "BRUST RECHTS: Schmerz hoechstens 3/10 und am naechsten Morgen wieder auf Ausgangsniveau - sonst Satz beenden. Pause ~45s",
      "resistance": [
       {
        "label": "Langhantel-Rudern",
-       "value": "Langhantel 47,8 kg gesamt (Stange 7,8 kg + je Seite 1x10 + 2x5)"
+       "value": "Langhantel 50,8 kg gesamt (Stange 7,8 kg + je Seite 1x10 + 1x5 + 3x2 + 1x0,5)"
       },
       {
        "label": "Chest-Press",
-       "value": "Band DUNKELGRUEN (60-170 lbs)"
+       "value": "Band DUNKELGRUEN (60-170 lbs) | Haende maximal auf Schulterhoehe"
       }
      ]
     },
@@ -330,7 +1429,7 @@
        "perSide": false,
        "detail": "",
        "raw": "B1 Langhantel Romanian Deadlift 3x8-12",
-       "resistance": "Langhantel 50,8 kg gesamt (Stange 7,8 kg + je Seite 1x10 + 1x5 + 3x2 + 1x0,5) | ZUGHILFEN, 3 s exzentrisch",
+       "resistance": "Langhantel 52,8 kg gesamt (Stange 7,8 kg + je Seite 1x10 + 2x5 + 1x2 + 1x0,5) | ZUGHILFEN, 3 s exzentrisch",
        "resistanceLabel": "RDL",
        "description": "Hüfte nach hinten, Rücken neutral, Beinbeuger laden, Hüfte nach vorn strecken. Jetzt mit Langhantel bis 45,8 kg statt Kettlebell (KB-Version war zu leicht). Video getauscht am 16.08.2026: das alte zeigte die Kettlebell-Variante.",
        "video": "https://www.youtube.com/watch?v=xgusDooVfKU",
@@ -344,23 +1443,23 @@
        "perSide": false,
        "detail": "",
        "raw": "B2 Band Face Pull 3x12-15",
-       "resistance": "Band ROT (50-125 lbs) | Ellbogen bleiben auf Schulterhoehe, NICHT hoeher",
+       "resistance": "Band DUNKELGRUEN (60-170 lbs) | Ellbogen bleiben auf Schulterhoehe, NICHT hoeher",
        "resistanceLabel": "Face Pull",
-       "description": "BAND: ROT (50-125 lbs). Band auf etwa Schulterhoehe verankern (Klimmzugstange, Tueranker). Beide Griffe fassen, Arme gestreckt nach vorn. Das Band zum Gesicht ziehen, dabei die ELLBOGEN NACH AUSSEN fuehren, Schulterblaetter nach hinten-unten. Die Ellbogen bleiben auf Schulterhoehe und gehen NICHT darueber - damit ist die 90-Grad-Regel eingehalten. Am Endpunkt kurz halten, langsam zurueck. WARUM DIESE UEBUNG: hintere Schulter und obere Ruecken-/Schulterblattmuskulatur. Die Bewegung ist horizontale ABduktion - also das Gegenteil des Musters, das das ACG reizt (horizontale Adduktion, Arm quer vor dem Koerper). Der einzige Schulterreiz im Plan, der die Arthrose eher entlastet.",
+       "description": "BAND: siehe Widerstandsangabe der Woche (Oktober: ROT in W27, DUNKELGRUEN ab W28). Band auf etwa Schulterhoehe verankern (Klimmzugstange, Tueranker). Beide Griffe fassen, Arme gestreckt nach vorn. Das Band zum Gesicht ziehen, dabei die ELLBOGEN NACH AUSSEN fuehren, Schulterblaetter nach hinten-unten. Die Ellbogen bleiben auf Schulterhoehe und gehen NICHT darueber - damit ist die 90-Grad-Regel eingehalten. Am Endpunkt kurz halten, langsam zurueck. WARUM DIESE UEBUNG: hintere Schulter und obere Ruecken-/Schulterblattmuskulatur. Die Bewegung ist horizontale ABduktion - also das Gegenteil des Musters, das das ACG reizt (horizontale Adduktion, Arm quer vor dem Koerper). Der einzige Schulterreiz im Plan, der die Arthrose eher entlastet.",
        "video": "",
        "videoNote": ""
       }
      ],
      "pause": "Pause ~45s",
-     "note": "Pause ~45s",
+     "note": "BRUST RECHTS: Schmerz hoechstens 3/10 und am naechsten Morgen wieder auf Ausgangsniveau - sonst Satz beenden. Pause ~45s",
      "resistance": [
       {
        "label": "RDL",
-       "value": "Langhantel 50,8 kg gesamt (Stange 7,8 kg + je Seite 1x10 + 1x5 + 3x2 + 1x0,5) | ZUGHILFEN, 3 s exzentrisch"
+       "value": "Langhantel 52,8 kg gesamt (Stange 7,8 kg + je Seite 1x10 + 2x5 + 1x2 + 1x0,5) | ZUGHILFEN, 3 s exzentrisch"
       },
       {
        "label": "Face Pull",
-       "value": "Band ROT (50-125 lbs) | Ellbogen bleiben auf Schulterhoehe, NICHT hoeher"
+       "value": "Band DUNKELGRUEN (60-170 lbs) | Ellbogen bleiben auf Schulterhoehe, NICHT hoeher"
       }
      ]
     },
@@ -375,33 +1474,20 @@
        "perSide": false,
        "detail": "",
        "raw": "C1 Band Lateral Raise (bis ~80°) 3x10-12",
-       "resistance": "Band LILA (15-25 lbs) | 3 s exzentrisch",
+       "resistance": "Band GELB (30-50 lbs) | 3 s exzentrisch, Stopp bei ca. 80 Grad [ab W27 - kleinstmoeglicher Schritt nach TUERKIS. Schulter-Ampel nicht gruen -> zurueck auf TUERKIS]",
        "resistanceLabel": "Seitheben",
-       "description": "BAND: LILA (15-25 lbs). Auf das Band stellen, Arme leicht gebeugt seitlich anheben, STOPP bei ~80° (knapp unter Schulterhöhe), 2s halten, langsam ablassen. Leicht bleiben – Ziel ist der Erhalt der seitlichen Schultermuskulatur im schmerzfreien Bereich, ohne die 90°-Grenze zu reizen.",
+       "description": "BAND: siehe Widerstandsangabe der Woche (Oktober: TUERKIS in W26, GELB ab W27). Auf das Band stellen, Arme leicht gebeugt seitlich anheben, STOPP bei ~80° (knapp unter Schulterhöhe), 2s halten, langsam ablassen. Moderat bleiben – Ziel ist der Aufbau der seitlichen Schultermuskulatur im schmerzfreien Bereich, ohne die 90°-Grenze zu reizen.",
        "video": "https://www.youtube.com/watch?v=gfEyrmxbCbw",
        "videoNote": ""
-      }
-     ],
-     "pause": "Pause ~45s",
-     "note": "Pause ~45s",
-     "resistance": [
-      {
-       "label": "Seitheben",
-       "value": "Band LILA (15-25 lbs) | 3 s exzentrisch"
-      }
-     ]
-    },
-    {
-     "block": "Block 4 (Cool-down)",
-     "exercises": [
+      },
       {
        "code": "D1",
        "name": "Kraniozervikale Flexion",
-       "sets": 1,
+       "sets": 2,
        "targetReps": "10",
        "perSide": false,
        "detail": "je Wiederholung 10 s halten",
-       "raw": "D1 Kraniozervikale Flexion 1x10 - je Wiederholung 10 s halten",
+       "raw": "D1 Kraniozervikale Flexion 2x10 - je Wiederholung 10 s halten",
        "resistance": "duenne Handtuchrolle unter dem Hinterkopf (Eigengewicht)",
        "resistanceLabel": "Kraniozervikale Flexion",
        "description": "Rueckenlage auf der Matte, duenne Handtuchrolle unter den Hinterkopf. Langsames Nicken (\"Ja\"-Bewegung), als wuerde der Hinterkopf ueber die Rolle rollen - der Kopf bleibt liegen und wird NICHT abgehoben. 10 s halten, 10 Wiederholungen, 2 Saetze. KONTROLLE: zwei Finger seitlich am Hals auf den M. sternocleidomastoideus. Der darf sich nicht anspannen; spannt er an, ist die Bewegung zu gross. Ziel ist die tiefe Halsbeugemuskulatur (M. longus colli und longus capitis), nicht die oberflaechliche. 3-4x/Woche am Ende der Einheit - in diesem Plan an allen drei Trainingstagen. EINORDNUNG: Von Frank selbst eingebracht (05.08.2026). Die Evidenz betrifft den kraniovertebralen Winkel (CVA) bei Vorhaltung des Kopfes und Nackenschmerz; eine Wirkung auf die Kendo-Leistung ist NICHT untersucht. Schulterunbedenklich - die Arme sind unbeteiligt, die 90-Grad-Regel bleibt unberuehrt. Siehe Blatt Quellen.",
@@ -409,9 +1495,13 @@
        "videoNote": ""
       }
      ],
-     "pause": "Pause ~30s",
-     "note": "Pause ~30s",
+     "pause": "Pause ~10s",
+     "note": "ALTERNIEREND als EIN Block: Satz C1, dann ein Satz D1 zur Erholung, Satz C1, Satz D1, Satz C1. Pause ~10s (die Erholung IST der Satz der Gegenuebung)",
      "resistance": [
+      {
+       "label": "Seitheben",
+       "value": "Band GELB (30-50 lbs) | 3 s exzentrisch, Stopp bei ca. 80 Grad [ab W27 - kleinstmoeglicher Schritt nach TUERKIS. Schulter-Ampel nicht gruen -> zurueck auf TUERKIS]"
+      },
       {
        "label": "Kraniozervikale Flexion",
        "value": "duenne Handtuchrolle unter dem Hinterkopf (Eigengewicht)"
@@ -424,30 +1514,30 @@
     "resistance": "Goblet: KB 24 kg | + Gewichtsweste 10 kg (Einzeluebung, einmal anlegen)"
    },
    "optional": {
-    "text": "Band-Bizeps-Curl 2x12-15 und/oder Band-Trizeps-Pushdown 2x12-15 - nur wenn du unter 40 min geblieben bist.",
-    "resistance": "beide Band DUNKELGRUEN (60-170 lbs)"
+    "text": "Band-Trizeps-Pushdown 2x12-15 und/oder Band-Bizeps-Curl 2x12-15 - nur wenn du unter 40 min geblieben bist.",
+    "resistance": "Band DUNKELGRUEN (60-170 lbs)"
    },
    "equipment": [
     {
      "gerät": "Langhantel",
      "items": [
-      "Langhantel 47,8 kg gesamt (Stange 7,8 kg + je Seite 1x10 + 2x5) (Langhantel-Rudern)",
-      "Langhantel 50,8 kg gesamt (Stange 7,8 kg + je Seite 1x10 + 1x5 + 3x2 + 1x0,5) | ZUGHILFEN, 3 s exzentrisch (RDL)"
+      "Langhantel 50,8 kg gesamt (Stange 7,8 kg + je Seite 1x10 + 1x5 + 3x2 + 1x0,5) (Langhantel-Rudern)",
+      "Langhantel 52,8 kg gesamt (Stange 7,8 kg + je Seite 1x10 + 2x5 + 1x2 + 1x0,5) | ZUGHILFEN, 3 s exzentrisch (RDL)"
      ]
     },
     {
      "gerät": "Bänder",
      "items": [
-      "Band DUNKELGRUEN (60-170 lbs) (Chest-Press)",
-      "Band LILA (15-25 lbs) | 3 s exzentrisch (Seitheben)",
-      "Band ROT (50-125 lbs) | Ellbogen bleiben auf Schulterhoehe, NICHT hoeher (Face Pull)"
+      "Band DUNKELGRUEN (60-170 lbs) | Ellbogen bleiben auf Schulterhoehe, NICHT hoeher (Face Pull)",
+      "Band DUNKELGRUEN (60-170 lbs) | Haende maximal auf Schulterhoehe (Chest-Press)",
+      "Band GELB (30-50 lbs) | 3 s exzentrisch, Stopp bei ca. 80 Grad [ab W27 - kleinstmoeglicher Schritt nach TUERKIS. Schulter-Ampel nicht gruen -> zurueck auf TUERKIS] (Seitheben)"
      ]
     }
    ]
   },
   {
    "day": "Sa",
-   "week": 21,
+   "week": 28,
    "warmup": [
     {
      "name": "Fussgelenke und Waden mobilisieren",
@@ -475,14 +1565,14 @@
       {
        "code": "A1",
        "name": "Treppen-Aufstieg all-out",
-       "sets": 10,
+       "sets": 14,
        "targetReps": "1",
        "perSide": false,
        "detail": "",
-       "raw": "A1 Treppen-Aufstieg all-out 10x1",
-       "resistance": "4 Stockwerke = 10-12 Hoehenmeter, zwei Stufen auf einmal | + Gewichtsweste 15 kg | ZIELPULS am Ende jedes Aufstiegs: 155-163 bpm (90-95 % von HFmax 172). Beim Abstieg NICHT unter 130 bpm fallen lassen.",
+       "raw": "A1 Treppen-Aufstieg all-out 14x1",
+       "resistance": "4 Stockwerke = 10-12 Hoehenmeter, zwei Stufen auf einmal | + Gewichtsweste 15 kg | ZIELPULS am Ende jedes Aufstiegs: 155-163 bpm (88-92 % von HFmax 177; nach dem Schwindel-Ereignis vom 14.09.2026 bewusst NICHT angehoben). Beim Abstieg NICHT unter 130 bpm fallen lassen.",
        "resistanceLabel": "Treppen-Aufstieg",
-       "description": "Repeated Sprint Training im eigenen Treppenhaus. Vier Stockwerke a 2,5-3 m = 10-12 Hoehenmeter je Aufstieg. AUFSTIEG: all-out, zwei Stufen auf einmal, Arme frei mitschwingen lassen (bleiben unter Schulterhoehe, 90-Grad-Regel unberuehrt). ABSTIEG: im GEHEN, das ist die Pause - nicht laufen. Kein Stehenbleiben oben oder unten, direkt umdrehen. STEUERUNG UEBER DEN PULS, nicht ueber die Uhr: am Ende jedes Aufstiegs 155-163 bpm (90-95 % von HFmax 172), beim Abstieg nicht unter 130 bpm fallen lassen. Faellt der Puls tiefer: erst zwei Stufen auf einmal, dann zuegiger absteigen, erst zuletzt Gewichtsweste dazu. ERSETZT die urspruenglich geplanten 4x4-min-Intervalle: bei nur vier Stockwerken waere die Haelfte der Arbeitszeit Abstieg gewesen, das Protokoll von Helgerud ist so nicht nachbaubar. WARNUNG: Treppab ist exzentrische Quadrizeps-Belastung und der klassische Muskelkater-Ausloeser - am Montag ist Kendo. Erste zwei bis drei Wochen bewusst langsam absteigen. Hand in Gelaendernaehe, bei hohem Puls ist der Fehltritt real.",
+       "description": "Repeated Sprint Training im eigenen Treppenhaus. Vier Stockwerke a 2,5-3 m = 10-12 Hoehenmeter je Aufstieg. AUFSTIEG: all-out, zwei Stufen auf einmal, Arme frei mitschwingen lassen (bleiben unter Schulterhoehe, 90-Grad-Regel unberuehrt). ABSTIEG: im GEHEN, das ist die Pause - nicht laufen. Kein Stehenbleiben oben oder unten, direkt umdrehen. STEUERUNG UEBER DEN PULS, nicht ueber die Uhr: am Ende jedes Aufstiegs 155-163 bpm (88-92 % von HFmax 177; nach dem Schwindel-Ereignis vom 14.09.2026 bewusst NICHT angehoben), beim Abstieg nicht unter 130 bpm fallen lassen. Faellt der Puls tiefer: erst zwei Stufen auf einmal, dann zuegiger absteigen, erst zuletzt Gewichtsweste dazu. ERSETZT die urspruenglich geplanten 4x4-min-Intervalle: bei nur vier Stockwerken waere die Haelfte der Arbeitszeit Abstieg gewesen, das Protokoll von Helgerud ist so nicht nachbaubar. WARNUNG: Treppab ist exzentrische Quadrizeps-Belastung und der klassische Muskelkater-Ausloeser - am Montag ist Kendo. Erste zwei bis drei Wochen bewusst langsam absteigen. Hand in Gelaendernaehe, bei hohem Puls ist der Fehltritt real.",
        "video": "",
        "videoNote": ""
       }
@@ -492,7 +1582,7 @@
      "resistance": [
       {
        "label": "Treppen-Aufstieg",
-       "value": "4 Stockwerke = 10-12 Hoehenmeter, zwei Stufen auf einmal | + Gewichtsweste 15 kg | ZIELPULS am Ende jedes Aufstiegs: 155-163 bpm (90-95 % von HFmax 172). Beim Abstieg NICHT unter 130 bpm fallen lassen."
+       "value": "4 Stockwerke = 10-12 Hoehenmeter, zwei Stufen auf einmal | + Gewichtsweste 15 kg | ZIELPULS am Ende jedes Aufstiegs: 155-163 bpm (88-92 % von HFmax 177; nach dem Schwindel-Ereignis vom 14.09.2026 bewusst NICHT angehoben). Beim Abstieg NICHT unter 130 bpm fallen lassen."
       }
      ]
     },
@@ -507,7 +1597,7 @@
        "perSide": false,
        "detail": "",
        "raw": "B1 Liegestütz exzentrisch (nur ablassen) 3x10",
-       "resistance": "Eigengewicht | Haende UEBERSCHULTERBREIT, Ellbogen ca. 45 Grad zum Rumpf, 4 s ablassen, unten kurz auf dem Boden ablegen, KEIN Hochdrücken - auf den Knien zurueck",
+       "resistance": "Eigengewicht | Haende UEBERSCHULTERBREIT, Ellbogen ca. 45 Grad zum Rumpf, 5 s ablassen, unten kurz auf dem Boden ablegen, KEIN Hochdrücken - auf den Knien zurueck",
        "resistanceLabel": "Liegestütz",
        "description": "Vom Krankengymnasten gezeigt und dort erprobt. Liegestuetzposition am Boden, Haende DEUTLICH UEBERSCHULTERBREIT, Ellbogen ca. 45 Grad zum Rumpf (nicht seitlich ausgestellt, nicht eng am Koerper). Rumpf und Gesaess fest, der Koerper bleibt eine Linie. NUR die Absenkphase: 4 Sekunden langsam und kontrolliert bis zum Boden. Unten kurz ablegen. NICHT wieder hochdruecken - stattdessen auf die Knie gehen und so in die Ausgangsposition zurueck. 10 Wiederholungen, 3 Saetze. Die Arme bleiben durchgehend unter Schulterhoehe, die 90-Grad-Regel ist eingehalten. Steigerung spaeter ueber Tempo (5-6 s) oder Fuesse erhoeht - NICHT ueber die Gewichtsweste.",
        "video": "https://www.youtube.com/watch?v=1JsPD1_7nX0",
@@ -515,11 +1605,11 @@
       }
      ],
      "pause": "Pause ~60s",
-     "note": "Pause ~60s",
+     "note": "BRUST RECHTS: Schmerz hoechstens 3/10 und am naechsten Morgen wieder auf Ausgangsniveau - sonst Satz beenden. Pause ~60s",
      "resistance": [
       {
        "label": "Liegestütz",
-       "value": "Eigengewicht | Haende UEBERSCHULTERBREIT, Ellbogen ca. 45 Grad zum Rumpf, 4 s ablassen, unten kurz auf dem Boden ablegen, KEIN Hochdrücken - auf den Knien zurueck"
+       "value": "Eigengewicht | Haende UEBERSCHULTERBREIT, Ellbogen ca. 45 Grad zum Rumpf, 5 s ablassen, unten kurz auf dem Boden ablegen, KEIN Hochdrücken - auf den Knien zurueck"
       }
      ]
     },
@@ -534,25 +1624,12 @@
        "perSide": false,
        "detail": "",
        "raw": "C1 Band Face Pull 3x12-15",
-       "resistance": "Band ROT (50-125 lbs) | Ellbogen auf Schulterhoehe, nicht hoeher",
+       "resistance": "Band DUNKELGRUEN (60-170 lbs) | Ellbogen auf Schulterhoehe, nicht hoeher",
        "resistanceLabel": "Face Pull",
-       "description": "BAND: ROT (50-125 lbs). Band auf etwa Schulterhoehe verankern (Klimmzugstange, Tueranker). Beide Griffe fassen, Arme gestreckt nach vorn. Das Band zum Gesicht ziehen, dabei die ELLBOGEN NACH AUSSEN fuehren, Schulterblaetter nach hinten-unten. Die Ellbogen bleiben auf Schulterhoehe und gehen NICHT darueber - damit ist die 90-Grad-Regel eingehalten. Am Endpunkt kurz halten, langsam zurueck. WARUM DIESE UEBUNG: hintere Schulter und obere Ruecken-/Schulterblattmuskulatur. Die Bewegung ist horizontale ABduktion - also das Gegenteil des Musters, das das ACG reizt (horizontale Adduktion, Arm quer vor dem Koerper). Der einzige Schulterreiz im Plan, der die Arthrose eher entlastet.",
+       "description": "BAND: siehe Widerstandsangabe der Woche (Oktober: ROT in W27, DUNKELGRUEN ab W28). Band auf etwa Schulterhoehe verankern (Klimmzugstange, Tueranker). Beide Griffe fassen, Arme gestreckt nach vorn. Das Band zum Gesicht ziehen, dabei die ELLBOGEN NACH AUSSEN fuehren, Schulterblaetter nach hinten-unten. Die Ellbogen bleiben auf Schulterhoehe und gehen NICHT darueber - damit ist die 90-Grad-Regel eingehalten. Am Endpunkt kurz halten, langsam zurueck. WARUM DIESE UEBUNG: hintere Schulter und obere Ruecken-/Schulterblattmuskulatur. Die Bewegung ist horizontale ABduktion - also das Gegenteil des Musters, das das ACG reizt (horizontale Adduktion, Arm quer vor dem Koerper). Der einzige Schulterreiz im Plan, der die Arthrose eher entlastet.",
        "video": "",
        "videoNote": ""
-      }
-     ],
-     "pause": "Pause ~45s",
-     "note": "Pause ~45s",
-     "resistance": [
-      {
-       "label": "Face Pull",
-       "value": "Band ROT (50-125 lbs) | Ellbogen auf Schulterhoehe, nicht hoeher"
-      }
-     ]
-    },
-    {
-     "block": "Block 4 (Cool-down)",
-     "exercises": [
+      },
       {
        "code": "D1",
        "name": "Kraniozervikale Flexion",
@@ -568,9 +1645,13 @@
        "videoNote": ""
       }
      ],
-     "pause": "Pause ~30s",
-     "note": "Pause ~30s",
+     "pause": "Pause ~10s",
+     "note": "BRUST RECHTS: Schmerz hoechstens 3/10 und am naechsten Morgen wieder auf Ausgangsniveau - sonst Satz beenden. ALTERNIEREND als EIN Block: Satz C1, dann ein Satz D1 zur Erholung, Satz C1, Satz D1, Satz C1. Pause ~10s (die Erholung IST der Satz der Gegenuebung)",
      "resistance": [
+      {
+       "label": "Face Pull",
+       "value": "Band DUNKELGRUEN (60-170 lbs) | Ellbogen auf Schulterhoehe, nicht hoeher"
+      },
       {
        "label": "Kraniozervikale Flexion",
        "value": "duenne Handtuchrolle unter dem Hinterkopf (Eigengewicht)"
@@ -587,20 +1668,20 @@
     {
      "gerät": "Bänder",
      "items": [
-      "Band ROT (50-125 lbs) | Ellbogen auf Schulterhoehe, nicht hoeher (Face Pull)"
+      "Band DUNKELGRUEN (60-170 lbs) | Ellbogen auf Schulterhoehe, nicht hoeher (Face Pull)"
      ]
     },
     {
      "gerät": "Sonstiges",
      "items": [
-      "4 Stockwerke = 10-12 Hoehenmeter, zwei Stufen auf einmal | + Gewichtsweste 15 kg | ZIELPULS am Ende jedes Aufstiegs: 155-163 bpm (90-95 % von HFmax 172). Beim Abstieg NICHT unter 130 bpm fallen lassen. (Treppen-Aufstieg)"
+      "4 Stockwerke = 10-12 Hoehenmeter, zwei Stufen auf einmal | + Gewichtsweste 15 kg | ZIELPULS am Ende jedes Aufstiegs: 155-163 bpm (88-92 % von HFmax 177; nach dem Schwindel-Ereignis vom 14.09.2026 bewusst NICHT angehoben). Beim Abstieg NICHT unter 130 bpm fallen lassen. (Treppen-Aufstieg)"
      ]
     }
    ]
   },
   {
    "day": "Di",
-   "week": 22,
+   "week": 29,
    "warmup": [
     {
      "name": "Cat-Camel",
@@ -673,7 +1754,7 @@
       }
      ],
      "pause": "Pause ~45s",
-     "note": "Pause ~45s",
+     "note": "BRUST RECHTS: Schmerz hoechstens 3/10 und am naechsten Morgen wieder auf Ausgangsniveau - sonst Satz beenden. Pause ~45s",
      "resistance": [
       {
        "label": "Klimmzug",
@@ -698,7 +1779,7 @@
        "raw": "B1 Kurzhantel Floor Press (neutraler Griff) 3x6-10",
        "resistance": "2x20 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2) | 3 s exzentrisch",
        "resistanceLabel": "Kurzhantel Floor Press",
-       "description": "ZURUECK IM PLAN AB W21 (Dienstag, B2) - jetzt mit 2x21 kg statt 2x17 kg, deshalb Zielbereich 6-10 statt 8-12. Rückenlage, Knie angestellt, in jeder Hand eine Kurzhantel mit neutralem Griff (Handflächen zueinander) über der Brust ausdrücken, Ellbogen ~45° vom Körper. Langsam ablassen, bis der Trizeps den Boden berührt – der Boden begrenzt die Bewegung und schützt das AC-Gelenk – kurz pausieren, dann hochdrücken. Ersetzt den KB Floor Press: Die Kurzhantel-Last liegt zentriert über der Handwurzel, das Handgelenk bleibt gerade (KB-Version war fürs Handgelenk schmerzhaft). Brust-/Trizeps-Hauptübung, 2x pro Woche (Di + Sa).",
+       "description": "OKTOBER 2026: Last und Zielbereich steigen nach der Brustzerrung stufenweise (2x12 -> 2x16 -> 2x20 kg) - massgeblich ist die Widerstandsangabe der Woche. Rückenlage, Knie angestellt, in jeder Hand eine Kurzhantel mit neutralem Griff (Handflächen zueinander) über der Brust ausdrücken, Ellbogen ~45° vom Körper. Langsam ablassen, bis der Trizeps den Boden berührt – der Boden begrenzt die Bewegung und schützt das AC-Gelenk – kurz pausieren, dann hochdrücken. Ersetzt den KB Floor Press: Die Kurzhantel-Last liegt zentriert über der Handwurzel, das Handgelenk bleibt gerade (KB-Version war fürs Handgelenk schmerzhaft). Brust-/Trizeps-Hauptübung, 1x pro Woche (Di).",
        "video": "https://www.youtube.com/watch?v=rs05AtccEhg",
        "videoNote": ""
       },
@@ -710,15 +1791,15 @@
        "perSide": false,
        "detail": "",
        "raw": "B2 Band Lateral Raise (bis ~80°) 3x10-12",
-       "resistance": "Band TUERKIS (20-35 lbs) | 3 s exzentrisch [ab W22 von LILA auf TUERKIS - kleinstmoeglicher Schritt. NICHT dunkelgruen (60-170 lbs), das waere Faktor 5]",
+       "resistance": "Band GELB (30-50 lbs) | 3 s exzentrisch, Stopp bei ca. 80 Grad [ab W27 - kleinstmoeglicher Schritt nach TUERKIS. Schulter-Ampel nicht gruen -> zurueck auf TUERKIS]",
        "resistanceLabel": "Seitheben",
-       "description": "BAND: LILA (15-25 lbs). Auf das Band stellen, Arme leicht gebeugt seitlich anheben, STOPP bei ~80° (knapp unter Schulterhöhe), 2s halten, langsam ablassen. Leicht bleiben – Ziel ist der Erhalt der seitlichen Schultermuskulatur im schmerzfreien Bereich, ohne die 90°-Grenze zu reizen.",
+       "description": "BAND: siehe Widerstandsangabe der Woche (Oktober: TUERKIS in W26, GELB ab W27). Auf das Band stellen, Arme leicht gebeugt seitlich anheben, STOPP bei ~80° (knapp unter Schulterhöhe), 2s halten, langsam ablassen. Moderat bleiben – Ziel ist der Aufbau der seitlichen Schultermuskulatur im schmerzfreien Bereich, ohne die 90°-Grenze zu reizen.",
        "video": "https://www.youtube.com/watch?v=gfEyrmxbCbw",
        "videoNote": ""
       }
      ],
      "pause": "Pause ~45s",
-     "note": "Pause ~45s",
+     "note": "BRUST RECHTS: Schmerz hoechstens 3/10 und am naechsten Morgen wieder auf Ausgangsniveau - sonst Satz beenden. Pause ~45s",
      "resistance": [
       {
        "label": "Kurzhantel Floor Press",
@@ -726,7 +1807,7 @@
       },
       {
        "label": "Seitheben",
-       "value": "Band TUERKIS (20-35 lbs) | 3 s exzentrisch [ab W22 von LILA auf TUERKIS - kleinstmoeglicher Schritt. NICHT dunkelgruen (60-170 lbs), das waere Faktor 5]"
+       "value": "Band GELB (30-50 lbs) | 3 s exzentrisch, Stopp bei ca. 80 Grad [ab W27 - kleinstmoeglicher Schritt nach TUERKIS. Schulter-Ampel nicht gruen -> zurueck auf TUERKIS]"
       }
      ]
     },
@@ -763,7 +1844,7 @@
       }
      ],
      "pause": "Pause ~10s",
-     "note": "ALTERNIEREND als EIN Block: Satz C1, dann ein Satz D1 zur Erholung, Satz C1, Satz D1, Satz C1. Die Kraniozervikale Flexion fuellt genau die zwei Erholungsphasen von C1 (Frank, 08.09.2026). Pause ~10s (die Erholung IST der Satz der Gegenuebung)",
+     "note": "BRUST RECHTS: Schmerz hoechstens 3/10 und am naechsten Morgen wieder auf Ausgangsniveau - sonst Satz beenden. ALTERNIEREND als EIN Block: Satz C1, dann ein Satz D1 zur Erholung, Satz C1, Satz D1, Satz C1. Pause ~10s (die Erholung IST der Satz der Gegenuebung)",
      "resistance": [
       {
        "label": "Liegestütz",
@@ -778,7 +1859,7 @@
    ],
    "finish": null,
    "optional": {
-    "text": "KB Swing zweiarmig 2x15 - nur wenn du unter 40 min geblieben bist. Endpunkt bewusst am Brustbein kappen (unter 90 Grad).",
+    "text": "KB Swing zweiarmig 2x15 - nur wenn du unter 40 min geblieben bist. Endpunkt am Brustbein kappen (unter 90 Grad).",
     "resistance": "Swing: KB 24 kg"
    },
    "equipment": [
@@ -792,1108 +1873,14 @@
     {
      "gerät": "Bänder",
      "items": [
-      "Band TUERKIS (20-35 lbs) | 3 s exzentrisch [ab W22 von LILA auf TUERKIS - kleinstmoeglicher Schritt. NICHT dunkelgruen (60-170 lbs), das waere Faktor 5] (Seitheben)"
+      "Band GELB (30-50 lbs) | 3 s exzentrisch, Stopp bei ca. 80 Grad [ab W27 - kleinstmoeglicher Schritt nach TUERKIS. Schulter-Ampel nicht gruen -> zurueck auf TUERKIS] (Seitheben)"
      ]
     }
    ]
   },
   {
    "day": "Do",
-   "week": 22,
-   "warmup": [
-    {
-     "name": "Cat-Camel",
-     "seconds": 30,
-     "perSide": false,
-     "note": ""
-    },
-    {
-     "name": "Band Pull-aparts",
-     "seconds": 30,
-     "perSide": false,
-     "note": "LILA, auf Schulterhoehe"
-    },
-    {
-     "name": "Glute Bridge",
-     "seconds": 30,
-     "perSide": false,
-     "note": ""
-    },
-    {
-     "name": "Bodyweight Squat",
-     "seconds": 30,
-     "perSide": false,
-     "note": ""
-    },
-    {
-     "name": "Physio 1 - Arme unter Bandspannung vor dem Koerper auf maximale Hoehe und wieder senken",
-     "seconds": 45,
-     "perSide": false,
-     "note": "intermittierend, PHYSIO-AUSNAHME von der 90-Grad-Regel"
-    },
-    {
-     "name": "Physio 2 - Seitlage links, rechter Arm 2 kg, Ellbogen 90 Grad angelegt, Aussenrotation langsam",
-     "seconds": 60,
-     "perSide": false,
-     "note": "ca. 10-12 Wdh. rechts"
-    }
-   ],
-   "blocks": [
-    {
-     "block": "Block 1",
-     "exercises": [
-      {
-       "code": "A1",
-       "name": "Langhantel-Rudern vorgebeugt",
-       "sets": 3,
-       "targetReps": "6-10",
-       "perSide": false,
-       "detail": "",
-       "raw": "A1 Langhantel-Rudern vorgebeugt 3x6-10",
-       "resistance": "Langhantel 48,8 kg gesamt (Stange 7,8 kg + je Seite 1x10 + 1x5 + 1x5 + 1x0,5)",
-       "resistanceLabel": "Langhantel-Rudern",
-       "description": "Hüftbreiter Stand, Langhantel im Obergriff. Hüfte nach hinten schieben (Hip Hinge), Oberkörper ~45° oder tiefer, Rücken neutral, Rumpf fest. Die Stange zum Bauchnabel ziehen, Ellbogen nah am Körper, Schulterblätter nach hinten-unten; langsam ablassen, kein Schwung. Schwere beidarmige Zugübung als Ergänzung zum einarmigen KB-Rudern – Arme bleiben unter 90°. Zyklus Aug: 35,8 kg (W16) bis 39,8 kg (W19).",
-       "video": "https://www.youtube.com/watch?v=rqTOAM8WoeM",
-       "videoNote": ""
-      },
-      {
-       "code": "A2",
-       "name": "Band-Chest-Press stehend beidarmig",
-       "sets": 3,
-       "targetReps": "10-15",
-       "perSide": false,
-       "detail": "",
-       "raw": "A2 Band-Chest-Press stehend beidarmig 3x10-15",
-       "resistance": "Band DUNKELGRUEN (60-170 lbs)",
-       "resistanceLabel": "Chest-Press",
-       "description": "BAND: ROT (50-125 lbs). Band auf Brusthöhe hinter dir verankern, Schrittstellung, Rumpf fest. Beide Griffe auf Brusthöhe, dann BEIDE Arme gleichzeitig horizontal nach vorn ausdrücken - die Hände bleiben maximal auf Schulterhöhe, nie darüber. Langsam zurückführen, ohne dass die Schultern nach vorn kippen. Beidarmige Variante der einarmigen Version aus dem Juli-Plan; das Video zeigt einarmig, die Ausführung ist identisch, nur mit beiden Armen gleichzeitig.",
-       "video": "https://www.youtube.com/watch?v=ssJcPFP47aw",
-       "videoNote": "zeigt einarmig"
-      }
-     ],
-     "pause": "Pause ~45s",
-     "note": "Pause ~45s",
-     "resistance": [
-      {
-       "label": "Langhantel-Rudern",
-       "value": "Langhantel 48,8 kg gesamt (Stange 7,8 kg + je Seite 1x10 + 1x5 + 1x5 + 1x0,5)"
-      },
-      {
-       "label": "Chest-Press",
-       "value": "Band DUNKELGRUEN (60-170 lbs)"
-      }
-     ]
-    },
-    {
-     "block": "Block 2",
-     "exercises": [
-      {
-       "code": "B1",
-       "name": "Langhantel Romanian Deadlift",
-       "sets": 3,
-       "targetReps": "8-12",
-       "perSide": false,
-       "detail": "",
-       "raw": "B1 Langhantel Romanian Deadlift 3x8-12",
-       "resistance": "Langhantel 50,8 kg gesamt (Stange 7,8 kg + je Seite 1x10 + 1x5 + 3x2 + 1x0,5) | ZUGHILFEN, 3 s exzentrisch",
-       "resistanceLabel": "RDL",
-       "description": "Hüfte nach hinten, Rücken neutral, Beinbeuger laden, Hüfte nach vorn strecken. Jetzt mit Langhantel bis 45,8 kg statt Kettlebell (KB-Version war zu leicht). Video getauscht am 16.08.2026: das alte zeigte die Kettlebell-Variante.",
-       "video": "https://www.youtube.com/watch?v=xgusDooVfKU",
-       "videoNote": ""
-      },
-      {
-       "code": "B2",
-       "name": "Band Face Pull",
-       "sets": 3,
-       "targetReps": "12-15",
-       "perSide": false,
-       "detail": "",
-       "raw": "B2 Band Face Pull 3x12-15",
-       "resistance": "Band ROT (50-125 lbs) | Ellbogen bleiben auf Schulterhoehe, NICHT hoeher",
-       "resistanceLabel": "Face Pull",
-       "description": "BAND: ROT (50-125 lbs). Band auf etwa Schulterhoehe verankern (Klimmzugstange, Tueranker). Beide Griffe fassen, Arme gestreckt nach vorn. Das Band zum Gesicht ziehen, dabei die ELLBOGEN NACH AUSSEN fuehren, Schulterblaetter nach hinten-unten. Die Ellbogen bleiben auf Schulterhoehe und gehen NICHT darueber - damit ist die 90-Grad-Regel eingehalten. Am Endpunkt kurz halten, langsam zurueck. WARUM DIESE UEBUNG: hintere Schulter und obere Ruecken-/Schulterblattmuskulatur. Die Bewegung ist horizontale ABduktion - also das Gegenteil des Musters, das das ACG reizt (horizontale Adduktion, Arm quer vor dem Koerper). Der einzige Schulterreiz im Plan, der die Arthrose eher entlastet.",
-       "video": "",
-       "videoNote": ""
-      }
-     ],
-     "pause": "Pause ~45s",
-     "note": "Pause ~45s",
-     "resistance": [
-      {
-       "label": "RDL",
-       "value": "Langhantel 50,8 kg gesamt (Stange 7,8 kg + je Seite 1x10 + 1x5 + 3x2 + 1x0,5) | ZUGHILFEN, 3 s exzentrisch"
-      },
-      {
-       "label": "Face Pull",
-       "value": "Band ROT (50-125 lbs) | Ellbogen bleiben auf Schulterhoehe, NICHT hoeher"
-      }
-     ]
-    },
-    {
-     "block": "Block 3",
-     "exercises": [
-      {
-       "code": "C1",
-       "name": "Band Lateral Raise (bis ~80°)",
-       "sets": 3,
-       "targetReps": "10-12",
-       "perSide": false,
-       "detail": "",
-       "raw": "C1 Band Lateral Raise (bis ~80°) 3x10-12",
-       "resistance": "Band TUERKIS (20-35 lbs) | 3 s exzentrisch [ab W22 von LILA auf TUERKIS - NICHT dunkelgruen]",
-       "resistanceLabel": "Seitheben",
-       "description": "BAND: LILA (15-25 lbs). Auf das Band stellen, Arme leicht gebeugt seitlich anheben, STOPP bei ~80° (knapp unter Schulterhöhe), 2s halten, langsam ablassen. Leicht bleiben – Ziel ist der Erhalt der seitlichen Schultermuskulatur im schmerzfreien Bereich, ohne die 90°-Grenze zu reizen.",
-       "video": "https://www.youtube.com/watch?v=gfEyrmxbCbw",
-       "videoNote": ""
-      },
-      {
-       "code": "D1",
-       "name": "Kraniozervikale Flexion",
-       "sets": 2,
-       "targetReps": "10",
-       "perSide": false,
-       "detail": "je Wiederholung 10 s halten",
-       "raw": "D1 Kraniozervikale Flexion 2x10 - je Wiederholung 10 s halten",
-       "resistance": "duenne Handtuchrolle unter dem Hinterkopf (Eigengewicht)",
-       "resistanceLabel": "Kraniozervikale Flexion",
-       "description": "Rueckenlage auf der Matte, duenne Handtuchrolle unter den Hinterkopf. Langsames Nicken (\"Ja\"-Bewegung), als wuerde der Hinterkopf ueber die Rolle rollen - der Kopf bleibt liegen und wird NICHT abgehoben. 10 s halten, 10 Wiederholungen, 2 Saetze. KONTROLLE: zwei Finger seitlich am Hals auf den M. sternocleidomastoideus. Der darf sich nicht anspannen; spannt er an, ist die Bewegung zu gross. Ziel ist die tiefe Halsbeugemuskulatur (M. longus colli und longus capitis), nicht die oberflaechliche. 3-4x/Woche am Ende der Einheit - in diesem Plan an allen drei Trainingstagen. EINORDNUNG: Von Frank selbst eingebracht (05.08.2026). Die Evidenz betrifft den kraniovertebralen Winkel (CVA) bei Vorhaltung des Kopfes und Nackenschmerz; eine Wirkung auf die Kendo-Leistung ist NICHT untersucht. Schulterunbedenklich - die Arme sind unbeteiligt, die 90-Grad-Regel bleibt unberuehrt. Siehe Blatt Quellen.",
-       "video": "https://www.youtube.com/watch?v=RL2e2gRmtIM",
-       "videoNote": ""
-      }
-     ],
-     "pause": "Pause ~10s",
-     "note": "ALTERNIEREND als EIN Block: Satz C1, dann ein Satz D1 zur Erholung, Satz C1, Satz D1, Satz C1. Die Kraniozervikale Flexion fuellt genau die zwei Erholungsphasen von C1 (Frank, 08.09.2026). Pause ~10s (die Erholung IST der Satz der Gegenuebung)",
-     "resistance": [
-      {
-       "label": "Seitheben",
-       "value": "Band TUERKIS (20-35 lbs) | 3 s exzentrisch [ab W22 von LILA auf TUERKIS - NICHT dunkelgruen]"
-      },
-      {
-       "label": "Kraniozervikale Flexion",
-       "value": "duenne Handtuchrolle unter dem Hinterkopf (Eigengewicht)"
-      }
-     ]
-    }
-   ],
-   "finish": {
-    "text": "Goblet Squat 2x10, 3 s exzentrisch, ohne Halten unten - KB vor der Brust, volle kontrollierte Tiefe.",
-    "resistance": "Goblet: KB 24 kg | + Gewichtsweste 10 kg (Einzeluebung, einmal anlegen)"
-   },
-   "optional": {
-    "text": "Band-Bizeps-Curl 2x12-15 und/oder Band-Trizeps-Pushdown 2x12-15 - nur wenn du unter 40 min geblieben bist.",
-    "resistance": "beide Band DUNKELGRUEN (60-170 lbs)"
-   },
-   "equipment": [
-    {
-     "gerät": "Langhantel",
-     "items": [
-      "Langhantel 48,8 kg gesamt (Stange 7,8 kg + je Seite 1x10 + 1x5 + 1x5 + 1x0,5) (Langhantel-Rudern)",
-      "Langhantel 50,8 kg gesamt (Stange 7,8 kg + je Seite 1x10 + 1x5 + 3x2 + 1x0,5) | ZUGHILFEN, 3 s exzentrisch (RDL)"
-     ]
-    },
-    {
-     "gerät": "Bänder",
-     "items": [
-      "Band DUNKELGRUEN (60-170 lbs) (Chest-Press)",
-      "Band ROT (50-125 lbs) | Ellbogen bleiben auf Schulterhoehe, NICHT hoeher (Face Pull)",
-      "Band TUERKIS (20-35 lbs) | 3 s exzentrisch [ab W22 von LILA auf TUERKIS - NICHT dunkelgruen] (Seitheben)"
-     ]
-    }
-   ]
-  },
-  {
-   "day": "Sa",
-   "week": 22,
-   "warmup": [
-    {
-     "name": "Fussgelenke und Waden mobilisieren",
-     "seconds": 60,
-     "perSide": false,
-     "note": ""
-    },
-    {
-     "name": "erster Aufstieg locker, Abstieg im Gehen",
-     "seconds": 90,
-     "perSide": false,
-     "note": ""
-    },
-    {
-     "name": "zweiter Aufstieg zuegig, Abstieg im Gehen - Ziel am Ende ca. 130-135 bpm",
-     "seconds": 90,
-     "perSide": false,
-     "note": ""
-    }
-   ],
-   "blocks": [
-    {
-     "block": "Block 1",
-     "exercises": [
-      {
-       "code": "A1",
-       "name": "Treppen-Aufstieg all-out",
-       "sets": 11,
-       "targetReps": "1",
-       "perSide": false,
-       "detail": "",
-       "raw": "A1 Treppen-Aufstieg all-out 11x1",
-       "resistance": "4 Stockwerke = 10-12 Hoehenmeter, zwei Stufen auf einmal | + Gewichtsweste 15 kg | ZIELPULS am Ende jedes Aufstiegs: 155-163 bpm (90-95 % von HFmax 172). Beim Abstieg NICHT unter 130 bpm fallen lassen.",
-       "resistanceLabel": "Treppen-Aufstieg",
-       "description": "Repeated Sprint Training im eigenen Treppenhaus. Vier Stockwerke a 2,5-3 m = 10-12 Hoehenmeter je Aufstieg. AUFSTIEG: all-out, zwei Stufen auf einmal, Arme frei mitschwingen lassen (bleiben unter Schulterhoehe, 90-Grad-Regel unberuehrt). ABSTIEG: im GEHEN, das ist die Pause - nicht laufen. Kein Stehenbleiben oben oder unten, direkt umdrehen. STEUERUNG UEBER DEN PULS, nicht ueber die Uhr: am Ende jedes Aufstiegs 155-163 bpm (90-95 % von HFmax 172), beim Abstieg nicht unter 130 bpm fallen lassen. Faellt der Puls tiefer: erst zwei Stufen auf einmal, dann zuegiger absteigen, erst zuletzt Gewichtsweste dazu. ERSETZT die urspruenglich geplanten 4x4-min-Intervalle: bei nur vier Stockwerken waere die Haelfte der Arbeitszeit Abstieg gewesen, das Protokoll von Helgerud ist so nicht nachbaubar. WARNUNG: Treppab ist exzentrische Quadrizeps-Belastung und der klassische Muskelkater-Ausloeser - am Montag ist Kendo. Erste zwei bis drei Wochen bewusst langsam absteigen. Hand in Gelaendernaehe, bei hohem Puls ist der Fehltritt real.",
-       "video": "",
-       "videoNote": ""
-      }
-     ],
-     "pause": "Pause ~40s",
-     "note": "Pause ~40s (Abstieg im Gehen)",
-     "resistance": [
-      {
-       "label": "Treppen-Aufstieg",
-       "value": "4 Stockwerke = 10-12 Hoehenmeter, zwei Stufen auf einmal | + Gewichtsweste 15 kg | ZIELPULS am Ende jedes Aufstiegs: 155-163 bpm (90-95 % von HFmax 172). Beim Abstieg NICHT unter 130 bpm fallen lassen."
-      }
-     ]
-    },
-    {
-     "block": "Block 2",
-     "exercises": [
-      {
-       "code": "B1",
-       "name": "Liegestütz exzentrisch (nur ablassen)",
-       "sets": 3,
-       "targetReps": "10",
-       "perSide": false,
-       "detail": "",
-       "raw": "B1 Liegestütz exzentrisch (nur ablassen) 3x10",
-       "resistance": "Eigengewicht | Haende UEBERSCHULTERBREIT, Ellbogen ca. 45 Grad zum Rumpf, 5 s ablassen, unten kurz auf dem Boden ablegen, KEIN Hochdrücken - auf den Knien zurueck",
-       "resistanceLabel": "Liegestütz",
-       "description": "Vom Krankengymnasten gezeigt und dort erprobt. Liegestuetzposition am Boden, Haende DEUTLICH UEBERSCHULTERBREIT, Ellbogen ca. 45 Grad zum Rumpf (nicht seitlich ausgestellt, nicht eng am Koerper). Rumpf und Gesaess fest, der Koerper bleibt eine Linie. NUR die Absenkphase: 4 Sekunden langsam und kontrolliert bis zum Boden. Unten kurz ablegen. NICHT wieder hochdruecken - stattdessen auf die Knie gehen und so in die Ausgangsposition zurueck. 10 Wiederholungen, 3 Saetze. Die Arme bleiben durchgehend unter Schulterhoehe, die 90-Grad-Regel ist eingehalten. Steigerung spaeter ueber Tempo (5-6 s) oder Fuesse erhoeht - NICHT ueber die Gewichtsweste.",
-       "video": "https://www.youtube.com/watch?v=1JsPD1_7nX0",
-       "videoNote": "Muscle & Motion, Anatomie und typische Fehler - dort wird anschliessend hochgedrueckt, das entfaellt bei dir"
-      }
-     ],
-     "pause": "Pause ~60s",
-     "note": "Pause ~60s",
-     "resistance": [
-      {
-       "label": "Liegestütz",
-       "value": "Eigengewicht | Haende UEBERSCHULTERBREIT, Ellbogen ca. 45 Grad zum Rumpf, 5 s ablassen, unten kurz auf dem Boden ablegen, KEIN Hochdrücken - auf den Knien zurueck"
-      }
-     ]
-    },
-    {
-     "block": "Block 3",
-     "exercises": [
-      {
-       "code": "C1",
-       "name": "Band Face Pull",
-       "sets": 3,
-       "targetReps": "12-15",
-       "perSide": false,
-       "detail": "",
-       "raw": "C1 Band Face Pull 3x12-15",
-       "resistance": "Band ROT (50-125 lbs) | Ellbogen auf Schulterhoehe, nicht hoeher",
-       "resistanceLabel": "Face Pull",
-       "description": "BAND: ROT (50-125 lbs). Band auf etwa Schulterhoehe verankern (Klimmzugstange, Tueranker). Beide Griffe fassen, Arme gestreckt nach vorn. Das Band zum Gesicht ziehen, dabei die ELLBOGEN NACH AUSSEN fuehren, Schulterblaetter nach hinten-unten. Die Ellbogen bleiben auf Schulterhoehe und gehen NICHT darueber - damit ist die 90-Grad-Regel eingehalten. Am Endpunkt kurz halten, langsam zurueck. WARUM DIESE UEBUNG: hintere Schulter und obere Ruecken-/Schulterblattmuskulatur. Die Bewegung ist horizontale ABduktion - also das Gegenteil des Musters, das das ACG reizt (horizontale Adduktion, Arm quer vor dem Koerper). Der einzige Schulterreiz im Plan, der die Arthrose eher entlastet.",
-       "video": "",
-       "videoNote": ""
-      },
-      {
-       "code": "D1",
-       "name": "Kraniozervikale Flexion",
-       "sets": 2,
-       "targetReps": "10",
-       "perSide": false,
-       "detail": "je Wiederholung 10 s halten",
-       "raw": "D1 Kraniozervikale Flexion 2x10 - je Wiederholung 10 s halten",
-       "resistance": "duenne Handtuchrolle unter dem Hinterkopf (Eigengewicht)",
-       "resistanceLabel": "Kraniozervikale Flexion",
-       "description": "Rueckenlage auf der Matte, duenne Handtuchrolle unter den Hinterkopf. Langsames Nicken (\"Ja\"-Bewegung), als wuerde der Hinterkopf ueber die Rolle rollen - der Kopf bleibt liegen und wird NICHT abgehoben. 10 s halten, 10 Wiederholungen, 2 Saetze. KONTROLLE: zwei Finger seitlich am Hals auf den M. sternocleidomastoideus. Der darf sich nicht anspannen; spannt er an, ist die Bewegung zu gross. Ziel ist die tiefe Halsbeugemuskulatur (M. longus colli und longus capitis), nicht die oberflaechliche. 3-4x/Woche am Ende der Einheit - in diesem Plan an allen drei Trainingstagen. EINORDNUNG: Von Frank selbst eingebracht (05.08.2026). Die Evidenz betrifft den kraniovertebralen Winkel (CVA) bei Vorhaltung des Kopfes und Nackenschmerz; eine Wirkung auf die Kendo-Leistung ist NICHT untersucht. Schulterunbedenklich - die Arme sind unbeteiligt, die 90-Grad-Regel bleibt unberuehrt. Siehe Blatt Quellen.",
-       "video": "https://www.youtube.com/watch?v=RL2e2gRmtIM",
-       "videoNote": ""
-      }
-     ],
-     "pause": "Pause ~10s",
-     "note": "ALTERNIEREND als EIN Block: Satz C1, dann ein Satz D1 zur Erholung, Satz C1, Satz D1, Satz C1. Die Kraniozervikale Flexion fuellt genau die zwei Erholungsphasen von C1 (Frank, 08.09.2026). Pause ~10s (die Erholung IST der Satz der Gegenuebung)",
-     "resistance": [
-      {
-       "label": "Face Pull",
-       "value": "Band ROT (50-125 lbs) | Ellbogen auf Schulterhoehe, nicht hoeher"
-      },
-      {
-       "label": "Kraniozervikale Flexion",
-       "value": "duenne Handtuchrolle unter dem Hinterkopf (Eigengewicht)"
-      }
-     ]
-    }
-   ],
-   "finish": null,
-   "optional": {
-    "text": "Wadenheben beidbeinig 2x15-20, 3 s exzentrisch - nur als Achilles-Prophylaxe fuers Kendo.",
-    "resistance": "Langhantel oder Gewichtsweste"
-   },
-   "equipment": [
-    {
-     "gerät": "Bänder",
-     "items": [
-      "Band ROT (50-125 lbs) | Ellbogen auf Schulterhoehe, nicht hoeher (Face Pull)"
-     ]
-    },
-    {
-     "gerät": "Sonstiges",
-     "items": [
-      "4 Stockwerke = 10-12 Hoehenmeter, zwei Stufen auf einmal | + Gewichtsweste 15 kg | ZIELPULS am Ende jedes Aufstiegs: 155-163 bpm (90-95 % von HFmax 172). Beim Abstieg NICHT unter 130 bpm fallen lassen. (Treppen-Aufstieg)"
-     ]
-    }
-   ]
-  },
-  {
-   "day": "Di",
-   "week": 23,
-   "warmup": [
-    {
-     "name": "Cat-Camel",
-     "seconds": 30,
-     "perSide": false,
-     "note": ""
-    },
-    {
-     "name": "Band Pull-aparts",
-     "seconds": 30,
-     "perSide": false,
-     "note": "LILA, auf Schulterhoehe"
-    },
-    {
-     "name": "Glute Bridge",
-     "seconds": 30,
-     "perSide": false,
-     "note": ""
-    },
-    {
-     "name": "Bodyweight Squat",
-     "seconds": 30,
-     "perSide": false,
-     "note": ""
-    },
-    {
-     "name": "Physio 1 - Arme unter Bandspannung vor dem Koerper auf maximale Hoehe und wieder senken",
-     "seconds": 45,
-     "perSide": false,
-     "note": "intermittierend, PHYSIO-AUSNAHME von der 90-Grad-Regel"
-    },
-    {
-     "name": "Physio 2 - Seitlage links, rechter Arm 2 kg, Ellbogen 90 Grad angelegt, Aussenrotation langsam",
-     "seconds": 60,
-     "perSide": false,
-     "note": "ca. 10-12 Wdh. rechts"
-    }
-   ],
-   "blocks": [
-    {
-     "block": "Block 1",
-     "exercises": [
-      {
-       "code": "A1",
-       "name": "Klimmzug exzentrisch (nur ablassen)",
-       "sets": 3,
-       "targetReps": "5",
-       "perSide": false,
-       "detail": "",
-       "raw": "A1 Klimmzug exzentrisch (nur ablassen) 3x5",
-       "resistance": "Eigengewicht | 5 s kontrolliert ablassen, KEIN Hochziehen. Ueber den Kasten in die Startposition steigen - NICHT hochspringen. Oben kurz stabilisieren, langsam ablassen, absteigen.",
-       "resistanceLabel": "Klimmzug",
-       "description": "Vom Physiotherapeuten am 28.08.2026 freigegeben, in derselben Logik wie die exzentrischen Liegestuetze: das Hochziehen faellt weg, nur das kontrollierte Ablassen bleibt. AUSFUEHRUNG: ueber einen Kasten oder Stuhl in die obere Position steigen - NICHT hochspringen, der Absprung ist eine unkontrollierte Ueberkopfbewegung. Oben kurz stabilisieren, Schulterblaetter nach hinten-unten ziehen (nicht in den Schultern haengen), dann 5 s gleichmaessig ablassen bis die Arme gestreckt sind. Absteigen, nicht abspringen. WICHTIG: Diese Uebung ist eine dokumentierte AUSNAHME von der 90-Grad-Regel - siehe Blatt Hinweise. Sie ist die erste Uebung seit Juli 2026, die den rechten Arm wieder ueber Kopf bringt. Bei gelber Ampel Saetze halbieren, bei roter Ampel raus und Physio fragen.",
-       "video": "",
-       "videoNote": ""
-      },
-      {
-       "code": "A2",
-       "name": "Kurzhantel-Squat (Koffergriff)",
-       "sets": 3,
-       "targetReps": "8-12",
-       "perSide": false,
-       "detail": "",
-       "raw": "A2 Kurzhantel-Squat (Koffergriff) 3x8-12",
-       "resistance": "2x21 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2 + 1x0,5) | 4 s exzentrisch",
-       "resistanceLabel": "Kurzhantel-Squat",
-       "description": "Kurzhanteln links und rechts neben dem Körper hängen lassen (Koffergriff), Füße schulterbreit, Zehen leicht nach außen. Kontrolliert so tief absteigen, wie es schmerzfrei geht, Knie in Richtung Zehen, Rücken neutral. Aus den Fersen hochdrücken. ERSETZT den Bulgarian Split Squat: beidbeinig, dadurch halbe Zeit und deutlich weniger Ermüdung vor dem Kendo. Die Schulter ist unbeteiligt - die Arme hängen einfach. Wenn der Griff vor den Beinen ermüdet: Goblet Squat mit der KB.",
-       "video": "",
-       "videoNote": ""
-      }
-     ],
-     "pause": "Pause ~45s",
-     "note": "Pause ~45s",
-     "resistance": [
-      {
-       "label": "Klimmzug",
-       "value": "Eigengewicht | 5 s kontrolliert ablassen, KEIN Hochziehen. Ueber den Kasten in die Startposition steigen - NICHT hochspringen. Oben kurz stabilisieren, langsam ablassen, absteigen."
-      },
-      {
-       "label": "Kurzhantel-Squat",
-       "value": "2x21 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2 + 1x0,5) | 4 s exzentrisch"
-      }
-     ]
-    },
-    {
-     "block": "Block 2",
-     "exercises": [
-      {
-       "code": "B1",
-       "name": "Kurzhantel Floor Press (neutraler Griff)",
-       "sets": 3,
-       "targetReps": "6-10",
-       "perSide": false,
-       "detail": "",
-       "raw": "B1 Kurzhantel Floor Press (neutraler Griff) 3x6-10",
-       "resistance": "2x20 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2) | 3 s exzentrisch",
-       "resistanceLabel": "Kurzhantel Floor Press",
-       "description": "ZURUECK IM PLAN AB W21 (Dienstag, B2) - jetzt mit 2x21 kg statt 2x17 kg, deshalb Zielbereich 6-10 statt 8-12. Rückenlage, Knie angestellt, in jeder Hand eine Kurzhantel mit neutralem Griff (Handflächen zueinander) über der Brust ausdrücken, Ellbogen ~45° vom Körper. Langsam ablassen, bis der Trizeps den Boden berührt – der Boden begrenzt die Bewegung und schützt das AC-Gelenk – kurz pausieren, dann hochdrücken. Ersetzt den KB Floor Press: Die Kurzhantel-Last liegt zentriert über der Handwurzel, das Handgelenk bleibt gerade (KB-Version war fürs Handgelenk schmerzhaft). Brust-/Trizeps-Hauptübung, 2x pro Woche (Di + Sa).",
-       "video": "https://www.youtube.com/watch?v=rs05AtccEhg",
-       "videoNote": ""
-      },
-      {
-       "code": "B2",
-       "name": "Band Lateral Raise (bis ~80°)",
-       "sets": 3,
-       "targetReps": "10-12",
-       "perSide": false,
-       "detail": "",
-       "raw": "B2 Band Lateral Raise (bis ~80°) 3x10-12",
-       "resistance": "Band TUERKIS (20-35 lbs) | 3 s exzentrisch [ab W22 von LILA auf TUERKIS - kleinstmoeglicher Schritt. NICHT dunkelgruen (60-170 lbs), das waere Faktor 5]",
-       "resistanceLabel": "Seitheben",
-       "description": "BAND: LILA (15-25 lbs). Auf das Band stellen, Arme leicht gebeugt seitlich anheben, STOPP bei ~80° (knapp unter Schulterhöhe), 2s halten, langsam ablassen. Leicht bleiben – Ziel ist der Erhalt der seitlichen Schultermuskulatur im schmerzfreien Bereich, ohne die 90°-Grenze zu reizen.",
-       "video": "https://www.youtube.com/watch?v=gfEyrmxbCbw",
-       "videoNote": ""
-      }
-     ],
-     "pause": "Pause ~45s",
-     "note": "Pause ~45s",
-     "resistance": [
-      {
-       "label": "Kurzhantel Floor Press",
-       "value": "2x20 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2) | 3 s exzentrisch"
-      },
-      {
-       "label": "Seitheben",
-       "value": "Band TUERKIS (20-35 lbs) | 3 s exzentrisch [ab W22 von LILA auf TUERKIS - kleinstmoeglicher Schritt. NICHT dunkelgruen (60-170 lbs), das waere Faktor 5]"
-      }
-     ]
-    },
-    {
-     "block": "Block 3",
-     "exercises": [
-      {
-       "code": "C1",
-       "name": "Liegestütz exzentrisch (nur ablassen)",
-       "sets": 3,
-       "targetReps": "10",
-       "perSide": false,
-       "detail": "",
-       "raw": "C1 Liegestütz exzentrisch (nur ablassen) 3x10",
-       "resistance": "Eigengewicht | Haende UEBERSCHULTERBREIT, Ellbogen ca. 45 Grad zum Rumpf, 4 s ablassen, unten kurz auf dem Boden ablegen, KEIN Hochdrücken - auf den Knien zurueck",
-       "resistanceLabel": "Liegestütz",
-       "description": "Vom Krankengymnasten gezeigt und dort erprobt. Liegestuetzposition am Boden, Haende DEUTLICH UEBERSCHULTERBREIT, Ellbogen ca. 45 Grad zum Rumpf (nicht seitlich ausgestellt, nicht eng am Koerper). Rumpf und Gesaess fest, der Koerper bleibt eine Linie. NUR die Absenkphase: 4 Sekunden langsam und kontrolliert bis zum Boden. Unten kurz ablegen. NICHT wieder hochdruecken - stattdessen auf die Knie gehen und so in die Ausgangsposition zurueck. 10 Wiederholungen, 3 Saetze. Die Arme bleiben durchgehend unter Schulterhoehe, die 90-Grad-Regel ist eingehalten. Steigerung spaeter ueber Tempo (5-6 s) oder Fuesse erhoeht - NICHT ueber die Gewichtsweste.",
-       "video": "https://www.youtube.com/watch?v=1JsPD1_7nX0",
-       "videoNote": "Muscle & Motion, Anatomie und typische Fehler - dort wird anschliessend hochgedrueckt, das entfaellt bei dir"
-      },
-      {
-       "code": "D1",
-       "name": "Kraniozervikale Flexion",
-       "sets": 2,
-       "targetReps": "10",
-       "perSide": false,
-       "detail": "je Wiederholung 10 s halten",
-       "raw": "D1 Kraniozervikale Flexion 2x10 - je Wiederholung 10 s halten",
-       "resistance": "duenne Handtuchrolle unter dem Hinterkopf (Eigengewicht)",
-       "resistanceLabel": "Kraniozervikale Flexion",
-       "description": "Rueckenlage auf der Matte, duenne Handtuchrolle unter den Hinterkopf. Langsames Nicken (\"Ja\"-Bewegung), als wuerde der Hinterkopf ueber die Rolle rollen - der Kopf bleibt liegen und wird NICHT abgehoben. 10 s halten, 10 Wiederholungen, 2 Saetze. KONTROLLE: zwei Finger seitlich am Hals auf den M. sternocleidomastoideus. Der darf sich nicht anspannen; spannt er an, ist die Bewegung zu gross. Ziel ist die tiefe Halsbeugemuskulatur (M. longus colli und longus capitis), nicht die oberflaechliche. 3-4x/Woche am Ende der Einheit - in diesem Plan an allen drei Trainingstagen. EINORDNUNG: Von Frank selbst eingebracht (05.08.2026). Die Evidenz betrifft den kraniovertebralen Winkel (CVA) bei Vorhaltung des Kopfes und Nackenschmerz; eine Wirkung auf die Kendo-Leistung ist NICHT untersucht. Schulterunbedenklich - die Arme sind unbeteiligt, die 90-Grad-Regel bleibt unberuehrt. Siehe Blatt Quellen.",
-       "video": "https://www.youtube.com/watch?v=RL2e2gRmtIM",
-       "videoNote": ""
-      }
-     ],
-     "pause": "Pause ~10s",
-     "note": "ALTERNIEREND als EIN Block: Satz C1, dann ein Satz D1 zur Erholung, Satz C1, Satz D1, Satz C1. Die Kraniozervikale Flexion fuellt genau die zwei Erholungsphasen von C1 (Frank, 08.09.2026). Pause ~10s (die Erholung IST der Satz der Gegenuebung)",
-     "resistance": [
-      {
-       "label": "Liegestütz",
-       "value": "Eigengewicht | Haende UEBERSCHULTERBREIT, Ellbogen ca. 45 Grad zum Rumpf, 4 s ablassen, unten kurz auf dem Boden ablegen, KEIN Hochdrücken - auf den Knien zurueck"
-      },
-      {
-       "label": "Kraniozervikale Flexion",
-       "value": "duenne Handtuchrolle unter dem Hinterkopf (Eigengewicht)"
-      }
-     ]
-    }
-   ],
-   "finish": null,
-   "optional": {
-    "text": "KB Swing zweiarmig 2x15 - nur wenn du unter 40 min geblieben bist. Endpunkt bewusst am Brustbein kappen (unter 90 Grad).",
-    "resistance": "Swing: KB 24 kg"
-   },
-   "equipment": [
-    {
-     "gerät": "Kurzhanteln",
-     "items": [
-      "2x20 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2) | 3 s exzentrisch (Kurzhantel Floor Press)",
-      "2x21 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2 + 1x0,5) | 4 s exzentrisch (Kurzhantel-Squat)"
-     ]
-    },
-    {
-     "gerät": "Bänder",
-     "items": [
-      "Band TUERKIS (20-35 lbs) | 3 s exzentrisch [ab W22 von LILA auf TUERKIS - kleinstmoeglicher Schritt. NICHT dunkelgruen (60-170 lbs), das waere Faktor 5] (Seitheben)"
-     ]
-    }
-   ]
-  },
-  {
-   "day": "Do",
-   "week": 23,
-   "warmup": [
-    {
-     "name": "Cat-Camel",
-     "seconds": 30,
-     "perSide": false,
-     "note": ""
-    },
-    {
-     "name": "Band Pull-aparts",
-     "seconds": 30,
-     "perSide": false,
-     "note": "LILA, auf Schulterhoehe"
-    },
-    {
-     "name": "Glute Bridge",
-     "seconds": 30,
-     "perSide": false,
-     "note": ""
-    },
-    {
-     "name": "Bodyweight Squat",
-     "seconds": 30,
-     "perSide": false,
-     "note": ""
-    },
-    {
-     "name": "Physio 1 - Arme unter Bandspannung vor dem Koerper auf maximale Hoehe und wieder senken",
-     "seconds": 45,
-     "perSide": false,
-     "note": "intermittierend, PHYSIO-AUSNAHME von der 90-Grad-Regel"
-    },
-    {
-     "name": "Physio 2 - Seitlage links, rechter Arm 2 kg, Ellbogen 90 Grad angelegt, Aussenrotation langsam",
-     "seconds": 60,
-     "perSide": false,
-     "note": "ca. 10-12 Wdh. rechts"
-    }
-   ],
-   "blocks": [
-    {
-     "block": "Block 1",
-     "exercises": [
-      {
-       "code": "A1",
-       "name": "Langhantel-Rudern vorgebeugt",
-       "sets": 3,
-       "targetReps": "6-10",
-       "perSide": false,
-       "detail": "",
-       "raw": "A1 Langhantel-Rudern vorgebeugt 3x6-10",
-       "resistance": "Langhantel 49,8 kg gesamt (Stange 7,8 kg + je Seite 1x10 + 2x5 + 2x0,5)",
-       "resistanceLabel": "Langhantel-Rudern",
-       "description": "Hüftbreiter Stand, Langhantel im Obergriff. Hüfte nach hinten schieben (Hip Hinge), Oberkörper ~45° oder tiefer, Rücken neutral, Rumpf fest. Die Stange zum Bauchnabel ziehen, Ellbogen nah am Körper, Schulterblätter nach hinten-unten; langsam ablassen, kein Schwung. Schwere beidarmige Zugübung als Ergänzung zum einarmigen KB-Rudern – Arme bleiben unter 90°. Zyklus Aug: 35,8 kg (W16) bis 39,8 kg (W19).",
-       "video": "https://www.youtube.com/watch?v=rqTOAM8WoeM",
-       "videoNote": ""
-      },
-      {
-       "code": "A2",
-       "name": "Band-Chest-Press stehend beidarmig",
-       "sets": 3,
-       "targetReps": "10-15",
-       "perSide": false,
-       "detail": "",
-       "raw": "A2 Band-Chest-Press stehend beidarmig 3x10-15",
-       "resistance": "Band DUNKELGRUEN (60-170 lbs)",
-       "resistanceLabel": "Chest-Press",
-       "description": "BAND: ROT (50-125 lbs). Band auf Brusthöhe hinter dir verankern, Schrittstellung, Rumpf fest. Beide Griffe auf Brusthöhe, dann BEIDE Arme gleichzeitig horizontal nach vorn ausdrücken - die Hände bleiben maximal auf Schulterhöhe, nie darüber. Langsam zurückführen, ohne dass die Schultern nach vorn kippen. Beidarmige Variante der einarmigen Version aus dem Juli-Plan; das Video zeigt einarmig, die Ausführung ist identisch, nur mit beiden Armen gleichzeitig.",
-       "video": "https://www.youtube.com/watch?v=ssJcPFP47aw",
-       "videoNote": "zeigt einarmig"
-      }
-     ],
-     "pause": "Pause ~45s",
-     "note": "Pause ~45s",
-     "resistance": [
-      {
-       "label": "Langhantel-Rudern",
-       "value": "Langhantel 49,8 kg gesamt (Stange 7,8 kg + je Seite 1x10 + 2x5 + 2x0,5)"
-      },
-      {
-       "label": "Chest-Press",
-       "value": "Band DUNKELGRUEN (60-170 lbs)"
-      }
-     ]
-    },
-    {
-     "block": "Block 2",
-     "exercises": [
-      {
-       "code": "B1",
-       "name": "Langhantel Romanian Deadlift",
-       "sets": 3,
-       "targetReps": "8-12",
-       "perSide": false,
-       "detail": "",
-       "raw": "B1 Langhantel Romanian Deadlift 3x8-12",
-       "resistance": "Langhantel 51,8 kg gesamt (Stange 7,8 kg + je Seite 1x10 + 2x5 + 1x2) | ZUGHILFEN, 3 s exzentrisch",
-       "resistanceLabel": "RDL",
-       "description": "Hüfte nach hinten, Rücken neutral, Beinbeuger laden, Hüfte nach vorn strecken. Jetzt mit Langhantel bis 45,8 kg statt Kettlebell (KB-Version war zu leicht). Video getauscht am 16.08.2026: das alte zeigte die Kettlebell-Variante.",
-       "video": "https://www.youtube.com/watch?v=xgusDooVfKU",
-       "videoNote": ""
-      },
-      {
-       "code": "B2",
-       "name": "Band Face Pull",
-       "sets": 3,
-       "targetReps": "12-15",
-       "perSide": false,
-       "detail": "",
-       "raw": "B2 Band Face Pull 3x12-15",
-       "resistance": "Band ROT (50-125 lbs) | Ellbogen bleiben auf Schulterhoehe, NICHT hoeher",
-       "resistanceLabel": "Face Pull",
-       "description": "BAND: ROT (50-125 lbs). Band auf etwa Schulterhoehe verankern (Klimmzugstange, Tueranker). Beide Griffe fassen, Arme gestreckt nach vorn. Das Band zum Gesicht ziehen, dabei die ELLBOGEN NACH AUSSEN fuehren, Schulterblaetter nach hinten-unten. Die Ellbogen bleiben auf Schulterhoehe und gehen NICHT darueber - damit ist die 90-Grad-Regel eingehalten. Am Endpunkt kurz halten, langsam zurueck. WARUM DIESE UEBUNG: hintere Schulter und obere Ruecken-/Schulterblattmuskulatur. Die Bewegung ist horizontale ABduktion - also das Gegenteil des Musters, das das ACG reizt (horizontale Adduktion, Arm quer vor dem Koerper). Der einzige Schulterreiz im Plan, der die Arthrose eher entlastet.",
-       "video": "",
-       "videoNote": ""
-      }
-     ],
-     "pause": "Pause ~45s",
-     "note": "Pause ~45s",
-     "resistance": [
-      {
-       "label": "RDL",
-       "value": "Langhantel 51,8 kg gesamt (Stange 7,8 kg + je Seite 1x10 + 2x5 + 1x2) | ZUGHILFEN, 3 s exzentrisch"
-      },
-      {
-       "label": "Face Pull",
-       "value": "Band ROT (50-125 lbs) | Ellbogen bleiben auf Schulterhoehe, NICHT hoeher"
-      }
-     ]
-    },
-    {
-     "block": "Block 3",
-     "exercises": [
-      {
-       "code": "C1",
-       "name": "Band Lateral Raise (bis ~80°)",
-       "sets": 3,
-       "targetReps": "10-12",
-       "perSide": false,
-       "detail": "",
-       "raw": "C1 Band Lateral Raise (bis ~80°) 3x10-12",
-       "resistance": "Band TUERKIS (20-35 lbs) | 3 s exzentrisch [ab W22 von LILA auf TUERKIS - NICHT dunkelgruen]",
-       "resistanceLabel": "Seitheben",
-       "description": "BAND: LILA (15-25 lbs). Auf das Band stellen, Arme leicht gebeugt seitlich anheben, STOPP bei ~80° (knapp unter Schulterhöhe), 2s halten, langsam ablassen. Leicht bleiben – Ziel ist der Erhalt der seitlichen Schultermuskulatur im schmerzfreien Bereich, ohne die 90°-Grenze zu reizen.",
-       "video": "https://www.youtube.com/watch?v=gfEyrmxbCbw",
-       "videoNote": ""
-      },
-      {
-       "code": "D1",
-       "name": "Kraniozervikale Flexion",
-       "sets": 2,
-       "targetReps": "10",
-       "perSide": false,
-       "detail": "je Wiederholung 10 s halten",
-       "raw": "D1 Kraniozervikale Flexion 2x10 - je Wiederholung 10 s halten",
-       "resistance": "duenne Handtuchrolle unter dem Hinterkopf (Eigengewicht)",
-       "resistanceLabel": "Kraniozervikale Flexion",
-       "description": "Rueckenlage auf der Matte, duenne Handtuchrolle unter den Hinterkopf. Langsames Nicken (\"Ja\"-Bewegung), als wuerde der Hinterkopf ueber die Rolle rollen - der Kopf bleibt liegen und wird NICHT abgehoben. 10 s halten, 10 Wiederholungen, 2 Saetze. KONTROLLE: zwei Finger seitlich am Hals auf den M. sternocleidomastoideus. Der darf sich nicht anspannen; spannt er an, ist die Bewegung zu gross. Ziel ist die tiefe Halsbeugemuskulatur (M. longus colli und longus capitis), nicht die oberflaechliche. 3-4x/Woche am Ende der Einheit - in diesem Plan an allen drei Trainingstagen. EINORDNUNG: Von Frank selbst eingebracht (05.08.2026). Die Evidenz betrifft den kraniovertebralen Winkel (CVA) bei Vorhaltung des Kopfes und Nackenschmerz; eine Wirkung auf die Kendo-Leistung ist NICHT untersucht. Schulterunbedenklich - die Arme sind unbeteiligt, die 90-Grad-Regel bleibt unberuehrt. Siehe Blatt Quellen.",
-       "video": "https://www.youtube.com/watch?v=RL2e2gRmtIM",
-       "videoNote": ""
-      }
-     ],
-     "pause": "Pause ~10s",
-     "note": "ALTERNIEREND als EIN Block: Satz C1, dann ein Satz D1 zur Erholung, Satz C1, Satz D1, Satz C1. Die Kraniozervikale Flexion fuellt genau die zwei Erholungsphasen von C1 (Frank, 08.09.2026). Pause ~10s (die Erholung IST der Satz der Gegenuebung)",
-     "resistance": [
-      {
-       "label": "Seitheben",
-       "value": "Band TUERKIS (20-35 lbs) | 3 s exzentrisch [ab W22 von LILA auf TUERKIS - NICHT dunkelgruen]"
-      },
-      {
-       "label": "Kraniozervikale Flexion",
-       "value": "duenne Handtuchrolle unter dem Hinterkopf (Eigengewicht)"
-      }
-     ]
-    }
-   ],
-   "finish": {
-    "text": "Goblet Squat 2x10, 3 s exzentrisch, ohne Halten unten - KB vor der Brust, volle kontrollierte Tiefe.",
-    "resistance": "Goblet: KB 24 kg | + Gewichtsweste 10 kg (Einzeluebung, einmal anlegen)"
-   },
-   "optional": {
-    "text": "Band-Bizeps-Curl 2x12-15 und/oder Band-Trizeps-Pushdown 2x12-15 - nur wenn du unter 40 min geblieben bist.",
-    "resistance": "beide Band DUNKELGRUEN (60-170 lbs)"
-   },
-   "equipment": [
-    {
-     "gerät": "Langhantel",
-     "items": [
-      "Langhantel 49,8 kg gesamt (Stange 7,8 kg + je Seite 1x10 + 2x5 + 2x0,5) (Langhantel-Rudern)",
-      "Langhantel 51,8 kg gesamt (Stange 7,8 kg + je Seite 1x10 + 2x5 + 1x2) | ZUGHILFEN, 3 s exzentrisch (RDL)"
-     ]
-    },
-    {
-     "gerät": "Bänder",
-     "items": [
-      "Band DUNKELGRUEN (60-170 lbs) (Chest-Press)",
-      "Band ROT (50-125 lbs) | Ellbogen bleiben auf Schulterhoehe, NICHT hoeher (Face Pull)",
-      "Band TUERKIS (20-35 lbs) | 3 s exzentrisch [ab W22 von LILA auf TUERKIS - NICHT dunkelgruen] (Seitheben)"
-     ]
-    }
-   ]
-  },
-  {
-   "day": "Sa",
-   "week": 23,
-   "warmup": [
-    {
-     "name": "Fussgelenke und Waden mobilisieren",
-     "seconds": 60,
-     "perSide": false,
-     "note": ""
-    },
-    {
-     "name": "erster Aufstieg locker, Abstieg im Gehen",
-     "seconds": 90,
-     "perSide": false,
-     "note": ""
-    },
-    {
-     "name": "zweiter Aufstieg zuegig, Abstieg im Gehen - Ziel am Ende ca. 130-135 bpm",
-     "seconds": 90,
-     "perSide": false,
-     "note": ""
-    }
-   ],
-   "blocks": [
-    {
-     "block": "Block 1",
-     "exercises": [
-      {
-       "code": "A1",
-       "name": "Treppen-Aufstieg all-out",
-       "sets": 12,
-       "targetReps": "1",
-       "perSide": false,
-       "detail": "",
-       "raw": "A1 Treppen-Aufstieg all-out 12x1",
-       "resistance": "4 Stockwerke = 10-12 Hoehenmeter, zwei Stufen auf einmal | + Gewichtsweste 15 kg | ZIELPULS am Ende jedes Aufstiegs: 155-163 bpm (90-95 % von HFmax 172). Beim Abstieg NICHT unter 130 bpm fallen lassen.",
-       "resistanceLabel": "Treppen-Aufstieg",
-       "description": "Repeated Sprint Training im eigenen Treppenhaus. Vier Stockwerke a 2,5-3 m = 10-12 Hoehenmeter je Aufstieg. AUFSTIEG: all-out, zwei Stufen auf einmal, Arme frei mitschwingen lassen (bleiben unter Schulterhoehe, 90-Grad-Regel unberuehrt). ABSTIEG: im GEHEN, das ist die Pause - nicht laufen. Kein Stehenbleiben oben oder unten, direkt umdrehen. STEUERUNG UEBER DEN PULS, nicht ueber die Uhr: am Ende jedes Aufstiegs 155-163 bpm (90-95 % von HFmax 172), beim Abstieg nicht unter 130 bpm fallen lassen. Faellt der Puls tiefer: erst zwei Stufen auf einmal, dann zuegiger absteigen, erst zuletzt Gewichtsweste dazu. ERSETZT die urspruenglich geplanten 4x4-min-Intervalle: bei nur vier Stockwerken waere die Haelfte der Arbeitszeit Abstieg gewesen, das Protokoll von Helgerud ist so nicht nachbaubar. WARNUNG: Treppab ist exzentrische Quadrizeps-Belastung und der klassische Muskelkater-Ausloeser - am Montag ist Kendo. Erste zwei bis drei Wochen bewusst langsam absteigen. Hand in Gelaendernaehe, bei hohem Puls ist der Fehltritt real.",
-       "video": "",
-       "videoNote": ""
-      }
-     ],
-     "pause": "Pause ~40s",
-     "note": "Pause ~40s (Abstieg im Gehen)",
-     "resistance": [
-      {
-       "label": "Treppen-Aufstieg",
-       "value": "4 Stockwerke = 10-12 Hoehenmeter, zwei Stufen auf einmal | + Gewichtsweste 15 kg | ZIELPULS am Ende jedes Aufstiegs: 155-163 bpm (90-95 % von HFmax 172). Beim Abstieg NICHT unter 130 bpm fallen lassen."
-      }
-     ]
-    },
-    {
-     "block": "Block 2",
-     "exercises": [
-      {
-       "code": "B1",
-       "name": "Liegestütz exzentrisch (nur ablassen)",
-       "sets": 3,
-       "targetReps": "10",
-       "perSide": false,
-       "detail": "",
-       "raw": "B1 Liegestütz exzentrisch (nur ablassen) 3x10",
-       "resistance": "Eigengewicht | Haende UEBERSCHULTERBREIT, Ellbogen ca. 45 Grad zum Rumpf, 6 s ablassen, unten kurz auf dem Boden ablegen, KEIN Hochdrücken - auf den Knien zurueck",
-       "resistanceLabel": "Liegestütz",
-       "description": "Vom Krankengymnasten gezeigt und dort erprobt. Liegestuetzposition am Boden, Haende DEUTLICH UEBERSCHULTERBREIT, Ellbogen ca. 45 Grad zum Rumpf (nicht seitlich ausgestellt, nicht eng am Koerper). Rumpf und Gesaess fest, der Koerper bleibt eine Linie. NUR die Absenkphase: 4 Sekunden langsam und kontrolliert bis zum Boden. Unten kurz ablegen. NICHT wieder hochdruecken - stattdessen auf die Knie gehen und so in die Ausgangsposition zurueck. 10 Wiederholungen, 3 Saetze. Die Arme bleiben durchgehend unter Schulterhoehe, die 90-Grad-Regel ist eingehalten. Steigerung spaeter ueber Tempo (5-6 s) oder Fuesse erhoeht - NICHT ueber die Gewichtsweste.",
-       "video": "https://www.youtube.com/watch?v=1JsPD1_7nX0",
-       "videoNote": "Muscle & Motion, Anatomie und typische Fehler - dort wird anschliessend hochgedrueckt, das entfaellt bei dir"
-      }
-     ],
-     "pause": "Pause ~60s",
-     "note": "Pause ~60s",
-     "resistance": [
-      {
-       "label": "Liegestütz",
-       "value": "Eigengewicht | Haende UEBERSCHULTERBREIT, Ellbogen ca. 45 Grad zum Rumpf, 6 s ablassen, unten kurz auf dem Boden ablegen, KEIN Hochdrücken - auf den Knien zurueck"
-      }
-     ]
-    },
-    {
-     "block": "Block 3",
-     "exercises": [
-      {
-       "code": "C1",
-       "name": "Band Face Pull",
-       "sets": 3,
-       "targetReps": "12-15",
-       "perSide": false,
-       "detail": "",
-       "raw": "C1 Band Face Pull 3x12-15",
-       "resistance": "Band ROT (50-125 lbs) | Ellbogen auf Schulterhoehe, nicht hoeher",
-       "resistanceLabel": "Face Pull",
-       "description": "BAND: ROT (50-125 lbs). Band auf etwa Schulterhoehe verankern (Klimmzugstange, Tueranker). Beide Griffe fassen, Arme gestreckt nach vorn. Das Band zum Gesicht ziehen, dabei die ELLBOGEN NACH AUSSEN fuehren, Schulterblaetter nach hinten-unten. Die Ellbogen bleiben auf Schulterhoehe und gehen NICHT darueber - damit ist die 90-Grad-Regel eingehalten. Am Endpunkt kurz halten, langsam zurueck. WARUM DIESE UEBUNG: hintere Schulter und obere Ruecken-/Schulterblattmuskulatur. Die Bewegung ist horizontale ABduktion - also das Gegenteil des Musters, das das ACG reizt (horizontale Adduktion, Arm quer vor dem Koerper). Der einzige Schulterreiz im Plan, der die Arthrose eher entlastet.",
-       "video": "",
-       "videoNote": ""
-      },
-      {
-       "code": "D1",
-       "name": "Kraniozervikale Flexion",
-       "sets": 2,
-       "targetReps": "10",
-       "perSide": false,
-       "detail": "je Wiederholung 10 s halten",
-       "raw": "D1 Kraniozervikale Flexion 2x10 - je Wiederholung 10 s halten",
-       "resistance": "duenne Handtuchrolle unter dem Hinterkopf (Eigengewicht)",
-       "resistanceLabel": "Kraniozervikale Flexion",
-       "description": "Rueckenlage auf der Matte, duenne Handtuchrolle unter den Hinterkopf. Langsames Nicken (\"Ja\"-Bewegung), als wuerde der Hinterkopf ueber die Rolle rollen - der Kopf bleibt liegen und wird NICHT abgehoben. 10 s halten, 10 Wiederholungen, 2 Saetze. KONTROLLE: zwei Finger seitlich am Hals auf den M. sternocleidomastoideus. Der darf sich nicht anspannen; spannt er an, ist die Bewegung zu gross. Ziel ist die tiefe Halsbeugemuskulatur (M. longus colli und longus capitis), nicht die oberflaechliche. 3-4x/Woche am Ende der Einheit - in diesem Plan an allen drei Trainingstagen. EINORDNUNG: Von Frank selbst eingebracht (05.08.2026). Die Evidenz betrifft den kraniovertebralen Winkel (CVA) bei Vorhaltung des Kopfes und Nackenschmerz; eine Wirkung auf die Kendo-Leistung ist NICHT untersucht. Schulterunbedenklich - die Arme sind unbeteiligt, die 90-Grad-Regel bleibt unberuehrt. Siehe Blatt Quellen.",
-       "video": "https://www.youtube.com/watch?v=RL2e2gRmtIM",
-       "videoNote": ""
-      }
-     ],
-     "pause": "Pause ~10s",
-     "note": "ALTERNIEREND als EIN Block: Satz C1, dann ein Satz D1 zur Erholung, Satz C1, Satz D1, Satz C1. Die Kraniozervikale Flexion fuellt genau die zwei Erholungsphasen von C1 (Frank, 08.09.2026). Pause ~10s (die Erholung IST der Satz der Gegenuebung)",
-     "resistance": [
-      {
-       "label": "Face Pull",
-       "value": "Band ROT (50-125 lbs) | Ellbogen auf Schulterhoehe, nicht hoeher"
-      },
-      {
-       "label": "Kraniozervikale Flexion",
-       "value": "duenne Handtuchrolle unter dem Hinterkopf (Eigengewicht)"
-      }
-     ]
-    }
-   ],
-   "finish": null,
-   "optional": {
-    "text": "Wadenheben beidbeinig 2x15-20, 3 s exzentrisch - nur als Achilles-Prophylaxe fuers Kendo.",
-    "resistance": "Langhantel oder Gewichtsweste"
-   },
-   "equipment": [
-    {
-     "gerät": "Bänder",
-     "items": [
-      "Band ROT (50-125 lbs) | Ellbogen auf Schulterhoehe, nicht hoeher (Face Pull)"
-     ]
-    },
-    {
-     "gerät": "Sonstiges",
-     "items": [
-      "4 Stockwerke = 10-12 Hoehenmeter, zwei Stufen auf einmal | + Gewichtsweste 15 kg | ZIELPULS am Ende jedes Aufstiegs: 155-163 bpm (90-95 % von HFmax 172). Beim Abstieg NICHT unter 130 bpm fallen lassen. (Treppen-Aufstieg)"
-     ]
-    }
-   ]
-  },
-  {
-   "day": "Di",
-   "week": 24,
-   "warmup": [
-    {
-     "name": "Cat-Camel",
-     "seconds": 30,
-     "perSide": false,
-     "note": ""
-    },
-    {
-     "name": "Band Pull-aparts",
-     "seconds": 30,
-     "perSide": false,
-     "note": "LILA, auf Schulterhoehe"
-    },
-    {
-     "name": "Glute Bridge",
-     "seconds": 30,
-     "perSide": false,
-     "note": ""
-    },
-    {
-     "name": "Bodyweight Squat",
-     "seconds": 30,
-     "perSide": false,
-     "note": ""
-    },
-    {
-     "name": "Physio 1 - Arme unter Bandspannung vor dem Koerper auf maximale Hoehe und wieder senken",
-     "seconds": 45,
-     "perSide": false,
-     "note": "intermittierend, PHYSIO-AUSNAHME von der 90-Grad-Regel"
-    },
-    {
-     "name": "Physio 2 - Seitlage links, rechter Arm 2 kg, Ellbogen 90 Grad angelegt, Aussenrotation langsam",
-     "seconds": 60,
-     "perSide": false,
-     "note": "ca. 10-12 Wdh. rechts"
-    }
-   ],
-   "blocks": [
-    {
-     "block": "Block 1",
-     "exercises": [
-      {
-       "code": "A1",
-       "name": "Klimmzug exzentrisch (nur ablassen)",
-       "sets": 3,
-       "targetReps": "5",
-       "perSide": false,
-       "detail": "",
-       "raw": "A1 Klimmzug exzentrisch (nur ablassen) 3x5",
-       "resistance": "Eigengewicht | 6 s kontrolliert ablassen, KEIN Hochziehen. Ueber den Kasten in die Startposition steigen - NICHT hochspringen. Oben kurz stabilisieren, langsam ablassen, absteigen.",
-       "resistanceLabel": "Klimmzug",
-       "description": "Vom Physiotherapeuten am 28.08.2026 freigegeben, in derselben Logik wie die exzentrischen Liegestuetze: das Hochziehen faellt weg, nur das kontrollierte Ablassen bleibt. AUSFUEHRUNG: ueber einen Kasten oder Stuhl in die obere Position steigen - NICHT hochspringen, der Absprung ist eine unkontrollierte Ueberkopfbewegung. Oben kurz stabilisieren, Schulterblaetter nach hinten-unten ziehen (nicht in den Schultern haengen), dann 5 s gleichmaessig ablassen bis die Arme gestreckt sind. Absteigen, nicht abspringen. WICHTIG: Diese Uebung ist eine dokumentierte AUSNAHME von der 90-Grad-Regel - siehe Blatt Hinweise. Sie ist die erste Uebung seit Juli 2026, die den rechten Arm wieder ueber Kopf bringt. Bei gelber Ampel Saetze halbieren, bei roter Ampel raus und Physio fragen.",
-       "video": "",
-       "videoNote": ""
-      },
-      {
-       "code": "A2",
-       "name": "Kurzhantel-Squat (Koffergriff)",
-       "sets": 3,
-       "targetReps": "8-12",
-       "perSide": false,
-       "detail": "",
-       "raw": "A2 Kurzhantel-Squat (Koffergriff) 3x8-12",
-       "resistance": "2x21 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2 + 1x0,5) | 4 s exzentrisch",
-       "resistanceLabel": "Kurzhantel-Squat",
-       "description": "Kurzhanteln links und rechts neben dem Körper hängen lassen (Koffergriff), Füße schulterbreit, Zehen leicht nach außen. Kontrolliert so tief absteigen, wie es schmerzfrei geht, Knie in Richtung Zehen, Rücken neutral. Aus den Fersen hochdrücken. ERSETZT den Bulgarian Split Squat: beidbeinig, dadurch halbe Zeit und deutlich weniger Ermüdung vor dem Kendo. Die Schulter ist unbeteiligt - die Arme hängen einfach. Wenn der Griff vor den Beinen ermüdet: Goblet Squat mit der KB.",
-       "video": "",
-       "videoNote": ""
-      }
-     ],
-     "pause": "Pause ~45s",
-     "note": "Pause ~45s",
-     "resistance": [
-      {
-       "label": "Klimmzug",
-       "value": "Eigengewicht | 6 s kontrolliert ablassen, KEIN Hochziehen. Ueber den Kasten in die Startposition steigen - NICHT hochspringen. Oben kurz stabilisieren, langsam ablassen, absteigen."
-      },
-      {
-       "label": "Kurzhantel-Squat",
-       "value": "2x21 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2 + 1x0,5) | 4 s exzentrisch"
-      }
-     ]
-    },
-    {
-     "block": "Block 2",
-     "exercises": [
-      {
-       "code": "B1",
-       "name": "Kurzhantel Floor Press (neutraler Griff)",
-       "sets": 3,
-       "targetReps": "6-10",
-       "perSide": false,
-       "detail": "",
-       "raw": "B1 Kurzhantel Floor Press (neutraler Griff) 3x6-10",
-       "resistance": "2x20 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2) | 3 s exzentrisch",
-       "resistanceLabel": "Kurzhantel Floor Press",
-       "description": "ZURUECK IM PLAN AB W21 (Dienstag, B2) - jetzt mit 2x21 kg statt 2x17 kg, deshalb Zielbereich 6-10 statt 8-12. Rückenlage, Knie angestellt, in jeder Hand eine Kurzhantel mit neutralem Griff (Handflächen zueinander) über der Brust ausdrücken, Ellbogen ~45° vom Körper. Langsam ablassen, bis der Trizeps den Boden berührt – der Boden begrenzt die Bewegung und schützt das AC-Gelenk – kurz pausieren, dann hochdrücken. Ersetzt den KB Floor Press: Die Kurzhantel-Last liegt zentriert über der Handwurzel, das Handgelenk bleibt gerade (KB-Version war fürs Handgelenk schmerzhaft). Brust-/Trizeps-Hauptübung, 2x pro Woche (Di + Sa).",
-       "video": "https://www.youtube.com/watch?v=rs05AtccEhg",
-       "videoNote": ""
-      },
-      {
-       "code": "B2",
-       "name": "Band Lateral Raise (bis ~80°)",
-       "sets": 3,
-       "targetReps": "10-12",
-       "perSide": false,
-       "detail": "",
-       "raw": "B2 Band Lateral Raise (bis ~80°) 3x10-12",
-       "resistance": "Band TUERKIS (20-35 lbs) | 3 s exzentrisch [ab W22 von LILA auf TUERKIS - kleinstmoeglicher Schritt. NICHT dunkelgruen (60-170 lbs), das waere Faktor 5]",
-       "resistanceLabel": "Seitheben",
-       "description": "BAND: LILA (15-25 lbs). Auf das Band stellen, Arme leicht gebeugt seitlich anheben, STOPP bei ~80° (knapp unter Schulterhöhe), 2s halten, langsam ablassen. Leicht bleiben – Ziel ist der Erhalt der seitlichen Schultermuskulatur im schmerzfreien Bereich, ohne die 90°-Grenze zu reizen.",
-       "video": "https://www.youtube.com/watch?v=gfEyrmxbCbw",
-       "videoNote": ""
-      }
-     ],
-     "pause": "Pause ~45s",
-     "note": "Pause ~45s",
-     "resistance": [
-      {
-       "label": "Kurzhantel Floor Press",
-       "value": "2x20 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2) | 3 s exzentrisch"
-      },
-      {
-       "label": "Seitheben",
-       "value": "Band TUERKIS (20-35 lbs) | 3 s exzentrisch [ab W22 von LILA auf TUERKIS - kleinstmoeglicher Schritt. NICHT dunkelgruen (60-170 lbs), das waere Faktor 5]"
-      }
-     ]
-    },
-    {
-     "block": "Block 3",
-     "exercises": [
-      {
-       "code": "C1",
-       "name": "Liegestütz exzentrisch (nur ablassen)",
-       "sets": 3,
-       "targetReps": "10",
-       "perSide": false,
-       "detail": "",
-       "raw": "C1 Liegestütz exzentrisch (nur ablassen) 3x10",
-       "resistance": "Eigengewicht | Haende UEBERSCHULTERBREIT, Ellbogen ca. 45 Grad zum Rumpf, 4 s ablassen, unten kurz auf dem Boden ablegen, KEIN Hochdrücken - auf den Knien zurueck",
-       "resistanceLabel": "Liegestütz",
-       "description": "Vom Krankengymnasten gezeigt und dort erprobt. Liegestuetzposition am Boden, Haende DEUTLICH UEBERSCHULTERBREIT, Ellbogen ca. 45 Grad zum Rumpf (nicht seitlich ausgestellt, nicht eng am Koerper). Rumpf und Gesaess fest, der Koerper bleibt eine Linie. NUR die Absenkphase: 4 Sekunden langsam und kontrolliert bis zum Boden. Unten kurz ablegen. NICHT wieder hochdruecken - stattdessen auf die Knie gehen und so in die Ausgangsposition zurueck. 10 Wiederholungen, 3 Saetze. Die Arme bleiben durchgehend unter Schulterhoehe, die 90-Grad-Regel ist eingehalten. Steigerung spaeter ueber Tempo (5-6 s) oder Fuesse erhoeht - NICHT ueber die Gewichtsweste.",
-       "video": "https://www.youtube.com/watch?v=1JsPD1_7nX0",
-       "videoNote": "Muscle & Motion, Anatomie und typische Fehler - dort wird anschliessend hochgedrueckt, das entfaellt bei dir"
-      },
-      {
-       "code": "D1",
-       "name": "Kraniozervikale Flexion",
-       "sets": 2,
-       "targetReps": "10",
-       "perSide": false,
-       "detail": "je Wiederholung 10 s halten",
-       "raw": "D1 Kraniozervikale Flexion 2x10 - je Wiederholung 10 s halten",
-       "resistance": "duenne Handtuchrolle unter dem Hinterkopf (Eigengewicht)",
-       "resistanceLabel": "Kraniozervikale Flexion",
-       "description": "Rueckenlage auf der Matte, duenne Handtuchrolle unter den Hinterkopf. Langsames Nicken (\"Ja\"-Bewegung), als wuerde der Hinterkopf ueber die Rolle rollen - der Kopf bleibt liegen und wird NICHT abgehoben. 10 s halten, 10 Wiederholungen, 2 Saetze. KONTROLLE: zwei Finger seitlich am Hals auf den M. sternocleidomastoideus. Der darf sich nicht anspannen; spannt er an, ist die Bewegung zu gross. Ziel ist die tiefe Halsbeugemuskulatur (M. longus colli und longus capitis), nicht die oberflaechliche. 3-4x/Woche am Ende der Einheit - in diesem Plan an allen drei Trainingstagen. EINORDNUNG: Von Frank selbst eingebracht (05.08.2026). Die Evidenz betrifft den kraniovertebralen Winkel (CVA) bei Vorhaltung des Kopfes und Nackenschmerz; eine Wirkung auf die Kendo-Leistung ist NICHT untersucht. Schulterunbedenklich - die Arme sind unbeteiligt, die 90-Grad-Regel bleibt unberuehrt. Siehe Blatt Quellen.",
-       "video": "https://www.youtube.com/watch?v=RL2e2gRmtIM",
-       "videoNote": ""
-      }
-     ],
-     "pause": "Pause ~10s",
-     "note": "ALTERNIEREND als EIN Block: Satz C1, dann ein Satz D1 zur Erholung, Satz C1, Satz D1, Satz C1. Die Kraniozervikale Flexion fuellt genau die zwei Erholungsphasen von C1 (Frank, 08.09.2026). Pause ~10s (die Erholung IST der Satz der Gegenuebung)",
-     "resistance": [
-      {
-       "label": "Liegestütz",
-       "value": "Eigengewicht | Haende UEBERSCHULTERBREIT, Ellbogen ca. 45 Grad zum Rumpf, 4 s ablassen, unten kurz auf dem Boden ablegen, KEIN Hochdrücken - auf den Knien zurueck"
-      },
-      {
-       "label": "Kraniozervikale Flexion",
-       "value": "duenne Handtuchrolle unter dem Hinterkopf (Eigengewicht)"
-      }
-     ]
-    }
-   ],
-   "finish": null,
-   "optional": {
-    "text": "KB Swing zweiarmig 2x15 - nur wenn du unter 40 min geblieben bist. Endpunkt bewusst am Brustbein kappen (unter 90 Grad).",
-    "resistance": "Swing: KB 24 kg"
-   },
-   "equipment": [
-    {
-     "gerät": "Kurzhanteln",
-     "items": [
-      "2x20 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2) | 3 s exzentrisch (Kurzhantel Floor Press)",
-      "2x21 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2 + 1x0,5) | 4 s exzentrisch (Kurzhantel-Squat)"
-     ]
-    },
-    {
-     "gerät": "Bänder",
-     "items": [
-      "Band TUERKIS (20-35 lbs) | 3 s exzentrisch [ab W22 von LILA auf TUERKIS - kleinstmoeglicher Schritt. NICHT dunkelgruen (60-170 lbs), das waere Faktor 5] (Seitheben)"
-     ]
-    }
-   ]
-  },
-  {
-   "day": "Do",
-   "week": 24,
+   "week": 29,
    "warmup": [
     {
      "name": "Cat-Camel",
@@ -1946,7 +1933,7 @@
        "raw": "A1 Langhantel-Rudern vorgebeugt 3x6-10",
        "resistance": "Langhantel 50,8 kg gesamt (Stange 7,8 kg + je Seite 1x10 + 1x5 + 3x2 + 1x0,5)",
        "resistanceLabel": "Langhantel-Rudern",
-       "description": "Hüftbreiter Stand, Langhantel im Obergriff. Hüfte nach hinten schieben (Hip Hinge), Oberkörper ~45° oder tiefer, Rücken neutral, Rumpf fest. Die Stange zum Bauchnabel ziehen, Ellbogen nah am Körper, Schulterblätter nach hinten-unten; langsam ablassen, kein Schwung. Schwere beidarmige Zugübung als Ergänzung zum einarmigen KB-Rudern – Arme bleiben unter 90°. Zyklus Aug: 35,8 kg (W16) bis 39,8 kg (W19).",
+       "description": "Hüftbreiter Stand, Langhantel im Obergriff. Hüfte nach hinten schieben (Hip Hinge), Oberkörper ~45° oder tiefer, Rücken neutral, Rumpf fest. Die Stange zum Bauchnabel ziehen, Ellbogen nah am Körper, Schulterblätter nach hinten-unten; langsam ablassen, kein Schwung. Schwere beidarmige Zugübung als Ergänzung zum einarmigen KB-Rudern – Arme bleiben unter 90°. Stand 17.09.2026: 49,8 kg -> 13/11/8.",
        "video": "https://www.youtube.com/watch?v=rqTOAM8WoeM",
        "videoNote": ""
       },
@@ -1958,15 +1945,15 @@
        "perSide": false,
        "detail": "",
        "raw": "A2 Band-Chest-Press stehend beidarmig 3x10-15",
-       "resistance": "Band DUNKELGRUEN (60-170 lbs)",
+       "resistance": "Band DUNKELGRUEN (60-170 lbs) | Haende maximal auf Schulterhoehe, einen halben Schritt weiter vom Anker als in W28",
        "resistanceLabel": "Chest-Press",
-       "description": "BAND: ROT (50-125 lbs). Band auf Brusthöhe hinter dir verankern, Schrittstellung, Rumpf fest. Beide Griffe auf Brusthöhe, dann BEIDE Arme gleichzeitig horizontal nach vorn ausdrücken - die Hände bleiben maximal auf Schulterhöhe, nie darüber. Langsam zurückführen, ohne dass die Schultern nach vorn kippen. Beidarmige Variante der einarmigen Version aus dem Juli-Plan; das Video zeigt einarmig, die Ausführung ist identisch, nur mit beiden Armen gleichzeitig.",
+       "description": "BAND: siehe Widerstandsangabe der Woche (Oktober: ROT in W27, DUNKELGRUEN ab W28). Band auf Brusthöhe hinter dir verankern, Schrittstellung, Rumpf fest. Beide Griffe auf Brusthöhe, dann BEIDE Arme gleichzeitig horizontal nach vorn ausdrücken - die Hände bleiben maximal auf Schulterhöhe, nie darüber. Langsam zurückführen, ohne dass die Schultern nach vorn kippen. Beidarmige Variante der einarmigen Version aus dem Juli-Plan; das Video zeigt einarmig, die Ausführung ist identisch, nur mit beiden Armen gleichzeitig.",
        "video": "https://www.youtube.com/watch?v=ssJcPFP47aw",
        "videoNote": "zeigt einarmig"
       }
      ],
      "pause": "Pause ~45s",
-     "note": "Pause ~45s",
+     "note": "BRUST RECHTS: Schmerz hoechstens 3/10 und am naechsten Morgen wieder auf Ausgangsniveau - sonst Satz beenden. Pause ~45s",
      "resistance": [
       {
        "label": "Langhantel-Rudern",
@@ -1974,7 +1961,7 @@
       },
       {
        "label": "Chest-Press",
-       "value": "Band DUNKELGRUEN (60-170 lbs)"
+       "value": "Band DUNKELGRUEN (60-170 lbs) | Haende maximal auf Schulterhoehe, einen halben Schritt weiter vom Anker als in W28"
       }
      ]
     },
@@ -1989,7 +1976,7 @@
        "perSide": false,
        "detail": "",
        "raw": "B1 Langhantel Romanian Deadlift 3x8-12",
-       "resistance": "Langhantel 51,8 kg gesamt (Stange 7,8 kg + je Seite 1x10 + 2x5 + 1x2) | ZUGHILFEN, 3 s exzentrisch",
+       "resistance": "Langhantel 53,8 kg gesamt (Stange 7,8 kg + je Seite 1x10 + 2x5 + 1x2 + 2x0,5) | ZUGHILFEN, 3 s exzentrisch",
        "resistanceLabel": "RDL",
        "description": "Hüfte nach hinten, Rücken neutral, Beinbeuger laden, Hüfte nach vorn strecken. Jetzt mit Langhantel bis 45,8 kg statt Kettlebell (KB-Version war zu leicht). Video getauscht am 16.08.2026: das alte zeigte die Kettlebell-Variante.",
        "video": "https://www.youtube.com/watch?v=xgusDooVfKU",
@@ -2003,23 +1990,23 @@
        "perSide": false,
        "detail": "",
        "raw": "B2 Band Face Pull 3x12-15",
-       "resistance": "Band ROT (50-125 lbs) | Ellbogen bleiben auf Schulterhoehe, NICHT hoeher",
+       "resistance": "Band DUNKELGRUEN (60-170 lbs) | Ellbogen bleiben auf Schulterhoehe, NICHT hoeher",
        "resistanceLabel": "Face Pull",
-       "description": "BAND: ROT (50-125 lbs). Band auf etwa Schulterhoehe verankern (Klimmzugstange, Tueranker). Beide Griffe fassen, Arme gestreckt nach vorn. Das Band zum Gesicht ziehen, dabei die ELLBOGEN NACH AUSSEN fuehren, Schulterblaetter nach hinten-unten. Die Ellbogen bleiben auf Schulterhoehe und gehen NICHT darueber - damit ist die 90-Grad-Regel eingehalten. Am Endpunkt kurz halten, langsam zurueck. WARUM DIESE UEBUNG: hintere Schulter und obere Ruecken-/Schulterblattmuskulatur. Die Bewegung ist horizontale ABduktion - also das Gegenteil des Musters, das das ACG reizt (horizontale Adduktion, Arm quer vor dem Koerper). Der einzige Schulterreiz im Plan, der die Arthrose eher entlastet.",
+       "description": "BAND: siehe Widerstandsangabe der Woche (Oktober: ROT in W27, DUNKELGRUEN ab W28). Band auf etwa Schulterhoehe verankern (Klimmzugstange, Tueranker). Beide Griffe fassen, Arme gestreckt nach vorn. Das Band zum Gesicht ziehen, dabei die ELLBOGEN NACH AUSSEN fuehren, Schulterblaetter nach hinten-unten. Die Ellbogen bleiben auf Schulterhoehe und gehen NICHT darueber - damit ist die 90-Grad-Regel eingehalten. Am Endpunkt kurz halten, langsam zurueck. WARUM DIESE UEBUNG: hintere Schulter und obere Ruecken-/Schulterblattmuskulatur. Die Bewegung ist horizontale ABduktion - also das Gegenteil des Musters, das das ACG reizt (horizontale Adduktion, Arm quer vor dem Koerper). Der einzige Schulterreiz im Plan, der die Arthrose eher entlastet.",
        "video": "",
        "videoNote": ""
       }
      ],
      "pause": "Pause ~45s",
-     "note": "Pause ~45s",
+     "note": "BRUST RECHTS: Schmerz hoechstens 3/10 und am naechsten Morgen wieder auf Ausgangsniveau - sonst Satz beenden. Pause ~45s",
      "resistance": [
       {
        "label": "RDL",
-       "value": "Langhantel 51,8 kg gesamt (Stange 7,8 kg + je Seite 1x10 + 2x5 + 1x2) | ZUGHILFEN, 3 s exzentrisch"
+       "value": "Langhantel 53,8 kg gesamt (Stange 7,8 kg + je Seite 1x10 + 2x5 + 1x2 + 2x0,5) | ZUGHILFEN, 3 s exzentrisch"
       },
       {
        "label": "Face Pull",
-       "value": "Band ROT (50-125 lbs) | Ellbogen bleiben auf Schulterhoehe, NICHT hoeher"
+       "value": "Band DUNKELGRUEN (60-170 lbs) | Ellbogen bleiben auf Schulterhoehe, NICHT hoeher"
       }
      ]
     },
@@ -2034,9 +2021,9 @@
        "perSide": false,
        "detail": "",
        "raw": "C1 Band Lateral Raise (bis ~80°) 3x10-12",
-       "resistance": "Band TUERKIS (20-35 lbs) | 3 s exzentrisch [ab W22 von LILA auf TUERKIS - NICHT dunkelgruen]",
+       "resistance": "Band GELB (30-50 lbs) | 3 s exzentrisch, Stopp bei ca. 80 Grad [ab W27 - kleinstmoeglicher Schritt nach TUERKIS. Schulter-Ampel nicht gruen -> zurueck auf TUERKIS]",
        "resistanceLabel": "Seitheben",
-       "description": "BAND: LILA (15-25 lbs). Auf das Band stellen, Arme leicht gebeugt seitlich anheben, STOPP bei ~80° (knapp unter Schulterhöhe), 2s halten, langsam ablassen. Leicht bleiben – Ziel ist der Erhalt der seitlichen Schultermuskulatur im schmerzfreien Bereich, ohne die 90°-Grenze zu reizen.",
+       "description": "BAND: siehe Widerstandsangabe der Woche (Oktober: TUERKIS in W26, GELB ab W27). Auf das Band stellen, Arme leicht gebeugt seitlich anheben, STOPP bei ~80° (knapp unter Schulterhöhe), 2s halten, langsam ablassen. Moderat bleiben – Ziel ist der Aufbau der seitlichen Schultermuskulatur im schmerzfreien Bereich, ohne die 90°-Grenze zu reizen.",
        "video": "https://www.youtube.com/watch?v=gfEyrmxbCbw",
        "videoNote": ""
       },
@@ -2056,11 +2043,11 @@
       }
      ],
      "pause": "Pause ~10s",
-     "note": "ALTERNIEREND als EIN Block: Satz C1, dann ein Satz D1 zur Erholung, Satz C1, Satz D1, Satz C1. Die Kraniozervikale Flexion fuellt genau die zwei Erholungsphasen von C1 (Frank, 08.09.2026). Pause ~10s (die Erholung IST der Satz der Gegenuebung)",
+     "note": "ALTERNIEREND als EIN Block: Satz C1, dann ein Satz D1 zur Erholung, Satz C1, Satz D1, Satz C1. Pause ~10s (die Erholung IST der Satz der Gegenuebung)",
      "resistance": [
       {
        "label": "Seitheben",
-       "value": "Band TUERKIS (20-35 lbs) | 3 s exzentrisch [ab W22 von LILA auf TUERKIS - NICHT dunkelgruen]"
+       "value": "Band GELB (30-50 lbs) | 3 s exzentrisch, Stopp bei ca. 80 Grad [ab W27 - kleinstmoeglicher Schritt nach TUERKIS. Schulter-Ampel nicht gruen -> zurueck auf TUERKIS]"
       },
       {
        "label": "Kraniozervikale Flexion",
@@ -2074,30 +2061,30 @@
     "resistance": "Goblet: KB 24 kg | + Gewichtsweste 10 kg (Einzeluebung, einmal anlegen)"
    },
    "optional": {
-    "text": "Band-Bizeps-Curl 2x12-15 und/oder Band-Trizeps-Pushdown 2x12-15 - nur wenn du unter 40 min geblieben bist.",
-    "resistance": "beide Band DUNKELGRUEN (60-170 lbs)"
+    "text": "Band-Trizeps-Pushdown 2x12-15 und/oder Band-Bizeps-Curl 2x12-15 - nur wenn du unter 40 min geblieben bist.",
+    "resistance": "Band DUNKELGRUEN (60-170 lbs)"
    },
    "equipment": [
     {
      "gerät": "Langhantel",
      "items": [
       "Langhantel 50,8 kg gesamt (Stange 7,8 kg + je Seite 1x10 + 1x5 + 3x2 + 1x0,5) (Langhantel-Rudern)",
-      "Langhantel 51,8 kg gesamt (Stange 7,8 kg + je Seite 1x10 + 2x5 + 1x2) | ZUGHILFEN, 3 s exzentrisch (RDL)"
+      "Langhantel 53,8 kg gesamt (Stange 7,8 kg + je Seite 1x10 + 2x5 + 1x2 + 2x0,5) | ZUGHILFEN, 3 s exzentrisch (RDL)"
      ]
     },
     {
      "gerät": "Bänder",
      "items": [
-      "Band DUNKELGRUEN (60-170 lbs) (Chest-Press)",
-      "Band ROT (50-125 lbs) | Ellbogen bleiben auf Schulterhoehe, NICHT hoeher (Face Pull)",
-      "Band TUERKIS (20-35 lbs) | 3 s exzentrisch [ab W22 von LILA auf TUERKIS - NICHT dunkelgruen] (Seitheben)"
+      "Band DUNKELGRUEN (60-170 lbs) | Ellbogen bleiben auf Schulterhoehe, NICHT hoeher (Face Pull)",
+      "Band DUNKELGRUEN (60-170 lbs) | Haende maximal auf Schulterhoehe, einen halben Schritt weiter vom Anker als in W28 (Chest-Press)",
+      "Band GELB (30-50 lbs) | 3 s exzentrisch, Stopp bei ca. 80 Grad [ab W27 - kleinstmoeglicher Schritt nach TUERKIS. Schulter-Ampel nicht gruen -> zurueck auf TUERKIS] (Seitheben)"
      ]
     }
    ]
   },
   {
    "day": "Sa",
-   "week": 24,
+   "week": 29,
    "warmup": [
     {
      "name": "Fussgelenke und Waden mobilisieren",
@@ -2125,14 +2112,14 @@
       {
        "code": "A1",
        "name": "Treppen-Aufstieg all-out",
-       "sets": 12,
+       "sets": 14,
        "targetReps": "1",
        "perSide": false,
        "detail": "",
-       "raw": "A1 Treppen-Aufstieg all-out 12x1",
-       "resistance": "4 Stockwerke = 10-12 Hoehenmeter, zwei Stufen auf einmal | + Gewichtsweste 15 kg | ZIELPULS am Ende jedes Aufstiegs: 155-163 bpm (90-95 % von HFmax 172). Beim Abstieg NICHT unter 130 bpm fallen lassen.",
+       "raw": "A1 Treppen-Aufstieg all-out 14x1",
+       "resistance": "4 Stockwerke = 10-12 Hoehenmeter, zwei Stufen auf einmal | + Gewichtsweste 15 kg | ZIELPULS am Ende jedes Aufstiegs: 155-163 bpm (88-92 % von HFmax 177; nach dem Schwindel-Ereignis vom 14.09.2026 bewusst NICHT angehoben). Beim Abstieg NICHT unter 130 bpm fallen lassen.",
        "resistanceLabel": "Treppen-Aufstieg",
-       "description": "Repeated Sprint Training im eigenen Treppenhaus. Vier Stockwerke a 2,5-3 m = 10-12 Hoehenmeter je Aufstieg. AUFSTIEG: all-out, zwei Stufen auf einmal, Arme frei mitschwingen lassen (bleiben unter Schulterhoehe, 90-Grad-Regel unberuehrt). ABSTIEG: im GEHEN, das ist die Pause - nicht laufen. Kein Stehenbleiben oben oder unten, direkt umdrehen. STEUERUNG UEBER DEN PULS, nicht ueber die Uhr: am Ende jedes Aufstiegs 155-163 bpm (90-95 % von HFmax 172), beim Abstieg nicht unter 130 bpm fallen lassen. Faellt der Puls tiefer: erst zwei Stufen auf einmal, dann zuegiger absteigen, erst zuletzt Gewichtsweste dazu. ERSETZT die urspruenglich geplanten 4x4-min-Intervalle: bei nur vier Stockwerken waere die Haelfte der Arbeitszeit Abstieg gewesen, das Protokoll von Helgerud ist so nicht nachbaubar. WARNUNG: Treppab ist exzentrische Quadrizeps-Belastung und der klassische Muskelkater-Ausloeser - am Montag ist Kendo. Erste zwei bis drei Wochen bewusst langsam absteigen. Hand in Gelaendernaehe, bei hohem Puls ist der Fehltritt real.",
+       "description": "Repeated Sprint Training im eigenen Treppenhaus. Vier Stockwerke a 2,5-3 m = 10-12 Hoehenmeter je Aufstieg. AUFSTIEG: all-out, zwei Stufen auf einmal, Arme frei mitschwingen lassen (bleiben unter Schulterhoehe, 90-Grad-Regel unberuehrt). ABSTIEG: im GEHEN, das ist die Pause - nicht laufen. Kein Stehenbleiben oben oder unten, direkt umdrehen. STEUERUNG UEBER DEN PULS, nicht ueber die Uhr: am Ende jedes Aufstiegs 155-163 bpm (88-92 % von HFmax 177; nach dem Schwindel-Ereignis vom 14.09.2026 bewusst NICHT angehoben), beim Abstieg nicht unter 130 bpm fallen lassen. Faellt der Puls tiefer: erst zwei Stufen auf einmal, dann zuegiger absteigen, erst zuletzt Gewichtsweste dazu. ERSETZT die urspruenglich geplanten 4x4-min-Intervalle: bei nur vier Stockwerken waere die Haelfte der Arbeitszeit Abstieg gewesen, das Protokoll von Helgerud ist so nicht nachbaubar. WARNUNG: Treppab ist exzentrische Quadrizeps-Belastung und der klassische Muskelkater-Ausloeser - am Montag ist Kendo. Erste zwei bis drei Wochen bewusst langsam absteigen. Hand in Gelaendernaehe, bei hohem Puls ist der Fehltritt real.",
        "video": "",
        "videoNote": ""
       }
@@ -2142,7 +2129,7 @@
      "resistance": [
       {
        "label": "Treppen-Aufstieg",
-       "value": "4 Stockwerke = 10-12 Hoehenmeter, zwei Stufen auf einmal | + Gewichtsweste 15 kg | ZIELPULS am Ende jedes Aufstiegs: 155-163 bpm (90-95 % von HFmax 172). Beim Abstieg NICHT unter 130 bpm fallen lassen."
+       "value": "4 Stockwerke = 10-12 Hoehenmeter, zwei Stufen auf einmal | + Gewichtsweste 15 kg | ZIELPULS am Ende jedes Aufstiegs: 155-163 bpm (88-92 % von HFmax 177; nach dem Schwindel-Ereignis vom 14.09.2026 bewusst NICHT angehoben). Beim Abstieg NICHT unter 130 bpm fallen lassen."
       }
      ]
     },
@@ -2157,7 +2144,7 @@
        "perSide": false,
        "detail": "",
        "raw": "B1 Liegestütz exzentrisch (nur ablassen) 3x10",
-       "resistance": "Eigengewicht | Haende UEBERSCHULTERBREIT, Ellbogen ca. 45 Grad zum Rumpf, 6 s ablassen, FUESSE ERHOEHT (Stufe oder Kasten, ca. 20-30 cm), unten kurz auf dem Boden ablegen, KEIN Hochdrücken - auf den Knien zurueck",
+       "resistance": "Eigengewicht | Haende UEBERSCHULTERBREIT, Ellbogen ca. 45 Grad zum Rumpf, 6 s ablassen, unten kurz auf dem Boden ablegen, KEIN Hochdrücken - auf den Knien zurueck",
        "resistanceLabel": "Liegestütz",
        "description": "Vom Krankengymnasten gezeigt und dort erprobt. Liegestuetzposition am Boden, Haende DEUTLICH UEBERSCHULTERBREIT, Ellbogen ca. 45 Grad zum Rumpf (nicht seitlich ausgestellt, nicht eng am Koerper). Rumpf und Gesaess fest, der Koerper bleibt eine Linie. NUR die Absenkphase: 4 Sekunden langsam und kontrolliert bis zum Boden. Unten kurz ablegen. NICHT wieder hochdruecken - stattdessen auf die Knie gehen und so in die Ausgangsposition zurueck. 10 Wiederholungen, 3 Saetze. Die Arme bleiben durchgehend unter Schulterhoehe, die 90-Grad-Regel ist eingehalten. Steigerung spaeter ueber Tempo (5-6 s) oder Fuesse erhoeht - NICHT ueber die Gewichtsweste.",
        "video": "https://www.youtube.com/watch?v=1JsPD1_7nX0",
@@ -2165,11 +2152,11 @@
       }
      ],
      "pause": "Pause ~60s",
-     "note": "Pause ~60s",
+     "note": "BRUST RECHTS: Schmerz hoechstens 3/10 und am naechsten Morgen wieder auf Ausgangsniveau - sonst Satz beenden. Pause ~60s",
      "resistance": [
       {
        "label": "Liegestütz",
-       "value": "Eigengewicht | Haende UEBERSCHULTERBREIT, Ellbogen ca. 45 Grad zum Rumpf, 6 s ablassen, FUESSE ERHOEHT (Stufe oder Kasten, ca. 20-30 cm), unten kurz auf dem Boden ablegen, KEIN Hochdrücken - auf den Knien zurueck"
+       "value": "Eigengewicht | Haende UEBERSCHULTERBREIT, Ellbogen ca. 45 Grad zum Rumpf, 6 s ablassen, unten kurz auf dem Boden ablegen, KEIN Hochdrücken - auf den Knien zurueck"
       }
      ]
     },
@@ -2184,9 +2171,9 @@
        "perSide": false,
        "detail": "",
        "raw": "C1 Band Face Pull 3x12-15",
-       "resistance": "Band ROT (50-125 lbs) | Ellbogen auf Schulterhoehe, nicht hoeher",
+       "resistance": "Band DUNKELGRUEN (60-170 lbs) | Ellbogen auf Schulterhoehe, nicht hoeher",
        "resistanceLabel": "Face Pull",
-       "description": "BAND: ROT (50-125 lbs). Band auf etwa Schulterhoehe verankern (Klimmzugstange, Tueranker). Beide Griffe fassen, Arme gestreckt nach vorn. Das Band zum Gesicht ziehen, dabei die ELLBOGEN NACH AUSSEN fuehren, Schulterblaetter nach hinten-unten. Die Ellbogen bleiben auf Schulterhoehe und gehen NICHT darueber - damit ist die 90-Grad-Regel eingehalten. Am Endpunkt kurz halten, langsam zurueck. WARUM DIESE UEBUNG: hintere Schulter und obere Ruecken-/Schulterblattmuskulatur. Die Bewegung ist horizontale ABduktion - also das Gegenteil des Musters, das das ACG reizt (horizontale Adduktion, Arm quer vor dem Koerper). Der einzige Schulterreiz im Plan, der die Arthrose eher entlastet.",
+       "description": "BAND: siehe Widerstandsangabe der Woche (Oktober: ROT in W27, DUNKELGRUEN ab W28). Band auf etwa Schulterhoehe verankern (Klimmzugstange, Tueranker). Beide Griffe fassen, Arme gestreckt nach vorn. Das Band zum Gesicht ziehen, dabei die ELLBOGEN NACH AUSSEN fuehren, Schulterblaetter nach hinten-unten. Die Ellbogen bleiben auf Schulterhoehe und gehen NICHT darueber - damit ist die 90-Grad-Regel eingehalten. Am Endpunkt kurz halten, langsam zurueck. WARUM DIESE UEBUNG: hintere Schulter und obere Ruecken-/Schulterblattmuskulatur. Die Bewegung ist horizontale ABduktion - also das Gegenteil des Musters, das das ACG reizt (horizontale Adduktion, Arm quer vor dem Koerper). Der einzige Schulterreiz im Plan, der die Arthrose eher entlastet.",
        "video": "",
        "videoNote": ""
       },
@@ -2206,11 +2193,11 @@
       }
      ],
      "pause": "Pause ~10s",
-     "note": "ALTERNIEREND als EIN Block: Satz C1, dann ein Satz D1 zur Erholung, Satz C1, Satz D1, Satz C1. Die Kraniozervikale Flexion fuellt genau die zwei Erholungsphasen von C1 (Frank, 08.09.2026). Pause ~10s (die Erholung IST der Satz der Gegenuebung)",
+     "note": "BRUST RECHTS: Schmerz hoechstens 3/10 und am naechsten Morgen wieder auf Ausgangsniveau - sonst Satz beenden. ALTERNIEREND als EIN Block: Satz C1, dann ein Satz D1 zur Erholung, Satz C1, Satz D1, Satz C1. Pause ~10s (die Erholung IST der Satz der Gegenuebung)",
      "resistance": [
       {
        "label": "Face Pull",
-       "value": "Band ROT (50-125 lbs) | Ellbogen auf Schulterhoehe, nicht hoeher"
+       "value": "Band DUNKELGRUEN (60-170 lbs) | Ellbogen auf Schulterhoehe, nicht hoeher"
       },
       {
        "label": "Kraniozervikale Flexion",
@@ -2228,13 +2215,13 @@
     {
      "gerät": "Bänder",
      "items": [
-      "Band ROT (50-125 lbs) | Ellbogen auf Schulterhoehe, nicht hoeher (Face Pull)"
+      "Band DUNKELGRUEN (60-170 lbs) | Ellbogen auf Schulterhoehe, nicht hoeher (Face Pull)"
      ]
     },
     {
      "gerät": "Sonstiges",
      "items": [
-      "4 Stockwerke = 10-12 Hoehenmeter, zwei Stufen auf einmal | + Gewichtsweste 15 kg | ZIELPULS am Ende jedes Aufstiegs: 155-163 bpm (90-95 % von HFmax 172). Beim Abstieg NICHT unter 130 bpm fallen lassen. (Treppen-Aufstieg)"
+      "4 Stockwerke = 10-12 Hoehenmeter, zwei Stufen auf einmal | + Gewichtsweste 15 kg | ZIELPULS am Ende jedes Aufstiegs: 155-163 bpm (88-92 % von HFmax 177; nach dem Schwindel-Ereignis vom 14.09.2026 bewusst NICHT angehoben). Beim Abstieg NICHT unter 130 bpm fallen lassen. (Treppen-Aufstieg)"
      ]
     }
    ]
@@ -2255,31 +2242,31 @@
   },
   {
    "name": "Kurzhantel Floor Press (neutraler Griff)",
-   "description": "ZURUECK IM PLAN AB W21 (Dienstag, B2) - jetzt mit 2x21 kg statt 2x17 kg, deshalb Zielbereich 6-10 statt 8-12. Rückenlage, Knie angestellt, in jeder Hand eine Kurzhantel mit neutralem Griff (Handflächen zueinander) über der Brust ausdrücken, Ellbogen ~45° vom Körper. Langsam ablassen, bis der Trizeps den Boden berührt – der Boden begrenzt die Bewegung und schützt das AC-Gelenk – kurz pausieren, dann hochdrücken. Ersetzt den KB Floor Press: Die Kurzhantel-Last liegt zentriert über der Handwurzel, das Handgelenk bleibt gerade (KB-Version war fürs Handgelenk schmerzhaft). Brust-/Trizeps-Hauptübung, 2x pro Woche (Di + Sa).",
+   "description": "OKTOBER 2026: Last und Zielbereich steigen nach der Brustzerrung stufenweise (2x12 -> 2x16 -> 2x20 kg) - massgeblich ist die Widerstandsangabe der Woche. Rückenlage, Knie angestellt, in jeder Hand eine Kurzhantel mit neutralem Griff (Handflächen zueinander) über der Brust ausdrücken, Ellbogen ~45° vom Körper. Langsam ablassen, bis der Trizeps den Boden berührt – der Boden begrenzt die Bewegung und schützt das AC-Gelenk – kurz pausieren, dann hochdrücken. Ersetzt den KB Floor Press: Die Kurzhantel-Last liegt zentriert über der Handwurzel, das Handgelenk bleibt gerade (KB-Version war fürs Handgelenk schmerzhaft). Brust-/Trizeps-Hauptübung, 1x pro Woche (Di).",
    "video": "https://www.youtube.com/watch?v=rs05AtccEhg",
    "videoNote": ""
   },
   {
    "name": "Band-Bizeps-Curl",
-   "description": "BAND: ORANGE (40-80 lbs). Auf das Band stellen (ein oder beide Füße = Widerstand wählen), Ellbogen fest an den Seiten. Unterarme nach oben curlen, oben kurz anspannen, langsam (2-3s) ablassen. Nur der Unterarm bewegt sich – kein Schwung aus Schulter oder Rücken. Ersetzt das Bizeps-Volumen der weggefallenen Klimmzüge.",
+   "description": "BAND: DUNKELGRUEN (60-170 lbs) - am 25.08. 15/13/13. Auf das Band stellen, Ellbogen fest an den Seiten. Unterarme nach oben curlen, oben kurz anspannen, langsam (2-3 s) ablassen. Nur der Unterarm bewegt sich - kein Schwung aus Schulter oder Ruecken.",
    "video": "https://www.youtube.com/watch?v=Da57AuIofvU",
    "videoNote": ""
   },
   {
    "name": "Band-Trizeps-Pushdown",
-   "description": "BAND: ORANGE (40-80 lbs). Band oben verankern (z.B. Klimmzugstange). Ellbogen eng am Körper fixieren, Unterarme nach unten strecken bis die Arme gestreckt sind, Trizeps unten fest anspannen, langsam zurück. Oberarme bewegen sich nicht. Arm bleibt komplett unten – ideal bei 90°-Regel.",
+   "description": "BAND: DUNKELGRUEN (60-170 lbs) - ROT war mit 16/20/20 zu leicht. Band oben verankern (Klimmzugstange). Ellbogen eng am Koerper fixieren, Unterarme nach unten strecken, Trizeps unten anspannen, langsam zurueck. Oberarme bewegen sich nicht. Arm bleibt komplett unten.",
    "video": "https://www.youtube.com/watch?v=qjPN6ElNqpc",
    "videoNote": ""
   },
   {
    "name": "Band Lateral Raise (bis ~80°)",
-   "description": "BAND: LILA (15-25 lbs). Auf das Band stellen, Arme leicht gebeugt seitlich anheben, STOPP bei ~80° (knapp unter Schulterhöhe), 2s halten, langsam ablassen. Leicht bleiben – Ziel ist der Erhalt der seitlichen Schultermuskulatur im schmerzfreien Bereich, ohne die 90°-Grenze zu reizen.",
+   "description": "BAND: siehe Widerstandsangabe der Woche (Oktober: TUERKIS in W26, GELB ab W27). Auf das Band stellen, Arme leicht gebeugt seitlich anheben, STOPP bei ~80° (knapp unter Schulterhöhe), 2s halten, langsam ablassen. Moderat bleiben – Ziel ist der Aufbau der seitlichen Schultermuskulatur im schmerzfreien Bereich, ohne die 90°-Grenze zu reizen.",
    "video": "https://www.youtube.com/watch?v=gfEyrmxbCbw",
    "videoNote": ""
   },
   {
    "name": "Langhantel-Rudern vorgebeugt",
-   "description": "Hüftbreiter Stand, Langhantel im Obergriff. Hüfte nach hinten schieben (Hip Hinge), Oberkörper ~45° oder tiefer, Rücken neutral, Rumpf fest. Die Stange zum Bauchnabel ziehen, Ellbogen nah am Körper, Schulterblätter nach hinten-unten; langsam ablassen, kein Schwung. Schwere beidarmige Zugübung als Ergänzung zum einarmigen KB-Rudern – Arme bleiben unter 90°. Zyklus Aug: 35,8 kg (W16) bis 39,8 kg (W19).",
+   "description": "Hüftbreiter Stand, Langhantel im Obergriff. Hüfte nach hinten schieben (Hip Hinge), Oberkörper ~45° oder tiefer, Rücken neutral, Rumpf fest. Die Stange zum Bauchnabel ziehen, Ellbogen nah am Körper, Schulterblätter nach hinten-unten; langsam ablassen, kein Schwung. Schwere beidarmige Zugübung als Ergänzung zum einarmigen KB-Rudern – Arme bleiben unter 90°. Stand 17.09.2026: 49,8 kg -> 13/11/8.",
    "video": "https://www.youtube.com/watch?v=rqTOAM8WoeM",
    "videoNote": ""
   },
@@ -2291,7 +2278,7 @@
   },
   {
    "name": "Band-Chest-Press stehend beidarmig",
-   "description": "BAND: ROT (50-125 lbs). Band auf Brusthöhe hinter dir verankern, Schrittstellung, Rumpf fest. Beide Griffe auf Brusthöhe, dann BEIDE Arme gleichzeitig horizontal nach vorn ausdrücken - die Hände bleiben maximal auf Schulterhöhe, nie darüber. Langsam zurückführen, ohne dass die Schultern nach vorn kippen. Beidarmige Variante der einarmigen Version aus dem Juli-Plan; das Video zeigt einarmig, die Ausführung ist identisch, nur mit beiden Armen gleichzeitig.",
+   "description": "BAND: siehe Widerstandsangabe der Woche (Oktober: ROT in W27, DUNKELGRUEN ab W28). Band auf Brusthöhe hinter dir verankern, Schrittstellung, Rumpf fest. Beide Griffe auf Brusthöhe, dann BEIDE Arme gleichzeitig horizontal nach vorn ausdrücken - die Hände bleiben maximal auf Schulterhöhe, nie darüber. Langsam zurückführen, ohne dass die Schultern nach vorn kippen. Beidarmige Variante der einarmigen Version aus dem Juli-Plan; das Video zeigt einarmig, die Ausführung ist identisch, nur mit beiden Armen gleichzeitig.",
    "video": "https://www.youtube.com/watch?v=ssJcPFP47aw",
    "videoNote": "zeigt einarmig"
   },
@@ -2309,7 +2296,7 @@
   },
   {
    "name": "Goblet Squat (v2: Quadrizeps-Kraftausdauer)",
-   "description": "KB 24 kg vor der Brust auf Hoehe des Brustbeins, Ellbogen zeigen nach unten (Schulter unbeteiligt, weit unter 90 Grad). Fuesse schulterbreit, Zehen leicht nach aussen. 3 SEKUNDEN kontrolliert abwaerts, volle schmerzfreie Tiefe, ohne Halten direkt wieder hoch. 2x12. ERGAENZT den Kurzhantel-Squat (Koffergriff), ersetzt ihn NICHT: der Koffergriff laedt mit 2x20-21 kg deutlich mehr Gesamtgewicht, der Goblet dagegen haelt den Oberkoerper aufrecht und verlagert die Last staerker auf den Quadrizeps. Genau der brennt bei Frank im Jigeiko. ZEITKOSTEN: 48 s je Satz statt 30 s wegen der Exzentrik - bei zwei Saetzen plus Pause rund 2,5 min. Deshalb 2x12 und kein Halten unten; die Variante mit 3 s ab plus 2 s halten haette 6,5 min gekostet.",
+   "description": "KB 24 kg vor der Brust auf Hoehe des Brustbeins, Ellbogen zeigen nach unten (Schulter unbeteiligt, weit unter 90 Grad). Fuesse schulterbreit, Zehen leicht nach aussen. 3 SEKUNDEN kontrolliert abwaerts, volle schmerzfreie Tiefe, ohne Halten direkt wieder hoch. 2x10. ERGAENZT den Kurzhantel-Squat (Koffergriff), ersetzt ihn NICHT: der Koffergriff laedt mit 2x20-21 kg deutlich mehr Gesamtgewicht, der Goblet dagegen haelt den Oberkoerper aufrecht und verlagert die Last staerker auf den Quadrizeps. Genau der brennt bei Frank im Jigeiko. ZEITKOSTEN: 48 s je Satz statt 30 s wegen der Exzentrik - bei zwei Saetzen plus Pause rund 2,5 min. Deshalb 2x12 und kein Halten unten; die Variante mit 3 s ab plus 2 s halten haette 6,5 min gekostet.",
    "video": "https://www.youtube.com/watch?v=MWHIs0zxkCU",
    "videoNote": ""
   },
@@ -2351,7 +2338,7 @@
   },
   {
    "name": "Treppen-Aufstieg (RST)",
-   "description": "Repeated Sprint Training im eigenen Treppenhaus. Vier Stockwerke a 2,5-3 m = 10-12 Hoehenmeter je Aufstieg. AUFSTIEG: all-out, zwei Stufen auf einmal, Arme frei mitschwingen lassen (bleiben unter Schulterhoehe, 90-Grad-Regel unberuehrt). ABSTIEG: im GEHEN, das ist die Pause - nicht laufen. Kein Stehenbleiben oben oder unten, direkt umdrehen. STEUERUNG UEBER DEN PULS, nicht ueber die Uhr: am Ende jedes Aufstiegs 155-163 bpm (90-95 % von HFmax 172), beim Abstieg nicht unter 130 bpm fallen lassen. Faellt der Puls tiefer: erst zwei Stufen auf einmal, dann zuegiger absteigen, erst zuletzt Gewichtsweste dazu. ERSETZT die urspruenglich geplanten 4x4-min-Intervalle: bei nur vier Stockwerken waere die Haelfte der Arbeitszeit Abstieg gewesen, das Protokoll von Helgerud ist so nicht nachbaubar. WARNUNG: Treppab ist exzentrische Quadrizeps-Belastung und der klassische Muskelkater-Ausloeser - am Montag ist Kendo. Erste zwei bis drei Wochen bewusst langsam absteigen. Hand in Gelaendernaehe, bei hohem Puls ist der Fehltritt real.",
+   "description": "Repeated Sprint Training im eigenen Treppenhaus. Vier Stockwerke a 2,5-3 m = 10-12 Hoehenmeter je Aufstieg. AUFSTIEG: all-out, zwei Stufen auf einmal, Arme frei mitschwingen lassen (bleiben unter Schulterhoehe, 90-Grad-Regel unberuehrt). ABSTIEG: im GEHEN, das ist die Pause - nicht laufen. Kein Stehenbleiben oben oder unten, direkt umdrehen. STEUERUNG UEBER DEN PULS, nicht ueber die Uhr: am Ende jedes Aufstiegs 155-163 bpm (88-92 % von HFmax 177; nach dem Schwindel-Ereignis vom 14.09.2026 bewusst NICHT angehoben), beim Abstieg nicht unter 130 bpm fallen lassen. Faellt der Puls tiefer: erst zwei Stufen auf einmal, dann zuegiger absteigen, erst zuletzt Gewichtsweste dazu. ERSETZT die urspruenglich geplanten 4x4-min-Intervalle: bei nur vier Stockwerken waere die Haelfte der Arbeitszeit Abstieg gewesen, das Protokoll von Helgerud ist so nicht nachbaubar. WARNUNG: Treppab ist exzentrische Quadrizeps-Belastung und der klassische Muskelkater-Ausloeser - am Montag ist Kendo. Erste zwei bis drei Wochen bewusst langsam absteigen. Hand in Gelaendernaehe, bei hohem Puls ist der Fehltritt real.",
    "video": "",
    "videoNote": ""
   },
@@ -2375,7 +2362,7 @@
   },
   {
    "name": "Band Face Pull",
-   "description": "BAND: ROT (50-125 lbs). Band auf etwa Schulterhoehe verankern (Klimmzugstange, Tueranker). Beide Griffe fassen, Arme gestreckt nach vorn. Das Band zum Gesicht ziehen, dabei die ELLBOGEN NACH AUSSEN fuehren, Schulterblaetter nach hinten-unten. Die Ellbogen bleiben auf Schulterhoehe und gehen NICHT darueber - damit ist die 90-Grad-Regel eingehalten. Am Endpunkt kurz halten, langsam zurueck. WARUM DIESE UEBUNG: hintere Schulter und obere Ruecken-/Schulterblattmuskulatur. Die Bewegung ist horizontale ABduktion - also das Gegenteil des Musters, das das ACG reizt (horizontale Adduktion, Arm quer vor dem Koerper). Der einzige Schulterreiz im Plan, der die Arthrose eher entlastet.",
+   "description": "BAND: siehe Widerstandsangabe der Woche (Oktober: ROT in W27, DUNKELGRUEN ab W28). Band auf etwa Schulterhoehe verankern (Klimmzugstange, Tueranker). Beide Griffe fassen, Arme gestreckt nach vorn. Das Band zum Gesicht ziehen, dabei die ELLBOGEN NACH AUSSEN fuehren, Schulterblaetter nach hinten-unten. Die Ellbogen bleiben auf Schulterhoehe und gehen NICHT darueber - damit ist die 90-Grad-Regel eingehalten. Am Endpunkt kurz halten, langsam zurueck. WARUM DIESE UEBUNG: hintere Schulter und obere Ruecken-/Schulterblattmuskulatur. Die Bewegung ist horizontale ABduktion - also das Gegenteil des Musters, das das ACG reizt (horizontale Adduktion, Arm quer vor dem Koerper). Der einzige Schulterreiz im Plan, der die Arthrose eher entlastet.",
    "video": "",
    "videoNote": ""
   },
@@ -2388,6 +2375,24 @@
   {
    "name": "Physio 2 - Seitlage-Aussenrotation rechts",
    "description": "Warm-up-Uebung, vom Physiotherapeuten vorgegeben. Auf der LINKEN Seite liegen. Rechter Arm oben, Ellbogen 90 Grad gebeugt und fest am Koerper angelegt (ein zusammengerolltes Handtuch zwischen Ellbogen und Rippen hilft). Mit 2 kg (oder mehr) den Unterarm langsam nach oben rotieren, kurz halten, langsam ablassen. Der Oberarm bewegt sich NICHT, nur der Unterarm. 60 s, ca. 10-12 Wiederholungen. Klassische Aussenrotatoren-Kraeftigung - Rotatorenmanschette laut MRT vom 30.06.2026 intakt, diese Uebung haelt sie es.",
+   "video": "",
+   "videoNote": ""
+  },
+  {
+   "name": "Isometrisches Brustdrücken (Wand)",
+   "description": "Reha-Uebung fuer die Brustzerrung (W26). Schrittstellung vor einer Wand oder im Tuerrahmen, beide Haende flach auf Brusthoehe, Haende etwas ueberschulterbreit, Ellbogen ca. 45 Grad zum Rumpf - dieselbe Armposition wie beim Physio-Liegestuetz. Dann gegen die Wand druecken, OHNE dass sich etwas bewegt: 10 s halten, 3-5 s locker lassen, 5 Wiederholungen = 1 Satz. Kraft ueber die Woche steigern: Di ca. 30-50 %, Do 50-70 %, Sa 70-100 %. Schmerz rechts hoechstens 3/10. Keine Dehnung, deshalb die Arme NICHT weiter nach hinten nehmen als in der Ausgangsstellung.",
+   "video": "",
+   "videoNote": ""
+  },
+  {
+   "name": "Liegestütz exzentrisch auf den Knien",
+   "description": "Zwischenstufe fuer den Wiedereinstieg nach der Brustzerrung (W27). Technik exakt wie der Physio-Liegestuetz (Haende deutlich ueberschulterbreit, Ellbogen ca. 45 Grad, nur ablassen, unten ablegen, NICHT hochdruecken), aber die Knie bleiben am Boden. Koerper von den Knien bis zum Kopf eine Linie. Das reduziert die Last etwa um ein Drittel.",
+   "video": "",
+   "videoNote": ""
+  },
+  {
+   "name": "Weste-Squat",
+   "description": "Kniebeuge mit Gewichtsweste 20 kg, Haende an den Hueften - ersetzt in W26 den Goblet Squat, weil das Halten der Kettlebell vor der Brust den Brustmuskel isometrisch mitarbeiten laesst. 3 s abwaerts, volle schmerzfreie Tiefe, ohne Halten wieder hoch.",
    "video": "",
    "videoNote": ""
   }
