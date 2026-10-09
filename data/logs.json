@@ -1775,6 +1775,80 @@
    },
    "sessionNote": "",
    "savedAt": "2026-10-06T15:39:36.831Z"
+  },
+  "2026-10-08": {
+   "date": "2026-10-08",
+   "week": 26,
+   "day": "Do",
+   "entries": {
+    "A1": {
+     "name": "Langhantel-Rudern vorgebeugt",
+     "target": "3x6-10",
+     "resistance": "Langhantel 49,8 kg gesamt (Stange 7,8 kg + je Seite 1x10 + 2x5 + 2x0,5)",
+     "reps": [
+      "13",
+      "11",
+      "9"
+     ],
+     "note": ""
+    },
+    "A2": {
+     "name": "Isometrisches Brustdrücken",
+     "target": "3x5",
+     "resistance": "Wand oder Tuerrahmen, Haende auf Brusthoehe, Ellbogen ca. 45 Grad | je Wdh. 10 s halten, ca. 50-70 % Kraft",
+     "reps": [
+      "10",
+      "10",
+      "10"
+     ],
+     "note": ""
+    },
+    "B1": {
+     "name": "Langhantel Romanian Deadlift",
+     "target": "3x8-12",
+     "resistance": "Langhantel 51,8 kg gesamt (Stange 7,8 kg + je Seite 1x10 + 2x5 + 1x2) | ZUGHILFEN, 3 s exzentrisch",
+     "reps": [
+      "12",
+      "11",
+      "11"
+     ],
+     "note": ""
+    },
+    "B2": {
+     "name": "Band-Rudern beidarmig",
+     "target": "3x12-15",
+     "resistance": "Band ROT (50-125 lbs) | Ellbogen eng am Koerper, Endstellung OHNE Zug in der rechten Brust",
+     "reps": [
+      "15",
+      "15",
+      "15"
+     ],
+     "note": ""
+    },
+    "C1": {
+     "name": "Band Lateral Raise (bis ~80°)",
+     "target": "3x10-12",
+     "resistance": "Band TUERKIS (20-35 lbs) | 3 s exzentrisch, Stopp bei ca. 80 Grad",
+     "reps": [
+      "17",
+      "15",
+      "14"
+     ],
+     "note": "3s langsam hoch, 3s langsam runter!"
+    },
+    "D1": {
+     "name": "Kraniozervikale Flexion",
+     "target": "2x10",
+     "resistance": "duenne Handtuchrolle unter dem Hinterkopf (Eigengewicht)",
+     "reps": [
+      "15",
+      "15"
+     ],
+     "note": ""
+    }
+   },
+   "sessionNote": "Training einen Tag später wg. Ermüdung nach Kendo am Mittwoch",
+   "savedAt": "2026-10-09T08:02:54.364Z"
   }
  }
 }
