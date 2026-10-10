@@ -1849,6 +1849,67 @@
    },
    "sessionNote": "Training einen Tag später wg. Ermüdung nach Kendo am Mittwoch",
    "savedAt": "2026-10-09T08:02:54.364Z"
+  },
+  "2026-10-10": {
+   "date": "2026-10-10",
+   "week": 26,
+   "day": "Sa",
+   "entries": {
+    "A1": {
+     "name": "Treppen-Aufstieg all-out",
+     "target": "12x1",
+     "resistance": "4 Stockwerke = 10-12 Hoehenmeter, zwei Stufen auf einmal | + Gewichtsweste 15 kg | ZIELPULS am Ende jedes Aufstiegs: 155-163 bpm (88-92 % von HFmax 177; nach dem Schwindel-Ereignis vom 14.09.2026 bewusst NICHT angehoben). Beim Abstieg NICHT unter 130 bpm fallen lassen.",
+     "reps": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12"
+     ],
+     "note": "Weak start, strong finish"
+    },
+    "B1": {
+     "name": "Isometrisches Brustdrücken",
+     "target": "3x5",
+     "resistance": "Wand oder Tuerrahmen, Haende auf Brusthoehe, Ellbogen ca. 45 Grad | je Wdh. 10 s halten, ca. 70-100 % Kraft = GATE-TEST fuer W27",
+     "reps": [
+      "10",
+      "10",
+      "10"
+     ],
+     "note": ""
+    },
+    "C1": {
+     "name": "Band-Rudern beidarmig",
+     "target": "3x12-15",
+     "resistance": "Band ROT (50-125 lbs) | Ellbogen eng am Koerper, Endstellung OHNE Zug in der rechten Brust",
+     "reps": [
+      "20",
+      "20",
+      "20"
+     ],
+     "note": ""
+    },
+    "D1": {
+     "name": "Kraniozervikale Flexion",
+     "target": "2x10",
+     "resistance": "duenne Handtuchrolle unter dem Hinterkopf (Eigengewicht)",
+     "reps": [
+      "15",
+      "15"
+     ],
+     "note": ""
+    }
+   },
+   "sessionNote": "",
+   "savedAt": "2026-10-10T14:08:19.666Z"
   }
  }
 }
