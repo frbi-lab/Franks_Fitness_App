@@ -1910,6 +1910,80 @@
    },
    "sessionNote": "",
    "savedAt": "2026-10-10T14:08:19.666Z"
+  },
+  "2026-10-13": {
+   "date": "2026-10-13",
+   "week": 27,
+   "day": "Di",
+   "entries": {
+    "A1": {
+     "name": "Band-Bizeps-Curl",
+     "target": "3x10-15",
+     "resistance": "Band DUNKELGRUEN (60-170 lbs)",
+     "reps": [
+      "14",
+      "12",
+      "13"
+     ],
+     "note": "Dunkelgrün 5s ablassend"
+    },
+    "A2": {
+     "name": "Kurzhantel-Squat (Koffergriff)",
+     "target": "3x8-12",
+     "resistance": "2x21 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2 + 1x0,5) | 4 s exzentrisch",
+     "reps": [
+      "17",
+      "16",
+      "14"
+     ],
+     "note": "2x20 kg"
+    },
+    "B1": {
+     "name": "Kurzhantel Floor Press (neutraler Griff)",
+     "target": "3x10-12",
+     "resistance": "2x12 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5) | 3 s exzentrisch",
+     "reps": [
+      "11",
+      "10",
+      "8"
+     ],
+     "note": "2x20 kg!!"
+    },
+    "B2": {
+     "name": "Band Lateral Raise (bis ~80°)",
+     "target": "3x10-12",
+     "resistance": "Band GELB (30-50 lbs) | 3 s exzentrisch, Stopp bei ca. 80 Grad [ab W27 - kleinstmoeglicher Schritt nach TUERKIS. Schulter-Ampel nicht gruen -> zurueck auf TUERKIS]",
+     "reps": [
+      "13",
+      "12",
+      "11"
+     ],
+     "note": "Gelb: 3s hoch, 3s runter"
+    },
+    "C1": {
+     "name": "Liegestütz exzentrisch auf den Knien (nur ablassen)",
+     "target": "3x10",
+     "resistance": "Eigengewicht | AUF DEN KNIEN, Haende UEBERSCHULTERBREIT, Ellbogen ca. 45 Grad zum Rumpf, 4 s ablassen, unten kurz auf dem Boden ablegen, KEIN Hochdrücken",
+     "reps": [
+      "10",
+      "10",
+      "10"
+     ],
+     "note": ""
+    },
+    "D1": {
+     "name": "Kraniozervikale Flexion",
+     "target": "2x10",
+     "resistance": "duenne Handtuchrolle unter dem Hinterkopf (Eigengewicht)",
+     "reps": [
+      "15",
+      "15"
+     ],
+     "note": ""
+    }
+   },
+   "sessionNote": "",
+   "savedAt": "2026-10-13T14:44:29.791Z"
   }
  }
 }
