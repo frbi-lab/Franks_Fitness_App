@@ -7,7 +7,7 @@ Benötigt: pip install openpyxl
 import sys, json, re, unicodedata
 import openpyxl
 
-DAY_ORDER = ["Di", "Do", "Sa"]
+DAY_ORDER = ["Di", "Do", "Fr", "Sa"]  # Fr seit 15.10.2026 (Kraft nur noch freitags)
 
 
 def norm(s):
@@ -50,7 +50,7 @@ def parse_warmup(text):
 
 def parse_exercise_line(line):
     """z.B. 'A1 Einarmiges KB-Rudern vorgebeugt 4x6-10/Seite' -> code, name, sets, reps, perSide"""
-    m = re.match(r"^([A-D][12])\s+(.*)$", line.strip())
+    m = re.match(r"^([A-F][12])\s+(.*)$", line.strip())
     if not m:
         return None
     code, rest = m.group(1), m.group(2)
@@ -182,7 +182,7 @@ def main():
                 cur["week"] = int(week)
             res = parse_resistance(str(resistance))
             exs = []
-            for i, line in enumerate([l for l in details.split("\n") if re.match(r"^[A-D][12]\s", l.strip())]):
+            for i, line in enumerate([l for l in details.split("\n") if re.match(r"^[A-F][12]\s", l.strip())]):
                 ex = parse_exercise_line(line)
                 if not ex:
                     continue
@@ -198,7 +198,7 @@ def main():
             if pm:
                 pause = "Pause ~" + pm.group(1).strip()
             note_lines = [l.strip() for l in details.split("\n")
-                          if l.strip() and not re.match(r"^[A-D][12]\s", l.strip())]
+                          if l.strip() and not re.match(r"^[A-F][12]\s", l.strip())]
             cur["blocks"].append({"block": block, "exercises": exs, "pause": pause,
                                   "note": " ".join(note_lines), "resistance": res})
         elif block in ("Finish", "Optional"):
@@ -228,7 +228,7 @@ def main():
             # Verschoben von 2026-07-13 auf 2026-06-29, damit der August-Zyklus
             # (Wochen 16-19) schon in der Woche ab 27.07.2026 startet statt am 10.08.
             "week12Monday": "2026-06-29",
-            "trainingDays": DAY_ORDER,
+            "trainingDays": [d for d in DAY_ORDER if any(s["day"] == d for s in sessions)],
             "weeks": sorted({s["week"] for s in sessions}),
             "rules": "Rechter Arm über 90°/Schulterhöhe NUR bei den drei vom Physio verordneten Übungen (exzentrischer Klimmzug, exzentrischer Liegestütz, Physio 1) · sonst nie über Schulterhöhe · keine Cross-Body-Belastung · alles schmerzgeführt · Schmerz-Ampel entscheidet: grün ≤3/10 und binnen 24 h zurück · gelb = Sätze halbieren · rot = Übung raus und Physio fragen.",
         },

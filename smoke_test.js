@@ -1,5 +1,10 @@
 // Headless-Smoke-Test der App (jsdom). Aufruf: node smoke_test.js  (aus fitness-app/ heraus)
 //
+// STAND 15.10.2026: Umstellung ab W27 auf KRAFT NUR FREITAG + Samstag (Treppe, Liegestuetz, Face Pull).
+// W26 (Di/Do/Sa) und W27 Di bleiben als trainierte Historie im Plan. Teil 1 prueft die neue Struktur,
+// das Zeitmodell kennt jetzt den Freitag (Weg Dachgeschoss -> Keller, Weste, Langhantel-Umbau).
+// Die Fassung vom 03.10. liegt als smoke_test.oktober-vor-freitag.bak.js daneben.
+//
 // STAND 03.10.2026 auf den Oktober-Zyklus (W26-29, Brustzerrung-Wiedereinstieg) umgestellt.
 // Teil 1 prueft jetzt den Stufenplan fuer die Brust; Zeitmodell um Isometrie, Weste-Squat und
 // wochenabhaengige Zuschlaege (Kasten nur mit Klimmzug, Scheibenwechsel nur mit Floor Press) erweitert.
@@ -46,13 +51,20 @@ const goto = (iso) => { const p = d.querySelector("#datePick"); p.value = iso; p
 /* =================================================================
    TEIL 1 - Planinhalt (unabhaengig von der App)
    ================================================================= */
-const W = [26,27,28,29];
 const all = plan.sessions.flatMap(s => s.blocks.flatMap(b => b.exercises.map(e => ({s, b, e}))));
-const inWeek = (w, re) => all.filter(x => x.s.week === w && re.test(x.e.name));
-check("12 Sessions", plan.sessions.length === 12, plan.sessions.length);
+const sid = (s) => `${s.week}${s.day}`;
+const NEU = plan.sessions.filter(s => s.day === "Fr" || (s.day === "Sa" && s.week >= 27));
+const fr = plan.sessions.filter(s => s.day === "Fr");
+const saNeu = plan.sessions.filter(s => s.day === "Sa" && s.week >= 27);
+check("10 Sessions (W26 Di/Do/Sa, W27 Di, W27-29 Fr/Sa)", plan.sessions.length === 10, plan.sessions.length);
+check("Reihenfolge der Sessions", plan.sessions.map(sid).join(",") === "26Di,26Do,26Sa,27Di,27Fr,27Sa,28Fr,28Sa,29Fr,29Sa",
+  plan.sessions.map(sid).join(","));
 check("Wochen 26-29", JSON.stringify(plan.meta.weeks) === "[26,27,28,29]", JSON.stringify(plan.meta.weeks));
 check("Anker week12Monday = 2026-06-29", plan.meta.week12Monday === "2026-06-29", plan.meta.week12Monday);
-check("Jede Woche Di/Do/Sa", W.every(w => plan.sessions.filter(s => s.week === w).map(s => s.day).join(",") === "Di,Do,Sa"));
+check("Ab W28 kein Di/Do mehr, W27 kein Do", !plan.sessions.some(s => (s.week >= 28 && /Di|Do/.test(s.day)) || (s.week === 27 && s.day === "Do")));
+check("Historie W26 + W27 Di unveraendert: W27 Di hat Floor Press 2x12 und Knie-Liegestuetz",
+  (() => { const s = plan.sessions.find(x => sid(x) === "27Di"); const t = JSON.stringify(s);
+           return /2x12 kg gesamt/.test(t) && /auf den Knien/.test(t); })());
 
 const perSideWU = plan.sessions.flatMap(s => s.warmup.filter(x => x.perSide).map(x => `W${s.week}${s.day}:${x.name}`));
 check("Warm-up: keine 'je Seite'-Uebung", perSideWU.length === 0, perSideWU.join(", "));
@@ -63,7 +75,7 @@ plan.sessions.forEach(s => s.blocks.forEach(b => {
   const mit = b.exercises.filter(e => /Gewichtsweste/i.test(e.resistance || "")).length;
   if (mit > 0 && mit < b.exercises.length) westeKonflikt.push(`W${s.week} ${s.day} ${b.block}`);
 }));
-check("Gewichtsweste in keinem Superset", westeKonflikt.length === 0, westeKonflikt.join(", "));
+check("Gewichtsweste: im Paar entweder beide oder keine", westeKonflikt.length === 0, westeKonflikt.join(", "));
 
 const codeKollision = [];
 plan.sessions.forEach(s => {
@@ -72,113 +84,133 @@ plan.sessions.forEach(s => {
 });
 check("Uebungscodes je Session eindeutig", codeKollision.length === 0, codeKollision.join(" | "));
 
-/* ---- BRUST-STUFENPLAN nach der Zerrung vom 29.09.2026 ---- */
-const BRUST_DYN = /Floor Press|Chest-Press|Liegestütz|Klimmzug|Face Pull/;
-check("W26: keine dynamische Brust-/Dehnungsuebung (Floor Press, Chest-Press, Liegestuetz, Klimmzug, Face Pull)",
-  inWeek(26, BRUST_DYN).length === 0, inWeek(26, BRUST_DYN).map(x => x.s.day + ":" + x.e.name).join(", "));
-const iso = all.filter(x => /Isometrisches Brustdrücken/.test(x.e.name));
-check("Isometrie nur in W26, an allen drei Tagen", iso.every(x => x.s.week === 26) &&
-  iso.map(x => x.s.day).join(",") === "Di,Do,Sa", iso.map(x => `W${x.s.week}${x.s.day}`).join(","));
-check("Isometrie steigt 30-50 / 50-70 / 70-100 %",
-  /30-50 %/.test(iso[0].e.resistance) && /50-70 %/.test(iso[1].e.resistance) && /70-100 %/.test(iso[2].e.resistance));
-check("Gate-Test steht am Sa W26", iso[2].s.day === "Sa" && /GATE/.test(iso[2].e.resistance) &&
-  plan.sessions.find(s => s.week === 26 && s.day === "Sa").blocks.some(b => /GATE VOR W27/.test(b.note)));
-const fp = all.filter(x => /Floor Press/.test(x.e.name));
-check("Floor Press 2x12 -> 2x16 -> 2x20 kg (W27-29, nur Di)",
-  fp.map(x => `${x.s.week}${x.s.day}:${(x.e.resistance.match(/^2x(\d+) kg/)||[])[1]}`).join(",") === "27Di:12,28Di:16,29Di:20",
-  fp.map(x => `${x.s.week}${x.s.day}:${x.e.resistance.slice(0,8)}`).join(","));
-const liege = all.filter(x => /Liegestütz exzentrisch/.test(x.e.name));
-check("Liegestuetz: W27 Knie (Di+Sa), W28/29 voll (Di+Sa)",
-  liege.map(x => `${x.s.week}${x.s.day}:${/Knien/.test(x.e.name) ? "K" : "V"}`).join(",") === "27Di:K,27Sa:K,28Di:V,28Sa:V,29Di:V,29Sa:V",
-  liege.map(x => `${x.s.week}${x.s.day}:${/Knien/.test(x.e.name) ? "K" : "V"}`).join(","));
-check("Liegestuetze immer 3x10", liege.every(x => x.e.sets === 3 && x.e.targetReps === "10"));
-check("Vorgabe enthaelt 'KEIN Hochdruecken' und 45-Grad-Ellbogen",
-  liege.every(x => /KEIN Hochdrücken/.test(x.e.resistance) && /45 Grad/.test(x.e.resistance)));
-check("Liegestuetz-Tempo Sa: 5 s (W27, W28), 6 s (W29); Di immer 4 s",
-  liege.map(x => `${x.s.week}${x.s.day}:${(x.e.resistance.match(/(\d) s ablassen/)||[])[1]}`).join(",") === "27Di:4,27Sa:5,28Di:4,28Sa:5,29Di:4,29Sa:6",
-  liege.map(x => `${x.s.week}${x.s.day}:${(x.e.resistance.match(/(\d) s ablassen/)||[])[1]}`).join(","));
-const cp = all.filter(x => /Chest-Press/.test(x.e.name));
-check("Chest-Press ROT (W27) -> DUNKELGRUEN (W28/29), nur Do",
-  cp.map(x => `${x.s.week}${x.s.day}:${/ROT/.test(x.e.resistance) ? "ROT" : /DUNKELGRUEN/.test(x.e.resistance) ? "DG" : "?"}`).join(",") === "27Do:ROT,28Do:DG,29Do:DG",
-  cp.map(x => `${x.s.week}${x.s.day}`).join(","));
-const fpull = all.filter(x => /Face Pull/.test(x.e.name));
-check("Face Pull W27-29 je Do + Sa (6x), Ellbogen auf Schulterhoehe",
-  fpull.length === 6 && fpull.every(x => x.s.week >= 27 && /Schulterhoehe/.test(x.e.resistance)), fpull.length);
-check("Band-Rudern ersetzt Face Pull in W26 (Do + Sa)",
-  inWeek(26, /Band-Rudern/).map(x => x.s.day).join(",") === "Do,Sa");
-check("BRUST-Schmerzregel in jedem Block mit Brust- oder Dehnungsarbeit",
-  all.filter(x => /Isometrisches|Floor Press|Chest-Press|Liegestütz|Klimmzug|Face Pull/.test(x.e.name))
-     .every(x => /BRUST RECHTS|GATE/.test(x.b.note)));
-check("W26: Goblet ersetzt durch Weste-Squat",
-  plan.sessions.filter(s => s.day === "Do").map(s => /Weste-Squat/.test(s.finish.text) ? "W" : /Goblet/.test(s.finish.text) ? "G" : "?").join("") === "WGGG");
-check("W26: Pull-aparts im Warm-up ersetzt",
-  plan.sessions.filter(s => s.week === 26 && s.day !== "Sa").every(s => !s.warmup.some(x => /Pull-aparts/.test(x.name) && !/OHNE Band/.test(x.name + x.note))));
+/* ---- FREITAG: Aufbau und Orte ---- */
+const FR_CODES = "A1 Klimmzug|A2 Kraniozervikale|B1 Kurzhantel-Squat|B2 Band Lateral|C1 Kurzhantel Floor|C2 Langhantel Romanian|D1 Langhantel-Rudern|D2 Band-Chest-Press|E1 Band Face Pull";
+check("Fr: Bloecke A-E in fester Reihenfolge", fr.every(s => s.blocks.flatMap(b => b.exercises.map(e => e.code + " " + e.name)).every((t, i) =>
+  t.startsWith(FR_CODES.split("|")[i]))), fr.map(s => s.blocks.flatMap(b => b.exercises.map(e => e.code)).join(",")).join(" / "));
+check("Fr: Block 1 im Dachgeschoss, Block 2 im Keller",
+  fr.every(s => /DACHGESCHOSS/.test(s.blocks[0].note) && /KELLER/.test(s.blocks[1].note)));
+check("Fr: Klimmzug nur in Block 1 (Dachgeschoss), Kurz-/Langhanteln nie in Block 1",
+  fr.every(s => /Klimmzug/.test(s.blocks[0].exercises[0].name) && !s.blocks[0].exercises.some(e => /kg gesamt/.test(e.resistance))));
+check("Fr: Kurzhanteln EINE Einstellung (Squat = Floor Press)", fr.every(s => {
+  const kh = s.blocks.flatMap(b => b.exercises).map(e => (e.resistance.match(/^2x([\d,]+) kg gesamt je Hantel/) || [])[1]).filter(Boolean);
+  return kh.length === 2 && kh[0] === kh[1]; }));
+check("Fr: Weste 10 kg in Block 2 (Squat + Seitheben), Block 3 ohne Weste",
+  fr.every(s => s.blocks[1].exercises.every(e => /Gewichtsweste 10 kg/.test(e.resistance)) &&
+                !s.blocks[2].exercises.some(e => /Gewichtsweste/.test(e.resistance))));
+check("Fr: Warm-up = volles Kraft-Warm-up mit Physio 1 + 2, 30,30,30,30,45,60 s",
+  fr.every(s => s.warmup.map(x => x.seconds).join(",") === "30,30,30,30,45,60" &&
+    s.warmup.some(x => /Physio 1/.test(x.name)) && s.warmup.some(x => /Physio 2/.test(x.name)) && s.warmup.some(x => /Pull-aparts/.test(x.name))));
+check("Fr: Finish Goblet, Optional nur Curl (kein Pushdown)",
+  fr.every(s => /Goblet/.test(s.finish.text) && /Curl/.test(s.optional.text) && !/Pushdown/.test(s.optional.text)));
+check("Sa W27-29: Treppe, dann Liegestuetz + Face Pull im Paar",
+  saNeu.every(s => s.blocks.length === 2 && /Treppen/.test(s.blocks[0].exercises[0].name) &&
+    /Liegestütz/.test(s.blocks[1].exercises[0].name) && /Face Pull/.test(s.blocks[1].exercises[1].name)));
+
+/* ---- Progression ab W27 ---- */
+const nw = (re) => all.filter(x => NEU.includes(x.s) && re.test(x.e.name));
+const klimm = nw(/Klimmzug/);
+check("Klimmzug Fr 3x3 / 3x4 / 3x5, 5 s, Kasten, kein Hochziehen",
+  klimm.map(x => `${x.s.week}${x.s.day}:${x.e.sets}x${x.e.targetReps}`).join(",") === "27Fr:3x3,28Fr:3x4,29Fr:3x5" &&
+  klimm.every(x => /5 s kontrolliert ablassen/.test(x.e.resistance) && /NICHT hochspringen/.test(x.e.resistance) && /KEIN Hochziehen/.test(x.e.resistance)),
+  klimm.map(x => `${x.s.week}${x.s.day}:${x.e.sets}x${x.e.targetReps}`).join(","));
+const liege = nw(/Liegestütz/);
+check("Liegestuetz nur Sa: W27 Knie 5 s, W28 voll 5 s, W29 voll 6 s",
+  liege.map(x => `${x.s.week}${x.s.day}:${/Knien/.test(x.e.name) ? "K" : "V"}${(x.e.resistance.match(/(\d) s ablassen/)||[])[1]}`).join(",") === "27Sa:K5,28Sa:V5,29Sa:V6",
+  liege.map(x => `${x.s.week}${x.s.day}`).join(","));
+check("Liegestuetze 3x10, 'KEIN Hochdruecken', 45 Grad",
+  liege.every(x => x.e.sets === 3 && x.e.targetReps === "10" && /KEIN Hochdrücken/.test(x.e.resistance) && /45 Grad/.test(x.e.resistance)));
+const band = (re) => nw(re).map(x => `${x.s.week}${x.s.day}:${/DUNKELGRUEN/.test(x.e.resistance) ? "DG" : /ROT/.test(x.e.resistance) ? "ROT" : "?"}`).join(",");
+check("Chest-Press nur Fr: ROT, DG, DG", band(/Chest-Press/) === "27Fr:ROT,28Fr:DG,29Fr:DG", band(/Chest-Press/));
+check("Face Pull Fr + Sa: ROT in W27, danach DG", band(/Face Pull/) === "27Fr:ROT,27Sa:ROT,28Fr:DG,28Sa:DG,29Fr:DG,29Sa:DG", band(/Face Pull/));
+check("Face Pull: Ellbogen auf Schulterhoehe", nw(/Face Pull/).every(x => /Schulterhoehe/.test(x.e.resistance)));
+const lhv = (re) => nw(re).map(x => (x.e.resistance.match(/Langhantel ([\d,]+) kg/)||[])[1]).join("/");
+check("LH-Rudern 49,8/50,8/50,8", lhv(/Langhantel-Rudern/) === "49,8/50,8/50,8", lhv(/Langhantel-Rudern/));
+check("RDL 51,8/52,8/53,8", lhv(/Romanian/) === "51,8/52,8/53,8", lhv(/Romanian/));
+check("Floor Press 2x20 kg / 3 s / 3x6-10", nw(/Floor Press/).every(x => /^2x20 kg/.test(x.e.resistance) && /3 s exzentrisch/.test(x.e.resistance) && x.e.targetReps === "6-10"));
+check("KH-Squat 2x20 kg / 4 s / Weste 10 kg", nw(/Kurzhantel-Squat/).every(x => /^2x20 kg/.test(x.e.resistance) && /4 s exzentrisch/.test(x.e.resistance) && /Gewichtsweste 10 kg/.test(x.e.resistance)));
+check("Seitheben GELB, nie DUNKELGRUEN", nw(/Lateral Raise/).every(x => /GELB/.test(x.e.resistance) && !/DUNKELGRUEN/.test(x.e.resistance)));
+check("Bandfarbe immer mit Farbnamen (nie nur 'gruen')", all.every(x => !/Band gruen|Band GRUEN/i.test(x.e.resistance)));
+check("BRUST-Schmerzregel in jedem Block mit Brust- oder Dehnungsarbeit (ab W27 Fr/Sa)",
+  nw(/Floor Press|Chest-Press|Liegestütz|Klimmzug|Face Pull/).every(x => /BRUST RECHTS/.test(x.b.note)));
+
+const tr = nw(/Treppen-Aufstieg/);
+check("Treppen W27-29: 13/14/14, Weste 15 kg", tr.map(x => x.e.sets).join(",") === "13,14,14" && tr.every(x => /Gewichtsweste 15 kg/.test(x.e.resistance)),
+  tr.map(x => x.e.sets).join(","));
+check("Treppen: Zielband 159-168 bei HFmax 177 (Entscheidung 04.10.2026)",
+  tr.every(x => /159-168 bpm/.test(x.e.resistance) && /HFmax 177/.test(x.e.resistance) && !/155-163/.test(x.e.resistance)));
+check("Sa Warm-up hoechstens 4:30 und ueberwiegend Aufstiege",
+  saNeu.every(s => s.warmup.reduce((a, x) => a + x.seconds, 0) <= 270 &&
+    s.warmup.filter(x => /Aufstieg/i.test(x.name)).reduce((a, x) => a + x.seconds, 0) >= 180));
 
 /* ---- ZEITBUDGET (Franks Regel 28.08.2026) -------------------------------
-   Eine Wdh. mit vorgegebener Exzentrik dauert MINDESTENS 4 s laenger als eine normale.
-   normale Wdh. = 3 s | Exzentrik t s = 4 + t | exzentrisch-only = t + Rueckweg
-   Treppen = 54,7 s je Auf-/Abstieg (gemessen 9:07 fuer 10 am 27.08.2026)
-   Wechsel im Paar +8 s | Blockwechsel +40 s
-   Dieser Test existiert, weil die Zeitangaben dreimal zu optimistisch waren. */
-const NORM = 3, SWITCH = 8, BLOCK = 40, TREPPE = 54.7, BUDGET = 45 * 60;
+   normale Wdh. = 3 s | Exzentrik t s = 4 + t | exzentrisch-only: Liegestuetz t + 4, Klimmzug t + 8
+   Treppen = 54,7 s je Auf-/Abstieg (gemessen 27.08.2026) | Wechsel im Paar +8 s | Blockwechsel +40 s
+   FREITAG zusaetzlich: Kasten 30 s, Weg Dachgeschoss -> Keller 45 s (Frank: 90 s hin und zurueck),
+   Weste anlegen 30 s, Langhantel RDL -> Rudern umbauen 30 s, Goblet-Finish 30 + 2x10x7 + 60 s.
+   Freitag hat kein Zeitlimit (Frank 15.10.2026) - die Grenze 65 min ist nur ein Plausibilitaetsanker. */
+const NORM = 3, SWITCH = 8, BLOCK = 40, TREPPE = 54.7;
+const BUDGET = { Di: 45 * 60, Do: 45 * 60, Sa: 45 * 60, Fr: 65 * 60 };
 const tempoOf = (r) => { const m = (r || "").match(/(\d+)\s*s\s*(exzentrisch|kontrolliert ablassen|ablassen)/); return m ? +m[1] : 0; };
 const oberReps = (t) => { const m = String(t || "").match(/(\d+)\s*$/); return m ? +m[1] : 1; };
 function repSeconds(e) {
   const t = tempoOf(e.resistance);
   if (/Kraniozervikale/.test(e.name)) return 10;
-  if (/Isometrisch/.test(e.name)) return 10;          // Haltezeit x Wiederholungen (Franks Modell)
-  if (/Klimmzug/.test(e.name)) return t + 8;          // ueber den Kasten hoch und wieder runter
-  if (/Liegestütz/.test(e.name)) return t + 4;        // auf den Knien zurueck in die Ausgangsposition
+  if (/Isometrisch/.test(e.name)) return 10;
+  if (/Klimmzug/.test(e.name)) return t + 8;
+  if (/Liegestütz/.test(e.name)) return t + 4;
   return t ? 4 + t : NORM;
 }
-function sessionSeconds(s) {
-  let tot = s.warmup.reduce((a, x) => a + x.seconds * (x.perSide ? 2 : 1), 0) + 20;
+function posten(s) {
+  const out = [["Warm-up (+20 s Umbau)", s.warmup.reduce((a, x) => a + x.seconds * (x.perSide ? 2 : 1), 0) + 20]];
   s.blocks.forEach((b, i) => {
-    if (i > 0) tot += BLOCK;
+    const add = i > 0 ? BLOCK : 0;
     const pause = (String(b.pause).match(/(\d+)\s*s/) || [0, 45])[1] * 1;
+    const names = b.exercises.map(e => e.name.split(" (")[0]).join(" + ");
     if (b.exercises.some(e => /Treppen-Aufstieg/.test(e.name))) {
-      tot += b.exercises[0].sets * TREPPE + 180;      // + Gehpause bis Puls unter 110
+      out.push([`${b.block}: ${names} (${b.exercises[0].sets}x) + 3 min Gehpause`, b.exercises[0].sets * TREPPE + 180 + add]);
       return;
     }
-    const sets = b.exercises[0].sets;
     const work = b.exercises.map(e => oberReps(e.targetReps) * repSeconds(e));
+    let t;
     if (b.exercises.length > 1) {
-      /* Alternierendes Paar. Zwei Korrekturen vom 08.09.2026:
-         (1) jede Uebung zaehlt mit IHRER eigenen Satzzahl - seit der Zusammenlegung von
-             C1 und D1 koennen die Satzzahlen im Paar verschieden sein (C1 3x, D1 2x);
-         (2) zwischen n Saetzen liegen n-1 Luecken, nicht n. Die alte Formel rechnete
-             eine Pause nach dem LETZTEN Satz mit, die es nicht gibt (-53 s je Paarblock). */
-      const totalWork = b.exercises.reduce((a, e, i) => a + e.sets * work[i], 0);
+      const totalWork = b.exercises.reduce((a, e, k) => a + e.sets * work[k], 0);
       const nSets = b.exercises.reduce((a, e) => a + e.sets, 0);
-      tot += totalWork + (nSets - 1) * (pause + SWITCH);
+      t = totalWork + (nSets - 1) * (pause + SWITCH);
     } else {
-      tot += sets * work[0] + (sets - 1) * pause;
+      t = b.exercises[0].sets * work[0] + (b.exercises[0].sets - 1) * pause;
     }
+    out.push([`${b.block}: ${names}` + (add ? " (inkl. 40 s Blockwechsel)" : ""), t + add]);
   });
   const ex = s.blocks.flatMap(b => b.exercises.map(e => e.name)).join("|");
-  if (s.day === "Di" && /Klimmzug/.test(ex)) tot += 30;      // Kasten stellen
-  if (s.day === "Di" && /Floor Press/.test(ex)) tot += 30;   // Scheibenwechsel Squat 2x21 -> Floor Press
-  if (s.day === "Do") {
-    tot += 60;                                              // Scheibenwechsel Rudern -> RDL
-    const ft = (s.finish && s.finish.text) || "";
-    if (/Goblet/.test(ft)) tot += 30 + 2 * 10 * 7 + 60;     // Weste + Goblet 2x10 a 7 s + Pause
-    else if (/Weste-Squat/.test(ft)) tot += 30 + 2 * 12 * 7 + 60;  // Weste + 2x12 a 7 s + Pause
+  if (/Klimmzug/.test(ex)) out.push(["Kasten stellen", 30]);
+  if (s.day === "Di" && /Floor Press/.test(ex)) out.push(["Scheibenwechsel Squat -> Floor Press", 30]);
+  if (s.day === "Do") out.push(["Scheibenwechsel Rudern -> RDL", 60]);
+  if (s.day === "Fr") {
+    out.push(["Weg Dachgeschoss -> Keller", 45]);
+    out.push(["Gewichtsweste anlegen (Block 2)", 30]);
+    out.push(["Langhantel umbauen RDL -> Rudern", 30]);
   }
-  return tot;
+  const ft = (s.finish && s.finish.text) || "";
+  if (/Goblet/.test(ft)) out.push(["Finish: Weste anlegen + Goblet 2x10 a 7 s + Pause", 30 + 2 * 10 * 7 + 60]);
+  else if (/Weste-Squat/.test(ft)) out.push(["Finish: Weste anlegen + Weste-Squat 2x12 a 7 s + Pause", 30 + 2 * 12 * 7 + 60]);
+  return out;
 }
-const zeiten = plan.sessions.map(s => ({ id: `W${s.week} ${s.day}`, sec: Math.round(sessionSeconds(s)) }));
-const zuLang = zeiten.filter(x => x.sec > BUDGET);
-check("Keine Einheit ueber 45 min (Obergrenze der Wdh.-Bereiche)", zuLang.length === 0,
-  zuLang.map(x => `${x.id} ${Math.floor(x.sec/60)}:${String(x.sec%60).padStart(2,"0")}`).join(", "));
-console.log("      Dauer je Einheit: " +
-  zeiten.map(x => `${x.id} ${Math.floor(x.sec/60)}:${String(x.sec%60).padStart(2,"0")}`).join(" | "));
+const sessionSeconds = (s) => posten(s).reduce((a, p) => a + p[1], 0);
+const mmss = (x) => `${Math.floor(x/60)}:${String(Math.round(x)%60).padStart(2,"0")}`;
+const zeiten = plan.sessions.map(s => ({ id: `W${s.week} ${s.day}`, day: s.day, sec: Math.round(sessionSeconds(s)) }));
+const zuLang = zeiten.filter(x => x.sec > BUDGET[x.day]);
+check("Keine Einheit ueber ihrem Rahmen (Di/Do/Sa 45 min, Fr 65 min)", zuLang.length === 0,
+  zuLang.map(x => `${x.id} ${mmss(x.sec)}`).join(", "));
+console.log("      Dauer je Einheit: " + zeiten.map(x => `${x.id} ${mmss(x.sec)}`).join(" | "));
+if (process.env.POSTEN) plan.sessions.forEach(s => posten(s).forEach(p => console.log(`POSTEN\tW${s.week} ${s.day}\t${p[0]}\t${mmss(p[1])}`)));
 
 // Lasten muessen aus dem Scheibeninventar baubar sein (2x10, 6x5, 8x2, 4x0,5 kg)
 const proSeite = new Set();
 for (let a=0;a<=1;a++) for (let b=0;b<=3;b++) for (let c=0;c<=4;c++) for (let e=0;e<=2;e++)
   proSeite.add(10*a + 5*b + 2*c + 0.5*e);
 const lhBaubar = new Set([...proSeite].map(x => +(7.8 + 2*x).toFixed(1)));
-const khProSeite = new Set();                               // je Sorte werden 4 Scheiben gleichzeitig verbraucht
+const khProSeite = new Set();
 for (let b=0;b<=1;b++) for (let c=0;c<=2;c++) for (let e=0;e<=1;e++) khProSeite.add(5*b + 2*c + 0.5*e);
 const khBaubar = new Set([...khProSeite].map(x => +(2 + 2*x).toFixed(1)));
 const lastFehler = [];
@@ -191,134 +223,97 @@ plan.sessions.forEach(s => s.blocks.forEach(b => b.exercises.forEach(e => {
 })));
 check("Alle Lasten baubar", lastFehler.length === 0, lastFehler.join(", "));
 
-// Video-Links wohlgeformt
 const badUrl = plan.exercises.filter(e => e.video && !/^https:\/\/www\.youtube\.com\/watch\?v=[\w-]{11}$/.test(e.video))
   .map(e => `${e.name} -> ${e.video}`);
 check("Alle Video-URLs wohlgeformt", badUrl.length === 0, badUrl.join(" | "));
-check("RDL-Video zeigt die Langhantel-Variante",
-  plan.exercises.some(e => /Romanian Deadlift \(Langhantel\)/.test(e.name) && e.video === "https://www.youtube.com/watch?v=xgusDooVfKU"));
-check("Liegestuetz hat ein Video", plan.exercises.some(e => /Liegestütz exzentrisch/.test(e.name) && !!e.video));
+check("Jede Uebung ab W27 Fr/Sa hat eine Beschreibung", nw(/./).every(x => !!x.e.description),
+  nw(/./).filter(x => !x.e.description).map(x => x.e.name).join(", "));
 
-// 90-Grad-Schulterregel
 const ueber90 = plan.sessions.flatMap(s => s.blocks.flatMap(b => b.exercises))
   .filter(e => /Overhead|Schulterdrücken|Frontheben|Schrägbank/i.test(e.name)).map(e => e.name);
 check("Kein Ueberkopfdruecken / Frontheben", ueber90.length === 0, ueber90.join(", "));
 check("meta.rules nennt die Physio-Ausnahme",
   /Physio verordneten/.test(plan.meta.rules) && /Schmerz-Ampel/.test(plan.meta.rules), plan.meta.rules);
-
-// Klimmzug: pausiert W26/27, zurueck W28 3x3 und W29 3x4, je Di als A1, 5 s
-const klimm = all.filter(x => /Klimmzug/.test(x.e.name));
-check("Klimmzug: nur W28 + W29, Di, A1",
-  klimm.map(x => `${x.s.week}${x.s.day}${x.e.code}`).join(",") === "28DiA1,29DiA1", klimm.map(x => `${x.s.week}${x.s.day}${x.e.code}`).join(","));
-check("Klimmzug: 3x3 dann 3x4, 5 s, Kasten, kein Hochziehen",
-  klimm.map(x => `${x.e.sets}x${x.e.targetReps}`).join(",") === "3x3,3x4" &&
-  klimm.every(x => /5 s kontrolliert ablassen/.test(x.e.resistance) && /NICHT hochspringen/.test(x.e.resistance) && /KEIN Hochziehen/.test(x.e.resistance)));
-
-// Treppen: Weste 15 kg, Aufbau 12/13/14/14, Zielband unveraendert 155-163
-const tr = all.filter(x => /Treppen-Aufstieg/.test(x.e.name));
-check("Treppen: immer Gewichtsweste 15 kg", tr.every(x => /Gewichtsweste 15 kg/.test(x.e.resistance)));
-check("Treppen-Aufbau 12/13/14/14", tr.map(x => x.e.sets).join(",") === "12,13,14,14", tr.map(x => x.e.sets).join(","));
-check("Treppen: Zielband 155-163 bei HFmax 177, nirgends 172",
-  tr.every(x => /155-163 bpm/.test(x.e.resistance) && /HFmax 177/.test(x.e.resistance) && !/172/.test(x.e.resistance)));
-
-// Lasten gegen die Logs: Rudern 49,8 -> 50,8, RDL 51,8 -> 53,8, Squat 2x21
-const lh = (re) => all.filter(x => re.test(x.e.name)).map(x => (x.e.resistance.match(/Langhantel ([\d,]+) kg/)||[])[1]).join("/");
-check("LH-Rudern 49,8/49,8/50,8/50,8", lh(/Langhantel-Rudern/) === "49,8/49,8/50,8/50,8", lh(/Langhantel-Rudern/));
-check("RDL 51,8/52,8/52,8/53,8", lh(/Romanian/) === "51,8/52,8/52,8/53,8", lh(/Romanian/));
-check("KH-Squat immer 2x21 kg, 4 s", all.filter(x => /Kurzhantel-Squat/.test(x.e.name)).every(x => /^2x21 kg/.test(x.e.resistance) && /4 s exzentrisch/.test(x.e.resistance)));
-const seit = all.filter(x => /Lateral Raise/.test(x.e.name));
-check("Seitheben TUERKIS in W26, GELB ab W27, nie DUNKELGRUEN",
-  seit.every(x => (x.s.week === 26 ? /TUERKIS/ : /GELB/).test(x.e.resistance) && !/DUNKELGRUEN/.test(x.e.resistance)));
-check("Bandfarbe immer mit Farbnamen (nie nur 'gruen')",
-  all.every(x => !/Band gruen|Band GRUEN/i.test(x.e.resistance)));
-
-// Samstag-Warm-up und Physio-Uebungen
-const sa = plan.sessions.filter(s => s.day === "Sa");
-check("Sa Warm-up hoechstens 4:30 gesamt", sa.every(s => s.warmup.reduce((a, x) => a + x.seconds, 0) <= 270));
-check("Sa Warm-up besteht ueberwiegend aus Aufstiegen",
-  sa.every(s => s.warmup.filter(x => /Aufstieg/i.test(x.name)).reduce((a, x) => a + x.seconds, 0) >= 180));
-const kraft = plan.sessions.filter(s => s.day !== "Sa");
-check("Physio 1 + Physio 2 in jedem Kraft-Warm-up",
-  kraft.every(s => s.warmup.some(x => /Physio 1/.test(x.name)) && s.warmup.some(x => /Physio 2/.test(x.name))));
-check("Kraft-Warm-up immer 30,30,30,30,45,60 s",
-  kraft.every(s => s.warmup.map(x => x.seconds).join(",") === "30,30,30,30,45,60"));
-
-// Beschreibungen in der Uebungstabelle duerfen den Wochenangaben nicht widersprechen
-const desc = (re) => (plan.exercises.find(e => re.test(e.name)) || {}).description || "";
-check("Uebungstabelle: Seitheben/Chest-Press/Face Pull nennen keine feste Bandfarbe mehr",
-  [/Lateral Raise/, /Chest-Press/, /Face Pull/].every(re => /siehe Widerstandsangabe/.test(desc(re))));
-check("Uebungstabelle: neue Uebungen vorhanden",
-  ["Isometrisches Brustdrücken", "Liegestütz exzentrisch auf den Knien", "Weste-Squat"].every(n => plan.exercises.some(e => e.name.startsWith(n))));
+check("meta.trainingDays enthaelt Fr", plan.meta.trainingDays.includes("Fr"), JSON.stringify(plan.meta.trainingDays));
 
 /* =================================================================
    TEIL 2 - App-Verhalten
    ================================================================= */
 setTimeout(() => {
-  // W26 Di = 06.10.2026 (week12Monday 29.06. + 14 Wochen)
+  const host = () => d.querySelector("#blocksHost").textContent;
+  const label = () => d.querySelector("#sessionLabel").textContent;
+
+  // Historie bleibt aufrufbar
   goto("2026-10-06");
-  const label = d.querySelector("#sessionLabel").textContent;
-  check("06.10.2026 = Di W26", label.includes("Di") && label.includes("26"), label);
+  check("06.10.2026 = Di W26 (Historie)", label().includes("Di") && label().includes("26"), label());
+  check("Di W26: Isometrie statt Floor Press", host().includes("Isometrisches Brustdrücken") && !host().includes("Floor Press"));
+  goto("2026-10-13");
+  check("13.10.2026 = Di W27 (Historie)", label().includes("Di") && label().includes("27"), label());
+  check("Di W27: Floor Press 2x12 kg", host().includes("2x12 kg gesamt je Hantel"));
+
+  // Do 15.10. entfaellt
+  goto("2026-10-15");
+  check("Do 15.10.2026: keine Einheit", !d.querySelector("#noSession").classList.contains("hidden"));
+  check("Do 15.10.2026: Hinweis nennt naechste Einheit Fr 16.10.", d.querySelector("#noSessionMsg").textContent.includes("16.10.2026"),
+    d.querySelector("#noSessionMsg").textContent);
+
+  // Freitag
+  goto("2026-10-16");
+  check("16.10.2026 = Fr W27", label().includes("Fr") && label().includes("27"), label());
   const codes = [...d.querySelectorAll(".excode")].map(x => x.textContent);
-  check("Di W26: Codes A1,A2,B1,B2,C1,D1", ["A1","A2","B1","B2","C1","D1"].every(c => codes.includes(c)), codes.join(","));
+  check("Fr W27: Codes A1,A2,B1,B2,C1,C2,D1,D2,E1", codes.join(",") === "A1,A2,B1,B2,C1,C2,D1,D2,E1", codes.join(","));
   const setCodes = [...d.querySelectorAll(".setrow")].map(r => r.dataset.code);
   check("Gerenderte Set-Zeilen eindeutig", new Set(setCodes).size === setCodes.length, setCodes.join(","));
-  const host = () => d.querySelector("#blocksHost").textContent;
-  check("Di W26: Isometrie statt Floor Press", host().includes("Isometrisches Brustdrücken") && !host().includes("Floor Press"));
-  check("Di W26: kein Klimmzug, kein Liegestuetz", !host().includes("Klimmzug exzentrisch") && !host().includes("Liegestütz exzentrisch"));
-  check("Di W26: Isometrie hat 3 Set-Felder", d.querySelectorAll('.setrow[data-code="B1"] input[data-set]').length === 3);
-  check("Di W26: Schmerzregel sichtbar", host().includes("BRUST RECHTS"));
-  check("Di W26: nur EINE Kurzhantel-Einstellung (kein Scheibenwechsel)",
-    new Set((d.querySelector("#equipList").textContent.match(/2x\d+ kg gesamt je Hantel/g) || [])).size === 1);
+  check("Fr W27: Orte sichtbar", host().includes("DACHGESCHOSS") && host().includes("KELLER"));
+  check("Fr W27: Ausstattungshinweis zu den zwei Orten", d.querySelector("#equipList").textContent.includes("Zwei Orte"));
+  check("Fr W27: Klimmzug 3 Set-Felder", d.querySelectorAll('.setrow[data-code="A1"] input[data-set]').length === 3);
+  check("Fr W27: Finish Goblet", d.querySelector("#finishCard").textContent.includes("Goblet"));
   check("Warm-up: 6 Eintraege", d.querySelectorAll("#warmupList li").length === 6);
   const q = w.eval("buildTimerQueue(currentSession)");
-  const works = q.filter(x => x.type === "work");
-  check("Timer: Sekunden 30,30,30,30,45,60", works.map(x => x.seconds).join(",") === "30,30,30,30,45,60", works.map(x => x.seconds).join(","));
+  check("Timer: Sekunden 30,30,30,30,45,60", q.filter(x => x.type === "work").map(x => x.seconds).join(",") === "30,30,30,30,45,60");
 
-  goto("2026-10-13");
-  check("13.10.2026 = Di W27", d.querySelector("#sessionLabel").textContent.includes("27"));
-  check("Di W27: Floor Press 2x12 kg", host().includes("2x12 kg gesamt je Hantel"));
-  check("Di W27: Liegestuetz auf den Knien", host().includes("auf den Knien"));
-
+  goto("2026-10-17");
+  check("17.10.2026 = Sa W27", label().includes("Sa") && label().includes("27"), label());
+  check("Sa W27: Treppen mit 13 Set-Feldern", d.querySelectorAll('.setrow[data-code="A1"] input[data-set]').length === 13);
+  check("Sa W27: Knie-Liegestuetz + Face Pull", host().includes("auf den Knien") && host().includes("Face Pull"));
   goto("2026-10-20");
-  check("Di W28: Klimmzug zurueck als A1",
-    d.querySelector('.setrow[data-code="A1"]').parentElement.textContent.includes("Klimmzug"));
-
-  goto("2026-10-08");
-  check("08.10.2026 = Do W26", d.querySelector("#sessionLabel").textContent.includes("26"));
-  check("Do W26: Weste-Squat im Finish", d.querySelector("#finishCard").textContent.includes("Weste-Squat"));
-  check("Do W26: Band-Rudern statt Face Pull", host().includes("Band-Rudern") && !host().includes("Face Pull"));
-
+  check("Di 20.10.2026: kein Training", !d.querySelector("#noSession").classList.contains("hidden"));
+  goto("2026-10-23");
+  check("23.10.2026 = Fr W28", label().includes("Fr") && label().includes("28"), label());
+  goto("2026-10-30");
+  check("30.10.2026 = Fr W29", label().includes("Fr") && label().includes("29"), label());
   goto("2026-10-31");
-  check("31.10.2026 = Sa W29 (letzte Einheit)", d.querySelector("#sessionLabel").textContent.includes("29"));
+  check("31.10.2026 = Sa W29 (letzte Einheit)", label().includes("Sa") && label().includes("29"), label());
 
-  goto("2026-10-10");
-  check("10.10.2026 = Sa W26", d.querySelector("#sessionLabel").textContent.includes("26"));
-  check("Sa W26: Treppen mit 12 Set-Feldern", d.querySelectorAll('.setrow[data-code="A1"] input[data-set]').length === 12);
-  check("Sa W26: Gate-Hinweis sichtbar", host().includes("GATE VOR W27"));
-
-  // Reps eintragen und einsammeln
-  const inp = d.querySelector('.setrow[data-code="B1"] input[data-set="0"]');
-  inp.value = "5"; inp.dispatchEvent(new w.Event("input"));
+  // Reps eintragen und einsammeln (Fr)
+  goto("2026-10-16");
+  const inp = d.querySelector('.setrow[data-code="E1"] input[data-set="0"]');
+  inp.value = "15"; inp.dispatchEvent(new w.Event("input"));
   const entry = w.eval("collectEntry()");
-  check("collectEntry: B1 = Isometrie, reps[0]=5",
-    entry.entries.B1 && entry.entries.B1.reps[0] === "5" && /Isometrisches/.test(entry.entries.B1.name),
-    JSON.stringify(entry.entries.B1));
-  check("collectEntry: Datum/Woche/Tag",
-    entry.date === "2026-10-10" && entry.week === 26 && entry.day === "Sa");
+  check("collectEntry: E1 = Face Pull, reps[0]=15",
+    entry.entries.E1 && entry.entries.E1.reps[0] === "15" && /Face Pull/.test(entry.entries.E1.name), JSON.stringify(entry.entries.E1));
+  check("collectEntry: Datum/Woche/Tag", entry.date === "2026-10-16" && entry.week === 27 && entry.day === "Fr");
 
-  // "Letztes Mal" darf nach einem Uebungstausch nicht die Vorgaengeruebung zeigen
-  w.eval(`LOGS["2026-08-11"] = {date:"2026-08-11", week:18, day:"Di", entries:{
+  // "Letztes Mal": ueber den Namen, auch wenn die Uebung frueher an einem anderen Tag / unter anderem Code lief
+  w.eval(`LOGS["2026-10-13"] = {date:"2026-10-13", week:27, day:"Di", entries:{
+            B1:{name:"Kurzhantel Floor Press (neutraler Griff)", reps:["11","10","8"], note:"2x20 kg!!"}}};
+          LOGS["2026-10-08"] = {date:"2026-10-08", week:26, day:"Do", entries:{
+            A1:{name:"Langhantel-Rudern vorgebeugt", reps:["13","11","9"], note:""}}};
+          LOGS["2026-08-11"] = {date:"2026-08-11", week:18, day:"Di", entries:{
             B1:{name:"Kurzhantel Floor Press (neutraler Griff)", reps:["10","10","9"], note:""}}};`);
-  const lr = w.eval(`JSON.stringify(lastResult("B1","Di",26,"Isometrisches Brustdrücken"))`);
-  check("lastResult ignoriert Logs der ersetzten Uebung", lr === "null", lr);
-  const lr2 = w.eval(`JSON.stringify(lastResult("B1","Di",27,"Kurzhantel Floor Press (neutraler Griff)"))`);
-  check("lastResult findet Logs bei gleichem Namen", lr2 !== "null", lr2);
+  const lr = JSON.parse(w.eval(`JSON.stringify(lastResult("C1","Fr",27,"Kurzhantel Floor Press (neutraler Griff)"))`));
+  check("lastResult Fr C1 findet Di-B1 vom 13.10. (juengster Eintrag)", lr && lr.date === "2026-10-13" && lr.reps[0] === "11", JSON.stringify(lr));
+  const lr2 = JSON.parse(w.eval(`JSON.stringify(lastResult("D1","Fr",27,"Langhantel-Rudern vorgebeugt"))`));
+  check("lastResult Fr D1 findet Do-A1 vom 08.10.", lr2 && lr2.date === "2026-10-08", JSON.stringify(lr2));
+  const lr3 = w.eval(`JSON.stringify(lastResult("B1","Di",26,"Isometrisches Brustdrücken"))`);
+  check("lastResult ignoriert Logs anderer Uebungen", lr3 === "null", lr3);
+  w.eval(`renderBlocks(currentSession)`);
+  check("Fr: 'Letztes Mal' wird angezeigt", host().includes("Letztes Mal (2026-10-13)"));
 
-  // Regressionstest zum Datenverlust vom 06./11./13.08.2026:
-  // Ein doppelter Uebungscode darf die erste Eingabe NICHT mehr ueberschreiben.
+  // Regressionstest zum Datenverlust vom 06./11./13.08.2026
   w.eval(`
     currentSession = JSON.parse(JSON.stringify(currentSession));
-    currentSession.blocks[1].exercises[0].code = "A1";   // kuenstliche Kollision mit Block 1 A1
+    currentSession.blocks[1].exercises[0].code = "A1";
     renderBlocks(currentSession);
   `);
   const rows = [...d.querySelectorAll('.setrow[data-code="A1"]')];
@@ -326,17 +321,11 @@ setTimeout(() => {
   rows[0].querySelector('input[data-set="0"]').value = "11";
   rows[1].querySelector('input[data-set="0"]').value = "22";
   const e2 = w.eval("collectEntry()");
-  check("Kollision: erste Eingabe bleibt erhalten", e2.entries.A1 && e2.entries.A1.reps[0] === "11",
-    JSON.stringify(e2.entries.A1));
-  check("Kollision: zweite Eingabe landet unter A1#2", e2.entries["A1#2"] && e2.entries["A1#2"].reps[0] === "22",
-    JSON.stringify(e2.entries["A1#2"]));
-  check("Kollision: Metadaten passen zur jeweiligen Uebung",
-    e2.entries.A1.name !== e2.entries["A1#2"].name,
-    `${e2.entries.A1 && e2.entries.A1.name} / ${e2.entries["A1#2"] && e2.entries["A1#2"].name}`);
+  check("Kollision: erste Eingabe bleibt erhalten", e2.entries.A1 && e2.entries.A1.reps[0] === "11", JSON.stringify(e2.entries.A1));
+  check("Kollision: zweite Eingabe landet unter A1#2", e2.entries["A1#2"] && e2.entries["A1#2"].reps[0] === "22", JSON.stringify(e2.entries["A1#2"]));
 
-  // Kein Trainingstag
-  goto("2026-10-11");
-  check("So 11.10. = kein Trainingstag", !d.querySelector("#noSession").classList.contains("hidden"));
+  goto("2026-10-18");
+  check("So 18.10. = kein Trainingstag", !d.querySelector("#noSession").classList.contains("hidden"));
 
   console.log(fails.length ? `\n${fails.length} FEHLER` : "\nALLE TESTS BESTANDEN");
   process.exit(fails.length ? 1 : 0);

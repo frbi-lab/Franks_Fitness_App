@@ -217,7 +217,7 @@ function cfg(){ try{ return JSON.parse(localStorage.getItem(LS.cfg)||"{}"); }cat
 function saveCfg(c){ localStorage.setItem(LS.cfg, JSON.stringify(c)); }
 
 /* ================= Datum -> Session ================= */
-const DAY_MAP = {2:"Di", 4:"Do", 6:"Sa"};  // JS getDay(): Di=2, Do=4, Sa=6
+const DAY_MAP = {2:"Di", 4:"Do", 5:"Fr", 6:"Sa"};  // JS getDay(): Di=2, Do=4, Fr=5, Sa=6 (Fr seit 16.10.2026)
 function week12Monday(){
   return cfg().week12Monday || (PLAN ? PLAN.meta.week12Monday : "2026-07-13");
 }
@@ -232,7 +232,7 @@ function sessionForDate(iso){
 }
 function dateForSession(week, day){
   const start = new Date(week12Monday() + "T12:00:00");
-  const offs = {Di:1, Do:3, Sa:5};
+  const offs = {Di:1, Do:3, Fr:4, Sa:5};
   const d = new Date(start.getTime() + ((week-12)*7 + offs[day]) * 24*3600*1000);
   return d.toISOString().slice(0,10);
 }
@@ -259,8 +259,8 @@ function render(){
     $("#sessionLabel").textContent = "Kein Training";
     $("#progressionHint").textContent = "";
     let msg = day
-      ? `Für ${day} in Woche ${week} liegt kein Plan vor (Plan umfasst W12–15).`
-      : `${fmtDateDE(currentDate).split(",")[0]} ist kein Trainingstag (Di/Do/Sa).`;
+      ? `Für ${day} in Woche ${week} ist keine Einheit geplant (Plan umfasst W${Math.min(...PLAN.meta.weeks)}–${Math.max(...PLAN.meta.weeks)}).`
+      : `${fmtDateDE(currentDate).split(",")[0]} ist kein Trainingstag.`;
     const nx = neighborSession(currentDate, +1);
     msg += ` Nächste Einheit: ${fmtDateDE(nx.date)} (W${nx.s.week}).`;
     $("#noSessionMsg").textContent = msg;
@@ -283,7 +283,11 @@ function renderEquip(s){
     host.appendChild(div);
   });
   const extra = [];
-  if(s.day==="Do") extra.push("Langhantel-Tag: Scheiben für den RDL zwischen Block 1 und 2 ergänzen – einzige Umbau-Aktion.");
+  if(s.day==="Fr") {
+    extra.push("Zwei Orte: Warm-up + Block 1 im DACHGESCHOSS (2-kg-Scheibe für Physio 2 mitnehmen), ab Block 2 im KELLER.");
+    extra.push("Kurzhanteln: eine Einstellung für Squat UND Floor Press. Langhantel: einmal umbauen (RDL → Rudern) vor Block 4.");
+  }
+  else if(s.day==="Do") extra.push("Langhantel-Tag: Scheiben für den RDL zwischen Block 1 und 2 ergänzen – einzige Umbau-Aktion.");
   else extra.push("Kurzhantel-Tag: beide Hanteln tragen die ganze Einheit DIESELBE Last – kein Umstecken.");
   extra.push("Kettlebell pro Einheit auf EINER Einstellung lassen.");
   host.insertAdjacentHTML("beforeend",
@@ -424,9 +428,23 @@ function lastResult(code, day, week, name){
   /* Vergleicht zusaetzlich den Uebungsnamen: nach einem Uebungstausch (z.B. Floor Press ->
      exzentrische Liegestuetze unter demselben Code B1) darf hier nicht mehr das Ergebnis
      der Vorgaengeruebung stehen. */
+  /* Seit 16.10.2026 (Kraft nur noch freitags) wird ueber den NAMEN gesucht, unabhaengig von Tag und Code:
+     die Freitagsuebungen stammen aus den alten Di/Do-Einheiten und haben dort andere Codes. Ohne Name
+     bleibt das alte Verhalten (gleicher Tag, gleicher Code). */
+  if(name){
+    const hits = [];
+    Object.keys(LOGS).filter(d => d < currentDate).forEach(d => {
+      const ents = LOGS[d].entries || {};
+      Object.keys(ents).forEach(c => { if(ents[c] && ents[c].name === name) hits.push({d, e:ents[c]}); });
+    });
+    const withReps = hits.filter(h => (h.e.reps||[]).some(Boolean) || h.e.note);
+    if(!withReps.length) return null;
+    withReps.sort((a,b) => a.d.localeCompare(b.d));
+    const h = withReps[withReps.length-1];
+    return {date:h.d, reps:h.e.reps||[], note:h.e.note||""};
+  }
   const dates = Object.keys(LOGS).filter(d => d < currentDate &&
-    LOGS[d].day === day && LOGS[d].entries?.[code] &&
-    (!name || LOGS[d].entries[code].name === name)).sort();
+    LOGS[d].day === day && LOGS[d].entries?.[code]).sort();
   if(!dates.length) return null;
   const d = dates[dates.length-1];
   return {date:d, reps:LOGS[d].entries[code].reps||[], note:LOGS[d].entries[code].note||""};
