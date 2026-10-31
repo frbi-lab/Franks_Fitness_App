@@ -2250,6 +2250,113 @@
    },
    "sessionNote": "3x10 Liegestützen, langsam ablassen ohne Hochdrücken",
    "savedAt": "2026-10-23T16:05:16.675Z"
+  },
+  "2026-10-30": {
+   "date": "2026-10-30",
+   "week": 29,
+   "day": "Fr",
+   "entries": {
+    "A1": {
+     "name": "Klimmzug exzentrisch (nur ablassen)",
+     "target": "3x5",
+     "resistance": "Eigengewicht | 5 s kontrolliert ablassen, KEIN Hochziehen. Ueber den Kasten in die Startposition steigen - NICHT hochspringen. Oben kurz stabilisieren, langsam ablassen, absteigen.",
+     "reps": [
+      "5",
+      "5",
+      "5"
+     ],
+     "note": ""
+    },
+    "A2": {
+     "name": "Kraniozervikale Flexion",
+     "target": "2x10",
+     "resistance": "duenne Handtuchrolle unter dem Hinterkopf (Eigengewicht)",
+     "reps": [
+      "10",
+      "10"
+     ],
+     "note": ""
+    },
+    "B1": {
+     "name": "Kurzhantel-Squat (Koffergriff)",
+     "target": "3x8-12",
+     "resistance": "2x20 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2) | 4 s exzentrisch | + Gewichtsweste 10 kg (fuer Block 2 anlegen)",
+     "reps": [
+      "15",
+      "16",
+      "15"
+     ],
+     "note": "Gewichtsweste 15 kg!"
+    },
+    "B2": {
+     "name": "Band Lateral Raise (bis ~80°)",
+     "target": "3x10-12",
+     "resistance": "Band GELB (30-50 lbs) | 3 s exzentrisch, Stopp bei ca. 80 Grad | Gewichtsweste 10 kg anbehalten (kein An- und Ausziehen im Paar). Schulter-Ampel nicht gruen -> zurueck auf TUERKIS",
+     "reps": [
+      "15",
+      "16",
+      "16"
+     ],
+     "note": ""
+    },
+    "C1": {
+     "name": "Kurzhantel Floor Press (neutraler Griff)",
+     "target": "3x6-10",
+     "resistance": "2x20 kg gesamt je Hantel (Stange 2 kg + je Seite 1x5 + 2x2) | 3 s exzentrisch | Weste AUS",
+     "reps": [
+      "12",
+      "10",
+      "10"
+     ],
+     "note": ""
+    },
+    "C2": {
+     "name": "Langhantel Romanian Deadlift",
+     "target": "3x8-12",
+     "resistance": "Langhantel 53,8 kg gesamt (Stange 7,8 kg + je Seite 1x10 + 2x5 + 1x2 + 2x0,5) | ZUGHILFEN, 3 s exzentrisch",
+     "reps": [
+      "13",
+      "11",
+      "10"
+     ],
+     "note": ""
+    },
+    "D1": {
+     "name": "Langhantel-Rudern vorgebeugt",
+     "target": "3x6-10",
+     "resistance": "Langhantel 50,8 kg gesamt (Stange 7,8 kg + je Seite 1x10 + 1x5 + 3x2 + 1x0,5)",
+     "reps": [
+      "6",
+      "7",
+      "6"
+     ],
+     "note": "3 s hoch, 3s runter"
+    },
+    "D2": {
+     "name": "Band-Chest-Press stehend beidarmig",
+     "target": "3x10-15",
+     "resistance": "Band DUNKELGRUEN (60-170 lbs) | Haende maximal auf Schulterhoehe, einen halben Schritt weiter vom Anker als in W28",
+     "reps": [
+      "15",
+      "15",
+      "12"
+     ],
+     "note": "3s vor, 3s zurück"
+    },
+    "E1": {
+     "name": "Band Face Pull",
+     "target": "3x12-15",
+     "resistance": "Band DUNKELGRUEN (60-170 lbs) | Ellbogen auf Schulterhoehe, nicht hoeher",
+     "reps": [
+      "20",
+      "20",
+      "20"
+     ],
+     "note": "Orange"
+    }
+   },
+   "sessionNote": "",
+   "savedAt": "2026-10-31T19:09:23.490Z"
   }
  }
 }
