@@ -94,6 +94,7 @@ dialog::backdrop{background:rgba(0,0,0,.6)}
       <div style="text-align:right">
         <div id="sessionLabel" style="font-weight:800; font-size:1.2rem"></div>
         <div class="muted small" id="progressionHint"></div>
+        <button class="secondary small hidden" id="btnUnmove">Verschiebung aufheben</button>
       </div>
     </div>
     <div id="noSession" class="hidden" style="margin-top:10px">
@@ -101,6 +102,10 @@ dialog::backdrop{background:rgba(0,0,0,.6)}
       <div class="row" style="margin-top:8px">
         <button class="secondary" id="btnPrevSession">← vorherige Einheit</button>
         <button class="secondary" id="btnNextSession">nächste Einheit →</button>
+      </div>
+      <div class="row" style="margin-top:8px">
+        <select id="moveSelect"></select>
+        <button class="secondary" id="btnMoveHere">Diese Einheit an diesem Tag machen</button>
       </div>
       <div class="muted small" style="margin-top:8px">Trainingspause gehabt? Unter ⚙️ kannst du den Planstart verschieben – der ganze Plan rückt dann entsprechend.</div>
     </div>
@@ -203,6 +208,7 @@ dialog::backdrop{background:rgba(0,0,0,.6)}
 /* ================= Konfiguration & Zustand ================= */
 const LS = {
   cfg: "ffp_cfg", draft: d => "ffp_draft_" + d,
+  moved: d => "ffp_moved_" + d,   // "31|Fr" = an diesem Datum laeuft die Einheit W31 Fr (verschoben)
 };
 let PLAN = null;          // plan.json
 let LOGS = {};            // { "YYYY-MM-DD": entry } aus GitHub
@@ -230,6 +236,33 @@ function sessionForDate(iso){
   const s = PLAN.sessions.find(x => x.week === week && x.day === day) || null;
   return {week, day, session:s};
 }
+/* Verschobene Einheiten (seit 05.11.2026): Eine geplante Einheit kann an einem anderen
+   Tag gemacht werden (z.B. Freitags-Kraft am Donnerstag). Gespeichert wird unter dem
+   tatsaechlichen Datum mit Woche/Tag der geplanten Einheit. Erkannt wird das an
+   (1) einem bereits gespeicherten Log mit week/day, das zu einer Plan-Einheit passt,
+   oder (2) der lokalen Markierung LS.moved(datum). */
+function sessionByKey(key){
+  if(!key) return null;
+  const [wk, dy] = String(key).split("|");
+  return PLAN.sessions.find(x => x.week === +wk && x.day === dy) || null;
+}
+function resolveSession(iso){
+  const r = sessionForDate(iso);
+  if(r.session) return {...r, moved:false};
+  const log = LOGS[iso];
+  let s = log && log.week && log.day ? sessionByKey(`${log.week}|${log.day}`) : null;
+  if(!s){ try{ s = sessionByKey(localStorage.getItem(LS.moved(iso))); }catch(e){} }
+  if(s) return {week:s.week, day:s.day, session:s, moved:true};
+  return {...r, moved:false};
+}
+function moveCandidates(iso){
+  // Alle Plan-Einheiten, sortiert nach Abstand zum Datum; noch nicht geloggte zuerst
+  const logged = new Set(Object.values(LOGS).map(l => `${l.week}|${l.day}`));
+  return PLAN.sessions.map(s => ({s, date:dateForSession(s.week, s.day)}))
+    .map(x => ({...x, key:`${x.s.week}|${x.s.day}`, done:logged.has(`${x.s.week}|${x.s.day}`),
+                dist:Math.abs(new Date(x.date) - new Date(iso))}))
+    .sort((a,b) => (a.done - b.done) || (a.dist - b.dist));
+}
 function dateForSession(week, day){
   const start = new Date(week12Monday() + "T12:00:00");
   const offs = {Di:1, Do:3, Fr:4, Sa:5};
@@ -251,7 +284,7 @@ function fmtDateDE(iso){
     {weekday:"long", day:"2-digit", month:"2-digit", year:"numeric"});
 }
 function render(){
-  const {week, day, session} = sessionForDate(currentDate);
+  const {week, day, session, moved} = resolveSession(currentDate);
   currentSession = session;
   $("#planDate").textContent = fmtDateDE(currentDate);
   $("#noSession").classList.toggle("hidden", !!session);
@@ -264,11 +297,18 @@ function render(){
     const nx = neighborSession(currentDate, +1);
     msg += ` Nächste Einheit: ${fmtDateDE(nx.date)} (W${nx.s.week}).`;
     $("#noSessionMsg").textContent = msg;
+    const sel = $("#moveSelect");
+    sel.innerHTML = moveCandidates(currentDate).map(x =>
+      `<option value="${x.key}">${x.s.day} W${x.s.week} (geplant ${fmtDateDE(x.date).split(",")[1].trim()})${x.done ? " – schon geloggt" : ""}</option>`).join("");
+    $("#btnUnmove").classList.add("hidden");
     ["equipList","warmupList","blocksHost","finishCard"].forEach(id => $("#"+id).innerHTML = "");
     return;
   }
-  $("#sessionLabel").textContent = `${session.day} · Woche ${session.week}`;
-  $("#progressionHint").textContent = (PLAN.progression["W"+session.week]||"").split(".")[0];
+  $("#sessionLabel").textContent = `${session.day} · Woche ${session.week}` + (moved ? " (verschoben)" : "");
+  $("#progressionHint").textContent = moved
+    ? `Geplant für ${fmtDateDE(dateForSession(session.week, session.day))} – wird unter ${fmtDateDE(currentDate)} gespeichert.`
+    : (PLAN.progression["W"+session.week]||"").split(".")[0];
+  $("#btnUnmove").classList.toggle("hidden", !(moved && !LOGS[currentDate]));
   renderEquip(session); renderWarmup(session); renderBlocks(session); renderFinish(session);
   loadDraftIntoForm();
   updateSaveStatus();
@@ -762,6 +802,10 @@ async function init(){
     const n = neighborSession(currentDate, -1); currentDate = n.date; $("#datePick").value = n.date; render(); });
   $("#btnNextSession").addEventListener("click", () => {
     const n = neighborSession(currentDate, +1); currentDate = n.date; $("#datePick").value = n.date; render(); });
+  $("#btnMoveHere").addEventListener("click", () => {
+    localStorage.setItem(LS.moved(currentDate), $("#moveSelect").value); render(); });
+  $("#btnUnmove").addEventListener("click", () => {
+    localStorage.removeItem(LS.moved(currentDate)); render(); });
   document.querySelectorAll("#tabs button").forEach(b => b.addEventListener("click", () => {
     document.querySelectorAll("#tabs button").forEach(x => x.classList.toggle("active", x===b));
     ["prep","warmup","train","finish"].forEach(t =>

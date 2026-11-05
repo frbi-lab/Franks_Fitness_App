@@ -1020,6 +1020,54 @@
    "sessionNote": "",
    "savedAt": "2026-08-18T17:17:02.362Z"
   },
+  "2026-08-22": {
+   "date": "2026-08-22",
+   "week": 19,
+   "day": "Sa",
+   "entries": {
+    "A1": {
+     "name": "Treppen-Aufstieg all-out",
+     "target": "10x1",
+     "resistance": "4 Stockwerke = 10-12 Hoehenmeter, zwei Stufen auf einmal | ZIELPULS am Ende jedes Aufstiegs: 153-162 bpm (90-95 % von HFmax 170). Beim Abstieg NICHT unter 130 bpm fallen lassen. | + Gewichtsweste 10 kg (feste Einstellung)",
+     "reps": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10"
+     ],
+     "note": "Gewichtsweste 15 kg"
+    },
+    "B1": {
+     "name": "Liegestütz exzentrisch (nur ablassen)",
+     "target": "3x10",
+     "resistance": "Eigengewicht | Hände ÜBERSCHULTERBREIT, Ellbogen ca. 45 Grad zum Rumpf, 4 s kontrolliert ablassen, unten kurz auf dem Boden ablegen, KEIN Hochdrücken - auf den Knien zurück in die Ausgangsposition",
+     "reps": [
+      "10",
+      "10",
+      "10"
+     ],
+     "note": ""
+    },
+    "D1": {
+     "name": "Kraniozervikale Flexion",
+     "target": "2x10",
+     "resistance": "duenne Handtuchrolle unter dem Hinterkopf (Eigengewicht)",
+     "reps": [
+      "10",
+      "10"
+     ],
+     "note": ""
+    }
+   },
+   "sessionNote": "",
+   "savedAt": "2026-08-27T16:41:05.135Z"
+  },
   "2026-08-25": {
    "date": "2026-08-25",
    "week": 19,
@@ -1104,54 +1152,6 @@
    },
    "sessionNote": "",
    "savedAt": "2026-08-25T17:35:29.378Z"
-  },
-  "2026-08-22": {
-   "date": "2026-08-22",
-   "week": 19,
-   "day": "Sa",
-   "entries": {
-    "A1": {
-     "name": "Treppen-Aufstieg all-out",
-     "target": "10x1",
-     "resistance": "4 Stockwerke = 10-12 Hoehenmeter, zwei Stufen auf einmal | ZIELPULS am Ende jedes Aufstiegs: 153-162 bpm (90-95 % von HFmax 170). Beim Abstieg NICHT unter 130 bpm fallen lassen. | + Gewichtsweste 10 kg (feste Einstellung)",
-     "reps": [
-      "1",
-      "2",
-      "3",
-      "4",
-      "5",
-      "6",
-      "7",
-      "8",
-      "9",
-      "10"
-     ],
-     "note": "Gewichtsweste 15 kg"
-    },
-    "B1": {
-     "name": "Liegestütz exzentrisch (nur ablassen)",
-     "target": "3x10",
-     "resistance": "Eigengewicht | Hände ÜBERSCHULTERBREIT, Ellbogen ca. 45 Grad zum Rumpf, 4 s kontrolliert ablassen, unten kurz auf dem Boden ablegen, KEIN Hochdrücken - auf den Knien zurück in die Ausgangsposition",
-     "reps": [
-      "10",
-      "10",
-      "10"
-     ],
-     "note": ""
-    },
-    "D1": {
-     "name": "Kraniozervikale Flexion",
-     "target": "2x10",
-     "resistance": "duenne Handtuchrolle unter dem Hinterkopf (Eigengewicht)",
-     "reps": [
-      "10",
-      "10"
-     ],
-     "note": ""
-    }
-   },
-   "sessionNote": "",
-   "savedAt": "2026-08-27T16:41:05.135Z"
   },
   "2026-09-01": {
    "date": "2026-09-01",
@@ -2265,7 +2265,7 @@
       "5",
       "5"
      ],
-     "note": "05.11.: 6, 5, 6"
+     "note": ""
     },
     "A2": {
      "name": "Kraniozervikale Flexion",
@@ -2275,7 +2275,7 @@
       "10",
       "10"
      ],
-     "note": "05.11.: 2x10"
+     "note": ""
     },
     "B1": {
      "name": "Kurzhantel-Squat (Koffergriff)",
@@ -2286,7 +2286,7 @@
       "16",
       "15"
      ],
-     "note": "Gewichtsweste 15 kg! 05.11.: 16, 18, 16"
+     "note": "Gewichtsweste 15 kg!"
     },
     "B2": {
      "name": "Band Lateral Raise (bis ~80°)",
@@ -2297,7 +2297,7 @@
       "16",
       "16"
      ],
-     "note": "05.11.: 16, 14, 13"
+     "note": ""
     },
     "C1": {
      "name": "Kurzhantel Floor Press (neutraler Griff)",
@@ -2308,7 +2308,7 @@
       "10",
       "10"
      ],
-     "note": "05.11.: 11, 11, 12"
+     "note": ""
     },
     "C2": {
      "name": "Langhantel Romanian Deadlift",
@@ -2319,7 +2319,7 @@
       "11",
       "10"
      ],
-     "note": "05.11.: erstmals mit korrekten Gewicht, davor fehlte 1 kg: 13,13, 13"
+     "note": ""
     },
     "D1": {
      "name": "Langhantel-Rudern vorgebeugt",
@@ -2330,7 +2330,7 @@
       "7",
       "6"
      ],
-     "note": "3 s hoch, 3s runter; 05.11.: erstmals mit 53,8 um Umbau zu sparen: 6, 8, 7"
+     "note": "3 s hoch, 3s runter"
     },
     "D2": {
      "name": "Band-Chest-Press stehend beidarmig",
@@ -2341,7 +2341,7 @@
       "15",
       "12"
      ],
-     "note": "3s vor, 3s zurück; 05.11.: 16, 15, 15"
+     "note": "3s vor, 3s zurück"
     },
     "E1": {
      "name": "Band Face Pull",
@@ -2356,6 +2356,102 @@
     }
    },
    "sessionNote": "",
+   "savedAt": "2026-10-31T19:09:23.490Z"
+  },
+  "2026-11-05": {
+   "date": "2026-11-05",
+   "week": 30,
+   "day": "Fr",
+   "entries": {
+    "A1": {
+     "name": "Klimmzug exzentrisch (nur ablassen)",
+     "target": "3x5",
+     "resistance": "Eigengewicht | 5 s kontrolliert ablassen, KEIN Hochziehen. Ueber den Kasten in die Startposition steigen - NICHT hochspringen. Oben kurz stabilisieren, langsam ablassen, absteigen.",
+     "reps": [
+      "6",
+      "5",
+      "6"
+     ],
+     "note": "5 s ablassen"
+    },
+    "A2": {
+     "name": "Kraniozervikale Flexion",
+     "target": "2x10",
+     "resistance": "duenne Handtuchrolle unter dem Hinterkopf (Eigengewicht)",
+     "reps": [
+      "10",
+      "10"
+     ],
+     "note": ""
+    },
+    "B1": {
+     "name": "Kurzhantel-Squat (Koffergriff)",
+     "target": "3x8-12",
+     "resistance": "2x20 kg gesamt je Hantel + Gewichtsweste 15 kg | 4 s exzentrisch",
+     "reps": [
+      "16",
+      "18",
+      "16"
+     ],
+     "note": "Gewichtsweste 15 kg"
+    },
+    "B2": {
+     "name": "Band Lateral Raise (bis ~80°)",
+     "target": "3x10-12",
+     "resistance": "Band GELB (30-50 lbs) | 3 s exzentrisch",
+     "reps": [
+      "16",
+      "14",
+      "13"
+     ],
+     "note": "GELB"
+    },
+    "C1": {
+     "name": "Kurzhantel Floor Press (neutraler Griff)",
+     "target": "3x6-10",
+     "resistance": "2x20 kg gesamt je Hantel | 3 s exzentrisch",
+     "reps": [
+      "11",
+      "11",
+      "12"
+     ],
+     "note": "2x20 kg"
+    },
+    "C2": {
+     "name": "Langhantel Romanian Deadlift",
+     "target": "3x8-12",
+     "resistance": "Langhantel 53,8 kg gesamt | ZUGHILFEN, 3 s exzentrisch",
+     "reps": [
+      "13",
+      "13",
+      "13"
+     ],
+     "note": "53,8 kg - erstmals mit korrektem Gewicht, davor fehlte 1 kg"
+    },
+    "D1": {
+     "name": "Langhantel-Rudern vorgebeugt",
+     "target": "3x6-10",
+     "resistance": "Langhantel 53,8 kg gesamt | 3 s hoch, 3 s runter",
+     "reps": [
+      "6",
+      "8",
+      "7"
+     ],
+     "note": "53,8 kg (wie RDL, um den Umbau zu sparen); 3 s hoch, 3 s runter"
+    },
+    "D2": {
+     "name": "Band-Chest-Press stehend beidarmig",
+     "target": "3x10-15",
+     "resistance": "Band DUNKELGRUEN (60-170 lbs)",
+     "reps": [
+      "16",
+      "15",
+      "15"
+     ],
+     "note": "3 s vor, 3 s zurück"
+    }
+   },
+   "sessionNote": "Freitags-Kraft am Do 05.11.2026 vorgezogen (W30, kein Plan in der App). Frank hat die Werte zunächst als Notizen im Eintrag vom 30.10. erfasst; am 05.11. von Claude hierher verschoben, 30.10. wieder auf den Stand vom 31.10. gesetzt. Face Pull an diesem Tag nicht notiert.",
    "savedAt": "2026-11-05T18:25:55.681Z"
   }
  }
