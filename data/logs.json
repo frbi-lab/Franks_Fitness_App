@@ -2265,7 +2265,7 @@
       "5",
       "5"
      ],
-     "note": ""
+     "note": "05.11.: 6, 5, 6"
     },
     "A2": {
      "name": "Kraniozervikale Flexion",
@@ -2275,7 +2275,7 @@
       "10",
       "10"
      ],
-     "note": ""
+     "note": "05.11.: 2x10"
     },
     "B1": {
      "name": "Kurzhantel-Squat (Koffergriff)",
@@ -2286,7 +2286,7 @@
       "16",
       "15"
      ],
-     "note": "Gewichtsweste 15 kg!"
+     "note": "Gewichtsweste 15 kg! 05.11.: 16, 18, 16"
     },
     "B2": {
      "name": "Band Lateral Raise (bis ~80°)",
@@ -2297,7 +2297,7 @@
       "16",
       "16"
      ],
-     "note": ""
+     "note": "05.11.: 16, 14, 13"
     },
     "C1": {
      "name": "Kurzhantel Floor Press (neutraler Griff)",
@@ -2308,7 +2308,7 @@
       "10",
       "10"
      ],
-     "note": ""
+     "note": "05.11.: 11, 11, 12"
     },
     "C2": {
      "name": "Langhantel Romanian Deadlift",
@@ -2319,7 +2319,7 @@
       "11",
       "10"
      ],
-     "note": ""
+     "note": "05.11.: erstmals mit korrekten Gewicht, davor fehlte 1 kg: 13,13, 13"
     },
     "D1": {
      "name": "Langhantel-Rudern vorgebeugt",
@@ -2330,7 +2330,7 @@
       "7",
       "6"
      ],
-     "note": "3 s hoch, 3s runter"
+     "note": "3 s hoch, 3s runter; 05.11.: erstmals mit 53,8 um Umbau zu sparen: 6, 8, 7"
     },
     "D2": {
      "name": "Band-Chest-Press stehend beidarmig",
@@ -2341,7 +2341,7 @@
       "15",
       "12"
      ],
-     "note": "3s vor, 3s zurück"
+     "note": "3s vor, 3s zurück; 05.11.: 16, 15, 15"
     },
     "E1": {
      "name": "Band Face Pull",
@@ -2356,7 +2356,7 @@
     }
    },
    "sessionNote": "",
-   "savedAt": "2026-10-31T19:09:23.490Z"
+   "savedAt": "2026-11-05T18:25:55.681Z"
   }
  }
 }
